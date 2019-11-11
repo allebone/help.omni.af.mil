@@ -13,4 +13,4 @@ Developers:
 	8. Edit in Editor
 	9. Terminal: "mkdocs build"
 	10. Github Client: Commit (Please Comment for Clarity)
-	11. Github Client: 
+	11. Github Client: Push to Origin
