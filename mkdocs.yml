@@ -1,1 +1,64 @@
-site_name: help.omni.af.mil
+site_name: OMNI
+site_url: help.omni.af.mil #Requires update
+site_description: Support documentation for EFB and mobile devices
+site_author: BOCKSCAR 
+
+#repo_url: http://help.bockscar.mil #Requires update
+#edit_uri: ""
+
+dev_addr: help.omni.af.mil
+
+theme:
+    name: material
+    highlightjs: true
+    hljs_languages:
+        - yaml
+        - django
+
+    # Don't include MkDocs' JavaScript
+    include_search_page: false
+    search_index_only: true
+
+    # mkdocs_theme.yml overrides
+    language: en
+    feature:
+      tabs: true
+#    palette:
+#      primary: 
+#      accent: 
+#    font:
+#      text: Roboto
+#      code: Roboto Mono
+    favicon: bockscaricon.png
+    logo: img/bockscar.png
+
+
+
+nav:
+    - Home: index.md
+    - User Guide: 
+        
+        - Sync GoodReader: user-guide/syncgoodreader.md
+        - Troubleshooting : user-guide/troubleshooting.md
+    - Contact Us: user-guide/contacts.md
+
+#CSS overrides
+extra_css:
+    - stylesheets/extra.css
+
+markdown_extensions:
+    - toc:
+        permalink: 
+#    - markdown.extensions.admonition
+#    - markdown.extensions.def_list
+    - admonition
+    - def_list
+#    - mdx_gh_links:
+#        user: mkdocs
+#        repo: mkdocs
+
+copyright: Copyright &copy; 2019 BOCKSCAR, Maintained by the BOCKSCAR Team.
+google_analytics: ['UA-27795084-5', 'mkdocs.org']
+
+plugins:
+    - search
