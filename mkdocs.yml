@@ -1,15 +1,16 @@
 site_name: OMNI
-site_url: help.omni.af.mil #Requires update
+site_url: http://help.omni.af.mil #Requires update
 site_description: Support documentation for EFB and mobile devices
 site_author: BOCKSCAR 
 
 #repo_url: http://help.bockscar.mil #Requires update
 #edit_uri: ""
 
-dev_addr: help.omni.af.mil
+#dev_addr: help.omni.af.mil
 
 theme:
-    name: material
+    name: null
+    custom_dir: material
     highlightjs: true
     hljs_languages:
         - yaml
@@ -23,12 +24,12 @@ theme:
     language: en
     feature:
       tabs: true
-#    palette:
-#      primary: 
-#      accent: 
-#    font:
-#      text: Roboto
-#      code: Roboto Mono
+    palette:
+      primary: indigo
+      accent: indigo
+    font:
+      text: Roboto
+      code: Roboto Mono
     favicon: bockscaricon.png
     logo: img/bockscar.png
 

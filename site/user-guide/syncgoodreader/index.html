@@ -1,0 +1,667 @@
+
+
+
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      <meta http-equiv="x-ua-compatible" content="ie=edge">
+      
+        <meta name="description" content="Support documentation for EFB and mobile devices">
+      
+      
+        <link rel="canonical" href="http://help.omni.af.mil/user-guide/syncgoodreader/">
+      
+      
+        <meta name="author" content="BOCKSCAR">
+      
+      
+        <meta name="lang:clipboard.copy" content="Copy to clipboard">
+      
+        <meta name="lang:clipboard.copied" content="Copied to clipboard">
+      
+        <meta name="lang:search.language" content="en">
+      
+        <meta name="lang:search.pipeline.stopwords" content="True">
+      
+        <meta name="lang:search.pipeline.trimmer" content="True">
+      
+        <meta name="lang:search.result.none" content="No matching documents">
+      
+        <meta name="lang:search.result.one" content="1 matching document">
+      
+        <meta name="lang:search.result.other" content="# matching documents">
+      
+        <meta name="lang:search.tokenizer" content="[\s\-]+">
+      
+      <link rel="shortcut icon" href="../../bockscaricon.png">
+      <meta name="generator" content="mkdocs-1.0.4, mkdocs-material-4.4.3">
+    
+    
+      
+        <title>Sync GoodReader - OMNI</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/application.4031d38b.css">
+      
+        <link rel="stylesheet" href="../../assets/stylesheets/application-palette.3e3d1dff.css">
+      
+      
+        
+        
+        <meta name="theme-color" content="#3f51b5">
+      
+    
+    
+      <script src="../../assets/javascripts/modernizr.74668098.js"></script>
+    
+    
+      
+        <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700|Roboto+Mono&display=fallback">
+        <style>body,input{font-family:"Roboto","Helvetica Neue",Helvetica,Arial,sans-serif}code,kbd,pre{font-family:"Roboto Mono","Courier New",Courier,monospace}</style>
+      
+    
+    <link rel="stylesheet" href="../../assets/fonts/material-icons.css">
+    
+    
+      <link rel="stylesheet" href="../../stylesheets/extra.css">
+    
+    
+      
+        
+<script>
+  window.ga = window.ga || function() {
+    (ga.q = ga.q || []).push(arguments)
+  }
+  ga.l = +new Date
+  /* Setup integration and send page view */
+  ga("create", "UA-27795084-5", "mkdocs.org")
+  ga("set", "anonymizeIp", true)
+  ga("send", "pageview")
+  /* Register handler to log search on blur */
+  document.addEventListener("DOMContentLoaded", () => {
+    if (document.forms.search) {
+      var query = document.forms.search.query
+      query.addEventListener("blur", function() {
+        if (this.value) {
+          var path = document.location.pathname;
+          ga("send", "pageview", path + "?q=" + this.value)
+        }
+      })
+    }
+  })
+</script>
+<script async src="https://www.google-analytics.com/analytics.js"></script>
+      
+    
+    
+  </head>
+  
+    
+    
+    <body dir="ltr" data-md-color-primary="indigo" data-md-color-accent="indigo">
+  
+    <svg class="md-svg">
+      <defs>
+        
+        
+      </defs>
+    </svg>
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" data-md-component="overlay" for="__drawer"></label>
+    
+      <a href="#configure-goodreader-to-sync-publications" tabindex="1" class="md-skip">
+        Skip to content
+      </a>
+    
+    
+      <header class="md-header" data-md-component="header">
+  <nav class="md-header-nav md-grid">
+    <div class="md-flex">
+      <div class="md-flex__cell md-flex__cell--shrink">
+        <a href="http://help.omni.af.mil" title="OMNI" class="md-header-nav__button md-logo">
+          
+            <img src="../../img/bockscar.png" width="24" height="24">
+          
+        </a>
+      </div>
+      <div class="md-flex__cell md-flex__cell--shrink">
+        <label class="md-icon md-icon--menu md-header-nav__button" for="__drawer"></label>
+      </div>
+      <div class="md-flex__cell md-flex__cell--stretch">
+        <div class="md-flex__ellipsis md-header-nav__title" data-md-component="title">
+          
+            <span class="md-header-nav__topic">
+              OMNI
+            </span>
+            <span class="md-header-nav__topic">
+              
+                Sync GoodReader
+              
+            </span>
+          
+        </div>
+      </div>
+      <div class="md-flex__cell md-flex__cell--shrink">
+        
+          <label class="md-icon md-icon--search md-header-nav__button" for="__search"></label>
+          
+<div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="query" data-md-state="active">
+      <label class="md-icon md-search__icon" for="__search"></label>
+      <button type="reset" class="md-icon md-search__icon" data-md-component="reset" tabindex="-1">
+        &#xE5CD;
+      </button>
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="result">
+          <div class="md-search-result__meta">
+            Type to start searching
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+        
+      </div>
+      
+    </div>
+  </nav>
+</header>
+    
+    <div class="md-container">
+      
+        
+      
+      
+        
+
+  
+
+<nav class="md-tabs md-tabs--active" data-md-component="tabs">
+  <div class="md-tabs__inner md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  <li class="md-tabs__item">
+    
+      <a href="../.." class="md-tabs__link">
+        Home
+      </a>
+    
+  </li>
+
+      
+        
+  
+  
+    <li class="md-tabs__item">
+      
+        <a href="./" class="md-tabs__link md-tabs__link--active">
+          User Guide
+        </a>
+      
+    </li>
+  
+
+      
+        
+      
+    </ul>
+  </div>
+</nav>
+      
+      <main class="md-main" role="main">
+        <div class="md-main__inner md-grid" data-md-component="container">
+          
+            
+              <div class="md-sidebar md-sidebar--primary" data-md-component="navigation">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    <nav class="md-nav md-nav--primary" data-md-level="0">
+  <label class="md-nav__title md-nav__title--site" for="__drawer">
+    <a href="http://help.omni.af.mil" title="OMNI" class="md-nav__button md-logo">
+      
+        <img src="../../img/bockscar.png" width="48" height="48">
+      
+    </a>
+    OMNI
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../.." title="Home" class="md-nav__link">
+      Home
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-2" type="checkbox" id="nav-2" checked>
+    
+    <label class="md-nav__link" for="nav-2">
+      User Guide
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-2">
+        User Guide
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active">
+    
+    <input class="md-toggle md-nav__toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+    
+      
+    
+    
+      <label class="md-nav__link md-nav__link--active" for="__toc">
+        Sync GoodReader
+      </label>
+    
+    <a href="./" title="Sync GoodReader" class="md-nav__link md-nav__link--active">
+      Sync GoodReader
+    </a>
+    
+      
+<nav class="md-nav md-nav--secondary">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">Table of contents</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#step-1-general-app-settings" class="md-nav__link">
+    Step 1: General App Settings
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#step-2-add-the-bockscar-webdav-server" class="md-nav__link">
+    Step 2: Add the BOCKSCAR WebDAV server
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#step-3-sync-a-folder" class="md-nav__link">
+    Step 3: Sync a Folder
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#sync-your-folders" class="md-nav__link">
+    Sync your Folders
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#failed-sync" class="md-nav__link">
+    Failed Sync?
+  </a>
+  
+</li>
+      
+      
+      
+      
+      
+    </ul>
+  
+</nav>
+    
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../troubleshooting/" title="Troubleshooting" class="md-nav__link">
+      Troubleshooting
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../contacts/" title="Contact Us" class="md-nav__link">
+      Contact Us
+    </a>
+  </li>
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="toc">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+<nav class="md-nav md-nav--secondary">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">Table of contents</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#step-1-general-app-settings" class="md-nav__link">
+    Step 1: General App Settings
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#step-2-add-the-bockscar-webdav-server" class="md-nav__link">
+    Step 2: Add the BOCKSCAR WebDAV server
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#step-3-sync-a-folder" class="md-nav__link">
+    Step 3: Sync a Folder
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#sync-your-folders" class="md-nav__link">
+    Sync your Folders
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#failed-sync" class="md-nav__link">
+    Failed Sync?
+  </a>
+  
+</li>
+      
+      
+      
+      
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content">
+            <article class="md-content__inner md-typeset">
+              
+                
+                
+                <h1 id="configure-goodreader-to-sync-publications">Configure GoodReader to Sync Publications<a class="headerlink" href="#configure-goodreader-to-sync-publications" title="Permanent link"></a></h1>
+<p>Publications are Synced to your EFB using an application called GoodReader.</p>
+<p><img alt="" src="../img/syncimage1.png" /></p>
+<hr />
+<h2 id="step-1-general-app-settings">Step 1: General App Settings<a class="headerlink" href="#step-1-general-app-settings" title="Permanent link"></a></h2>
+<p>First, set up general settings in GoodReader.</p>
+<ol>
+<li>
+<p>Tap the <strong>Settings</strong> button on the main screen. 
+ <img alt="" src="../img/syncimage2.png" /></p>
+</li>
+<li>
+<p>Select the <strong>General Settings</strong> menu item.
+ <img alt="" src="../img/gensettings.png" /></p>
+</li>
+<li>
+<p>In <strong>General Settings</strong>, make the following changes:    </p>
+<ul>
+<li>Turn off Use <code>iCloud</code> folder</li>
+<li>Turn off Use <code>Downloads</code> folder</li>
+<li>Make sure that <code>Disable device auto-lock</code> is on/enabled
+<img alt="" src="../img/autolock.png" /></li>
+</ul>
+</li>
+</ol>
+<hr />
+<h2 id="step-2-add-the-bockscar-webdav-server">Step 2: Add the BOCKSCAR WebDAV server<a class="headerlink" href="#step-2-add-the-bockscar-webdav-server" title="Permanent link"></a></h2>
+<ol>
+<li>
+<p>Tap the <strong>Connect</strong> button on the main screen.<br>
+ <img alt="" src="../img/connect.png" /></p>
+</li>
+<li>
+<p>Tap to highlight <strong>Saved Servers</strong>, then the plus sign <code>+</code>  to add a server.</p>
+</li>
+<li>
+<p>Select <strong>WebDAV Server</strong>.
+ <img alt="" src="../img/webdav.png" /></p>
+</li>
+<li>
+<p>Configure the new <strong>WebDAV Server</strong> as follows:</p>
+<ul>
+<li>Readable Title: <code>BOCKSCAR</code></li>
+<li>URL-address: <code>pubs.bockscar.mil</code></li>
+<li>Turn on/enable <code>Windows-style name encoding</code></li>
+<li>Turn off <code>Use cookies</code></li>
+<li>Leave all the other fields/settings unchanged
+<img alt="" src="../img/webdav2.png" /></li>
+</ul>
+</li>
+<li>
+<p>Tap <strong>Add</strong>.</p>
+</li>
+<li>
+<p>You should now see <strong>BOCKSCAR</strong> listed as a saved server.
+ <img alt="" src="../img/bockscar.png" /></p>
+</li>
+</ol>
+<hr />
+<h2 id="step-3-sync-a-folder">Step 3: Sync a Folder<a class="headerlink" href="#step-3-sync-a-folder" title="Permanent link"></a></h2>
+<p>Now that you have the server added, we’ll need to configure GoodReader to sync with a folder on that server.</p>
+<ol>
+<li>
+<p>Tap the Connect button on the main screen. <br>
+ <img alt="" src="../img/connect.png" /></p>
+</li>
+<li>
+<p>Tap to highlight Saved Servers.
+ <img alt="" src="../img/savedservers.png" /></p>
+</li>
+<li>
+<p>Select BOCKSCAR. A list of folders on the server are displayed.
+ <img alt="" src="../img/bockscarfiles.png" /> </p>
+</li>
+<li>
+<p>Tap to highlight the folder you’d like to sync (We want to select the folder, not see its contents. So tap the folder name, not the &gt; to the right of it). </p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>55 OG Aircrew should select the <strong>55_OG</strong> folder. If you’re unsure, that’s probably what you should select. You can come back anytime and sync additional folders.</p>
+</div>
+</li>
+<li>
+<p>Tap <strong>Sync</strong>, at the bottom of the screen. </p>
+</li>
+<li>
+<p>If you get a pop-up that says <em>Folder Already Exists</em> select <strong>Proceed</strong>.</p>
+</li>
+<li>
+<p>Now we’ll tell GoodReader where to sync the folder to on your device. We want the folder in your top/root directory, called <strong>My Documents</strong>, so do not select any folders. Tap <strong>Download Here &amp; Synchronize</strong>.
+<img alt="" src="../img/mydoc.png" /> </p>
+</li>
+<li>
+<p>If you see a <code>Folder Already Exists</code> pop-up, tap <strong>OK</strong>.</p>
+</li>
+<li>
+<p>Configure the Sync Parameters as follows:</p>
+<ul>
+<li>Turn on/enable <strong>Download only</strong> sync.</li>
+<li>Make sure <strong>Delete local files</strong> is on/enabled</li>
+<li>Turn on/enable <strong>…even if they were edited</strong>.</li>
+<li>POLICY ON SYNC CONFLICTS: <strong>Action</strong> needs to be <em>Remote files have priority</em>.</li>
+<li>Tap <strong>Sync</strong> (or <strong>Close</strong>)
+<img alt="" src="../img/syncparam.png" /> </li>
+</ul>
+</li>
+<li>
+<p>You’ve set up the folder to sync from the BOCKSCAR server. GoodReader will now begin to sync that folder. You should see:
+<img alt="" src="../img/syncprogress.png" /> </p>
+</li>
+</ol>
+<hr />
+<h2 id="sync-your-folders">Sync your Folders<a class="headerlink" href="#sync-your-folders" title="Permanent link"></a></h2>
+<p>Now that you’re set up, you can update your synced folders in GoodReader to make sure you have the latest publications/T.O.s/files.</p>
+<ol>
+<li>
+<p>Connect to a BOCKSCAR Wi-Fi Access Point.
+<img alt="" src="../img/wifi.png" /> </p>
+</li>
+<li>
+<p>Open GoodReader. From the main screen, tap the <strong>Sync</strong> button. 
+<img alt="" src="../img/sync.png" /> </p>
+</li>
+</ol>
+<hr />
+<h2 id="failed-sync">Failed Sync?<a class="headerlink" href="#failed-sync" title="Permanent link"></a></h2>
+<ol>
+<li>Make sure you’re connected to <strong>BOCKSCAR</strong> Wi-Fi.</li>
+<li>Turn <strong>off</strong> Airplane Mode.</li>
+<li>Turn <strong>off</strong> any VPNs. </li>
+<li>Try again.</li>
+</ol>
+                
+                  
+                
+              
+              
+                
+
+
+              
+            </article>
+          </div>
+        </div>
+      </main>
+      
+        
+<footer class="md-footer">
+  
+    <div class="md-footer-nav">
+      <nav class="md-footer-nav__inner md-grid">
+        
+          <a href="../.." title="Home" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+            <div class="md-flex__cell md-flex__cell--shrink">
+              <i class="md-icon md-icon--arrow-back md-footer-nav__button"></i>
+            </div>
+            <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
+              <span class="md-flex__ellipsis">
+                <span class="md-footer-nav__direction">
+                  Previous
+                </span>
+                Home
+              </span>
+            </div>
+          </a>
+        
+        
+          <a href="../troubleshooting/" title="Troubleshooting" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
+            <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
+              <span class="md-flex__ellipsis">
+                <span class="md-footer-nav__direction">
+                  Next
+                </span>
+                Troubleshooting
+              </span>
+            </div>
+            <div class="md-flex__cell md-flex__cell--shrink">
+              <i class="md-icon md-icon--arrow-forward md-footer-nav__button"></i>
+            </div>
+          </a>
+        
+      </nav>
+    </div>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-footer-copyright">
+        
+          <div class="md-footer-copyright__highlight">
+            Copyright &copy; 2019 BOCKSCAR, Maintained by the BOCKSCAR Team.
+          </div>
+        
+        powered by
+        <a href="https://www.mkdocs.org">MkDocs</a>
+        and
+        <a href="https://squidfunk.github.io/mkdocs-material/">
+          Material for MkDocs</a>
+      </div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    
+      <script src="../../assets/javascripts/application.718059d6.js"></script>
+      
+      <script>app.initialize({version:"1.0.4",url:{base:"../.."}})</script>
+      
+    
+  </body>
+</html>
