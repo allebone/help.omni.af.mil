@@ -1,5 +1,9 @@
 /*Header*/
 
+/*Top bar*/
+[data-md-color-primary=indigo] .md-header, [data-md-color-primary=indigo] .md-hero {
+    background-color: #04b2ef; //OMNI blue
+}
 
 .md-header {
     position: fixed;
@@ -9,7 +13,7 @@
     height: 2.4rem;
     -webkit-transition: background-color .25s,color .25s;
     transition: background-color .25s,color .25s;
-    background-color: #c64949;
+    background-color: #04b2ef;
     color: #fff;
     box-shadow: none;
     z-index: 2;
@@ -21,9 +25,15 @@
     -webkit-transition: background-color .25s,color .25s,box-shadow .25s;
     transition: background-color .25s,color .25s,box-shadow .25s;
     box-shadow: 0 0 .2rem rgba(0,0,0,.1),0 .2rem .4rem rgba(0,0,0,.2);
-    background-color: #c64949;
+    background-color: #04b2ef;
 }
 
+
+@media only screen and (min-width: 76.25em){
+[data-md-color-primary=indigo] .md-tabs {
+		background-color: #000000;
+}
+}
 
 /*Tabs*/
 
@@ -42,6 +52,13 @@
         background-color: #c64949;
         color: #fff;
     }
+}
+
+/*Backgroud tab*/
+@media only screen and (max-width: 76.1875em){
+html [data-md-color-primary=indigo] .md-nav--primary .md-nav__title--site {
+    background-color: #04b2ef;
+}
 }
 
 .md-header-nav__button.md-logo * {
