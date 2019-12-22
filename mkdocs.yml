@@ -1,7 +1,7 @@
-site_name: OMNI
-site_url: http://help.omni.af.mil #Requires update
-site_description: Support documentation for EFB and mobile devices
-site_author: BOCKSCAR 
+site_name: OMNI Help
+site_url: https://help.omni.af.mil/ #Requires update
+site_description: Support documentation for Operational Management Tools
+site_author: ProjectBOCKSCAR 
 
 #repo_url: http://help.bockscar.mil #Requires update
 #edit_uri: ""
@@ -37,11 +37,14 @@ theme:
 
 nav:
     - Home: index.md
-    - User Guide: 
-        
-        - Sync GoodReader: user-guide/syncgoodreader.md
-        - Troubleshooting : user-guide/troubleshooting.md
-    - Contact Us: user-guide/contacts.md
+    - OMNI/PEX: 
+        - 'user-guide/OMNI.md'
+    - Mobile:  
+        - 'user-guide/Mobile.md'
+#        - Sync GoodReader: user-guide/syncgoodreader.md
+#        - Troubleshooting : user-guide/troubleshooting.md
+    - Contact Us: user-guide/Contacts.md
+    - About: user-guide/About.md
 
 #CSS overrides
 extra_css:
@@ -58,7 +61,7 @@ markdown_extensions:
 #        user: mkdocs
 #        repo: mkdocs
 
-copyright: Copyright &copy; 2019 BOCKSCAR, Maintained by the BOCKSCAR Team.
+copyright: Copyright &copy; 2019 Project BOCKSCAR, Maintained by the Project BOCKSCAR Team.
 google_analytics: ['UA-27795084-5', 'mkdocs.org']
 
 plugins:

@@ -1,23 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-     <loc>http://help.omni.af.mil/</loc>
-     <lastmod>2019-11-14</lastmod>
+     <loc>https://help.omni.af.mil/</loc>
+     <lastmod>2019-12-22</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>http://help.omni.af.mil/user-guide/syncgoodreader/</loc>
-     <lastmod>2019-11-14</lastmod>
+     <loc>https://help.omni.af.mil/user-guide/OMNI/</loc>
+     <lastmod>2019-12-22</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>http://help.omni.af.mil/user-guide/troubleshooting/</loc>
-     <lastmod>2019-11-14</lastmod>
+     <loc>https://help.omni.af.mil/user-guide/Mobile/</loc>
+     <lastmod>2019-12-22</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>http://help.omni.af.mil/user-guide/contacts/</loc>
-     <lastmod>2019-11-14</lastmod>
+     <loc>https://help.omni.af.mil/user-guide/Contacts/</loc>
+     <lastmod>2019-12-22</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
+     <loc>https://help.omni.af.mil/user-guide/About/</loc>
+     <lastmod>2019-12-22</lastmod>
      <changefreq>daily</changefreq>
     </url>
 </urlset>
