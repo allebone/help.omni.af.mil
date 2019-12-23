@@ -1,5 +1,5 @@
 site_name: OMNI Help
-site_url: https://help.omni.af.mil/ #Requires update
+site_url: https://help.omni.af.mil/ 
 site_description: Support documentation for Operational Management Tools
 site_author: ProjectBOCKSCAR 
 
@@ -43,10 +43,11 @@ nav:
         - Formal Testing : 'user-guide/OMNI/Testing.md'
         - Current Status : 'user-guide/OMNI/CurrentStatus.md'
     - Mobile:  
-        - Mobile Baseline : 'user-guide/Mobile/MobileBaseline.md'
-        - Updates : 'user-guide/Mobile/Updates.md'
-        - Sync GoodReader: user-guide/Mobile/syncgoodreader.md
+        - Doing Updates : 'user-guide/Mobile/Updates.md'
+        - Syncing Pubs: user-guide/Mobile/syncgoodreader.md
         - Troubleshooting : user-guide/Mobile/troubleshooting.md
+        - Mobile Baseline : 'user-guide/Mobile/MobileBaseline.md'
+        - FAQ : 'user-guide/Mobile/FAQ.md'
     - Reports:  
         - Reports Description : 'user-guide/Reports/Descriptions.md'
         - Troubleshooting : user-guide/Reports/troubleshooting.md    
@@ -66,8 +67,7 @@ markdown_extensions:
 #        user: mkdocs
 #        repo: mkdocs
 
-copyright: Copyright &copy; 2019 Project BOCKSCAR, Maintained by the Project BOCKSCAR Team.
-google_analytics: ['UA-27795084-5', 'mkdocs.org']
+copyright: Copyright &copy; 2019, Maintained by the Project BOCKSCAR Team. (Version 1.0)
 
 plugins:
     - search
