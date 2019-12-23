@@ -37,15 +37,19 @@ theme:
 
 nav:
     - Home: index.md
-    - OMNI/PEX: 
-        - 'user-guide/OMNI.md'
+    - PEX: 
+        - Pre Mission Processes : 'user-guide/OMNI/Premission.md'
+        - Post Mission Processes : 'user-guide/OMNI/Postmission.md'
+        - Formal Testing : 'user-guide/OMNI/Testing.md'
+        - Current Status : 'user-guide/OMNI/CurrentStatus.md'
     - Mobile:  
-        - Mobile Baseline : 'user-guide/MobileBaseline.md'
-        - Updates : 'user-guide/Updates.md'
-        - Sync GoodReader: user-guide/syncgoodreader.md
-        - Troubleshooting : user-guide/troubleshooting.md
-    - Contact Us: user-guide/Contacts.md
-    - About: user-guide/About.md
+        - Mobile Baseline : 'user-guide/Mobile/MobileBaseline.md'
+        - Updates : 'user-guide/Mobile/Updates.md'
+        - Sync GoodReader: user-guide/Mobile/syncgoodreader.md
+        - Troubleshooting : user-guide/Mobile/troubleshooting.md
+    - Reports:  
+        - Reports Description : 'user-guide/Reports/Descriptions.md'
+        - Troubleshooting : user-guide/Reports/troubleshooting.md    
 
 #CSS overrides
 extra_css:

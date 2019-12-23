@@ -6,12 +6,47 @@
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>https://help.omni.af.mil/user-guide/OMNI/</loc>
+     <loc>https://help.omni.af.mil/user-guide/OMNI/CurrentStatus/</loc>
      <lastmod>2019-12-23</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>https://help.omni.af.mil/user-guide/Mobile/</loc>
+     <loc>https://help.omni.af.mil/user-guide/OMNI/Premission/</loc>
+     <lastmod>2019-12-23</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
+     <loc>https://help.omni.af.mil/user-guide/OMNI/Postmission/</loc>
+     <lastmod>2019-12-23</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
+     <loc>https://help.omni.af.mil/user-guide/MobileBaseline/</loc>
+     <lastmod>2019-12-23</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
+     <loc>https://help.omni.af.mil/user-guide/Updates/</loc>
+     <lastmod>2019-12-23</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
+     <loc>https://help.omni.af.mil/user-guide/syncgoodreader/</loc>
+     <lastmod>2019-12-23</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
+     <loc>https://help.omni.af.mil/user-guide/troubleshooting/</loc>
+     <lastmod>2019-12-23</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
+     <loc>https://help.omni.af.mil/user-guide/reports/Descriptions/</loc>
+     <lastmod>2019-12-23</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
+     <loc>https://help.omni.af.mil/user-guide/reports/troubleshooting/</loc>
      <lastmod>2019-12-23</lastmod>
      <changefreq>daily</changefreq>
     </url>
