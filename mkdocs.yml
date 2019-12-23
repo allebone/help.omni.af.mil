@@ -40,9 +40,10 @@ nav:
     - OMNI/PEX: 
         - 'user-guide/OMNI.md'
     - Mobile:  
-        - 'user-guide/Mobile.md'
-#        - Sync GoodReader: user-guide/syncgoodreader.md
-#        - Troubleshooting : user-guide/troubleshooting.md
+        - Mobile Baseline : 'user-guide/MobileBaseline.md'
+        - Updates : 'user-guide/Updates.md'
+        - Sync GoodReader: user-guide/syncgoodreader.md
+        - Troubleshooting : user-guide/troubleshooting.md
     - Contact Us: user-guide/Contacts.md
     - About: user-guide/About.md
 
