@@ -1,12 +1,24 @@
-## Who We Are:
+## <b>What is OMNI?</b>
 
-Project BOCKSCAR is a Joint Partnership between the Nebraska Air National Guard and the 55th Wing at Offutt AFB, Nebraska. 
+The Operations Management Networking Initiative (OMNI) is a platform; containing several known and new products to enable various Operations types. The overarching goals are to provide Global Connectivity to Mission Elements through Scheduling, Data Science, Mobile, and other interactive technologies. 
 
-Currently, we are supporting Operational Mission Software and Products; such as, Electronic Flight Bags, Mx Tablets, Patriot Excaliber (PEX), and Data Science/Reporting. 
+Currently, the Primary Active Elements are:
+
+1. Patriot Excaliber (PEX) -- https://www.omni.af.mil
+2. Mobile Device Integration Toolkit (MDIT)
+3. PowerBI Reports -- https://reports.omni.af.mil
+4. OMNI Help, Interactive Documentation Interface -- https://help.omni.af.mil 
+5. HPE OneView Global Monitoring Dashboard -- https://oneview.omni.af.mil
+6. WinPEX Direct Access -- https://direct.omni.af.mil
+7. Mobile Enable API - https://api.omni.af.mil
+
+## <b>Who We Are:</b>
+
+Project BOCKSCAR is a Joint Partnership between the Nebraska Air National Guard, the 55th Wing (ACC) at Offutt AFB, Nebraska, Air Education and Training Command (AETC), AFLCMC/Det 12 (KESSEL RUN), and More. 
 
 ---
 
-## Where to Find Us:
+## <b>Where to Find Us:</b>
 
 |	|
 | ------------ |
@@ -18,7 +30,7 @@ Currently, we are supporting Operational Mission Software and Products; such as,
 
 ---
 
-## Offutt Service Hours:
+## <b>Offutt Service Hours:</b>
 
 | Day | Hours | 
 | :------------: | :------------: | 
