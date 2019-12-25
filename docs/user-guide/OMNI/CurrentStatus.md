@@ -17,7 +17,7 @@
 
 | Network Hardware Baseline | Hardware Model | Version | 
 | :------------: | :------------: | :------------: | 
-| F5 | i5800 | 15.1 |  
+| F5 | i5800 | 15.1: APM+LTM |  
 | Cisco |	Nexus 93880 | NXOS 15 |
 
 | Database Hardware Baseline | Hardware Model | Version | Quantity | 

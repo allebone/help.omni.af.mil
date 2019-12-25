@@ -11,12 +11,12 @@
 	6. Run: pip install mkdocs-material
 	7. Install Git Desktop from Link: https://central.github.com/deployments/desktop/desktop/latest/darwin
 	8. Install Preferred Editor (Like Sublime Text)
-	9. Clone Respository - "git clone https://github.com/allebone/help.omni.af.mil.git"
-	10. Edit in Editor
+	9. Clone Respository - git clone https://github.com/allebone/help.omni.af.mil.git
+	10. Edit in Sublime Text
 	
 ## Developers / Technical Writers Daily Working Environment: 	
 	1. Github Desktop Client: PUSH "Pull from Origin" Button (Top Right)
-	2. Run from Terminal: cd ~/Documents/github/help.omni.af.mil/
+	2. Run from Terminal: cd ~/Documents/Github/help.omni.af.mil/
 	3. Run from Terminal: mkdocs build
 	4. Run from Terminal: mkdocs serve
 	5. Open Safari to URL: http://127.0.0.1:8000
