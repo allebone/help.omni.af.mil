@@ -35,7 +35,8 @@
 | Chassis |	DL 385 | Gen 9 | 10|
 | Firmware | SPP | Oct2019 | N/A |
 | Memory |	DDR4 | LRDIMM | 4 x 16GB = 64GB |
-| Storage | NVME | RAID0 |  |
+| Boot Storage | NVME | RAID0 | 250GB |
+| Database Bulk Storage | NVME | RAID0 | 30.86TB |
 | Network | Ethernet | 10 Gb/s | 1 |
 | iLO | OneView Advanced | 4.0 | 1 |
 
