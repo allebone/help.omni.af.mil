@@ -3,15 +3,15 @@
 The Operations Management Networking Initiative (OMNI) is a platform; containing several known and new products to enable various Operations types. The overarching goals are to provide Global Connectivity to Mission Elements through Scheduling, Data Science, Mobile, and other interactive technologies. 
 
 
-| Current Projects | URL |
-| :------------: | :------------: |
-| Patriot Excaliber (PEX) | https://www.omni.af.mil |
-| Mobile Device Integration Toolkit (MDIT) |	|
-| PowerBI Reports | https://reports.omni.af.mil |
-| OMNI Help, Interactive Documentation Interface | https://help.omni.af.mil |
-| HPE OneView Global Monitoring Dashboard | https://oneview.omni.af.mil |
-| WinPEX Direct Access | https://direct.omni.af.mil |
-| Mobile Enable API | https://api.omni.af.mil |
+| Status | Projects | URL |
+| :------------: | :------------: | :------------: |
+| Active | Patriot Excaliber (PEX) | https://www.omni.af.mil |
+| Active | PowerBI Reports | https://reports.omni.af.mil |
+| Active | Interactive Documentation Interface | https://help.omni.af.mil |
+| In Progress | HPE OneView Global Monitoring Dashboard | https://oneview.omni.af.mil |
+| Active | WinPEX Direct Access | https://direct.omni.af.mil |
+| In Progress | Mobile Enable API | https://api.omni.af.mil |
+| Active | Mobile Device Integration Toolkit (MDIT) |	|
 |	|	|
 
 ---
