@@ -4,7 +4,7 @@
 
 <b>Q: Can I add my AppleID to my device? </b>
 
-A: Yes, You can Configure your AppleID. This is helpful if you intend to use Apple Music, Apple News, or Podcasts.
+A: Yes, You can Configure your AppleID. This is helpful if you intend to use Apple Music, Apple News+, or Apple Podcasts. It is not required for any official function, and it will not give access to any additional applications not already approved for use. (See Below)
 
 ---
 
@@ -14,7 +14,7 @@ A: Due to Security Requirements, all Applications are carefully vetted through a
 
 All applications placed within have been extensively tested, documented, and approved. 
 
-Additonally, it simplifies the question "Can I use App ____?" If the app is contained within the App Catalog, it May.
+Additonally, it simplifies the question "Can I use App ____?" If the app is contained within the App Catalog, it may be used.
 
 ---
 
@@ -28,3 +28,8 @@ Alternatively, you can search the current app vetting pipeline by navigating to 
 
 ---
 
+<b>Q: Question Template?</b>
+
+A: 
+
+---
