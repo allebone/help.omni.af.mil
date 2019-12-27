@@ -3,7 +3,8 @@ site_url: https://help.omni.af.mil/
 site_description: Support documentation for Operational Management Tools
 site_author: ProjectBOCKSCAR 
 
-#repo_url: http://help.bockscar.mil #Requires update
+#repo_url: http://help.bockscar.mil 
+#Requires update
 #edit_uri: ""
 
 #dev_addr: help.omni.af.mil

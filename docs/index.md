@@ -2,6 +2,7 @@
 
 The Operations Management Networking Initiative (OMNI) is a platform; containing several known and new products to enable various Operations types. The overarching goals are to provide Global Connectivity to Mission Elements through Scheduling, Data Science, Mobile, and other interactive technologies. 
 
+<center>
 
 | Status | Projects | URL |
 | :------------: | :------------: | :------------: |
@@ -13,6 +14,8 @@ The Operations Management Networking Initiative (OMNI) is a platform; containing
 | In Progress | Mobile Enable API | https://api.omni.af.mil |
 | Active | Mobile Device Integration Toolkit (MDIT) |	|
 |	|	|
+
+</center>
 
 ---
 
@@ -45,8 +48,3 @@ Project BOCKSCAR is a Joint Partnership between the Nebraska Air National Guard,
 | Fri | Closed |
 | Sat | Closed | 
 | Sun | Closed | 
-
-!!! Note
-
-	Coming in for help? Speed things up by bringing in a charged, clean, and updated device.
-
