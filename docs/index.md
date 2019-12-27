@@ -1,8 +1,11 @@
-## <b>What is OMNI?</b>
+---
+
+<center> 
+
+##<b>What is OMNI?</b>
 
 The Operations Management Networking Initiative (OMNI) is a platform; containing several known and new products to enable various Operations types. The overarching goals are to provide Global Connectivity to Mission Elements through Scheduling, Data Science, Mobile, and other interactive technologies. 
 
-<center>
 
 | Status | Projects | URL |
 | :------------: | :------------: | :------------: |
@@ -15,29 +18,28 @@ The Operations Management Networking Initiative (OMNI) is a platform; containing
 | Active | Mobile Device Integration Toolkit (MDIT) |	|
 |	|	|
 
-</center>
-
 ---
 
-## <b>Who We Are:</b>
+## <b>Who Are You?</b>
 
 Project BOCKSCAR is a Joint Partnership between the Nebraska Air National Guard, the 55th Wing (ACC) at Offutt AFB, Nebraska, Air Education and Training Command (AETC), AFLCMC/Det 12 (KESSEL RUN), and More. 
 
 ---
 
-## <b>Where to Find Us:</b>
+## <b>Where Can I Find You?</b>
 
 |	|
-| ------------ |
+| :------------: |
 | OMNI Office |
 | Building 29 (Base Ops Building) |
 | 513 SAC Blvd, Room 103A |
 | Offutt AFB, NE 68154 |
 | 402-294-5707 |
+|	|
 
 ---
 
-## <b>Offutt Service Hours:</b>
+## <b>What Are Your Office Hours?</b>
 
 | Day | Hours | 
 | :------------: | :------------: | 
@@ -48,3 +50,5 @@ Project BOCKSCAR is a Joint Partnership between the Nebraska Air National Guard,
 | Fri | Closed |
 | Sat | Closed | 
 | Sun | Closed | 
+
+</center>
