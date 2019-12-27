@@ -73,31 +73,6 @@
     
     
       
-        
-<script>
-  window.ga = window.ga || function() {
-    (ga.q = ga.q || []).push(arguments)
-  }
-  ga.l = +new Date
-  /* Setup integration and send page view */
-  ga("create", "UA-27795084-5", "mkdocs.org")
-  ga("set", "anonymizeIp", true)
-  ga("send", "pageview")
-  /* Register handler to log search on blur */
-  document.addEventListener("DOMContentLoaded", () => {
-    if (document.forms.search) {
-      var query = document.forms.search.query
-      query.addEventListener("blur", function() {
-        if (this.value) {
-          var path = document.location.pathname;
-          ga("send", "pageview", path + "?q=" + this.value)
-        }
-      })
-    }
-  })
-</script>
-<script async src="https://www.google-analytics.com/analytics.js"></script>
-      
     
     
   </head>
@@ -116,7 +91,7 @@
     <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
     <label class="md-overlay" data-md-component="overlay" for="__drawer"></label>
     
-      <a href="#bockscar" tabindex="1" class="md-skip">
+      <a href="#what-is-omni" tabindex="1" class="md-skip">
         Skip to content
       </a>
     
@@ -207,7 +182,7 @@
   
     <li class="md-tabs__item">
       
-        <a href="user-guide/OMNI/CurrentStatus/" class="md-tabs__link">
+        <a href="user-guide/OMNI/Premission/" class="md-tabs__link">
           PEX
         </a>
       
@@ -220,7 +195,7 @@
   
     <li class="md-tabs__item">
       
-        <a href="user-guide/MobileBaseline/" class="md-tabs__link">
+        <a href="user-guide/Mobile/Updates/" class="md-tabs__link">
           Mobile
         </a>
       
@@ -233,17 +208,13 @@
   
     <li class="md-tabs__item">
       
-        <a href="user-guide/reports/Descriptions/" class="md-tabs__link">
+        <a href="user-guide/Reports/Descriptions/" class="md-tabs__link">
           Reports
         </a>
       
     </li>
   
 
-      
-        
-      
-        
       
     </ul>
   </div>
@@ -279,8 +250,6 @@
     
     <input class="md-toggle md-nav__toggle" data-md-toggle="toc" type="checkbox" id="__toc">
     
-      
-    
     
       <label class="md-nav__link md-nav__link--active" for="__toc">
         Home
@@ -294,15 +263,34 @@
 <nav class="md-nav md-nav--secondary">
   
   
-    
-  
   
     <label class="md-nav__title" for="__toc">Table of contents</label>
     <ul class="md-nav__list" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#test-page" class="md-nav__link">
-    TEST PAGE
+  <a href="#what-is-omni" class="md-nav__link">
+    What is OMNI?
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#who-we-are" class="md-nav__link">
+    Who We Are:
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#where-to-find-us" class="md-nav__link">
+    Where to Find Us:
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#offutt-service-hours" class="md-nav__link">
+    Offutt Service Hours:
   </a>
   
 </li>
@@ -343,18 +331,6 @@
 
 
   <li class="md-nav__item">
-    <a href="user-guide/OMNI/CurrentStatus/" title="Current Status" class="md-nav__link">
-      Current Status
-    </a>
-  </li>
-
-        
-          
-          
-          
-
-
-  <li class="md-nav__item">
     <a href="user-guide/OMNI/Premission/" title="Pre Mission Processes" class="md-nav__link">
       Pre Mission Processes
     </a>
@@ -369,6 +345,30 @@
   <li class="md-nav__item">
     <a href="user-guide/OMNI/Postmission/" title="Post Mission Processes" class="md-nav__link">
       Post Mission Processes
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="user-guide/OMNI/Testing/" title="Formal Testing" class="md-nav__link">
+      Formal Testing
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="user-guide/OMNI/CurrentStatus/" title="Current Status" class="md-nav__link">
+      Current Status
     </a>
   </li>
 
@@ -403,7 +403,43 @@
 
 
   <li class="md-nav__item">
-    <a href="user-guide/MobileBaseline/" title="Mobile Baseline" class="md-nav__link">
+    <a href="user-guide/Mobile/Updates/" title="Doing Updates" class="md-nav__link">
+      Doing Updates
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="user-guide/Mobile/syncgoodreader/" title="Syncing Pubs" class="md-nav__link">
+      Syncing Pubs
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="user-guide/Mobile/troubleshooting/" title="Troubleshooting" class="md-nav__link">
+      Troubleshooting
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="user-guide/Mobile/MobileBaseline/" title="Mobile Baseline" class="md-nav__link">
       Mobile Baseline
     </a>
   </li>
@@ -415,32 +451,8 @@
 
 
   <li class="md-nav__item">
-    <a href="user-guide/Updates/" title="Updates" class="md-nav__link">
-      Updates
-    </a>
-  </li>
-
-        
-          
-          
-          
-
-
-  <li class="md-nav__item">
-    <a href="user-guide/syncgoodreader/" title="Sync GoodReader" class="md-nav__link">
-      Sync GoodReader
-    </a>
-  </li>
-
-        
-          
-          
-          
-
-
-  <li class="md-nav__item">
-    <a href="user-guide/troubleshooting/" title="Troubleshooting" class="md-nav__link">
-      Troubleshooting
+    <a href="user-guide/Mobile/FAQ/" title="FAQ" class="md-nav__link">
+      FAQ
     </a>
   </li>
 
@@ -475,7 +487,7 @@
 
 
   <li class="md-nav__item">
-    <a href="user-guide/reports/Descriptions/" title="Reports Description" class="md-nav__link">
+    <a href="user-guide/Reports/Descriptions/" title="Reports Description" class="md-nav__link">
       Reports Description
     </a>
   </li>
@@ -487,7 +499,7 @@
 
 
   <li class="md-nav__item">
-    <a href="user-guide/reports/troubleshooting/" title="Troubleshooting" class="md-nav__link">
+    <a href="user-guide/Reports/troubleshooting/" title="Troubleshooting" class="md-nav__link">
       Troubleshooting
     </a>
   </li>
@@ -495,30 +507,6 @@
         
       </ul>
     </nav>
-  </li>
-
-    
-      
-      
-      
-
-
-  <li class="md-nav__item">
-    <a href="user-guide/Contacts/" title="Contact Us" class="md-nav__link">
-      Contact Us
-    </a>
-  </li>
-
-    
-      
-      
-      
-
-
-  <li class="md-nav__item">
-    <a href="user-guide/About/" title="About" class="md-nav__link">
-      About
-    </a>
   </li>
 
     
@@ -536,15 +524,34 @@
 <nav class="md-nav md-nav--secondary">
   
   
-    
-  
   
     <label class="md-nav__title" for="__toc">Table of contents</label>
     <ul class="md-nav__list" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#test-page" class="md-nav__link">
-    TEST PAGE
+  <a href="#what-is-omni" class="md-nav__link">
+    What is OMNI?
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#who-we-are" class="md-nav__link">
+    Who We Are:
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#where-to-find-us" class="md-nav__link">
+    Where to Find Us:
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#offutt-service-hours" class="md-nav__link">
+    Offutt Service Hours:
   </a>
   
 </li>
@@ -566,10 +573,134 @@
               
                 
                 
-                <p><img alt="" src="img/logo100x100.png" /></p>
-<h1 id="bockscar">BOCKSCAR<a class="headerlink" href="#bockscar" title="Permanent link"></a></h1>
+                  <h1>Home</h1>
+                
+                <h2 id="what-is-omni"><b>What is OMNI?</b><a class="headerlink" href="#what-is-omni" title="Permanent link"></a></h2>
+<p>The Operations Management Networking Initiative (OMNI) is a platform; containing several known and new products to enable various Operations types. The overarching goals are to provide Global Connectivity to Mission Elements through Scheduling, Data Science, Mobile, and other interactive technologies. </p>
+<table>
+<thead>
+<tr>
+<th align="center">Status</th>
+<th align="center">Projects</th>
+<th align="center">URL</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">Active</td>
+<td align="center">Patriot Excaliber (PEX)</td>
+<td align="center">https://www.omni.af.mil</td>
+</tr>
+<tr>
+<td align="center">Active</td>
+<td align="center">PowerBI Reports</td>
+<td align="center">https://reports.omni.af.mil</td>
+</tr>
+<tr>
+<td align="center">Active</td>
+<td align="center">Interactive Documentation Interface</td>
+<td align="center">https://help.omni.af.mil</td>
+</tr>
+<tr>
+<td align="center">In Progress</td>
+<td align="center">HPE OneView Global Monitoring Dashboard</td>
+<td align="center">https://oneview.omni.af.mil</td>
+</tr>
+<tr>
+<td align="center">Active</td>
+<td align="center">WinPEX Direct Access</td>
+<td align="center">https://direct.omni.af.mil</td>
+</tr>
+<tr>
+<td align="center">In Progress</td>
+<td align="center">Mobile Enable API</td>
+<td align="center">https://api.omni.af.mil</td>
+</tr>
+<tr>
+<td align="center">Active</td>
+<td align="center">Mobile Device Integration Toolkit (MDIT)</td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+</tbody>
+</table>
 <hr />
-<h2 id="test-page">TEST PAGE<a class="headerlink" href="#test-page" title="Permanent link"></a></h2>
+<h2 id="who-we-are"><b>Who We Are:</b><a class="headerlink" href="#who-we-are" title="Permanent link"></a></h2>
+<p>Project BOCKSCAR is a Joint Partnership between the Nebraska Air National Guard, the 55th Wing (ACC) at Offutt AFB, Nebraska, Air Education and Training Command (AETC), AFLCMC/Det 12 (KESSEL RUN), and More. </p>
+<hr />
+<h2 id="where-to-find-us"><b>Where to Find Us:</b><a class="headerlink" href="#where-to-find-us" title="Permanent link"></a></h2>
+<table>
+<thead>
+<tr>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>OMNI Office</td>
+</tr>
+<tr>
+<td>Building 29 (Base Ops Building)</td>
+</tr>
+<tr>
+<td>513 SAC Blvd, Room 103A</td>
+</tr>
+<tr>
+<td>Offutt AFB, NE 68154</td>
+</tr>
+<tr>
+<td>402-294-5707</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="offutt-service-hours"><b>Offutt Service Hours:</b><a class="headerlink" href="#offutt-service-hours" title="Permanent link"></a></h2>
+<table>
+<thead>
+<tr>
+<th align="center">Day</th>
+<th align="center">Hours</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">Mon</td>
+<td align="center">Closed</td>
+</tr>
+<tr>
+<td align="center">Tue</td>
+<td align="center">0800 - 1600</td>
+</tr>
+<tr>
+<td align="center">Wed</td>
+<td align="center">0800 - 1600</td>
+</tr>
+<tr>
+<td align="center">Thu</td>
+<td align="center">0800 - 1600</td>
+</tr>
+<tr>
+<td align="center">Fri</td>
+<td align="center">Closed</td>
+</tr>
+<tr>
+<td align="center">Sat</td>
+<td align="center">Closed</td>
+</tr>
+<tr>
+<td align="center">Sun</td>
+<td align="center">Closed</td>
+</tr>
+</tbody>
+</table>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Coming in for help? Speed things up by bringing in a charged, clean, and updated device.</p>
+</div>
                 
                   
                 
@@ -591,13 +722,13 @@
       <nav class="md-footer-nav__inner md-grid">
         
         
-          <a href="user-guide/OMNI/CurrentStatus/" title="Current Status" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
+          <a href="user-guide/OMNI/Premission/" title="Pre Mission Processes" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
             <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
               <span class="md-flex__ellipsis">
                 <span class="md-footer-nav__direction">
                   Next
                 </span>
-                Current Status
+                Pre Mission Processes
               </span>
             </div>
             <div class="md-flex__cell md-flex__cell--shrink">
@@ -613,7 +744,7 @@
       <div class="md-footer-copyright">
         
           <div class="md-footer-copyright__highlight">
-            Copyright &copy; 2019 Project BOCKSCAR, Maintained by the Project BOCKSCAR Team.
+            Copyright &copy; 2019, Maintained by the Project BOCKSCAR Team. (Version 1.0)
           </div>
         
         powered by
@@ -622,7 +753,6 @@
         <a href="https://squidfunk.github.io/mkdocs-material/">
           Material for MkDocs</a>
       </div>
-      
     </div>
   </div>
 </footer>

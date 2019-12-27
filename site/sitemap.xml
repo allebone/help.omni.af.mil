@@ -2,62 +2,62 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
      <loc>https://help.omni.af.mil/</loc>
-     <lastmod>2019-12-23</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-    <url>
-     <loc>https://help.omni.af.mil/user-guide/OMNI/CurrentStatus/</loc>
-     <lastmod>2019-12-23</lastmod>
+     <lastmod>2019-12-26</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://help.omni.af.mil/user-guide/OMNI/Premission/</loc>
-     <lastmod>2019-12-23</lastmod>
+     <lastmod>2019-12-26</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://help.omni.af.mil/user-guide/OMNI/Postmission/</loc>
-     <lastmod>2019-12-23</lastmod>
+     <lastmod>2019-12-26</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>https://help.omni.af.mil/user-guide/MobileBaseline/</loc>
-     <lastmod>2019-12-23</lastmod>
+     <loc>https://help.omni.af.mil/user-guide/OMNI/Testing/</loc>
+     <lastmod>2019-12-26</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>https://help.omni.af.mil/user-guide/Updates/</loc>
-     <lastmod>2019-12-23</lastmod>
+     <loc>https://help.omni.af.mil/user-guide/OMNI/CurrentStatus/</loc>
+     <lastmod>2019-12-26</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>https://help.omni.af.mil/user-guide/syncgoodreader/</loc>
-     <lastmod>2019-12-23</lastmod>
+     <loc>https://help.omni.af.mil/user-guide/Mobile/Updates/</loc>
+     <lastmod>2019-12-26</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>https://help.omni.af.mil/user-guide/troubleshooting/</loc>
-     <lastmod>2019-12-23</lastmod>
+     <loc>https://help.omni.af.mil/user-guide/Mobile/syncgoodreader/</loc>
+     <lastmod>2019-12-26</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>https://help.omni.af.mil/user-guide/reports/Descriptions/</loc>
-     <lastmod>2019-12-23</lastmod>
+     <loc>https://help.omni.af.mil/user-guide/Mobile/troubleshooting/</loc>
+     <lastmod>2019-12-26</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>https://help.omni.af.mil/user-guide/reports/troubleshooting/</loc>
-     <lastmod>2019-12-23</lastmod>
+     <loc>https://help.omni.af.mil/user-guide/Mobile/MobileBaseline/</loc>
+     <lastmod>2019-12-26</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>https://help.omni.af.mil/user-guide/Contacts/</loc>
-     <lastmod>2019-12-23</lastmod>
+     <loc>https://help.omni.af.mil/user-guide/Mobile/FAQ/</loc>
+     <lastmod>2019-12-26</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>https://help.omni.af.mil/user-guide/About/</loc>
-     <lastmod>2019-12-23</lastmod>
+     <loc>https://help.omni.af.mil/user-guide/Reports/Descriptions/</loc>
+     <lastmod>2019-12-26</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
+     <loc>https://help.omni.af.mil/user-guide/Reports/troubleshooting/</loc>
+     <lastmod>2019-12-26</lastmod>
      <changefreq>daily</changefreq>
     </url>
 </urlset>
