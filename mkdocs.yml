@@ -44,10 +44,10 @@ nav:
         - Formal Testing : 'user-guide/OMNI/Testing.md'
         - Current Status : 'user-guide/OMNI/CurrentStatus.md'
     - Mobile:  
+        - Mobile Baseline : 'user-guide/Mobile/MobileBaseline.md'
         - Doing Updates : 'user-guide/Mobile/Updates.md'
         - Syncing Pubs: user-guide/Mobile/syncgoodreader.md
         - Troubleshooting : user-guide/Mobile/troubleshooting.md
-        - Mobile Baseline : 'user-guide/Mobile/MobileBaseline.md'
         - FAQ : 'user-guide/Mobile/FAQ.md'
     - Reports:  
         - Reports Description : 'user-guide/Reports/Descriptions.md'

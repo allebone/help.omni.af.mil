@@ -4,7 +4,7 @@
 
 ##<b>What is OMNI?</b>
 
-The Operations Management Networking Initiative (OMNI) is a platform; containing several known and new products to enable various Operations types. The overarching goals are to provide Global Connectivity to Mission Elements through Scheduling, Data Science, Mobile, and other interactive technologies. 
+The Operations Management Networking Initiative (OMNI) is a dynamic platform; containing several known and new products to enable various Operations types. The overarching goals are to provide Global Connectivity to Mission Elements through Scheduling, Data Science, Mobile, and other interactive/disruptive technologies. 
 
 
 | Status | Projects | URL |
