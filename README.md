@@ -1,4 +1,4 @@
-# v1.0 README - Allebone
+# v1.0 README
 # Begin Adding Structure to the Documents for HELP.OMNI.AF.MIL
 
 ## Developers / Technical Writers Install Instructions (One Time Setup):
