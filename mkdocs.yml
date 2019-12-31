@@ -42,12 +42,12 @@ nav:
         - Pre Mission Processes : PEX/Premission.md
         - Post Mission Processes : PEX/Postmission.md
         - Formal Testing : PEX/Testing.md
-#       - Current Status : PEX/CurrentStatus.md
     - Mobile:  
         - Mobile Baseline : Mobile/MobileBaseline.md
         - Doing Updates : Mobile/Updates.md
         - Syncing Pubs: Mobile/syncgoodreader.md
         - Troubleshooting : Mobile/troubleshooting.md
+ #         - Test : /Mobile/troubleshooting_emily.md
         - FAQ : Mobile/FAQ.md
     - Reports:  
         - Reports Description : Reports/Descriptions.md
