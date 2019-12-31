@@ -1,10 +1,9 @@
 site_name: OMNI Help
 site_url: https://help.omni.af.mil/ 
 site_description: Support documentation for Operational Management Tools
-site_author: ProjectBOCKSCAR 
+site_author: Project BOCKSCAR 
 
-#repo_url: http://help.bockscar.mil 
-#Requires update
+#repo_url: https://github.com/allebone/help.omni.af.mil
 #edit_uri: ""
 
 #dev_addr: help.omni.af.mil
@@ -31,27 +30,28 @@ theme:
     font:
       text: Roboto
       code: Roboto Mono
-    favicon: bockscaricon.png
-    logo: img/bockscar.png
+    favicon: 'bockscaricon.png'
+    logo: 'img/omni.png'
 
 
 
 nav:
-    - Home: index.md
+    - OMNI: index.md
+    - Status : Status.md
     - PEX: 
-        - Pre Mission Processes : 'user-guide/OMNI/Premission.md'
-        - Post Mission Processes : 'user-guide/OMNI/Postmission.md'
-        - Formal Testing : 'user-guide/OMNI/Testing.md'
-        - Current Status : 'user-guide/OMNI/CurrentStatus.md'
+        - Pre Mission Processes : PEX/Premission.md
+        - Post Mission Processes : PEX/Postmission.md
+        - Formal Testing : PEX/Testing.md
+#       - Current Status : PEX/CurrentStatus.md
     - Mobile:  
-        - Mobile Baseline : 'user-guide/Mobile/MobileBaseline.md'
-        - Doing Updates : 'user-guide/Mobile/Updates.md'
-        - Syncing Pubs: user-guide/Mobile/syncgoodreader.md
-        - Troubleshooting : user-guide/Mobile/troubleshooting.md
-        - FAQ : 'user-guide/Mobile/FAQ.md'
+        - Mobile Baseline : Mobile/MobileBaseline.md
+        - Doing Updates : Mobile/Updates.md
+        - Syncing Pubs: Mobile/syncgoodreader.md
+        - Troubleshooting : Mobile/troubleshooting.md
+        - FAQ : Mobile/FAQ.md
     - Reports:  
-        - Reports Description : 'user-guide/Reports/Descriptions.md'
-        - Troubleshooting : user-guide/Reports/troubleshooting.md    
+        - Reports Description : Reports/Descriptions.md
+        - Troubleshooting : Reports/troubleshooting.md    
 
 #CSS overrides
 extra_css:
@@ -59,7 +59,7 @@ extra_css:
 
 markdown_extensions:
     - toc:
-        permalink: 
+        permalink: true
 #    - markdown.extensions.admonition
 #    - markdown.extensions.def_list
     - admonition
