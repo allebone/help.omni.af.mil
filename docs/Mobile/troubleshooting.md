@@ -3,7 +3,7 @@
 
 ---
 
-## I keep getting an _Apple ID_ pop-up
+## I keep getting an *Apple ID* pop-up
 
 *Issue:* Recurring pop-up window promting the user to sign in with an apple ID. If you don't have or wish to use an Apple ID on the device, do the following to stop the pop-ups:
 
@@ -18,7 +18,7 @@
 
 ![](img/syncissue.png)
 
-**Step 1: _Are you connected to BOCKSCAR?_**  
+**Step 1: _Are you connected to BOCKSCAR_ Wi-Fi?**  
 GoodReader Syncing only works when you’re connected to a BOCKSCAR Wi-Fi Access Point. You’ll be unable to syn when connected to any other Wi-Fi (e.g. home, billeting, starbucks, etc).  
 
  1. Tap the iOS Settings icon (Looks like a gear).  
@@ -69,8 +69,8 @@ Now that you have the server added, we’ll configure GoodReader to sync with a 
 ![](img/bockscarfiles.png) 
 4. Tap to highlight the folder you’d like to sync (We want to select the folder, not see its contents. So tap the folder name, not the > to the right of it). 
 
-        **Note**  
-            _55 OG Aircrew should select the `55_OG` folder. If you’re unsure, that’s probably what you should select. You can come back anytime and sync additional folders._
+    **Note**  
+    _55 OG Aircrew should select the `55_OG` folder. If you’re unsure, that’s probably what you should select. You can come back anytime and sync additional folders._
 
 5. Tap `Sync`, at the bottom of the screen.
 6. If you get a pop-up that says _Folder Already Exists_ select `Proceed`.
