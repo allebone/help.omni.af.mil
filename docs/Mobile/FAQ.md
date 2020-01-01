@@ -2,13 +2,13 @@
 
 ---
 
-**Q:** Can I add my AppleID to my device?
+#### Q: Can I add my AppleID to my device?
 
 **A:** Yes, You can Configure your AppleID. This is helpful if you intend to use Apple Music, Apple News+, or Apple Podcasts. It is not required for any official function, and it will not give access to any additional applications not already approved for use. (See Below)
 
 ---
 
-**Q:** Where is the Apple App Store?
+#### Q: Where is the Apple App Store?
 
 **A:** Due to Security Requirements, all applications are carefully vetted through a series of channels and processes. To ensure this is done properly, we do not have an "App Store," instead we have an "App Catalog."  
 All applications placed within have been extensively tested, documented, and approved.  
@@ -16,7 +16,7 @@ Additonally, it simplifies the question _"Can I use App \_\_\_\_?"_. If the app 
 
 ---
 
-**Q:** How do I request an app to added to the App Catalog?
+#### Q: How do I request an app to added to the App Catalog?
 
 **A:** You may begin the process by sending an email to: `55og.efb@us.af.mil`. However, there is a considerable delay to this process, as we primarily focus on those apps necessary to accomplish our primary missions. 
 
@@ -24,7 +24,7 @@ Alternatively, you can search the current app vetting pipeline by navigating to 
 
 ---
 
-**Q:** I forgot my device's passcode. I'm locked out!
+#### Q: I forgot my device's passcode. I'm locked out!
 
 **A:** Visit our offices during customer service hours and we'll unlock your device. Be aware that unlocking the device may involve a reset of all you files/settings.
 
