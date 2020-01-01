@@ -44,9 +44,9 @@ nav:
         - Formal Testing : PEX/Testing.md
     - Mobile:  
         - Mobile Baseline : Mobile/MobileBaseline.md
-        - Doing Updates : Mobile/Updates.md
-        - Syncing Pubs: Mobile/syncgoodreader.md
-        - Troubleshooting : Mobile/troubleshooting.md
+        - Updates : Mobile/Updates.md
+        - Syncing Pubs: Mobile/SyncingPubs.md
+        - Troubleshooting : Mobile/Troubleshooting.md
         - FAQ : Mobile/FAQ.md
     - Reports:  
         - Reports Description : Reports/Descriptions.md

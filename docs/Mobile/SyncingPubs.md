@@ -89,4 +89,4 @@ To make sure you have the latest publications/T.O.s/files, update your synced fo
 
 ## Failed Sync
 
-Please see [My Pubs Won't Sync](troubleshooting.md#my-pubs-wont-sync) in the Troubleshooting section for further instructions.
+Please see [My Pubs Won't Sync](Troubleshooting.md#my-pubs-wont-sync) in the Troubleshooting section for further instructions.
