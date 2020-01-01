@@ -1,11 +1,53 @@
-# Publications Syncing 
+# Syncing Publications with GoodReader
 
-Publications or other workcenter data are Synced to your EFB/Mobile Device using an application called GoodReader.  
-![image](img/SyncingPubs/goodreadericon.png){: style="height:50%;width:50%"}
+## About File Syncing
+
+Publications or other workcenter data are synced to your EFB/Mobile Device using an application called GoodReader.  
+![image](img/SyncingPubs/goodreadericon.png){: style="height:35%;width:35%"}
+
+GoodReader can automatically sync individual files and entire
+folders from their remote versions hosted on the BOCKSCAR server. In GoodReader, all files and folders that are a part of the sync process
+are tagged with a special badge:  
+![image](img/SyncingPubs/GoodreaderSyncBadge.png){: style="height:50%;width:10%"}
+![image](img/SyncingPubs/GoodreaderSyncBadgeFolder.png){: style="height:50%;width:10%"}
+
+You can choose whether or not you want to keep *modified* local files.
+This option may preserve notes that you've put over a PDF file, even if
+the corresponding remote file was deleted or modified on the server (Use
+this feature with caution. Please see [I made notes/highlights to publications in GoodReader. Will they be lost when I sync?](FAQ.md#q-i-made-noteshighlights-to-publications-in-goodreader-will-they-be-lost-when-i-sync) in the Mobile FAQ.
+
+There are two different types of sync: normal sync and download-only.
+
+> A **normal** sync is two-way. It keeps the contents of a local file or a
+folder identical to what you have on a server. During this process,
+GoodReader analyzes the contents of both local and remote folders and
+does the following:
+>- Looks for modified files (for example, freshly annotated PDFs) on your device and uploads them to a server, replacing old ones there
+>- Looks for modified files on a server and downloads them to your device, replacing old ones there
+>- Looks for new files on a server and downloads them to your device
+>- Looks for new local files and uploads them to a server
+>- Looks for deleted files on a server that were previously present, and deletes them from your device.
+>- Looks for deleted local files that were previously present, and deletes them from a server.
+
+>A **download-only** sync is one-way, from the server to your device. It
+is a convenient distribution method for frequently-updated documents.
+This type of sync doesn't care what happens with your local files; It
+never puts anything on the server, never deletes anything from it, it
+only looks for **new** and modified remote files and downloads them as
+needed. When correctly configured, files that were deleted from the
+server will be deleted from your local device.  **The Aircrew Publications Library (APL) is a download-only sync.** OGV maintains APL content on the BOCKSCAR server in a folder called `55_OG`.
 
 ---
 
-## Step 1: General App Settings
+## Initial Setup
+
+For aircrew, this is usually done just before the
+device is issued to you. It only needs to be done once per each
+file/folder you wish to synchronize. All relevant remote files will be automatically downloaded to your device when doing the very first synchronization.
+
+Instructions for initial setup:
+
+### Step 1: General App Settings
 
 First, set up general settings in GoodReader.
 
@@ -21,7 +63,7 @@ First, set up general settings in GoodReader.
 
 ---
 
-## Step 2: Add the BOCKSCAR WebDAV server
+### Step 2: Add the BOCKSCAR WebDAV server
 
 Next, add the BOCKSCAR server
 
@@ -41,9 +83,7 @@ Next, add the BOCKSCAR server
 6. You should now see **BOCKSCAR** listed as a saved server.  
 ![image](img/SyncingPubs/savedserversbockscar.png){: style="height:75%;width:75%"}
 
----
-
-## Step 3: Set up a Sync Folder
+### Step 3: Set up a Sync Folder
 
 Now that you have the server added, we’ll need to configure GoodReader to sync with a folder on that server.
 
@@ -76,17 +116,20 @@ Now that you have the server added, we’ll need to configure GoodReader to sync
 
 ---
 
-## Update your Synced Folder
+## Updating Synced Folders
 
-To make sure you have the latest publications/T.O.s/files, update your synced folder(s).
+To make sure you have the latest publications/T.O.s/files, update your synced folder(s). During the update, any synced configured during initial setup will pull updates from the server.
 
 1. Connect to a BOCKSCAR Wi-Fi Access Point.  
 ![image](img/SyncingPubs/wifi.png){: style="height:75%;width:75%"}  
 2. Open GoodReader. From the main screen, tap the `Sync` button.  
-![image](img/SyncingPubs/goodreadersyncicon.png){: style="height:75%;width:75%"}  
+![image](img/SyncingPubs/goodreadersyncicon.png){: style="height:75%;width:75%"}
+3. A progress pop-up appears during the sync process. You should see:  
+![image](img/SyncingPubs/syncprogress.png){: style="height:50%;width:50%"}  
+Press the Hide button to hide this pop-up and continue the sync in the background. You'll be able to continue reading your documents while the sync is working (Press the Sync button again to bring back the hidden progress popup). You can press the popup's schedule button to set up an automatic, periodic sync execution. If you switch to another app while GoodReader's Sync is in progress, iOS _may_ stop the sync.
 
 ---
 
 ## Failed Sync
-
+![image](img/SyncingPubs/syncissue.png){: style="height:75%;width:75%"}  
 Please see [My Pubs Won't Sync](Troubleshooting.md#my-pubs-wont-sync) in the Troubleshooting section for further instructions.
