@@ -66,6 +66,8 @@ markdown_extensions:
 #    - mdx_gh_links:
 #        user: mkdocs
 #        repo: mkdocs
+#Turns out that mkdocs supprts the Python-markdown library. Attribute Lists extension adds ability to mess with image size/border/etc.~Luke
+    - attr_list
 
 copyright: Copyright &copy; 2019, Maintained by the Project BOCKSCAR Team. (Version 1.0)
 
