@@ -42,7 +42,7 @@ Ulimately, it is your responsibility to ensure current and complete publications
 
 ---
 
-####Q: An iOS update is available for my device. Can I update?
+#### Q: An iOS update is available for my device. Can I update?
 
 **A:** Yes. Please keep you device's software up-to-date. Any iOS software update that appears on your device (iOS settings > General > Software Update) is approved and should be applied.  
 
