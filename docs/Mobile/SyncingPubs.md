@@ -14,7 +14,7 @@ are tagged with a special badge:
 You can choose whether or not you want to keep *modified* local files.
 This option may preserve notes that you've put over a PDF file, even if
 the corresponding remote file was deleted or modified on the server (Use
-this feature with caution. Please see [I made notes/highlights to publications in GoodReader. Will they be lost when I sync?](FAQ.md#q-i-made-noteshighlights-to-publications-in-goodreader-will-they-be-lost-when-i-sync) in the Mobile FAQ.
+this feature with caution. Please see [I made notes/highlights to publications in GoodReader. Will they be lost when I sync?](FAQ.md#q-i-made-noteshighlights-to-publications-in-goodreader-will-they-be-lost-when-i-sync) in the Mobile FAQ).
 
 There are two different types of sync: normal sync and download-only.
 
@@ -118,7 +118,7 @@ Now that you have the server added, we’ll need to configure GoodReader to sync
 
 ## Updating Synced Folders
 
-To make sure you have the latest publications/T.O.s/files, update your synced folder(s). During the update, any synced configured during initial setup will pull updates from the server.
+To make sure you have the latest publications/T.O.s/files, update your synced folder(s). During the update, any synced folders configured during initial setup will pull updates from the server.
 
 1. Connect to a BOCKSCAR Wi-Fi Access Point.  
 ![image](img/SyncingPubs/wifi.png){: style="height:75%;width:75%"}  
