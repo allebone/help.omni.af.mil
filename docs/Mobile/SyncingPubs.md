@@ -109,7 +109,7 @@ Now that you have the server added, we’ll need to configure GoodReader to sync
     * Make sure `Delete local files` is on/enabled
     * Turn **on**/enable `…even if they were edited`.
     * POLICY ON SYNC CONFLICTS: `Action` needs to be `Remote files have priority`.
-    * Tap `Sync` (or `Close`)
+    * Tap `Sync` (or `Close`)  
 ![image](img/SyncingPubs/syncparameters.png){: style="height:75%;width:75%"}
 10. You’ve set up the folder to sync from the BOCKSCAR server. GoodReader will now begin to sync that folder. You should see:  
 ![image](img/SyncingPubs/syncprogress.png){: style="height:50%;width:50%"}
