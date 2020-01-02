@@ -30,13 +30,13 @@ Alternatively, you can search the current app vetting pipeline by navigating to 
 
 ---
 
-####Q: I made notes/highlights to publications in GoodReader. Will they be lost when I sync?
+#### Q: I made notes/highlights to publications in GoodReader. Will they be lost when I sync?
 
 **A:** Yes. The correct, approved sync settings for the Aircrew Publications Library (`55_OG`) will overwrite your notes and highlights.
 
-However, when you make highlights/notes in a file using GoodReader, it may ask if you want to "_...create a seperate copy of the file, and save changes there..._" I you select `create an annotated copy`, GoodReader will create a copy of that file that contains your highlights/notes.
+However, when you make highlights/notes in a file using GoodReader, it may ask if you want to "_...create a seperate copy of the file, and save changes there..._" If you select `create an annotated copy`, GoodReader will create a copy of that file that contains your highlights/notes.
 
-The potential issue here is that when a new checklist or publication is released, a sync will overwrite your devivce's original file with the new version from the server...and the seperate, annotated copy you created will _not_ be updated. The concern, from a stan/eval perspecive, is that the outdated copy will continue to be used or that duplicate copies could cause confusion.  
+The potential issue here is that when a new checklist or publication is released, a sync will overwrite your device's original file with the new version from the server...and the seperate, annotated copy you created will _not_ be updated. The concern, from a Stan/Eval perspecive, is that the outdated copy will continue to be used or that duplicate copies could cause confusion.  
 
 Ulimately, it is your responsibility to ensure current and complete publications are used while performing flying duties. Direct any questions, comments, or concerns to your squadron stan/eval section or OGV.  
 
