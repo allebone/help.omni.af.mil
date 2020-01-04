@@ -89,6 +89,6 @@
 ## Status Dashboard
 
 
-If you are experiencing an issue not listed here, contact[Support] (/Contact)
+If you are experiencing an issue not listed here, contact [Support](/Contact/)
 
 
