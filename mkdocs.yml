@@ -30,27 +30,40 @@ theme:
     font:
       text: Roboto
       code: Roboto Mono
-    favicon: 'bockscaricon.png'
-    logo: 'img/omni.png'
-
-
+    favicon: img/omni_contrail_icon_white_blue_background.png
+    logo: img/omni_contrail_white_30x30.png
 
 nav:
-    - OMNI: index.md
+    - OMNI : index.md
     - Status : Status.md
+    # - Status : 
+    #        - Dashboard : Status/Dashboard.md
+    #        - Status : Status/Status.md
+    #        - Mobile Baseline : Status/MobileBaseline.md
     - PEX: 
-        - Pre Mission Processes : PEX/Premission.md
-        - Post Mission Processes : PEX/Postmission.md
-        - Formal Testing : PEX/Testing.md
+        - Introduction : PEX/Introduction.md
+        - Guides : PEX/Guides.md
+        - Headquarters : PEX/Headquarters.md
+        - Displays : PEX/Displays.md
+        - Ops : PEX/Ops.md
+        - Scheduling : PEX/Scheduling.md
+        - Training : PEX/Training.md
+        - Stan Eval : PEX/StanEval.md
+        - Maintenance : PEX/Maintenance.md
+        - Setup : PEX/Setup.md
+        - Miscellaneous : PEX/Miscellaneous.md
     - Mobile:  
-        - Mobile Baseline : Mobile/MobileBaseline.md
+        - Introduction : Mobile/Introduction.md
         - Updates : Mobile/Updates.md
         - Syncing Pubs: Mobile/SyncingPubs.md
         - Troubleshooting : Mobile/Troubleshooting.md
         - FAQ : Mobile/FAQ.md
     - Reports:  
+        - Introduction : Reports/Introduction.md
         - Reports Description : Reports/Descriptions.md
-        - Troubleshooting : Reports/troubleshooting.md    
+        - Troubleshooting : Reports/Troubleshooting.md
+    - Support : 
+            - Contact.md 
 
 #CSS overrides
 extra_css:
@@ -66,7 +79,6 @@ markdown_extensions:
 #    - mdx_gh_links:
 #        user: mkdocs
 #        repo: mkdocs
-#Turns out that mkdocs supprts the Python-markdown library. Attribute Lists extension adds ability to mess with image size/border/etc.~Luke
     - attr_list
 
 copyright: Copyright &copy; 2019, Maintained by the Project BOCKSCAR Team. (Version 1.0)

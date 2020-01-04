@@ -2,62 +2,112 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
      <loc>https://help.omni.af.mil/</loc>
-     <lastmod>2020-01-02</lastmod>
+     <lastmod>2020-01-04</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://help.omni.af.mil/Status/</loc>
-     <lastmod>2020-01-02</lastmod>
+     <lastmod>2020-01-04</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>https://help.omni.af.mil/PEX/Premission/</loc>
-     <lastmod>2020-01-02</lastmod>
+     <loc>https://help.omni.af.mil/PEX/Introduction/</loc>
+     <lastmod>2020-01-04</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>https://help.omni.af.mil/PEX/Postmission/</loc>
-     <lastmod>2020-01-02</lastmod>
+     <loc>https://help.omni.af.mil/PEX/Guides/</loc>
+     <lastmod>2020-01-04</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>https://help.omni.af.mil/PEX/Testing/</loc>
-     <lastmod>2020-01-02</lastmod>
+     <loc>https://help.omni.af.mil/PEX/Headquarters/</loc>
+     <lastmod>2020-01-04</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>https://help.omni.af.mil/Mobile/MobileBaseline/</loc>
-     <lastmod>2020-01-02</lastmod>
+     <loc>https://help.omni.af.mil/PEX/Displays/</loc>
+     <lastmod>2020-01-04</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
+     <loc>https://help.omni.af.mil/PEX/Ops/</loc>
+     <lastmod>2020-01-04</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
+     <loc>https://help.omni.af.mil/PEX/Scheduling/</loc>
+     <lastmod>2020-01-04</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
+     <loc>https://help.omni.af.mil/PEX/Training/</loc>
+     <lastmod>2020-01-04</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
+     <loc>https://help.omni.af.mil/PEX/StanEval/</loc>
+     <lastmod>2020-01-04</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
+     <loc>https://help.omni.af.mil/PEX/Maintenance/</loc>
+     <lastmod>2020-01-04</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
+     <loc>https://help.omni.af.mil/PEX/Setup/</loc>
+     <lastmod>2020-01-04</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
+     <loc>https://help.omni.af.mil/PEX/Miscellaneous/</loc>
+     <lastmod>2020-01-04</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
+     <loc>https://help.omni.af.mil/Mobile/Introduction/</loc>
+     <lastmod>2020-01-04</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://help.omni.af.mil/Mobile/Updates/</loc>
-     <lastmod>2020-01-02</lastmod>
+     <lastmod>2020-01-04</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://help.omni.af.mil/Mobile/SyncingPubs/</loc>
-     <lastmod>2020-01-02</lastmod>
+     <lastmod>2020-01-04</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://help.omni.af.mil/Mobile/Troubleshooting/</loc>
-     <lastmod>2020-01-02</lastmod>
+     <lastmod>2020-01-04</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://help.omni.af.mil/Mobile/FAQ/</loc>
-     <lastmod>2020-01-02</lastmod>
+     <lastmod>2020-01-04</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
+     <loc>https://help.omni.af.mil/Reports/Introduction/</loc>
+     <lastmod>2020-01-04</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://help.omni.af.mil/Reports/Descriptions/</loc>
-     <lastmod>2020-01-02</lastmod>
+     <lastmod>2020-01-04</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>https://help.omni.af.mil/Reports/troubleshooting/</loc>
-     <lastmod>2020-01-02</lastmod>
+     <loc>https://help.omni.af.mil/Reports/Troubleshooting/</loc>
+     <lastmod>2020-01-04</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
+     <loc>https://help.omni.af.mil/Contact/</loc>
+     <lastmod>2020-01-04</lastmod>
      <changefreq>daily</changefreq>
     </url>
 </urlset>
