@@ -72,16 +72,17 @@ extra_css:
 markdown_extensions:
     - toc:
         permalink: true
-#    - markdown.extensions.admonition
 #    - markdown.extensions.def_list
     - admonition
+    - footnotes
+    - meta
     - def_list
 #    - mdx_gh_links:
 #        user: mkdocs
 #        repo: mkdocs
     - attr_list
 
-copyright: Copyright &copy; 2019, Maintained by the Project BOCKSCAR Team. (Version 1.0)
+copyright: Copyright &copy; 2020, Maintained by the Project BOCKSCAR Team. (Version 0.2)
 
 plugins:
     - search
