@@ -51,7 +51,7 @@ _Module Notes_
 My PEX uses responsive design to automatically resize, hide, shrink, or enlarge how pages display on multiple devices; desktops, tablets, and phones. These instructions describe how PEX displays on a desktop monitor. Depending on the device used, some features and controls may appear compressed. Al functionality is present regardless of the device used.
 
 _Controls_  
-Access My PEX by logging into PEX, or navigate to Displays > My PEX. If, when logging into PEX, you still land on the legacy My Page, go to My Preferences \(top right\), Default Home Page, select the My PEX radio button, and click Save Preferences. Log out and log back in, and you will land on My PEX. 
+Access My PEX by logging into PEX, or navigate to Displays > My PEX. If, when logging into PEX, you still land on the legacy My Page, go to My Preferences \(top right\), Default Home Page, select the My PEX radio button, and click Save Preferences. Log out and log back in, and you will land on My PEX.
 
 _Workspace_  
 ![Workspace](img/Displays/workspace.jpg){: style="height:100%;width:100%"}
@@ -163,7 +163,7 @@ _Log continuation training on a non-mission TAR_
 5. Click Print, if desired.
 6. Click Save.
 
-**View/Email your To Do List **
+**View/Email your To Do List**
 
 1. Go to My PEX > Home > More Options \(…\) > To Do List.
 2. The To Do List Email dialog opens.
@@ -210,7 +210,7 @@ You can also update your personal data, create favorite links, and change your P
 * _My Links_ - Allows you to create up to ten user-defined and up to ten squadron-defined web pages. On the My Links page, select Settings, Edit Links. From this dialog you can enter and edit user-defined links. If you have the PEX administrator role, the Edit Squadron Links on My Page wil display here. You would be able to enter and edit links for the squadron.
 * _To Do List_ - Allows you to email and/or print a list of things to do based on data in PEX. As a supervisor, you can send To Do lists to your subordinates.
 
-1-month and 3-month** **RAP Lookback, and a 7/30/60/90 day Flying Hour summary are available, when those functions are configured, in a new grid above the Commitments schedule. For each, the grid is not visible if not configured. ** **
+1-month and 3-month RAP Lookback, and a 7/30/60/90 day Flying Hour summary are available, when those functions are configured, in a new grid above the Commitments schedule. For each, the grid is not visible if not configured.
 
 * _RAP Lookback_ - To view RAP Lookback, your primary MDS and crew position must be set in Setup > Personnel > Quals, and RAP must be set in [Training > Continuation > Setup > RAP Requirements](). The [ARMS training import]() must be current to accurately reflect lookback. The grid displays the number of RAP sorties flown in 1 month and 3 months. For each, if RAP was met the field is green. If RAP was not met the field is pink.  
 ![rap_lookback](img/Displays/rap_lookback.jpg){: style="height:30%;width:30%"}
@@ -225,7 +225,7 @@ You can also update your personal data, create favorite links, and change your P
 
 **Enter my own appointments from My Page** Select the Manage Commitments link to open your personal monthly calendar. Click the start day to enter a personal commitment \(appointment, leave, etc.\). In the pop-up dialog, right-click and select Add. Enter your commitment details, click off the row to save, and select Close when done. You wil not be able to edit or delete commitments entered by your scheduler. Your scheduler is able to edit and delete commitments you entered. 
 
-**Report training accomplished **
+**Report training accomplished**
 
 * If you were scheduled on a Sortie or Commitment, click the blue TAR link to open an electronic TAR \(worksheet\) from the dropdown list. Enter the number and date accomplished for each task. Select the actual Sortie Type \(if applicable\). Click save and close the dialog.
 * To report training not associated with a sortie or commitment: 
@@ -314,19 +314,19 @@ The commitment\(s\) details will display in the Commitment Table. To clear the C
 
 * _Personnel Tab_ - Right-click on a person commitment to Hot Link to Commitments Board - Personnel \(WinPEX only\).
 
-**Background colors **
+**Background colors**
 
 The colors indicate the Commitment Type; except for red, which indicates conflicting commitments.
 
 Multiple, non-overlapping, commitments are displayed in light blue. Click the Color Legend icon to see the definitions. The colors come from Setup > Validation > Scheduling > Commitments Board.
 
-**Resources Rainbow differences between ePEX and WinPEX **
+**Resources Rainbow differences between ePEX and WinPEX**
 
 The main difference is filters cannot be created in ePEX. They can be used in ePEX but must be created in the WinPEX CV. Another slight difference is the placement of control icons. In WinPEX they are at upper-left. In ePEX they are at upper-right. 
 
 ## Sortie Viewer
 
-**Introduction **
+**Introduction**
 
 The Sortie Viewer module allows you to design and then electronically display user-defined schedule data. The Full Screen View can be displayed on computer monitors, TV screens, LCD projectors, or plasma screens. The Sortie Viewer Template Manager allows you to save Sortie Viewer designs. The ePEX Sortie Viewer displays the output file created and distributed by WinPEX. To make the ePEX Sortie Viewer work, within the WinPEX Sortie Viewer, identify a Full Screen Display Output Path File to the web server's ePEX directory or alternatively to a shared directory and configure I S to read the file into the web server's ePEX directory.
 
@@ -376,7 +376,7 @@ For example, say you want to display aircraft status and parking location: from 
 6. Give Everyone 'Ful control' and Click OK.
 7.  On the security permissions tab give Domain Users 'Modify' rights.
 
-**On the client **
+**On the client**
 
 1. Map a drive to the newly created ePEX share
 2. In the Ful Screen Display Output File Path browse to the ePEX directory of the ePEX web server
@@ -391,7 +391,7 @@ As long as the WinPEX client is in Full Screen mode the sortie Viewer in ePEX wi
 
 3. Select View, Full Screen or click the Full Screen icon. To print the Full Screen View, right-click and select Print. To exit Ful Screen mode, press Esc. 
 
-**Sortie Viewer Menu **
+**Sortie Viewer Menu**
 
 * File - Same as PEX
 * Edit -
