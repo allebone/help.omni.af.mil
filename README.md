@@ -9,10 +9,11 @@
 	4. Run: brew install python python2 pip
 	5. Run: pip install mkdocs
 	6. Run: pip install mkdocs-material
-	7. Install Git Desktop from Link: https://central.github.com/deployments/desktop/desktop/latest/darwin
-	8. Install Preferred Editor (Like Sublime Text)
-	9. Clone Respository - git clone https://github.com/allebone/help.omni.af.mil.git
-	10. Edit in Sublime Text
+	7. Run: pip install pymdown-extensions
+	8. Install Git Desktop from Link: https://central.github.com/deployments/desktop/desktop/latest/darwin
+	9. Install Preferred Editor (Like Sublime Text)
+	10. Clone Respository - git clone https://github.com/allebone/help.omni.af.mil.git
+	11. Edit in Sublime Text
 	
 ## Developers / Technical Writers Daily Working Environment: 	
 	1. Github Desktop Client: PUSH Button "Pull from Origin" Button (Top Right)
