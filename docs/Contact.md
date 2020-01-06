@@ -2,9 +2,12 @@
 
 **Phone**   
 402-294-5707 (Commercial)  
-??-???-???? (DSN)  
+271-5707 (DSN) 
+ 
 **email**  
-_do we have an org box?Do we want one?_   
+
+mailto:af.mdit@us.af.mil
+   
 **Customer Service**    
 Currently located in the Offutt Base Ops Building, Room 103A  
 >513 SAC Blvd   
@@ -28,10 +31,11 @@ Offutt AFB, NE 68113
 ## PEX Support
 
 **Phone**    
-? (Commercial)  
-? (DSN)    
+402-294-OMNI (6664) - Commercial  
+271-OMNI (6664) - DSN    
+
 **email**  
-_Bob's email or org box?_
+_omni.admin@us.af.mil_
 
 **Within PEX**  
 ![image](img/Support/help_within_pex.jpg){: style="height:100%;width:100%"} 
