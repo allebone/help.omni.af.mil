@@ -79,12 +79,12 @@ markdown_extensions:
 #        user: mkdocs
 #        repo: mkdocs
     - attr_list
-    - pymdownx.smartsymbols
-    - pymdownx.inlinehilite
-    - pymdownx.details
-    - pymdownx.escapeall
-    - pymdownx.emoji
-    - pymdownx.extra
+#    - pymdownx.smartsymbols
+#    - pymdownx.inlinehilite
+#    - pymdownx.details
+#    - pymdownx.escapeall
+#    - pymdownx.emoji
+#    - pymdownx.extra
 #   https://facelessuser.github.io/pymdown-extensions/extensions/extra/
 #   pymdownx.exta includes (and conflics with):
 #   - pymdownx.betterem
@@ -101,5 +101,7 @@ copyright: Copyright &copy; 2020, Maintained by the Project BOCKSCAR Team. (Vers
 plugins:
     - search
     #- git-revision-date-localized
+
+# nick is a dork
 
 
