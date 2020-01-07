@@ -361,7 +361,7 @@ For example, say you want to display aircraft status and parking location: from 
 !!! note "Note"
     The templates for the Selection tab and Layout tab are independent of each other. They are managed separately.
 
-!!! note "TTP"
+!!! tip "Tip"
     In the header and footer areas, if you type in `<br\>` it will force a line break in your final display. The area that says "Additional Remarks" can be used as a third area to enter remarks.
 
 8. Select your desired Ful Screen Options and Preview your design. Click Save to save your preferred Full Screen Options. Identifying a Full Screen Display Output File Path on a shared directory allows other network users to view the display without having PEX software installed on their computer. Placing the file on the ePEX web server allows access via the Sortie Viewer display in ePEX . In order to enable this option you must take the following steps:
@@ -386,7 +386,7 @@ As long as the WinPEX client is in Full Screen mode the sortie Viewer in ePEX wi
 !!! note "Note"
     If you need to restrict access to the web server the administrator could create a specific active directory group and give the 'Full Control' share and 'Modify' security permissions to that group, then give group membership to specific domain users. It is the network user name which requires access to the share, not the PEX username.
 
-!!! note "TTP"
+!!! tip "Tip"
      The Sortie Viewer can display one Squadron or Al Squadrons. In ePEX you cannot determine the selection layout. Therefore, if the ePEX Sortie Viewer is to be used, then the selection of labels and data elements, as well as the Layout \(Header and Footer Information\) needs to be coordinated across the various units.
 
 3. Select View, Full Screen or click the Full Screen icon. To print the Full Screen View, right-click and select Print. To exit Ful Screen mode, press Esc. 

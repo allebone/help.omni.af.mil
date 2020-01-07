@@ -20,10 +20,10 @@ Two \(2\) permission roles and four \(4\) pseudo-roles can access Binders, in ad
 
 Permission roles are assigned in Users & Permissions. Binder Owners are set in the Binder Details. Alternates, SAPMs, and Binder Read Only Alternates are assigned via Binders > Manage Alternates.
 
-**Rules**
+**Rules**  
 * Binder Types cannot be deleted if a squadron in the database is using the binder type.
 
-**Module Notes**
+**Module Notes**  
 * Binders interfaces with the Personnel module for the purposes of assigning Owners and Alternates.
 * Binders interfaces with the Squadron module for the purpose of selecting a Squadron to which a binder belongs.
 
@@ -41,10 +41,10 @@ These features are accessed from the PEX Main Menu by navigating to Ops > Binder
 
 ### Setup- Configure Binders
 
-**Setup tab**
+**Setup tab**  
 In Setup you can add and delete Binder Types as wel as the default Documentation Folders structure in each Binder Type.
 
-**Binder Types**
+**Binder Types**  
 To add, edit or delete Binder Types, either select the appropriate button at the top of the page or right-click in the grid and select the option in the pop-up menu.
 
 !!! notes "Notes"
@@ -813,7 +813,7 @@ _Status_
 
 4. Go to Setup > Status.
 5. Click Add Status.
-6. Enter the name, up to 5 characters. Enter a Description, up to 30 Characters. Uncheck the Is Certified Box only if you don’t want people assigned this status to count against mission requirements. Save. 
+6. Enter the name, up to 5 characters. Enter a Description, up to 30 Characters. Uncheck the Is Certified Box only if you don’t want people assigned this status to count against mission requirements. Save.
 7. Repeat for the range of statuses you plan to use. Common use cases would by**X** \(Qualified\),**I** \(Instructor\),**T** \(Training\).
 
 !!! caution "Caution"
@@ -825,540 +825,337 @@ _Certifications_
 9. Click `Add Certification`.
 10. Check at least one MDS and Crew Position.
 11. Check at least one status.
-12. Check the optional category \(or categories\) you want to associate this certification with. 
+12. Check the optional category \(or categories\) you want to associate this certification with.
 13. Check the units that will use this certification \(this is known as establishing visibility\)
 14. Click `Save`
 
 !!! note "Note"
-     You will be unable to uncheck an MDS or CP setting once the certification is saved. You will still be able to check additional MDS and Crew Position combinations for that certification, but never uncheck. If an expected MDS or CP is not listed, make sure someone is assigned to that MDS and CP in Setup > Personnel Module > Quals Tab. 
+     You will be unable to uncheck an MDS or CP setting once the certification is saved. You will still be able to check additional MDS and Crew Position combinations for that certification, but never uncheck. If an expected MDS or CP is not listed, make sure someone is assigned to that MDS and CP in Setup > Personnel Module > Quals Tab.
 
-**TTP:** Sometimes units carry certifications which are progressive and exclusive. These can be combined into a single certification with a unique status. For instance, 2-ship flight lead and 4-ship flight lead do not need to be tracked as separate certifications. The Certification could be Flight Lead and the status assigned could be 2F, 4F, and T. 
+!!! tip "Tip"
+     Sometimes units carry certifications which are progressive and exclusive. These can be combined into a single certification with a unique status. For instance, 2-ship flight lead and 4-ship flight lead do not need to be tracked as separate certifications. The Certification could be Flight Lead and the status assigned could be 2F, 4F, and T.
 
 **Visibility**
 
-Make certifications visible to, or remove visibility from, squadrons: 
+Make certifications visible to, or remove visibility from, squadrons:
 
-**15.** Check or uncheck the box in the row of the certification and column of the squadron to add or remove visibility. 
+15. Check or uncheck the box in the row of the certification and column of the squadron to add or remove visibility. 
+16. Click the save icon.
 
-**16.** Click the save icon. 
+!!! note "Note"
+     You will not be able to add, edit, or delete a certification after you start modifying visibility until you click the save or undo icon.
 
-**NOTE**: You will not be able to add, edit, or delete a certification after you start modifying visibility until you click the save or undo icon. 
+**Associate Training Tasks to Certification**  
+Associating certifications to training tasks will display the training task status \(yellow or pink\) from the continuation training module on the LoX display/report. Current training will not show any color coding on the LoX display/report.
 
-**Associate Training Tasks to Certification**
+!!! note "Note"
+     When a person assigned a certification that has been associated to a training tasks, if the person is not assigned the assigned the associated training task or goes overdue for completion, then the certification status will be “DT” or Decertified for Training.
 
-Associating certifications to training tasks will display the training task status \(yellow or pink\) from the continuation training module on the LoX display/report. Current training will not show any color coding on the LoX display/report. 
+17. Select the certification and click Associate Training Tasks to Certification or right click on the certification and select Associate Training Tasks to Certification
+     1. Select the squadron.
+     2. Select the MDS.
+     3. Check the radio box next to each task to be associated to the certification.
+     4. Click Save and Close or Save to keep the window open and select to associate another certification to training tasks.
+     5. Select Setup > Draft Process.
+     6. Enable Draft process by checking the box.
+     7. Click the save icon.
 
-50 
-
-**NOTE**: When a person assigned a certification that has been associated to a training tasks, if the person is not assigned the assigned the associated training task or goes overdue for completion, then the certification status will be “DT” or Decertified for Training. 
-
-**17.** Select the certification and click Associate Training Tasks to Certification or right click on the certification and select Associate Training Tasks to Certification 
-
-**A.** Select the squadron. 
-
-**B.** Select the MDS. 
-
-**C.** Check the radio box next to each task to be associated to the certification. 
-
-**D.** Click Save and Close or Save to keep the window open and select to associate another certification to training tasks. 
-
-**E.** Select Setup > Draft Process. 
-
-**F.** Enable Draft process by checking the box. 
-
-**G.** Click the save icon. 
-
-**Manage Your Certifications and LoX**
+### Manage Your Certifications and LoX
 
 **Letter of X**
 
-**LoX Filtering**
+_LoX Filtering_
 
-Go to Letter of X > Display Options. 
+Go to Letter of X > Display Options.
 
-**1.****Squadron**. Selects all personnel names from the Squadron. This is a standard filter that is used throughout PEX. 
+1. _Squadron_ - Selects all personnel names from the Squadron. This is a standard filter that is used throughout PEX.
+2. _Personnel_ - User can create a filter for specific personnel criteria. This is a standard filter that is used throughout PEX.
 
-**2.****Personnel**. User can create a filter for specific personnel criteria. This is a standard filter that is used throughout PEX. 
+     !!! note "note"
+          * Users can only create and view filters to squadrons’ that they have access to. If a user does not have permissions to a squadron, then that user wil not have access to that squadron’s filters and will see an “Access is Denied” for that filter. For more see [Miscellaneous > Filters]().  
+          * If anyone deletes any squadron personnel filters in PEX from any location, this will affect the Custom Order. However, the user wil be shown “Filter Deleted” when applying the custom order or when in the Custom Order dialog area.  
 
-**NOTES**: 
+3. _Custom Order_ - As its name implies, user can create a custom order to return a Letter of X that will have user defined Titles fol owed by a list of personnel names that meets the personnel filter criteria for that Title. You can add as many Custom Orders as you want to return the personnel you want displayed for a Custom Order Letter of X.
+     1. Select the custom order radio button. Then select the squadron. This selections means that you will are creating Custom Order\(s\) for the squadron selected.
+     2. Select the Tools icon.
+     3. Enter a unique name for the Custom Order.
+     4. Select the Add icon or right click to Add a filter.
+     5. In the Filter Name, select an existing personnel filter for create a new one.
+     6. Enter a Section Title. Add more sections with associated Titles. You can also choose to Add, Edit, Move Up, and Move Down the filter sections within this dialog.
+     7. Save the Custom Order and Apply.
 
-• Users can only create and view filters to squadrons’ that they have access to. If a user does not have permissions to a squadron, then that user wil not have access to that squadron’s filters and will see an “Access is Denied” for that filter. For more see Miscellaneous > Filters.  
+**Create a LoX Template**  
+At least one template is needed for each unit in the database to manage certification assignment and view certifications.
 
-• If anyone deletes any squadron personnel filters in PEX from any location, this will affect the Custom Order. However, the user wil be shown “Filter Deleted” when applying the custom order or when in the Custom Order dialog area. 
+1. In the Display Options, View Template area, click the Tools icon.
+2. In the resulting Manage Templates dialog, select a unit from the drop down \(the resulting template wil belong to the selected unit\).
+3. Click Add.
+4. Select what person attributes are to be displayed. Use the respective Up/Down Arrows to adjust display order of those attributes.
+5. Select what Category \(or Categories\) you want to display.
+6. For each Category grouping, select the certifications to be displayed.
+7. For each certification, select which dates \(if any\) you want to be displayed.
+8. For each certification, select the draft approver. The logged in user's name will display next to the dates.
+9. Use up/down arrows to adjust order of display.
+10. Enter signature block to be displayed on the printed product, if required.
+11. Enter the LoX remarks to be displayed on the printed product, if required.
+12. Click save
 
-**3. Custom Order**. As its name implies, user can create a custom order to return a Letter of X 
-
-that wil have user defined Titles fol owed by a list of personnel names that meets the personnel filter criteria for that Title. You can add as many Custom Orders as you want to return the personnel you want displayed for a Custom Order Letter of X.****
-
-**A.** Select the custom order radio button. Then select the squadron. This selections means that you will are creating Custom Order\(s\) for the squadron selected. 
-
-**B.** Select the Tools icon. 
-
-**C.** Enter a unique name for the Custom Order. 
-
-**D.** Select the Add icon or right click to Add a filter. 
-
-**E.** In the Filter Name, select an existing personnel filter for create a new one. 
-
-51 
-
-Ops 
-
-**F.** Enter a Section Title. Add more sections with associated Titles. You can also choose to Add, Edit, Move Up, and Move Down the filter sections within this dialog. 
-
-**G.** Save the Custom Order and Apply. 
-
-**Create a LoX Template**
-
-At least one template is needed for each unit in the database to manage certification assignment and view certifications. 
-
-**1.** In the Display Options, View Template area, click the Tools icon. 
-
-**2.** In the resulting Manage Templates dialog, select a unit from the drop down \(the resulting template wil belong to the selected unit\). 
-
-**3.** Click Add. 
-
-**4.** Select what person attributes are to be displayed. Use the respective Up/Down Arrows to adjust display order of those attributes. 
-
-**5.** Select what Category \(or Categories\) you want to display. 
-
-**6.** For each Category grouping, select the certifications to be displayed. 
-
-**7.** For each certification, select which dates \(if any\) you want to be displayed. 
-
-**8.** For each certification, select the draft approver. The logged in user's name will display next to the dates. 
-
-**9.** Use up/down arrows to adjust order of display. 
-
-**10.** Enter signature block to be displayed on the printed product, if required. 
-
-**11.** Enter the LoX remarks to be displayed on the printed product, if required. 
-
-**12.** Click save 
-
-**NOTES**: 
-
-• The display of effective mission ready status is setup in the Continuation Training module. 
-
-See Continuation Training for how to setup display of effective mission ready status. 
-
-• In order to display the effective mission ready status on the Go No-Go Board and in the DRRS report, it must be selected and calculated in the Letter of X. 
+!!! notes "Notes"
+     * The display of effective mission ready status is setup in the Continuation Training module. See Continuation Training for how to setup display of effective mission ready status.
+     * In order to display the effective mission ready status on the Go No-Go Board and in the DRRS report, it must be selected and calculated in the Letter of X.
 
 **Assign Certifications, Unassign Certifications, Display, Print, or Export the Letter****of X**
 
-**1.** Click the Legend Icon for display definitions. 
+!!! note "Notes"
+     The maximum number of Records Per Page setting is 999. However, pulling in a large number of records may result in the page timing out. Limiting this to \(for example\) 300 will give faster results.
 
-**2.** Hover cursor over statuses for status definitions. 
-
-**3.** Right click and select Grid Settings. 
-
-**NOTE:** The maximum number of Records Per Page setting is 999. However, pulling in a large number of records may result in the page timing out. Limiting this to \(for example\) 300 will give faster results. 
-
-**4.** Click on the various header columns to sort by the values in that column. 
-
-52 
-
-**5.** In Filter Personnel Options, select the Squadron to display, create/select a customized Personnel Filter, or create/select a Custom Order. This selection determines *who* will be displayed. 
-
-**6.** In the Template selection area, select the unit and template to be displayed. This selection determines *what* will be displayed. 
-
-**7.** Click Load Letter of X button at bottom left of page 
+1. Click the Legend Icon for display definitions.
+2. Hover cursor over statuses for status definitions.
+3. Right click and select Grid Settings.
+4. Click on the various header columns to sort by the values in that column.
+5. In Filter Personnel Options, select the Squadron to display, create/select a customized Personnel Filter, or create/select a Custom Order. This selection determines *who* will be displayed.
+6. In the Template selection area, select the unit and template to be displayed. This selection determines *what* will be displayed.
+7. Click Load Letter of X button at bottom left of page.
 
 **Manage Certification for a person**
 
-**1.** Select the person then click Manage Certifications or right click on the person’s name and select Manage Certifications. 
-
-**2.** That person’s Manage Certifications window opens and displays all of the certifications he is eligible for based on his qualifications entered in Setup > Personnel > Quals Tab. Assigned Certifications are indicated with a check mark in the assigned column. 
-
-**3.** To assign a certification, click that certification the select Assign**4.** Click in the status column and select from the range of associated statuses. 
-
-**5.** Click Save. 
-
-**6.** Multiple changes can be made at once in this dialog. Make changes in statuses, dates, assign, unassign, decertify, remove decertify as needed, then click save. If the save button doesn’t activate, it is because there is an assigned certification for which there is no status selected. 
+1. Select the person then click Manage Certifications or right click on the person’s name and select Manage Certifications.
+2. That person’s Manage Certifications window opens and displays all of the certifications he is eligible for based on his qualifications entered in Setup > Personnel > Quals Tab. Assigned Certifications are indicated with a check mark in the assigned column.
+3. To assign a certification, click that certification the select Assign
+4. Click in the status column and select from the range of associated statuses.
+5. Click Save.
+6. Multiple changes can be made at once in this dialog. Make changes in statuses, dates, assign, unassign, decertify, remove decertify as needed, then click save. If the save button doesn’t activate, it is because there is an assigned certification for which there is no status selected.
 
 **Assign Certification to Multiple Personnel at the same time**
 
-**1.** Select Manage Multiple Personnel then select Assign Certification to Multiple Personnel. 
-
-**2.** Select the Squadron. 
-
-**3.** Select the Certification. 
-
-**4.** Select the Certification status being assigned. 
-
-**5.** Optional: select a cert date, recert date, expire date and add any general certification remarks. 
-
-**6.** Select to view all personnel in the squadron or apply a filter. 
-
-**7.** Click Load Personnel. 
-
-**8.** Currently Not Assigned – Select to Assign section: check the radio box next to each person’s name to assign the certification. 
-
-**9.** Currently Assigned – Select to Override se4ction: check the radio box next to each person’s name to override the existing certification status, dates, and remarks and replace. 
-
-**10.** Click OK to save and close the dialog. Or Apply to save and remain in the dialog. Click Cancel to get out of the dialog with no changes. 
+1. Select Manage Multiple Personnel then select Assign Certification to Multiple Personnel.
+2. Select the Squadron.
+3. Select the Certification.
+4. Select the Certification status being assigned.
+5. Optional: select a cert date, recert date, expire date and add any general certification remarks.
+6. Select to view all personnel in the squadron or apply a filter.
+7. Click Load Personnel.
+8. Currently Not Assigned – Select to Assign section: check the radio box next to each person’s name to assign the certification.
+9. Currently Assigned – Select to Override se4ction: check the radio box next to each person’s name to override the existing certification status, dates, and remarks and replace.
+10. Click OK to save and close the dialog. Or Apply to save and remain in the dialog. Click Cancel to get out of the dialog with no changes.
 
 **Unassign Certification from Multiple Personnel at the same time**
 
-**1.** Select Manage Multiple Personnel then select Unassign Certification from Multiple Personnel. 
-
-53 
-
-Ops 
-
-**2.** Select the Squadron. 
-
-**3.** Select the Certification. 
-
-**4.** Select to view all personnel in the squadron or apply a filter. 
-
-**5.** Click Load Personnel. 
-
-**6.** Currently Assigned – Select to Unassign section: check the radio box next to each person’s name to unassign the certification. 
-
-**7.** Click OK to save and close the dialog. Or Apply to save and remain in the dialog. Click Cancel to get out of the dialog with no changes. 
+1. Select Manage Multiple Personnel then select Unassign Certification from Multiple Personnel.
+2. Select the Squadron.
+3. Select the Certification.
+4. Select to view all personnel in the squadron or apply a filter.
+5. Click Load Personnel
+6. Currently Assigned – Select to Unassign section: check the radio box next to each person’s name to unassign the certification.
+7. Click OK to save and close the dialog. Or Apply to save and remain in the dialog. Click Cancel to get out of the dialog with no changes.
 
 **Manage MAJCOM Quals**
 
-This feature allows updating a person's MAJCOM Qualifications, normally done in Personnel, by people with permissions to LoX but not Personnel. 
+This feature allows updating a person's MAJCOM Qualifications, normally done in Personnel, by people with permissions to LoX but not Personnel.
 
-**1.** Right-click on the person. 
+1. Right-click on the person.
+2. in the context menu, select Manage MAJCOM Quals.
+3. In the dialog, choose the Primary Qual or Secondary Qual\(s\) section.
+4. Change the MAJCOM Qual 3, 4 or 5 as required.
+5. Click Save to save and close the dialog. Or Save & Close to save and remain in the dialog.
 
-**2.** in the context menu, select Manage MAJCOM Quals. 
-
-**3.** In the dialog, choose the Primary Qual or Secondary Qual\(s\) section. 
-
-**4.** Change the MAJCOM Qual 3, 4 or 5 as required. 
-
-**5.** Click Save to save and close the dialog. Or Save & Close to save and remain in the dialog. 
-
-Click Cancel to get out of the dialog with no changes. 
+Click Cancel to get out of the dialog with no changes
 
 **Managing Draft Changes**
 
-**1.** Select the Manage Draft Changes icon. 
+1. Select the Manage Draft Changes icon.
+2. In the Manage Drafts dialog, choose a squadron to return a list of “Draft Changes”.
+3. Check the radio box next to the personnel name and certification.
+4. Right click to Approve or Disapprove single or multiple Certifications or select the approve or disprove icon. 
 
-**2.** In the Manage Drafts dialog, choose a squadron to return a list of “Draft Changes”. 
+Draft Certifications will NOT display in the LoX Display grid as well as all other areas throughout PEX that use personnel certifications. Draft Certifications can be approved or disapproved on the notification banner on My Page. See the My Page help file for details.
 
-**3.** Check the radio box next to the personnel name and certification. 
-
-**4.** Right click to Approve or Disapprove single or multiple Certifications or select the approve or disprove icon. 
-
-Draft Certifications will NOT display in the LoX Display grid as well as all other areas throughout PEX 
-
-that use personnel certifications. Draft Certifications can be approved or disapproved on the notification banner on My Page. See the My Page help file for details. 
-
-**CAUTION**: 
-
-■ Personnel Draft Certifications must be approved or disapproved before a person can be exported from one squadron to another or being moved from one squadron to another. 
-
-Exporting or moving personnel are done in Setup, Personnel module. When Drafts is enabled, users will get a warning that the record can’t be moved and a log file will tell the user which records are holding up the export or move. 
-
-■ Personnel Draft Certifications impacts filters in other modules. If this is enabled, and a person has a draft certification, a filter requiring a particular certification will not return that person’s name, unless he had a previously approved certification. For example; you are filtering for a certification named “SOF with X status” and SmithJ had the certification as SOF with an X 
-
-status. But now he’s assigned a draft that is SOF, E status. When filtering for SOF, X status, SmithJ’s name will return. If filtering for SOF E status, SmithJ’s name won’t return. 
-
-54 
-
-!(images/000039.png)
+!!! caution "Caution"
+     * Personnel Draft Certifications must be approved or disapproved before a person can be exported from one squadron to another or being moved from one squadron to another. Exporting or moving personnel are done in Setup, Personnel module. When Drafts is enabled, users will get a warning that the record can’t be moved and a log file will tell the user which records are holding up the export or move.
+     * Personnel Draft Certifications impacts filters in other modules. If this is enabled, and a person has a draft certification, a filter requiring a particular certification will not return that person’s name, unless he had a previously approved certification. For example; you are filtering for a certification named “SOF with X status” and SmithJ had the certification as SOF with an X status. But now he’s assigned a draft that is SOF, E status. When filtering for SOF, X status, SmithJ’s name will return. If filtering for SOF E status, SmithJ’s name won’t return.
 
 **Manually Calculate Display Effective Mission Ready Status**
 
-**1.** Load a template that has Effective Mission Ready Status selected as a display option. 
-
-**2.** Right click on the person’s name and select Calculate Mission Ready Status. 
-
-• When MRS changes are made in Continuation Training > Setup > MRS Calc Options, or via an ARMS import, "Calculating" will briefly display in the Effective Msn Rdy Status column. 
-
-• Changes to RAP Requirements, SIM RAP/Msn Rdy, or RAP O&M TDY in Training> Continuation> Setup do not invoke a calculation of MRS. 
-
-• If Effective Mission Ready Status is not set in Continuation Training > Setup > MRS Calc Options, a message to that effect will display for the person. 
+1. Load a template that has Effective Mission Ready Status selected as a display option.
+2. Right click on the person’s name and select Calculate Mission Ready Status.
+     * When MRS changes are made in Continuation Training > Setup > MRS Calc Options, or via an ARMS import, "Calculating" will briefly display in the Effective Msn Rdy Status column.
+     * Changes to RAP Requirements, SIM RAP/Msn Rdy, or RAP O&M TDY in Training> Continuation> Setup do not invoke a calculation of MRS.
+     * If Effective Mission Ready Status is not set in Continuation Training > Setup > MRS Calc Options, a message to that effect will display for the person.
 
 **View Qualification and Certification Totals**
 
-Totals returned are based on the personnel filter and template display options selected. 
+Totals returned are based on the personnel filter and template display options selected. Qualification information is updated from the Setup > Personnel Module > Quals tab.
 
-Qualification information is updated from the Setup > Personnel Module > Quals tab. 
-
-**1.** Click the Totals Icon 
-
-**2.** Right click in the resulting tables to export to Excel. 
+1. Click the Totals Icon
+2. Right click in the resulting tables to export to Excel.
 
 **Print or Save LoX Report**
 
-■ Click the Printer Icon at the top, right of page to generate a PDF report. 
+* Click the Printer Icon at the top, right of page to generate a PDF report.
+* Click the Excel Icon at the top, right of page to generate an Excel report.
 
-■ Click the Excel Icon at the top, right of page to generate an Excel report. 
-
-**NOTE**: An alternative export of LoX information can be generated in Setup > Personnel > Rosters tab. 
+!!! note "Note"
+     An alternative export of LoX information can be generated in Setup > Personnel > Rosters tab.
 
 **Produce, Print and Save a LoX Currency Capacity Report**
 
-A Currency Capacity report can be built from the Letter of X page, displaying the number of people holding a certification within a date span, based on Cert Date and Expire Date. 
+A Currency Capacity report can be built from the Letter of X page, displaying the number of people holding a certification within a date span, based on Cert Date and Expire Date.
 
-**1.** Click the Totals icon and, in the dropdown, select Currency Capacity. 
-
-**2.** When the dialog opens, select Squadron, Start Date, End Date, \(Cert Date and Expire Date\), Qual Code, Crew Position, Certification and Status. 
-
-**3.** Click View Currency. 
-
-**4.** The resulting report can be produced as a PDF or Excel file. 
+1. Click the Totals icon and, in the dropdown, select Currency Capacity.
+2. When the dialog opens, select Squadron, Start Date, End Date, \(Cert Date and Expire Date\), Qual Code, Crew Position, Certification and Status.
+3. Click View Currency.
+4. The resulting report can be produced as a PDF or Excel file.
 
 **Identify Missing Training Tasks Setting a Person's Certification Status to DsubT**
 
-indicates a person's certification is decertified for missing training events. Identify those missing events by: 
+![icon_dsubt](PEX/img/Ops/../../../img/Ops/icon_dsubt.png) indicates a person's certification is decertified for missing training events. Identify those missing events by:
 
-**1.** Clicking on/highlighting the person with DsubT displayed. 
+1. Clicking on/highlighting the person with DsubT displayed.
+2. In the menu, click DsubT Reason for Selected Person.
+3. When the dialog opens, view the missing training events.
 
-**2.** In the menu, click DsubT Reason for Selected Person. 
-
-**3.** When the dialog opens, view the missing training events. 
-
-
-
-55 
-
-Ops 
-
-
-
-**Squadron Daily Schedule**
+## Squadron Daily Schedule
 
 **Overview**
 
-The Squadron Daily Schedule \(SDS\) module is used to display the combined Supervisor, Flying, and Ground schedules on one screen. It also displays DNIF \(Duty Not Including Flying\) personnel and celestial times. The SDS auto-refreshes. The SDS is customizable and you can save layout templates to share with others to get a standardized look. The SDS is normally used as a display in the operations work area and for personnel to log TARs and 781 flying time at Maintenance Debrief. 
+The Squadron Daily Schedule \(SDS\) module is used to display the combined Supervisor, Flying, and Ground schedules on one screen. It also displays DNIF \(Duty Not Including Flying\) personnel and celestial times. The SDS auto-refreshes. The SDS is customizable and you can save layout templates to share with others to get a standardized look. The SDS is normally used as a display in the operations work area and for personnel to log TARs and 781 flying time at Maintenance Debrief.
 
 **Permissions**
 
-■ Basic User: has read only permissions 
-
-■ Administrator, Ops Desk, Ops Staff, SOF, Flight Scheduling, Ground Scheduling, MX Scheduling, and Training Auditor/ARMS: can update and make changes 
+* _Basic User_ - has read only permissions.
+* _Administrator, Ops Desk, Ops Staff, SOF, Flight Scheduling, Ground Scheduling, MX Scheduling, and Training Auditor/ARMS_ - can update and make changes.
 
 **Module Notes**
 
-Since the Squadron Daily Schedule is designed as a common area display, it opens in a separate, partially-minimized window. Expand the window to view al of the panes. If that window is closed, or if you cannot see it, click on**Launch Sq Daily Schedule**. 
+Since the Squadron Daily Schedule is designed as a common area display, it opens in a separate, partially-minimized window. Expand the window to view al of the panes. If that window is closed, or if you cannot see it, click on _Launch Sq Daily Schedule_.
 
 **Controls**
 
-PEX main menu >**Ops** >**Sq Daily Schedule**. 
+PEX main menu > Ops > Sq Daily Schedule
 
-When you initially open the Squadron Daily Schedule a small window will appear. You will need to expand the window and so al of the panes expand and are now visible. 
+When you initially open the Squadron Daily Schedule a small window will appear. You will need to expand the window and so al of the panes expand and are now visible.  
+Select the Squadron, Date, Date \(Time\) Settings for the squadron that you need.
 
-Select the Squadron, Date, Date \(Time\) Settings for the squadron that you need. 
+**Workspace**  
+![daily_schedule_workspace](PEX/img/Ops/../../../img/Ops/daily_schedule_workspace.jpg){: style="height:75%;width:75%"}
 
-**Workspace**
+_Configure Squadron Daily Schedule for Your Unit_
 
-56 
+Page setup is located in the upper right corner of the window.
 
-!(images/000085.jpg)
+Click on the Page icon and select `Page Settings`. The _Settings_ window will appear, divided into three panes:
 
-!(images/000051.jpg)
+* Page Settings
+* Show Grids
+* Show Commitments Grid
 
+![commitments_grid](PEX/img/Ops/../../../img/Ops/commitments_grid.jpg){: style="height:75%;width:75%"}
 
+!!! note "Note"
+     Celestial data is correct only if the Location coordinates, and Zulu & DST offset rules are entered correctly in Setup> Locations.
 
-**Configure Squadron Daily Schedule for Your Unit**
+!!! note "Note"
+     Your labels are determined by what was setup when the squadron was added to the database.
 
-Page setup is located in the upper right corner of the window. 
+1. Page Settings
+     1. _Min Refresh_
+     2. _Show Tail \#_ Tail Numbers are hidden on the SDS if a crew member on the sortie is in a No-Go status. You can override this feature here.
+     3. _Show Celestial_ If selected, celestial data \(Sun and Moon times\) for the current day is displayed based on your location.
+     4. Show Grids
+          1. Select which of your supervisor grids to display.
+          2. Select to display Sorties, DNIF personnel, and/or Squadron Remarks displayed.
+          3. Select to to display Sortie Data in Single or Double Row Format.
+     5. Show Commitment Grid. 
+         1. Check the number of personnel commitment grids to display.
+         2. In the Type drop-down, select which commitment type to display in each.
+         3. Checking the `8. Other` Type will list all other personnel commitment types not already selected \(except Sortie, which is filtered out\).
+     6. Click Save when selections have been completed.
+2. _Save Page Layout_ - To ensure your layout is saved correctly, complete these steps in order:
+     1. Right click on every grid that you have changed the column width or column order and select `Save Layout`.
+     2. Save the page layout from the Page Setup location.
+3. Restore Default Layout returns the SDS to the delivered settings.
+4. _Save as New Template_ - Enter a name for the layout template and select the Squadron button and click Save. Saving templates as Personal means only you can see them. Once saved, _Update \(name of template\)_ appears as an option.
+5. _Manage Templates_ - Allows editing of existing templates.
+6. _Apply Template_ - Makes the layout available to other squadron users.
 
-Click on the Page icon and select**Page Settings** The**Settings** window will appear, divided into three panes:**Page Settings**,**Show Grids** and**Show Commitments Grid**. 
+**Grid Customization**  
+With the exception of the Remarks & DNIF grid, each grid has its own Grid Settings and can be customized with a right-click > Grid Settings. When done in each grid, right-click and select Save Layout.
 
+!!! note "Note"
+     While editing the layout it is recommend that you go back to Page Settings and set the Refresh Rate to ten minutes or more so the screen doesn't refresh while you're working on it. Then, when you are done with the layout, set the Refresh Rate back to what you want.
 
+* _Sortie_ grid. Right mouse click on the Sortie Grid and select Grid Settings.
+     * _Data Format_ - Choose how many records to display per page and the desired font size.
+     * _Grid Columns_ - Select the columns you want displayed. Note that there are AFTO 781 and TAR Links options. These provide hotlinks to both forms and are normally displayed.
+     * _Crew Row Settings_ - Select the desired Crew Row data fields.
+     * _Open Sortie Events Settings Dialog_ accesses the _Sortie Events Setting_ - Select the Data Format, Sort Events By, Event Types and Event Columns. Click `Save` when completed.
+* To display multiple squadrons, click on the funnel filter icon, upper left, and pick your desired squadrons. This squadron filter applies to only the Sortie grid. It does not apply to the Commitment or DNIF lists
+* The other grids are configurable in the same manner using Grid Settings. 
+* _Remarks_ grid. To Add/Edit/Delete remarks, click on the down arrow and select Edit Remarks.
 
-**1.** Page Settings 
+This will bring up a dialog that allows you to enter up to 4000 characters. The Remarks are normally used to display airfield status remarks such as active runways, bird condition, taxiway closures, quiet hours, flying status, heat index, and/or wind chill. You can Copy and Paste remarks between squadrons to ensure standardization if needed.
 
-**A.****Min Refresh.** 
-
-**B.****Show Tail \#**. Tail Numbers are hidden on the SDS if a crew member on the sortie is in a No-Go status. You can override this feature here. 
-
-**C.****Show Celestial**. If selected, celestial data \(Sun and Moon times\) for the current day is displayed based on your location. 
-
-57 
-
-Ops 
-
-**NOTE**: celestial data is correct only if the Location coordinates, and Zulu & DST offset rules are entered correctly in Setup> Locations. 
-
-**D.** Show Grids 
-
-**1\)** Select which of your supervisor grids to display. 
-
-**2\)** Select to display Sorties, DNIF personnel, and/or Squadron Remarks displayed. 
-
-**3\)** Select to to display Sortie Data in Single or Double Row Format. 
-
-**NOTE**: Your labels are determined by what was setup when the squadron was added to the database. 
-
-**E.** Show Commitment Grid 
-
-**1\)** Check the number of personnel commitment grids to display. 
-
-**2\)** In the Type drop-down, select which commitment type to display in each. 
-
-**3\)** Checking the "**8. Other**" Type will list all other personnel commitment types not already selected \(except Sortie, which is filtered out\). 
-
-**F.** Click Save when selections have been completed. 
-
-**2.** Save Page Layout 
-
-To ensure your layout is saved correctly, complete these steps in order:**A.** Right click on every grid that you have changed the column width or column order and select**Save Layout**. 
-
-**B.** Save the page layout from the Page Setup location. 
-
-**3.** Restore Default Layout returns the SDS to the delivered settings. 
-
-**4.****Save as New Template**. Enter a name for the layout template and select the Squadron button and click Save. Saving templates as Personal means only you can see them. Once saved,**Update** \(name of template\) appears as an option. 
-
-**5.****Manage Templates** allows editing of existing templates. 
-
-**6.****Apply Template** makes the layout available to other squadron users. 
-
-**Grid Customization**
-
-With the exception of the Remarks & DNIF grid, each grid has its own Grid Settings and can be customized with a right-click > Grid Settings. When done in each grid, right-click and select Save Layout. 
-
-**NOTE**: While editing the layout it is recommend that you go back to Page Settings and set the Refresh Rate to ten minutes or more so the screen doesn't refresh while you're working on it. Then, when you are done with the layout, set the Refresh Rate back to what you want. 
-
-■**Sortie**grid. Right mouse click on the Sortie Grid and select Grid Settings. 
-
-•**Data Format**. Choose how many records to display per page and the desired font size. 
-
-•**Grid Columns**. Select the columns you want displayed. Note that there are AFTO 781 and TAR Links options. These provide hotlinks to both forms and are normally displayed. 
-
-•**Crew Row Settings**. Select the desired Crew Row data fields. 
-
-58 
-
-•**Open Sortie Events Settings Dialog** accesses the**Sortie Events Setting**. Select the Data Format, Sort Events By, Event Types and Event Columns. Click Save when completed. 
-
-■ To display multiple squadrons, click on the funnel filter icon, upper left, and pick your desired squadrons. This squadron filter applies to only the Sortie grid. It does not apply to the Commitment or DNIF lists. 
-
-■ The other grids are configurable in the same manner using Grid Settings. 
-
-■**Remarks** grid. To Add/Edit/Delete remarks, click on the down arrow and select Edit Remarks. 
-
-This will bring up a dialog that allows you to enter up to 4000 characters. The Remarks are normally used to display airfield status remarks such as active runways, bird condition, taxiway closures, quiet hours, flying status, heat index, and/or wind chill. You can Copy and Paste remarks between squadrons to ensure standardization if needed. 
-
-**ORM**
+## ORM
 
 **Setup ORM**
 
-**Introduction**
-
-The ORM \(Operational Risk Management\) module provides a tool for assessing the risk associated with conducting missions under different conditions. The module takes into consideration Sortie Type, Personnel Experience, Crew Stress, and user-defined Risk Conditions. 
+_Introduction_  
+The ORM \(Operational Risk Management\) module provides a tool for assessing the risk associated with conducting missions under different conditions. The module takes into consideration Sortie Type, Personnel Experience, Crew Stress, and user-defined Risk Conditions.
 
 **Permissions**
 
-■ To access and configure ORM > Setup tab: Administrator. 
-
-■ To accomplish Risk Analysis: Basic User, OPS Desk, OPS Staff, SOF, or Flight Scheduler. 
-
-■ To view the ORM module: Ground Scheduler or Flying Hours roles. 
+* To access and configure ORM > Setup tab: Administrator.
+* To accomplish Risk Analysis: Basic User, OPS Desk, OPS Staff, SOF, or Flight Scheduler.
+* To view the ORM module: Ground Scheduler or Flying Hours roles.
 
 **Rules**
-
-■ If the takeoff time is in the past, you cannot make changes to Risk Conditions or Crew Stress, and the Sortie Risk Value is preserved. 
-
-■ If more than one condition is selected within a category, PEX calculates the riskiest condition. 
+* If the takeoff time is in the past, you cannot make changes to Risk Conditions or Crew Stress, and the Sortie Risk Value is preserved.
+* If more than one condition is selected within a category, PEX calculates the riskiest condition.
 
 **Module Notes**
+* The Sorties grid displays sorties as setup in Scheduling > Flying Schedule > Crew tab. 
+* Selecting a formation shows all formation crewmembers, even though each sortie is independently valued.
+* The ORM module has no functionality for printing a report or for managing supervisor approval of missions.
 
-■ The Sorties grid displays sorties as setup in Scheduling > Flying Schedule > Crew tab. 
+**Controls**  
+These procedures are accessed by navigating to Ops > ORM.
 
-■ Selecting a formation shows all formation crewmembers, even though each sortie is independently valued. 
+**Setup Overview**  
+First setup other PEX modules for ORM. Then setup the ORM module itself by establishing Risk Categories, and within each Category, assign Risk Conditions and Values. Determine the Approval Authority Levels for accumulated Risk Levels. Assign Risk Weighting Settings.
 
-■ The ORM module has no functionality for printing a report or for managing supervisor approval of missions. 
+**Setup other PEX modules for ORM**  
+Before using ORM, you must customize the data in other PEX modules according to your personnel and mission. Go to:
 
-**Controls**
-
-These procedures are accessed by navigating to Ops > ORM. 
-
-59 
-
-Ops 
-
-**Setup Overview**
-
-First setup other PEX modules for ORM. Then setup the ORM module itself by establishing Risk Categories, and within each Category, assign Risk Conditions and Values. Determine the Approval Authority Levels for accumulated Risk Levels. Assign Risk Weighting Settings. 
-
-**Setup other PEX modules for ORM**
-
-Before using ORM, you must customize the data in other PEX modules according to your personnel and mission. Go to: 
-
-**1.** Setup > Validation > Scheduling > Mission Board > Sortie Type Enter a Risk Value between 1 and 10 for each sortie type, 10 being the most risky sortie types. 
-
-**2.** Setup > Personnel 
-
-**A.** In each person's Pri Exp Risk column, enter a subjective risk between 1 and 10 for that person. Low experience equals higher risk. For example, an experienced person might have a value of 2, while an inexperienced person might have a value of 9. 
-
-**B.** In the Setup tab > Crew Position, enter a subjective Risk Weighting percentage between 1 and 100 for each crew positions. The sum of your weightings for all crew positions must equal 100. For example, if you have single-seat fighters, enter 100. If you have a multi-crew mission, enter the percentage that each crew position impacts ORM. For example, Pilot = 75 
-
-and Copilot = 25. 
+1. Setup > Validation > Scheduling > Mission Board > Sortie Type Enter a Risk Value between 1 and 10 for each sortie type, 10 being the most risky sortie types.
+2. Setup > Personnel
+     1. In each person's Pri Exp Risk column, enter a subjective risk between 1 and 10 for that person. Low experience equals higher risk. For example, an experienced person might have a value of 2, while an inexperienced person might have a value of 9.
+     2. In the Setup tab > Crew Position, enter a subjective Risk Weighting percentage between 1 and 100 for each crew positions. The sum of your weightings for all crew positions must equal 100. For example, if you have single-seat fighters, enter 100. If you have a multi-crew mission, enter the percentage that each crew position impacts ORM. For example, Pilot = 75 and Copilot = 25.
 
 **Setup the ORM module**
 
-Go to Ops > ORM > Setup tab. 
+Go to Ops > ORM > Setup tab.
 
-**3.****Risk Categories.** Enter general categories of risk conditions. This list is completely unit-defined. Examples are Ceiling, Visibility, Icing, Precipitation, Crosswinds, and HQ Taskings. 
-
-**A.** Right-click and select the required categories from the Master List. 
-
-**B.** Add it if it is not contained in the Master List. 
-
-**4.****Risk Conditions.** The Risk Category column builds from the list of Risk Categories. 
-
-**A.** Right-click and add a row. 
-
-**B.** Select the required Category. 
-
-**C.** Enter a Risk Condition. 
-
-**D.** Enter a Risk Value. 
-
-**E.** Repeat as required other Risk Conditions and Values within each Category. 
-
-For example; Icing. 
-
-Risk Category 
-
-Risk Condition 
-
-Risk Value 
-
-Icing 
-
-Light 
-
-3 
-
-Icing 
-
-Moderate 
-
-5 
-
-Icing 
-
-Severe 
-
-7 
-
-
-
-60 
-
-**5.****Risk Levels.** This grid sets Approval Authority Level for accumulated risk values on each sortie. 
-
-**A.** Right-click and add a row. 
-
-**B.** Enter a Max Risk Level value. 
-
-**C.** Enter a Description. 
-
-**D.** Enter a Color. 
-
-**E.** Enter the Approval Authority. 
-
-For example; 
+1. Risk Categories_ - Enter general categories of risk conditions. This list is completely unit-defined. Examples are Ceiling, Visibility, Icing, Precipitation, Crosswinds, and HQ Taskings.
+     1. Right-click and select the required categories from the Master List.
+     2. Add it if it is not contained in the Master List.
+2. _Risk Conditions_ - The Risk Category column builds from the list of Risk Categories.
+     1. Right-click and add a row.
+     2. Select the required Category.
+     3. Enter a Risk Condition.
+     4. Enter a Risk Value.
+     5. Repeat as required other Risk Conditions and Values within each Category.
+     6. For example; Icing.
+>| Risk Category | Risk Condition | Risk Condition |
+>| ------------- | -------------- | -------------- |
+>| Icing         | Light          | 3              |
+>| Icing         | Moderate       | 5              |
+>| Icing         | Severe         | 7              |
+3. Risk Levels_ - This grid sets Approval Authority Level for accumulated risk values on each sortie.
+     4. Right-click and add a row.
+     5. Enter a Max Risk Level value.
+     6. Enter a Description.
+     7. Enter a Color.
+     8. Enter the Approval Authority. For example:
 
 Max Risk Level 
 
