@@ -359,9 +359,8 @@ The PEX Go/No-Go module implements a positive control system. The module allows 
 ![icon_green_thumbs_up](PEX/img/ops/../../../img/Ops/icon_green_thumbs_up.png) The person has no issues or restrictions.  
 ![icon_caution](PEX/img/ops/../../../img/Ops/icon_caution.png) The person has issues that may affect their ability to fly or perform required duties.  
 ![icon_thumbs_down](PEX/img/ops/../../../img/Ops/icon_thumbs_down.png) The person has issues that prevent the person from flying or performing required duties.  
-![icon_not_calculated](PEX/img/ops/../../../img/Ops/icon_not_calculated.png) Status is not yet calculated for the person's qualification.
-
-**NA** - Item not used by squadron.
+![icon_not_calculated](PEX/img/ops/../../../img/Ops/icon_not_calculated.png) Status is not yet calculated for the person's qualification.  
+**NA** Item not used by squadron.
 
 See the Legend for specifics on each item.
 
@@ -393,703 +392,445 @@ See the Legend for specifics on each item.
 * Personnel with multiple MDSs and/or Crew Positions may \(depending on the filters used\) appear more than once on the Board. For example, a person with MDS qualifications of both B-2A and T-38A may be current on all B-2A training tasks but overdue on a T-38A tasks. That person would be green on the B-2A row and yel ow on the T-38A row.
 
 **Controls**
+Access these features from the PEX Main Menu by navigating to Ops > Go/No-Go.
 
-Access these features from the PEX Main Menu by navigating to Ops > Go/No-Go. 
-
-**Workspace**
+**Workspace**  
 ![workspace](PEX/img/../../img/Ops/go_nogo_workspace.jpg){: style="height:80%;width:80%"}
 
-#LUKE LEFT OFF HERE#
+1. _Board_ - Status display area \(illustrated\).
+2. _Setup_ - Configure Go/No-Go for your unit.
+3. _Overal_ - Filter to status. These three options can be used in any combination. For example, to see only people with issues, slide the green switch left/off and the yellow and red switch right/on.
 
-**1.****Board**. Status display area \(illustrated\). 
+      1. See people who are green \(good-to-go\).
 
-**2.****Setup**. Configure Go/No-Go for your unit. 
+      2. See people who are yellow \(may be good-to-go\).
 
-**3.****Overal**. Filter to status. These three options can be used in any combination. For example, to see only people with issues, slide the green switch left/off and the yellow and red switch right/on. 
+      3. See people who are red \(not good-to-go\).
 
-**A.** See people who are green \(good-to-go\). 
+4. _Search Personnel_ - View an individual Person Status Summary.
+5. _Legend_ - Descriptions of indicators and colors by status.
+6. _Refresh_ - Auto-refresh occurs every five minutes. Manually refresh as required.
+7. _More Options_ \(...\).
+      * _Update Multiple Statuses_ Change the status of multiple people in one action.
+      * _Export_ Produce the Board display to PDF and Excel files.
+      * _Restore Default Grid Preferences_ Restores display preferences to the default settings.
+8. _Filter_ mode and selections.
+      * _MDS/CP_ View people by MDS and crew position \(illustrated\).
+      * _Schedule_ View people scheduled for missions and events.
+      * _Personnel_ - View people by customizable filters.
+9. _Personnel_ grid. Displays personnel based on filter settings. Data columns can be customized as desired. Overall \(cumulative\) status displays the most-limiting status displayed in the Status grid.
+10. _Status_ grid. Displays Go/No-Go items and individual statuses.
+     * Specific status Hover on a yellow or red indicator to view a tool tip with abbreviated status information.
+     * Click on a indicator to view full status information and, on some, update the status.
+11. _Pages and Items_
+    1. Scroll between pages, go directly to first page and last page.
+    2. New in 5.16.1.**Select the number of items \(people\) displayed on each page.
+    3. View the number of items on the current page and total items.
 
-**B.** See people who are yellow \(may be good-to-go\). 
+### Configuring Your Go/No-Go Board
 
-**C.** See people who are red \(not good-to-go\). 
+**Setup**  
+Setup allows you to customize the Go/No-Go Board for your unit. For all of the following go to Main Menu > Go/No-Go > Setup.
 
-**4.****Search Personnel**. View an individual Person Status Summary. 
+**Views**  
+An Item is an individual function, such TNG or S/E. A View is a selection of Items. Each squadron must select one View, while any one View can be used by many squadrons. PEX delivers a Default view out of the box to al squadrons.
 
-**5.****Legend**. Descriptions of indicators and colors by status. 
+**Select an existing View for a Squadron**  
+A squadron is assigned the Default View upon creation or if its existing View is de-selected.
 
-**6.****Refresh**. Auto-refresh occurs every five minutes. Manually refresh as required. 
-
-**7.****More Options \(. .\)**. 
-
-•**Update Multiple Statuses**. Change the status of multiple people in one action. 
-
-•**Export**. Produce the Board display to PDF and Excel files. 
-
-•**Restore Default Grid Preferences**. Restores display preferences to the default settings. 
-
-**8.****Filter** mode and selections. 
-
-•**MDS/CP**. View people by MDS and crew position \(illustrated\). 
-
-•**Schedule**. View people scheduled for missions and events. 
-
-•**Personnel**. View people by customizable filters. 
-
-**9.****Personnel** grid. Displays personnel based on filter settings. Data columns can be customized as desired. Overall \(cumulative\) status displays the most-limiting status displayed in the Status grid. 
-
-**10.****Status** grid. Displays Go/No-Go items and individual statuses. 
-
-• Specific status Hover on a yellow or red indicator to view a tool tip with abbreviated status information. 
-
-• Click on a indicator to view full status information and, on some, update the status. 
-
-**11.****Pages and Items**. 
-
-37 
-
-Ops 
-
-**A.** Scroll between pages, go directly to first page and last page. 
-
-**B.**** New in 5.16.1.**Select the number of items \(people\) displayed on each page. 
-
-**C.** View the number of items on the current page and total items. 
-
-**Configuring Your Go/No-Go Board**
-
-**Setup**
-
-Setup al ows you to customize the Go/No-Go Board for your unit. For all of the following go to Main Menu > Go/No-Go > Setup. 
-
-**Views**
-
-An Item is an individual function, such TNG or S/E. A View is a selection of Items. Each squadron must select one View, while any one View can be used by many squadrons. PEX delivers a Default view out of the box to al squadrons. 
-
-**Select an existing View for a Squadron**
-
-A squadron is assigned the Default View upon creation or if its existing View is de-selected. 
-
-**1.** Select a View: 
-
-**A.** Select By Views to sort by View title. 
-
-**B.** Select By Squadron to sort by squadron, with that squadron's selected View. 
-
-**2.** Click on View titles to see the selection and ordering of columns in the center panel under Manage Items. 
-
-**3.** With the desired View title highlighted, Click Manage Squadrons. 
-
-**4.** When Select Squadrons opens, check the squadron\(s\) to use that View. 
-
-**5.** Click Save, and it is listed under Squadrons Using View. 
+1. Select a View:
+     1. Select `By Views` to sort by View title.
+     2. Select `By Squadron` to sort by squadron, with that squadron's selected View.
+2. Click on View titles to see the selection and ordering of columns in the center panel under Manage Items.
+3. With the desired View title highlighted, Click Manage Squadrons.
+4. When Select Squadrons opens, check the squadron\(s\) to use that View.
+5. Click Save, and it is listed under Squadrons Using View.
 
 **Create a new View**
 
-**1.** Click**\+** Create New View. 
-
-**2.** Enter a View Title. 
-
-**3.** Check the items desired. indicators show the statuses associated to that item. Expanding each item displays a description of each status, including which is the default. 
-
-• The nine PEX Delivered Items are based on Air Force criteria. 
-
-• Custom Items are created by users based on unit requirements. See Create a new Go/No-Go item below. 
-
-**4.** Click Save. The new view appears in the View list 
-
-**5.** With the new View title highlighted, Click Manage Squadrons. 
-
-**6.** When Select Squadrons opens, check the squadron\(s\) to use that View. 
-
-**7.** Click Save, and it is listed under Squadrons Using View. 
-
-38 
+1. Click `+` Create New View.
+2. Enter a View Title.
+3. Check the items desired. indicators show the statuses associated to that item. Expanding each item displays a description of each status, including which is the default.
+     * The nine PEX Delivered Items are based on Air Force criteria.
+     * Custom Items are created by users based on unit requirements. See [Create a new Go/No-Go item]() below.
+4. Click Save. The new view appears in the View list
+5. With the new View title highlighted, Click Manage Squadrons.
+6. When Select Squadrons opens, check the squadron\(s\) to use that View.
+7. Click Save, and it is listed under Squadrons Using View.
 
 **Edit a View or create a copy of a View**
 
-**1.** Select the View from the list. 
-
-**2.** Click Manage Items. 
-
-**3.** In the Edit View dialog, create, check and uncheck Items as required. 
-
-**4.** Save options. 
-
-**A.** To retain the edited View with your new selections and the same title, click Save. 
-
-**B.** To retain the source View in its original form and add the just-edited View as new, edit the title and click Save As. 
+1. Select the View from the list.
+2. Click Manage Items.
+3. In the Edit View dialog, create, check and uncheck Items as required.
+4. Save options.
+     1. To retain the edited View with your new selections and the same title, click Save.
+     2. To retain the source View in its original form and add the just-edited View as new, edit the title and click Save As.
 
 **Delete a View**
 
-**1.** Select the View from the list. 
-
-**2.** Confirm no squadrons are using that View. 
-
-**A.** Any squadrons using that View are listed under Squadrons Using View. 
-
-**B.** If any are listed, click Manage Squadrons. 
-
-**C.** When Select Squadrons opens, uncheck the squadron\(s\) to use that View. 
-
-**D.** Click Save. 
-
-**3.** Select the View from the list. 
-
-**4.** Click the X next to the View Title. 
-
-**5.** Confirm you to delete the selected view. 
+1. Select the View from the list.
+2. Confirm no squadrons are using that View.
+     1. Any squadrons using that View are listed under Squadrons Using View.
+     2. If any are listed, click Manage Squadrons.
+     3. When Select Squadrons opens, uncheck the squadron\(s\) to use that View.
+     4. Click Save.
+3. Select the View from the list.
+4. Click the X next to the View Title.
+5. Confirm you to delete the selected view.
 
 **Create a new Go/No-Go Item**
 
-**NOTE:** Custom items are created by users based on their desired criteria. Therefore, these items cannot be tied or associated to any other PEX functionality and must be updated in the Go/No-Go module. See Utilizing the Go/No-Go Board for more. 
+!!! note "Note"
+     Custom items are created by users based on their desired criteria. Therefore, these items cannot be tied or associated to any other PEX functionality and must be updated in the Go/No-Go module. See Utilizing the Go/No-Go Board for more.
 
-**1.** Create new, custom items in an existing View, or when creating a new View. 
-
-**A.** Add to an existing View: 
-
-**1\)** Select the View from the list. 
-
-**2\)** Click Manage Items. 
-
-**3\)** In the Edit View dialog, click Create New Item. 
-
-**B.** Add when creating a new View: 
-
-**1\)** Follow the steps above to Create a new View. 
-
-**2\)** In the Create New View dialog, click Create New Item. 
-
-**2.** The Create Custom Item dialog opens. 
-
-**3.** Enter an Item title. 
-
-**4.** Select at least two statuses 
-
-**5.** Set one as the default. 
-
-**6.** Enter descriptions as desired. 
-
-39 
-
-!(images/000112.png)
-
-Ops 
-
-**7.** Click Save. 
+1. Create new, custom items in an existing View, or when creating a new View.
+     1. Add to an existing View:
+         1. Select the `View` from the list.
+         2. Click `Manage Items`.
+         3. In the Edit View dialog, click `Create New Item`.
+     2. Add when creating a new View:
+         1. Follow the steps above to Create a new View.
+         2. In the Create New View dialog, click Create New Item. 
+2. The _Create Custom Item_ dialog opens.
+3. Enter an Item title.
+4. Select at least two statuses
+5. Set one as the default.
+6. Enter descriptions as desired.
+7. Click `Save`.
 
 **Edit or Delete a Go/No-Go Item**
 
-**NOTES:** 
+!!! note "Note"
+    * The nine PEX Delivered Items are based on Air Force criteria. They can be removed from a View but cannot be edited or deleted from PEX.
+    * If buttons are not visible:
+         * If the Edit and Delete buttons are not visible, you do not have permission to the squadron that created the Item.
+         * If the Delete button is not visible, the Item is in use. Views using the Item are listed under the status descriptions. First remove it from all Views, then follow these steps. For more, see [Edit a View or create a copy of a View](), above.
+             1. Select a View containing the Item to be edited.
+             2. Click Manage Items.
+             3. Expand the desired Item.
+             4. Edit or Delete.
+                 1. Click Edit, make the desired changes and Save.
+                 2. Confirm the Delete.
 
-■ The nine PEX Delivered Items are based on Air Force criteria. They can be removed from a View but cannot be edited or deleted from PEX. 
+**Setup Training Tasks to be No-Go or Priority 1, or to al ow manual override**  
+For overdue continuation training tasks to appear in Go/No-Go they must be configured in Continuation Training as either No-Go or Priority 1. Enabling manual override is also accomplished in Continuation Training. For more see Continuation Training.
 
-■ If buttons are not visible: 
-
-• If the Edit and Delete buttons are not visible, you do not have permission to the squadron that created the Item. 
-
-• If the Delete button is not visible, the Item is in use. Views using the Item are listed under the status descriptions. First remove it from all Views, then follow these steps. For more, see Edit a View or create a copy of a View above. 
-
-**1.** Select a View containing the Item to be edited. 
-
-**2.** Click Manage Items. 
-
-**3.** Expand the desired Item. 
-
-**4.** Edit or Delete. 
-
-**A.** Click Edit, make the desired changes and Save. 
-
-**B.** Confirm the Delete. 
-
-**Setup Training Tasks to be No-Go or Priority 1, or to al ow manual override** For overdue continuation training tasks to appear in Go/No-Go they must be configured in Continuation Training as either No-Go or Priority 1. Enabling manual override is also accomplished in Continuation Training. For more see Continuation Training. 
-
-**NOTE:** A task can be set to both No-Go and Priority 1, but the red No-Go logic will override the Priority 1 logic. I.e., it wil be either red \(overdue\) or green \(not overdue\), but never yel ow. 
-
-
+!!! note "Note"
+     A task can be set to both No-Go and Priority 1, but the red No-Go logic will override the Priority 1 logic. I.e., it wil be either red \(overdue\) or green \(not overdue\), but never yellow.
 
 **Effective and Assigned Mission Ready Status**
+See [Effective and Assigned Mission Ready Status]()
 
-See Effective and Assigned Mission Ready Status 
+Ensure the Personnel module has the following fields filled in: Each person’s correct MDS, CPs, Qual Status Codes, and Mission Ready Status.
 
-Ensure the Personnel module has the following fields filled in: Each person’s correct MDS, CPs, Qual Status Codes, and Mission Ready Status. 
-
-**Aviation Service Code \(ASC\)**
-
-40 
-
-!(images/000070.png)
-
-The Aviation Service Code \(ASC\) is an Aviation Resource Management System \(ARMS\) term that defines the entitlement and flight status of an aircrew member. The code can be found on the crewmembers aeronautical orders \(AOs\). This code is a combination of two other codes, the crewmember’s Entitlement Status Code \(ESC\) plus the Flying Status Code \(FSC\). ASC = ESC \+ FSC. 
-
-Certain ASCs mark the person No-Go. 
-
-During the PEX import of ARMS training data, a Z-004 training task is generated by PEX, Z-004 HARM-ASC TERM DATE. Going beyond the ASC Termination Date will also mark the person as No-Go. 
-
-**ASC’s that are No-Go**. The ones in the right FSC column \(red\). 
-
-
-
-**Utilizing the Go/No-Go Board**
-
-**Board**
-
-**Filters**
-
-Filters must be selected to display the Go/No-Go Board status. 
-
-**1.** Go to Ops > Go/No-Go > Board > Filter By. 
-
-**2.** Select: 
-
-•**MDS/CP**: Select Squadron\(s\), MDS\(s\), CP\(s\) 
-
-•**Schedule**: Select Squadron\(s\), function \(Commitment, Mission, Event, etc.\), and individual item \(Staff Meeting, Sortie 1, Mid Shift, etc.\). 
-
-•**Personnel**: Select an existing PEX personnel filter or Launch Personnel Wizard to create a new one. 
-
-**3.** Click Load Go/NoGo. 
-
-To view an individual person, type their name in the Search Person field. 
-
-**Column settings \(vertical ellipsis\)**
-
-Column options \(not all are present in all columns\): 
-
-41 
-
-Ops 
-
-■ Sort Ascending 
-
-■ Sort Descending 
-
-■ Columns: select columns to view/hide. 
-
-■ Lock: Anchors the column to the left of the display. 
-
-■ Unlock: Un-anchors the column when locked. 
-
-**Person Status Summary**
-
-Open an individual's Person Status Summary by clicking their name or searching in the Search Personnel field. Functions similar to those described below are available in this summary. 
-
-**Overal**
-
-Indicates the overall or cumulative status of all Items relevant to the person. 
-
-**DNIF**
-
-DNIF \(Duties Not Involving Flying\) describes the person's medical status. The label can be changed in Setup > Personnel > DNIF, to, for example, DNIC or Sick. 
-
-■ Green \(default\): the person is medically qualified to perform required duties. 
-
-■ Red: the person is not medical y qualified to perform required duties. 
-
-**1.** Change one person's status: 
-
-**A.** Click on the indicator to open the DNIF setting dialog. 
-
-**B.** Click Yes to change the status. 
-
-**2.** Change multiple persons' status: 
-
-**A.** Click the More Options \(. .\) button and select DNIF. 
-
-**B.** In the Set DNIF Status dialog, select the desired people. 
-
-**C.** Click Change Status. 
-
-**D.** Confirm you want to set No Restrictions or No-Go Medical for all selected persons. 
-
-**E.** Click Update. 
-
-**NOTE:** If you select people with different DNIF statuses, i.e., some green and some red, clicking Update wil al be set to the selected status, i.e., all red or all green. 
-
-**FCIF**
-
-FCIFs \(Flight Crew Information Files\) are read files of an immediate nature and require an acknowledgment, in this case the PEX Security Identifier. FCIFs are managed in the FCIF Admin 
-
-module. 
-
-■ Green \(default\): the person has no unsigned FCIFs. 
-
-■ Yellow: the person needs to sign off a No-No-Go FCIF. 
-
-■ Red: the person needs to sign off No-Go FCIF. 
-
-**1.** Hover on the indicator to view a list of unsigned FCIFs. 
-
-42 
-
-**2.** Click on the indicator to open the FCIF Overview. 
-
-**3.** For each FCIF, view any attachments, enter your PEX Security Identifier, click Sign Off and close the Overview. 
-
-**TNG**
-
-TNG indicates Continuation Training task status. Statuses of yellow and red can be set to be manual y overridden in Go/No-Go. Priority 1, No-Go, and Manual Override status are set in the Continuation 
-
-Training module. 
-
-■ Green \(default\): the person has no overdue continuation training tasks. 
-
-■ Yellow: the person has overdue Priority 1 continuation training tasks. 
-
-■ Red: the person has overdue No-Go continuation training tasks. 
-
-**1.** Hover on the indicator to view a list of overdue tasks. 
-
-**2.** Click on the indicator to open the Go/No-Go Training Events overview. 
-
-**3.** Expand each task to view relevant information including due date, the number required, previously accomplished and remaining. 
-
-**4.** If the task is set to al ow Override, the blue Manage will appear on each task. 
-
-**5.** If the person has accomplished the task, click Manage to open the dialog log the task. 
-
-**A.** Enter the Accomplished Volume and Date \(required\). 
-
-**B.** Enter the Accomplished Hours and Method \(optional, at unit discretion\). 
-
-**C.** Click Apply. 
-
-**D.** When the Confirm Override dialog opens, click OK to confirm the override and generate a Training Accomplishment Report \(TAR\). 
-
-Manual update status is indicated by an "O" superimposed on the icon. Additional y, the icon changes to the next applicable color. For example, if a person is overdue both a Priority 1 task \(yellow\) and a NoGo task \(red\), when the NoGo task is updated, the icon changes from red to yellow and includes the "O". If the Priority 1 task is manually updated the color changes from yellow to green. 
-
-If the task is: 
-
-• An ARMS task: The task icon stays in override until the next ARMS import, after which the icon will reflect what is in ARMS; either current or overdue. 
-
-• A Unit Task requiring supervisor approval: The task icon remains in override until approved by the supervisor. 
-
-• A Unit Task not requiring supervisor approval: The task icon is immediately updated. 
-
-**NOTES:** 
-
-• The TNG will display a superimposed "A" when the Continuation Training module is set to ARMS Bypass. 
-
-• The FLY column \(described below\) may alter how you manage your No-Go display. If the FLY column tasks are marked No-Go or Priority 1, they will affect both the TNG and FLY 
-
-43 
-
-Ops 
-
-columns. To avoid this, ensure they are not marked as No-Go or Priority 1. They will still appear under FLY. For more see Setup- Configuring Your Go/No-Go Board.  
-
-**TEST**
-
-TEST indicates NoGo exam status. NoGo exams cannot be of evaluation requisite type; Stan/Eval requisite exam status appears in the S/E column. NoGo exams are created and assigned in Testing 
-
-Admin.  
-
-■ Green \(default\): the person has no assigned or overdue No-Go tests. 
-
-■ Yellow: the person has an assigned No-Go test. 
-
-■ Red: the person has an overdue or failed No-Go test. 
-
-**1.** Hover on the indicator to view the test status. 
-
-**2.** Click on the indicator to open the NoGo Exams overview. 
-
-**3.** If the person has accomplished the exam, click on the desired exam to open the dialog and enter results. 
-
-**A.** Enter the Completed Date and Grade, and click Save. 
-
-**B.** If the exam was failed, the indicator will turn red \(even if it was not due\) and the exam will be reassigned. 
+**Aviation Service Code \(ASC\)**  
+The Aviation Service Code \(ASC\) is an Aviation Resource Management System \(ARMS\) term that defines the entitlement and flight status of an aircrew member. The code can be found on the crewmembers aeronautical orders \(AOs\). This code is a combination of two other codes, the crewmember’s Entitlement Status Code \(ESC\) plus the Flying Status Code \(FSC\). ASC = ESC \+ FSC.
+
+Certain ASCs mark the person No-Go.
+
+During the PEX import of ARMS training data, a Z-004 training task is generated by PEX, Z-004 HARM-ASC TERM DATE. Going beyond the ASC Termination Date will also mark the person as No-Go.
+
+_ASC’s that are No-Go_ - The ones in the right FSC column \(red\).  
+![aviation_service_code_table](PEX/img/../../img/Ops/aviation_service_code_table.png){: style="height:75%;width:75%"}
+
+### Utilizing the Go/No-Go Board
+
+**Board**  
+_Filters_ - Filters must be selected to display the Go/No-Go Board status.
+
+1. Go to Ops > Go/No-Go > Board > Filter By.
+2. Select:
+     * _MDS/CP_ - Select Squadron\(s\), MDS\(s\), CP\(s\)
+     * _Schedule_ - Select Squadron\(s\), function \(Commitment, Mission, Event, etc.\), and individual item \(Staff Meeting, Sortie 1, Mid Shift, etc.\).
+     * _Personnel_ - Select an existing PEX personnel filter or Launch Personnel Wizard to create a new one.
+3. Click `Load Go/NoGo`. To view an individual person, type their name in the Search Person field.
+
+**Column settings \(vertical ellipsis\)**  
+Column options \(not all are present in all columns\):
+* Sort Ascending
+* Sort Descending
+* _Columns_ - select columns to view/hide.
+* _Lock_ - Anchors the column to the left of the display.
+* _Unlock_ - Un-anchors the column when locked.
+
+**Person Status Summary**  
+Open an individual's Person Status Summary by clicking their name or searching in the Search Personnel field. Functions similar to those described below are available in this summary.
+
+**Overall**  
+Indicates the overall or cumulative status of all Items relevant to the person.
+
+**DNIF**  
+Duties Not Including Flying/Controlling \(DINF/DNIC\) describes the person's medical status. The label can be changed in Setup > Personnel > DNIF.
+
+* Green \(default\): the person is medically qualified to perform required duties.  
+* Red: the person is not medical y qualified to perform required duties.  
+     1. Change one person's status:
+         1. Click on the indicator to open the DNIF setting dialog.
+         2. Click Yes to change the status.
+     2. Change multiple persons' status:
+         1. Click the More Options \(. .\) button and select DNIF.
+         2. In the _Set DNIF Status_ dialog, select the desired people.
+         3. Click `Change Status`.
+         4. Confirm you want to set No Restrictions or No-Go Medical for all selected persons.
+         5. Click `Update`.
+
+!!! note "Note"
+     If you select people with different DNIF statuses, i.e., some green and some red, clicking Update wil al be set to the selected status, i.e., all red or all green. 
+
+**FCIF**  
+FCIFs \(Flight Crew Information Files\) are read files of an immediate nature and require an acknowledgment, in this case the PEX Security Identifier. FCIFs are managed in the FCIF Admin module.
+
+* _Green_ \(default\) - The person has no unsigned FCIFs.
+* _Yellow_ - The person needs to sign off a No-No-Go FCIF.
+* _Red_ - The person needs to sign off No-Go FCIF.
+
+1. Hover on the indicator to view a list of unsigned FCIFs.
+2. Click on the indicator to open the FCIF Overview.
+3. For each FCIF, view any attachments, enter your PEX Security Identifier, click Sign Off and close the Overview.
+
+**TNG**  
+TNG indicates Continuation Training task status. Statuses of yellow and red can be set to be manually overridden in Go/No-Go. Priority 1, No-Go, and Manual Override status are set in the [Continuation Training]() module.
+
+* _Green_ \(default\) - The person has no overdue continuation training tasks.
+* _Yellow_ - The person has overdue Priority 1 continuation training tasks.
+* _Red_ - The person has overdue No-Go continuation training tasks.
+
+1. Hover on the indicator to view a list of overdue tasks.
+2. Click on the indicator to open the Go/No-Go Training Events overview.
+3. Expand each task to view relevant information including due date, the number required, previously accomplished and remaining.
+4. If the task is set to al ow Override, the blue Manage will appear on each task.
+5. If the person has accomplished the task, click Manage to open the dialog log the task.
+ Enter the Accomplished Volume and Date \(required\).
+     1. Enter the Accomplished Hours and Method \(optional, at unit discretion\).
+     2. Click `Apply`.
+     3. When the _Confirm Override_ dialog opens, click `OK` to confirm the override and generate a Training Accomplishment Report \(TAR\).
+
+Manual update status is indicated by an "O" superimposed on the icon. Additional y, the icon changes to the next applicable color. For example, if a person is overdue both a Priority 1 task \(yellow\) and a NoGo task \(red\), when the NoGo task is updated, the icon changes from red to yellow and includes the "O". If the Priority 1 task is manually updated the color changes from yellow to green.
+
+If the task is:
+
+* An ARMS task: The task icon stays in override until the next ARMS import, after which the icon will reflect what is in ARMS; either current or overdue.
+* A Unit Task requiring supervisor approval: The task icon remains in override until approved by the supervisor.
+* A Unit Task not requiring supervisor approval: The task icon is immediately updated.
+
+!!! notes "Notes"
+     * The TNG will display a superimposed "A" when the Continuation Training module is set to ARMS Bypass.
+     * The FLY column \(described below\) may alter how you manage your No-Go display. If the FLY column tasks are marked No-Go or Priority 1, they will affect both the TNG and FLY columns. To avoid this, ensure they are not marked as No-Go or Priority 1. They will still appear under FLY. For more see [Setup- Configuring Your Go/No-Go Board]().  
+
+**TEST**  
+TEST indicates NoGo exam status. NoGo exams cannot be of evaluation requisite type; Stan/Eval requisite exam status appears in the S/E column. NoGo exams are created and assigned in Testing Admin.  
+
+* Green \(default\): the person has no assigned or overdue No-Go tests.
+* Yellow: the person has an assigned No-Go test.
+* Red: the person has an overdue or failed No-Go test.
+     1. Hover on the indicator to view the test status.
+     2. Click on the indicator to open the NoGo Exams overview.
+     3. If the person has accomplished the exam, click on the desired exam to open the dialog and enter results.
+         1. Enter the Completed Date and Grade, and click Save.
+         2. If the exam was failed, the indicator will turn red \(even if it was not due\) and the exam will be reassigned.
 
 **S/E**
 
-**NOTE:** The status colors, including the default, displayed in Go/No-Go are dependent on settings in Stan/Eval > Management > Setup > Preferences > Rules. This describes nominal settings; your display colors may be different. For more see Setup- Configuring SEM.  
+!!! note "Note"
+     The status colors, including the default, displayed in Go/No-Go are dependent on settings in Stan/Eval > Management > Setup > Preferences > Rules. This describes nominal settings; your display colors may be different. For more see Setup- Configuring SEM.  
 
-■ Green \(default\): the person has no Stan/Eval issues. 
+* _Green_ \(default\) - The person has no Stan/Eval issues.
 
-■ Yellow: the person has a missing, overdue or failed evaluation or requisite, or is on a restriction/supervised status. 
+* _Yellow_ - the person has a missing, overdue or failed evaluation or requisite, or is on a restriction/supervised status.
 
-■ Red: the person has an overdue or failed evaluation. 
+* _Red_ -  the person has an overdue or failed evaluation.
+     1. Hover on the indicator to view the evaluation status.
+     2. Click on the indicator to open the S/E Overview. S/E status cannot be updated in the Go/No-Go module.
 
-**1.** Hover on the indicator to view the evaluation status. 
+**FLY**  
+FLY indicates ARMS “Z” events. To ensure FLY status is current, go to Training > Continuation > ARMS
 
-**2.** Click on the indicator to open the S/E Overview. S/E status cannot be updated in the Go/No-Go module. 
+tab > Settings > Do not include on Training Import, and verify the following are NOT checked: Z-001
+HARM-PHYSICAL, Z-002 HARM ALT-CHMBR, and Z-004 HARM -ASC TERM DATE.
 
-**FLY**
+* _Green_ -The person's flight physical and altitude chamber are current, and has no disqualifying ASC.
+* _Red_ \(default\) - The person is overdue a flight physical or altitude chamber, or has a disqualifying ASC.
+     1. Hover on the indicator to view the Z event status.
 
-FLY indicates ARMS “Z” events. To ensure FLY status is current, go to Training > Continuation > ARMS 
+**HRS**  
+HRS indicates whether the person has exceeded maximum flying hour limitations. These limits are set in the Continuation Training module. These data reflect those recorded in ARMS.
 
-tab > Settings > Do not include on Training Import, and verify the following are NOT checked: Z-001 
+* _Green_ - The person has not exceeded the maximum.
+* _Yellow_ - \(default\) - The person has exceeded one or more of the preceding 7, 30, 60, or 90 day maximums.
+     1. Hover on the indicator to view the hours status.
 
-HARM-PHYSICAL, Z-002 HARM ALT-CHMBR, and Z-004 HARM -ASC TERM DATE. 
+**Msn Rdy Status**  
+Msn Rdy Status compares assigned to effective Mission Ready Status.
 
-■ Green: the person's flight physical and altitude chamber are current, and has no disqualifying ASC. 
-
-■ Red \(default\): the person is overdue a flight physical or altitude chamber, or has a disqualifying ASC. 
-
-**1.** Hover on the indicator to view the Z event status. 
-
-44 
-
-**HRS**
-
-HRS indicates whether the person has exceeded maximum flying hour limitations. These limits are set in the Continuation Training module. These data reflect those recorded in ARMS. 
-
-■ Green: the person has not exceeded the maximum. 
-
-■ Yellow \(default\): the person has exceeded one or more of the preceding 7, 30, 60, or 90 day maximums. 
-
-**1.** Hover on the indicator to view the hours status. 
-
-**Msn Rdy Status**
-
-Msn Rdy Status compares assigned to effective Mission Ready Status. 
-
-■ Green: Performing at CMR. 
-
-■ Yellow: Performing at BMC. 
-
-■ Red: Not performing at CMR/BMC. 
+* _Green_ - Performing at CMR.
+* _Yellow_ - Performing at BMC.
+* _Red_ - Not performing at CMR/BMC.
 
 **Effective Msn Rdy Status**
 
-■ Assigned Mission Ready Status: What the person is assigned in the Personnel module. 
+* _Assigned Mission Ready Status_ - What the person is assigned in the Personnel module.
+* _Effective Mission Ready Status_ - Status the person is currently performing at based on the requirements entered in the Continuation Training module.
+      * _Green Check_ - Assigned BMC or CMR, and Assigned and Effective Msn Rdy Status are the same.
+      * _Gold P_ - Assigned BMC or CMR, and Probation for Effective Msn Rdy Status.
+      * _Red X_ - Assigned BMC or CMR, but performance is NBMC or NCMR.
+      * _Blue Up Arrow_ - Assigned BMC, but performing at CMR.
+      * _Pink Down Arrow_ - Assigned CMR, effective is calculated at NCMR, but performing at BMC.
 
-■ Effective Mission Ready Status: Status the person is currently performing at based on the requirements entered in the Continuation Training module. 
+!!! notes "Notes"
+     * When MRS changes are made in Continuation Training > Setup > MRS Calc Options, or via an ARMS import, "Calculating" will briefly display in the Effective Msn Rdy Status column.
+     * Changes to RAP Requirements, SIM RAP/Msn Rdy, or RAP O&M TDY in Training > Continuation > Setup do not invoke a calculation of MRS.
 
-• Green Check: Assigned BMC or CMR, and Assigned and Effective Msn Rdy Status are the same. 
+**IN/OUT**  
+IN/OUT displays the in/out status of a person, and displays the total present in the column header. A person cannot change their own status.
 
-• Gold P: Assigned BMC or CMR, and Probation for Effective Msn Rdy Status. 
+* _Green_ - The person is present for duty.
+* _Red_ - The person is not present for duty.
+     1. Change a person's status:
+         1. Click on the indicator to open the dialog.
+         2. Click In or Out to change the status.
 
-• Red X: Assigned BMC or CMR, but performance is NBMC or NCMR. 
+**Custom items**  
+These are configured by your unit PEX or Stan/Eval administrator. See [Configuring Your Go/No-Go Board]() for more on how to create or edit customized items.
 
-• Blue Up Arrow: Assigned BMC, but performing at CMR. 
+To view the item criteria or change the status:
 
-• Pink Down Arrow: Assigned CMR, effective is calculated at NCMR, but performing at BMC. 
-
-**NOTES:**
-
-• When MRS changes are made in Continuation Training > Setup > MRS Calc Options, or via an ARMS import, "Calculating" will briefly display in the Effective Msn Rdy Status column. 
-
-• Changes to RAP Requirements, SIM RAP/Msn Rdy, or RAP O&M TDY in Training > Continuation > Setup do not invoke a calculation of MRS. 
-
-**IN/OUT**
-
-IN/OUT displays the in/out status of a person, and displays the total present in the column header. 
-
-A person cannot change their own status. 
-
-■ Green: The person is present for duty. 
-
-■ Red: The person is not present for duty. 
-
-**1.** Change a person's status: 
-
-**A.** Click on the indicator to open the dialog. 
-
-**B.** Click In or Out to change the status. 
-
-45 
-
-Ops 
-
-**Custom items**
-
-These are configured by your unit PEX or Stan/Eval administrator. See Configuring Your Go/No-Go 
-
-Board for more on how to create or edit customized items. 
-
-To view the item criteria or change the status: 
-
-**1.** Click on the status indicator for the person and the Set Status window opens. 
-
-**2.** View the current status, criteria for each status, the default status, and any remarks. 
-
-**3.** Change the status as required. 
-
-**4.** Add/edit remarks as required. 
-
-**5.** Click Save. 
+1. Click on the status indicator for the person and the Set Status window opens.
+2. View the current status, criteria for each status, the default status, and any remarks.
+3. Change the status as required.
+4. Add/edit remarks as required.
+5. Click Save.
 
 **Update Multiple Statuses**
 
-Update multiple people in one operation. 
+Update multiple people in one operation.
 
-**1.** Click on the More Options \(. .\) button > Update Multiple Statuses > DNIF \(or custom item, if applicable\). 
+1. Click on the More Options \(...\) button > Update Multiple Statuses > DNIF \(or custom item, if applicable\).
+2. Select all Personnel to be updated.
+3. Click `Change Status`.
+4. In the Update dialog, choose the desired state.
+5. Click `Update`.
 
-**2.** Select al Personnel to be updated. 
+**NIPR to SIPR Pre-Calculated Data**  
+If your Go/No-Go data has been pushed from a NIPR database to a SIPR database, the view/change functionality described above is not present. Instead, hover on an indicator and view a tool tip describing that person's status. The tool tip is available on all databases.
 
-**3.** Click Change Status. 
-
-**4.** In the Update dialog, choose the desired state. 
-
-**5.** Click Update. 
-
-**NIPR to SIPR Pre-Calculated Data**
-
-If your Go/No-Go data has been pushed from a NIPR database to a SIPR database, the view/change functionality described above is not present. Instead, hover on an indicator and view a tool tip describing that person's status. The tool tip is available on all databases. 
-
-
-
-**Letter of X**
+## Letter of X
 
 **Letter of X Basics**
 
-**Introduction**
+_Introduction_  
+The Letter of X \(LoX\), also known as the Letter of Certifications, tracks certifications by person.
 
-The Letter of X \(LoX\), also known as the Letter of Certifications, tracks certifications by person. 
-
-Personnel can by organized into groupings by MDS, CP, etc. Certifications can be organized in unit-defined groups. LoX is database-wide using the visibility concept which allows certifications to be used by all units in the database, provided the certification is marked as visible to those units in the setup. The visibility concept makes it much easier to remove Certifications, Statuses, and Categories when not in use. 
+Personnel can by organized into groupings by MDS, CP, etc. Certifications can be organized in unit-defined groups. LoX is database-wide using the visibility concept which allows certifications to be used by all units in the database, provided the certification is marked as visible to those units in the setup. The visibility concept makes it much easier to remove Certifications, Statuses, and Categories when not in use.
 
 **Permissions**
 
-■ PEX Administrator and LoX Administrator: add, manage, assign, unassign certifications and create templates and custom views. 
+* _PEX Administrator_ and _LoX Administrator_ - Add, manage, assign, unassign certifications and create templates and custom views.
+* _Draft Approver_ - If draft approver process is enabled, approve and disapprove certification changes.
+* _Basic User_ - View LoX using already created filters, custom views and templates.
 
-46 
+**Module Notes**  
+Certifications are tied to specific MDS\(s\) and Crew Position\(s\).
 
-■ Draft Approver: if draft approver process is enabled, approve and disapprove certification changes. 
-
-■ Basic User: View LoX using already created filters, custom views and templates. 
-
-**Module Notes**
-
-Certifications are tied to specific MDS\(s\) and Crew Position\(s\). 
-
-**WARNING:**Changing a LoX item will affect all squadrons with visibility to that item. For example, your database has the certification “Syrian AOR Threat” and visibility is selected for multiple squadrons. If you change the item to “Syrian Air Threat” it will appear as such in al squadrons, not just yours. This includes squadrons using the item to which you may not have permission. For more see Miscellaneous > Visibility Model.****
+!!! warning "Warning"
+     Changing a LoX item will affect all squadrons with visibility to that item. For example, your database has the certification “Syrian AOR Threat” and visibility is selected for multiple squadrons. If you change the item to “Syrian Air Threat” it will appear as such in al squadrons, not just yours. This includes squadrons using the item to which you may not have permission. For more see [Miscellaneous > Visibility Model].()
 
 **Definitions**
 
-**Qualification**. A qualification is the person’s reason for being in the squadron. It consists of an MDS 
+_Qualification_ - A qualification is the person’s reason for being in the squadron. It consists of an MDS and Crew Position. A person must have at least one primary qualification, but can have as many secondary qualifications as needed. A person’s qualification \(or Qual\) is established in Setup > Personnel > Quals Tab.
 
-and Crew Position. A person must have at least one primary qualification, but can have as many secondary qualifications as needed. A person’s qualification \(or Qual\) is established in Setup > Personnel > Quals Tab. 
+_Certification_ - A Certification is a basic capability that you want to assign to a select person or group of people for scheduling and/or tracking purposes.
 
-**Certification**. A Certification is a basic capability that you want to assign to a select person or group of people for scheduling and/or tracking purposes. 
+_Draft_ - A change to a person’s certification. This only applies when the Squadron has chosen to “Enable Draft Process”. A change can be the first time a person is assigned the certification, a change to the person’s status, certification, decertification, recertification, and/or expiration dates, and any remarks associated to the certification.
 
-**Draft**. A change to a person’s certification. This only applies when the Squadron has chosen to 
+_Category_ - Categories are optional. They are used to organize certifications.
 
-“Enable Draft Process”. A change can be the first time a person is assigned the certification, a change to the person’s status, certification, decertification, recertification, and/or expiration dates, and any remarks associated to the certification. 
+_Statuses_ - The range of symbols you want to select from when assigning someone a certification \(i.e., X, I, T\). The status also includes a definition. The status and definition together makes the status unique, therefore, there can be a status of T – Training and T – In Training.
 
-**Category**. Categories are optional. They are used to organize certifications. 
+_Assigned Mission Ready Status_ - What the person is assigned in the Personnel module
 
-**Statuses**. The range of symbols you want to select from when assigning someone a certification \(i.e., X, I, T\). The status also includes a definition. The status and definition together makes the status unique, therefore, there can be a status of T – Training and T – In Training. 
+_Effective Mission Ready Status_ - Status the person is currently performing at based on the requirements entered in the Continuation Training module.
 
-**Assigned Mission Ready Status**. What the person is assigned in the Personnel module**Effective Mission Ready Status**. Status the person is currently performing at based on the requirements entered in the Continuation Training module 
+_Is Certified_ - Each status has an "Is Certified" option. When checked, anyone with this status wil be counted for the respective certification in the Long Range Schedule and will be eligible for display in the Mission Board, Schedule Supervisors dropdown. For example, a status of "T" \(in training\) would have _Is Certified_ unchecked so trainees do not count towards shift requirements, nor would the person appear in the supervisor schedule dropdown.
 
-**Is Certified**. Each status has an "Is Certified" option. When checked, anyone with this status wil be counted for the respective certification in the Long Range Schedule and will be eligible for display in the Mission Board, Schedule Supervisors dropdown. For example, a status of T \(for in training\) would have Is Certified unchecked so trainees do not count towards shift requirements, nor would the person appear in the supervisor schedule dropdown. 
+_Visibility_ - An indication of whether a certification can be seen/used by a given unit.
 
-**Visibility**. An indication of whether a certification can be seen/used by a given unit**LoX Template**. The template determines what certifications will be displayed and in what order. It will determine if selected dates will be displayed with the certifications. It contains signature block data and remarks. 
+_LoX Template_ - The template determines what certifications will be displayed and in what order. It will determine if selected dates will be displayed with the certifications. It contains signature block data and remarks.
 
-**Certification Date**. Optional field to indicate when an individual was certified. 
+_Certification Date_ - Optional field to indicate when an individual was certified.
 
-**Recertification Date**. Optional field to indicate when an individual is due for recertification \(notionally\). 
+_Recertification Date_ - Optional field to indicate when an individual is due for recertification \(notionally\).
 
-47 
+_Expiration Date_ - Optional field that, when used \(and is a date that is in the past\) will cause the person to be Decertified \(for expiration\) in that certification.
 
-!(images/000066.jpg)
+_Decertification Date_ - Optional field that can be populated to indicate when a person was Decertified \(for cause\) in a given certification.
 
-Ops 
-
-**Expiration Date**. Optional field that, when used \(and is a date that is in the past\) will cause the person to be Decertified \(for expiration\) in that certification. 
-
-**Decertification Date**. Optional field that can be populated to indicate when a person was Decertified \(for cause\) in a given certification. 
-
-**Controls**
-
-These procedures are accessed by navigating from the PEX main menu to Ops > Letter of X. 
+_Controls_ - These procedures are accessed by navigating from the PEX main menu to Ops > Letter of X.
 
 **Workspace**
 
+![letter_of_x_workspace](PEX/img/../../img/Ops/letter_of_x_workspace.jpg){: style="height:100%;width:100%"}
 
-
-**1.** Setup 
-
-**A.** Set squadron preference to use draft approver. 
-
-**B.** View, edit, add, or delete categories. 
-
-**C.** View, edit, add, or delete status’. 
-
-**D.** View, edit, add, delete, make visible to squadron, and associate CT tasks to certifications. 
-
-**2.** Letter of X 
-
-**A.** View, assign, and unassign certifications, approve or disapprove draft certification, view certification and qualification totals, and print certifications report. 
-
-**B.** Filter Personnel Options: Select which personnel are displayed on LoX \(certification report\). Select entire squadron, create & apply personnel filter, or create & apply custom order. 
-
-**C.** View Template: Create & apply templates for what information about each person is displayed and what certifications are displayed on the LoX. 
+1. Setup
+     1. Set squadron preference to use draft approver.
+     2. View, edit, add, or delete categories.
+     3. View, edit, add, or delete status’.
+     4. View, edit, add, delete, make visible to squadron, and associate CT tasks to certifications.
+2. Letter of X
+   1. View, assign, and unassign certifications, approve or disapprove draft certification, view certification and qualification totals, and print certifications report.
+   2. Filter Personnel Options: Select which personnel are displayed on LoX \(certification report\). Select entire squadron, create & apply personnel filter, or create & apply custom order.
+   3. View Template: Create & apply templates for what information about each person is displayed and what certifications are displayed on the LoX.
 
 **Legend**
 
-• CMR with Green Check – CMR 
+* CMR with Green Check – CMR
+* BMC with Green Check – BMC
+* CMR with Gold P – CMR Probation \(did not make 1 and 3 month look back\)
+* BMC with Gold P – BMC Probation \(did not make 1 and 3 month look back\)
+* BMC with Pink Down Arrow – BMC \(downgraded to BMC from CMR, did not meet CMR requirements for at least two consecutive months\)
+* CMR with Blue Up Arrow – CMR \(upgraded from BMC to CMR, met CMR requirements\)
+* CMR with Red X – Did not meet CMR or BMC requirements for at least two consecutive months
+* BMC with Red X – Did not meet BMC requirements for at least two consecutive months
+  
+**Workflow**  
+![letter_of_x_workflow](PEX/img/Ops/../../../img/Ops/letter_of_x_workflow.jpg){: style="height:100%;width:100%"}
 
-• BMC with Green Check – BMC 
-
-• CMR with Gold P – CMR Probation \(did not make 1 and 3 month look back\) 
-
-• BMC with Gold P – BMC Probation \(did not make 1 and 3 month look back\) 48 
-
-!(images/000054.jpg)
-
-• BMC with Pink Down Arrow – BMC \(downgraded to BMC from CMR, did not meet CMR 
-
-requirements for at least two consecutive months\) 
-
-• CMR with Blue Up Arrow – CMR \(upgraded from BMC to CMR, met CMR requirements\) 
-
-• CMR with Red X – Did not meet CMR or BMC requirements for at least two consecutive months 
-
-• BMC with Red X – Did not meet BMC requirements for at least two consecutive months**Workflow**
-
-
-
-**Setup- Configuring the LoX**
+### Setup- Configuring the LoX
 
 **Preliminary Setup**
 
-Before building a Letter of X, your squadrons must be established \(Setup > Squadrons\), and populated with personnel \(Setup > Personnel\). These personnel need to be assigned at least one qualification via the Personnel Module, Quals Tab. The key elements in a qualification are the MDS 
-
-and Crew Position. 
+Before building a Letter of X, your squadrons must be established \(Setup > Squadrons\), and populated with personnel \(Setup > Personnel\). These personnel need to be assigned at least one qualification via the Personnel Module, Quals Tab. The key elements in a qualification are the MDS and Crew Position.
 
 **Setup**
 
-**Categories**
+_Categories_
 
-**1.** Go to Setup > Categories. 
+1. Go to Setup > Categories.
+2. Click Add Category.
+3. Enter the name, up to 25 characters, and save. Repeat as needed. For example, if you want to group your certifications under the headings Mission Qualifications and Non-Mission Qualifications, then create those two categories.
 
-**2.** Click Add Category. 
+_Status_
 
-**3.** Enter the name, up to 25 characters, and save. Repeat as needed. For example, if you want to group your certifications under the headings Mission Qualifications and Non-Mission Qualifications, then create those two categories. 
+4. Go to Setup > Status.
+5. Click Add Status.
+6. Enter the name, up to 5 characters. Enter a Description, up to 30 Characters. Uncheck the Is Certified Box only if you don’t want people assigned this status to count against mission requirements. Save. 
+7. Repeat for the range of statuses you plan to use. Common use cases would by**X** \(Qualified\),**I** \(Instructor\),**T** \(Training\).
 
-**Status**
+!!! caution "Caution"
+     Consult someone with database-wide LoX Admin permissions \(or higher\) before deleting a status from the list of statuses \(LoX > Setup > Statuses\). Anyone in the database using that status will lose it, even if they are in a different unit to which you do not have permissions.
 
-**4.** Go to Setup > Status. 
+_Certifications_
 
-**5.** Click Add Status. 
+8. Go to Setup > Certifications
+9. Click `Add Certification`.
+10. Check at least one MDS and Crew Position.
+11. Check at least one status.
+12. Check the optional category \(or categories\) you want to associate this certification with. 
+13. Check the units that will use this certification \(this is known as establishing visibility\)
+14. Click `Save`
 
-49 
-
-Ops 
-
-**6.** Enter the name, up to 5 characters. Enter a Description, up to 30 Characters. Uncheck the Is Certified Box only if you don’t want people assigned this status to count against mission requirements. Save. 
-
-**7.** Repeat for the range of statuses you plan to use. Common use cases would by**X** \(Qualified\),**I** \(Instructor\),**T** \(Training\). 
-
-**CAUTION:** Consult someone with database-wide LoX Admin permissions \(or higher\) before deleting a status from the list of statuses \(LoX > Setup > Statuses\). Anyone in the database using that status will lose it, even if they are in a different unit to which you do not have permissions. 
-
-**Certifications**
-
-**8.** Go to Setup > Certifications 
-
-**9.** Click Add Certification. 
-
-**10.** Check at least one MDS and Crew Position. 
-
-**11.** Check at least one status. 
-
-**12.** Check the optional category \(or categories\) you want to associate this certification with. 
-
-**13.** Check the units that will use this certification \(this is known as establishing visibility\)**14.** Click Save 
-
-**NOTE**: You will be unable to uncheck an MDS or CP setting once the certification is saved. You will still be able to check additional MDS and Crew Position combinations for that certification, but never uncheck. If an expected MDS or CP is not listed, make sure someone is assigned to that MDS and CP in Setup > Personnel Module > Quals Tab. 
+!!! note "Note"
+     You will be unable to uncheck an MDS or CP setting once the certification is saved. You will still be able to check additional MDS and Crew Position combinations for that certification, but never uncheck. If an expected MDS or CP is not listed, make sure someone is assigned to that MDS and CP in Setup > Personnel Module > Quals Tab. 
 
 **TTP:** Sometimes units carry certifications which are progressive and exclusive. These can be combined into a single certification with a unique status. For instance, 2-ship flight lead and 4-ship flight lead do not need to be tracked as separate certifications. The Certification could be Flight Lead and the status assigned could be 2F, 4F, and T. 
 
