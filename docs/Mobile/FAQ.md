@@ -2,17 +2,18 @@
 
 ---
 
-#### Q: Can I get email on my EFB?
+#### Q: Can I get official email on my mobile device?
 
-**A:** Yes. We can install your certs onto your EFB. However, you are only able to get email on your iPad if you are on the BOCKSCAR network. 
+**A:** Yes. We can install pki certificates on your device that will allow you to access email and most sites that require a CAC. However, you are only able to access if you are to the BOCKSCAR network.
 
 ---
 
-#### Q: What do I do if my account was involved in a classified incident?
+#### Q: What do I do if my mobile device is involved in a classified message incident?
 
-**A:** Contact us immeditely! Place iPad into airplane mode and bring it in ASAP. DO NOT power off or try and delete emails or files.
+**A:** Place the device into airplane mode. Contact us immeditely. Do _not_ power off the device, attempt to delete emails/files, or erase the device. 
 
-Note: Your iPad is synced with your email. So even if you were not on your EFB at the time of the incident, you still need to do the above.
+!!! danger "Warning"
+     Your device's email is synced with your email account. So even if you were not on your device/EFB at the time of the incident, you still need to do the above.
 
 ---
 
@@ -66,20 +67,18 @@ Occasionally, notices appear on the AF Portal and other official websites direct
 
 #### Q: What do I do if my case or screen cracks/breaks?
 
-**A:** If your case is broken or cracked, please bring it back to us and we will issue you a new one. Please do not throw them away. The same goes for if you screen is cracked. Please bring it in to us as soon as you notice the cracked screen so we can fix it before it gets worse.
+**A:** If your case is broken or cracked, please bring it back to us and we will issue you a new one. Please do not throw them away (we get them replaced under warranty). The same goes for cracked screen. Please bring it in to us as soon as you notice the cracked screen so we can fix it before it gets worse. We'll probably issue you a repalcment on the spot and take your broken device in for repairs.
 
 ---
 
-#### Q: If I am PCSing to another 55th Wing detachment, do I turn in my EFB?
+#### Q: If I am PCSing to another 55th Wing unit, do I need to turn in my EFB?
 
-**A:** No. You will take you EFB with you. 
-
----
-
-#### Q: What do I do if I misplaced my EFB?
-
-**A:** Call us immeditely!
+**A:** Probably not. Come see us when you outprocess.
 
 ---
 
+#### Q: What if my device is misplaced or stolen?
 
+**A:** Call us or come in immeditely! We can locate or lock the device via Wi-Fi and start the process of getting the deive replaced.
+
+---
