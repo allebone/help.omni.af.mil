@@ -16,7 +16,7 @@
 
 ## My Pubs Won’t Sync
 
-![image](img/Troubleshooting/syncissue.png){: style="height:75%;width:75%"}
+[!image](img/Troubleshooting/syncissue.png){: style="height:75%;width:75%"}
 
 **Are you connected to BOCKSCAR Wi-Fi?**  
 GoodReader Syncing only works when you’re connected to a BOCKSCAR Wi-Fi Access Point. You’ll be unable to sync when connected to any other Wi-Fi (e.g. home, billeting, starbucks, etc).  

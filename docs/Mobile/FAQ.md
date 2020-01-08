@@ -2,6 +2,20 @@
 
 ---
 
+#### Q: Can I get email on my EFB?
+
+**A:** Yes. We can install your certs onto your EFB. However, you are only able to get email on your iPad if you are on the BOCKSCAR network. 
+
+---
+
+#### Q: What do I do if my account was involved in a classified incident?
+
+**A:** Contact us immeditely! Place iPad into airplane mode and bring it in ASAP. DO NOT power off or try and delete emails or files.
+
+Note: Your iPad is synced with your email. So even if you were not on your EFB at the time of the incident, you still need to do the above.
+
+---
+
 #### Q: Can I add my AppleID to my device?
 
 **A:** Yes, You can Configure your AppleID. This is helpful if you intend to use Apple Music, Apple News+, or Apple Podcasts. It is not required for any official function, and it will not give access to any additional applications not already approved for use. (See Below)
@@ -47,3 +61,25 @@ Ulimately, it is your responsibility to ensure current and complete publications
 **A:** Yes. Please keep you device's software up-to-date. Any iOS software update that appears on your device (iOS settings > General > Software Update) is approved and should be applied.  
 
 Occasionally, notices appear on the AF Portal and other official websites directing users to refrain from applying updates to mobile devices. These usually apply to devices that are operated under _different_ AF/MDM programs and do not apply to devices managed by OMNI/Project BOCKSCAR.
+
+---
+
+#### Q: What do I do if my case or screen cracks/breaks?
+
+**A:** If your case is broken or cracked, please bring it back to us and we will issue you a new one. Please do not throw them away. The same goes for if you screen is cracked. Please bring it in to us as soon as you notice the cracked screen so we can fix it before it gets worse.
+
+---
+
+#### Q: If I am PCSing to another 55th Wing detachment, do I turn in my EFB?
+
+**A:** No. You will take you EFB with you. 
+
+---
+
+#### Q: What do I do if I misplaced my EFB?
+
+**A:** Call us immeditely!
+
+---
+
+

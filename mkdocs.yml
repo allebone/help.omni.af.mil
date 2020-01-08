@@ -56,7 +56,9 @@ nav:
         - Introduction : Mobile/Introduction.md
         - Updates : Mobile/Updates.md
         - Syncing Pubs: Mobile/SyncingPubs.md
+        - Email & Certs: Mobile/Email&Certs.md
         - Troubleshooting : Mobile/Troubleshooting.md
+        - Outprocessing : Mobile/Outprocessing.md
         - FAQ : Mobile/FAQ.md
     - Reports:  
         - Introduction : Reports/Introduction.md
