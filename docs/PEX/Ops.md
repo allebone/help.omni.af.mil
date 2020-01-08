@@ -1157,40 +1157,6 @@ Go to Ops > ORM > Setup tab.
      7. Enter a Color.
      8. Enter the Approval Authority. For example:
 
-Max Risk Level 
-
-Description 
-
-Color 
-
-Approval Authority 
-
-4 
-
-Normal Ops 
-
-
-
-Aircraft Commander 
-
-7 
-
-Caution 
-
-
-
-Squadron Operations Officer 
-
-10 
-
-Warning 
-
-
-
-Operations Group Commander 
-
-
-
 **6.** Risk Weighting Settings. 
 
 **A.** Risk Weightings. Set the four relative factors, Sortie Type, Personnel Experience, Pilot Stress, and Risk Conditions, to total 100. 
