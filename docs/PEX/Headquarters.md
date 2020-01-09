@@ -3,10 +3,10 @@
 ## Headquarters Overview
 
 **Introduction**
-The Headquarters \(HQ\) module is installed separately from regular PEX. See the PEX Install Guide for instructions. The HQ module should be instaled for use by MAJCOM HQs. It should not be installed at wing or squadron level. The HQ module is used by a HQ training office or functional manager to create a standardized set of Continuation Training tasks for subordinate units. It is also used to roll up Continuation Training and scheduling data from subordinate units.
+The Headquarters \(HQ\) module is installed separately from regular PEX. See the PEX Install Guide for instructions. The HQ module should be instaled for use by MAJCOM HQs. It should not be installed at wing or squadron level. The HQ module is used by a HQ training office or functional manager to create a standardized set of Continuation Training tasks for subordinate units. It is also used to roll up Continuation Training and Scheduling data from subordinate units.
 
 **Controls**
-Access these procedures by navigating to Headquarters. This wil not be present if not instal ed at your location. 
+Access these procedures by navigating to Headquarters. This wil not be present if not installed at your location. 
 
 **Build Continuation Training tasks for units**
 Once the Headquarters module is installed, navigate to Headquarters > Training > Setup, and build Continuation Training tasks just like a local unit would. See the [Continuation Training Setup](Training.md#Continuation-Training) help topic for detailed instructions.
@@ -30,7 +30,7 @@ Your units need to register with your HQ system.
 3. To approve the squadron registration, highlight the row, click in the Waiting field, and select from the dropdown - Approved.
 4. Click off the row to save.
 
-The squadron is now registered and can start pushing Continuation Training or Scheduling data to the HQ. The only editable field on this page is Status. Al other data comes from the unit level.
+The squadron is now registered and can start pushing Continuation Training or Scheduling data to the HQ. The only editable field on this page is Status. All other data comes from the unit level.
 
 ## Build Continuation Training Tasks
 
@@ -57,7 +57,7 @@ TACTICS data can be imported into PEX. To do so, a HQ Continuation Training Unit
 ## Rollup Continuation Training Tasks
 
 **Introduction**
-The Headquarters > Continuation Training Rollup pages are used by a HQ training functional manager for oversight of subordinate unit Continuation Training. PEX refers to HQ as MAJCOM and subordinate units as Squadrons. The module al ows the MAJCOM Training FM to view the most current training progress for all squadrons which are registered, approved, and sending Continuation Training data to MAJCOM.
+The Headquarters > Continuation Training Rollup pages are used by a HQ training functional manager for oversight of subordinate unit Continuation Training. PEX refers to HQ as MAJCOM and subordinate units as Squadrons. The module allows the MAJCOM Training FM to view the most current training progress for all squadrons which are registered, approved, and sending Continuation Training data to MAJCOM.
 
 !!! note "Note"
     Access to the HQ module is controlled. Contact the PEX Help Desk to get a copy of the instruction, “How to Enable the Headquarters Module”.
@@ -73,7 +73,7 @@ From the PEX menu, select Headquarters > Continuation Tng Roll up. The page has 
     2. Enter a Name.
     3. Click Save.
 
-The new View appears on the left. The column grid may be hidden by clicking the `<` symbol far upper left. The ful page is ready to Add Status to this new View. As multiple Views are added, they may be edited or deleted by highlighting the View and selecting Edit View or Delete View.
+The new view appears on the left. The column grid may be hidden by clicking the `<` symbol far upper left. The full page is ready to Add Status to this new View. As multiple Views are added, they may be edited or deleted by highlighting the View and selecting Edit View or Delete View.
 
 * Add a status to a view
 
@@ -90,7 +90,7 @@ The new View appears on the left. The column grid may be hidden by clicking the 
 
 The Continuation Training Rollup Status now displays within the View. To interpret the data returned click the multi-color box icon, upper right, to open the Legend which will breakdown what the different colors represent.
 
-**Edit a status in a view**
+**Edit a status in a view **
 
 1. Click to highlight the Status row.
 2. Click the Edit Status button.
