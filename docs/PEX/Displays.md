@@ -42,13 +42,13 @@ _Permissions_
 Basic users can access all functionality in My PEX.
 
 !!! note "Note"
-    If you are scheduled for an event "owned" by another unit, that event wil appear in your calendar. Your visibility into the event may be limited by your permission level in that unit.
+    If you are scheduled for an event "owned" by another unit, that event will appear in your calendar. Your visibility into the event may be limited by your permission level in that unit.
 
 _Rules_  
 My PEX interfaces with multiple modules throughout PEX. Scheduling information interfaces only with the Scheduler. Information from legacy scheduling modules \(Flying Schedule, Commitments Board, etc.\) is viewable on My Page.
 
 _Module Notes_  
-My PEX uses responsive design to automatically resize, hide, shrink, or enlarge how pages display on multiple devices; desktops, tablets, and phones. These instructions describe how PEX displays on a desktop monitor. Depending on the device used, some features and controls may appear compressed. Al functionality is present regardless of the device used.
+My PEX uses responsive design to automatically resize, hide, shrink, or enlarge how pages display on multiple devices; desktops, tablets, and phones. These instructions describe how PEX displays on a desktop monitor. Depending on the device used, some features and controls may appear compressed. All functionality is present regardless of the device used.
 
 _Controls_  
 Access My PEX by logging into PEX, or navigate to Displays > My PEX. If, when logging into PEX, you still land on the legacy My Page, go to My Preferences \(top right\), Default Home Page, select the My PEX radio button, and click Save Preferences. Log out and log back in, and you will land on My PEX.
@@ -62,9 +62,9 @@ _Workspace_
 2. **Calendar** View events you are scheduled for by month, week, and 3-day and 1-day views.
 3. **Avatar** Access your:
       1. **My Profile** View basic assignment and contact information, and link to your Preferences.
-      2. **Personnel** information. Link to the Details tab of your Personnel record.
+      2. **Personnel** Link to the Details tab of your Personnel record.
       3. **Eval Folder**. Link to your Stan/Eval Person Details page, from where you can open your Eval folder.
-      4. **Training Folder**. Opens your Training folder.
+      4. **Training Folder** Opens your Training folder.
 4. **More Options \(…\)** Submit a Training Accomplishment Report \(TAR\) and view your ToDo list.
 5. **Issues** tile. Issues related to FCIF and PEX User Preferences.
 6. **Go/No-Go** tile. Your cumulative status for all Go/No-Go items.
@@ -98,7 +98,7 @@ _Check your Continuation Training status_
 3. Click View Details and the Continuation Training Summary opens.
 4. Use the search field to locate specific tasks.
 5. Tasks are categorized as Overdue, Short Warning, Long warning, Current, and Proficiency.
-6. Click the category title to expand and col apse its listing.
+6. Click the category title to expand and collapse its listing.
 Click the link next to each task to view more details.
 
 _Check your Schedule on the Home page_
@@ -130,8 +130,8 @@ _Check and update your Preferences_
 1. Go to My PEX > Home > Avatar button. 
 2. When your profile opens, click User Preferences. 
 3. View and update preferences:
-      1. Default Squadron. Your default squadron when accessing modules and pages throughout PEX. This is normal y the squadron you are permanently assigned to. If in ARMS, this should be your ARMS squadron.
-      2. Display Squadron. Displays your default squadron information, with pages formatted to the display squadron's settings. Normal y, your default and display squadrons should be the same.
+      1. Default Squadron. Your default squadron when accessing modules and pages throughout PEX. This is normally the squadron you are permanently assigned to. If in ARMS, this should be your ARMS squadron.
+      2. Display Squadron. Displays your default squadron information, with pages formatted to the display squadron's settings. Normally, your default and display squadrons should be the same.
       3. Security Identifier. Use your SI to sign FCIFs and documents, and proctor exams, your SI consists of 6 to 9 characters, case sensitive. Default and Reset is your Personnel ID Number, normally your SSN.
       4. Default Home Page. Select My Page or My PEX. Small mobile devices automatically navigate to My PEX.
       5. Security Info. View your permission sets by squadron.
@@ -191,7 +191,7 @@ _If logging into PEX opens the legacy My Page_
 2. Go to the Default Home Page section.
 3. Select the My PEX radio button.
 4. Click Save Preferences. 
-5. Log out and back in, and you wil land on My PEX. 
+5. Log out and back in, and you will land on My PEX. 
 
 ## My Page
 
@@ -204,7 +204,7 @@ You can also update your personal data, create favorite links, and change your P
 **Header Information**
 
 * _Location_ - PEX uses this location to convert Zulu times to your local time. If you are in a different location than what is listed, click on the location to change it.
-* _Go/No-Go_ - Clicking on the tabs allows you to see No-Go details. A green tab indicates Go status. A red tab indicates No-Go status. A yellow tab indicates something that requires attention but doesn’t prevent you from accomplishing the mission, usual y under supervision.
+* _Go/No-Go_ - Clicking on the tabs allows you to see No-Go details. A green tab indicates Go status. A red tab indicates No-Go status. A yellow tab indicates something that requires attention but doesn’t prevent you from accomplishing the mission, usually under supervision.
 * _My Preferences_ - Allows you to set your primary \(default\) squadron and Security Identifier. Your Security Identifier is used to sign off read file items and for aircraft commanders to sign off AFTO 781s. The page also displays your PEX permissions.
 * _My Personal Data_ - Allows you to view your data from the Personnel module. It also allows you to update your Contact tab information.
 * _My Links_ - Allows you to create up to ten user-defined and up to ten squadron-defined web pages. On the My Links page, select Settings, Edit Links. From this dialog you can enter and edit user-defined links. If you have the PEX administrator role, the Edit Squadron Links on My Page wil display here. You would be able to enter and edit links for the squadron.
