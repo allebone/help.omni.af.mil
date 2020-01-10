@@ -10,6 +10,8 @@
 
 PEX, developed by USAF AFMC AFLCMC/HBBD, is a software suite of applications that coordinates the Scheduling, Training, Stan Eval, and Aircraft Status activities of unit-level operational military aerospace units, such as aeromedical, air control, air operations centers, flying, ICBM, intelligence, joint terminal air control, pararescue, and security forces units. PEX is used to facilitate data sharing across the functional areas in a squadron. PEX is used worldwide by over 1000 squadron level units, including all AF MAJCOMs, Australia, and Poland.
 
+---
+
 ## Log In
 
 To use PEX, you must first log in. To log in, you must either be at a computer which has the **WinPEX** client installed \(double-click the desktop launch icon\) or use a web browser and navigate to **ePEX** web application. Both WinPEX and ePEX take you to the same PEX database. ePEX contains all PEX functionality, except flight scheduling. All offices, except flight scheduling, should use ePEX. Flight scheduling offices, to make use of the WinPEX-only Mission Board, should instal and use WinPEX.
@@ -49,6 +51,8 @@ If you have existing connections file and you’re sent a new one, click the imp
 !!! caution "Caution"
     Exiting WinPEX could be as simple as closing the program with the red X close icon in the upper right hand corner of the screen. You are cautioned to not use this technique but rather to close the individual modules \(applications\) running within the client and then use the file menu item `Logout`. This is to ensure there are no applications running in the background which would remain connected to the database and server.
 
+---
+
 ## New in 5.16.1
 
 **21-August-2019**
@@ -79,7 +83,7 @@ If you have existing connections file and you’re sent a new one, click the imp
 
 * The Missile Operations Personnel Schedule and Missile Operations Locations Schedule reports and report functionality are updated.
 
-## WinPEX Menu
+### WinPEX Menu
 
 **File**
 
@@ -91,8 +95,7 @@ If you have existing connections file and you’re sent a new one, click the imp
 * Pane Options - No longer used.
 * Exit PEX closes Patriot Excalibur.
 
-**Edit**
-
+**Edit**  
 See the module-specific Menu help topic for a list of functions.
 
 **View**
@@ -113,7 +116,7 @@ See the module-specific Menu help topic for a list of functions.
 * Help Topics No longer functional in WinPEX, use the Navigation Menu: Support, Help.
 * About PEX Brings up dialog listing software version.
   
-## New PEX Modules
+### New PEX Modules
 
 All PEX modules will be rewritten in more advanced computer languages as they become available. The traditional menu commands in newer PEX modules have been replaced or supplemented by right-click "context" menus. PEX context menus perform a function in the grid where the mouse pointer is located when right clicked. A PEX grid is an area on the display with column headers, columns, and rows. The context menus include standard commands found in each of the new modules plus commands unique to the module in use. The standard commands are:
 
@@ -126,7 +129,9 @@ All PEX modules will be rewritten in more advanced computer languages as they be
 * _Print Grid_ - Prints the grid \(if a printer is installed\).
 * _Filter Grid_ - Filters the data based on a Column and user-entered text.
 
-# PEX Environment
+---
+
+## PEX Environment
 
 PEX operates in an M$ Windows environment.
 
@@ -145,3 +150,76 @@ PEX operates in an M$ Windows environment.
 **Light Gray Shading**. If a data field is shaded light-gray, that indicates the field is non-editable.
 
 **Line Highlighting for Selected Items**. To change the color used for highlighting selected items on your computer: right-click on your Desktop, select Properties, Appearance Tab, Item drop-down, Selected Items, and Color dropdown. Select a new color for the Item and Font. Click OK.
+
+---
+
+## How to use PEX Help
+
+PEX modules are designed for specific functions and each has its own look and feel. Corresponding help files are written based on a particular module and vary in format. The following descriptions apply as required.
+
+Module help topics provide:
+
+**Introduction**
+
+Provides a brief overview of the module; the intent, what it is used for, and how it is used in a unit. 
+
+**Permissions**  
+What roles can access \(read\) and what roles can edit \(update\) the module. For example, "any user, including Basic User, can access and view the module" or "role X can update this and that."
+
+**Rules**  
+Business rules hard-wired into PEX. For example, "an evaluator cannot grade his own worksheet." 
+
+**Module Notes**  
+General notes, covering the entire module, considered essential to emphasize those not immediately obvious to the user. 
+
+**Controls**  
+Path to the described topic.
+
+**Workspace**  
+Control locations and the control's basic function.
+
+**Workflow**  
+Visually describes, in flowchart form, how to progress through the module with numbered call outs. Call outs are briefly described below the image. 
+
+**Setup**  
+How to configure the module for your unit.
+
+**Processes**  
+Descriptive individual use cases and processes that can be accomplished in the module. These may be a single topic or multiple topics, depending on the complexity of the module. 
+
+**Key words explained**
+
+!!! tip "Tip"
+     Tips are tweaks and common practices not described elsewhere. "Gotchas" that don't fall into other categories, typically learned from experience in the lab, field or help desk.
+
+!!! note "note"
+     Indicates operating procedures, techniques, etc. Considered essential to emphasize.
+
+!!! caution "Caution"
+     Indicates operating procedures, techniques, etc., which could result in an operating deficiency if not carefully followed. Something that can be reversed.
+
+!!! danger "Warning"
+    Indicates operating procedures, techniques, etc. which could result in an irreversible condition or permanent loss of data if not carefully followed. Something that cannot be reversed.
+
+!!! bug "Bug"
+     A known bug or software issue.
+
+**Header and Title Formats**
+
+# Heading 1
+
+Title of the module or top-level topic.
+
+## Heading 2
+
+A tab name, major control, or link.
+
+### Heading 3
+
+A primary page or header within a topic.
+
+**Heading 4**
+
+A breakdown of a major sub-topic within a module.
+
+---
