@@ -2,13 +2,13 @@
 
 ## Calendar Viewer
 
-**Introduction**
+**Introduction**  
 The Calendar Viewer displays Mission, Sortie, Personnel, and Aircraft Commitments in a calendar format, with four different calendar options: Month, Bi-Week, Week, and Day.
 
-**Permissions**
+**Permissions**  
 The permission roles allowed to create Calendar Viewer filters are Flight Scheduling, Ground Scheduling, Operations Desk, Operations Staff, Training Administrator, and Administrator.
 
-**Setup the Calendar Viewer**
+**Setup the Calendar Viewer**  
 On each tab, click the Display Options icon to select the data you want to see. 
 
 * _Group View_ - The Group view groups the commitments together by Commitment Type.
@@ -17,7 +17,7 @@ On each tab, click the Display Options icon to select the data you want to see.
 !!! note "Note"
      Even if you show only a few details, hovering the cursor over a commitment provides all Commitment Details via a tool-tip. 
 
-**Use the Calendar Viewer**
+**Use the Calendar Viewer**  
 The Calendar Viewer is used to see the schedule in order to make decisions. A small red arrow appended to the last entry of a day cell indicates that there are more entries for that day that could not be displayed due to the view’s space restrictions. To see these entries, click on the red arrow to change the display view.
 
 * _Mission Tab_ - Right-click on a mission to Hot Link to Mission Board \(WinPEX only\).
@@ -25,35 +25,35 @@ The Calendar Viewer is used to see the schedule in order to make decisions. A sm
 * _Personnel Tab_ - Right-click on a person to Hot Link to Commitments Board - Personnel \(WinPEX only\).
 * _Aircraft Tab_ - Right-click on an aircraft to Hot Link to Commitments Board – Aircraft \(WinPEX only\).
   
-**Background Colors**
+**Background Colors**  
 The colors indicate the Commitment Type. Click the Color Legend icon to see their definitions. The colors come from Setup > Validation > Scheduling > Commitments Board.
 
-**Calendar Viewer differences between ePEX and WinPEX**
+**Calendar Viewer differences between ePEX and WinPEX**  
 The main difference is filters cannot be created in ePEX. They can be used in ePEX but must be created in the WinPEX Calendar Viewer. Another slight difference is the placement of control icons. In WinPEX they are at upper-left. In ePEX they are at upper-right.
 
 ## My PEX
 
 ### My PEX Basics
 
-_Introduction_  
+**Introduction**    
 Mobile-friendly My PEX currently supplements, and will replace, My Page as your portal into PEX. From My PEX you can view and manage matters relating to User Preferences, Go/No-Go, training, your schedule, and required signatures.
 
-_Permissions_  
+**Permissions**    
 Basic users can access all functionality in My PEX.
 
 !!! note "Note"
     If you are scheduled for an event "owned" by another unit, that event will appear in your calendar. Your visibility into the event may be limited by your permission level in that unit.
 
-_Rules_  
+**Rules**    
 My PEX interfaces with multiple modules throughout PEX. Scheduling information interfaces only with the Scheduler. Information from legacy scheduling modules \(Flying Schedule, Commitments Board, etc.\) is viewable on My Page.
 
-_Module Notes_  
+**Module Notes**    
 My PEX uses responsive design to automatically resize, hide, shrink, or enlarge how pages display on multiple devices; desktops, tablets, and phones. These instructions describe how PEX displays on a desktop monitor. Depending on the device used, some features and controls may appear compressed. All functionality is present regardless of the device used.
 
-_Controls_  
+**Controls**    
 Access My PEX by logging into PEX, or navigate to Displays > My PEX. If, when logging into PEX, you still land on the legacy My Page, go to My Preferences \(top right\), Default Home Page, select the My PEX radio button, and click Save Preferences. Log out and log back in, and you will land on My PEX.
 
-_Workspace_  
+**Workspace**    
 ![Workspace](img/Displays/workspace.jpg){: style="height:100%;width:100%"}
 
 1. **Home** The initial landing page when logging into PEX. The Home page contains:
@@ -74,7 +74,7 @@ _Workspace_
 
 ### Utilizing My PEX
 
-_Check for Issues_  
+**Check for Issues**    
 
 1. Go to My PEX > Home > Issues tile.
 2. View the number of issues.
@@ -83,7 +83,7 @@ _Check for Issues_
 5. Click the FCIF > button to sign FCIFs.
 6. Click the User Preferences > button view and resolve the issues.
 
-_Check your Go/No-Go status_  
+**Check your Go/No-Go status**    
 
 1. Go to My PEX > Home > Go/No-Go tile.
 2. View the cumulative status for all Go/No-Go items, for all your MDS and crew position qualifications.
@@ -91,7 +91,7 @@ _Check your Go/No-Go status_
 4. View the status of individual Go/No-Go items. If you have multiple MDS or crew position qualifications, applicable Go/No-Go items will be listed under each qualification.
 5. Click the link next to each item to view more details or change the status \(e.g., take a NoGo test\).
 
-_Check your Continuation Training status_  
+**Check your Continuation Training status**    
 
 1. Go to My PEX > Home > CT Tasks tile.
 2. View the number of tasks that are overdue \(red\), on a short warning \(pink\), on a long warning \(orange\), and current \(green\).
@@ -101,7 +101,7 @@ _Check your Continuation Training status_
 6. Click the category title to expand and collapse its listing.
 Click the link next to each task to view more details.
 
-_Check your Schedule on the Home page_
+**Check your Schedule on the Home page**  
 
 1. Go to My PEX > Home > Upcoming Events tile.
 2. View your next five events scheduled in Scheduler.
@@ -109,14 +109,14 @@ _Check your Schedule on the Home page_
       1. Click on an event and the Calendar opens with that event’s Details flyout opened.
       2. Click View More Events and the Calendar opens.
 
-_Check your Schedule in the Calendar_
+**Check your Schedule in the Calendar**  
 
 1. Click the Calendar link on your Home page.
 2. When the Calendar opens, choose the Month, Week, 3-Day or Day view. 
 3. Click on an event and the Event Details flyout opens, with details of that event.
 4. If you are scheduled for an event "owned" by another unit, your visibility into the event may be limited by your permission level in that unit. 
 
-_Check your required Action Items/signatures_
+**Check your required Action Items/signatures**  
 
 1. Go to My PEX > Home > Action Items tile.
 2. View the number of action items.
@@ -125,7 +125,7 @@ _Check your required Action Items/signatures_
 5. View the list of all action items, by category.
 6. Click the link next to each to sign the item.
 
-_Check and update your Preferences_
+**Check and update your Preferences**  
 
 1. Go to My PEX > Home > Avatar button. 
 2. When your profile opens, click User Preferences. 
@@ -139,7 +139,7 @@ _Check and update your Preferences_
 
 **TTPs**
 
-_Sign off a FCIF_
+**Sign off a FCIF**  
 
 1. Go to My PEX > Home > Issues tile.
 2. Click View Details.
@@ -147,7 +147,7 @@ _Sign off a FCIF_
 4. On the appropriate FCIF, enter your PEX Security Identifier.
 5. Click Sign Off.
 
-_Log continuation training on a non-mission TAR_
+**Log continuation training on a non-mission TAR**  
 
 !!! note "Note"
     A non-mission TAR is not associated to an event; mission, sortie, shift, etc. To log a mission-associated TAR, go to My Page or Training > Continuation.
@@ -178,14 +178,14 @@ _Log continuation training on a non-mission TAR_
 !!! note "Note"
     Use the Test Email function to validate email addresses and system settings. 
 
-_Take a NoGo test_
+**Take a NoGo test**  
 
 1. Go to My PEX > Home > Go/No-Go tile.
 2. Click View Details.
 3. When the Person Status Summary opens, expand the appropriate MDS/CP qualification.
 4. On the Test row, click the Go to Testing link.
 
-_If logging into PEX opens the legacy My Page_
+**If logging into PEX opens the legacy My Page**  
 
 1. On My Page, click the My Preferences link.
 2. Go to the Default Home Page section.
@@ -218,12 +218,14 @@ You can also update your personal data, create favorite links, and change your P
 * _Flying Hours_ - summary. To view the summary, the 7/30/60/90 day preferences Less Than and Greater Than must be set, and Use on My Page & GNG must be checked, in [Training > Continuation > Setup > Unit Settings]().  The ARMS [7/30/60/90 import]() must be current. The grid displays hours flown in the last 7, 30, 60 and 90 days. If your hours are less than the minimum, the field is yellow. If your hours are more than the maximum, the field is pink. If your hours are greater than or equal to the minimum, and less than or equal to the maximum, the field is white.  
 ![flying_hours](img/Displays/flying_hours.jpg){: style="height:30%;width:30%"}
 
-**View my schedule** At the top of My Page, PEX gives you a five-day view of your schedule. Calendar controls allow you to select which five days to view. PEX displays all your commitments, including sorties and shifts, from any squadron in the database. Each commitment has an Ack \(Acknowledge\) checkbox. When you check this Ack box, it lets the schedulers know you know about the commitment. When checked, a dialog asks if you’d like to schedule the commitment in Outlook. This functionality may be blocked by USAF. If you use PEX off of the USAF domain, select Yes to add the commitment to your Outlook calendar. If you’re scheduled on a Sortie, click the blue Sortie link for the Sortie displayed for that day. This provides you with details about the sortie. If the sortie is in a formation, you will also be able to view your wingman’s details. 
+**View my schedule**   
+At the top of My Page, PEX gives you a five-day view of your schedule. Calendar controls allow you to select which five days to view. PEX displays all your commitments, including sorties and shifts, from any squadron in the database. Each commitment has an Ack \(Acknowledge\) checkbox. When you check this Ack box, it lets the schedulers know you know about the commitment. When checked, a dialog asks if you’d like to schedule the commitment in Outlook. This functionality may be blocked by USAF. If you use PEX off of the USAF domain, select Yes to add the commitment to your Outlook calendar. If you’re scheduled on a Sortie, click the blue Sortie link for the Sortie displayed for that day. This provides you with details about the sortie. If the sortie is in a formation, you will also be able to view your wingman’s details. 
 
 !!! note "Note"
     My Page does not display schedule information Scheduler. To view your Scheduler events, go to [My PEX]().
 
-**Enter my own appointments from My Page** Select the Manage Commitments link to open your personal monthly calendar. Click the start day to enter a personal commitment \(appointment, leave, etc.\). In the pop-up dialog, right-click and select Add. Enter your commitment details, click off the row to save, and select Close when done. You wil not be able to edit or delete commitments entered by your scheduler. Your scheduler is able to edit and delete commitments you entered. 
+**Enter my own appointments from My Page**   
+Select the Manage Commitments link to open your personal monthly calendar. Click the start day to enter a personal commitment \(appointment, leave, etc.\). In the pop-up dialog, right-click and select Add. Enter your commitment details, click off the row to save, and select Close when done. You wil not be able to edit or delete commitments entered by your scheduler. Your scheduler is able to edit and delete commitments you entered. 
 
 **Report training accomplished**
 
@@ -244,41 +246,49 @@ You can also update your personal data, create favorite links, and change your P
 
 Use this section to see detailed information PEX has about you. Once you have a favorite section, use the pin at upper-right to make it the default view. 
 
-**Warnings**. Displays overdue Continuation Training tasks and unsigned read file items. Read file items display with red or yellow indicators. Red is for No-Go and yellow for Non-No-Go. You can sign off the items by clicking on the indicator, which brings up the Sign Off dialog. Select the item and click the View Link. If there is an attachment, click the link associated with the attached file to view it.
+**Warnings**  
+Displays overdue Continuation Training tasks and unsigned read file items. Read file items display with red or yellow indicators. Red is for No-Go and yellow for Non-No-Go. You can sign off the items by clicking on the indicator, which brings up the Sign Off dialog. Select the item and click the View Link. If there is an attachment, click the link associated with the attached file to view it.
 
 After review, click the Sign Off button.
 
-**Certifications**. Displays your Letter of X certifications.
+**Certifications**  
+Displays your Letter of X certifications.
 
-**Continuation Training**. Displays all your training tasks. The tasks are color-coded based on Due Dates:
+**Continuation Training**  
+Displays all your training tasks. The tasks are color-coded based on Due Dates:
 
-_White_ – Not a currency task, no Due Date
-_Green_ – Current
-_Yellow_ – Current, Long Warning, defaulted to 60 days out
-_Pink_ – Current, Short Warning, defaulted to 30 days out
-_Red_ – Overdue
+_White_ – Not a currency task, no Due Date  
+_Green_ – Current  
+_Yellow_ – Current, Long Warning, defaulted to 60 days out  
+_Pink_ – Current, Short Warning, defaulted to 30 days out  
+_Red_ – Overdue  
 
 What looks like a color-code legend at the bottom, are actual y buttons you can click to filter the list.
 
-**Qualification Training**. These are courses in which you are enrolled.
+**Qualification Training**  
+These are courses in which you are enrolled.
 
 * _View your Progress Report_ - Above the Blocks of Instructions Requiring Student Review grid, select the course, then click the View button.
 
-* _Sign off a Block of Instruction_ - In the Blocks of Instructions Requiring Student Review grid, select the Sign Off link. The status will change to Reviewed. Refreshing this page wil make the BOIs go away. An empty list indicates there are no BOIs to review.
+* _Sign off a Block of Instruction_ - In the Blocks of Instructions Requiring Student Review grid, select the Sign Off link. The status will change to Reviewed. Refreshing this page will make the BOIs go away. An empty list indicates there are no BOIs to review.
 
 * _View your Training Folder_ - Click View My Training Folder. From the folder, you can sign off 623 tasks, make 623a entries, and sign off MFRs. 
 
-**Stan/Eval**. Displays your Open Evaluations, Failed Evaluations, Periodic Incomplete Requisites, and Non-Periodic Incomplete Requisites. 
+**Stan/Eval**  
+Displays your Open Evaluations, Failed Evaluations, Periodic Incomplete Requisites, and Non-Periodic Incomplete Requisites. 
 
-**Bids & Availability**. Designed for part-time personnel \(ANG and AFRC\). This section al ows you to enter your availability and to bid on sorties and commitments.
+**Bids & Availability**  
+Designed for part-time personnel \(ANG and AFRC\). This section allows you to enter your availability and to bid on sorties and commitments.
 
 * _Enter Availability_ - First a quick explanation. In PEX, Availability is not entering appointments and such. Those are considered commitments. Availability are the times you, as a part-timer, are available to be scheduled for duties. To enter your Availability, click the Manage Availability hyperlink. This opens a calendar to input your availability. To enter your available dates and times, simply click on the day, which brings up a second dialog where you can check the box for the periods you are available and set the status to Hard or Soft. The definition of Hard and Soft is up to your unit.
 
 * _Enter Bids_ - Refer to the help topic at Scheduling> Bids & Availability. 
 
-**FCIF \(Read File Items\)**. Displays all your assigned read file items. To sign off an item, click on the indicator, which brings up the Sign Off dialog. Select the item and click the View Link. If there is an attachment, click the link associated with the attached file to view it. After review, click the Sign Off button.
+**FCIF \(Read File Items\)**  
+Displays all your assigned read file items. To sign off an item, click on the indicator, which brings up the Sign Off dialog. Select the item and click the View Link. If there is an attachment, click the link associated with the attached file to view it. After review, click the Sign Off button.
 
-**Folders**. Displays Training and Stan Eval Folders of personnel you supervise and the personnel they supervise. You can also email them their To-Do list from here.
+**Folders**  
+Displays Training and Stan Eval Folders of personnel you supervise and the personnel they supervise. You can also email them their To-Do list from here.
 
 The Notification feature includes three Qualification Training notifications; BOI Gradesheets requiring student review, Task List Tasks requiring signature, and 623a Entries requiring signature. Also included are links to the source document and signature function.
 
