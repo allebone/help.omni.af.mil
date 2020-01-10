@@ -8,13 +8,13 @@
 
 ## What is PEX?
 
-PEX, developed by USAF AFMC AFLCMC/HBBD, is a software suite of applications that coordinates the Scheduling, Training, Stan Eval, and Aircraft Status activities of unit-level operational military aerospace units, such as aeromedical, air control, air operations centers, flying, ICBM, intelligence, joint terminal air control, pararescue, and security forces units. PEX is used to facilitate data sharing across the functional areas in a squadron. PEX is used worldwide by over 1000 squadron level units, including all AF MAJCOMs, Australia, and Poland.
+PEX, developed by USAF AFMC AFLCMC/HBBD, is a software suite of applications that coordinates the Scheduling, Training, Stan Eval, and Aircraft Status activities of unit-level operational military aerospace units, such as aeromedical, air control, air operations centers, flying, ICBM, intelligence, joint terminal air control, pararescue, and security forces units. PEX is used to facilitate data sharing across the functional areas in a squadron, and is used worldwide by over 1000 squadron level units, including all AF MAJCOMs, Australia, and Poland.
 
 ---
 
 ## Log In
 
-To use PEX, you must first log in. To log in, you must either be at a computer which has the **WinPEX** client installed \(double-click the desktop launch icon\) or use a web browser and navigate to **ePEX** web application. Both WinPEX and ePEX take you to the same PEX database. ePEX contains all PEX functionality, except flight scheduling. All offices, except flight scheduling, should use ePEX. Flight scheduling offices, to make use of the WinPEX-only Mission Board, should instal and use WinPEX.
+To use PEX, you must first log in. To log in, you must either be at a computer which has the **WinPEX** client installed \(double-click the desktop launch icon\) or use a web browser and navigate to **ePEX** web application. Both WinPEX and ePEX take you to the same PEX database. Functionally, ePEX is the same as PEX, except for the flight scheduling aspects. All offices, except flight scheduling, should use ePEX and instead use the WinPEX-only Mission Board.
 
 !!! note "Note"
     Both WinPEX and ePEX take you to the same database.
@@ -30,7 +30,7 @@ After this the connect to button will populate for all existing user profiles on
 !!! caution "caution"
     Do not change the default file name or save location. This will prevent you from logging in.
 
-**Logging into WinPEX as a non-privileged user:** you’ll need to import a configuration file the first time you login after migration. This file should be sent to you by your PEX Administrator. Click the WinPEX icon, dismiss the CAUTION about the missing connection file, accept the consent message, and at the login dialog click “import connections file.” Select Save as current user radio button. Navigate to the configuration file and save it accepting the default file name and location.
+**Logging into WinPEX as a non-privileged user:** You’ll need to import a configuration file the first time you login after migration. This file should be sent to you by your PEX Administrator. Click the WinPEX icon, dismiss the CAUTION about the missing connection file, accept the consent message, and at the login dialog click `import connections file`. Select Save as current user radio button. Navigate to the configuration file and save it accepting the default file name and location.
 
 !!! caution "Caution"
     Do not change the default file name or save location. This will prevent you from logging in.
@@ -38,15 +38,15 @@ After this the connect to button will populate for all existing user profiles on
 !!! note "Note"
     If you don’t have machine administrator permissions, selecting `all users` radio button will fail to a message letting you know you don’t have the necessary rights to instal the file for other users.
 
-Once the file saves, you should now see the database name listed in the `connect to:` dropdown. Select it and click login to start using WinPEX. . If you’re able to login to more than one database, clicking the “connect to:” dropdown will provide a list of those databases. Select the appropriate name and click “login.” The last database that you’ve successful y logged into wil be the defaulted name for your subsequent logins.
+Once the file saves, you should now see the database name listed in the `connect to:` dropdown. Select it and click login to start using WinPEX. . If you’re able to login to more than one database, clicking the `connect to:` dropdown will provide a list of those databases. Select the appropriate name and click `login.` The last database that you’ve successful logged into wil be the defaulted name for your subsequent logins.
 
 !!! note "Note"
     If no database name is visible in the dropdown, this means a PEX account has not been set up for you, or there’s something wrong with the PEX service host. Contact your local PEX administrator for assistance.
 
 !!! note "Note"
-    If you have multiple login accounts in a database, they’l show up after you hit the login button just like they’ve done before the new login procedure.
+    If you have multiple login accounts in a database, they’ll show up after you hit the login button just like they’ve done before the new login procedure.
 
-If you have existing connections file and you’re sent a new one, click the import connections file and navigate to the new file. Once the file is selected you’l be asked if you want to overwrite or merge the existing file. Selecting `overwrite` will erase existing connections and the file wil be overwritten with the connections from the new file. Selecting “merge” wil retain existing connections and adds the content of the new file.
+If you have existing connections file and you’re sent a new one, click the import connections file and navigate to the new file. Once the file is selected you’l be asked if you want to overwrite or merge the existing file. Selecting `overwrite` will erase existing connections and the file wil be overwritten with the connections from the new file. Selecting `merge` wil retain existing connections and adds the content of the new file.
 
 !!! caution "Caution"
     Exiting WinPEX could be as simple as closing the program with the red X close icon in the upper right hand corner of the screen. You are cautioned to not use this technique but rather to close the individual modules \(applications\) running within the client and then use the file menu item `Logout`. This is to ensure there are no applications running in the background which would remain connected to the database and server.
@@ -90,8 +90,8 @@ If you have existing connections file and you’re sent a new one, click the imp
 * Show Tabs When selected, displays tabs in bottom portion of Container to indicate open modules. Select again to hide tabs.
 * Show Navigation Bar Used after the Navigation Bar is hidden to bring it back up. To hide the Navigation Bar, use the ”X” \(close\) icon in the upper-right corner of the Navigation Bar.
 * Print Setup Brings up standard MS Windows Print Setup dialog.
-* Login Brings up the PEX Login dialog. Al ows you to sign in at the Container level so you don’t have to sign in every time a different PEX module \(e.g., Mission Board\) is opened.
-* Logout Signs off the current PEX user without closing PEX. To subsequently open a PEX application from the Container requires another Login. Once logged in to any PEX application, as long as you keep one PEX application running no further PEX Logins are required.
+* Login brings up the PEX Login dialog and allows you to sign in at the container level so you don’t have to sign in every time a different PEX module \(e.g., Mission Board\) is opened.
+* Logout signs off the current PEX user without closing PEX. To subsequently open a PEX application from the container requires another Login. Once logged in to any PEX application, as long as you keep one PEX application running no further PEX Logins are required.
 * Pane Options - No longer used.
 * Exit PEX closes Patriot Excalibur.
 
@@ -100,21 +100,21 @@ See the module-specific Menu help topic for a list of functions.
 
 **View**
 
-* Status Bar No longer used. The Status Bar remains on to al ow the WinPEX menu to resemble the ePEX menu.
+* Status Bar is no longer used. The Status Bar remains on to allow the WinPEX menu to resemble the ePEX menu.
 
-* Refresh Regenerates the screen displayed to present the most current information. This option is useful when the screen does not display a previous successful entry on a different screen.
+* Refresh regenerates the screen displayed to present the most current information. This option is useful when the screen does not display a previous successful entry on a different screen.
 
 **Tools**
 
 **Window**
 
-* Cascade Lays Windows on top of each other
-* Tile Lays Windows side-by-side
+* Cascade lays windows on top of each other
+* Tile lays windows side-by-side
 
 **Help**
 
-* Help Topics No longer functional in WinPEX, use the Navigation Menu: Support, Help.
-* About PEX Brings up dialog listing software version.
+* Help Topics is no longer functional in WinPEX, use the Navigation Menu: Support, Help.
+* About PEX brings up a dialog listing software version.
   
 ### New PEX Modules
 
