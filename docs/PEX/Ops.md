@@ -2,12 +2,12 @@
 
 ## Binders
 
-**Introduction**
+**Introduction**  
 The Binders module allows you to create and maintain electronic binders for purposes such as program continuity, self-assessment, mobility, etc. It is accessed through the PEX main menu via Ops>Binders. The Binders module is divided into two sections, Binders and Setup. The Setup page al ows you to create different Binder Types and Documentation Folders to setup your binders. The Binders page allows you to create binders; associate owners and alternate owners to the binder; import and export binders and add observations and documents to a binder. PEX al ows you to create different binder types such as Self-Assessment, Continuity, etc. This enables you to establish a standardized documentation folders structure for each binder type.
 
 A Self-Assessment binder type with its associated documentation folders is delivered with PEX software.
 
-**Permissions**
+**Permissions**  
 Two \(2\) permission roles and four \(4\) pseudo-roles can access Binders, in addition to PEX Admin and Administrator:
 
 * Binder Administrator can perform every function in the module and can access and manage every binder for each squadron in which they are assigned the role.
@@ -28,7 +28,7 @@ Binder Types cannot be deleted if a squadron in the database is using the binder
 * Binders interfaces with the Personnel module for the purposes of assigning Owners and Alternates.
 * Binders interfaces with the Squadron module for the purpose of selecting a Squadron to which a binder belongs.
 
-**Workspace**
+**Workspace**  
 These features are accessed from the PEX Main Menu by navigating to Ops > Binders.
 
 ![binders](img/Ops/binders.jpg){: style="height:75%;width:75%"}
