@@ -17,7 +17,7 @@ When you are done building the Continuation Training tasks and are ready to prov
 1. Check the desired Tasks
 2. Right-click in the Training Tasks grid
 3. Select Export Selected Tasks and Save.
-4. PEX will generate a .dat file, with a Date Time stamp. An example filename is _HQEvents-20160609014825.dat_
+4. PEX will generate a .dat file, with a Date Time stamp. An example filename is `HQEvents-20160609014825.dat`
 5. Send this file to your subordinate units and have them follow the [Configure Continuation Training]() help topic instructions.
 
 Now that your units have a standardized Continuation Training task list, you will be able to see how they are all doing in Continuation Training.
