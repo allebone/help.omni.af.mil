@@ -90,14 +90,14 @@ The new view appears on the left. The column grid may be hidden by clicking the 
 
 The Continuation Training Rollup Status now displays within the View. To interpret the data returned click the multi-color box icon, upper right, to open the Legend which will breakdown what the different colors represent.
 
-**Edit a status in a view **
+**Edit a status in a view**
 
 1. Click to highlight the Status row.
 2. Click the Edit Status button.
 3. The Edit Status wizard is opened.
 4. Edit the desired items using the four-step, self-guiding selection tool. \*Asterisked items are required entries and must be selected in order to Save and display a Continuation Training Status Rollup. The selection options are the same as adding a status.
 
-**Delete a status in a view **
+**Delete a status in a view**
 
 1. Click to highlight the Status row.
 2. Click the Delete Status button and confirm the deletion.
@@ -107,7 +107,7 @@ The Continuation Training Rollup Status now displays within the View. To interpr
 1. Click on the name of the status \(the name is a hyperlink\). 
 2. The Status Details open displaying a breakout of the Continuation Training Rollup.
 
-**Get the latest data **
+**Get the latest data**
 
 1. Click the clock icon to the upper right; Squadron\(s\) Last Updated info is displayed. This tells the user how current the Continuation Training data is.
 2. Click the refresh icon for a manual refresh.
