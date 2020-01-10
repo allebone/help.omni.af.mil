@@ -10,7 +10,7 @@
 
 #### Q: What do I do if my mobile device is involved in a classified message incident?
 
-**A:** Place the device into airplane mode. Contact us immediately. Do _not_ power off the device, attempt to delete emails/files, or erase the device. 
+**A:** Place the device into airplane mode. Contact us immediately. Do _not_ power off the device, attempt to delete emails/files, or erase the device.
 
 !!! danger "Warning"
      Your device's email is synced with your email account. So even if you were not on your device/EFB at the time of the incident, you still need to do the above.
