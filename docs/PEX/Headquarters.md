@@ -65,28 +65,27 @@ The Headquarters > Continuation Training Rollup pages are used by a HQ training 
 **Navigation**  
 From the PEX menu, select Headquarters > Continuation Tng Roll up. The page has two tabs: Overview and Tasks. In the Overview tab, you will create views that display the training data in which you are interested.
 
-**Use the rollup**
+### Use the Rollup
 
-* Create a view on the Continuation Training Rollup Overview tab
+**Create a view on the Continuation Training Rollup Overview tab**
 
-    1. Click the Add View Button.
-    2. Enter a Name.
-    3. Click Save.
+1. Click the Add View Button.
+2. Enter a Name.
+3. Click Save.
 
 The new view appears on the left. The column grid may be hidden by clicking the `<` symbol far upper left. The full page is ready to Add Status to this new View. As multiple Views are added, they may be edited or deleted by highlighting the View and selecting Edit View or Delete View.
 
-* Add a status to a view
+**Add a status to a view**
 
-    1. Select the view.
-    2. Click the Add Status button.
-    3. The Add Status Wizard opens.
-    4. Select the desired items using the four-step, self-guiding selection tool. Asterisked \(\*\) items are required entries and must be selected in order to Save and display a Continuation Training Status Rollup.
+1. Select the view.
+2. Click the Add Status button.
+3. The Add Status Wizard opens.
+4. Select the desired items using the four-step, self-guiding selection tool. Asterisked \(\*\) items are required entries and must be selected in order to Save and display a Continuation Training Status Rollup.
 
-        * All \*Squadron\(s\) that are registered and approved with the MAJCOM, and to which the PEX user has permissions to see, appear in the first grid column. Select one squadron, or multi-select squadrons for the Status rollup, according to user requirements. - \*Task Type is single-select only; Currency, Proficiency and One Time. Selecting Currency or Proficiency will also return any Currency/Proficiency Task Types in Step 2 of the Wizard that match the selected criteria in Step 1. - Select one or more Task Source\(s\) - Select one or more Task Category\(s\) \(Next >\).
-        * Select one or more \*Task\(s\) \(Next >\).
-        * Select applicable MDS\(s\) and Crew Position\(s\), and Mission Ready Status\(es\) \(Next >\).
-        * \*Threshold\(s\) may be applied for Currency and One Time Task Types. Click `What's this` for Thresholds Explained. Review Your Selections allows the user to see what was previously selected, change any selections if required, and is helpful in applying a distinguishing Name to the Status Rollup
-        * Finally, \*Name the Status and the Save button becomes active and selectable. Click `Save`.
+    1. All \*Squadron\(s\) that are registered and approved with the MAJCOM, and to which the PEX user has permissions to see, appear in the first grid column. Select one squadron, or multi-select squadrons for the Status rollup, according to user requirements. - \*Task Type is single-select only; Currency, Proficiency and One Time. Selecting Currency or Proficiency will also return any Currency/Proficiency Task Types in Step 2 of the Wizard that match the selected criteria in Step 1. - Select one or more Task Source\(s\) - Select one or more Task Category\(s\) \(Next >\).
+    2. Select one or more \*Task\(s\) \(Next >\).
+    3. Select applicable MDS\(s\) and Crew Position\(s\), and Mission Ready Status\(es\) \(Next >\).
+    4. \*Threshold\(s\) may be applied for Currency and One Time Task Types. Click `What's this` for Thresholds Explained. Review Your Selections allows the user to see what was previously selected, change any selections if required, and is helpful in applying a distinguishing Name to the Status RollupFinally, \*Name the Status and the Save button becomes active and selectable. Click `Save`.
 
 The Continuation Training Rollup Status now displays within the View. To interpret the data returned click the multi-color box icon, upper right, to open the Legend which will breakdown what the different colors represent.
 
@@ -112,7 +111,7 @@ The Continuation Training Rollup Status now displays within the View. To interpr
 1. Click the clock icon to the upper right; Squadron\(s\) Last Updated info is displayed. This tells the user how current the Continuation Training data is.
 2. Click the refresh icon for a manual refresh.
 
-**Use the Tasks page**
+**Use the Tasks page**  
 This page allows you another option for filtering, selecting and displaying Squadron Continuation Training data.
 
 1. Initiate the Task Criteria selection dialog by hovering the mouse in the left grid column;`Click to launch selection dialog` tooltip appears.
