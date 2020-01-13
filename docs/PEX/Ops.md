@@ -302,17 +302,17 @@ Observations are basically notes in a binder. They can be used to highlight issu
 
 ## FCIF
 
-**Introduction**
+**Introduction**  
 The FCIF \(Flight Crew Information File\) page is used to view the status of individuals' read file items. 
 
 Although the default title is FCIF, the page is used to track all read file items, not just ones for flight crew. The FCIF page is intended to be used by multiple people in common areas. For this reason each user must enter their PEX SID to review and sign off a read file. 
 
 For instructions on read file administration, see FCIF Admin.  
 
-**Permissions**
+**Permissions**  
 Any user can access the page.
 
-**Controls**
+**Controls**  
 Access these procedures by navigating to Ops > FCIF. If the module title has been changed in FCIF
 
 Admin, it will appear as that title, for example; IRF, PRF, etc.
@@ -392,7 +392,7 @@ _Effective Msn Rdy Status_
 **Module Notes**
 
 * The default column headers of DNIF and FCIF can be changed in their respective modules.
-* Personnel with multiple MDSs and/or Crew Positions may \(depending on the filters used\) appear more than once on the Board. For example, a person with MDS qualifications of both B-2A and T-38A may be current on all B-2A training tasks but overdue on a T-38A tasks. That person would be green on the B-2A row and yel ow on the T-38A row.
+* Personnel with multiple MDSs and/or Crew Positions may \(depending on the filters used\) appear more than once on the Board. For example, a person with MDS qualifications of both B-2A and T-38A may be current on all B-2A training tasks but overdue on a T-38A tasks. That person would be green on the B-2A row and yellow on the T-38A row.
 
 **Controls**
 Access these features from the PEX Main Menu by navigating to Ops > Go/No-Go.
@@ -423,11 +423,11 @@ Access these features from the PEX Main Menu by navigating to Ops > Go/No-Go.
       * _Personnel_ - View people by customizable filters.
 9. _Personnel_ grid. Displays personnel based on filter settings. Data columns can be customized as desired. Overall \(cumulative\) status displays the most-limiting status displayed in the Status grid.
 10. _Status_ grid. Displays Go/No-Go items and individual statuses.
-     * Specific status Hover on a yellow or red indicator to view a tool tip with abbreviated status information.
+     * Specific status, hover on a yellow or red indicator to view a tool tip with abbreviated status information.
      * Click on a indicator to view full status information and, on some, update the status.
 11. _Pages and Items_
     1. Scroll between pages, go directly to first page and last page.
-    2. New in 5.16.1.**Select the number of items \(people\) displayed on each page.
+    2. **New in 5.16.1** Select the number of items \(people\) displayed on each page.
     3. View the number of items on the current page and total items.
 
 ## Configuring Your Go/No-Go Board
@@ -453,7 +453,7 @@ A squadron is assigned the Default View upon creation or if its existing View is
 
 1. Click `+` Create New View.
 2. Enter a View Title.
-3. Check the items desired. indicators show the statuses associated to that item. Expanding each item displays a description of each status, including which is the default.
+3. Check the items desired. Indicators show the statuses associated to that item. Expanding each item displays a description of each status, including which is the default.
      * The nine PEX Delivered Items are based on Air Force criteria.
      * Custom Items are created by users based on unit requirements. See [Create a new Go/No-Go item]() below.
 4. Click Save. The new view appears in the View list
@@ -480,7 +480,7 @@ A squadron is assigned the Default View upon creation or if its existing View is
      4. Click Save.
 3. Select the View from the list.
 4. Click the X next to the View Title.
-5. Confirm you to delete the selected view.
+5. Confirm you deleted the selected view.
 
 **Create a new Go/No-Go Item**  
 
@@ -516,11 +516,11 @@ A squadron is assigned the Default View upon creation or if its existing View is
                  1. Click Edit, make the desired changes and Save.
                  2. Confirm the Delete.
 
-**Setup Training Tasks to be No-Go or Priority 1, or to al ow manual override**  
+**Setup Training Tasks to be No-Go or Priority 1, or to allow manual override**  
 For overdue continuation training tasks to appear in Go/No-Go they must be configured in Continuation Training as either No-Go or Priority 1. Enabling manual override is also accomplished in Continuation Training. For more see Continuation Training.
 
 !!! note "Note"
-     A task can be set to both No-Go and Priority 1, but the red No-Go logic will override the Priority 1 logic. I.e., it wil be either red \(overdue\) or green \(not overdue\), but never yellow.
+     A task can be set to both No-Go and Priority 1, but the red No-Go logic will override the Priority 1 logic. i.e., it wil be either red \(overdue\) or green \(not overdue\), but never yellow.
 
 **Effective and Assigned Mission Ready Status**  
 See [Effective and Assigned Mission Ready Status]()
@@ -552,12 +552,12 @@ Filters must be selected to display the Go/No-Go Board status.
 3. Click `Load Go/NoGo`. To view an individual person, type their name in the Search Person field.
 
 **Column settings \(vertical ellipsis\)**  
-Column options \(not all are present in all columns\):
-* Sort Ascending
-* Sort Descending
-* _Columns_ - select columns to view/hide.
-* _Lock_ - Anchors the column to the left of the display.
-* _Unlock_ - Un-anchors the column when locked.
+Column options \(not all are present in all columns\):  
+* Sort Ascending  
+* Sort Descending  
+* _Columns_ - select columns to view/hide.  
+* _Lock_ - Anchors the column to the left of the display.  
+* _Unlock_ - Un-anchors the column when locked.  
 
 **Person Status Summary**  
 Open an individual's Person Status Summary by clicking their name or searching in the Search Personnel field. Functions similar to those described below are available in this summary.
