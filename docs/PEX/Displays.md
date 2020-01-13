@@ -302,7 +302,7 @@ On each ePEX tab, click the Display Options icon to select the data you want to 
 * _Availability_ - For people who entered Personnel Availability, their availability information is viewable on the Day and Week views. Availability does not show in the Month view. 
 
 **Use the Resources Rainbow**  
-The Resources Rainbow is used to see the schedule in order to make decisions. When there is only one commitment in a time cell, the number 1 is not shown so that the display is not cluttered with a bunch of ones. When there is more than one commitment within a time cel , the number of commitments is shown. To display details about the commitment\(s\), click on the commitment cell.
+The Resources Rainbow is used to see the schedule in order to make decisions. When there is only one commitment in a time cell, the number 1 is not shown so that the display is not cluttered with a bunch of ones. When there is more than one commitment within a time cell, the number of commitments is shown. To display details about the commitment\(s\), click on the commitment cell.
 
 The commitment\(s\) details will display in the Commitment Table. To clear the Commitment Table, click the Clear button.
 
@@ -323,7 +323,7 @@ The main difference is filters cannot be created in ePEX. They can be used in eP
 ## Sortie Viewer
 
 **Introduction**  
-The Sortie Viewer module allows you to design and then electronically display user-defined schedule data. The Full Screen View can be displayed on computer monitors, TV screens, LCD projectors, or plasma screens. The Sortie Viewer Template Manager allows you to save Sortie Viewer designs. The ePEX Sortie Viewer displays the output file created and distributed by WinPEX. To make the ePEX Sortie Viewer work, within the WinPEX Sortie Viewer, identify a Full Screen Display Output Path File to the web server's ePEX directory or alternatively to a shared directory and configure I S to read the file into the web server's ePEX directory.
+The Sortie Viewer module allows you to design and then electronically display user-defined schedule data. The Full Screen View can be displayed on computer monitors, TV screens, LCD projectors, or plasma screens. The Sortie Viewer Template Manager allows you to save Sortie Viewer designs. The ePEX Sortie Viewer displays the output file created and distributed by WinPEX. To make the ePEX Sortie Viewer work, within the WinPEX Sortie Viewer, identify a Full Screen Display Output Path File to the web server's ePEX directory or alternatively to a shared directory and configure IIS to read the file into the web server's ePEX directory.
 
   1. On the Selection Tab, ”drag and drop” Available Labels and Data Elements from the list boxes below into the Selected Labels and Data Elements box above. The Selected Labels and Data Elements box can display up to 16 data elements across and seven \(7\) data elements down. There are a few rules that must be followed in order to get your display to come out right.
   2. Elements from the following list boxes can be used without restriction: Missions, Sorties, Crew Position, and Custom Labels.
@@ -339,12 +339,12 @@ The Sortie Viewer module allows you to design and then electronically display us
 >     * To display an air-refueling track name \(e.g., AR101N\), low-level route name \(e.g., IR-644\), a MOA name \(e.g., Eglin 1\), etc., you need to ensure back in the Mission Board that the name is included as part of the ”Location” for the appropriate Sortie Event \(e.g., AR Initial Point, LL Entry Point, MOA Entry Point\). Then, in Sortie Viewer, drag the appropriate Sortie Event Label \(e.g., ARIP, LLEP, or MOA Entry\) to the top grid followed by the "Location” data element.
 >     * Do not use empty fields.
 7. Once you have completed your Labels and Data Elements, save your design using Tools, Template Manger, and then select the Layout tab.
-8. Modify the Header and Footer data to your liking. The Header and Footer always remain in view in the Ful Screen mode. The Footer is a useful place to display takeoff and landing data. Once you have completed your Layout, save your design by using Tools, Template Manager.
+8. Modify the Header and Footer data to your liking. The Header and Footer always remain in view in the Full Screen mode. The Footer is a useful place to display takeoff and landing data. Once you have completed your Layout, save your design by using Tools, Template Manager.
 >!!! note "Note"
 >     The templates for the Selection tab and Layout tab are independent of each other. They are managed separately.
 >!!! tip "Tip"
 >     In the header and footer areas, if you type in `<br\>` it will force a line break in your final display. The area that says "Additional Remarks" can be used as a third area to enter remarks.
-1. Select your desired Ful Screen Options and Preview your design. Click Save to save your preferred Full Screen Options. Identifying a Full Screen Display Output File Path on a shared directory allows other network users to view the display without having PEX software installed on their computer. Placing the file on the ePEX web server allows access via the Sortie Viewer display in ePEX . In order to enable this option you must take the following steps:
+9. Select your desired Full Screen Options and Preview your design. Click Save to save your preferred Full Screen Options. Identifying a Full Screen Display Output File Path on a shared directory allows other network users to view the display without having PEX software installed on their computer. Placing the file on the ePEX web server allows access via the Sortie Viewer display in ePEX . In order to enable this option you must take the following steps:
 
 **On the IIS server**
 
@@ -353,18 +353,18 @@ The Sortie Viewer module allows you to design and then electronically display us
 3. Click the 'Share this folder' radio button and accept the default Share name.
 4. Click Apply.
 5. Click the Permissions button on the Sharing tab.
-6. Give Everyone 'Ful control' and Click OK.
-7.  On the security permissions tab give Domain Users 'Modify' rights.
+6. Give Everyone 'Full control' and Click OK.
+7. On the security permissions tab give Domain Users 'Modify' rights.
 
 **On the client**
 
 1. Map a drive to the newly created ePEX share
-2. In the Ful Screen Display Output File Path browse to the ePEX directory of the ePEX web server.
+2. In the Full Screen Display Output File Path browse to the ePEX directory of the ePEX web server.
 >As long as the WinPEX client is in Full Screen mode the sortie Viewer in ePEX will be updated at the specified refresh rate. If the client is taken out of Full Screen mode then the display in ePEX will display the last information sent and will not refresh.
 >!!! note "Note"
 >     If you need to restrict access to the web server the administrator could create a specific active directory group and give the 'Full Control' share and 'Modify' security permissions to that group, then give group membership to specific domain users. It is the network user name which requires access to the share, not the PEX username.
 >!!! tip "Tip"
->     The Sortie Viewer can display one Squadron or Al Squadrons. In ePEX you cannot determine the selection layout. Therefore, if the ePEX Sortie Viewer is to be used, then the selection of labels and data elements, as well as the Layout \(Header and Footer Information\) needs to be coordinated across the various units.
+>     The Sortie Viewer can display one Squadron or All Squadrons. In ePEX you cannot determine the selection layout. Therefore, if the ePEX Sortie Viewer is to be used, then the selection of labels and data elements, as well as the Layout \(Header and Footer Information\) needs to be coordinated across the various units.
 3. Select View, Full Screen or click the Full Screen icon. To print the Full Screen View, right-click and select Print. To exit Ful Screen mode, press Esc. 
 
 **Sortie Viewer Menu**
@@ -374,9 +374,9 @@ The Sortie Viewer module allows you to design and then electronically display us
 * Undo, Cut, Copy and Paste are non-functional this version.
 * Clear Data – Removes all labels and data elements from the Selected Labels and Data Elements box. Also available as an icon on the menubar.
 * View -
-* Toolbar. Turns the Toolbar on and off.
-* Status Bar. Turns Status Bar on and off.
-* Full Screen. Only functional on Layout tab. Displays what you have designed in the ful -screen mode.
+* Toolbar - Turns the Toolbar on and off.
+* Status Bar - Turns Status Bar on and off.
+* Full Screen - Only functional on Layout tab. Displays what you have designed in the ful -screen mode.
 * Tools - Template Manager. Brings up the Sortie Viewer Template Manager dialog. Using this dialog you can save, edit, rename, delete, and set default Sortie Viewer displays.
 * Window - Same as PEX
 * Help - Same as PEX
