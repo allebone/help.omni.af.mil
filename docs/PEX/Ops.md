@@ -3,7 +3,7 @@
 ## Binders
 
 **Introduction**  
-The Binders module allows you to create and maintain electronic binders for purposes such as program continuity, self-assessment, mobility, etc. It is accessed through the PEX main menu via Ops>Binders. The Binders module is divided into two sections, Binders and Setup. The Setup page al ows you to create different Binder Types and Documentation Folders to setup your binders. The Binders page allows you to create binders; associate owners and alternate owners to the binder; import and export binders and add observations and documents to a binder. PEX al ows you to create different binder types such as Self-Assessment, Continuity, etc. This enables you to establish a standardized documentation folders structure for each binder type.
+The Binders module allows you to create and maintain electronic binders for purposes such as program continuity, self-assessment, mobility, etc. It is accessed through the PEX main menu via Ops>Binders. The Binders module is divided into two sections, Binders and Setup. The Setup page allows you to create different Binder Types and Documentation Folders to setup your binders. The Binders page allows you to create binders; associate owners and alternate owners to the binder; import and export binders and add observations and documents to a binder. PEX allows you to create different binder types such as Self-Assessment, Continuity, etc. This enables you to establish a standardized documentation folders structure for each binder type.
 
 A Self-Assessment binder type with its associated documentation folders is delivered with PEX software.
 
@@ -55,12 +55,12 @@ To add, edit or delete Binder Types, either select the appropriate button at the
 
 ### Documentation Folders
 
-Documentation folders are tabs or sections within a binder. Here in Setup, you set the default folder structure for each binder type; thus, each binder created using a binder type is automatical y populated with the default folder structure for that binder type. Users have the capability to also retroactively insert the new folders to existing binders already using the Binder Type. This feature was added to make it easier to maintain a common folder structure for specific Binder Types.
+Documentation folders are tabs or sections within a binder. Here in Setup, you set the default folder structure for each binder type; thus, each binder created using a binder type is automatically populated with the default folder structure for that binder type. Users have the capability to also retroactively insert the new folders to existing binders already using the Binder Type. This feature was added to make it easier to maintain a common folder structure for specific Binder Types.
 
 _Add a Documentation Folder to a Binder Type_
 
 1. Select the appropriate Binder Type in the drop-down at the top.
-2. select `Add` at the top of the page or right-click in the grid and select `Add` in the popup menu.
+2. Select `Add` at the top of the page or right-click in the grid and select `Add` in the popup menu.
 3. Enter the Name and optionally the Description for the folder.
 4. Click `Save` or `Save & New` to continue adding more folders.
 5. Save  
@@ -88,7 +88,7 @@ _Delete a Documentation Folder in a Binder Type_
 4. In the Confirm dialog, select `Yes`
 
 !!! note "Note"
-    Unlike when adding new documentation folders, documentation folders cannot optional y be deleted retroactively from existing binders. Such deletions, if necessary, must be made from within existing binders. hyperlink.
+    Unlike when adding new documentation folders, documentation folders cannot optionally be deleted retroactively from existing binders. Such deletions, if necessary, must be made from within existing binders. hyperlink.
 
 ## Binders- Managing Your Binders
 
@@ -113,8 +113,8 @@ _Delete a Documentation Folder in a Binder Type_
 
 **Delete a Binder**
 
-1.Select a Binder from the Binder Directory.
-2.Select the Delete button.
+1. Select a Binder from the Binder Directory.
+2. Select the Delete button.
 
 !!! caution "Caution"
     The Binder and all associated Folders and Documentation will be deleted. This is unrecoverable once completed.
@@ -123,7 +123,7 @@ _Delete a Documentation Folder in a Binder Type_
 
 1. Select Binder in Binder Directory
 2. Select the Manage Alternates button and the Manage Alternates dialog opens.
-3. _Name_ dropdown. The list is populated by al personnel in squadrons to which the user has any role, with the person’s squadron indicated for easy reference. You can also begin typing the last name to narrow down the list provided.
+3. Name dropdown. The list is populated by all personnel in squadrons to which the user has any role, with the person’s squadron indicated for easy reference. You can also begin typing the last name to narrow down the list provided.
 4. Select the appropriate Alternate Type for the individual: Alternate, Self Assessment Program Manager \(SAPM\), or View Only. Reference the capabilities of each alternate type pseudo role.
 5. Click `Assign`.
 6. Select `Close` when complete.
@@ -150,8 +150,8 @@ _Document a Binder Review_
 2. Select Review Actions.
 3. Select Review Binder.
 4. The Review Binder dialog opens.
-5. _Date_ - Defaults to today’s day. Can be edited via calendar icon.
-6. _Remarks_ - Required entry. 1000 characters maximum.
+5. Date - Defaults to today’s day. Can be edited via calendar icon.
+6. Remarks - Required entry. 1000 characters maximum.
 7. Save.
 
 !!! note "Note"
@@ -182,7 +182,7 @@ _View a Binder’s Review History_
 * Click the `Export` button.
 * In the standard web browser dialog, save the file to desired location.
 
-The exported binders do contain: al documentation except those attached files marked Not Exportable. Hyperlinks for intranet sites will export, but when imported into a different database on a different domain will not open. Such links will need to be deleted then added once again.
+The exported binders do contain: all documentation except those attached files marked Not Exportable. Hyperlinks for intranet sites will export, but when imported into a different database on a different domain will not open. Such links will need to be deleted then added once again.
 
 Exported binders do not contain Binder Observations, Binder Reviews or Binder Owners/Alternates.
 
@@ -235,7 +235,7 @@ Documentation in binders is organized within folders.
 **Add Documentation to a Binder**
 
 1. Select the binder in the Binder Directory.
-2. Either click the Add button in the Documentation Folders grid or right-click in the grid and select Add from the context menu. The Add Documentation dialog wil open.
+2. Either click the Add button in the Documentation Folders grid or right-click in the grid and select Add from the context menu. The Add Documentation dialog will open.
 3. Select on the left the folder to which you want to add the document.
 4. _Name_ - Required entry. 50 characters maximum.
 5. _Description_ - Optional entry. 255 characters maximum.
@@ -270,7 +270,8 @@ Documentation in binders is organized within folders.
 1. Select the binder in the Binder Directory.
 2. In the Documentation Folders grid, hover over the row to be moved and then click and drag it to the new location within the folder.
 
-!!! note "Note" To move documentation to another folder, reference Edit Documentation in a Binder above.
+!!! note "Note"
+      To move documentation to another folder, reference Edit Documentation in a Binder above.
 
 ### Manage Observations in Binders
 
