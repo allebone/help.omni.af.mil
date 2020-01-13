@@ -276,8 +276,6 @@ To transfer data from PEX to ARMS, users must have the following setup.
 
 Virtual Account for ARMS 
 
-{I'm here now}
-
 1.  In order to export data from PEX to ARMS, the ARMS User must have an ARMS Virtual Account User Name and Password. This is not the same as the ARMS account used to connect to ARMS. An ARMS Administrator can create these accounts in ARMS at System > Security > ARMS External Accounts. 
 
 2.  The virtual account is set to “T” for True. A User ID is created along with a Password. The IRA Number used is 11. 
@@ -286,31 +284,28 @@ Virtual Account for ARMS
 
 Download ODAC 
 
-1.  ODAC needs to be installed at the following locations: 194 
+1.  ODAC needs to be installed at the following locations:
 
-A.  SQL Server \(Required\) hosting PEX. 
+    1.  SQL Server \(Required\) hosting PEX. 
 
-B.  Webserver \(Required\) hosting ePEX. 
+    2.  Webserver \(Required\) hosting ePEX. 
 
-C.  WinPEX \(Optional\). If you install WinPEX on a client machine, and you plan on exporting ARMS data, then ODAC must also be installed on the client machine. 
+    2.  WinPEX \(Optional\). If you install WinPEX on a client machine, and you plan on exporting ARMS data, then ODAC must also be installed on the client machine. 
 
 2.  Download the ODAC software. 
 
-A.  Go to http://www.oracle.com 
+    1.  Go to http://www.oracle.com 
 
-B.  Create a username & password at the site. Al ow about 5 minutes to receive an account. 
+    2.  Create a username & password at the site. Al ow about 5 minutes to receive an account. Once you have the account, download the file at this location:  http://www.oracle.com/technetwork/topics/dotnet/utilsoft-086879.html 
 
-Once you have the account, download the file at this location: 
+    3.  Accept the Oracle Developer Tools for Visual Studio .NET Development License Agreement. 
 
-http://www.oracle.com/technetwork/topics/dotnet/utilsoft-086879.html 
-
-C.  Accept the Oracle Developer Tools for Visual Studio .NET Development License Agreement. 
-
-D.  Under ODAC 12c Release 4 and Oracle Developer Tools for Visual Studio \(12.1.0.2.4\), Download the ODTwithODAC121024.zip file 
+    4.  Under ODAC 12c Release 4 and Oracle Developer Tools for Visual Studio \(12.1.0.2.4\), Download the ODTwithODAC121024.zip file 
 
 Install ODAC 
 
-NOTE: Instal ation is the same on the SQL Server hosting PEX Service Host, WebServer, and WinPEX. 
+!!! tip
+    Install ation is the same on the SQL Server hosting PEX Service Host, WebServer, and WinPEX. 
 
 1.  Go to the computer's C:\\ drive. 
 
@@ -324,11 +319,13 @@ NOTE: Instal ation is the same on the SQL Server hosting PEX Service Host, WebSe
 
 6.  Wait a few seconds. 
 
-NOTE: Some installations are blocked based on user permissions to a given machine. The only indication is that nothing happens after clicking setup.exe. If so, Search for Advanced System settings > Advanced Tab > Environment Variables > Click on TEMP variable to highlight -> Edit A.  Capture the existing Variable value for TEMP. You will need this later. 
+!!! NOTE
+     Some installations are blocked based on user permissions to a given machine. The only indication is that nothing happens after clicking setup.exe. If so, Search for Advanced System settings > Advanced Tab > Environment Variables > Click on TEMP variable to highlight -> Edit 
 
-B.  EDIT and change just the TEMP Value to C:\\TEMP1. 
+    1. Capture the existing Variable value for TEMP. You will need this later. 
+    2. EDIT and change just the TEMP Value to C:\\TEMP1. 
 
-NOTE: After installation is complete, reset to the original TEMP value, or as appropriate. 
+    After installation is complete, reset to the original TEMP value, or as appropriate. 
 
 7.  In Product Languages, select English, then click Next. 
 
@@ -338,37 +335,31 @@ NOTE: After installation is complete, reset to the original TEMP value, or as ap
 
 10.  Leave the Software Location as is. Ensure you see: 
 
-A.  Oracle base: C:\\Oracle\\ODAC\_PEX 
+    1.  Oracle base: C:\\Oracle\\ODAC\_PEX 
 
-B.  Software location: C:\\Oracle\\ODAC\_PEX\\product\\12.1.0\\client\_1. 
+    2.  Software location: C:\\Oracle\\ODAC\_PEX\\product\\12.1.0\\client\_1. 
 
-C.  Then select Next. 
+    3.  Then select Next. 
 
-11.  In Available Product Components, uncheck everything except for Oracle Data Provider for 
-
-.NET, then select Next. 
-
-195 
-
-Training 
+11.  In Available Product Components, uncheck everything except for Oracle Data Provider for .NET, then select Next. 
 
 12.  In ODP.NET \(Oracle Data Provider for .NET\), check/verify the Configure ODP.NET box is checked, then select Next. 
 
 13.  In DB Connection Configuration: 
 
-A.  Enter the Connection Alias: *ARMS DB Alias Name*. 
+    1.  Enter the Connection Alias: *ARMS DB Alias Name*. 
 
-B.  Leave Port Number as *1521* 
+    2.  Leave Port Number as *1521* 
 
-C.  Enter the Database Host Name: *ARMS DB IP Address*. 
+    3.  Enter the Database Host Name: *ARMS DB IP Address*. 
 
-D.  Enter the Database Service Name: *ARMS Service Name*. 
+    4.  Enter the Database Service Name: *ARMS Service Name*. 
 
-E.  Then select Next. 
+    5.  Then select Next. 
 
 14.  In Perform Prerequisite Checks, wait for the checks to run. When complete, you wil see Summary. 
 
-15.  In Summary, select Instal . 
+15.  In Summary, select Install. 
 
 16.  In Instal Product, wait for the installation to run. When complete, you will see Finish. 
 
@@ -392,37 +383,34 @@ E.  Then select Next.
 
 26.  Verify rights on the machine. 
 
-A.  Right-click on C:\\Oracle\\ODAC\_PEX\\product\\12.10\\client\_\# folder and select Properties. 
+    1.  Right-click on C:\\Oracle\\ODAC\_PEX\\product\\12.10\\client\_\# folder and select Properties. 
 
-B.  From the Properties menu select the Security tab. 
+    2.  From the Properties menu select the Security tab. 
 
-C.  Click Continue from the Security tab. 
+    3.  Click Continue from the Security tab. 
 
-D.  Click yes on user account control. 
+    4.  Click yes on user account control. 
 
-E.  From the permission tab for client\_\# window click the Add button. 
+    5.  From the permission tab for client\_\# window click the Add button. 
 
-F.  Type Authenticated Users in the Object Names box, and click Ok G.  From the permissions for client\_\# folder ensure that Authenticated Users has the following permissions: Read & execute, List folder contents, and Read in the allow column and nothing else. 
+    6.  Type Authenticated Users in the Object Names box, and click Ok G.  From the permissions for client\_\# folder ensure that Authenticated Users has the following permissions: Read & execute, List folder contents, and Read in the allow column and nothing else. 
 
-H.  Click Ok on the client\_\# permissions window. 
+    7.  Click Ok on the client\_\# permissions window. 
 
-I.  Click Ok on the client\_\# properties window. 
+    8.  Click Ok on the client\_\# properties window. 
 
 27.  Restart the machine. If on the: 
 
-A.  SQL Server Hosting PEX and ODAC is installed, restart PEX Service Host B.  Webserver hosting ePEX and ODAC is installed, reset IIS. 
-
-196 
-
-C.  WinPEX client machine and ODAC is installed, restart the computer. 
+    1.  SQL Server Hosting PEX and ODAC is installed, restart PEX Service Host 
+    2.  Webserver hosting ePEX and ODAC is installed, reset IIS. 
+    3.  WinPEX client machine and ODAC is installed, restart the computer. 
 
 28.  ODAC Installation successful. 
 
-29.  User can proceed to export ARMS data from PEX to ARMS via ePEX and/or WinPEX, provided a firewall exemption is provided allowing network traffic from machine to destination ARMS 
+29.  User can proceed to export ARMS data from PEX to ARMS via ePEX and/or WinPEX, provided a firewall exemption is provided allowing network traffic from machine to destination ARMS database. 
 
-database. 
-
-NOTE: Remember to return to Search for Advanced System settings > Advanced Tab > Environment Variables > Click on TEMP variable to highlight -> Edit -> restore the variable value to its ORIGINAL state. 
+!!! NOTE
+    Remember to return to Search for Advanced System settings > Advanced Tab > Environment Variables > Click on TEMP variable to highlight -> Edit -> restore the variable value to its ORIGINAL state. 
 
 Uninstall ODAC 
 
@@ -450,81 +438,67 @@ Uninstall ODAC
 
 12.  ODAC is uninstalled. 
 
-Import ARMS data to PEX 
-
-New in PEX 5.16.1. 
+#### Import ARMS data to PEX 
 
 If using the CSV/Virtual Account method, first export the data from ARMS as an Excel worksheet \(XLS\), and then save it as a CSV file to an accessible location on a computer or network. 
 
 1.  Go to Training > Continuation > ARMS tab > Import button. 
 
-2.  Under Squadrons \[Default Setting\], select the squadron\(s\) whose data is to be imported. 
-
-Each squadron displays, in brackets, the default method selected in the ARMS tab > Settings. 
-
-You can override these below. 
+2.  Under Squadrons \[Default Setting\], select the squadron\(s\) whose data is to be imported. Each squadron displays, in brackets, the default method selected in the ARMS tab > Settings. You can override these below. 
 
 3.  Under Data Types, select the type of data \(All, Personnel, Training, and/or Personnel Flying Hours\) to import. 
 
-4.  Under Import Selected Squadrons Using, select: A.  Each Squadron's default settings. This will import via CSV file or Web Services as selected above. 
+4.  Under Import Selected Squadrons Using, select: 
 
-B.  Web services for al . This will import via Web Services regardless of the Default Setting above. 
+    1.  Each Squadron's default settings. This will import via CSV file or Web Services as selected above. 
 
-197 
+    2.  Web services for al . This will import via Web Services regardless of the Default Setting above. 
 
-Training 
-
-C.  CSV files for all. This will import via CSV files regardless of the Default Setting above. 
+    3.  CSV files for all. This will import via CSV files regardless of the Default Setting above. 
 
 5.  Click Begin Import. 
 
-A.  For squadrons importing via Web Services, the Web Service Imports window will open. 
+    1.  For squadrons importing via Web Services, the Web Service Imports window will open. 
 
-1\) Web Service imports require the Zulu Dates of the last successful imports of Personnel and Training records. 
+        1. Web Service imports require the Zulu Dates of the last successful imports of Personnel and Training records. 
 
-□ ARMS Web Services only import Personnel and Training records which have been changed in ARMS since the Zulu date specified in the Web Service Imports dialog. 
+            * ARMS Web Services only import Personnel and Training records which have been changed in ARMS since the Zulu date specified in the Web Service Imports dialog. 
 
-□ Blank dates indicate the squadron has not yet completed a Web Services import for that data type \(Personnel or Training\). To ensure a squadron's first web service import includes all records changed in ARMS since the squadron's last CSV import, refer to the log file for the squadron's last successful CSV import for each data type. 
+            * Blank dates indicate the squadron has not yet completed a Web Services import for that data type \(Personnel or Training\). To ensure a squadron's first web service import includes all records changed in ARMS since the squadron's last CSV import, refer to the log file for the squadron's last successful CSV import for each data type. At the top of each log file locate the "Data Downloaded from ARMS" date. This is the date/time of the last ARMS import. 
 
-At the top of each log file locate the "Data Downloaded from ARMS" date. This is the date/time of the last ARMS import. 
+            * If the last import was completed in PEX v5.16.1 or later, the date/time is in Zulu. You can enter that date as it is. 
 
-□ If the last import was completed in PEX v5.16.1 or later, the date/time is in Zulu. 
+            * If the last import was completed in PEX v5.16.0 or earlier, the date/time is in Local time. You must first convert that Local date/time to Zulu date/time, then enter the converted Zulu Date. 
 
-You can enter that date as it is. 
+            * Once Personnel or Training updates have been imported via ARMS Web Services, these fields default to the Zulu date of the squadron's last successful Web Services import for that data type. You may change it to a date before the default but NOT after. 
 
-□ If the last import was completed in PEX v5.16.0 or earlier, the date/time is in Local time. You must first convert that Local date/time to Zulu date/time, then enter the converted Zulu Date. 
+            * Because ARMS gets a MILPDS update daily, Personnel records are updated in ARMS daily. Therefore all Personnel records will import with every Web Services Personnel and Training import. 
 
-□ Once Personnel or Training updates have been imported via ARMS Web Services, these fields default to the Zulu date of the squadron's last successful Web Services import for that data type. You may change it to a date before the default but NOT after. 
+    2.  For squadrons importing via CSV files, the CSV Imports window will open. 
 
-NOTE: Because ARMS gets a MILPDS update daily, Personnel records are updated in ARMS daily. Therefore all Personnel records will import with every Web Services Personnel and Training import. 
+        1. For each squadron, browse to the CSV file location and select the file. 
 
-B.  For squadrons importing via CSV files, the CSV Imports window will open. 
-
-1\) For each squadron, browse to the CSV file location and select the file. 
-
-2\) Click Import. 
+        2. Click Import. 
 
 6.  View the import Log Files: 
 
-A.  Select a Start Date and End Date. 
+    1.  Select a Start Date and End Date. 
 
-B.  Click Go. 
+    2.  Click Go. 
 
-C.  Click on the file name and a window will open with the log file details. 
+    3.  Click on the file name and a window will open with the log file details. 
 
-D.  To view a list of old log files, select a Start Date and End Date and click Go. 
+    4.  To view a list of old log files, select a Start Date and End Date and click Go. 
 
-E.  The log lists: 
+    5.  The log lists: 
 
-1\) The Zulu date/time of the last ARMS data update, of the data imported into PEX, 2\) The Zulu date/time the import was initiated, and by whom. 
+        1. The Zulu date/time of the last ARMS data update, of the data imported into PEX 
+        
+        2. The Zulu date/time the import was initiated, and by whom. 
 
-3\) A list of all persons whose data was imported. Each person listed will show the number of training events inserted/updated, the number of training events not inserted/updated and the training events not inserted/updated. If nothing is listed under a person, all training for that person imported successfully. 
+        3. A list of all persons whose data was imported. Each person listed will show the number of training events inserted/updated, the number of training events not inserted/updated and the training events not inserted/updated. If nothing is listed under a person, all training for that person imported successfully. 
 
-198 
-
-!(images/000015.png)
-
-4\) A list of any errors. 
+        4. A list of any errors. 
 
 NOTES: 
 
@@ -532,303 +506,80 @@ NOTES:
 
 * You can import data from multiple ARMS units \(for example from a student squadron\) into a single PEX squadron. 
 
-* The import phase of the scheduled activity does not initiate until after the entire export has been received and acknowledged by ARMS, as the unit SARMs need to know that everything they sent from PEX was received and processed by ARMS before PEX begins taking an export from ARMS. This ensures that PEX and ARMS data for each person is always in synch/agreement. It's okay if the export is rejected or failed for a particular person, as the SARM gets a report in the PEX log listing which persons' exports failed. This allows the SARM 
+* The import phase of the scheduled activity does not initiate until after the entire export has been received and acknowledged by ARMS, as the unit SARMs need to know that everything they sent from PEX was received and processed by ARMS before PEX begins taking an export from ARMS. This ensures that PEX and ARMS data for each person is always in synch/agreement. It's okay if the export is rejected or failed for a particular person, as the SARM gets a report in the PEX log listing which persons' exports failed. This allows the SARM to know why PEX shows one thing but ARMS shows another for an individual person. 
 
-to know why PEX shows one thing but ARMS shows another for an individual person. 
+### Workflow 
 
-Workflow 
+![binders](PEX/img/../../img/Training/ARMS Import Process.png){: style="height:100%;width:100%"}
 
 
-
-ARMS Personnel data sent to PEX 
+### ARMS Personnel data sent to PEX 
 
 The following table lists the data sent from ARMS to PEX by both CSV/Virtual Account and Web Services methods. 
 
 \*Not used in PEX 
 
-CSV file 
-
-CSV/Virtual 
-
-Web 
-
-Column 
-
-Field 
-
-Account 
-
-Services 
-
-B 
-
-Name, Last 
-
-X 
-
-X 
-
-C 
-
-Name, First 
-
-X 
-
-X 
-
-D 
-
-Name, M.I. 
-
-X 
-
-X 
-
-E 
-
-Flight 
-
-X 
-
-X 
-
-F 
-
-DoB 
-
-X 
-
-X 
-
-H 
-
-Pri Qual, CP 
-
-X 
-
-X 
-
-199 
-
-Training 
-
-I 
-
-Pri Qual, MAJCOM 
-
-3
-
-X 
-
-
-
-
-
-J 
-
-Pri Qual, MAJCOM 
-
-4
-
-X 
-
-
-
-
-
-K 
-
-Pri Qual, MAJCOM 
-
-5
-
-X 
-
-
-
-
-
-L 
-
-Dt Arrived 
-
-X 
-
-X 
-
-M 
-
-Rank 
-
-X 
-
-X 
-
-N 
-
-SSN 
-
-X 
-
-X 
-
-O 
-
-Office Symbol 
-
-X 
-
-X 
-
-P 
-
-AFSC 
-
-X 
-
-X 
-
-Q 
-
-AFSC Suffix 
-
-X 
-
-X 
-
-R 
-
-PAFSC\* 
-
-X 
-
-
-
-S 
-
-Gender 
-
-X 
-
-X 
-
-T 
-
-Proj’d Depart Dt 
-
-X 
-
-X 
-
-U 
-
-Date of 
-
-Separation
-
-X 
-
-X 
-
-
-
-V 
-
-Term Date\* 
-
-X 
-
-
-
-W 
-
-PAS Code\* 
-
-X 
-
-
-
-X 
-
-FSC\* 
-
-X 
-
-
-
-Y 
-
-PAC\* 
-
-X 
-
-
-
-Z 
-
-WX Category 
-
-X 
-
-
-
-AA 
-
-Last Browser 
-
-Update
-
-X 
-
-
-
-
-
-Export PEX data to ARMS 
-
-New in PEX 5.16.1. 
+| CSV File Column | Field | CSV/Virtual Account | Web Services |
+|-|-|-|-|
+| B | Name, Last | X | X |
+| C | Name, First | X | X |
+| D | Name, M.I. | X | X |
+| E | Flight | X | X |
+| F | DoB | X | X |
+| H | Pri Qual, CP | X | X |
+| I | Pri Qual, MAJCOM 3 | X |  |
+| J | Pri Qual, MAJCOM 4 | X |  |
+| K | Pri Qual, MAJCOM 5 | X |  |
+| L | Dt Arrived | X | X |
+| M | Rank | X | X |
+| N | SSN | X | X |
+| O | Office Symbol | X | X |
+| P | AFSC | X | X |
+| Q | AFSC Suffix | X | X |
+| R | PAFSC* | X | X |
+| S | Gender | X | X |
+| T | Proj'd Depart Dt | X | X |
+| U | Date of Separation | X | X |
+| V | Term Date* | X |  |
+| W | PAS Code* | X |  |
+| X | FSC* | X |  |
+| Y | PAC* | X |  |
+| Z | WX Category | X |  |
+| AA | Last Browser Update | X |  |
+
+### Export PEX data to ARMS 
 
 With ODAC setup on your PEX servers and training/AFTO 781 data ready to export, you are ready to send the data to ARMS. For more, see: ODAC Setup.  
 
-NOTES: 
+!!! NOTE
+    * If you do not already have an ARMS virtual account, navigate to ARMS > Modules > System > Security > ARMS External Accounts, and create your ARMS Virtual Account \(Do not use the % sign in your password\). 
 
-* If you do not already have an ARMS virtual account, navigate to ARMS > Modules > System > Security > ARMS External Accounts, and create your ARMS Virtual Account \(Do not use the % 
+    * PEX uses IRA 11. 
 
-sign in your password\). 
-
-* PEX uses IRA 11. 
 
 1.  Go to Training > Continuation > ARMS tab > Export button. 
 
-2.  Under Squadrons \[Default Setting\], select the squadron\(s\) whose data is to be exported. 
-
-Each squadron displays, in brackets, the default method selected in the ARMS tab > Settings. 
-
-You can override these below. 
+2.  Under Squadrons \[Default Setting\], select the squadron\(s\) whose data is to be exported. Each squadron displays, in brackets, the default method selected in the ARMS tab > Settings. You can override these below. 
 
 3.  Under Data Types, select the type of data \(All, Training, and/or 781\) to export. 
 
-200 
-
-!(images/000044.png)
-
 4.  Under Information 
 
-A.  Read the Message box. It wil tell you whether there is any data ready to export. If there is data ready, then proceed. 
+    1.  Read the Message box. It wil tell you whether there is any data ready to export. If there is data ready, then proceed. 
 
-B.  Select the ARMS Database. 
+    2.  Select the ARMS Database. 
 
-C.  Enter the Virtual Account User Name and Password. 
+    3.  Enter the Virtual Account User Name and Password. 
 
-D.  View the Last Training Export Date and Last 781 Export Date. 
+    4.  View the Last Training Export Date and Last 781 Export Date. 
 
 5.  Under Export Using, select: 
 
-A.  Each Squadron's default. This will export via ODAC or Web Services as selected above. 
+    1.  Each Squadron's default. This will export via ODAC or Web Services as selected above. 
 
-B.  Web services for all. This will export via Web Services regardless of the Default Setting above. 
+    2.  Web services for all. This will export via Web Services regardless of the Default Setting above. 
 
-C.  Virtual Account for all. This will export via ODAC regardless of the Default Setting above. 
+    3.  Virtual Account for all. This will export via ODAC regardless of the Default Setting above. 
 
 6.  Click Begin Export. 
 
@@ -838,109 +589,43 @@ C.  Virtual Account for all. This will export via ODAC regardless of the Default
 
 9.  View the export Log Files: 
 
-A.  Select a Start Date and End Date. 
+    1.  Select a Start Date and End Date. 
 
-B.  Click Go. 
+    2.  Click Go. 
 
-C.  Click on the file name and a window will open with the log file details. 
+    3.  Click on the file name and a window will open with the log file details. 
 
-D.  To view a list of old log files, select a Start Date and End Date and click Go. 
+    4.  To view a list of old log files, select a Start Date and End Date and click Go. 
 
 Workflow 
 
-
+![binders](PEX/img/../../img/Training/PEX to ARMS Workflow.png){: style="height:100%;width:100%"}
 
 PEX Training data sent to ARMS 
 
-Field 
+|Field|CSV/Virtual Account|Web Services|
+|-|-|-|
+|Person ID (SSN)|x|x|
+|ARMS Program Code|x|x|
+|Task Code|x|x|
+|Accomp Date|x|x|
+|Scheduled Volume|x|x|
+|Approved Volume|x|x|
+|Accomp Method|x|x|
+|Loss Reason|x|x|
+|Grade Score|x|x|
+|No. Weapon Attempts|x|x|
+|No. Weapon Hits|x|x| 
 
-CSV/Virtual Account 
+## Setup CT 
 
-Web Services 
-
-Person ID \(SSN\) 
-
-X 
-
-X 
-
-ARMS Program Code 
-
-X 
-
-X 
-
-Task Code 
-
-X 
-
-X 
-
-Accomp Date 
-
-X 
-
-X 
-
-Scheduled Volume 
-
-X 
-
-X 
-
-Approved Volume 
-
-X 
-
-X 
-
-Accomp Method 
-
-X 
-
-X 
-
-201 
-
-Training 
-
-Loss Reason 
-
-X 
-
-X 
-
-Grade Score 
-
-X 
-
-X 
-
-No. Weapon Attempts 
-
-X 
-
-X 
-
-No. Weapon Hits 
-
-X 
-
-X 
-
-
-
-Setup CT 
-
-Configure RAP 
-
-Introduction 
+### Configure RAP  
 
 Your personnel have an Assigned Mission Ready Status, for example CMR \(Combat Mission Ready\) or BMC \(Basic Mission Capable\). Based on their flight, simulator, and training task accomplishments, PEX will calculate an Effective Mission Ready Status. For example, a person’s assigned status may be CMR but due to a low sortie count, the effective status could be BMC. Once setup, the Effective Mission Ready Status is viewable on the Letter of X and the Go/No-Go pages in PEX. 
 
 For each person using Ready Aircrew Program \(RAP\), first go to the Personnel module and set their mission ready status to CMR or BMC, and their experience indicator to E or I. 
 
-RAP Requirements 
+#### RAP Requirements 
 
 1.  Navigate to Training > Continuation > Setup tab > RAP Requirements. 
 
@@ -948,33 +633,32 @@ RAP Requirements
 
 3.  Select: 
 
-A.  ARMS to base your RAP calculation on ARMS RAP task identifiers. 
+    1.  ARMS to base your RAP calculation on ARMS RAP task identifiers. 
 
-B.  Unit Level to base your RAP calculation on Unit Level RAP task identifiers. Using Unit Level RAP will have no effect on RAP probation or Mission Readiness Status if your squadron has enabled Sortie RAP for MRS calculations. 
+    2.  Unit Level to base your RAP calculation on Unit Level RAP task identifiers. Using Unit Level RAP will have no effect on RAP probation or Mission Readiness Status if your squadron has enabled Sortie RAP for MRS calculations. 
 
-C.  Neither to not preform RAP calculations. 
+    3.  Neither to not preform RAP calculations. 
 
 4.  Select a data line by CP/MDS/Service Status. 
 
 5.  Enter your Task code \(e.g., TOT RAP SRTY, SR001\). 
 
-A.  ARMS: In the Task ID field, enter the Task ID as free-text. 
+    1.  ARMS: In the Task ID field, enter the Task ID as free-text. 
 
-B.  Unit Level: In the Unit Tasks field, click Choose, and select the appropriate task from the dropdown, and OK. 
+    2.  Unit Level: In the Unit Tasks field, click Choose, and select the appropriate task from the dropdown, and OK. 
 
 6.  From your RAP Tasking Message \(RTM\), enter your look back numbers for Total RAP, 3-Month, and 1-Month Look Back for that specific CP/MDS/Service Status combination for each of the BMC/CMR Experienced/Inexperienced categories. 
 
-7.  If the same RAP numbers apply to another CP/MDS/Service combination, copy it over: A.  Select the data line with CP/MDS/Service Status you want to copy. 
+7.  If the same RAP numbers apply to another CP/MDS/Service combination, copy it over: 
+    1.  Select the data line with CP/MDS/Service Status you want to copy. 
 
-B.  Right-click and select Copy RAP Requirements or Unit Level Requirements. 
+    2.  Right-click and select Copy RAP Requirements or Unit Level Requirements. 
 
-202 
+    3.  When the dialog opens, select the CP/MDS/Service you want to copy to by checking the left-hand box. 
 
-C.  When the dialog opens, select the CP/MDS/Service you want to copy to by checking the left-hand box. 
+    4.  Click OK. 
 
-D.  Click OK. 
-
-SIM RAP/MSN Rdy 
+#### SIM RAP/MSN Rdy 
 
 Setup Simulator \(SIM\) RAP 
 
@@ -995,84 +679,56 @@ Required SIMs
 Under the required SIM RAP requirement numbers, there are five possible rules that may apply to your unit. If a rule applies, check the box to the left of the rule and enter the value for that rule. If you select the TDY Proration rule, you wil enter the personnel TDY days on the RAP O&M TDY page \(described below\). An explanation of each rule fol ows: 
 
 * Max number of excess RAP flights counted as SIMs for 1-month requirement. Enter the maximum number of excess RAP flights that can substitute for a RAP SIM, for the 1-month requirement. 
-
-For example, a person has a one-month flight RAP requirement of 9 and a one-month SIM RAP 
-
-requirement of 3. The rule is checked and a value of 1 flight has been entered. The person has accomplished 12 RAP flights and 1 RAP SIM. This person would not have met their one month SIM RAP requirements since only 1 actual RAP SIM was accomplished and only 1 of the excess 3 RAP flights could be counted as a SIM. 
+    For example, a person has a one-month flight RAP requirement of 9 and a one-month SIM RAP requirement of 3. The rule is checked and a value of 1 flight has been entered. The person has accomplished 12 RAP flights and 1 RAP SIM. This person would not have met their one month SIM RAP requirements since only 1 actual RAP SIM was accomplished and only 1 of the excess 3 RAP flights could be counted as a SIM. 
 
 * Max number of excess RAP flights counted as SIMs for 3-month look back. Enter the maximum number of excess RAP flights that can substitute for a RAP SIM, for 3-month look back. 
-
-For example, a person has the following flight/SIM RAP requirements: one-month flight 9, three-month flight 27, one-month SIM 3, and three-month SIM 9. The rule is checked and a value of 4 is entered. The person has 12 flights one month and 30 for 3 months. The person has 2 SIMs for one month and 7 SIMs for three months. In this case, the person did not meet one-month SIM RAP requirements, but did make the three-month requirement because two excess RAP counting flights could be substituted for the 2 RAP SIMs the person was short for three month SIM look back. 
-
-203 
-
-Training 
+    For example, a person has the following flight/SIM RAP requirements: one-month flight 9, three-month flight 27, one-month SIM 3, and three-month SIM 9. The rule is checked and a value of 4 is entered. The person has 12 flights one month and 30 for 3 months. The person has 2 SIMs for one month and 7 SIMs for three months. In this case, the person did not meet one-month SIM RAP requirements, but did make the three-month requirement because two excess RAP counting flights could be substituted for the 2 RAP SIMs the person was short for three month SIM look back. 
 
 * Max number of excess RAP SIMs that can be counted as flights for 1 month look back. Enter the maximum number of excess RAP SIMs that can substitute for a RAP flight, for the 1-month requirement. 
 
 * Max number of excess RAP SIMs that can be counted as flights for 3 month look back. Enter the maximum number of excess RAP SIMs that can substitute for a RAP flight, for 3-month look back. 
 
 * Minimum actual SIMs required per month. The entered value indicates the number of actual RAP SIMs that must be accomplished in a month to retain status. If this rule is used in conjunction with either of the rules above or the TDY Proration rule below, it takes precedence. 
+    For example, the one-month rule and this rule have been selected with values of 3 and 1 respectively. The SIM RAP 1 month requirement is 3. The person has 3 excess RAP flights, but no RAP SIMs. This person would not make RAP requirements because they didn’t get at least 1 actual RAP SIM, even though they had enough excess RAP flights to otherwise meet the requirements for 1 month. 
 
-For example, the one-month rule and this rule have been selected with values of 3 and 1 
-
-respectively. The SIM RAP 1 month requirement is 3. The person has 3 excess RAP flights, but no RAP SIMs. This person would not make RAP requirements because they didn’t get at least 1 actual RAP SIM, even though they had enough excess RAP flights to otherwise meet the requirements for 1 month. 
-
-* TDY Proration. For each month: \#X O&M days TDY reduces the SIM requirement by \#X for that month. This rule allows you to prorate RAP SIMs for O&M days spent TDY. Proration can be down to 0, but the previous rule stil takes precedence, so even if you prorate to 0, if you have a requirement to have at least 1 in a month and the person does not get it, they don’t meet the RAP requirement. The O&M TDY days are entered for each individual on the RAP O&M 
-
-TDY page and are entered by month. 
-
-For example, the rule is selected and the values indicate 3 O&M TDY days reduce the SIM 
-
-requirement by 1 for the month. SIM RAP requirement for the month is 3. The person had 5 
-
-days of O&M TDY. The person also accomplished 1 RAP SIM. This person would not make their one-month requirement since the rule would credit them only 1 SIM. If the person had 6 O&M 
-
-TDY days, they would have made their one-month requirement since the rule would credit 2 
-
-RAP SIMs. 
+* TDY Proration. For each month: \#X O&M days TDY reduces the SIM requirement by \#X for that month. This rule allows you to prorate RAP SIMs for O&M days spent TDY. Proration can be down to 0, but the previous rule stil takes precedence, so even if you prorate to 0, if you have a requirement to have at least 1 in a month and the person does not get it, they don’t meet the RAP requirement. The O&M TDY days are entered for each individual on the RAP O&M TDY page and are entered by month. For example, the rule is selected and the values indicate 3 O&M TDY days reduce the SIM requirement by 1 for the month. SIM RAP requirement for the month is 3. The person had 5 days of O&M TDY. The person also accomplished 1 RAP SIM. This person would not make their one-month requirement since the rule would credit them only 1 SIM. If the person had 6 O&M TDY days, they would have made their one-month requirement since the rule would credit 2 RAP SIMs. 
 
 * Min number of SIMs required in one month to regain Msn Rdy Status. This rule is based on the person being in a non-mission ready status and needs to accomplish a set number of actual RAP SIMs to regain status, in addition to the look back numbers. This rule takes precedence over the one and three-month rules. 
+    For example, the rule is selected with a value of 2 entered. The one-month requirement is 3 RAP SIMs and 9 RAP flights. The person was non-mission ready. The one month rule is selected with a value of 2 entered. The person has accomplished 12 RAP flights and 1 RAP SIM. The person is still non-mission ready. Even though they met their flight RAP numbers and the first rule al ows them to meet their SIM RAP numbers, the person didn’t get the two actual RAP SIMs that were required to regain status. 
 
-For example, the rule is selected with a value of 2 entered. The one-month requirement is 3 
-
-RAP SIMs and 9 RAP flights. The person was non-mission ready. The one month rule is selected with a value of 2 entered. The person has accomplished 12 RAP flights and 1 RAP SIM. The person is still non-mission ready. Even though they met their flight RAP numbers and the first rule al ows them to meet their SIM RAP numbers, the person didn’t get the two actual RAP 
-
-SIMs that were required to regain status. 
-
-* Click Save. 
+!!! Note
+    Whenever you change these optional check boxes, click save to ensure your PEX is updated.
 
 Optional SIMs 
 
 Under the optional SIM RAP requirement numbers, there are two possible rules that may apply to your unit. If a rule applies, check the box to the left of the rule and enter the value for that rule. An explanation of each rule follows: 
 
-1.  Max number of SIMs per training cycle that can be counted as RAP Flight look back. This could be read as “How many of the first RAP SIMs in the training cycle can count towards using 204 
+1.  Max number of SIMs per training cycle that can be counted as RAP Flight look back. This could be read as “How many of the first RAP SIMs in the training cycle can count towards using the rule below - counting RAP SIMs for flights by month.” In other words, once the person accomplishes this many RAP SIMs, no matter when in the training cycle, subsequent RAP SIMs can no longer count towards flights. 
 
-the rule below - counting RAP SIMs for flights by month.” In other words, once the person accomplishes this many RAP SIMs, no matter when in the training cycle, subsequent RAP SIMs can no longer count towards flights. 
+    For example, this training cycle rule is checked with a value of 8. The monthly rule below is also checked with a value of RAP flight requirements are 9 flights per month and 27 flights for three-month look back. 
 
-For example, this training cycle rule is checked with a value of 8. The monthly rule below is also checked with a value of RAP flight requirements are 9 flights per month and 27 flights for three-month look back. 
+    First Month – The person gets 9 RAP flights and 2 RAP SIMs. The person makes RAP with their flights alone. However, two RAP SIMs are added to his count of 8 maximum, even though they weren’t required to make RAP. 
 
-First Month – The person gets 9 RAP flights and 2 RAP SIMs. The person makes RAP with their flights alone. However, two RAP SIMs are added to his count of 8 maximum, even though they weren’t required to make RAP. 
+    Second Month - The person gets 7 RAP flights and 2 RAP SIMs. The person made RAP based on the combination of RAP flights and RAP SIMs. Whether they were used to make RAP or not, two more RAP SIMs are added to his count of 8 maximum. He is up to 4 of the 8. 
 
-Second Month - The person gets 7 RAP flights and 2 RAP SIMs. The person made RAP based on the combination of RAP flights and RAP SIMs. Whether they were used to make RAP or not, two more RAP SIMs are added to his count of 8 maximum. He is up to 4 of the 8. 
+    Third Month - The person gets 6 RAP flights and 3 RAP SIMs. The person did not make RAP. 
 
-Third Month - The person gets 6 RAP flights and 3 RAP SIMs. The person did not make RAP. 
+    Even though they had a combination that equaled 9, because only 2 of the 3 RAP SIMs count using the rule below. Whether they were used to make RAP or not, three more RAP SIMs are added to his count of 8 maximum. He is up to 7 of the 8. 
 
-Even though they had a combination that equaled 9, because only 2 of the 3 RAP SIMs count using the rule below. Whether they were used to make RAP or not, three more RAP SIMs are added to his count of 8 maximum. He is up to 7 of the 8. 
+    Fourth Month - The person gets 7 RAP flights and 2 RAP SIMs. As soon as he did the first RAP 
 
-Fourth Month - The person gets 7 RAP flights and 2 RAP SIMs. As soon as he did the first RAP 
+    SIM this month, that hits the 8 maximum. The person did not make RAP. Even though the rule below says two SIMs could be used monthly, the training cycle rule takes precedence and only 1 SIM could count. 
 
-SIM this month, that hits the 8 maximum. The person did not make RAP. Even though the rule below says two SIMs could be used monthly, the training cycle rule takes precedence and only 1 SIM could count. 
+    Subsequent Months – No more RAP SIMs could count towards the monthly requirement because the person already hit the 8 maximum. 
 
-Subsequent Months – No more RAP SIMs could count towards the monthly requirement because the person already hit the 8 maximum. 
-
-The worst case scenario is the person accomplishing all 8 RAP SIMs the first month of the training cycle and not using any towards RAP flights. Since the maximum of 8 were accomplished, no subsequent RAP SIMs in the entire training cycle could be used to count towards meeting future monthly RAP flight requirements. 
+    The worst case scenario is the person accomplishing all 8 RAP SIMs the first month of the training cycle and not using any towards RAP flights. Since the maximum of 8 were accomplished, no subsequent RAP SIMs in the entire training cycle could be used to count towards meeting future monthly RAP flight requirements. 
 
 2.  Max number of SIMs per month that can be counted as RAP Flight look back. Enter the maximum number of RAP SIMs per month that can be counted toward flight RAP. 
 
-For example, the rule is selected with a value of 2 entered. Person is required 9 flights for one-month RAP requirement. The person accomplished 7 RAP flights and 3 RAP SIMs. The person would make their one-month flight RAP requirement because 2 of the SIMs would count toward the 2 flights the person was short. 
+    For example, the rule is selected with a value of 2 entered. Person is required 9 flights for one-month RAP requirement. The person accomplished 7 RAP flights and 3 RAP SIMs. The person would make their one-month flight RAP requirement because 2 of the SIMs would count toward the 2 flights the person was short. 
 
-* Click Save. 
+!!! Note
+    Whenever you change these optional check boxes, click save to ensure your PEX is updated.
 
 Setup Display Effective MSN Ready Status 
 
@@ -1085,10 +741,6 @@ Once setup, the effective MSN ready status is calculated in the background. It c
 3.  In the Effective Mission Ready Status Tasks section, click the Select button to open the Add Effective Msn Rdy Task\(s\) dialog. 
 
 4.  Type in or scrol to the task you want to affect your Effective Mission Ready Status and check the box to the left of the task\(s\). 
-
-205 
-
-Training 
 
 5.  Click OK. 
 
@@ -1110,7 +762,7 @@ Copy Display Effective MSN Ready Status Rules to other MDS/CP Combinations Once 
 
 7.  Click OK to close the informational message. 
 
-RAP O&M TDY 
+#### RAP O&M TDY 
 
 1.  Select the squadron from the squadron drop down menu. 
 
@@ -1122,7 +774,7 @@ RAP O&M TDY
 
 5.  Click Save. 
 
-MRS Calc Options 
+#### MRS Calc Options 
 
 Identify what type of tasks are included in your squadron\(s\) Mission Ready Status \(MRS\) calculations \(Sortie RAP, SIM RAP, and/or Currency Tasks\). 
 
@@ -1132,15 +784,13 @@ Identify what type of tasks are included in your squadron\(s\) Mission Ready Sta
 
 3.  With changes made here, Effective Msn Rdy Status in LoX and Go/NoGo wil show Calculating. 
 
-Guest Personnel in your Database 
+#### Guest Personnel in your Database 
 
-Fol ow these steps when a guest shows up to work with your unit and you want their ARMS data to show up in your PEX database and/or you want to export their training data to ARMS. These steps do not apply for transferring AFTO 781 data. 
+Follow these steps when a guest shows up to work with your unit and you want their ARMS data to show up in your PEX database and/or you want to export their training data to ARMS. These steps do not apply for transferring AFTO 781 data. 
 
 NOTE: Obtain an ARMS External Account in order to access each ARMS database that stores data for a guest flier. 
 
 1.  Log into PEX as an administrator. 
-
-206 
 
 2.  Go to Setup > Squadrons and add a “Guest Flier” squadron. Log out of PEX and log back in for changes to take effect. 
 
@@ -1154,61 +804,54 @@ NOTE: Obtain an ARMS External Account in order to access each ARMS database that
 
 7.  Go to CT > Worksheet Builder and create TAR worksheets for the guest fliers. 
 
-ARMS- Configure your PEX-ARMS Interface 
+## ARMS- Configure your PEX-ARMS Interface 
 
-Introduction 
-
-The ARMS tab is used to setup the PEX interface with ARMS, import ARMS tasks and export ARMS 
-
-tasks. 
+The ARMS tab is used to setup the PEX interface with ARMS, import ARMS tasks and export ARMS tasks. 
 
 ARMS 6.2 delivered a Jaspersoft reports interface. There are two interface functions that PEX - ARMs customers perform in PEX. Specifically: 
 
-Import data from ARMS to PEX 
+1. Import data from ARMS to PEX 
 
-PEX no longer provides the Oracle Discover \(.dis\) files required to create the three .csv files. Instead, we wil generate Jaspersoft Ad Hoc Views/Reports. These Ad Hoc Views/Reports take the place of the .dis files. These Adhoc View/Reports will be in Jaspersoft and accessible to all ARMS users worldwide. Users will access these reports to generate the three.csv files: Personnel, Training, and 7-30-60-90 Personnel Flight Hours. Users must schedule the reports in ARMS. 
+    PEX no longer provides the Oracle Discover \(.dis\) files required to create the three .csv files. Instead, we wil generate Jaspersoft Ad Hoc Views/Reports. These Ad Hoc Views/Reports take the place of the .dis files. These Adhoc View/Reports will be in Jaspersoft and accessible to all ARMS users worldwide. Users will access these reports to generate the three.csv files: Personnel, Training, and 7-30-60-90 Personnel Flight Hours. Users must schedule the reports in ARMS. 
 
-Export data from PEX to ARMS 
+2. Export data from PEX to ARMS 
 
-There is no change. Users still need to install the ODAC \(Oracle Data Access Components\) in order to push data out of PEX to ARMS. 
+    There is no change. Users still need to install the ODAC \(Oracle Data Access Components\) in order to push data out of PEX to ARMS. 
 
 Settings 
 
 1.  Associate PEX Squadrons to ARMS Unit Identifiers 
 
-A.  Select a squadron. 
+    1.  Select a squadron. 
 
-B.  In the Add ARMS unit to import into selected PEX squadron text box: C.  Type in \(or paste\) the 17-character ARMS Unit Identifier \(looks like: 0203ARSSQ00000000\) and click Add. This identifier can be found on the Personnel.CSV file in cell A2. 
+    2.  In the Add ARMS unit to import into selected PEX squadron text box: 
 
-207 
+        1.  Type in \(or paste\) the 17-character ARMS Unit Identifier \(looks like: 0203ARSSQ00000000\) and click Add. This identifier can be found on the Personnel.CSV file in cell A2. 
 
-Training 
+        2.  Type in \(or paste\) the 9-character ARMS Unit Identifier \(looks like: 0203ARSSQ\) and click Add. This identifier can be found on the 7/30/60/90.CSV file. 
 
-D.  Type in \(or paste\) the 9-character ARMS Unit Identifier \(looks like: 0203ARSSQ\) and click Add. This identifier can be found on the 7/30/60/90.CSV file. 
+    !!! NOTE 
+        * You can import data from multiple ARMS units \(for example from a student squadron\) into a single PEX squadron. 
 
-NOTES: 
-
-* You can import data from multiple ARMS units \(for example from a student squadron\) into a single PEX squadron. 
-
-* To disassociate an ARMS unit, select the unit and click Remove. 
+        * To disassociate an ARMS unit, select the unit and click Remove. 
 
 2.  Enter AFTO 781 Data 
 
-A.  Select a squadron 
+    1.  Select a squadron 
 
-B.  In the 781 Data > HARM Code text box, type in your HARM Code \(can be found on existing AFTO 781s\). 
+    2.  In the 781 Data > HARM Code text box, type in your HARM Code \(can be found on existing AFTO 781s\). 
 
-C.  Fill out the remaining three text boxes with 781 Data \(these can also be found on existing 781s\). 
+    3.  Fill out the remaining three text boxes with 781 Data \(these can also be found on existing 781s\). 
 
-D.  Click Save. 
+    4.  Click Save. 
 
-3.  Exclude PEX-generated training tasks during ARMS Imports PEX generates training tasks for four ARMS training requirements that aren’t tracked by ARMS 
+3.  Exclude PEX-generated training tasks during ARMS Imports
 
-as training events: Physical Exam, Altitude Chamber, Records Review, and ASC Termination Date. If your unit does not use one or more of these \(for example, an ICBM unit that does not require periodic Altitude Chamber training\), check the box by that item\(s\) to exclude PEX from generating it during the ARMS import and click Save. 
+    PEX generates training tasks for four ARMS training requirements that aren’t tracked by ARMS as training events: Physical Exam, Altitude Chamber, Records Review, and ASC Termination Date. If your unit does not use one or more of these \(for example, an ICBM unit that does not require periodic Altitude Chamber training\), check the box by that item\(s\) to exclude PEX from generating it during the ARMS import and click Save. 
 
 4. .CSV File Locations \(WinPEX only\) 
 
-Browse to the path where the .CSV file and click save. 
+    Browse to the path where the .CSV file and click save. 
 
 Import 
 
@@ -1220,117 +863,102 @@ Import
 
 4.  To view the import log files: 
 
-A.  Select a Start Date and End Date. 
+    1.  Select a Start Date and End Date. 
 
-B.  Click Go. 
+    2.  Click Go. 
 
-C.  Click on the file name and a window will open with the log file details. 
+    3.  Click on the file name and a window will open with the log file details. 
 
-ARMS Export – ODAC Setup 
+#### ARMS Export – ODAC Setup 
 
 Before you can export data in PEX to ARMS \(an Oracle database\), you must install Oracle Data Access Components \(ODAC\) on the SQL Server computer \(where the PEX Service Host \(PSH\) resides\) and on the web server hosting the ePEX application. 
 
-1.  Download ODAC at: 
+1.  Download ODAC at: http://www.oracle.com/technetwork/database/windows/downloads/utilsoft-087491.html. 
 
-http://www.oracle.com/technetwork/database/windows/downloads/utilsoft-087491.html. 
+    1.  You will be asked for a username and password at the site. Please create them and allow about five minutes to receive an account. 
 
-A.  You will be asked for a username and password at the site. Please create them and allow about five minutes to receive an account. 
-
-208 
-
-B.  Download the “UNIVERSAL” ODAC112012.zip 270 MB and not the “XCopy”. 
+    2.  Download the “UNIVERSAL” ODAC112012.zip 270 MB and not the “XCopy”. 
 
 2.  Download tnsnames file: https://support.pexmain.com/, go to the Downloads page, and download the tnsnames.ora file. 
 
 3.  Install ODAC & tnsnames file on SQL Server \(PSH\). 
 
-NOTE: Requires local administrator to install. 
+    !!! NOTE
+        Requires local administrator to install. 
 
-A.  Create a folder on the C:\\ directory called “Oracle” if one doesn’t exist. O 
+    1.  Create a folder on the C:\\ directory called “Oracle” if one doesn’t exist.
 
-1\) Open the folder and create a folder called “ODAC\_PEX”. 
+        1. Open the folder and create a folder called “ODAC\_PEX”. 
 
-2\) Place the zipped ODAC download in this directory. 
+        2. Place the zipped ODAC download in this directory. 
 
-B.  Unzip the files and double click “setup.exe” application. 
+    2.  Unzip the files and double click “setup.exe” application. 
 
-C.  The Oracle Universal Installer will now begin to run. It will start in a command window pictured below, and then bring up a Windows installation dialog. It can take as long as five minutes before the Windows dialog will appear, so be patient and wait for it to open. 
+    3.  The Oracle Universal Installer will now begin to run. It will start in a command window pictured below, and then bring up a Windows installation dialog. It can take as long as five minutes before the Windows dialog will appear, so be patient and wait for it to open. 
 
-D.  The initial Oracle Universal Installer Welcome dialog. Click ‘Next’ button. 
+    4.  The initial Oracle Universal Installer Welcome dialog. Click ‘Next’ button. 
 
-E.  When presented with the Select Product to Instal dialog, select ‘Oracle Data Access Components for Oracle Client 11.2.0.1.2’, then select Next button. 
+    5.  When presented with the Select Product to Instal dialog, select ‘Oracle Data Access Components for Oracle Client 11.2.0.1.2’, then select Next button. 
 
-F.  In Oracle Base, browse to and select C:\\Oracle\\ODAC\_PEX, leave the Software Location Name and Path as is, then select Next. 
+    6.  In Oracle Base, browse to and select C:\\Oracle\\ODAC\_PEX, leave the Software Location Name and Path as is, then select Next. 
 
-G.  Select the fol owing two checkboxes ‘Oracle Data Provider for .NET 11.2.0.1’ and ‘Oracle Instant Client 11.2.0.1’. Make sure al other boxes are NOT checked. Then select Next. 
+    7.  Select the fol owing two checkboxes ‘Oracle Data Provider for .NET 11.2.0.1’ and ‘Oracle Instant Client 11.2.0.1’. Make sure al other boxes are NOT checked. Then select Next. 
 
-H.  Review the Summary dialog. Click the ‘Install’ button. 
+    8.  Review the Summary dialog. Click the ‘Install’ button. 
 
-I.  The client components will now be installed. 
+    9.  The client components will now be installed. 
 
-J.  At the end of instal ation screen, select the “Exit” button. 
+    10.  At the end of instal ation screen, select the “Exit” button. 
 
-K.  Confirm Exit, select “Yes” button. 
+    11.  Confirm Exit, select “Yes” button. 
 
-L.  Navigate to the folder where you just instal ed the ODAC Components. The default is C:\\Oracle\\ODAC\_PEX\\product\\11.2.0\\client\_\#\\Network\\Admin folder. Look for a 
+    12.  Navigate to the folder where you just instal ed the ODAC Components. The default is C:\\Oracle\\ODAC\_PEX\\product\\11.2.0\\client\_\#\\Network\\Admin folder. Look for a “tnsnames.ora” file. If the file exists, rename the file to “tnsnames\_old.ora”. 
 
-“tnsnames.ora” file. If the file exists, rename the file to “tnsnames\_old.ora”. 
+        !!! NOTE
+            The \# represents an assigned number during installation which may vary. 
 
-NOTE: The \# represents an assigned number during installation which may vary. 
+    13.  Paste the downloaded tnsnames.ora file in this Admin folder. It has to be in the root of the Admin folder. Do not paste it in the Sample folder. 
 
-M.  Paste the downloaded tnsnames.ora file in this Admin folder. It has to be in the root of the Admin folder. Do not paste it in the Sample folder. 
+    14.  Right click on C:\\Oracle\\ODAC\_PEX\\product\\11.2.0\\client\_\# folder and select Properties. 
 
-N.  Right click on C:\\Oracle\\ODAC\_PEX\\product\\11.2.0\\client\_\# folder and select Properties. 
+    15.  From the Properties menu select the Security tab. 
 
-O.  From the Properties menu select the Security tab. 
+    16.  Click Continue from the Security tab. 
 
-P.  Click Continue from the Security tab. 
+    17.  Click yes on user account control. 
 
-Q.  Click yes on user account control. 
+    18.  From the permission tab for client\_\# window click the add button. 
 
-R.  From the permission tab for client\_\# window click the add button. 
+    19.  Type “Authenticated Users” \(without quotations\) in the Object Names box, and click Ok. 
 
-S.  Type “Authenticated Users” \(without quotations\) in the Object Names box, and click Ok. 
+    20.  From the permissions for client\_\# folder ensure that Authenticated Users has the following permissions: 
 
-T.  From the permissions for client\_\# folder ensure that Authenticated Users has the following permissions: 
+    21.  Read & execute, List folder contents, and Read in the al ow column and nothing else. 
 
-U.  Read & execute, List folder contents, and Read in the al ow column and nothing else. 
+    22.  Click Ok on the client\_\# permissions window. 
 
-209 
+    23.  Click Ok on the client\_\# properties window. 
 
-Training 
+    24.  Install ODAC and add the tnsnames.ora file on the ePEX web server: 
+    
+        1. At the ePEX webserver, fol ow steps 1-14 above \(same steps you did at the SQL server\). 
 
-V.  Click Ok on the client\_\# permissions window. 
+        2. Restart PSH. 
 
-W.  Click Ok on the client\_\# properties window. 
+        3. At the PEX database \(SQL\) server, select Start, All Programs, Find and select PEX Service Host, and select “Run As Administrator.” 
 
-X.  Install ODAC and add the tnsnames.ora file on the ePEX web server: 1\) At the ePEX webserver, fol ow steps 1-14 above \(same steps you did at the SQL 
+        4. When PEX Service Host opens, at the General tab, stop services, then restart services. 
 
-server\). 
+        5. If your base does not have ePEX and you use only WinPEX, at the ARMS client machines where WinPEX is installed, follow steps 1-14 above and restart the WinPEX client machine. 
 
-2\) Restart PSH. 
-
-3\) At the PEX database \(SQL\) server, select Start, All Programs, Find and select PEX 
-
-Service Host, and select “Run As Administrator.” 
-
-4\) When PEX Service Host opens, at the General tab, stop services, then restart services. 
-
-5\) If your base does not have ePEX and you use only WinPEX, at the ARMS client machines where WinPEX is installed, follow steps 1-14 above and restart the WinPEX 
-
-client machine. 
-
-Export 
+#### Export 
 
 Once you have ODAC setup on your PEX servers and training/AFTO 781 data ready to export, the last step in the PEX-ARMS interface process is for an ARMS administrator to send the data to ARMS. 
 
-NOTES: 
+!!! NOTE 
+    * If you do not already have an ARMS virtual account, navigate to Modules > System > Security > ARMS External Accounts, and create your ARMS Virtual Account \(Do not use the % sign in your password\). 
 
-* If you do not already have an ARMS virtual account, navigate to Modules > System > Security 
-
-> ARMS External Accounts, and create your ARMS Virtual Account \(Do not use the % sign in your password\). 
-
-* PEX uses IRA 11. 
+    * PEX uses IRA 11. 
 
 1.  Select the Squadron\(s\) from which data is to be exported. 
 
@@ -1344,17 +972,11 @@ NOTES:
 
 6.  Once the export is complete, a log file is generated and listed in the Log File grid. To view a log file, double-click on the file name. To view a list of old log files, select a Start Date and End Date and click Go. 
 
-Setup- Configure Continuation Training 
+## Setup Workspace 
 
-Setup tab 
+![binders](PEX/img/../../img/Training/PEX CT Tab Configure.jpg){: style="height:80%;width:80%"}
 
-Setup Workspace 
-
-210 
-
-!(images/000052.jpg)
-
-
+{here now}
 
 1.  Lists sub-tab: View, add, or delete accomplished methods, categories, settings, and program names. 
 
@@ -3872,59 +3494,59 @@ Once open, view the fol owing controls and fields:
 
 o Gradesheet Table Settings 
 
-□ Show Selected Item Highlight \(The selected Task row is highlighted in light blue.\) o Show Crosshair Highlight \(The selected column is highlighted in light blue.\) 
+* Show Selected Item Highlight \(The selected Task row is highlighted in light blue.\) o Show Crosshair Highlight \(The selected column is highlighted in light blue.\) 
 
-□ Show Task Code 
+* Show Task Code 
 
-□ Show Task Name 
+* Show Task Name 
 
-□ Show Historical Grades 
+* Show Historical Grades 
 
 o Number of Grades Displayed: 1 through 5 
 
-□ Show RQD \(required\) 
+* Show RQD \(required\) 
 
-□ Show ACC \(accomplished\) 
+* Show ACC \(accomplished\) 
 
-□ Show Comments 
+* Show Comments 
 
 o BOI Details Settings 
 
-□ Show Ground Training Time 
+* Show Ground Training Time 
 
-□ Show Training Device Time 
+* Show Training Device Time 
 
-□ Show Flight Time 
+* Show Flight Time 
 
-□ Show Seat Time 
+* Show Seat Time 
 
-□ Show Position Number 
+* Show Position Number 
 
 o Task Settings 
 
-□ Show Task Name 
+* Show Task Name 
 
-□ Show Task Code 
+* Show Task Code 
 
-□ Show Task Type 
+* Show Task Type 
 
 259 
 
 Training 
 
-□ Show ACC206 \# 
+* Show ACC206 \# 
 
-□ Show Not Applicable 
+* Show Not Applicable 
 
-□ Show Is Covered 
+* Show Is Covered 
 
-□ Show \# ACC \(\#REQ1\) 
+* Show \# ACC \(\#REQ1\) 
 
-□ Show Completed Date 
+* Show Completed Date 
 
-□ Show Task Instructor 
+* Show Task Instructor 
 
-□ Show Phase Task Progression 
+* Show Phase Task Progression 
 
 * Header 
 
@@ -4370,55 +3992,55 @@ Once open, view the fol owing controls and fields:
 
 o Gradesheet Table Settings 
 
-□ Show Selected Item Highlight \(The selected Task row is highlighted in light blue.\) o Show Crosshair Highlight \(The selected column is highlighted in light blue.\) 
+* Show Selected Item Highlight \(The selected Task row is highlighted in light blue.\) o Show Crosshair Highlight \(The selected column is highlighted in light blue.\) 
 
-□ Show Task Code 
+* Show Task Code 
 
-□ Show Task Name 
+* Show Task Name 
 
-□ Show Historical Grades 
+* Show Historical Grades 
 
 o Number of Grades Displayed: 1 through 5 
 
-□ Show RQD \(required\) 
+* Show RQD \(required\) 
 
-□ Show ACC \(accomplished\) 
+* Show ACC \(accomplished\) 
 
-□ Show Comments 
+* Show Comments 
 
 o BOI Details Settings 
 
-□ Show Ground Training Time 
+* Show Ground Training Time 
 
-□ Show Training Device Time 
+* Show Training Device Time 
 
-□ Show Flight Time 
+* Show Flight Time 
 
-□ Show Seat Time 
+* Show Seat Time 
 
-□ Show Position Number 
+* Show Position Number 
 
 o Task Settings 
 
-□ Show Task Name 
+* Show Task Name 
 
-□ Show Task Code 
+* Show Task Code 
 
-□ Show Task Type 
+* Show Task Type 
 
-□ Show ACC206 \# 
+* Show ACC206 \# 
 
-□ Show Not Applicable 
+* Show Not Applicable 
 
-□ Show Is Covered 
+* Show Is Covered 
 
-□ Show \# ACC \(\#REQ1\) 
+* Show \# ACC \(\#REQ1\) 
 
-□ Show Completed Date 
+* Show Completed Date 
 
-□ Show Task Instructor 
+* Show Task Instructor 
 
-□ Show Phase Task Progression 
+* Show Phase Task Progression 
 
 * Header 
 
@@ -5464,9 +5086,9 @@ o Imported forms will appear as Historic forms.
 
 o Click Add New Form to create a new one. 
 
-□ Add an individual form Name and Unit Center. 
+* Add an individual form Name and Unit Center. 
 
-□ Edit or delete as required. 
+* Edit or delete as required. 
 
 Note: Pay Grade, not rank, is used here. If not correct, go to Setup > Personnel > Setup 
 
@@ -5488,11 +5110,11 @@ o With the action item buttons, each action item can be edited, signed, unsigned
 
 o To sign/unsign: 
 
-□ Click the View/Sign button at the top to open the form with al items ready for signature. 
+* Click the View/Sign button at the top to open the form with al items ready for signature. 
 
-□ Click the individual action item's Sign Action Item button to sign just that item. 
+* Click the individual action item's Sign Action Item button to sign just that item. 
 
-□ Click the Unsign Action Item button to unsign that item. 
+* Click the Unsign Action Item button to unsign that item. 
 
 What does “Rgs” in front of the BOI Name mean? 
 
