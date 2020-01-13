@@ -458,7 +458,7 @@ D. Import Eval Criteria. Imports only the older .xml file types.
 
 #### Overview- Manage Your Stan Eval Program
 
-#### Overview Tab
+#### StanEval Overview Tab
 
 Overview provides a high-level view of your Stan/Eval program.
 
@@ -1062,1603 +1062,882 @@ The attached form is ready for your digital signature. If you concur, digitally 
 10. If the former, browse to the saved form and import it back into PEX. Once back in PEX, the form can be completed using PEX routing, or you can lock it again and send it out again.
 
 !!! note "Note"
-     The form cannot be sent to multiple signers outside of PEX in a single mailing. It must be imported back into PEX after each digital signature. 
+     The form cannot be sent to multiple signers outside of PEX in a single mailing. It must be imported back into PEX after each digital signature.
 
 **Post-Signature Reviewer**  
 When all signatures are in place, go to the examinee’s Person Details page, hover your cursor on the Sign button and select the evaluation that requires review. When the signatures dialog opens click Review. Your user name populates the Reviewer field.
 
 #### Ground Only Evaluation
 
-Ground Only Evaluations consist of only Ground or Knowledge phase requisites with no Flight or Task phase requisite. Here, **Complete Eval** replaces **Primary Eval Complete**. 
+Ground Only Evaluations consist of only Ground or Knowledge phase requisites with no Flight or Task phase requisite. Here, _Complete Eval_ replaces _Primary Eval Complete_.
 
-**1. ** Begin as with a basic evaluation but in the Add Evaluation check Ground Only Evaluation. 
+1. Begin as with a basic evaluation but in the _Add Evaluation_ check `Ground Only Evaluation`.
+2. The _Eval Details_ page now includes the _Complete Eval_ button.
+3. Complete all requisites, including a Requisite/EPE worksheet if applicable.
+4. Select an Examiner.
+5. Click `Complete Eval`.
+6. Continue as with a basic evaluation.
 
-**2. ** The Eval Details page now includes the Complete Eval button. 
+#### Certifications
 
-**3. ** Complete all requisites, including a Requisite/EPE worksheet if applicable. 
+Stan Eval certifications are entered on the Person Details page. Once entered you can view them in an AF1381 and AF4348. All of the below tasks are done on the individual’s Person Details page, in the Certifications section.
 
-**4. ** Select an Examiner. 
+**Add a Certification**
 
-**5. ** Click Complete Eval. 
+1. In Certifications, right-click and select Add Certification.
+2. When the dialog opens, enter the Certified Event, Instructor, Date, Certifying Official/Organization, and Remarks.
+3. Once entered, right-click and select Edit or Delete as required.
 
-**6. ** Continue as with a basic evaluation. 
+**Add a certification from the Letter of X**
 
-**Certifications **
+1. In Certifications, right-click and select Add Certification.
+2. When the dialog opens, click Match Letter of X Certification…
+3. When the dialog opens, view a list of LoX Certifications.
+4. Select the desired certification.
+5. Click OK.
 
-Stan Eval certifications are entered on the Person Details page. Once entered you can view them in an AF1381 and AF4348. All of the below tasks are done on the individual’s Person Details page, in the Certifications section. 
+**Edit a certification**
 
-**Add a certification **
+1. In Certifications, right-click and select Edit.
+2. When the dialog opens, edit existing information as required.
+3. Decertify the person by checking Check to Decertify.
+4. Select the decertification date.
+5. Select For Cause or Discretionary.
+6. Enter signature block of the Decertifying Official/Organization.
 
-**1. ** In Certifications, right-click and select Add Certification. 
+**Delete a certification**
 
-**2. ** When the dialog opens, enter the Certified Event, Instructor, Date, Certifying Official/Organization, and Remarks. 
+1. In Certifications, right-click and select Delete.
 
-**3. ** Once entered, right-click and select Edit or Delete as required. 
+**View an AF Form 1381 or 4348**
 
-**Add a certification from the Letter of X **
+1. In Certifications, right-click and select View 1381 form or View 4348 form.
+2. The form opens. Save it by clicking Export.
 
-**1. ** In Certifications, right-click and select Add Certification. 
+**Sign a certification**
 
-**2. ** When the dialog opens, click Match Letter of X Certification… 
+1. In Certifications, right-click and select View 4348 form.
+2. On the applicable entry, select Click to sign.
+3. Sign using and sign as with any digital form.
+4. Click Save Signatures at the top of the form.
 
-**3. ** When the dialog opens, view a list of LoX Certifications. 
+**Convert certifications to a scanned AF4348**  
+This task will un-sign any signed certifications on the interface. They will remain signed on the resulting scanned AF4348, and can be re-signed on the interface if required.
 
-**4. ** Select the desired certification. 
+* In Certifications, right-click and select Convert AF4348 to Scanned Form.
+* A scanned AF4348 is added to certifications.
 
-**5. ** Click OK. 
+**Import a certification form**
 
-**Edit a certification **
+* In Certifications, right-click and select Import Scanned Form.
+* Select AF 1381 or AF 4348 as appropriate.
+* Click Save Form File.
+* For more see import scanned form files.
 
-**1. ** In Certifications, right-click and select Edit. 
+#### Upgraded or Obsolete Qualifications
 
-**2. ** When the dialog opens, edit existing information as required. 
+When a person upgrades to a new Crew Position, for example from Copilot to Pilot, you may need to inactivate the old qualifications. By doing so, the previous qualification data is retained but the person will not show late, overdue, or unqualified for the inactive qualification.
 
-**3. ** Decertify the person by checking Check to Decertify. 
+!!! note "Note"
+      The person must first have the MDS/CP qualification added in Setup > Personnel > Qualifications tab.
 
-**4. ** Select the decertification date. 
+* Manually add the new qualification \(e.g., Pilot\) here or complete the upgrade evaluation process in PEX.
+* In the individual’s Person Details > Qualifications grid, right-click on the old qualification \(e.g., Copilot\) and select Edit. When the dialog opens check Inactive, and Save.
+* The last step can be also used for people on an extended absence from the unit, and reactivated upon their return.
 
-**5. ** Select For Cause or Discretionary. 
+**Waivers**  
+Add a waiver to a person by adding it directly into PEX or by importing a scanned MFR.
 
-**6. ** Enter signature block of the Decertifying Official/Organization. 
+* Go to their Person Details page and right-click in the Eval Forms/MFR grid.
+      * To create one, select Add MFR; when the dialog opens fill in the data fields and sign as required.
+      * To import one, select Import Scanned Form; when the dialog opens select MFR, add a description and date, browse to the saved waiver form and Save Form File. For more on importing forms see Import Scanned Forms.
+* If the waiver extends a qualification expiration date, still in the individual’s Person Details page, Qualifications grid, right-click on the applicable qualification and select Edit. When the dialog opens check Waiver Expiration Date, select the date and Save. Once a waiver date is set, the Rainbow page displays a blue bar appended to the normal eligibility zone bar. You cannot set a waiver date for non-periodic eval types.
 
-**Delete a certification **
+#### Evaluation Folder Discrepancies
 
-**1. ** In Certifications, right-click and select Delete. 
+Track eval folder major discrepancies on an MFR, log minor discrepancies in a log. Stan Eval discrepancies are entered on the Person Details page.
 
-337 
+**Major Discrepancies**
 
-Stan Eval 
+_Add a major discrepancy_
 
-**View an AF Form 1381 or 4348 **
+1. In the _Major Discrepancies_ section, right-click and select `Add Major Discrepancy`.
+2. When the dialog opens, enter the Date, From, Subject, and Body.
+3. Select the Signature Method: CAC or PEX Security Identifier.
+4. Pick the Signer’s Name and edit the Signer’s Organization as required.
+5. Click `OK`.
+6. PEX will notify the Signer, via their _My Page_, that the MFR is ready for signature.
 
-**1. ** In Certifications, right-click and select View 1381 form or View 4348 form. 
+_Edit a major discrepancy_
 
-**2. ** The form opens. Save it by clicking Export. 
+1. In the Major Discrepancies section, right-click and select Edit.
+2. When the dialog opens, edit existing information as required.
 
-**Sign a certification **
+_Delete a major discrepancy_
 
-**1. ** In Certifications, right-click and select View 4348 form. 
+In the Major Discrepancies section, right-click and select `Delete`.
 
-**2. ** On the applicable entry, select Click to sign. 
+_Reopen a major discrepancy and delete signature_
 
-**3. ** Sign using and sign as with any digital form. 
+1. In the Major Discrepancies section, right-click and select Reopen.
+2. At the warning, click OK and the MFR status wil revert to unsigned.
 
-**4. ** Click Save Signatures at the top of the form. 
+_View a major discrepancy_
 
-**Convert certifications to a scanned AF4348 **
+In the Major Discrepancies section, right-click and select `View`.
 
-This task will un-sign any signed certifications on the interface. They will remain signed on the resulting scanned AF4348, and can be re-signed on the interface if required. 
+_Import a major discrepancy MFR_
 
-■ In Certifications, right-click and select Convert AF4348 to Scanned Form. 
+1. In the Major Discrepancies section, right-click and select `Import scanned Major Discrepancy`.
+2. Select `Major Discrepancy`.
+3. Click `Save Form File`.
+4. For more see [import scanned form files]().
 
-■ A scanned AF4348 is added to certifications. 
+**Minor Discrepancies**
 
-**Import a certification form **
+_Add a minor discrepancy_
 
-■ In Certifications, right-click and select Import Scanned Form. 
+1. In the Minor Discrepancies section, right-click and select `Add Minor Discrepancy`.
+2.  When the dialog opens, enter the Evaluation, Evaluation Date, Discrepancy, Review Date and Reviewer’s Initials.
+3. Click `OK`.
 
-■ Select AF 1381 or AF 4348 as appropriate. 
+_Edit a minor discrepancy_
 
-■ Click Save Form File. 
+1. In the _Minor Discrepancies_ section, right-click and select `Edit`.
+2. When the dialog opens, edit existing information as required.
 
-■ For more see import scanned form files. 
+_Delete a minor discrepancy_
 
-**Upgraded or Obsolete Qualifications **
+In the Minor Discrepancies section, right-click and select `Delete`.
 
-When a person upgrades to a new Crew Position, for example from Copilot to Pilot, you may need to inactivate the old qualifications. By doing so, the previous qualification data is retained but the person will not show late, overdue, or unqualified for the inactive qualification. 
+_Import a minor discrepancy_
 
-**NOTE:** The person must first have the MDS/CP qualification added in Setup > Personnel > Qualifications tab. 
+1. In the _Minor Discrepancies_ section, right-click and select `Import Scanned Minor Discrepancy`.
+2. Select `Minor Discrepancy`.
+3. Click `Save Form File`.
+4. For more, see [import scanned form files]().
 
-■ Manually add the new qualification \(e.g., Pilot\) here or complete the upgrade evaluation process in PEX. 
+_View the minor discrepancy log_  
+In the Minor Discrepancies section, right-click and select `View Form.`
 
-■ In the individual’s Person Details > Qualifications grid, right-click on the old qualification \(e.g., Copilot\) and select Edit. When the dialog opens check Inactive, and Save. 
+#### Evaluation Criteria
 
-■ The last step can be also used for people on an extended absence from the unit, and reactivated upon their return. 
+**Create Evaluation Criteria**  
+The Evaluation Criteria Tool is used to copy, create and edit AFI evaluation criteria into PEX. The PEX Help Desk can do this for you. To create or edit yourself:
 
-**Waivers **
+1. Go to Setup > Eval Criteria > Evaluation Criteria Tool.
+2. Click `New` to create a new set of criteria.
+3. Click Add Section and Add Subsection to add those items, giving each a name.
+4. Click Add Area and Add Subarea to add those items, giving each a name and sequence number. Add descriptions and notes as required. Critical areas/subareas do not have Q- criteria.
 
-Add a waiver to a person by adding it directly into PEX or by importing a scanned MFR. 
+!!! tip "Tip"
+      * Add a number of blank sections, subsections, areas, and subareas prior to actually entering names and criteria. Subsections can be moved within sections, but cannot be moved from one section to another. The same holds for subareas and areas.
+      * Use two monitors with the AFI on one and PEX on the other. Simply copy, using Ctrl C, and paste, using Crtl V, verbiage from the AFI into PEX.
 
-338 
+**Import Evaluation Criteria**
 
-■ Go to their Person Details page and right-click in the Eval Forms/MFR grid. 
+1. Go to Setup > Eval Criteria > Evaluation Criteria Tool.
+2. Click Open to import an existing .evalcrit file from your computer or a network drive.
+3. Browse to the file and click Open. NOTE the dropdown for file type. The default is Eval Criteria Files \(.evalcrit\). You can also select Old Criteria Files \(.xml\).
+4. Once imported, you can accept the file as is, or edit it for local guidance and directives.
 
-• To create one, select Add MFR; when the dialog opens fill in the data fields and sign as required. 
+**Save Evaluation Criteria**
 
-• To import one, select Import Scanned Form; when the dialog opens select MFR, add a description and date, browse to the saved waiver form and Save Form File. For more on importing forms see Import Scanned Forms. 
+Regardless of whether you created or imported and edited your criteria, you need to save it to your computer or network drive as it is not saved in Setup > Eval Criteria > Evaluation Criteria Tool. In other words, without saving the file, your work will be lost. It is saved in PEX against a squadron, MDS and crew position in the next step.
 
-■ If the waiver extends a qualification expiration date, still in the individual’s Person Details page, Qualifications grid, right-click on the applicable qualification and select Edit. When the dialog opens check Waiver Expiration Date, select the date and Save. Once a waiver date is set, the Rainbow page displays a blue bar appended to the normal eligibility zone bar. You cannot set a waiver date for non-periodic eval types. 
+* Click `Save`, browse to the desired file location and click `Save`.
 
-**Evaluation Folder Discrepancies **
+**Apply Evaluation Criteria**
 
-Track eval folder major discrepancies on an MFR, log minor discrepancies in a log. Stan Eval discrepancies are entered on the Person Details page. 
+1. When satisfied with your criteria, click `Apply`. You will receive two messages, one suggesting you save your work \(see above\) and a second that you are about to overwrite any existing criteria and profiles for that squadron, MDS and crew position.
+2. Proceed to the _Evaluation Criteria_ tab.
 
-**Major Discrepancies **
+**Adding Profiles**  
+In Setup > Eval Criteria > Evaluation Criteria tab, you are viewing the criteria you just applied.
 
-**Add a major discrepancy **
+Click Add Profile and a dialog opens.
 
-**1. ** In the Major Discrepancies section, right-click and select Add Major Discrepancy. 
+1. Add a Profile Name.
+2. For each area/subarea, select Required, Desired, or N/A. Required and Desired areas/subareas are gradable on a worksheet with that profile selected. N/A areas/subareas do not.
+3. Click `Save`.
 
-**2. ** When the dialog opens, enter the Date, From, Subject, and Body. 
+#### Import Forms
 
-**3. ** Select the Signature Method: CAC or PEX Security Identifier. 
+Scanned forms can be imported as PDF, JPG, and PNG file types. They can be imported for a single or multiple individuals.
 
-**4. ** Pick the Signer’s Name and edit the Signer’s Organization as required. 
+_Multiple_
 
-**5. ** Click OK. 
+1. Go to SEM Home > Personnel > Import Forms > Select Person > select from the resulting dropdown list.
+2. When the dialog opens, under Form Type, select the form by number, e.g., AF 8.
+3. Enter a Description and Date. These can be whatever you require; we suggest establishing a name/date convention for your unit.
+4. To import a PDF, click `Import file`.
+5. To import a JPG or PNG image, click `Import image`. Depending on the type you are importing to, you have can select an image for a single page \(e.g., MFR\) or two images, one for the front page and one for the back page of your original document.
+6. Click `Save`.
+7. Click `Select Person` and repeat steps.
 
-**6. ** PEX will notify the Signer, via their My Page, that the MFR is ready for signature. 
+_Single_
 
-**Edit a major discrepancy **
+1. Go to SEM > Personnel > Person Details > Forms > Import Scanned Forms.
+2. When the dialog opens, under Form Type, select the form by number, e.g., AF 8.
+3. Enter a Description and Date. These can be whatever you require; we suggest establishing a name/date convention for your unit.
+4. To import a PDF, click `Import file`.
+5. To import a JPG or PNG image, click `Import image`. Depending on the type you are importing to, you have can select an image for a single page \(e.g., MFR\) or two images, one for the front page and one for the back page of your original document.
+6. Click `Save`.
 
-**1. ** In the Major Discrepancies section, right-click and select Edit. 
+**Export/Import an Eval Folder/FEF**  
+A person’s data file can be exported, from Personnel, when that person has an open evaluation.
 
-**2. ** When the dialog opens, edit existing information as required. 
+While the open evaluation remains in the losing database, it is not included in the exported or imported data. As such, it wil not appear on the person’s Person Details page in the gaining database. The losing unit can complete the evaluation in the losing database and export it as a PDF file, so the gaining unit can scan it into the gaining database.
 
-**Delete a major discrepancy **
+### Testing
 
-In the Major Discrepancies section, right-click and select Delete. 
+#### Testing Basics
 
-**Reopen a major discrepancy and delete signature **
+**Introduction**  
+In the Testing module, users take exams assigned to them from the Testing Admin module. Exams may or may not require a proctor, depending on how they were created. Users can also create their own practice exams. Additionally, administrators can perform admin functions similar to those in the Testing Admin module.
 
-**1. ** In the Major Discrepancies section, right-click and select Reopen. 
+**Permissions**
 
-**2. ** At the warning, click OK and the MFR status wil revert to unsigned. 
+* Basic user and higher: take assigned exams and create practice exams.
+* Testing Examiner and Testing Administrator: view all exams assigned to all users, review and adjust completed exams, and enter offline exams. Only these roles al ow users to view the All Exams link.
 
-**View a major discrepancy **
+**Rules**  
+Proctors cannot proctor their own exams, nor can individuals grade their own exams.
 
-In the Major Discrepancies section, right-click and select View. 
+**Module Notes**
 
-**Import a major discrepancy MFR **
+* A test administrator can review and accept answers as correct, including fill in the blank types.
+* Practice Exam dates and grades, once closed by the examinee, are not recorded in PEX.
+* Only “Public” QDBs can be accessed in Practice Exam\(s.\)
 
-**1. ** In the Major Discrepancies section, right-click and select Import scanned Major Discrepancy. 
+**Controls**  
+Access these procedures by navigating to Stan Eval > Testing or from the Testing NoGo tab on the user’s My Page.
 
-**2. ** Select Major Discrepancy. 
+**Workspace**
 
-**3. ** Click Save Form File. 
+![testing_workspace](img/StanEval/testing_workspace.jpg){: style="height:100%;width:100%"}
 
-339 
+1. Access Testing via the nav panel or the My Page Go/NoGo Test tab.
+2. All Exams allows users with Testing Examiner and Testing Administrator roles to view all exams assigned to all users.
+3. Assigned Exam\(s\) allows users to view, take and review exams assigned to them. If the exam is proctored, a proctor must allow access.
+4.Practice Exam\(s\) allows users to create, take and review their own practice exams. Practice exams and their results are not saved.
+5. Review Exam, Adjust Exam, and Enter Offline Exam functions are identical to those in Testing Admin.
 
-Stan Eval 
+**Workflow**
 
-**4. ** For more see import scanned form files. 
+![testing_workflow](img/StanEval/testing_workflow.jpg){: style="height:100%;width:100%"}
 
-**Minor Discrepancies **
+#### Taking & Reviewing Exams as Examinee
 
-**Add a minor discrepancy **
+##### Take an Exam
 
-**1. ** In the Minor Discrepancies section, right-click and select Add Minor Discrepancy. 
+**Workflow**  
+![testing_takingassigned_workflow](img/StanEval/testing_takingassigned_workflow.jpg){: style="height:100%;width:100%"}  
+>_Taking an assigned exam workflow._
 
-**2. ** When the dialog opens, enter the Evaluation, Evaluation Date, Discrepancy, Review Date and Reviewer’s Initials. 
+1. The examinee must log in to PEX and navigate to Assigned Exam\(s.\)
+2. Select the desired exam name
+3. Click Take Exam
+      1. If proctored, a proctor dialog opens. The proctor selects their name, enters their PEX Security Identifier, and clicks Go to open the exam.
+      2. If not proctored, the exam opens.
+4. When the exam opens, click the Instructions link at top right.
+5. Begin answering questions.
+      * Questions are multiple choice, true/false, or fill in the blank. Select the correct answer or fill in the answer as appropriate.
+      * Question numbers appear at the top. Question numbers in red have not been answered. Lined-through question numbers have been answered. Navigate through questions by clicking the question number or the Prev and Next buttons.
+      * The View All Questions button opens a list of all questions and their possible answers. You cannot answer questions from this page.
+      * The Finish Exam Later button returns you to the Assigned Exam\(s\) page, and the exam is marked In Progress. When ready to resume, repeat the previous steps to complete the exam.
+6. The Complete Exam button returns you to the Assigned Exam\(s\) page, and the exam is marked with the completed date and grade.
 
-**3. ** Click OK. 
+##### Take a Practice Exam
 
-**Edit a minor discrepancy **
+![testing_takingpractice_workflow](img/StanEval/testing_takingpractice_workflow.jpg){: style="height:100%;width:100%"}  
+>_Taking a Practice exam workflow._
 
-**1. ** In the Minor Discrepancies section, right-click and select Edit. 
+1. The examinee must log in to PEX and navigate to Practice Exam\(s.\)
+2. Select the source squadron.
+3. Select the MDS\(s\) and Crew Position\(s\) to filter the list of applicable Question Data Banks.
+4. Select the QDBs to draw questions from.
+5. Click Ne`xt.
+6. Enter the number of questions to be drawn from each QDB.
+7. Click `Generate Now`.
+      * Questions are multiple choice, true/false, or fill in the blank. Select the correct answer or fill in the answer as appropriate.
+      * Question numbers appear at the top. Question numbers in red have not been answered. Lined-through question numbers have been answered. Navigate through questions by clicking the question number or the Prev and Next buttons.
+      * The View All Questions button opens a list of all questions and their possible answers. You cannot answer questions from this page.
+      * The Complete Exam button opens a dialog opens listing al questions, the source QDB, subject and reference.
+      * Question numbers in red were incorrect or unanswered.
+      * On each question, correct answers are in green while any incorrect answers are in red. Unanswered questions are annotated with Answer Not Given.
+      * The exam can be printed using the printer icon.
 
-**2. ** When the dialog opens, edit existing information as required. 
+##### Review an exam
 
-**Delete a minor discrepancy **
+1. On the Assigned Exams page, select the desired exam and click `Review Exam`.
+2. Still on the _Assigned Exams_ page, select the desired exam and click `Review Exam`.
+      1. If proctored, a proctor dialog opens. The proctor selects their name, enters their PEX Security Identifier, and clicks Go to open the exam.
+      2. If not proctored, the exam opens.
+3. The dialog opens with the examinee's name, the date taken and grade.
+      1. The dialog includes al questions, the source QDB, QDB question number, and the question Subject and Reference.
+      2. On each question, correct answers are in green while any incorrect answers are in red. Unanswered questions are annotated with _Answer Not Given_.
 
-In the Minor Discrepancies section, right-click and select Delete. 
+#### Reviewing, Adjusting & Entering Exams Examiner
 
-**Import a minor discrepancy **
+![testing_review_exam_status](img/StanEval/testing_review_exam_status.jpg){: style="height:100%;width:100%"}  
+>_Exam Review Workflow_
 
-**1. ** In the Minor Discrepancies section, right-click and select Import Scanned Minor Discrepancy. 
+* Only a user with Administration, Testing Administrator, or Testing Examiner can access the _All Exams_ link and perform these functions. The user need not be a proctor.
+* For all three functions, select the _All Exams_ link, the Short Name of the examinee, and the applicable Exam Name.
+* The exam can be printed using the printer icon.
+* These functions are also available in [Testing Admin > Overview]().  
 
-**2. ** Select Minor Discrepancy 
+##### Review an Exam
 
-**3. ** Click Save Form File. 
+![testing_testingtab](img/StanEval/testing_testingtab_review.png){: style="height:80%;width:80%"}  
 
-**4. ** For more see import scanned form files. 
+1. Click _Review Exam_.
+2. The dialog opens with the examinee's name, the date taken and grade.
+3. The dialog includes all questions, the source QDB, QDB question number, and the question Subject and Reference.
+4. On each question, correct answers are in green while any incorrect answers are in red. Unanswered questions are annotated with Answer Not Given.
+5. When finished click the `X`.
 
-**View the minor discrepancy log **
+##### Adjust an exam
 
-In the Minor Discrepancies section, right-click and select View Form. 
+![testing_testingtab](img/StanEval/testing_testingtab_adjust.png){: style="height:80%;width:80%"}  
 
-**Evaluation Criteria **
+1. Click _Adjust Exam_.
+2. The dialog opens with correct answer numbers in green and incorrect answer numbers in red.
+3. If an answer marked as incorrect is acceptable, check the `Accept as Correct` checkbox.
+4. When finished click `Complete Exam`.
 
-**Create Evaluation Criteria **
+##### Enter an Off-Line exam
 
-The Evaluation Criteria Tool is used to copy, create and edit AFI evaluation criteria into PEX. The PEX 
+![testing_testingtab](img/StanEval/testing_testingtab_offline.png){: style="height:80%;width:80%"}  
 
-Help Desk can do this for you. To create or edit yourself: 
+This assumes the exam was first created and assigned to the examinee in PEX and administered/graded on paper or by some other means. The results can be entered into PEX for tracking and trending.
 
-**1. ** Go to Setup > Eval Criteria > Evaluation Criteria Tool. 
+1. Click `Enter Off-Line Exam`.
+2. The dialog opens with the correct answer selected.
+3. If a given answer was incorrect, select the answer given by the examinee.
+4. If an answer was not given, check Answer not given.
+5. When finished click `Complete Exam`.
 
-**2. ** Click New to create a new set of criteria. 
+## Testing Admin
 
-**3. ** Click Add Section and Add Subsection to add those items, giving each a name. 
+### Testing Admin Basics
 
-340 
+**Introduction**  
+The Testing Admin module allows you to create, assign, grade, record and track exams. Exams are created as proctored, non- proctored or practice. Proctored exams are assigned to examinees and require a proctor-designated user to permit the examinee access to the exam. Non-proctored exams are assigned to examinees and do not require a proctor. Practice exams are created and taken by any user without leaving a record. Trends can be assessed from proctored and non-proctored exams. Exams can be designated as requisites for Stan/Eval evaluations, or No-Go for periodic testing. Exams are taken in the Testing module. Testing reports are generated in Stan/Eval Reports.
 
-**4. ** Click Add Area and Add Subarea to add those items, giving each a name and sequence number. Add descriptions and notes as required. Critical areas/subareas do not have Q- criteria. 
+**Permissions**  
+Two permission roles can access Testing Admin, in addition to PEXAdmin and Administrator:
 
-**Create Evaluation Criteria TTPs: **
+* Testing Administrator can perform any function in Testing Admin and Testing.
 
-• Add a number of blank sections, subsections, areas, and subareas prior to actually entering names and criteria. Subsections can be moved within sections, but cannot be moved from one section to another. The same holds for subareas and areas. 
+* Testing Evaluator is similar but cannot edit settings in Setup. Testing Evaluators can however, view, print and change displays in Setup.
 
-• Use two monitors with the AFI on one and PEX on the other. Simply copy, using Ctrl C, and paste, using Crtl V, verbiage from the AFI into PEX. 
+Permission roles are assigned in _Users & Permissions_. Proctors are selected in _Setup_. They need not have Testing permissions but must have Basic User or higher in the examinee’s squadron.
 
-**Import Evaluation Criteria **
+**Rules**
 
-**1. ** Go to Setup > Eval Criteria > Evaluation Criteria Tool. 
+* Users cannot proctor their own exams.
+* A grayed-out entry indicates it is in use and cannot be edited or deleted.
 
-**2. ** Click Open to import an existing .evalcrit file from your computer or a network drive. 
+**Module Notes**
 
-**3. ** Browse to the file and click Open. NOTE the dropdown for file type. The default is Eval Criteria Files \(.evalcrit\). You can also select Old Criteria Files \(.xml\). 
+* QDBs are Question Data Banks \(a PEX term\) that serve as containers for your exam questions.
+* It is not necessary to create identical exams in multiple squadrons. For example, create “CV-22A FE Open Book A” in squadron X. Assign the exam to people in squadron Z using the filters in Assign Exams. Neither the examinee nor proctor in squadron Z need have permissions to squadron X.
 
-**4. ** Once imported, you can accept the file as is, or edit it for local guidance and directives. 
+**Workspace**  
+These procedures are accessed by navigating to Stan/Eval > Testing Admin.
 
-**Save Evaluation Criteria **
+![testingadmin_workspace](img/StanEval/testingadmin_workspace.png){: style="height:80%;width:80%"}
 
-Regardless of whether you created or imported and edited your criteria, you need to save it to your computer or network drive as it is not saved in Setup > Eval Criteria > Evaluation Criteria Tool. In other words, without saving the file, your work will be lost. It is saved in PEX against a squadron, MDS and crew position in the next step. 
+1. _Overview_ tab - Assigned Exams lists persons with assigned but uncompleted exams. Enter off-line exam results. Completed Exams lists persons who have completed exams within a selected date span.
+2. _QDB_ tab - lists QDBs within a selected squadron. Create, edit and delete QDBs. Import QDBs from an outside source into your PEX database. Filter QDBs by subject, reference, MDS and crew position. Customize which columns are displayed.
+3. _Questions_ tab - Lists questions by QDB. Create, edit and delete questions. Copy questions from one QDB to another. Export QDB questions to a Word document. Filter questions by subject, reference, and criteria. Customize which columns are displayed.
+4. _Exam_ tab - Lists exams. View questions on an exam. Create, edit and delete exams. Assign a person to multiple exams and unassign exams from a person. Assign an exam to multiple people. Unassign an exam from multiple people.
+5. _Trending_ tab - Select QDB or Exam questions to trend by criteria.
+6. _Setup_ tab - Configure Testing Admin for your unit. Select proctors. Create, edit, and delete QDB sources, exam types, subjects, references and media \(images.\) Set trending preferences.
 
-■ Click Save, browse to the desired file location and click Save. 
+_Customize_ - The Customize buttons \(in the QDB, Questions and Exam tabs\) al ow you to select the columns displayed.
 
-**Apply Evaluation Criteria **
+_Filter_ link - The Filter link resides in the QDB, Questions and Exams tabs and allows you to filter those items by applicable such as Subject, Reference, MDS and Crew Position. When highlighted, indicates that the full list is not displayed. To display the full list, click on the Clear Filter link.
 
-**1. ** When satisfied with your criteria, click Apply. You will receive two messages, one suggesting you save your work \(see above\) and a second that you are about to overwrite any existing criteria and profiles for that squadron, MDS and crew position. 
+ _Filters_ - The standard Personnel Filter is available in several pages.
 
-**2. ** Proceed to the Evaluation Criteria tab. 
+**Workflow**
 
-**Adding Profiles **
+1. In the _Setup_ tab, configure for your squadron’s preferences.
+2. In the _QDB_ tab, create containers for your questions.
+3. In the _Questions_ tab, create questions within the QDBs.
+4. In the _Exam_ tab, create exams from your questions and assign those exams to persons.
 
-In Setup > Eval Criteria > Evaluation Criteria tab, you are viewing the criteria you just applied. 
+![testingadmin_workflow](img/StanEval/testingadmin_workflow.jpg){: style="height:100%;width:100%"}
 
-Click Add Profile and a dialog opens. 
+### Manage Your Testing Program
 
-**1. ** Add a Profile Name. 
+#### Testing Overview Tab
 
-**2. ** For each area/subarea, select Required, Desired, or N/A. Required and Desired areas/subareas are gradable on a worksheet with that profile selected. N/A areas/subareas do not. 
+!!!notes "Notes"
+      * The Overview tab allows you to _Review_, _Adjust_, and _Enter Offline Exams_. These functions are also available in the Testing module and are described in detail here.
+      * To setup a proctor, see [Setup- Configuring Testing Admin > Proctors]().  
 
-**3. ** Click Save. 
+**Assigned Exams**  
+To view individuals with exams assigned but not yet completed:
 
-341 
+1. Select _Assigned Exams_.
+      1. Select the desired squadron\(s\).
+      2. Click `Go`.
+2. On this page, _Proctored_ indicates the exam requires a proctor to al ow the examinee access to the exam.
+3. _Enter Off-Line Exam_ allows you to enter the results from an exam taken on paper.
 
-Stan Eval 
+![testingadmin_assigned_exams](img/StanEval/testingadmin_assigned_exams.jpg){: style="height:100%;width:100%"}
 
-**Import Forms **
+**Completed Exams**  
+To view individuals with completed exams and their results:
 
-Scanned forms can be imported as PDF, JPG, and PNG file types. They can be imported for a single person or multiple people. 
+1. Select _Completed Exams_.
+      1. Select the exam window Start and End Dates.
+      2. Select the squadron\(s\).
+      3. Click `Go`.
+2. _Proctored_
+      1. If an exam was completed in PEX version 5.13 or earlier, the column displays a check indicating it was proctored.
+      2. If an exam was completed in PEX version 5.14 or later, the column displays the proctor's name.
+3. _Adjust_ allows you to accept a given answer as correct.
+4. _Review_ allows you to view the completed exam with the selected answers.
 
-**Multiple people **
+![testingadmin_assigned_exams_2](img/StanEval/testingadmin_assigned_exams_2.jpg){: style="height:100%;width:100%"}
 
-**1. ** Go to SEM Home > Personnel > Import Forms > Select Person > select from the resulting dropdown list. 
+### QDB, Questions & Exams
 
-**2. ** When the dialog opens, under Form Type, select the form by number, e.g., AF 8. 
+#### QDB Tab
 
-**3. ** Enter a Description and Date. These can be whatever you require; we suggest establishing a name/date convention for your unit. 
+**List QDBs**  
+Lists, by squadron, all QDBs in the database, and allows for creating QDBs, and viewing or editing existing QDBs. For each QDB:
 
-**4. ** To import a PDF, click Import file. 
+* _Details_ - Opens a QDB to view questions, edit the QDB’s preferences and export the QDB.
+* _View Questions_ - Takes you to the Questions tab, defaulted to that QDB.
 
-**5. ** To import a JPG or PNG image, click Import image. Depending on the type you are importing to, you have can select an image for a single page \(e.g., MFR\) or two images, one for the front page and one for the back page of your original document. 
+**Create QDB**
 
-**6. ** Click Save. 
+![testingadmin_createqdb_workflow](img/StanEval/testingadmin_createqdb_workflow.jpg){: style="height:100%;width:100%"}
 
-**7. ** Click Select Person and repeat steps. 
+1. Click `Create QDB`.
+2. Enter the QDB name \(required.\)
+3. Check the Public indicator to allow users to generate and take a practice test.
+4. Select the QDB Source.
+5. Check the applicable MDS and Crew Position boxes to which the QDB will apply. This allows you to tailor the exams but does not preclude using the QDB to create exams for other MDSs and crew positions.
+6. Check the applicable References and Subjects boxes used in the QDB.
+7. Click `Save QDB` or `Cancel`.
 
-**One person **
+**Export QDB**
 
-**1. ** Go to SEM > Personnel > Person Details > Forms > Import Scanned Forms. 
+1. Click `Details` to the right of the QDB in the QDB list
+2. Click `Export QDB`. The File Download dialog is displayed.
+3. Click `Save`. When the _Save As_ dialog opens, navigate to where you want the QDB file saved.
 
-**2. ** When the dialog opens, under Form Type, select the form by number, e.g., AF 8. 
+**Delete a QDB**
 
-**3. ** Enter a Description and Date. These can be whatever you require; we suggest establishing a name/date convention for your unit. 
+1. Check the QDB checkbox.
+2. Click `Delete Selected QDB`.
 
-**4. ** To import a PDF, click Import file. 
+**Import QDB**
 
-**5. ** To import a JPG or PNG image, click Import image. Depending on the type you are importing to, you have can select an image for a single page \(e.g., MFR\) or two images, one for the front page and one for the back page of your original document. 
+1. Select the squadron that will contain the QDB.
+2. Click Browse and browse to the desired `.qdbx` QDB file.
+3. Select the file, Open, Import and Save.
 
-**6. ** Click Save. 
+!!! notes "Notes"
+      * PEX 5.7 and newer cannot import the older `.qdb` file types.
+      * **Avoid Duplicates** - Any subjects, references, and media in the imported QDB are displayed in the Subjects, References and Media columns. Compare the Imported Subjects to your Existing Subjects. If the imported Subject is the same as an existing Subject, with only a formatting difference, don’t add it as a new Subject. Instead, match it to an existing subject by selecting the existing subject in the field next to that imported subject. Do the same for the References and Media columns. For example, you have an existing reference of “AFI11-202V1” and the imported QDB contains “AFI 11-202 Vol 1 Training.” Both refer to the same document. If the two are not matched you wil have two instances of the same reference.
+      * **Assign MDS and CP.** Once the QDB is imported, go to List QDBs, select the QDB you just imported and click Details. When the dialog opens, note that the MDS field is empty and Crew Position fields are unchecked. Click the Edit button and the fields wil be populated with the MDSs and crew positions assigned to the squadron. Check those appropriate to the QDB. This does not preclude using the QDB to create exams for other MDSs and crew positions.
 
-**Export/Import an Eval Folder/FEF **
+#### Questions Tab
 
-A person’s data file can be exported, from Personnel, when that person has an open evaluation. 
+**List Questions**  
+Lists, by squadron and QDB, all the questions in the QDB, and allows for creating, editing and deleting questions. Exports QDB questions to a Word document.
 
-While the open evaluation remains in the losing database, it is not included in the exported or imported data. As such, it wil not appear on the person’s Person Details page in the gaining database. The losing unit can complete the evaluation in the losing database and export it as a PDF 
+**Create a question**
 
-file, so the gaining unit can scan it into the gaining database. 
+1. Select the Squadron and QDB that wil contain the question.
+2. Click `Create Question` and a dialog opens.
+3. Select the question type: Multi \(multiple choice\), True/False, or Fill In \(Fill in the Blank\)
+      1. Never Include means the question wil not be included on exams.
+      2. _Question Bad_ means the question will appear on exams but no longer be trended or marked wrong.
+      3. _Always Include_ means the question wil be always included on generated exams.
+4. Fill in the Subject and Reference fields as desired.
+5. Add the question text and answer text. For Multi and True/False questions, select the correct answer.
+6. Add an image by clicking on the floppy icon. The media manager dialog with all images assigned to the squadron opens. Select the image you want displayed with the question and OK. You can add up to four images to a question.
+7. Finish
+      * _Save_ saves your question and returns you to the List Questions page. 
+      * _Save & New_ saves your question and opens a dialog for a subsequent question.
+      * Cancel exits without saving.
+      * Prev and Next move back and forth between questions. 
 
+!!! caution "Caution"
+      When creating an exam with _Never Include_ questions, there is no indication the QDB contains _Never Include_ questions until the exam is created. For example: You create a 100 question exam and the source QDB contains two _Never Include_ questions. When finished, the exam will only contain 98 questions.
 
+**Edit a question**
 
+1. Select the Squadron and QDB that contain the question.
+2. Click the `Details` link to the right of the question and the Question Details page opens.
+3. Click `Edit`.
+4. Edit the fields as desired.
+5. Click `Save` or `Cancel` to exit without saving.
 
+!!! note "Note"
+      The edit wil propagate to existing exams that have not been completed. PEX wil ask if it was a major change to the question. Select No if your change was minor and did not change the meaning of the question. Select Yes if your change was major and did change the meaning of the question. Remember to reprint any paper exams, answer sheets, bubble sheets, and answer keys.
 
-**Testing **
+**Delete a question**
 
-**Testing Basics **
+1. Select the Squadron and QDB that contain the question.
+2. Check the checkbox next to the question\(s.\)
+3. Check the box to the left of the question you wish to delete.
+4. Click Delete Selected Questions.
 
-342 
+!!! note "Note"
+      If the checkbox is grayed out, the question is in use and cannot be deleted.
 
-!(images/000116.jpg)
+**Copy Questions**
 
-**Introduction **
+1. Copy a question from one QDB to another QDB.
+2. In the Source QDB grid, select the Squadron and QBD from which you want to copy questions.
+3. In the Target QDB grid, select the Squadron and QBD to which you want to copy questions.
+4. Check the boxes to the left of the question\(s\) you want to copy.
+5. Click `Copy Questions`.
 
-In the Testing module, users take exams assigned to them from the Testing Admin module. Exams may or may not require a proctor, depending on how they were created. Users can also create their own practice exams. Additionally, administrators can perform admin functions similar to those in the Testing Admin module. 
+#### Exam Tab
 
-**Permissions **
+##### List Exams
 
-■ Basic user and higher: take assigned exams and create practice exams. 
+**Create an Exam**
 
-■ Testing Examiner and Testing Administrator: view all exams assigned to all users, review and adjust completed exams, and enter offline exams. Only these roles al ow users to view the Al Exams link. 
+![testingadmin_createexam_workflow](img/StanEval/testingadmin_createexam_workflow.jpg){: style="height:100%;width:100%"}
+> _Read left --> right to see exams resulting from optional paths. Read right --> left to determine path required when exam type is known._
 
-**Rules **
+1. Click Create Exam. The exam create/edit page is displayed.
+2. Enter an Exam Name \(required.\)
+3. Enter the desired Number of Questions \(required.\)
+4. Enter the minimum percentage grade required to pass the exam \(required.\)
+5. Decide if you want to select specific questions or have PEX pick them for you. You have three options:
+      * _1_ - To select specific questions, leave the Auto-Generate Questions box unchecked. To have PEX to generate random questions, check the Auto-Generate Questions box.
+      * _2_ - To have questions generate from only selected QDBs, select From QDBs.
+      * _3_ - To have questions generate from selected QDBs, Subjects, and/or References, select From QDBs and Criteria.
+6. Enter the Exam Type. You must enter an Exam Type for Stan/Eval requisite exams. Requisite Exam Types are identified as such in the dropdown.
+>!!! note "Note"
+>      An exam cannot be of both Requisite Type and NoGo.
+      * _Requisite Exams_ are exams designed to satisfy Ground or Knowledge Phase requisites to a Stan/Eval evaluation. Their status is displayed in the various Go/NoGo displays under the Stan/Eval banner.
+      * _NoGo Exams_ are not designed to satisfy Stan/Eval evaluation requirements. Their status is displayed in the various Go/NoGo displays under the TEST banner. PEX NoGo exams are designed to satisfy MAJCOM or unit requirements for recurring or one-time testing of such topics as emergency procedures, CAPS/Boldface or systems knowledge.
+      * If, for example, your unit's monthly NoGo exam is CAPS, create a new exam type that is not checked as Requisite. For more see [Setup- Configuring Testing Admin]().  
+7. Check Proctored if the exam will require a proctor to monitor the examinee.
+8. Check the No-Go box if the exam wil input to the No-Go process.
+>For NoGo exams only, the selected MDS/CP determines NoGo status. For example, you create a NoGo exam selecting the MDS/CP of F-15E/Pilot, but assign it to all MDS/CP. Only F-15E pilots will see this exam displayed on the NoGo display. Once a No-Go exam is assigned, the examinee must take and pass the exam by the No-Go date you enter. If the person takes the exam and fails it, PEX automatically re-assigns the exam. PEX does not send an email notification of a failed or missed exam.
+9. Check `Repeat` if you want the exam auto-assigned at specific intervals. When the dialog opens select the Start Date, Repeats \(repetition sequence\), End point and when it is first due.
+>When you “assign” a repeating exam, the exam is actual y just scheduled. The exam is not actually assigned until the scheduled date arrives.
+10. Set an Active Date if you want to delay when the exam is available for assignment. When set, the exam will not appear in the Assign Exams, Available Exams list until that date. If the exam is assigned to people and the Active Date is then set to an earlier date, it will remain assigned to those people.
+11. Enter Date, Instructions and POC information as desired.
+12. Select the MDS\(s\) Crew Position\(s\) to which this exam applies. This will filter the list of QDBs.
+13. From Question Data Banks, pick the ones to generate the exam \(required.\) Selecting the QDBs narrows the list of QDBs meeting your criteria. The resulting exam can still be assigned to any MDS or CP. The Exam Question Counter displays the number of questions left to select and will warn you if the number is exceeded.
+14. Click `Next`. Depending on your question selection choice above:
+      * _Option 1: If you are selecting specific questions:_
+           1. On this page select specific questions from the first QDB and click `Add Questions`.
+           2. Select Next QDB and repeat as required.
+           3. The last page has an _Order Questions_ link. Clicking that link opens a dialog allowing you to order questions by Subject and Reference. This does not allow ordering of individual questions.
+           4. At this point you can _Add QDB Questions_ and _Delete Selected Questions_.
+           5. When finished click `Finish Creating Exam`. You are returned to the _List Exams_ page containing your new exam.
+      * _Option 2: To have PEX generate questions from selected QDBs:_
+           1. On this page select the number of questions from the each QDB.
+           2. You have two save options.
+               1. _Save Exam_ will generate the exam with specific questions. Everyone who takes the exam wil get the same questions.
+               2. _Save Exam Template_ saves the selected number of questions from each QDB. Each person taking the exam wil get the same number of questions, but the questions wil be randomly different. The questions are not generated until the exam is actual y assigned to a person. There is no way to print a template exam until it is taken.
+           3. You are returned to the List Exams page containing your new exam.
+      * _Option 3: To have PEX generate questions from selected QDBs, Subjects, and/or References:_
+           1. On this page select the number of questions from the Subjects and References within each QDB.
+           2. You have two save options:
+               1. _Save Exam_ will generate the exam with specific questions. Everyone who takes the exam wil get the same questions.
+               2. _Save Exam Template_ saves the selected number of questions from each QDB, Subject and Reference. Each person taking the exam wil get the same number of questions, but the questions wil be randomly different. The questions are not generated until the exam is actually assigned to a person. There is no way to print a template exam until it is taken.
+           3. You are returned to the _List Exams_ page containing your new exam.
 
-■ Proctors cannot proctor their own exams, nor can individuals grade their own exams. 
+**View exam questions**
 
-**Module Notes **
+1. Select the desired exam from the exam list sand click `Details`.
+2. Click `View Questions`.
 
-■ A test administrator can review and accept answers as correct, including fill in the blank types. 
+**Edit Exam**
 
-■ Practice Exam dates and grades, once closed by the examinee, are not recorded in PEX. 
+1. Select the desired exam from the exam list sand click `Details`. 
+2. Click `Edit`.
+3. Make desired edits and click `Save Exam` or `Cancel`.
 
-■ Only “Public” QDBs can be accessed in Practice Exam\(s.\) 
+**Copy Exam**
 
-**Controls **
+1. Select the desired exam from the exam list sand click `Details`.
+2. A new exam opens in edit mode with a “\(1\)” after the original title.
+3. Edit this copy as desired and re-name it as desired.
 
-Access these procedures by navigating to Stan Eval > Testing or from the Testing NoGo tab on the user’s My Page. 
+**Print Products**
 
-**Workspace **
+1. Select the desired exam from the exam list sand click Details.
+2. When the exam opens:
+3. _Print Exam_ opens a Word document containing the complete exam.
+4. _Print Answer Sheet_ opens a Word document with the questions, references and correct answer.
+5. _Print Bubble Sheets_ opens a Word document in “bubble” answer sheet format. The first sheet has the correct answers blackened. The remaining sheets do not and are filled by the examinee.
 
+##### Assign Exams
 
+On this page you several options for associating exams and people:
 
-**1. **Access** Testing **via the nav panel or the My Page Go/NoGo** Test **tab. ** **
+**Person to Exam\(s\)**
 
-**2. ** **All Exams** allows users with Testing Examiner and Testing Administrator roles to view all exams assigned to all users. 
+1. Under _Personnel_, select `Squadron` and filter people.
+2. Select the individual.
+3. Under _Available Exam\(s\)_, select squadron, MDS and Crew Position.
+4. Select the desired exam\(s.\)
+5. Click `Assign`.
+6. The _Assign Due Date\(s\)_ dialog opens set to today’s date.
+7. If desired, click `Edit` and set the due date. If multiple exams were selected, PEX asks if you would like the same date assigned to al exams. If yes, click `OK`. If not, continue editing exam dates.
+8. PEX will send an email notification to the examinee. If auto-send fails, you will be given the option of manually sending the notification.
+9. The exam will move to the middle _Assigned Exams_ grid. If a repeat exam, it will move to the lower _Repeat Exam\(s\)_ grid. At this point the exam is not assigned but scheduled to be assigned. It will become assigned on the next scheduled date.
 
-343 
+!!! note "Note"
+      If the expected exam does not appear in Available Exam\(s\), verify, in the exam itself, the Active Date is not set to a future date.
 
-!(images/000101.jpg)
+**Exam to People**
 
-Stan Eval 
+1. Under _Exams_, select Squadron, MDS and Crew Position.
+2. Select the desired exams.
+3. Under _Nonassigned Personnel_, select Squadron and filter people.
+4. Select the people.
+5. Click `Assign`.
+6. The _Assign Due Date\(s\)_ dialog opens set to today’s date.
+7. If desired, click `Edit` and set the due date. If multiple people were selected, PEX asks if you would like the same date assigned to everyone. If yes, click OK. If not, continue editing people’s dates.
+8. PEX will send an email notification to all assigned the exam. If auto-send fails, you will be given the option of manually sending the notification.
 
-**3. ** **Assigned Exam\(s\)** allows users to view, take and review exams assigned to them. If the exam is proctored, a proctor must allow access. 
+**Unassign an exam or multiple exams from an individual**
 
-**4. ** **Practice Exam\(s\)** allows users to create, take and review their own practice exams. Practice exams and their results are not saved. 
+1. Select `Person to Exam\(s\)`
+2. Under _Personnel_, select squadron and filter people.
+3. Select the individual.
+4. Under _Assigned Exams_ or _Repeat Exam\(s\)_, select the desired exam\(s\).
+5. Click `Unassign`.
+6. The exam will move to the upper Available Exam\(s\), grid.
 
-**5. ** **Review Exam**, **Adjust Exam**, and **Enter Offline Exam** functions are identical to those in Testing Admin. 
+**Unassign Exams**  
+To unassign one exam from multiple people:
 
-**Workflow **
+1. Under _Exams_, select Squadron, MDS and Crew Position.
+2. Select the desired exam.
+3. Under _Assigned Personnel_, select `Squadron` and filter people.
+4. Select the people.
+5. Click `Unassign`.
 
+### Trending Exams
 
+#### Trending Tab
 
+**Select Trending Criteria by QDB/Exam**  
+The process is the same for both by QDB and by Exam.
 
+1. Select Trending Criteria by QDB or by Exam, as desired
+2. Select Squadron, MDS, and Crew Position
+3. Select the QDBs or Exams to trend.
+4. Select the Personnel to trend.
+5. Select the Start and End dates.
+6. Edit the default Trend and Alert thresholds.
+7. Click `View Results`.
+8. Missed questions meeting the Trend or Alert criteria are displayed. The missed questions wil show the QDB Name, QDB question number, Version, Question Text, number of times asked, number of times missed and the percentage of times missed. A checkbox wil show if it’s listed due to meeting the Alert or Trend threshold.
+9. Click `Details` to see more specific results for a single question. The Details provides information on the question itself: the correct answer and the number of times each incorrect answer was selected.
 
-**Testing- Taking and Reviewing Exams as an Examinee **
+### Configuring Testing Admin
 
-**Testing tab **
+#### Testing Admin Setup Tab
 
-**Take an exam **
+**Subjects, References, & Media**  
+Manage Lists of Subjects and References, and assign media \(images\) to specific squadrons.
 
-**1. ** The examinee must log in to PEX and navigate to Assigned Exam\(s.\) **2. ** Select the desired exam name 
+* _Add a Subject_ - Enter the desired subject name into the Subject field and click Add Subject.
+* _Edit a Subject_ - Select the Edit link, make changes and click Save.
+* _Delete a Subject_ - Check the box and click Delete Subjects. If the box is grayed out, the subject is in use and cannot be deleted.
+* _Add a Reference_ - Enter the reference into Reference and click Add Reference.
+* _Edit a Reference_ - Select the Edit link, make changes as desired and click Save.
+* _Delete a Reference_ - Check the appropriate box and click Delete References. If the box is grayed out, the subject is in use and cannot be deleted.
+* _Assign Media_ - This step assigns images in the database to squadrons. Click Assign Media. A dialog box opens with al media not assigned to your squadron. Check the boxes of the desired images and click Assign Selected Media.
+* _Show Media_ - Select Yes to view a thumbnail of the image.
+* _Unassign Media_ - Click Unassign Selected Media. A dialog box will open with all media assigned to your squadron_ - Click the Edit link next to the media you want to unassign from your squadron and select Unassign Selected Media at the bottom of the dialog box.
+* _Show Media_ - Select Yes to view a thumbnail of the image.
 
-**3. ** Click Take Exam 
+**Trending Preferences**  
+Set your squadron’s default Trending Preferences. Alerts notify you that a question is approaching, but has not yet met, the trend threshold.
 
-**A. ** If proctored, a proctor dialog opens. The proctor selects their name, enters their PEX 
+For example, select a Minimum Sample Size of 15 and Threshold of 10%. A question is not reported as a trend until it has been assessed at least 15 times and of those, at least 10% of the responses are incorrect or unanswered. Alert Minimum Sample Size and Alert Threshold are typically set lower, in this example you might set 10 and 5%.
 
-Security Identifier, and clicks Go to open the exam. 
+* _Minimum Sample Size_ - Set the minimum number of times you want a question asked before it is considered for trending.
+* _Threshold_ - Set the percentage of times a question is missed to report a trend.
+* _Alert Minimum Sample Size_ - Set the minimum number of times you want a question asked before it is considered for alerting.
+* _Alert Threshold_ - Set the percentage of time a question is missed to report an alert.
+* Click `Save Preferences`.
 
-**B. ** If not proctored, the exam opens. 
+**Upload/Delete Media**  
+“Media” describes image files. To include images on exams, images are first imported into the PEX database, assigned to the applicable squadron, and added to the exam. 
 
-**4. ** When the exam opens, click the Instructions link at top right. 
+!!! note "Note"
+      Image files must be in `.jpg` or `.gif` formats, and smaller than 30 MB.
 
-**5. ** Begin answering questions. 
+* _Upload Media_ - Select Browse and navigate to the image file to upload. Enter description of the image in Media Description. Click Upload and the Media name and File name appear in the Media list.
+* _Delete Media_ - Select the box next to the media name and click Delete. The image wil delete if not in use.
+* _Show Media_ - Select Yes to view a thumbnail of the image.
 
-• Questions are multiple choice, true/false, or fill in the blank. Select the correct answer or fill in the answer as appropriate. 
+**QDB Source & Exam Types**  
+Add, edit or delete your list of QDB Sources and Exam Types.
 
-• Question numbers appear at the top. Question numbers in red have not been answered. 
+* _Add a QDB Source_ - Enter the source name into the QDB Source field and click Add QDB Source.
+* _Edit a QDB Source_ - Select the Edit link to the right of the name, make changes and click Save.
+* _Delete a QDB Source_ - Check the box next to the name and click Delete Selected QDB Sources. If the check box is grayed out, the QDB Source is in use and cannot be deleted.
+* _Add an Exam Type_ - Enter the name in the Exam Type field. Check the Requisite box if the type will be a Stan/Eval evaluation requisite. Select the appropriate Phase: _Ground_ or _Fly_. Click `Add Exam Type`.
+>!!! note "Note"
+>      * Exams marked as Requisite are available in the Stan/Eval Management module and, once associated to an evaluation type, the completed date and grade can be assigned to an individual's evaluation.
+>      * The _Ground and Fly Phase_ selection allows filtering of exams in the exams tab but has no effect on how they are presented in Stan/Eval Management.
+* _Edit an Exam Type_ - Select the Edit link to the right of the name. Edit as desired and click Save. Pre-delivered Exam Types are those specified in AFIs and are non-editable.
+* _Delete an Exam Type_ - Check the box next to name and click Delete Exam Types. If the box is grayed out, the Exam Type is in use and cannot be deleted.
 
-Lined-through question numbers have been answered. Navigate through questions by clicking the question number or the Prev and Next buttons. 
+**Proctors**  
+Designate users who can proctor an exam.
 
-• The View All Questions button opens a list of all questions and their possible answers. You cannot answer questions from this page. 
+1. _Squadron_ - Selecting a squadron populates a list of all persons with a user account in that squadron, regardless of permission level.
+2. Check those people who will act as proctors.
+3. Click `Save`.
+>!!! note "Note"
+>      * To proctor an exam, the proctor must have some level of permissions _to the examinee's squadron._ For example, if the proctor is assigned to squadron X and the examinee is assigned to squadron Z, the proctor must have permission to squadron Z. Permissions need not be administrator or examiner; Basic User will suffice. This allows an individual to perform proctor duties without Testing Admin or Examiner permission. 
+>      * Likewise, a designated proctor can proctor any exam in any squadron to which they have any permission. They are not limited to the squadron they are listed under \(step 1 above\). 
 
-• The Finish Exam Later button returns you to the Assigned Exam\(s\) page, and the exam is marked In Progress. When ready to resume, repeat the previous steps to complete the exam. 
+## Stan Eval Reports
 
-**6. ** The Complete Exam button returns you to the Assigned Exam\(s\) page, and the exam is marked with the completed date and grade. 
+### Open Evals Report
 
-344 
+**Overview**  
+The Open Evals report displays the status of open evaluations by person.
 
-**Take a practice exam **
+**Access**
 
-**1. ** The examinee must log in to PEX and navigate to Practice Exam\(s.\) **2. ** Select the source squadron. 
+1. Navigate to Stan Eval > Reports > Open Evals.
+2. Criteria Selection options:
+      1. Select personnel by Squadron, MDS, Qual Code, and CP.
+      2. Select evals by Eval Type and Eval Prefix.
+      3. Select how you want the evals ordered; by End Zone, Name \(person\), Squadron, MDS or Eval Type.
+3. View the report by selecting PDF or Excel.
 
-**3. ** Select the MDS\(s\) and Crew Position\(s\) to filter the list of applicable Question Data Banks. 
+**Data**  
+The report lists people with:
 
-**4. ** Select the QDBs to draw questions from. 
+Open Evaluations and within those evaluations:
 
-**5. ** Click Next. 
+* Emergency Procedures Evaluations \(EPE\)
+* Requisites
+* Restrictions \(added as a worksheet discrepancy\).
+* General Restrictions \(added manually to an eval, or independently of an eval\).
+* Additional Training
+* Unqualified. Names populate this report when an evaluation worksheet is graded 3.
 
-**6. ** Enter the number of questions to be drawn from each QDB. 
+### Completed Evals Report
 
-**7. ** Click Generate Now. 
+**Overview**  
+The Completed Evals report compiles detailed, categorized information from evaluations completed within a selected date span.
 
-• Questions are multiple choice, true/false, or fill in the blank. Select the correct answer or fill in the answer as appropriate. 
+**Access**
 
-• Question numbers appear at the top. Question numbers in red have not been answered. 
+1. Navigate to Stan Eval > Reports > Completed Evals.
+2. Criteria Selection options:
+      1. Select a date span.
+      2. Select personnel by Squadron, MDS, Qual Code, and CP.
+      3. Select evals by Eval Type and Eval Prefix.
+3. View the report by selecting PDF or Excel.
 
-Lined-through question numbers have been answered. Navigate through questions by clicking the question number or the Prev and Next buttons. 
+**Data**  
+Data is displayed from all evaluations completed within the date span.
 
-• The View All Questions button opens a list of all questions and their possible answers. You cannot answer questions from this page. 
+* Evaluations
+* Discrepancies
+* EPE Discrepancies
+* Commendable Areas
+* Evaluation Summaries by category
+      * _Grade_
+      * _Squadron_
+      * _MDS_
+      * _Eval Type_
+      * _Crew Position_
+      * _Eval Prefix_
+      * _Evaluator_
+* Requisites
+* Additional Training
+* FCIF \(Part B\)
 
-• The Complete Exam button opens a dialog opens listing al questions, the source QDB, subject and reference 
+**Categories displayed**  
+Each individual summary is based on one category and compiles data from the remaining categories. Each summary s category displays data, in columns, by criteria appropriate to that category. 
+For example, using the categories listed above, a summary by the Grade category lists data from the remaining categories of Squadron, MDS, Eval Type, Crew Position, Eval Prefix, and Evaluator. Grades columns are Total, 1, 2 , and 3.
 
-• Question numbers in red were incorrect or unanswered 
+The sample report below shows an evaluation summary, by grade, for ten evaluations from two squadrons, each with one MDS and one crew position. I can see that, of those ten evals, two were initial \(INIT\) and five were no-notice \(N/N\), leaving three with no prefix. Further, of the five no-notice evaluations, which was 50% of the total, two, or 40%, were graded Q1 and three, or 60% were graded Q3.  
+![reports_evaluation_summary_table](img/StanEval/reports_evaluation_summary_table.png){: style="height:90%;width:90%"}
 
-• On each question, correct answers are in green while any incorrect answers are in red. 
+### No-Notice Report
 
-Unanswered questions are annotated with Answer Not Given. 
+**Overview**  
+The No Notice Report displays no-notice evaluations completed within a selected date span and meeting a specified goal. Any evaluation with a “N/N” prefix is considered no-notice. The report is useful for determining who is outside the normal evaluation eligibility zone for prioritizing no-notices.
 
-• The exam can be printed using the printer icon. 
+**Access**
 
-**Review an exam **
+1. Navigate to Stan Eval > Reports > No Notice Report
+2. Criteria Selection options:
+      1. Select a date span
+      2. Select a goal. This is a percentage of people who are qualified, not a percentage of evaluations.
+      3. Select personnel using the Squadron, MDS, Qual Code and CP checkboxes
+      4. Select evals using the Eval Type checkboxes
+      5. Select a sort order. “N/N Zone” is the period a person is not in their normal evaluation eligibility zone. It does not apply to non-periodic evaluations.
+3. View the report by selecting PDF or Excel
 
-**1. ** On the Assigned Exams page, select the desired exam and click Review Exam **2. ** Stil on the Assigned Exams page, select the desired exam and click Review Exam **A. ** If proctored, a proctor dialog opens. The proctor selects their name, enters their PEX 
+**Data**
 
-Security Identifier, and clicks Go to open the exam 
+* The number of persons administered a no-notice evaluation, in green.
+* To Goal: The number of persons left to evaluate to meet your goal, based on the criteria set, in red.
+* Goal: The total number of persons to evaluate, based on the criteria set, in blue.
+* The number of eligible persons.
+* Total number of all evaluations.
+* All no-notice evaluations completed within the date span.
+* No-notice eligibility, based on the criteria.
 
-**B. ** If not proctored, the exam opens. 
+### Testing Report
 
-**3. ** The dialog opens with the examinee's name, the date taken and grade. 
+**Overview**  
+The Testing report is used to view completed exams, by person, within a selected date span.
 
-**A. ** The dialog includes al questions, the source QDB, QDB question number, and the question Subject and Reference. 
+**Access**
 
-**B. ** On each question, correct answers are in green while any incorrect answers are in red. 
+1. Navigate to Stan Eval> Reports> Testing Report
+2. Criteria Selection options:
+      1. Select a date span
+      2. Select the personnel you want using the Squadron, MDS, Qual Code and CP checkboxes**C.** Select the exams you want using the Exam checkboxes
+3. View the report by selecting PDF or Excel
 
-Unanswered questions are annotated with Answer Not Given. 
+**Data**  
+Exam information includes the exam name, whether it was a recurring exam, and whether a proctor was required.
 
-**TTPs **
+Examinee information includes the examinee’s name, squadron, MDS\(s\), crew position\(s\), completed date, and grade received.
 
-345 
+### Eval Issues Report
 
-!(images/000081.jpg)
+**Overview**  
+The Eval Issues Report lists persons with issues that may require attention.
 
-!(images/000084.jpg)
+**Access**
 
-!(images/000018.jpg)
+1. Navigate to Stan Eval > Reports > Eval Issues Report**2.** Select personnel using the Squadron, MDS, and CP checkboxes.
+2. View the report by selecting PDF.
 
-!(images/000104.png)
+**Data**
 
-Stan Eval 
-
-
-
-
-
-. 
-
-
-
-
-
-**Testing- Reviewing, Adjusting and Entering Exams as an Examiner **
-
-■ Only a user with Administration, Testing Administrator, or Testing Examiner can access the **Al** **Exams** link and perform these functions. The user need not be a proctor. 
-
-■ For all three functions, select the All Exams link, the Short Name of the examinee, and the applicable Exam Name. 
-
-■ The exam can be printed using the printer icon. 
-
-■ These functions are also available in Testing Admin > Overview.  
-
-**Testing tab **
-
-**Review an exam **
-
-
-
-**1. ** Click Review Exam. 
-
-**2. ** The dialog opens with the examinee's name, the date taken and grade. 
-
-346 
-
-!(images/000076.png)
-
-!(images/000041.png)
-
-**3. ** The dialog includes al questions, the source QDB, QDB question number, and the question Subject and Reference. 
-
-**4. ** On each question, correct answers are in green while any incorrect answers are in red. 
-
-Unanswered questions are annotated with Answer Not Given. 
-
-**5. ** When finished click the X. 
-
-**Adjust an exam **
-
-
-
-**1. ** Click Adjust Exam. 
-
-**2. ** The dialog opens with correct answer numbers in green and incorrect answer numbers in red. 
-
-**3. ** If an answer marked as incorrect is acceptable, check the Accept as Correct checkbox. 
-
-**4. ** When finished click Complete Exam. 
-
-**Enter an Off-Line exam \(an exam taken outside of PEX\) **
-
-This assumes the exam was first created and assigned to the examinee in PEX and administered/graded on paper or by some other means. The results can now be entered into PEX 
-
-for tracking and trending. 
-
-
-
-**1. ** Click Enter Off-Line Exam. 
-
-**2. ** The dialog opens with the correct answer selected. 
-
-**3. ** If a given answer was incorrect, select the answer given by the examinee. 
-
-**4. ** If an answer was not given, check Answer not given. 
-
-**5. ** When finished click Complete Exam. 
-
-347 
-
-Stan Eval 
-
-
-
-
-
-**Testing Admin **
-
-**Testing Admin Basics **
-
-**Introduction **
-
-The Testing Admin module allows you to create, assign, grade, record and track exams. Exams are created as proctored, non- proctored or practice. Proctored exams are assigned to examinees and require a proctor-designated user to permit the examinee access to the exam. Non-proctored exams are assigned to examinees and do not require a proctor. Practice exams are created and taken by any user without leaving a record. Trends can be assessed from proctored and non-proctored exams. Exams can be designated as requisites for Stan/Eval evaluations, or No-Go for periodic testing. Exams are taken in the Testing module. Testing reports are generated in Stan/Eval Reports. 
-
-**Permissions **
-
-Two permission roles can access Testing Admin, in addition to PEXAdmin and Administrator: 
-
-■ Testing Administrator can perform any function in Testing Admin and Testing. 
-
-■ Testing Evaluator is similar but cannot edit settings in Setup. Testing Evaluators can however, view, print and change displays in Setup. 
-
-Permission roles are assigned in Users & Permissions. Proctors are selected in Setup. They need not have Testing permissions but must have Basic User or higher in the examinee’s squadron. 
-
-**Rules **
-
-■ Users cannot proctor their own exams. 
-
-■ A grayed-out entry indicates it is in use and cannot be edited or deleted. 
-
-**Module Notes **
-
-■ QDBs are Question Data Banks \(a PEX term\) that serve as containers for your exam questions. 
-
-■ It is not necessary to create identical exams in multiple squadrons. For example, create “CV-22A FE Open Book A” in squadron X. Assign the exam to people in squadron Z using the filters in Assign Exams. Neither the examinee nor proctor in squadron Z need have permissions to squadron X. 
-
-**Workspace **
-
-These procedures are accessed by navigating to Stan/Eval > Testing Admin. 
-
-348 
-
-!(images/000004.png)
-
-!(images/000094.jpg)
-
-
-
-**1. ** **Overview** tab. Assigned Exams lists persons with assigned but uncompleted exams. Enter off-line exam results. Completed Exams lists persons who have completed exams within a selected date span. 
-
-**2. ** **QDB** tab. lists QDBs within a selected squadron. Create, edit and delete QDBs. Import QDBs from an outside source into your PEX database. Filter QDBs by subject, reference, MDS and crew position. Customize which columns are displayed. 
-
-**3. ** **Questions** tab. Lists questions by QDB. Create, edit and delete questions. Copy questions from one QDB to another. Export QDB questions to a Word document. Filter questions by subject, reference, and criteria. Customize which columns are displayed. 
-
-**4. ** **Exam** tab. Lists exams. View questions on an exam. Create, edit and delete exams. Assign a person to multiple exams and unassign exams from a person. Assign an exam to multiple people. Unassign an exam from multiple people. 
-
-**5. ** **Trending** tab. select QDB or Exam questions to trend by criteria. 
-
-**6. ** **Setup** tab. Configure Testing Admin for your unit. Select proctors. Create, edit, and delete QDB sources, exam types, subjects, references and media \(images.\) Set trending preferences. 
-
-■ **Customize**. The Customize buttons \(in the QDB, Questions and Exam tabs\) al ow you to select the columns displayed. 
-
-■ **Filter** link. The Filter link resides in the QDB, Questions and Exams tabs and allows you to filter those items by applicable such as Subject, Reference, MDS and Crew Position. When highlighted, indicates that the full list is not displayed. To display the full list, click on the Clear Filter link. 
-
-■ **Filters**. The standard Personnel Filter is available in several pages. 
-
-**Workflow **
-
-**1. ** In the Setup tab, configure for your squadron’s preferences. 
-
-**2. ** In the QDB tab, create containers for your questions. 
-
-**3. ** In the Questions tab, create questions within the QDBs. 
-
-**4. ** In the Exam tab, create exams from your questions and assign those exams to persons. 
-
-
-
-
-
-349 
-
-!(images/000059.jpg)
-
-Stan Eval 
-
-**Overview- Manage Your Testing Program **
-
-**Overview tab **
-
-**NOTES:** 
-
-■ The Overview tab al ows you to **Review**, **Adjust**, and **Enter Offline Exams**. These functions are also available in the Testing module and are described in detail here. 
-
-■ To setup a proctor, see Setup- Configuring Testing Admin > Proctors.  
-
-**Assigned Exams **
-
-To view individuals with exams assigned but not yet completed: 
-
-**1. ** Select **Assigned Exams**. 
-
-**A. ** Select the desired squadron\(s\). 
-
-**B. ** Click Go. 
-
-**2. ** On this page, **Proctored** indicates the exam requires a proctor to al ow the examinee access to the exam. 
-
-**3. ** **Enter Off-Line Exam** allows you to enter the results from an exam taken on paper. 
-
-
-
-**Completed Exams **
-
-To view individuals with completed exams and their results: 
-
-**4. ** Select **Completed Exams**. 
-
-**A. ** Select the exam window Start and End Dates. 
-
-**B. ** Select the squadron\(s\). 
-
-**C. ** Click Go. 
-
-**5. Proctored **
-
-**A. ** If an exam was completed in PEX version 5.13 or earlier, the column displays a check indicating it was proctored. 
-
-**B. ** If an exam was completed in PEX version 5.14 or later, the column displays the proctor's name. 
-
-**6. ** **Adjust** allows you to accept a given answer as correct. 
-
-**7. ** **Review** allows you to view the completed exam with the selected answers. 
-
-350 
-
-!(images/000026.jpg)
-
-
-
-**QDB, Questions and Exams- Creating and Assigning **
-
-**QDB tab **
-
-**List QDBs **
-
-Lists, by squadron, all QDBs in the database, and allows for creating QDBs, and viewing or editing existing QDBs. For each QDB: 
-
-■ Details. Opens a QDB to view questions, edit the QDB’s preferences and export the QDB. 
-
-■ View Questions. Takes you to the Questions tab, defaulted to that QDB. 
-
-**Create QDB **
-
-**1. ** Click Create QDB. 
-
-**2. ** Enter the QDB name \(required.\) 
-
-**3. ** Check the Public indicator to al ow users to generate and take a practice test. 
-
-**4. ** Select the QDB Source. 
-
-**5. ** Check the applicable MDS and Crew Position boxes to which the QDB will apply. This allows you to tailor the exams but does not preclude using the QDB to create exams for other MDSs and crew positions. 
-
-**6. ** Check the applicable References and Subjects boxes used in the QDB. 
-
-**7. ** Click Save QDB or Cancel. 
-
-**Export QDB **
-
-**1. ** Click Details to the right of the QDB in the QDB list **2. ** Click Export QDB. The File Download dialog is displayed. 
-
-**3. ** Click Save. When the Save As dialog opens, navigate to where you want the QDB file saved. 
-
-**Delete a QDB **
-
-**1. ** Check the QDB checkbox 
-
-**2. ** Click Delete Selected QDB 
-
-**Import QDB **
-
-**1. ** Select the squadron that will contain the QDB. 
-
-351 
-
-Stan Eval 
-
-**2. ** Click Browse and browse to the desired .qdbx QDB file. 
-
-**3. ** Select the file, Open, Import and Save. 
-
-**NOTES:** 
-
-■ PEX 5.7 and newer cannot import the older .qdb file types. 
-
-■ **Avoid Duplicates. ** Any subjects, references, and media in the imported QDB are displayed in the Subjects, References and Media columns. Compare the Imported Subjects to your Existing Subjects. If the imported Subject is the same as an existing Subject, with only a formatting difference, don’t add it as a new Subject. Instead, match it to an existing subject by selecting the existing subject in the field next to that imported subject. Do the same for the References and Media columns. For example, you have an existing reference of “AFI11-202V1” and the imported QDB contains “AFI 11-202 Vol 1 Training.” Both refer to the same document. If the two are not matched you wil have two instances of the same reference. 
-
-■ **Assign MDS and CP. ** Once the QDB is imported, go to List QDBs, select the QDB you just imported and click Details. When the dialog opens, note that the MDS field is empty and Crew Position fields are unchecked. Click the Edit button and the fields wil be populated with the MDSs and crew positions assigned to the squadron. Check those appropriate to the QDB. This does not preclude using the QDB to create exams for other MDSs and crew positions. 
-
-**Questions tab **
-
-**List Questions **
-
-Lists, by squadron and QDB, all the questions in the QDB, and allows for creating, editing and deleting questions. Exports QDB questions to a Word document. 
-
-**Create a question **
-
-**1. ** Select the Squadron and QDB that wil contain the question. 
-
-**2. ** Click Create Question and a dialog opens. 
-
-**3. ** Select the question type: Multi \(multiple choice\), True/False, or Fill In \(Fill in the Blank\) 
-
-• Never Include means the question wil not be included on exams. 
-
-• Question Bad means the question wil appear on exams but no longer be trended or marked wrong. 
-
-• Always Include means the question wil be always included on generated exams. 
-
-**4. ** Fill in the Subject and Reference fields as desired. 
-
-**5. ** Add the question text and answer text. For Multi and True/False questions, select the correct answer. 
-
-**6. ** Add an image by clicking on the floppy icon. The media manager dialog with all images assigned to the squadron opens. Select the image you want displayed with the question and OK. You can add up to four images to a question. 
-
-**7. ** Finish 
-
-• Save saves your question and returns you to the List Questions page. 
-
-• Save & New saves your question and opens a dialog for a subsequent question. 
-
-352 
-
-• Cancel exits without saving. 
-
-• Prev and Next move back and forth between questions. 
-
-**CAUTION:** When creating an exam with Never Include questions, there is no indication the QDB 
-
-contains Never Include questions until the exam is created. For example, you create a 100 question exam and the source QDB contains two Never Include questions. When finished, the exam wil only contain 98 questions. 
-
-**Edit a question **
-
-**1. ** Select the Squadron and QDB that contain the question. 
-
-**2. ** Click the Details link to the right of the question and the Question Details page opens. 
-
-**3. ** Click Edit. 
-
-**4. ** Edit the fields as desired. 
-
-**5. ** Click Save or Cancel to exit without saving. 
-
-**NOTE:** The edit wil propagate to existing exams that have not been completed. PEX wil ask if it was a major change to the question. Select No if your change was minor and did not change the meaning of the question. Select Yes if your change was major and did change the meaning of the question. 
-
-Remember to reprint any paper exams, answer sheets, bubble sheets, and answer keys. 
-
-**Delete a question **
-
-**1. ** Select the Squadron and QDB that contain the question. 
-
-**2. ** Check the checkbox next to the question\(s.\) 
-
-**3. ** Check the box to the left of the question you wish to delete. 
-
-**4. ** Click Delete Selected Questions. 
-
-**NOTE:** If the checkbox is grayed out, the question is in use and cannot be deleted. 
-
-**Copy Questions **
-
-**1. ** Copy a question from one QDB to another QDB. 
-
-**2. ** In the Source QDB grid, select the Squadron and QBD from which you want to copy questions. 
-
-**3. ** In the Target QDB grid, select the Squadron and QBD to which you want to copy questions. 
-
-**4. ** Check the boxes to the left of the question\(s\) you want to copy. 
-
-**5. ** Click Copy Questions. 
-
-**Exam tab **
-
-**List Exams **
-
-**Create an exam **
-
-**1. ** Click Create Exam. The exam create/edit page is displayed. 
-
-353 
-
-Stan Eval 
-
-**2. ** Enter an Exam Name \(required.\) 
-
-**3. ** Enter the desired Number of Questions \(required.\) 
-
-**4. ** Enter the minimum percentage grade required to pass the exam \(required.\) **5. ** Decide if you want to select specific questions or have PEX pick them for you. You have three options: 
-
-• **\(1\) **To select specific questions, leave the Auto-Generate Questions box unchecked. 
-
-To have PEX to generate random questions, check the Auto-Generate Questions box. 
-
-• **\(2\) **To have questions generate from only selected QDBs, select From QDBs. 
-
-• **\(3\) **To have questions generate from selected QDBs, Subjects, and/or References, select From QDBs and Criteria. 
-
-**6. ** Enter the Exam Type. You must enter an Exam Type for Stan/Eval requisite exams. Requisite Exam Types are identified as such in the dropdown. 
-
-**NOTE:** An exam cannot be of both Requisite Type and NoGo. 
-
-• **Requisite Exams** are exams designed to satisfy Ground or Knowledge Phase requisites to a Stan/Eval evaluation. Their status is displayed in the various Go/NoGo displays under the Stan/Eval banner. 
-
-• **NoGo Exams** are not designed to satisfy Stan/Eval evaluation requirements. Their status is displayed in the various Go/NoGo displays under the TEST banner. PEX NoGo exams are designed to satisfy MAJCOM or unit requirements for recurring or one-time testing of such topics as emergency procedures, CAPS/Boldface or systems knowledge. 
-
-• If, for example, your unit's monthly NoGo exam is CAPS, create a new exam type that is not checked as Requisite. For more see Setup- Configuring Testing Admin.  
-
-**7. ** Check Proctored if the exam will require a proctor to monitor the examinee. 
-
-**8. ** Check the No-Go box if the exam wil input to the No-Go process. 
-
-For NoGo exams only, the selected MDS/CP determines NoGo status. For example, you create a NoGo exam selecting the MDS/CP of F-15E/Pilot, but assign it to all MDS/CP. Only F-15E 
-
-pilots will see this exam displayed on the NoGo display. Once a No-Go exam is assigned, the examinee must take and pass the exam by the No-Go date you enter. If the person takes the exam and fails it, PEX automatically re-assigns the exam. PEX does not send an email notification of a failed or missed exam. 
-
-**9. ** Check Repeat if you want the exam auto-assigned at specific intervals. When the dialog opens select the Start Date, Repeats \(repetition sequence\), End point and when it is first due. 
-
-When you “assign” a repeating exam, the exam is actual y just scheduled. The exam is not actually assigned until the scheduled date arrives. 
-
-**10. ** Set an Active Date if you want to delay when the exam is available for assignment. When set, the exam will not appear in the Assign Exams, Available Exams list until that date. If the exam is assigned to people and the Active Date is then set to an earlier date, it will remain assigned to those people. 
-
-**11. ** Enter Date, Instructions and POC information as desired. 
-
-**12. ** Select the MDS\(s\) Crew Position\(s\) to which this exam applies. This will filter the list of QDBs. 
-
-354 
-
-**13. ** From Question Data Banks, pick the ones to generate the exam \(required.\) Selecting the QDBs narrows the list of QDBs meeting your criteria. The resulting exam can still be assigned to any MDS or CP. The Exam Question Counter displays the number of questions left to select and will warn you if the number is exceeded. 
-
-**14. ** Click Next. Depending on your question selection choice above: **A. ** **\(1\) **If you are selecting specific questions: 
-
-**1\)** On this page select specific questions from the first QDB and click Add Questions. 
-
-**2\)** Select Next QDB and repeat as required. 
-
-**3\)** The last page has an Order Questions link. Clicking that link opens a dialog allowing you to order questions by Subject and Reference. This does not al ow ordering of individual questions. 
-
-**4\)** At this point you can Add QDB Questions and Delete Selected Questions. 
-
-**5\)** When finished click Finish Creating Exam. You are returned to the List Exams page containing your new exam. 
-
-**B. ** **\(2\) **To have PEX generate questions from selected QDBs: **1\)** On this page select the number of questions from the each QDB. 
-
-**2\)** You have two save options. 
-
-**a\)** Save Exam wil generate the exam with specific questions. Everyone who takes the exam wil get the same questions. 
-
-**b\)** Save Exam Template saves the selected number of questions from each QDB. Each person taking the exam wil get the same number of questions, but the questions wil be randomly different. The questions are not generated until the exam is actual y assigned to a person. There is no way to print a template exam until it is taken. 
-
-**3\)** You are returned to the List Exams page containing your new exam. 
-
-**C. ** **\(3\) **To have PEX generate questions from selected QDBs, Subjects, and/or References: **1\)** On this page select the number of questions from the Subjects and References within each QDB. 
-
-**2\)** You have two save options. 
-
-**a\)** Save Exam wil generate the exam with specific questions. Everyone who takes the exam wil get the same questions. 
-
-**b\)** Save Exam Template saves the selected number of questions from each QDB, Subject and Reference. Each person taking the exam wil get the same number of questions, but the questions wil be randomly different. The questions are not generated until the exam is actually assigned to a person. There is no way to print a template exam until it is taken. 
-
-**3\)** You are returned to the List Exams page containing your new exam. 
-
-**View exam questions **
-
-**1. ** Select the desired exam from the exam list sand click Details. 
-
-**2. ** Click View Questions 
-
-355 
-
-Stan Eval 
-
-**Edit Exam **
-
-**1. ** Select the desired exam from the exam list sand click Details. 
-
-**2. ** Click Edit. 
-
-**3. ** Make desired edits and click Save Exam or Cancel. 
-
-**Copy exam **
-
-**1. ** Select the desired exam from the exam list sand click Details. 
-
-**2. ** A new exam opens in edit mode with a “\(1\)” after the original title. 
-
-**3. ** Edit this copy as desired and re-name it as desired. 
-
-**Print products **
-
-**1. ** Select the desired exam from the exam list sand click Details. 
-
-**2. ** When the exam opens: 
-
-**3. ** Print Exam opens a Word document containing the complete exam. 
-
-**4. ** Print Answer Sheet opens a Word document with the questions, references and correct answer. 
-
-**5. ** Print Bubble Sheets opens a Word document in “bubble” answer sheet format. The first sheet has the correct answers blackened. The remaining sheets do not and are filled by the examinee. 
-
-**Assign Exams **
-
-On this page you several options for associating exams and people: 
-
-**Person to Exam\(s\) **
-
-**1. ** Under Personnel, select Squadron and filter people. 
-
-**2. ** Select the individual. 
-
-**3. ** Under Available Exam\(s\), select squadron, MDS and Crew Position. 
-
-**4. ** Select the desired exam\(s.\) 
-
-**5. ** Click Assign. 
-
-**6. ** The Assign Due Date\(s\) dialog opens set to today’s date. 
-
-**7. ** If desired, click Edit and set the due date. If multiple exams were selected, PEX asks if you would like the same date assigned to al exams. If yes, click OK. If not, continue editing exam dates. 
-
-**8. ** PEX will send an email notification to the examinee. If auto-send fails, you will be given the option of manually sending the notification. 
-
-356 
-
-**9. ** The exam will move to the middle Assigned Exams grid. If a repeat exam, it will move to the lower Repeat Exam\(s\) grid. At this point the exam is not assigned but scheduled to be assigned. 
-
-It will become assigned on the next scheduled date. 
-
-**NOTE:** If the expected exam does not appear in Available Exam\(s\), verify, in the exam itself, the Active Date is not set to a future date. 
-
-**Exam to People **
-
-**1. ** Under Exams, select Squadron, MDS and Crew Position. 
-
-**2. ** Select the desired exams. 
-
-**3. ** Under Nonassigned Personnel, select Squadron and filter people. 
-
-**4. ** Select the people. 
-
-**5. ** Click Assign. 
-
-**6. ** The Assign Due Date\(s\) dialog opens set to today’s date. 
-
-**7. ** If desired, click Edit and set the due date. If multiple people were selected, PEX asks if you would like the same date assigned to everyone. If yes, click OK. If not, continue editing people’s dates. 
-
-**8. ** PEX will send an email notification to all assigned the exam. If auto-send fails, you will be given the option of manual y sending the notification. 
-
-**Unassign an exam or multiple exams from an individual **
-
-**1. ** Select Person to Exam\(s\) 
-
-**2. ** Under Personnel, select squadron and filter people. 
-
-**3. ** Select the individual. 
-
-**4. ** Under Assigned Exams or Repeat Exam\(s\), select the desired exam\(s\). 
-
-**5. ** Click Unassign. 
-
-**6. ** The exam will move to the upper Available Exam\(s\), grid. 
-
-**Unassign Exams **
-
-To unassign one exam from multiple people: 
-
-**1. ** Under Exams, select Squadron, MDS and Crew Position. 
-
-**2. ** Select the desired exam. 
-
-**3. ** Under Assigned Personnel, select Squadron and filter people. 
-
-**4. ** Select the people. 
-
-**5. ** Click Unassign. 
-
-**TTPs **
-
-**Module Flow **
-
-357 
-
-!(images/000045.jpg)
-
-!(images/000022.jpg)
-
-Stan Eval 
-
-****
-
-**Exam Creation Decision Tree **
-
-Read left > right to see exams resulting from optional paths. Read right > left to determine path required when exam type is known. 
-
-
-
-**Trending Exams **
-
-**Trending tab **
-
-**Select Trending Criteria by QDB/Exam **
-
-The process is the same for both by QDB and by Exam. 
-
-**1. ** Select Trending Criteria by QDB or by Exam, as desired **2. ** Select Squadron, MDS, and Crew Position 
-
-**3. ** Select the QDBs or Exams to trend 
-
-**4. ** Select the Personnel to trend. 
-
-**5. ** Select the Start and End dates 
-
-**6. ** Edit the default Trend and Alert thresholds 
-
-**7. ** Click View Results 
-
-358 
-
-**8. ** Missed questions meeting the Trend or Alert criteria are displayed. The missed questions wil show the QDB Name, QDB question number, Version, Question Text, number of times asked, number of times missed and the percentage of times missed. A checkbox wil show if it’s listed due to meeting the Alert or Trend threshold. 
-
-**9. ** Click Details to see more specific results for a single question. The Details provides information on the question itself: the correct answer and the number of times each incorrect answer was selected. 
-
-**Setup- Configuring Testing Admin **
-
-**Setup tab **
-
-**Subjects, References, & Media **
-
-Manage Lists of Subjects and References, and assign media \(images\) to specific squadrons. 
-
-■ Add a Subject. Enter the desired subject name into the Subject field and click Add Subject. 
-
-■ Edit a Subject. Select the Edit link, make changes and click Save. 
-
-■ Delete a Subject. Check the box and click Delete Subjects. If the box is grayed out, the subject is in use and cannot be deleted. 
-
-■ Add a Reference. Enter the reference into Reference and click Add Reference. 
-
-■ Edit a Reference. Select the Edit link, make changes as desired and click Save. 
-
-■ Delete a Reference. Check the appropriate box and click Delete References. If the box is grayed out, the subject is in use and cannot be deleted. 
-
-■ Assign Media. This step assigns images in the database to squadrons. Click Assign Media. A dialog box opens with al media not assigned to your squadron. Check the boxes of the desired images and click Assign Selected Media. 
-
-■ Show Media. Select Yes to view a thumbnail of the image. 
-
-■ Unassign Media. Click Unassign Selected Media. A dialog box will open with all media assigned to your squadron. Click the Edit link next to the media you want to unassign from your squadron and select Unassign Selected Media at the bottom of the dialog box. 
-
-■ Show Media. Select Yes to view a thumbnail of the image. 
-
-**Trending Preferences **
-
-Set your squadron’s default Trending Preferences. Alerts notify you that a question is approaching, but has not yet met, the trend threshold. 
-
-For example, select a Minimum Sample Size of 15 and Threshold of 10%. A question is not reported as a trend until it has been assessed at least 15 times and of those, at least 10% of the responses are incorrect or unanswered. Alert Minimum Sample Size and Alert Threshold are typically set lower, in this example you might set 10 and 5%. 
-
-■ Minimum Sample Size. Set the minimum number of times you want a question asked before it is considered for trending. 
-
-■ Threshold. Set the percentage of times a question is missed to report a trend. 
-
-359 
-
-Stan Eval 
-
-■ Alert Minimum Sample Size. Set the minimum number of times you want a question asked before it is considered for alerting. 
-
-■ Alert Threshold. Set the percentage of time a question is missed to report an alert. 
-
-■ Click Save Preferences. 
-
-**Upload/Delete Media **
-
-“Media” describes image files. To include images on exams, images are first imported into the PEX 
-
-database, assigned to the applicable squadron, and added to the exam. 
-
-**NOTE:** Image files must be in .jpg or .gif formats, and smaller than 30 MB. 
-
-■ Upload Media. Select Browse and navigate to the image file to upload. Enter description of the image in Media Description. Click Upload and the Media name and File name appear in the Media list. 
-
-■ Delete Media. Select the box next to the media name and click Delete. The image wil delete if not in use. 
-
-■ Show Media. Select Yes to view a thumbnail of the image. 
-
-**QDB Source & Exam Types **
-
-Add, edit or delete your list of QDB Sources and Exam Types. 
-
-■ Add a QDB Source. Enter the source name into the QDB Source field and click Add QDB Source. 
-
-■ Edit a QDB Source. Select the Edit link to the right of the name, make changes and click Save. 
-
-■ Delete a QDB Source. Check the box next to the name and click Delete Selected QDB Sources. 
-
-If the check box is grayed out, the QDB Source is in use and cannot be deleted. 
-
-■ Add an Exam Type. Enter the name in the Exam Type field. Check the Requisite box if the type will be a Stan/Eval evaluation requisite. Select the appropriate Phase: Ground or Fly. Click Add Exam Type. 
-
-**NOTES:** 
-
-• Exams marked as Requisite are available in the Stan/Eval Management module and, once associated to an evaluation type, the completed date and grade can be assigned to an individual's evaluation. 
-
-• The Ground and Fly Phase selection allows filtering of exams in the exams tab but has no effect on how they are presented in Stan/Eval Management . 
-
-■ Edit an Exam Type. Select the Edit link to the right of the name. Edit as desired and click Save. 
-
-Pre-delivered Exam Types are those specified in AFIs and are non-editable. 
-
-■ Delete an Exam Type. Check the box next to name and click Delete Exam Types. If the box is grayed out, the Exam Type is in use and cannot be deleted. 
-
-**Proctors **
-
-Designate users who can proctor an exam. 
-
-**1. ** Squadron. Selecting a squadron populates a list of all persons with a user account in that squadron, regardless of permission level. 
-
-360 
-
-**2. ** Check those people who will act as proctors. 
-
-**3. ** Click Save. 
-
-**NOTES**: 
-
-• To proctor an exam, the proctor must have some level of permissions *to the examinee's* *squadron. * For example, if the proctor is assigned to squadron X and the examinee is assigned to squadron Z, the proctor must have permission to squadron Z. Permissions need not be administrator or examiner; Basic User will suffice. This allows an individual to perform proctor duties without Testing Admin or Examiner permission. 
-
-• Likewise, a designated proctor can proctor any exam in any squadron to which they have any permission. They are not limited to the squadron they are listed under \(step 1 above\). 
-
-**Stan Eval Reports **
-
-**Open Evals Report **
-
-**Overview **
-
-The Open Evals report displays the status of open evaluations by person. 
-
-**Access **
-
-**1. ** Navigate to Stan Eval > Reports > Open Evals. 
-
-**2. ** Criteria Selection options: 
-
-**A. ** Select personnel by Squadron, MDS, Qual Code, and CP. 
-
-**B. ** Select evals by Eval Type and Eval Prefix. 
-
-**C. ** Select how you want the evals ordered; by End Zone, Name \(person\), Squadron, MDS or Eval Type. 
-
-**3. ** View the report by selecting PDF or Excel. 
-
-**Data **
-
-The report lists people with: 
-
-■ Open Evaluations and within those evaluations; 
-
-• Emergency Procedures Evaluations \(EPE\) 
-
-• Requisites 
-
-• Restrictions \(added as a worksheet discrepancy\). 
-
-• General Restrictions \(added manually to an eval, or independently of an eval\). 
-
-• Additional Training 
-
-• Unqualified. Names populate this report when an evaluation worksheet is graded 3. 
-
-361 
-
-Stan Eval 
-
-**Completed Evals Report **
-
-**Overview **
-
-The Completed Evals report compiles detailed, categorized information from evaluations completed within a selected date span. 
-
-**Access **
-
-**1. ** Navigate to Stan Eval > Reports > Completed Evals. 
-
-**2. ** Criteria Selection options: 
-
-**A. ** Select a date span. 
-
-**B. ** Select personnel by Squadron, MDS, Qual Code, and CP. 
-
-**C. ** Select evals by Eval Type and Eval Prefix. 
-
-**3. ** View the report by selecting PDF or Excel. 
-
-**Data **
-
-Data is displayed from all evaluations completed within the date span. 
-
-■ Evaluations 
-
-■ Discrepancies 
-
-■ EPE Discrepancies 
-
-■ Commendable Areas 
-
-■ Evaluation Summaries by category 
-
-• Grade 
-
-• Squadron 
-
-• MDS 
-
-• Eval Type 
-
-• Crew Position 
-
-• Eval Prefix 
-
-• Evaluator 
-
-■ Requisites 
-
-■ Additional Training 
-
-■ FCIF \(Part B\) 
-
-**Categories displayed **
-
-Each individual summary is based on one category and compiles data from the remaining categories. 
-
-Each summary s category displays data, in columns, by criteria appropriate to that category. 
-
-362 
-
-For example, using the categories listed above, a summary by the Grade category lists data from the remaining categories of Squadron, MDS, Eval Type, Crew Position, Eval Prefix, and Evaluator. Grades columns are Total, 1, 2 , and 3. 
-
-The sample report below shows an evaluation summary, by grade, for ten evaluations from two squadrons, each with one MDS and one crew position. I can see that, of those ten evals, two were initial \(INIT\) and five were no-notice \(N/N\), leaving three with no prefix. Further, of the five no-notice evaluations, which was 50% of the total, two, or 40%, were graded Q1 and three, or 60% 
-
-were graded Q3. 
-
-**Evaluation Summary by Grade** 
-
-
-
-**Category **
-
-**Total **
-
-**1 **
-
-**2 **
-
-**3 **
-
-F-15C 
-
-5 
-
-50% 
-
-3 
-
-60% 
-
-1 20% 1 20% 
-
-MDS 
-
-KC-135R 
-
-5 
-
-50% 
-
-3 
-
-60% 
-
-
-
-
-
-2 40% 
-
-INIT 
-
-2 
-
-20% 
-
-2 100% 
-
-
-
-
-
-Eval Prefix 
-
-N/N 
-
-5 
-
-50% 
-
-2 
-
-40% 
-
-
-
-
-
-3 60% 
-
-MSN 
-
-5 
-
-50% 
-
-4 
-
-80% 
-
-1 20% 
-
-
-
-
-
-Eval Type 
-
-SPOT 
-
-5 
-
-50% 
-
-2 
-
-40% 
-
-
-
-
-
-3 60% 
-
-ClantonI 
-
-5 
-
-50% 
-
-3 
-
-60% 
-
-1 20% 1 20% 
-
-Evaluator 
-
-TorqueM 
-
-5 
-
-50% 
-
-3 
-
-60% 
-
-
-
-
-
-2 40% 
-
-67 FS 
-
-5 
-
-50% 
-
-3 
-
-60% 
-
-1 20% 1 20% 
-
-Squadron 
-
-909 ARS 
-
-5 
-
-50% 
-
-3 
-
-60% 
-
-
-
-
-
-2 40% 
-
-B 
-
-5 
-
-50% 
-
-3 
-
-60% 
-
-
-
-
-
-2 40% 
-
-Crew Position P 
-
-5 
-
-50% 
-
-3 
-
-60% 
-
-1 20% 1 20% 
-
-**** 
-
-**No-Notice Report **
-
-**Overview **
-
-The No Notice Report displays no-notice evaluations completed within a selected date span and meeting a specified goal. Any evaluation with a “N/N” prefix is considered no-notice. The report is useful for determining who is outside the normal evaluation eligibility zone for prioritizing no-notices. 
-
-**Access **
-
-**1. ** Navigate to Stan Eval > Reports > No Notice Report **2. ** Criteria Selection options: 
-
-**A. ** Select a date span 
-
-**B. ** Select a goal. This is a percentage of people who are qualified, not a percentage of evaluations. 
-
-**C. ** Select personnel using the Squadron, MDS, Qual Code and CP checkboxes 363 
-
-Stan Eval 
-
-**D. ** Select evals using the Eval Type checkboxes 
-
-**E. ** Select a sort order. “N/N Zone” is the period a person is not in their normal evaluation eligibility zone. It does not apply to non-periodic evaluations. 
-
-**3. ** View the report by selecting PDF or Excel 
-
-**Data **
-
-■ The number of persons administered a no-notice evaluation, in green. 
-
-■ To Goal: The number of persons left to evaluate to meet your goal, based on the criteria set, in red. 
-
-■ Goal: The total number of persons to evaluate, based on the criteria set, in blue. 
-
-■ The number of eligible persons. 
-
-■ Total number of all evaluations. 
-
-■ All no-notice evaluations completed within the date span. 
-
-■ No-notice eligibility, based on the criteria. 
-
-**Testing Report **
-
-**Overview **
-
-The Testing report is used to view completed exams, by person, within a selected date span. 
-
-**Access **
-
-**1. ** Navigate to Stan Eval> Reports> Testing Report 
-
-**2. ** Criteria Selection options: 
-
-**A. ** Select a date span 
-
-**B. ** Select the personnel you want using the Squadron, MDS, Qual Code and CP checkboxes **C. ** Select the exams you want using the Exam checkboxes 
-
-**3. ** View the report by selecting PDF or Excel 
-
-**Data **
-
-Exam information includes the exam name, whether it was a recurring exam, and whether a proctor was required. 
-
-Examinee information includes the examinee’s name, squadron, MDS\(s\), crew position\(s\), completed date, and grade received. 
-
-**Eval Issues Report **
-
-**Overview **
-
-The Eval Issues Report lists persons with issues that may require attention. 
-
-364 
-
-**Access **
-
-**1. ** Navigate to Stan Eval > Reports > Eval Issues Report **2. ** Select personnel using the Squadron, MDS, and CP checkboxes. 
-
-**3. ** View the report by selecting PDF. 
-
-**Data **
-
-■ Failed Evaluations 
-
-■ Failed Requisites 
-
-■ Overdue Evaluations 
-
-■ Late Evaluations 
-
-■ In the Zone Without An Open Evaluation 
-
-■ Late Additional Reviews \(21 days or more since the evaluation was ready for review\) 
-
-■ Late Requisites 
-
-■ Late Additional Training 
-
-■ Late Signatures \(15 days or less left until due date\) 
+* Failed Evaluations
+* Failed Requisites
+* Overdue Evaluations
+* Late Evaluations
+* In the Zone Without An Open Evaluation
+* Late Additional Reviews \(21 days or more since the evaluation was ready for review\)
+* Late Requisites
+* Late Additional Training
+* Late Signatures \(15 days or less left until due date\)
