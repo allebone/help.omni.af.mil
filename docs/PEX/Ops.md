@@ -1407,14 +1407,14 @@ The Weapons Module is used to track weapons deployment and scoring for the unit.
            2. Delete Assessment Types by right-clicking on the desired Assessment Type and selecting `Delete`.
            3. Edit Assessment Types by right-clicking on the desired Assessment Type and selecting `Edit`. Edit function operates similar to the “Add” function.
       2. _Competition Events_ - Within the Weapons Module, “Competition Events” allow the user to tie “Weapons Events” to a particular Competition.
-           1. Add Competition Events by right-clicking within the Competition Events Grid and selecting “Add.” Name the new Competition Event \(required\). Description is not required, but recommended. Next, select which squadron\(s\) you wish the Competition Event to be displayed to. Final y, when the Competition Event is ready to be displayed to the squadron, select the “Is Active” check-box. You can display “Inactive” Competition Events by selecting the “Show Inactive” checkbox within the Grid. When complete, select `Save` or `Save and New`.
+           1. Add Competition Events by right-clicking within the Competition Events Grid and selecting “Add.” Name the new Competition Event \(required\). Description is not required, but recommended. Next, select which squadron\(s\) you wish the Competition Event to be displayed to. Finally, when the Competition Event is ready to be displayed to the squadron, select the “Is Active” check-box. You can display “Inactive” Competition Events by selecting the “Show Inactive” checkbox within the Grid. When complete, select `Save` or `Save and New`.
            2. Delete Competition Events by right-clicking on the desired Competition Event and selecting “Delete.” Edit Competition Events by right-clicking on the desired Competition Event and selecting “Edit.” Edit function operates similar to the “Add” function.
      3. _Delivery Types_ - Within the Weapons Module, “Delivery Types” represent the various means of delivery of a weapon or load.
            1. Add Delivery Types by right-clicking within the Delivery Types Grid and selecting `Add`. Name the new Delivery Type \(required\). Next, select which squadron\(s\) you wish the Delivery Type to be displayed to. Finally, when the Delivery Type is ready to be displayed to the squadron, select the `Is Active` check-box. You can display “Inactive” Delivery Types by selecting the `Show Inactive` checkbox within the Grid. When complete, select `Save` or `Save and New`.
            2. Delete Delivery Types by right-clicking on the desired Delivery Type and selecting `Delete`.
            3. Edit Delivery Types by right-clicking on the desired Delivery Type and selecting `Edit`. Edit function operates similar to the “Add” function.
       4. _Parameters_ Within the Weapons Module, “Parameters” allow the user to track a variety of items for a given “Weapons Event”.
-           1. Add Parameters by right-clicking within the Parameters Setup Grid and selecting `Add`. Name the new Parameter, assign a Type, and assign an Audit Type \(al required\). Next, select which squadron\(s\) you wish the Parameter to be displayed to. Finally, when the Parameter is ready to be displayed to the squadron, select the `Is Active` check-box. You can display “Inactive” Parameters by selecting the `Show Inactive` checkbox within the Grid. When complete, select `Save` or `Save and New`.
+           1. Add Parameters by right-clicking within the Parameters Setup Grid and selecting `Add`. Name the new Parameter, assign a Type, and assign an Audit Type \(all required\). Next, select which squadron\(s\) you wish the Parameter to be displayed to. Finally, when the Parameter is ready to be displayed to the squadron, select the `Is Active` check-box. You can display “Inactive” Parameters by selecting the `Show Inactive` checkbox within the Grid. When complete, select `Save` or `Save and New`.
            2. Delete Parameters by right-clicking on the desired Parameter and selecting `Delete`. All visibility of the parameter must be de-selected within the Squadron Visibility Grid before the Delete Function can be utilized.
            3. Edit Parameters by right-clicking on the desired Parameter and selecting `Edit`. Edit function operates similar to the “Add” function.
       5. _Weapon Events_ - Within the Weapons Module, “Weapon Events” represent the actual employment events of a weapon for assessment / score.
@@ -1424,7 +1424,7 @@ The Weapons Module is used to track weapons deployment and scoring for the unit.
            4. Edit Weapon Events in the same fashion as the Add Function. 
 
 2. **Audit**
-      1. Allows the user to retrieve all Weapons Delivery Reports for audit of inventory and scoring. The fol owing list is designed to step the user through the Weapons Module Auditing Process.
+      1. Allows the user to retrieve all Weapons Delivery Reports for audit of inventory and scoring. The following list is designed to step the user through the Weapons Module Auditing Process.
            1. Navigate to: Ops, Weapons, Training, Audit.
            2. Create and/or Select a Personnel Filter based on the individuals who have submitted weapons reports.
            3. Find Weapon Delivery Reports; “Filter By:
@@ -1450,7 +1450,7 @@ Use PEX to log AFTO 781 Mission Data and Aircrew Data. That data can then be aud
 
 1. In Training > Continuation > ARMs > Settings > ARMS Data > 781 Data: enter your unit’s HARM Code, 4-character Flying Organization Unit ID, 17-character Flying Organization Unit ID, and the Issuing Unit you want to appear on the AFTO 781. You can find this information on an existing 781.
 2. In Maintenance > Aircraft: enter the ARMS MDS and ARMS ID for each MDS and Tail Number.
-3. Advise your flight schedulers they must enter the following information for each sortie: MDS, Tail \#, Takeoff Location, Land Location, MUC \(Mission Symbol\) and Flight Authorization \#
+3. Advise your flight schedulers they must enter the following information for each sortie: MDS, Tail \#, Takeoff Location, Land Location, MUC \(Mission Symbol\) and Flight Authorization \#.
 4. Advise your crew schedulers to put the aircraft commander at the top of the crew list.
 
 **Implement**  
