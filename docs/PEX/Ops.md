@@ -553,11 +553,11 @@ Filters must be selected to display the Go/No-Go Board status.
 
 **Column settings \(vertical ellipsis\)**  
 Column options \(not all are present in all columns\):  
+
 * Sort Ascending  
 * Sort Descending  
-* _Columns_ - select columns to view/hide.  
-* _Lock_ - Anchors the column to the left of the display.  
-* _Unlock_ - Un-anchors the column when locked.  
+* _Lock_ - Anchors the column to the left of the display  
+* _Unlock_ - Un-anchors the column when locked
 
 **Person Status Summary**  
 Open an individual's Person Status Summary by clicking their name or searching in the Search Personnel field. Functions similar to those described below are available in this summary.
@@ -569,7 +569,7 @@ Indicates the overall or cumulative status of all Items relevant to the person.
 Duties Not Including Flying/Controlling \(DINF/DNIC\) describes the person's medical status. The label can be changed in Setup > Personnel > DNIF.
 
 * Green \(default\): the person is medically qualified to perform required duties.  
-* Red: the person is not medical y qualified to perform required duties.  
+* Red: the person is not medically qualified to perform required duties.  
      1. Change one person's status:
          1. Click on the indicator to open the DNIF setting dialog.
          2. Click Yes to change the status.
@@ -581,7 +581,7 @@ Duties Not Including Flying/Controlling \(DINF/DNIC\) describes the person's med
          5. Click `Update`.
 
 !!! note "Note"
-     If you select people with different DNIF statuses, i.e., some green and some red, clicking Update wil al be set to the selected status, i.e., all red or all green. 
+     If you select people with different DNIF statuses, i.e., some green and some red, clicking Update will all be set to the selected status, i.e., all red or all green. 
 
 **FCIF**  
 FCIFs \(Flight Crew Information Files\) are read files of an immediate nature and require an acknowledgment, in this case the PEX Security Identifier. FCIFs are managed in the FCIF Admin module.
@@ -604,14 +604,14 @@ TNG indicates Continuation Training task status. Statuses of yellow and red can 
 1. Hover on the indicator to view a list of overdue tasks.
 2. Click on the indicator to open the Go/No-Go Training Events overview.
 3. Expand each task to view relevant information including due date, the number required, previously accomplished and remaining.
-4. If the task is set to al ow Override, the blue Manage will appear on each task.
+4. If the task is set to allow Override, the blue Manage will appear on each task.
 5. If the person has accomplished the task, click Manage to open the dialog log the task.
  Enter the Accomplished Volume and Date \(required\).
      1. Enter the Accomplished Hours and Method \(optional, at unit discretion\).
      2. Click `Apply`.
      3. When the _Confirm Override_ dialog opens, click `OK` to confirm the override and generate a Training Accomplishment Report \(TAR\).
 
-Manual update status is indicated by an "O" superimposed on the icon. Additional y, the icon changes to the next applicable color. For example, if a person is overdue both a Priority 1 task \(yellow\) and a NoGo task \(red\), when the NoGo task is updated, the icon changes from red to yellow and includes the "O". If the Priority 1 task is manually updated the color changes from yellow to green.
+Manual update status is indicated by an "O" superimposed on the icon. Additionally, the icon changes to the next applicable color. For example, if a person is overdue both a Priority 1 task \(yellow\) and a NoGo task \(red\), when the NoGo task is updated, the icon changes from red to yellow and includes the "O". If the Priority 1 task is manually updated the color changes from yellow to green.
 
 If the task is:
 
@@ -651,7 +651,7 @@ TEST indicates NoGo exam status. NoGo exams cannot be of evaluation requisite ty
 **FLY**  
 FLY indicates ARMS “Z” events. To ensure FLY status is current, go to Training > Continuation > ARMS
 
-tab > Settings > Do not include on Training Import, and verify the following are NOT checked: Z-001
+Tab > Settings > Do not include on Training Import, and verify the following are NOT checked: Z-001
 HARM-PHYSICAL, Z-002 HARM ALT-CHMBR, and Z-004 HARM -ASC TERM DATE.
 
 * _Green_ -The person's flight physical and altitude chamber are current, and has no disqualifying ASC.
@@ -737,7 +737,7 @@ Personnel can by organized into groupings by MDS, CP, etc. Certifications can be
 Certifications are tied to specific MDS\(s\) and Crew Position\(s\).
 
 !!! warning "Warning"
-     Changing a LoX item will affect all squadrons with visibility to that item. For example, your database has the certification “Syrian AOR Threat” and visibility is selected for multiple squadrons. If you change the item to “Syrian Air Threat” it will appear as such in al squadrons, not just yours. This includes squadrons using the item to which you may not have permission. For more see [Miscellaneous > Visibility Model].()
+     Changing a LoX item will affect all squadrons with visibility to that item. For example, your database has the certification “Syrian AOR Threat” and visibility is selected for multiple squadrons. If you change the item to “Syrian Air Threat” it will appear as such in al squadrons, not just yours. This includes squadrons using the item to which you may not have permission. For more see [Miscellaneous > Visibility Model].
 
 **Definitions**
 
@@ -755,7 +755,7 @@ _Assigned Mission Ready Status_ - What the person is assigned in the Personnel m
 
 _Effective Mission Ready Status_ - Status the person is currently performing at based on the requirements entered in the Continuation Training module.
 
-_Is Certified_ - Each status has an "Is Certified" option. When checked, anyone with this status wil be counted for the respective certification in the Long Range Schedule and will be eligible for display in the Mission Board, Schedule Supervisors dropdown. For example, a status of "T" \(in training\) would have _Is Certified_ unchecked so trainees do not count towards shift requirements, nor would the person appear in the supervisor schedule dropdown.
+_Is Certified_ - Each status has an "Is Certified" option. When checked, anyone with this status will be counted for the respective certification in the Long Range Schedule and will be eligible for display in the Mission Board, Schedule Supervisors dropdown. For example, a status of "T" \(in training\) would have _Is Certified_ unchecked so trainees do not count towards shift requirements, nor would the person appear in the supervisor schedule dropdown.
 
 _Visibility_ - An indication of whether a certification can be seen/used by a given unit.
 
@@ -850,7 +850,7 @@ Make certifications visible to, or remove visibility from, squadrons:
 !!! note "Note"
      You will not be able to add, edit, or delete a certification after you start modifying visibility until you click the save or undo icon.
 
-_Associate Training Tasks to Certification_
+_Associate Training Tasks to Certification_  
 Associating certifications to training tasks will display the training task status \(yellow or pink\) from the continuation training module on the LoX display/report. Current training will not show any color coding on the LoX display/report.
 
 !!! note "Note"
@@ -875,11 +875,9 @@ Go to Letter of X > Display Options.
 
 1. _Squadron_ - Selects all personnel names from the Squadron. This is a standard filter that is used throughout PEX.
 2. _Personnel_ - User can create a filter for specific personnel criteria. This is a standard filter that is used throughout PEX.
-
-     !!! note "note"
-          * Users can only create and view filters to squadrons’ that they have access to. If a user does not have permissions to a squadron, then that user wil not have access to that squadron’s filters and will see an “Access is Denied” for that filter. For more see [Miscellaneous > Filters]().  
-          * If anyone deletes any squadron personnel filters in PEX from any location, this will affect the Custom Order. However, the user wil be shown “Filter Deleted” when applying the custom order or when in the Custom Order dialog area.  
-
+>!!! note "Note"
+>     * Users can only create and view filters to squadrons' that they have accessed to. If a user does not have permissions to a squadron, then that user will not have access to that squadron's filters and will see an "Access is Denied" for that filter. For more see [Miscellaneous > Filters]().    
+>     * If anyone deletes any squadron personnel filters in PEX from any location, this will affect the Custom Order. However, the user will be shown "Filter Deleted" when applying the custom order or when in the Custom Order dialog area. 
 3. _Custom Order_ - As its name implies, user can create a custom order to return a Letter of X that will have user defined Titles fol owed by a list of personnel names that meets the personnel filter criteria for that Title. You can add as many Custom Orders as you want to return the personnel you want displayed for a Custom Order Letter of X.
      1. Select the custom order radio button. Then select the squadron. This selections means that you will are creating Custom Order\(s\) for the squadron selected.
      2. Select the Tools icon.
@@ -977,7 +975,7 @@ Draft Certifications will NOT display in the LoX Display grid as well as all oth
 
 !!! caution "Caution"
      * Personnel Draft Certifications must be approved or disapproved before a person can be exported from one squadron to another or being moved from one squadron to another. Exporting or moving personnel are done in Setup, Personnel module. When Drafts is enabled, users will get a warning that the record can’t be moved and a log file will tell the user which records are holding up the export or move.
-     * Personnel Draft Certifications impacts filters in other modules. If this is enabled, and a person has a draft certification, a filter requiring a particular certification will not return that person’s name, unless he had a previously approved certification. For example; you are filtering for a certification named “SOF with X status” and SmithJ had the certification as SOF with an X status. But now he’s assigned a draft that is SOF, E status. When filtering for SOF, X status, SmithJ’s name will return. If filtering for SOF E status, SmithJ’s name won’t return.
+     * Personnel Draft Certifications impacts filters in other modules. If this is enabled, and a person has a draft certification, a filter requiring a particular certification will not return that person’s name, unless he had a previously approved certification. For example; you are filtering for a certification named “SOF with X status” and SmithJ had the certification as SOF with an X status. But now he’s assigned a draft that is SOF, E status. When filtering for SOF, X status, Smith J’s name will return. If filtering for SOF E status, Smith J’s name won’t return.
 
 **Manually Calculate Display Effective Mission Ready Status**
 
@@ -1038,7 +1036,8 @@ Since the Squadron Daily Schedule is designed as a common area display, it opens
 
 PEX main menu > Ops > Sq Daily Schedule
 
-When you initially open the Squadron Daily Schedule a small window will appear. You will need to expand the window and so al of the panes expand and are now visible.  
+When you initially open the Squadron Daily Schedule a small window will appear. You will need to expand the window and so all of the panes expand and are now visible.  
+
 Select the Squadron, Date, Date \(Time\) Settings for the squadron that you need.
 
 **Workspace**  
@@ -1194,7 +1193,7 @@ Navigate to Ops > ORM > ORM tab. Select a day and, in the Sorties grid, view mis
 **Determine Risk**  
 
 1. View the Sortie Risk display. At this point, the white horizontal bar\(s\) show Total Risk based on Sortie Type and crewmember Personnel Experience.
-2. Select a sortie \(the selected sortie is bordered in yel ow\), and view the scheduled crewmembers in the Crew Stress grid.
+2. Select a sortie \(the selected sortie is bordered in yellow\), and view the scheduled crewmembers in the Crew Stress grid.
 3. In the Risk Conditions grid, select all applicable conditions affecting the sortie, for example, Ceiling and Icing.
 4. In the Crew Stress grid, adjust the stress level for each crewmember.
 5. The Sortie Risk display bar now shows the accumulated Total Risk and required approval authority level \(by color\) as configured in Setup. Switch between Raw and Weighted in the Setup tab > Risk Graph Display.
@@ -1235,7 +1234,7 @@ Access these procedures by navigating from the PEX main menu to Ops > Waterfall.
 
 1. From Ops > Waterfal , select Setup:** Select reporting and display preferences. 
 2. Early/Late:** Enter the number of minutes to flag an ATD and ATA as early or late. 
-3. Timeline Colors:** Select the Squadron radial button. The sorties are colored by either Squadron or MDS. Pick which option you want and the corresponding colors you want for each different squadron or MDS. To pick a color, click the Change button by the squadron or MDS and use the color picker to select. Click the X at the bottom right of the color pop up window to save the color choice.
+3. Timeline Colors: Select the Squadron radial button. The sorties are colored by either Squadron or MDS. Pick which option you want and the corresponding colors you want for each different squadron or MDS. To pick a color, click the Change button by the squadron or MDS and use the color picker to select. Click the X at the bottom right of the color pop up window to save the color choice.
 4. Select Save at the top left of the page when finished. For Individual Display Preferences: Complete steps 1-4 above, but do not select Squadron radial button. 
 
 **Display Setup Waterfal for Squadron and Generate GTIMS report**
@@ -1246,14 +1245,14 @@ Access these procedures by navigating from the PEX main menu to Ops > Waterfall.
 2. Make your desired selections to display:
       1. In the _Display_ drop-down, MSN by MSN type, Sortie by MSN type, or Sortie by Sortie type.
       2. _Squadron\(s\)_ - Select Squadron\(s\). Select multiple Squadrons by holding either Ctrl or Shift.
-      3. MDS\(s\)_ - Select from list of available MDS\(s\).
+      3. _MDS\(s\)_ - Select from list of available MDS\(s\).
       4. _Mission Type\(s\)_ - Select from list of available Mission Type\(s\).
       5. _Sortie Types_ - Select from list of available Sortie Type\(s\).
       6. _Time Setting_ - Select to display:
-      7. Time Type_ - Zulu or Local.
+      7. _Time Type_ - Zulu or Local.
       8. _Date Time Displayed_ - Real-Time or Historical.
       9. _Start Date_
-      10. Start Time_
+      10. _Start Time_
       11. _Span \(1-7 days\)_
       12. Select `Show Cancel ed Missions & Sorties` if desired.
       13. _Show GTIMS Sorties_
@@ -1263,7 +1262,7 @@ Access these procedures by navigating from the PEX main menu to Ops > Waterfall.
 3. Select `Apply`  
 ![waterfall_generate-gtims_report_2](img/Ops/waterfall_gtims_report_2.png){: style="height:100%;width:100%"}  
 4. Select the caret to collapse the top selections pane, and only view the returned sortie data.
-5. This pane is scrol able, top to bottom and right to left as needed. You can hover over the sortie data in the line graph to obtain further sortie details.
+5. This pane is scrollable, top to bottom and right to left as needed. You can hover over the sortie data in the line graph to obtain further sortie details.
 ![waterfall_generate-gtims_report_3](img/Ops/waterfall_gtims_report_3.png){: style="height:60%;width:60%"}  
 6. Select _Settings_ for report display preferences as desired.
 7. Select the _Excel icon_ to export GTIMS data to Excel. This function may take some time, depending upon the amount of GTIMS data contained in the report.
@@ -1278,9 +1277,9 @@ The Weapons Module is used to track weapons deployment and scoring for the unit.
 
 1. _Setup_ - Populate validation tables that support drop-down menus throughout the Weapons Module Training Menu from the Setup Page.
       1. _Assessment Types_ - Within the Weapons Module, “Assessment Types” represent the various means of assessing weapons deployment available to the crewmember.
-           1. _Add Assessment Types by right-clicking within the Assessment Types Grid and selecting `Add`. Name the new Assessment Type \(required\). Next, select which squadron\(s\) you wish the Assessment Type to be displayed to. Finally, when the Assessment Type is ready to be displayed to the squadron, select the `Is Active` check-box. You can display “Inactive” Assessment Types by selecting the “Show Inactive” checkbox within the Grid. When complete, select `Save` or `Save and New`.
+           1. Add Assessment Types by right-clicking within the Assessment Types Grid and selecting `Add`. Name the new Assessment Type \(required\). Next, select which squadron\(s\) you wish the Assessment Type to be displayed to. Finally, when the Assessment Type is ready to be displayed to the squadron, select the `Is Active` check-box. You can display “Inactive” Assessment Types by selecting the “Show Inactive” checkbox within the Grid. When complete, select `Save` or `Save and New`.
            2. Delete Assessment Types by right-clicking on the desired Assessment Type and selecting `Delete`.
-           3. Edit Assessment Types by right-clicking on the desired Assessment Type and selecting `Edit`. Edit function operates similar to the “Add” function.
+           3. Edit Assessment Types by right-clicking on the desired Assessment Type and selecting `Edit`. Edit function operates similar to the “Add” function.  
       2. _Competition Events_ - Within the Weapons Module, “Competition Events” allow the user to tie “Weapons Events” to a particular Competition.
            1. Add Competition Events by right-clicking within the Competition Events Grid and selecting `Add`. Name the new Competition Event \(required\). Description is not required, but recommended. Next, select which squadron\(s\) you wish the Competition Event to be displayed to. Finally, when the Competition Event is ready to be displayed to the squadron, select the `Is Active` check-box. You can display “Inactive” Competition Events by selecting the `Show Inactive` checkbox within the Grid. When complete, select `Save` or `Save and New`.
            2. Delete Competition Events by right-clicking on the desired Competition Event and selecting `Delete`. Edit Competition Events by right-clicking on the desired Competition Event and selecting `Edit`. Edit function operates similar to the “Add” function.
@@ -1292,8 +1291,8 @@ The Weapons Module is used to track weapons deployment and scoring for the unit.
            1. Add Parameters by right-clicking within the Parameters Setup Grid and selecting `Add`. Name the new Parameter, assign a Type, and assign an Audit Type \(all required\). Next, select which squadron\(s\) you wish the Parameter to be displayed to. Finally, when the Parameter is ready to be displayed to the squadron, select the `Is Active` check-box. You can display “Inactive” Parameters by selecting the `Show Inactive` checkbox within the Grid. When complete, select `Save` or `Save and New`.
            2. Delete Parameters by right-clicking on the desired Parameter and selecting `Delete`. All visibility of the parameter must be de-selected within the Squadron Visibility Grid before the Delete Function can be utilized.
            3. Edit Parameters by right-clicking on the desired Parameter and selecting “Edit.” Edit function operates similar to the “Add” function.
-           4. _Weapon Events_ - Within the Weapons Module, “Weapon Events” represent the actual employment events of a weapon for assessment / score.
-                 1. Select which squadron you wish to work with.
+           4. _Weapon Events_ - Within the Weapons Module, “Weapon Events” represent the actual employment events of a weapon for assessment / score.  
+                 1. Select which squadron you wish to work with.  
                  2. Create a Weapon Event by right-clicking within the Weapon Events Grid and selecting “Add.” Name the new Weapon Event and assign a Delivery Type \(both required\). Next, select from the “Available Parameters” Grid, the desired Parameters to be associated to the Weapon Event. Accomplish by clicking and dragging the desired Parameter to the “Weapon Event Parameters” Grid. Now, adjust the Parameter as desired within the “Selected Parameters” Grid. When the Weapon Event is complete, select “Save or “Save and New.” Finally, when the Parameter is ready to be displayed to the squadron, select the “Is Active” check-box.  **Note:** _Load Items_ and _Quantity Expended_ are required for the inventory to be auto-updated after the audit.
       5. Delete Weapon Events by selecting the Weapon Event to be deleted, and selecting the `Delete` Button at the bottom right-hand corner of the page.
       6. Edit Weapon Events in the same fashion as the Add Function.
