@@ -1300,8 +1300,8 @@ The Weapons Module is used to track weapons deployment and scoring for the unit.
       1. Allows the user to retrieve all Weapons Delivery Reports for audit of inventory and scoring. The following list is designed to step the user through the Weapons Module Auditing Process.
            1. Navigate to: Ops, Weapons, Training, Audit.
            2. Create and/or Select a Personnel Filter based on the individuals who have submitted weapons reports.
-           3. Find Weapon Delivery Reports; “Filter By:
-           4. ”Squadron"
+           3. Find Weapon Delivery Reports; “Filter By":
+           4. Squadron
            5. Competition Event \(Optional\)
            6. Show \(Reports\)
            7. Start Date and End Date \(Date Range\)
@@ -1347,7 +1347,7 @@ Go to Munitions > Load Item Builder. Right-click on the Load Item and select Edi
 To remove a component from the Load Item, right-click on the component and select Remove. If your Load Item is in use, you cannot edit the Category or Components. If you need to edit those, rename the Load Item to Load Item\_old and re-build the correct Load Item from scratch.
 
 **Delete a Load Item**  
-Normal y, you do not need to delete a Load Item. If you don’t want to see it anymore in drop-down lists, simply de-select visibility under your squadron at Setup > Load Items Visibility. If you truly want to delete the Load Item from your database, de-select visibility on the Load Item from al squadrons and then right-click Edit and Delete.
+Normal y, you do not need to delete a Load Item. If you don’t want to see it anymore in drop-down lists, simply de-select visibility under your squadron at Setup > Load Items Visibility. If you truly want to delete the Load Item from your database, de-select visibility on the Load Item from all squadrons and then right-click Edit and Delete.
 
 **Identify MDS Stations**
 
