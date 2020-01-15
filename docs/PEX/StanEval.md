@@ -10,7 +10,7 @@ The Flight Crew Information File \(FCIF\) module provides your unit with a means
 
 * _No-Go FCIFs_ - Must be read and acknowledged prior to performing the mission. They appear red on Go/No-Go displays until signed.
 
-* _Non No-Go FCIFs_ - Can be read and acknowledged at the user’s convenience. They appear yel ow on Go/No-Go displays until signed.
+* _Non No-Go FCIFs_ - Can be read and acknowledged at the user’s convenience. They appear yellow on Go/No-Go displays until signed.
 
 **Permissions**  
 Three permission roles can access the FCIF Admin module, in addition to PEXAdmin and Administrator.
@@ -203,8 +203,8 @@ We suggest only persons with training in this module be given Stan Eval Administ
     * Display MDS in Dropdowns column, ensure your MDS\(s\) are checked for display.
   * _Setup > Personnel > Personnel_ tab. [Hyperlink]() 
     * Service Status column, identify each person as A - Active Duty, R - Reserve, or G -Guard. “A” is the default.
-    * MDS and CP columns, ensure each person has the correct MDS and CP. If you need to assign or change data, go to the Quals tab. Each person must have at least one MDS/CP set as Primary. Additional MDS/CP combinations can be as added as required.
- *_Setup > Users & Permissions_ [Hyperlink]() Set permissions as desired.
+    * MDS and CP columns, ensure each person has the correct MDS and CP. If you need to assign or change data, go to the Quals tab. Each person must have at least one MDS/CP set as Primary. Additional MDS/CP combinations can be as added as required.  
+    * _Setup > Users & Permissions_ [Hyperlink]() Set permissions as desired.
 * Evaluation folder import from another PEX database is included as part of personnel data file import in _Setup > Personnel_.
 
 !!! danger "Warning"
@@ -221,7 +221,7 @@ These features are accessed by navigating to Stan Eval > Management.
 4. _Setup_ - Configure how your squadron will execute Stan/Eval program.
 5. _Search and Pushpin_ - Search for people by name. When “pinned” opens SEM to the pinned page.
 
-Throughout SEM you have a choice of executing commands with either menu buttons or a right-click context menu. The fol owing instructions are written around “best practices.”
+Throughout SEM you have a choice of executing commands with either menu buttons or a right-click context menu. The following instructions are written around “best practices.”
 
 * _Save_ - Most modules save data when clicking off a line but a few have Save buttons.
 * _Expand/Collapse All_ - Most SEM pages have a blue, expand-and-collapse-all-grids button at the center/top of the page grids.
@@ -259,14 +259,14 @@ In Setup you can select from those entries delivered with PEX and add other entr
 6. Drag and drop as required.
 
 !!! caution "Caution"
-     Do not enter combined Eval Types. PEX allows you to administer combined evaluations, such as INSTM/QUAL or EIT-TH/EIT-VR, but they are stil entered individual y here. When opening an evaluation, PEX al ows you to select, for example, both INSTM and QUAL, and PEX will combine them for you. PEX tracks them separately for eligibility zone due dates, worksheets, and trending purposes.
+     Do not enter combined Eval Types. PEX allows you to administer combined evaluations, such as INSTM/QUAL or EIT-TH/EIT-VR, but they are stil entered individually here. When opening an evaluation, PEX al ows you to select, for example, both INSTM and QUAL, and PEX will combine them for you. PEX tracks them separately for eligibility zone due dates, worksheets, and trending purposes.
 
 **Eval Requisites**
 
 1. Click `Add Eval Requisite`.
 2. When the add dialog opens add the eval requisite.
 3. Click `Save Eval Requisite` or `Save and New`for multiple entries.
-4. Select `Exam` or `Worksheet`. If _Exam_, select the type, e.g., Closed Book. These dropdown entries ome from _Testing Admin_.
+4. Select `Exam` or `Worksheet`. If _Exam_, select the type, e.g., Closed Book. These dropdown entries come from _Testing Admin_.
 5. Select the _Grade Type_.
 6. Depending on which type you selected, enter the Passing Grades \(1, 2, Q\) or passing % \(85%.\) Any Grade not listed here, or any % below that listed here, is considered a failure in SEM.
 >!!! note "Note"
@@ -291,17 +291,17 @@ In Setup you can select from those entries delivered with PEX and add other entr
 _Desired Months Settings_
 
 * _Email Eval Notification_ - How many months before entering the zone you want the Email notification set out. “1” sends it out the month before, “0” sends it out the month of.
-* _Flight/Task Completion_ - Enter the desired eligibility month for completion of the primary evluation. For example, enter “4” if you want the primary evaluation completed in the fourth month of eligibility.
+* _Flight/Task Completion_ - Enter the desired eligibility month for completion of the primary evaluation. For example, enter “4” if you want the primary evaluation completed in the fourth month of eligibility.
 * _Requisite Completion_ - Enter the desired eligibility month for completion of all requisites. For exmple, enter “3” if you want the requisites completed in the third month of eligibility.
 > !!! note "Note"
->     Once the desired completion date is passed, the person wil show late but not overdue.
+>     Once the desired completion date is passed, the person will show late but not overdue.
 
 _Signature Due_  
-Enter the number of days, after the evaluation is complete, when al signatures need to be in place on the evaluation form.
+Enter the number of days, after the evaluation is complete, when all signatures need to be in place on the evaluation form.
 
 _Notification Mail_  
 
-* When PEX sends out email notifications, about entering the eligibility zone or being late on reuisites, the email will show it originated from the email address entered here.
+* When PEX sends out email notifications, about entering the eligibility zone or being late on requisites, the email will show it originated from the email address entered here.
 * Mail From must an individual’s email address and not a group email address.
 * Send a copy of the email to the email address entered in the CC field. This one can be a group emil address. Use multiple email addresses, separated with a semi-colon.
 * To test your mail server settings, click Test Mail Server. Use the default PEX Help Desk email or enter an address as desired and click Send Email. If it produces an error, take a screenshot of the message and send it to the PEX Help Desk for assistance.
@@ -319,9 +319,9 @@ When checked:
 >| Charlie  | _R_ - Reserve     | 1-Jan-20                   | 1-May-20            |
 >| Delta    | _G_ - Guard       | 1-Jan-20                   | 1-May-20            |
 * Use the 12-month cycle based on the birth date. Evaluations wil expire every twelve months, on the examinee's birth month.
-* Failed Requisite = Overall Q3. When a requisite is failed, the overall evaluation grade will be set to “3”. When the requisite is subsequently passed, the overal grade wil reflect a “3/1”. This rule is usual y used by MAF, AMC, and AMC-gained ANG/AFRC units.
+* Failed Requisite = Overall Q3. When a requisite is failed, the overall evaluation grade will be set to “3”. When the requisite is subsequently passed, the overal grade will reflect a “3/1”. This rule is usually used by MAF, AMC, and AMC-gained ANG/AFRC units.
 * Additional training required to be complete not later than 2 months \(3 months ANG/AFRC\) after the primary evaluation.
-     * The Service Status is set in Setup > Personnel. With the rule not checked, additional training is due not later than three months after the discrepancy date. With rule checked: Person Service Status
+     * The Service Status is set in Setup > Personnel. With the rule not checked, additional training is due no later than three months after the discrepancy date. With rule checked: Person Service Status
 >| Person   | Serving Status    | Discrepancy Date | Additional Training Due Date |
 >| :------- | :---------------- | :--------------: | :--------------------------: |
 >| Alpha    | _null_            | 1-Jan-20         | 30-Apr-20                    |
@@ -332,7 +332,7 @@ When checked:
 * Overdue or Failed evaluations place personnel in NoGo state \(Red Ball\). In NoGo, persons with overdue or failed evaluations display NoGo/red instead of caution/yellow .
 * Show personnel with missing qualifications as Caution \(Yellow Ball\). In NoGo, persons with MDS/CP qualifications in [Setup > Personnel > Quals]() and no corresponding qualification in SEM will display caution/yellow.
 >!!! note "Note"
->     If “Overdue or Failed evaluations place personnel in NoGo state” is checked, “Show personnel with missing qualifications” switches from Caution \(Yellow Ball\) to NoGo state \(Red Ball\).
+>     If “Overdue or Failed evaluations place personnel in "NoGo state” is checked, “Show personnel with missing qualifications” switches from Caution \(Yellow Ball\) to NoGo state \(Red Ball\).
 * Show qualifications within 30 days of expiration as Caution \(Yellow ball\). In NoGo, persons with qualifications that expire within thirty days will show yellow. If on a wavier, NoGo uses the wavier expiration date.
 * Use the Failed Requisite Exam preference. Go/No-Go shows No-Go \(red\) or Caution \(yellow\), as selected with the radio buttons, for failed requisite exams. If unchecked, Go/No-Go shows green.
 >!!! caution "Caution"
@@ -353,10 +353,10 @@ _Eval Form Signature Mode_
 Select whether you want to use digital \(CAC\) signatures or manual \(pen-and-ink\) signatures on the evaluation form. Digital is preferred.
 
 !!! caution "Caution"
-     When switching modes, any evaluation with some but not al signatures wil dump those signatures. In other words, an evaluation form must have all digital or all manual signatures. This does not affect evals with all signatures in place.
+     When switching modes, any evaluation with some but not all signatures will dump those signatures. In other words, an evaluation form must have all digital or all manual signatures. This does not affect evals with all signatures in place.
 
 _Display MDS Series Letter_    
-For example, C-130H. Selecting _No_ will display C-130, selecting Yes will display C-130H. For A2-directed ISR units, pick No unless you are in an F-15E unit.
+For example, C-130H. Selecting _No_ will display C-130, selecting _Yes_ will display C-130H. For A2-directed ISR units, pick _No_ unless you are in an F-15E unit.
 
 _Email Zone Notification Template and Email Late Requisites Template_  
 Edit the default emails sent when people enter their zone or are late on requisites. Use the buttons across the top to enter variables into the email. For ISR units, make the text edits which are directed in the PEX ISR SEM checklist Set up Preferences.
@@ -395,7 +395,7 @@ The combinations are universal throughout the database; squadrons listed in the 
 2. Click Add, Edit or Delete Mission Description.
 3. The Add dialog opens, already associated to the selected Squadron, MDS and CP.
 4. Enter a Name. This is the name evaluators will use when selecting a mission description for a worksheet.
-5. Enter the description. This is the description evaluators wil add to the worksheet. Once added, the description can be edited for individual evaluation worksheets without affecting the template description.
+5. Enter the description. This is the description evaluators will add to the worksheet. Once added, the description can be edited for individual evaluation worksheets without affecting the template description.
 
 _Mission Description Tactics, Techniques and Procedures:_
 
@@ -421,7 +421,7 @@ To populate the various dropdowns, check people who are designated as:
 
 Check the `Show Only Active Certs` box to display only those people with a checked entry.
 
-##### Eval Criteria
+#### Eval Criteria
 This page associates MDS/CP evaluation criteria from the applicable AFI for inclusion on eval worksheets and draft eval forms. The criteria can be created here but most are on the PEX website. 
 
 If your MDS/CP file is not on the web site, contact the PEX Help Desk to have it built. 
@@ -441,7 +441,7 @@ Each area, or subarea, has a name, sequence number and grading criteria. It may 
 
 * _New_ - Create a new eval criteria file.
 * _Open_ - Open an eval criteria file stored locally.
-* _Save_ - Save the eval criteria you are working on as an .evalcrit file. This saves as a file on your coputer but it is not saved in PEX.
+* _Save_ - Save the eval criteria you are working on as an .evalcrit file. This saves as a file on your computer but it is not saved in PEX.
 * _Apply_ - Apply the eval criteria you are working to a squadron, MDS and crew position.
 * _Add Section_ - A grouping of grading areas. It does not have criteria or receive a grade.
      * _Add Subsection_ - A sub-group of a section. It does not have criteria or receive a grade.
@@ -451,10 +451,10 @@ Each area, or subarea, has a name, sequence number and grading criteria. It may 
 **Evaluation Criteria Tab**  
 After eval criteria is created or imported in the Evaluation Criteria Tool, use the Evaluation Criteria tab to create profiles and apply the set to a squadron, MDS and crew position. A profile determines which areas/subareas appear on a worksheet. Required and Desired criteria appear on the worksheet, N/A criteria does not. For example, for an instructor upgrade eval, select only the instructor areas as Required. You must have at least one profile.
 
-A. Click `Add Profile`.
-B. When the dialog opens, name the profile.
-C. Select each area/subarea as Required, Desired or N/A.
-D. Import Eval Criteria. Imports only the older .xml file types.
+1. Click `Add Profile`.  
+2. When the dialog opens, name the profile.  
+3. Select each area/subarea as Required, Desired or N/A.  
+4. Import Eval Criteria. Imports only the older .xml file types.  
 
 #### Overview- Manage Your Stan Eval Program
 
@@ -511,7 +511,7 @@ This means the first signature of four, from the flight examiner, is due and was
 * _Post Review_ -If your squadron requires a Posted entry \(Setup > Preferences\), this link activates once the last signature is done. Once the post review is complete, the name and date are displayed. N/A indicates the post-signature review feature is not enabled.
 * _Historical Signatures_ -Displays the signature status of pending only evaluations, or look back 30, 60, 90, 180 days, or one year.
 
-##### Trending  
+#### Trending  
 
 PEX does not have a separate trend entry function. Any worksheet area or subarea graded `Q-` or `U` will feed Trending.
 
@@ -576,7 +576,7 @@ The “Personnel Search” function in the top right corner of every SEM page pe
 
 The Most Recent People function is available only in Personnel menu button. This displays the last five people’s Person Details page accessed by you.
 
-**Name Search** 
+**Name Search**   
 Access one person’s Person Details page. The smart type-ahead narrows the list of all people in your database, regardless of squadron, if you have permission to that squadron.
 
 **Advanced Search**  
@@ -686,7 +686,7 @@ View open and completed evaluation forms and MFRs, reviews and signature status.
 * _Reopen Evaluation_ - Opens a closed evaluation \(one with at least one signature\) for editing. Once reopened it appears in Open Evaluations.
 >!!! caution "Caution"
 >      PEX allows you to reopen closed evaluations. This deletes all signatures and revisions from the form. We recommend not reopening and closing evaluations completed in an earlier version of PEX as this can cause unanticipated results. For example, a person may appear to be qualified and current in all parts of SEM except for the Rainbow Unqualified panel list. Creating and deleting a SPOT eval on the person may resolve the issue. View. Opens the form as a PDF.
-* Import Scanned Form. Import a PDF, JPG or PNG file. For more see Import scanned form files. 
+* Import Scanned Form. Import a PDF, JPG or PNG file. For more see [Import scanned form files](). 
 
 **AF 942**   
 View 942 entries. Entries are automatically added when an evaluation is completed, or added manually. The former \(grayed\) are not editable except by reopening the evaluation. The latter are editable here. You can also manually sort entries and import scanned AF 942s.
@@ -695,7 +695,7 @@ The right-click menu includes:
 
 * _Add 942 Entry_ - Opens a dialog with free-text fields for Aircraft/Crew Position, Type of Evaluation \(required\), Date Completed \(optional with checkbox\), Qual Level and Unit.
 * _Delete_ - Deletes manual entries.
-* _Import Scanned AF94_ -  Import a PDF, JPG or PNG file. For more see Import scanned form files.
+* _Import Scanned AF94_ -  Import a PDF, JPG or PNG file. For more see [Import scanned form files]().
 * _View Scanned AF942_ - Click on the imported AF942 and select `View Scanned AF942`. The form opens for viewing and printing.
 * _Edit Scanned AF942_ - Click on the imported AF942 and select `Edit Scanned AF942`. A dialog opens to edit Description and Date. You can also replace the existing form with a different one.
 * To move an entry, left-click on the entry and drag it up or down as required.
@@ -707,7 +707,7 @@ The right-click menu includes:
 
 * _Add 4349 Entry_ - Opens a dialog with free-text fields for Aircraft/Crew Position, Type of Evaluation \(required\), Date Completed \(optional with checkbox\), Qual Level and Unit.
 * _Delete_ - Deletes manual entries.
-* _Import Scanned AF4349_ - Import a PDF, JPG or PNG file. For more see Import scanned form files.
+* _Import Scanned AF4349_ - Import a PDF, JPG or PNG file. For more see [Import scanned form files]().
 * _View Scanned AF4349_ - Click on the imported AF4349 and select `View Scanned AF4349`. The form opens for viewing and printing.
 * _Edit Scanned AF4349_ - Click on the imported AF4349 and select `Edit Scanned AF4349`. A dialog opens to edit Description and Date. You can also replace the existing form with a different one.
 * To move an entry, left-click on the entry and drag it up or down as required.
@@ -718,13 +718,13 @@ View certifications. Certifications can be added manually or added from a Letter
 The right-click menu includes:
 
 * _Add Certification_ - Opens a dialog with free-text fields for Certified Event, Instructor, Date Certified, Certifying Official/Organization, and Remarks.
-* _Match Letter of X Certification_ - Opens a dialog allowing you to select a certification from the LoX and add it to SEM Certifications. See more here Letter of X \(LoX\).
+* _Match Letter of X Certification_ - Opens a dialog allowing you to select a certification from the LoX and add it to SEM Certifications. See more here [Letter of X \(LoX\)]().
 * _Edit_ - Opens a dialog to edit existing entries, and adds the ability to decertify the person from the event. Fields include Check To Decertify, Date Decertified, Decertified for Cause, Decertified For Discretionary, And Decertifying Official/Organization.
 * _Delete_ - Delete a certification.
 * _View 1381 PDF form_ - Opens an AF1381.
 * _View 4348 PDF form_ - Opens an AF4348.
 * _Convert AF4348 to Scanned Form_ - Converts your certification entries into a scanned AF4348. The resulting form is non-editable.
-* _Import Scanned Form_ - Import a PDF, JPG or PNG file. For more, see Import scanned form files.
+* _Import Scanned Form_ - Import a PDF, JPG or PNG file. For more, see [Import scanned form files]().
 * _View Scanned Form_ - Opens the scanned AF4348.
 
 **Major Discrepancies**  
@@ -740,7 +740,7 @@ Create, sign, import and view eval folder major discrepancy MFRs.
 >!!! caution "Caution"
 >     Reopening an MFR deletes all signatures from the form.
 * _View_ - Opens the form as a PDF.
-* _Import Scanned Major Discrepancy_ - Import a PDF, JPG or PNG file. For more see Import scanned form files.
+* _Import Scanned Major Discrepancy_ - Import a PDF, JPG or PNG file. For more see [Import scanned form files]().
 
 **Minor Discrepancies**  
 Create, import, sign and view an eval folder minor discrepancy log. All discrepancies are entered on a single log.
@@ -779,7 +779,7 @@ Opens the eval form. The form includes requisite names, dates and grades as they
 Sets the primary evaluation \(Flight or Task phase\) to complete. This does not include Ground or Knowledge phase requisites, which may still be incomplete. The primary eval complete date is the date of the last worksheet. Once set, the primary eval must be set to Remove \(incomplete\) to add a worksheet. Opening and editing a worksheet wil reset the button to incomplete. This also generates the evaluation’s expiration date and feeds the scheduling module. 
 
 **Evaluation Form Ready For Final Edits**  
-Once the Primary Eval is set to complete but before the first signature is in place, you have the option to manually edit the form. In the top right corner of the Eval Details page, you will see Evaluation Is Complete and Evaluation Form Ready For Final Edits. Open the form using the View Form button and make any required edits. The actual signature fields are not editable, digital or manual. Al other fields can be edited but date fields must have dates and be in the correct date format. Click the Save Revisions button when finished editing.
+Once the Primary Eval is set to complete but before the first signature is in place, you have the option to manually edit the form. In the top right corner of the Eval Details page, you will see Evaluation Is Complete and Evaluation Form Ready For Final Edits. Open the form using the View Form button and make any required edits. The actual signature fields are not editable, digital or manual. All other fields can be edited but date fields must have dates and be in the correct date format. Click the Save Revisions button when finished editing.
 
 !!! note "Note"
       Changes made using this edit feature will appear on the form itself but do not affect data presented in the displays. For example, if the expiration date of the evaluation is Jan 2020 and you manually set it to Aug 2021, all PEX calculations and displays will show Jan 2020 but the form itself will read Aug 2021.
