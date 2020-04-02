@@ -788,7 +788,7 @@ Identify what type of tasks are included in your squadron\(s\) Mission Ready Sta
 
 Follow these steps when a guest shows up to work with your unit and you want their ARMS data to show up in your PEX database and/or you want to export their training data to ARMS. These steps do not apply for transferring AFTO 781 data. 
 
-NOTE: Obtain an ARMS External Account in order to access each ARMS database that stores data for a guest flier. 
+!!! NOTE Obtain an ARMS External Account in order to access each ARMS database that stores data for a guest flier. 
 
 1.  Log into PEX as an administrator. 
 
@@ -2462,7 +2462,7 @@ Adding a master task list before beginning your course build will keep you from 
 !!! NOTE
     You can add additional tasks to your master task list. However, if a task has been applied to a course via a BOI, you cannot edit or delete this task from the master Task List until it has been removed from all BOIs. 
 
-Set Review Options 
+### Set Review Options 
 
 Configuring Review Options allows you to select who can review/certify student folders and how often the reviews are required. 
 
@@ -2496,7 +2496,7 @@ Configuring Review Options allows you to select who can review/certify student f
 !!! NOTE
     The Review Options will be applied to all courses in your selected squadron. Review Options are not course specific. 
 
-Add Gradesheet Reminders 
+### Add Gradesheet Reminders 
 
 Gradesheet reminders trigger warnings when Task or BOI grades are graded below minimum. 
 
@@ -2506,7 +2506,7 @@ Gradesheet reminders trigger warnings when Task or BOI grades are graded below m
 
 3.  Under Gradesheet Reminders, pick which grades you want warnings for: Task Grade, Task Proficiency Level, Task Minimum Knowledge Level, and/or Overall BOI Grade. 
 
-Create links between BOIs and STS Task lists 
+### Create links between BOIs and STS Task lists 
 
 Creating links between BOIs and STS task list provides valuable information to trainers and supervisors. Once the link is established, training on a particular BOI will now have a corresponding STS tied to it and show which STS items are ready to be signed by the trainee. 
 
@@ -2523,13 +2523,13 @@ Creating links between BOIs and STS task list provides valuable information to t
 
 5.  Check the Line Item number\(s\) from the left and then the BOI name\(s\) from the right and click Save. 
 
-Edit existing links between BOIs and STS Task lists 
+### Edit existing links between BOIs and STS Task lists 
 
 1.  If you need to modify a link, select one group of Task List Tasks and click Edit. 
 
 2.  In the resulting Task List Details and BOIs lists, make the appropriate changes and click Save. 
 
-Add Phases 
+### Add Phases 
 
 Phases can be created to organize your course into distinct sections which define various portions of your course. End of Phase can also be defined in the course to determine if specific event\(s\) requirements have been met 
 
@@ -2540,7 +2540,9 @@ Phases can be created to organize your course into distinct sections which defin
 
 3.  Name Phase and select symbol, edit or remove by selecting Phase and right clicking or select Phase and delete 
 
-4.  Under Setup > Course Builder > select Course > open each BOI Details and assign the correct Phase, if the BOI is the last in that Phase designate it as End of Phase in the BOI 5.  Create Phase Requirements under Overview: 
+4.  Under Setup > Course Builder > select Course > open each BOI Details and assign the correct Phase, if the BOI is the last in that Phase designate it as End of Phase in the BOI
+
+5.  Create Phase Requirements under Overview: 
 
     1. Quantity: Calculated vs. Required fields 
 
@@ -2556,15 +2558,16 @@ Phases can be created to organize your course into distinct sections which defin
 
 6.  Activate Course 
 
-Create a Course 
- {here now}
+## Create a Course 
+
 A Course is a sequence of individual training events. These training events are grouped into Blocks of Instruction \(BOIs\). The BOIs contain individual training tasks. This topic explains how to create the course properties, after which you build the course itself, with BOIs and tasks. 
 
-NOTE: Before building a course, contact the PEX Help Desk. Often, we can build the course for you. 
+!!! NOTE
+    Before building a course, contact the PEX Help Desk. Often, we can build the course for you. 
 
 If you want to build the course on your own, first review the help topic, Build a Course.  
 
-Add a new course 
+### Add a new course 
 
 1.  Training > Mission > Overview > Courses 
 
@@ -2572,65 +2575,64 @@ Add a new course
 
 3.  Required Fields. 
 
-Course Name. The name must be unique compared to the other courses listed. 
+    1. Course Name. The name must be unique compared to the other courses listed. 
 
-Grade Sets. You cannot create a Course without first creating a Grade Set in the Squadron. See Help Topic, Setup Mission Training.  
+    2. Grade Sets. You cannot create a Course without first creating a Grade Set in the Squadron. See Help Topic, Setup Mission Training.  
 
-Training Days. The number of days a course will last. 
+    3. Training Days. The number of days a course will last. 
 
 4.  Optional Fields. 
 
-Course Number. Usually listed in the SOI if applicable. 
+    1. Course Number. Usually listed in the SOI if applicable. 
 
-Description. Provides detailed information regarding the course. 
+    2. Description. Provides detailed information regarding the course. 
 
-MDS. The particular Mission Design Series. When importing a course, a pop-up will appear asking you to select the appropriate MDS for the course. This is the only time you will be able to choose an MDS for an imported course. NOTE: You can select an MDS for a new course only if the MDS is already in the PEX Database. See Help Topic, Aircraft listed under Maintenance. 
+    3. MDS. The particular Mission Design Series. When importing a course, a pop-up will appear asking you to select the appropriate MDS for the course. This is the only time you will be able to choose an MDS for an imported course. NOTE: You can select an MDS for a new course only if the MDS is already in the PEX Database. See Help Topic, Aircraft listed under Maintenance. 
 
-Course Type. Determines in what tab of the Training Folder this course will be displayed. The default is Qual Training Tab. Unit Defined can be relabeled via Qual Training Setup. 
+    4. Course Type. Determines in what tab of the Training Folder this course will be displayed. The default is Qual Training Tab. Unit Defined can be relabeled via Qual Training Setup. 
 
-Regression. Used to apply HQ AMC or HQ AFSOC regression rule logic if applicable. Regression rules apply to Task grades, not BOI grades. 
+    5. Regression. Used to apply HQ AMC or HQ AFSOC regression rule logic if applicable. Regression rules apply to Task grades, not BOI grades. 
 
-Forms: Summary, Gradesheet, Comments, Closeout. Forms are not mandatory but they should be. If you do not select specific forms you will lose functionality you may want to utilize while grading. 
+    6. Forms: Summary, Gradesheet, Comments, Closeout. Forms are not mandatory but they should be. If you do not select specific forms you will lose functionality you may want to utilize while grading. The AF Form 4419 is available as a Closeout form. 
 
-The AF Form 4419 is available as a Closeout form. 
+!!!NOTE 
+    If your MAJCOM/Unit utilizes Task Grades and BOI Grades, you wil need to select the ACC 206 form on the Courses page. When you select the ACC 206 form, data from the Task Grades and BOI Grades will automatically import into this form once grading is complete. 
 
-NOTE: If your MAJCOM/Unit utilizes Task Grades and BOI Grades, you wil need to select the ACC 206 form on the Courses page. When you select the ACC 206 form, data from the Task Grades and BOI Grades will automatically import into this form once grading is complete. 
+!!! NOTE 
+    If your MAJCOM/Unit utilizes Proficiency Levels, Knowledge Levels, and BOI Grades, you wil need to select the AF 4024 form on the Courses page. When you select the AF 4024 form, data from the Proficiency Level, Knowledge Level, and BOI Grades will automatically import into this form once grading is complete. 
 
-NOTE: If your MAJCOM/Unit utilizes Proficiency Levels, Knowledge Levels, and BOI Grades, you wil need to select the AF 4024 form on the Courses page. When you select the AF 4024 form, data from the Proficiency Level, Knowledge Level, and BOI Grades will automatically import into this form once grading is complete. 
-
-NOTE: Intel Units wil select the AF 4381 Form. 
+!!! NOTE 
+    Intel Units wil select the AF 4381 Form. 
 
 5.  Limit Instructors.  Check this box if you want to limit student instructors to only those selected as primary, secondary, and continuity instructors \(not all course instructors\). 
 
 6.  Click off the highlighted course to Save. 
 
-246 
-
 7.  Setup Most Common Grades. You can select up to five of the most commonly used grades for an individual course. This allows quick grading on the gradesheet, while retaining the ability to use all grades in the course gradeset. For example, your course Grade Set uses Task Proficiency Levels 1 through 4, and Task Knowledge Levels A through D. The most common grades are 1A, 1B, 2A, 2B, and 3A. 
 
-A.  Right-click on the Course row and select Setup Most Common Grades. 
+    1.  Right-click on the Course row and select Setup Most Common Grades. 
 
-B.  When the dialog opens, select and add the most common Task Grades, Task Proficiency Levels, and/or Task Knowledge Levels. 
+    2.  When the dialog opens, select and add the most common Task Grades, Task Proficiency Levels, and/or Task Knowledge Levels. 
 
-C.  The selected grades appear in the Common Grades Order grid. 
+    3.  The selected grades appear in the Common Grades Order grid. 
 
-D.  Drag and drop those grades into your desired display order. 
+    4.  Drag and drop those grades into your desired display order. 
 
-E.  Grades will appear on the Gradesheet as displayed here. Uncommon grades can still be selected by expanding the Gradesheet. 
+    5.  Grades will appear on the Gradesheet as displayed here. Uncommon grades can still be selected by expanding the Gradesheet. 
 
-F.  Click Save or Save & Close. 
+    6.  Click Save or Save & Close. 
 
-G.   New in 5.16.1. Courses with customized grades show a checkmark in the Grade Set Is Customized column. 
+    7.   New in 5.16.1. Courses with customized grades show a checkmark in the Grade Set Is Customized column. 
 
-H.   New in 5.16.1. Once saved, you can copy these common grades to other courses, if those courses use the same gradeset. In the same dialog, click Copy To. 
+    8.   New in 5.16.1. Once saved, you can copy these common grades to other courses, if those courses use the same gradeset. In the same dialog, click Copy To. 
 
-I.  When the Copy Common Grades to Courses dialog opens, select the desired courses and click Copy Grades To Course. 
+    9.  When the Copy Common Grades to Courses dialog opens, select the desired courses and click Copy Grades To Course. 
 
-J.  Click Save or Save & Close. 
+    10.  Click Save or Save & Close. 
 
-K.  When the dialog closes note the Grade Set Is Customized column shows a check for each course utilizing this option. 
+    11.  When the dialog closes note the Grade Set Is Customized column shows a check for each course utilizing this option. 
 
-Activate a course 
+### Activate a course 
 
 Courses need to be activated in order to export the QT File and enrol students. Click Activate when building the course is finished. A course cannot be edited when it is listed as Activated. If you are importing a course sent to you, it will be listed as Activated. If an Imported Course needs to be edited, you can Copy as a Local Course. See later section for more information. 
 
@@ -2648,10 +2650,6 @@ Importing a course into PEX will also add the Grade Set and Tasks within the cou
 
 1.  Right-Click on the Courses Canvas. 
 
-247 
-
-Training 
-
 2.  Select import course. 
 
 3.  Click browse. 
@@ -2666,7 +2664,8 @@ Training
 
 8.  In order to edit an imported Course. You must Copy as a Local. See below. 
 
-NOTE: When you import a course into your Database, it will be listed as a Global course. A Global Course was created in another PEX Database. In order to make edits to a Global Course, you will need to Copy as a Local Course. 
+!!! NOTE
+    When you import a course into your Database, it will be listed as a Global course. A Global Course was created in another PEX Database. In order to make edits to a Global Course, you will need to Copy as a Local Course. 
 
 Export 
 
@@ -2680,7 +2679,7 @@ A course that needs to be exported must first be Activated.
 
 4.  Save QT File to Computer or Hard Drive. 
 
-Edit an activated course 
+### Edit an activated course 
 
 When a course is listed as Activated, it will say Close Enrollment under the Active column. If you need to make edits to an Activated course, do the fol owing: 
 
@@ -2710,11 +2709,10 @@ Editing a Local Course will require you to Create a New Version. You can only Cr
 
 4.  A New Version of the Course wil appear with a new Version number listed. 
 
-248 
-
 5.  A Course can only Create a New Version once. 
 
-NOTE: If you would like to edit the Grade Set once a course is built, all of the grades for BOIs and Tasks will disappear. You must manually change every graded Task and BOI within the course to its assigned grade. It is a huge deal to change the Grade Set once the course is built. 
+!!! NOTE 
+    If you would like to edit the Grade Set once a course is built, all of the grades for BOIs and Tasks will disappear. You must manually change every graded Task and BOI within the course to its assigned grade. It is a huge deal to change the Grade Set once the course is built. 
 
 Delete a course 
 
@@ -2722,17 +2720,15 @@ Delete a course
 
 2.  Select Delete. 
 
-3.  You must keep in mind even though the course is deleted, the Tasks and Grade Set remain. 
+3.  You must keep in mind even though the course is deleted, the Tasks and Grade Set remain. Other courses using the same Tasks and Grade Set will not lose any material. 
 
-Other courses using the same Tasks and Grade Set will not lose any material. 
-
-NOTE: You cannot delete a course once a student has been enrolled. See Help Topic, Managing Courses four further instruction. 
+!!! NOTE
+    You cannot delete a course once a student has been enrolled. See Help Topic, Managing Courses four further instruction. 
 
 Build a Course 
 
-NOTE: Before building a course, contact the PEX Help Desk. Often, we can build the course for you. 
-
-If you want to build the course on your own, start with the help topic,  Create a Course.  
+!!! NOTE 
+    Before building a course, contact the PEX Help Desk. Often, we can build the course for you. If you want to build the course on your own, start with the help topic,  Create a Course.  
 
 After you have input your basic course information from the Help Topic, QT – Start Building a Course,  
 
@@ -2743,8 +2739,9 @@ you may now finish building the details of your course.
 2.  Select the squadron from the dropdown menu. 
 
 3.  Select the Course Name from the dropdown menu. 
-
-NOTE: The course that you created will initially have the name of the course followed by \(NEW\). Once the BOI’s have been added and saved, that will change to \(ACTIVE\). 
+    
+    !!! NOTE
+        The course that you created will initially have the name of the course followed by \(NEW\). Once the BOI’s have been added and saved, that will change to \(ACTIVE\). 
 
 4.  Add Blocks of Instruction \(BOI\) to the correct training day by clicking the BOI icons and moving them to the appropriate spot on the course build canvas. Every distinct lesson is a BOI. 
 
@@ -2768,7 +2765,7 @@ Training
 
 in the BOI Details. Right-Click on the Create New Task Canvas and left click on the Create New Task. Be sure to give your tasks a unique identifier for the task code, but maintain consistency with the naming scheme for all tasks in the course. 
 
-NOTE: Information on building a mater task list is provided in the Help Topic, Mission Training 
+!!! NOTE Information on building a mater task list is provided in the Help Topic, Mission Training 
 
 > Setup. If the BOI is only one thing, e.g., “BEEG 02 – Egress Lab”, it has no Task. Only the BOI is graded overall. If there is only a single graded item in the BOI, the BOI should not have any tasks at all. If a BOI has multiple things that need to be graded, then add a course task for each graded item. 
 
@@ -2796,7 +2793,7 @@ Minimum Knowledge Level.  Displays the grade students must achieve when they des
 
 11.  Repeat this process until all of your BOIs are incorporated into your course. 
 
-NOTE: If BOIs have the same tasks, you can copy a BOI to another day by right-clicking on the desired BOI and selecting copy. On another day within the Canvas, right-click and paste. Do not forget to change your BOI name. 
+!!! NOTE If BOIs have the same tasks, you can copy a BOI to another day by right-clicking on the desired BOI and selecting copy. On another day within the Canvas, right-click and paste. Do not forget to change your BOI name. 
 
 12.  Add prerequisites for BOIs and Tasks by double-clicking the BOI icon to open the BOI Details. 
 
@@ -2814,7 +2811,7 @@ See Help Topic, Course Details.
 
 250 
 
-NOTE: Once you activate a course, you cannot make revisions to that course. To revise, you would need to create a new version of the course and edit the new version. Therefore, you should always review and validate the course before activation. 
+!!! NOTE Once you activate a course, you cannot make revisions to that course. To revise, you would need to create a new version of the course and edit the new version. Therefore, you should always review and validate the course before activation. 
 
 The next step 
 
@@ -2822,7 +2819,7 @@ Once you have activated your course, you may begin enrol ing students. See Help 
 
 Courses.  
 
-NOTE: Testing your course may also help you check the functionality of your course build. Try enrolling a “fake” student to the activated course and follow the normal procedures for grading material and completing the course. Evaluate whether or not your build yields the results you would like to see. 
+!!! NOTE Testing your course may also help you check the functionality of your course build. Try enrolling a “fake” student to the activated course and follow the normal procedures for grading material and completing the course. Evaluate whether or not your build yields the results you would like to see. 
 
 Manage Courses 
 
@@ -2886,7 +2883,7 @@ Modify a student’s training plan
 
 If the training plan for a student’s course changes, you can make the necessary adjustments in PEX. 
 
-NOTE: You cannot move or change a BOI that has been graded. 
+!!! NOTE You cannot move or change a BOI that has been graded. 
 
 1.  You have two ways to display a student’s course in order to change ungraded BOI requirements: 
 
@@ -2918,7 +2915,7 @@ C.  Move all BOIs from this point onward by the number of training days you spec
 
 D.  Apply a new template you select to ALL BOIs from the selected BOIs forward providing there are no completed BOIs that wil be affected by the change. 
 
-NOTE: Moving a BOI may break prerequisite links – PEX will warn you before it does this. 
+!!! NOTE Moving a BOI may break prerequisite links – PEX will warn you before it does this. 
 
 Review a Training Folder 
 
@@ -2936,7 +2933,7 @@ You can access a Trainees Folder Reviews by going to Folder Reviews under the Ov
 
 Comments can also be added. When you are finished, select Save Review. 
 
-NOTE: You configured Reviewer information during the Setup process. See Help Topic, QT - Setup under Mission Training. 
+!!! NOTE You configured Reviewer information during the Setup process. See Help Topic, QT - Setup under Mission Training. 
 
 7.  The Instructor’s name will now appear next to the graded BOI on the Training Course Forms. 
 
@@ -2954,7 +2951,7 @@ A Folder MFR is used to document training information.
 
 4.  Choose whether the MFR is Informational or Endorsement 5.  Select the appropriate course in the Training Selector dropdown. 
 
-NOTE: If The MFR is not course specific, leave the Training Selector as Qual Training Tab. 
+!!! NOTE If The MFR is not course specific, leave the Training Selector as Qual Training Tab. 
 
 6.  Fill out From, Subject, and Body. Use details and be specific. 
 
@@ -2988,7 +2985,7 @@ Option 1
 
 6.  Signed MFR\(s\) can be exported through the Export Folder option. 
 
-NOTE: A Training Folder cannot be exported with unsigned MFR\(s\). 
+!!! NOTE A Training Folder cannot be exported with unsigned MFR\(s\). 
 
 7.  MFRs from an imported Training Folder are read only. 
 
@@ -3158,7 +3155,7 @@ Assign primary, secondary, and continuity instructors to a student
 
 256 
 
-NOTE: The instructor must have been previously added to the course. 
+!!! NOTE The instructor must have been previously added to the course. 
 
 5.  Training > Mission > Setup > Manage Instructors for Students. 
 
@@ -3708,7 +3705,7 @@ Transfer BOIs to/from Your Mobile Device
 
 Download BOIs from your PEX database to your mobile device 
 
-NOTE: Currently, it is assumed your mobile device is an iPad or similar. 
+!!! NOTE Currently, it is assumed your mobile device is an iPad or similar. 
 
 1.  Login to ePEX from your mobile device. 
 
@@ -4014,7 +4011,7 @@ o Reflow all BOI’s from the planned date of XXXX, including this BOI, forward 
 
 o Apply a new template from this BOI on. 
 
-NOTE: If a BOI is listed as Failed \(red\), Passed \(green\), or Not Applicable \(grey\), you will not be able to edit the BOI date. If you need to change the date of a BOI after it has been graded and saved, you wil need to open the BOI Grade Sheet. Then, on the BOI Overal Grade, select the blank entry \(null\) and click Save. This minor change will convert this BOI to an In Progress \(blue\) state. Once In Progress again, you can reopen the BOI Grade Sheet and now edit the date as appropriate. You will also need to reinsert the BOI Overall Grade and select Save. 
+!!! NOTE If a BOI is listed as Failed \(red\), Passed \(green\), or Not Applicable \(grey\), you will not be able to edit the BOI date. If you need to change the date of a BOI after it has been graded and saved, you wil need to open the BOI Grade Sheet. Then, on the BOI Overal Grade, select the blank entry \(null\) and click Save. This minor change will convert this BOI to an In Progress \(blue\) state. Once In Progress again, you can reopen the BOI Grade Sheet and now edit the date as appropriate. You will also need to reinsert the BOI Overall Grade and select Save. 
 
 B.  Status 
 
@@ -4792,7 +4789,7 @@ Training
 
 * Pending Audit. In the right section of the CT Tab, you can generate a list of tasks by Reported Not Audited, Audited Not Exported, and Exported. This all ows you to quickly track the status of your reported tasks. 
 
-NOTE: Only ARMS tasks \(not Unit Tasks\) are exported, so only ARMS tasks wil display under Exported. 
+!!! NOTE Only ARMS tasks \(not Unit Tasks\) are exported, so only ARMS tasks wil display under Exported. 
 
 Courses. From this section you can: 
 
@@ -4902,7 +4899,7 @@ o Click Add New Form to create a new one.
 
 * Edit or delete as required. 
 
-Note: Pay Grade, not rank, is used here. If not correct, go to Setup > Personnel > Setup 
+!!! NOTE Pay Grade, not rank, is used here. If not correct, go to Setup > Personnel > Setup 
 
 > Rank to set the pay grade. 
 
@@ -5102,7 +5099,7 @@ Currency Report
 
 The Currency Report lists selected people down the left side, selected training tasks across the top, and their color-coded Due Dates in between. It’s used to get a quick view of currency task status. 
 
-NOTE: Proficiency \(Volume\) tasks don’t appear on the Currency report. 
+!!! NOTE Proficiency \(Volume\) tasks don’t appear on the Currency report. 
 
 Generate the report 
 
@@ -5246,7 +5243,7 @@ Run the report
 
 3.  Click PDF to generate the report 
 
-NOTE: The Actual Sortie Type number is highlighted whenever it is less than the Scheduled Sortie Type number. 
+!!! NOTE The Actual Sortie Type number is highlighted whenever it is less than the Scheduled Sortie Type number. 
 
 AF Form 1522 
 
