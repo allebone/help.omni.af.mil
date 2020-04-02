@@ -5,69 +5,69 @@
 
 ### Introduction
 
-The Continuation Training module allows Training Managers to track personnel’s assigned continuation training requirements for an established training cycle. It is set up so that training assignments can be done via an Aviation Resource Management System \(ARMS\) training import, HQ CT file import, and/or by manually assigning PEX generated Unit-Level Training tasks to personnel. 
+The Continuation Training module allows Training Managers to track personnel’s assigned continuation training requirements for an established training cycle. It is set up so that training assignments can be done via an Aviation Resource Management System \(ARMS\) training import, HQ CT file import, and/or by manually assigning PEX generated Unit-Level Training tasks to personnel.
 
 ### Permissions
 
-New in 5.16.1 A new role of ARMS Import/Export is added, and Training Auditor/ARMS is renamed to Training Auditor. 
+New in 5.16.1 A new role of ARMS Import/Export is added, and Training Auditor/ARMS is renamed to Training Auditor.
 
-Several permission roles can access the Continuation Training module and perform administrative functions, in addition to PEX Admin and Administrator. The pseudo-role Supervisor also has limited functions in the CT module, and any Basic User can access the module for the purpose of submitting Training Accomplishment Reports \(TARs\) via the Reporting tab: 
+Several permission roles can access the Continuation Training module and perform administrative functions, in addition to PEX Admin and Administrator. The pseudo-role Supervisor also has limited functions in the CT module, and any Basic User can access the module for the purpose of submitting Training Accomplishment Reports \(TARs\) via the Reporting tab:
 
-* ARMS Import/Export is required to access the ARMS tab. This role cannot be assigned to a Joint Use account, i.e., the user must be associated to a Personnel record. 
+* ARMS Import/Export is required to access the ARMS tab. This role cannot be assigned to a Joint Use account, i.e., the user must be associated to a Personnel record.
 
-* Training Administrator can perform any function in the CT module except audit TARs and access the ARMS tab. 
+* Training Administrator can perform any function in the CT module except audit TARs and access the ARMS tab.
 
-* Training CT Administrator can perform any function in the CT module except audit TARs, setup and use the TACTICS tab, and access the ARMS tab. 
+* Training CT Administrator can perform any function in the CT module except audit TARs, setup and use the TACTICS tab, and access the ARMS tab.
 
-* Training Auditor \(previously Training Auditor/ARMS\) can audit TARs for both unit-level and ARMS tasks, import and export ARMS data, as well as view Training Tasks and Overview tabs. It cannot access the ARMS tab. 
+* Training Auditor \(previously Training Auditor/ARMS\) can audit TARs for both unit-level and ARMS tasks, import and export ARMS data, as well as view Training Tasks and Overview tabs. It cannot access the ARMS tab.
 
-* Basic User can access and use the Training Tasks tab within the module, as well as submit TARs for squadron personnel via the Reporting tab. 
+* Basic User can access and use the Training Tasks tab within the module, as well as submit TARs for squadron personnel via the Reporting tab.
 
-* Supervisor is a pseudo-role which is assigned in the Personnel module. In addition to the functions of Basic Users, individuals assigned as a supervisor can also the access the CT tab of their supervisees’ training folders from which they can view subordinate’s CT status, generate daily and monthly TAR reports and view the status of tasks reported but not yet updated in PEX displays. If the unit has set up the CT module to allow it, supervisors may also audit TARs of their supervisees from within the training folder. 
+* Supervisor is a pseudo-role which is assigned in the Personnel module. In addition to the functions of Basic Users, individuals assigned as a supervisor can also the access the CT tab of their supervisees’ training folders from which they can view subordinate’s CT status, generate daily and monthly TAR reports and view the status of tasks reported but not yet updated in PEX displays. If the unit has set up the CT module to allow it, supervisors may also audit TARs of their supervisees from within the training folder.
 
 ## Module Notes
 
-The CT module interfaces with and uses data from the Personnel module. For ARMS tasks, the ARMS Personnel imports add/overwrite the necessary Personnel data. For unit-level tasks, both local and HQ, units must ensure the fol owing is completed: 
+The CT module interfaces with and uses data from the Personnel module. For ARMS tasks, the ARMS Personnel imports add/overwrite the necessary Personnel data. For unit-level tasks, both local and HQ, units must ensure the fol owing is completed:
 
-* Quals tab – Personnel’s qualifications are set. 
+* Quals tab – Personnel’s qualifications are set.
 
-* Details or Personnel tab – Personnel’s Service status is set. 
+* Details or Personnel tab – Personnel’s Service status is set.
 
-* Setup tab – The appropriate Qualification Status codes in the Aircrew Qualification Code table are identified as “Is Qualified.” This is necessary to support setup of “Check Assigned” function within the CT module. 
+* Setup tab – The appropriate Qualification Status codes in the Aircrew Qualification Code table are identified as “Is Qualified.” This is necessary to support setup of “Check Assigned” function within the CT module.
 
 ## Controls
 
-* CT setup and management procedures can be accessed by navigating from the PEX main menu to Training > Continuation. 
+* CT setup and management procedures can be accessed by navigating from the PEX main menu to Training > Continuation.
 
-* Supervisor procedures can be accessed by navigation from My Page – My Data – Folders – My Supervisee’s 
+* Supervisor procedures can be accessed by navigation from My Page – My Data – Folders – My Supervisee’s
 
-* Basic user procedures can be accessed by navigation from My Page Workspace 
+* Basic user procedures can be accessed by navigation from My Page Workspace
 
 ![binders](PEX/img/../../img/Training/CT Tab Layout.jpg){: style="height:100%;width:100%"}
 
-1.  Reporting tab: View/Edit from an Overview of TARs and report TARs by Person, Mission and Commitment. 
+1.  Reporting tab: View/Edit from an Overview of TARs and report TARs by Person, Mission and Commitment.
 
-2.  Unit Task Assignment tab: Assign and unassign PEX Unit Tasks to Personnel. 
+2.  Unit Task Assignment tab: Assign and unassign PEX Unit Tasks to Personnel.
 
-3.  Worksheet Builder tab: Create, edit, and delete Worksheets \(TARs\). 
+3.  Worksheet Builder tab: Create, edit, and delete Worksheets \(TARs\).
 
 4.  Audit tab: The Audit tab is used to approve reported training tasks. The process includes reviewing, editing, approving, printing, and/or deleting training accomplishment records
 
-5.  ARMS tab: Set ARMS import settings, import ARMS files and export data to ARMS. 
+5.  ARMS tab: Set ARMS import settings, import ARMS files and export data to ARMS.
 
-6.  ADLS tab: The ADLS tab allows you to import ADLS training data with a .CSV file downloaded from ADLS. Personnel can log ADLS training accomplished in PEX \(if desired\) and/or continue to import updated ADLS files to update ADLS task completion in PEX. 
+6.  ADLS tab: The ADLS tab allows you to import ADLS training data with a .CSV file downloaded from ADLS. Personnel can log ADLS training accomplished in PEX \(if desired\) and/or continue to import updated ADLS files to update ADLS task completion in PEX.
 
-7.  TACTICS tab: TACTICS is used by the Joint Terminal Air Controller \(JTAC\) community to track training. PEX can import TACTICS training and physical data. 
+7.  TACTICS tab: TACTICS is used by the Joint Terminal Air Controller \(JTAC\) community to track training. PEX can import TACTICS training and physical data.
 
-8.  Training Tasks tab: The Training Tasks tab provides you with a micro view of your unit’s training progression. It lists all your personnel and all their training tasks. You can use personnel and task filters to look at just the data in which you are interested. Right-clicking on any of these grids allows you to select which columns to display, print, or export to Excel. 
+8.  Training Tasks tab: The Training Tasks tab provides you with a micro view of your unit’s training progression. It lists all your personnel and all their training tasks. You can use personnel and task filters to look at just the data in which you are interested. Right-clicking on any of these grids allows you to select which columns to display, print, or export to Excel.
 
-9.  Overview tab: The overview tab provides you with a macro view of your unit’s training progression for the current cycle. The page is broken down into three sections: Proficiency, Currency, and One-Time tasks. Buttons, at top-right of each section allow you to expand any of these sections. Right-clicking on any of these grids allows you to select which columns to display, print, or export to Excel. 
+9.  Overview tab: The overview tab provides you with a macro view of your unit’s training progression for the current cycle. The page is broken down into three sections: Proficiency, Currency, and One-Time tasks. Buttons, at top-right of each section allow you to expand any of these sections. Right-clicking on any of these grids allows you to select which columns to display, print, or export to Excel.
 
-10.  Setup tab: The Setup Tab is used to set unit training cycle, unit preferences, modify lists, view imported ARMS tasks, import HQ unit level tasks, create local tasks, set RAP requirements, SIM/RAP rules and setup for the display of effective mission ready status. 
+10.  Setup tab: The Setup Tab is used to set unit training cycle, unit preferences, modify lists, view imported ARMS tasks, import HQ unit level tasks, create local tasks, set RAP requirements, SIM/RAP rules and setup for the display of effective mission ready status.
 
-## PEX - ARMS Interface 
+## PEX - ARMS Interface
 
-### Overview 
+### Overview
 
 New in PEX 5.16.1. PEX now includes connectivity to ARMS via Web Services. This allows users to easily exchange data between ARMS and PEX without using the process of importing data using ARMS-generated CSV files and exporting data using ODAC. This CSV/Virtual Account process remains in place, but has been updated. 
 
