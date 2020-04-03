@@ -11,3 +11,10 @@
  l ed
  lled
 
+ replacing lettering lists to make all numbered lists
+ \nA\.
+ \n1\.
+
+remove training and page numbers
+\n...\n
+\nTraining\n
