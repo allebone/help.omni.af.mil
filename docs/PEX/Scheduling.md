@@ -52,7 +52,7 @@ ATOs do not normally specify takeoff or land times. PEX calculates an estimated 
 
 Controlled \(Frozen\) Times
 
-PEX creates Sortie Events with frozen times for the fol owing ATO data sets:
+PEX creates Sortie Events with frozen times for the following ATO data sets:
 
 * AIRDROP \(airdrop mission data\)
 * AMSNLOC \(location data for missions with no target\)
@@ -119,19 +119,19 @@ Bids and Availability is a tool used to analyze personnel “wants” with sched
 
 Permissions
 
-■ Basic Users have full rights to their own “Bids & Availability” information from My Page.
+* Basic Users have full rights to their own “Bids & Availability” information from My Page.
 
-■ Ground and Flight Schedulers create / modify and active bids and availability times / dates.
+* Ground and Flight Schedulers create / modify and active bids and availability times / dates.
 
 Rules
 
 Bids and Availability \(B&A\) consists of three steps to function properly.
 
-■ Setup of B&A.
+* Setup of B&A.
 
-■ Schedulers use of B&A.
+* Schedulers use of B&A.
 
-■ Use of B&A from My Page.
+* Use of B&A from My Page.
 
 Controls
 
@@ -139,13 +139,11 @@ These procedures are accessed by navigating to Scheduling > Bids and Availabilit
 
 Workspace
 
-
-
 Bids and Availability- Setup
 
 Personnel Availability Type
 
-This defines the type of availability a person has \(e.g., AT\), within the B&A module. Ensure that you are in the correct squadron and go to Setup >Validation >Scheduling >Tools >Personnel Availability Types.
+This defines the type of availability a person has \(e.g., AT\), within the B&A module. Ensure that you are in the correct squadron and go to Setup> Validation> Scheduling> Tools> Personnel Availability Types.
 
 1. Right click in the Listings pane and select Add to select a Personnel Availability type from the he Master Grid pane. Select the Personnel Availability Type you would like to use for B&A.
 
@@ -155,9 +153,7 @@ This defines the type of availability a person has \(e.g., AT\), within the B&A 
 
 Personnel Commitment Type
 
-Personnel Commitment types assist the scheduler in identifying the “type of Commitment an individual is being scheduled for \(e.g., TDY, Leave\). Ensure that you are in the correct squadron and go to Setup
-
->Validation >Scheduling >Tools >Personnel Commitment Type.
+Personnel Commitment types assist the scheduler in identifying the “type of Commitment an individual is being scheduled for \(e.g., TDY, Leave\). Ensure that you are in the correct squadron and go to Setup> Validation> Scheduling> Tools> Personnel Commitment Type.
 
 1. Right click in the Listings pane and select Add. Select the Personnel Commitments Types you would like to use. Click Apply or OK.
 
@@ -171,11 +167,14 @@ Squadrons Availability
 
 Squadron Availability will establish a squadron’s availability periods. Availability periods are broken down into manageable periods in which your unit operates. For example, 4 periods of 6 hours each \(00:00-06:00, 06:00-12:00, etc\) or 2 periods of 12 hours each \(06:00-18:00, 18:00-06:00\). To setup the Squadron Availability go to Setup >Squadrons.
 
-!!! Note Only PEX Administrators can add Availability Periods you your squadron.
+!!! Note
+    Only PEX Administrators can add Availability Periods you your squadron.
 
-For PEX Administrators: Select the unit. This wil activate the Availability Periods pane located at the bottom of your display. Right click in the pane and select Add to open the Add Availability Periods pop up. Select the number of “Availability Periods” to set from the Number drop. Up to six periods can be selected. Set the Start and End times for each period. Click OK to save.
+!!! Note "For PEX Administrators:"
+    Select the unit. This wil activate the Availability Periods pane located at the bottom of your display. Right click in the pane and select Add to open the Add Availability Periods pop up. Select the number of “Availability Periods” to set from the Number drop. Up to six periods can be selected. Set the Start and End times for each period. Click OK to save.
 
-!!! Note A !!! warning notice wil appear. Once you add the availability periods it cannot be edited or deleted.
+!!! Note
+    A warning notice wil appear. Once you add the availability periods it cannot be edited or deleted.
 
 Periods can only be changed by adding a new availability period record. If you are sure the information is correct. Select OK in the warning notice to active the periods. Once activated, the availability periods created will appear within the grid. The first number represents the number of “total” periods for your squadron.
 
@@ -189,79 +188,63 @@ Bids and Availability for Schedulers
 
 Two-monitor Setup
 
-The scheduler can have a two-monitor setup. The intention of the two-monitor setup al ows the scheduler to have the B&A module displayed alongside another scheduling module such as Commitments Board, Flying schedule or Long Range schedule and others. Go to Scheduling>Bids and Availability.
+The scheduler can have a two-monitor setup. The intention of the two-monitor setup allows the scheduler to have the B&A module displayed alongside another scheduling module such as Commitments Board, Flying schedule or Long Range schedule and others. Go to Scheduling>Bids and Availability.
 
 Place cursor in the top right center of the display and click on “Open in new window,” next to the Cog setup wheel. Double Click. This will activate a separate window for B&A. This action allows you to move the B&A module display to another monitor so you can view B&A and another scheduling module simultaneously.
 
 Scheduler Opens/Close Bids
 
-The Scheduler uses the crew panel, calendar, details for people and bids for commitment areas to open and close bids. This location is customized. It wil also instruct you on how to open and close bids for your unit.
+The Scheduler uses the crew panel, calendar, details for people and bids for commitment areas to open and close bids. This location is customized. It wil also instruct you on how to open and close bids for your unit. A squadron scheduler wil open a bid for a commitment, to give personnel the opportunity to apply/be selected for a particular event \(e.g., NCO leadership school or ADLS Training\)
 
-A squadron scheduler wil open a bid for a commitment, to give personnel the opportunity to apply/be selected for a particular event \(e.g., NCO leadership school or ADLS Training\) !!! Note In order for B&A to work correctly there must be other scheduling modules in use. For example, there must be a Commitment created in Commitments Board in order for a Scheduler to open up a bid on a group commitment \(i.e. a training group commitment for ALS training, or TDY to Hawaii\).
+!!! Note
+    In order for B&A to work correctly there must be other scheduling modules in use. For example, there must be a Commitment created in Commitments Board in order for a Scheduler to open up a bid on a group commitment \(i.e. a training group commitment for ALS training, or TDY to Hawaii\).
 
-A. Crew Panel. The scheduler uses the Crew Panel to display personnel and when an individual is selected, to activate data within the other grids \(calendar, details for people and Bids for commitments\). Select a filter \(either use the funnel or use the drop down next to the funnel to select 82
+1. Crew Panel. The scheduler uses the Crew Panel to display personnel and when an individual is selected, to activate data within the other grids \(calendar, details for people and Bids for commitments\). Select a filter \(either use the funnel or use the drop down next to the funnel to select a filter\). Names will populate in crew panel. Select a name, some or all. Use shift/control keys to select multiple names. Once a name\(s\) is/are selected, their “details for People” information will appear to see their availability, commitments, or currency \(number 3 in the above graphic\). If a commitment has been created within the commitments board it will appear in the Calendar grid \(number 2 in the above graphic\).
 
-a filter\). Names will populate in crew panel. Select a name, some or all. Use shift/control keys to select multiple names. Once a name\(s\) is/are selected, their “details for People” information will appear to see their availability, commitments, or currency \(number 3 in the above graphic\). If a commitment has been created within the commitments board it will appear in the Calendar grid \(number 2 in the above graphic\).
+2. Calendar. The Calendar Grid displays Commitments for the selected squadron. The information that is display is customizable by selecting the Settings \(the gear wheel in the upper right portion of the screen; near refresh button\) and select the data to be displayed. Click Okay to save and exit.
 
-B. Calendar. The Calendar Grid displays Commitments for the selected squadron. The information that is display is customizable by selecting the Settings \(the gear wheel in the upper right portion of the screen; near refresh button\) and select the data to be displayed. Click Okay to save and exit.
+3. To open a bid, place your cursor within the Calendar grid area and use the left/right arrows \(below the Squadron name\) to move the calendar right or left one month at a time to the selected “bidding” month you desire \(i.e., Feb, and/or June\). You can also use the small calendar icon next to the arrows and select the month. Once a bidding month is selected, place your cursor on the “red" rectangle labeled “Closed” next to the words Bid Period, and slide the Closed to “Open.” This will al ow individuals within the squadron to bid on any commitments during that month they are available for. They will see these “open bid” commitments within their My Data, Bids and Availability section.
 
-C. To open a bid, place your cursor within the Calendar grid area and use the left/right arrows \(below the Squadron name\) to move the calendar right or left one month at a time to the selected
+4. Display Data By: As a scheduler use the “display data by” drop down menu \(above the calendar/next to the squadron\) to look at the following display options once you have opened up bidding in a particular month
 
-“bidding” month you desire \(i.e., Feb, and/or June\). You can also use the smal calendar icon next to the arrows and select the month. Once a bidding month is selected, place your cursor on the “red”
+    1. Availability: Shows Shortnames next to the commitment if this commitment fits their period of availability \(if the individual entered their personnel availability within their MyData B&A\). This information can assist the scheduler in determining who might be present/available when he/she is trying to schedule personnel for a specific training slot/event.
 
-rectangle labeled “Closed” next to the words Bid Period, and slide the Closed to “Open.” This will al ow individuals within the squadron to bid on any commitments during that month they are available for. They will see these “open bid” commitments within their My Data, Bids and Availability section.
+    2. Bids: Will display commitments. When you click on a particular commitment it will show names in green color if they have been scheduled for this commitment.
 
-D. Display Data By: As a scheduler use the “display data by” drop down menu \(above the calendar/next to the squadron\) to look at the fol owing display options once you have opened up bidding in a particular month
+        1. If they bid on this commitment you will see a red circle with a minus sign next to their name in the crew panel. And if you click on their name in the crew panel, you will see their bid priority number within the “Details for People” grid.
 
-1\) Availability: Shows Shortnames next to the commitment if this commitment fits their period of availability \(if the individual entered their personnel availability within their MyData B&A\). This information can assist the scheduler in determining who might be present/available when he/she is trying to schedule personnel for a specific training slot/event.
+    3. Commitments: Displays the commitment data \(Commitment Name, start/end time and remarks\) only
 
-2\) Bids: Will display commitments. When you click on a particular commitment it will show names in green color if they have been scheduled for this commitment.
-
-a\) If they bid on this commitment you will see a red circle with a minus sign next to their name in the crew panel. And if you click on their name in the crew panel, you will see their bid priority number within the “Details for People” grid.
-
-3\) Commitments: Displays the commitment data \(Commitment Name, start/end time and remarks\) only
-
-E. To Close the bids. Place your cursor within the Calendar grid area and use the left/right arrows \(below the Squadron name\) to move the calendar right or left one month at a time to the selected
-
-“bidding” month you desire \(i.e., Feb, and/or June\). You can use the smal calendar icon next to the arrows and select the month. Once a month is selected, place your cursor on the “green” rectangle labeled “open” next to the words Bid Period, and slide the open to “closed.” This wil close bidding for this month.
+5. To Close the bids. Place your cursor within the Calendar grid area and use the left/right arrows \(below the Squadron name\) to move the calendar right or left one month at a time to the selected “bidding” month you desire \(i.e., Feb, and/or June\). You can use the small calendar icon next to the arrows and select the month. Once a month is selected, place your cursor on the “green” rectangle labeled “open” next to the words Bid Period, and slide the open to “closed.” This wil close bidding for this month.
 
 Accepting/Rejecting Bids
 
 Display data by “Bids” from the drop-down menu. Place the cursor on a commitment to see who has placed a bid for that commitment. If an individual or individuals bid on a commitment you will see a red circle with a minus sign next to their name in the crew pane. If their name is highlighted in green that means they are already scheduled for that commitment using the Commitment Board Module. Place the cursor on the Submitted drop down menu within the Bids for Commitment grid \(bottom right\).
 
+Select from the options to either Accept or Reject that persons bid. Continue this action as necessary. Select Save Changes button. This action allows the individual to see in their B&A that they were accepted or rejected.
 
-
-Select from the options to either Accept or Reject that persons bid. Continue this action as necessary. Select Save Changes button. This action al ows the individual to see in their B&A that they were accepted or rejected.
-
-!!! Note As a scheduler, when you Accept/Reject a bid you’re communicating with the person who entered a bid. Accepting/Rejecting does NOT schedule the person on that commitment. You must go into the Commitments Board module and actual y schedule the people for whom you have “Accepted” their bid.
+!!! Note
+    As a scheduler, when you Accept/Reject a bid you’re communicating with the person who entered a bid. Accepting/Rejecting does NOT schedule the person on that commitment. You must go into the Commitments Board module and actual y schedule the people for whom you have “Accepted” their bid.
 
 Adding notes to Bids
 
-Schedulers can leave a note for an individual concerning the acceptance or rejection of a Bid. Start by placing the cursor within the Bids for Commitment grid. Place/hover your cursor to the left side of the Short Name.
-
-The word “remarks” will appear, click on it. The Bid Remarks dialog box will appear. Add your remarks are required. The remarks can contain a MAX of 255 characters Click Ok when completed.
+Schedulers can leave a note for an individual concerning the acceptance or rejection of a Bid. Start by placing the cursor within the Bids for Commitment grid. Place/hover your cursor to the left side of the Short Name. The word “remarks” will appear, click on it. The Bid Remarks dialog box will appear. Add your remarks are required. The remarks can contain a MAX of 255 characters Click Ok when completed.
 
 Add a Bid
 
-Al ows a scheduler to add an individual to an existing commitment once bids are placed by squadron personnel. Place your cursor within the Calendar, ensure Bids is showing within the drop-down menu next to SQ name.
-
-
+Allows a scheduler to add an individual to an existing commitment once bids are placed by squadron personnel. Place your cursor within the Calendar, ensure Bids is showing within the drop-down menu next to SQ name.
 
 Click on a commitment to see the proposed bids submitted by individuals \(bids for Commitment area; right side of display\). Within the Crew panel, select a name of an individual you want to add a bid for. Under Details for People their name will appear. If they have other bids they will appear. You should review these before adding a bid to ensure you will not “add” a bid for a commitment they can’t take. Hover cursor over the green \+ circle and the “add” bid option wil display. Click on the plus sign to add the bid. This action wil activate the Details for People grid \(Bids dropdown must show\), showing the person you selected, the priority of the bid, the commitment name, date, start/end time and type of commitment. It will also activate the Bids for Commitment grid. The individuals ShortName, and status wil now show that a bid was submitted.
 
-
-
 Remove a Bid
 
-Allows a scheduler to remove an individual from an existing commitment once bids are placed by squadron personnel. Place your cursor within the Calendar, ensure Bids is showing within the drop-down menu next to squadron name. Click on a commitment to see the proposed bids submitted by individuals \(bids for Commitment area; right side of display\). Within the Crew panel, select a name of an individual who has made a bid \(this person wil be denoted by a red circle with a minus sign next to their name\). Hover cursor over the red circle and the “remove” bid option will display. Hover cursor over the red circle and the
-
-“remove” bid option will display.
+Allows a scheduler to remove an individual from an existing commitment once bids are placed by squadron personnel. Place your cursor within the Calendar, ensure Bids is showing within the drop-down menu next to squadron name. Click on a commitment to see the proposed bids submitted by individuals \(bids for Commitment area; right side of display\). Within the Crew panel, select a name of an individual who has made a bid \(this person wil be denoted by a red circle with a minus sign next to their name\). Hover cursor over the red circle and the “remove” bid option will display. Hover cursor over the red circle and the “remove” bid option will display.
 
 Re-prioritizes Bids
 
 Local TTPs should be developed and used when a scheduler re-prioritizes a bid for other individuals within a squadron. Click on an individual’s Short Name within the Crew pane. Move cursor over to the Details for People grid \(right side\). Select “Bids” from drop down menu. The individual’s Short Name wil appear in blue at the top of the grid and any bids they made will be listed according to date, then time. The bid priority number for their specific bids, wil be in the white square next to the commitment information. Next click 84
 
-on the bid you want to re-prioritize \(if there are multiple bids\). In the Bids for Commitment grid, all personnel who bid upon this commitment wil be listed. Within the bids for Commitment grid, use the scrol bar to scroll over to the Bid Priority column. Use the up down arrows to change/re-prioritize the individual’s bid priority. Next if you are ready to accept the individuals bid at the new bid priority, place your cursor below the status header, and select accept. Click on save changes button. Accepted bids and priority one bids wil go to the top of the Bids for Commitment list and in the Details for People grid, the bid priority square will turn from white to blue \(accepted\). Once the scheduler accepts/rejects bids the persons’ status is automatically updated in their My Data screen.
+on the bid you want to re-prioritize \(if there are multiple bids\). In the Bids for Commitment grid, all personnel who bid upon this commitment wil be listed. Within the bids for Commitment grid, use the scroll bar to scroll over to the Bid Priority column. Use the up down arrows to change/re-prioritize the individual’s bid priority. Next if you are ready to accept the individuals bid at the new bid priority, place your cursor below the status header, and select accept. Click on save changes button. Accepted bids and priority one bids wil go to the top of the Bids for Commitment list and in the Details for People grid, the bid priority square will turn from white to blue \(accepted\). Once the scheduler accepts/rejects bids the persons’ status is automatically updated in their My Data screen.
 
 ## Commitments Board
 
@@ -269,7 +252,7 @@ Commitments Board- Basics
 
 Introduction
 
-The Commitments Board \(CB\) module al ows you to build a schedule of non-flying activities. These activities are cal ed commitments because resources which need to be scheduled can be both people and equipment, therefore this module provides the flexibility to commit either one or both of these types of resources. It is a multi-faceted module al owing a unit scheduler to tie multiple commitments together into Events, create specific crew templates to match desired qualifications and crew positions, or to use the product functionality of the module to generate a mission planning sheet \(MPS\) or output a date range of commitments to an excel spreadsheet.
+The Commitments Board \(CB\) module allows you to build a schedule of non-flying activities. These activities are cal ed commitments because resources which need to be scheduled can be both people and equipment, therefore this module provides the flexibility to commit either one or both of these types of resources. It is a multi-faceted module al owing a unit scheduler to tie multiple commitments together into Events, create specific crew templates to match desired qualifications and crew positions, or to use the product functionality of the module to generate a mission planning sheet \(MPS\) or output a date range of commitments to an excel spreadsheet.
 
 Permissions
 
@@ -293,23 +276,21 @@ For ePEX, navigate to Scheduling > Commitments Board
 
 Workspace
 
-!(images/0001
-
-
+![binders](PEX/img/../../img/Scheduling/Commitments Board Workspace.jpg){: style="height:100%;width:100%"}
 
 1. Squadron selection. Ensure you chose the squadron that you are wanting to work with in Commitments Board.
 
-2. Date/Time section. Al ows user to choose zulu or local time; start date/time and end date/time. Also resource types are available. Load commitments is how you activate your selection.
+2. Date/Time section. allows user to choose zulu or local time; start date/time and end date/time. Also resource types are available. Load commitments is how you activate your selection.
 
 3. Personnel tab. Lists available personnel. Filter is available.
 
 4. Equipment tab. Shows the equipment that you loaded in set up.
 
-5. Add Commitment tab. Al ows you to create a person or equipment commitment.
+5. Add Commitment tab. allows you to create a person or equipment commitment.
 
 6. Commitment example. You can move the columns around by clicking on a column header and dragging it. If you right click in the grid, you can change the “grid settings” to add or delete certain columns.
 
-Filters. The standard Personnel Filter is available in the Personnel tab.
+    * Filters. The standard Personnel Filter is available in the Personnel tab.
 
 Commitments Board- Setup
 
@@ -317,21 +298,22 @@ Setup
 
 Display
 
-!!! Note Can only be modified if a Commitment exists.
+!!! Note
+    Can only be modified if a Commitment exists.
 
-■ In the CB, right-click and pick Grid Settings
+* In the CB, right-click and pick Grid Settings
 
-• Set font size to 11.0
+    * Set font size to 11.0
 
-• Pick only the fol owing columns: Role, Ack, End Date, End Time, Name, Remarks, Resource, Resource Required, Start Date, Start Time, and Type. Click OK.
+    * Pick only the following columns: Role, Ack, End Date, End Time, Name, Remarks, Resource, Resource Required, Start Date, Start Time, and Type. Click OK.
 
-■ Optional: Click on a column header to pick it and drag the columns into order desired.
+* Optional: Click on a column header to pick it and drag the columns into order desired.
 
-• Size the column widths so they just fit the data.
+    * Size the column widths so they just fit the data.
 
-• Right-click in the grid and select Save Settings
+    * Right-click in the grid and select Save Settings
 
-■ Optional: Up at the top, click the Group By… button and pick No Grouping. \(You’l need to do this step every time you login to PEX because it does not remember this as a preference\).
+* Optional: Up at the top, click the Group By… button and pick No Grouping. \(You’ll need to do this step every time you login to PEX because it does not remember this as a preference\).
 
 Managing Personnel Commitments
 
@@ -355,17 +337,19 @@ Add a Personnel Commitment
 
 First, create the commitment without any people associated to it. Then add people to the commitment.
 
-1. Click the Add Commitment button and select Add a Person Commitment 2. On the new line, enter:
+1. Click the Add Commitment button and select Add a Person Commitment
 
-A. Start Date and Time.
+2. On the new line, enter:
 
-B. End Date and Time.
+    1. Start Date and Time.
 
-C. Commitment Type \(Mandatory Field\).
+    2. End Date and Time.
 
-D. Commitment Name, e.g., “Local Area Survival” \(Mandatory Field\).
+    3. Commitment Type \(Mandatory Field\).
 
-E. Remarks, e.g., “10 slots for 757 TS, 8 slots for 758 TS”.
+    4. Commitment Name, e.g., “Local Area Survival” \(Mandatory Field\).
+
+    5. Remarks, e.g., “10 slots for 757 TS, 8 slots for 758 TS”.
 
 3. Click on the blue line above the commitment that you created to save.
 
@@ -381,7 +365,8 @@ Add a Person/People to a Commitment
 
 5. The commitment is complete and scheduled at this point.
 
-!!! Note To get people from multiple squadrons to show up: Select a Personnel filter or create one.
+!!! Note
+    To get people from multiple squadrons to show up: Select a Personnel filter or create one.
 
 Add a Crew Template to a Commitment
 
@@ -393,11 +378,8 @@ A Crew Template is a grouping of roles \(MDS, Qual Code, and Crew Position\) to 
 
 3. Select the Crew Template and drag-and-drop the template onto the desired commitment.
 
-!!! Note The Role Required and will show as red until filled with an individual that fits the required role.
-
-
-
-!(images/0001
+!!! Note
+    The Role Required and will show as red until filled with an individual that fits the required role.
 
 Fill in Crew Template with Desired Qualifications
 
@@ -407,15 +389,9 @@ PEX can highlight those people qualified to fill a template position and show if
 
 2. Click exactly in the Role field \(just selecting the row is not enough\) and the personnel that are qualified to fill the role are highlighted in the Crew List.
 
-3. At the top of the Crew tab, click the Filter Personnel to Selected Role button
+3. At the top of the Crew tab, click the Filter Personnel to Selected Role button ![binders](PEX/img/../../img/Scheduling/Selected Role Btn.jpg){: style="height:5%;width:5%"}, then click exactly in the Role field again \(just selecting the row is not enough\) and the list will shrink to only those qualified to fill the role.
 
-, then click exactly
-
-in the Role field again \(just selecting the row is not enough\) and the list will shrink to only those qualified to fill the role.
-
-4. At the top of the Crew tab, click the red flag button and the list indicates with a red box those
-
-people with conflicts.
+4. At the top of the Crew tab, click the red flag button ![binders](PEX/img/../../img/Scheduling/Red Flag Btn.jpg){: style="height:5%;width:5%"} and the list indicates with a red box those people with conflicts.
 
 5. Using this filtered list, highlighting conflicts, should make it easier for you to pick people to fill the template roles. The status of fil ing the template with people can be seen on the header bar. Refer to the Legend for an explanation of the status symbol.
 
@@ -427,7 +403,8 @@ Remove a Crew Template from a Commitment
 
 Right-click on any row on the commitment and select Remove Crew Template or click and drag the individual back to the Personnel > Crew location.
 
-!!! Note Removing the template also removes all the people in template roles.
+!!! Note
+    Removing the template also removes all the people in template roles.
 
 Set Up a Recurring Commitment
 
@@ -443,7 +420,8 @@ Set Up a Recurring Commitment
 
 6. You can make adjustments to the Start Time and End Time \(if desired\) before you add the new commitments.
 
-!!! Note Be careful not to replicate them too far out because although they are easy to replicate out, they must individual y be edited or deleted.
+!!! Note
+    Be careful not to replicate them too far out because although they are easy to replicate out, they must individual y be edited or deleted.
 
 Edit a Commitment
 
@@ -467,15 +445,14 @@ Delete a Commitment
 
 3. Click OK to delete or Cancel to keep it.
 
-!!! caution There is no undo function if you delete it by mistake.
+!!! caution
+    There is no undo function if you delete it by mistake.
 
 Managing Crew Templates
 
 Crew Templates
 
-A Crew Template is a grouping of roles \(MDS, Qual Code, and Crew Position\) to be filled later with people.
-
-They are useful when a commitment needs a specific group of roles to fulfill a mission. For example, an alert commitment may need 5 Sensor Operators, 5 Pilots, 1 Supervisor, and 3 Linguists. You can setup a Crew Template for this which makes it easier to manage the commitment.
+A Crew Template is a grouping of roles \(MDS, Qual Code, and Crew Position\) to be filled later with people. They are useful when a commitment needs a specific group of roles to fulfill a mission. For example, an alert commitment may need 5 Sensor Operators, 5 Pilots, 1 Supervisor, and 3 Linguists. You can setup a Crew Template for this which makes it easier to manage the commitment.
 
 Create a Crew Template
 
@@ -507,7 +484,8 @@ Create a Crew Template
 
 14. Click Save.
 
-!!! Note You can remove unwanted roles by clicking on the role to select it and clicking the Remove Template Item\(s\) button. You may multi-select using the Shift or Ctrl keys.
+!!! Note
+    You can remove unwanted roles by clicking on the role to select it and clicking the Remove Template Item\(s\) button. You may multi-select using the Shift or Ctrl keys.
 
 Edit a Crew Template
 
@@ -519,9 +497,7 @@ Edit a Crew Template
 
 4. Add additional roles as desired.
 
-5. Remove roles by clicking on the role to select it and clicking the Remove Template Item\(s\) button.
-
-You may multi-select using the Shift or Ctrl keys.
+5. Remove roles by clicking on the role to select it and clicking the Remove Template Item\(s\) button. You may multi-select using the Shift or Ctrl keys.
 
 6. Click Save.
 
@@ -543,7 +519,8 @@ Delete a Crew Template
 
 4. Click OK to delete or Cancel to retain.
 
-!!! caution There is no undo function if you delete it by mistake.
+!!! caution
+    There is no undo function if you delete it by mistake.
 
 Managing Equipment Commitments
 
@@ -551,15 +528,15 @@ Commitment Board – Equipment Setup
 
 Concept. The Commitments Board \(CB\) allows you to build an equipment usage schedule. This is useful if you have limited equipment resources that must be scheduled in order to maximize usage and to prevent over-scheduling.
 
-Permission Roles. To setup CB Equipment, you need one of the fol owing permission roles: Administrator, Flight Scheduler, Ground Scheduler, or Operations Desk. To view the module you need Basic User.
+Permission Roles. To setup CB Equipment, you need one of the following permission roles: Administrator, Flight Scheduler, Ground Scheduler, or Operations Desk. To view the module you need Basic User.
 
 Schedule Equipment
 
-You need to identify your equipment types and your specific pieces of equipment: Add an Equipment Type
+You need to identify your equipment types and your specific pieces of equipment:
 
-1. Go to Scheduling> Commitments Board \(in ePEX\) or Commitments Board Web \(in WinPEX\)> Setup
+Add an Equipment Type
 
-> Equipment Types.
+1. Go to Scheduling> Commitments Board \(in ePEX\) or Commitments Board Web \(in WinPEX\)> Setup> Equipment Types.
 
 2. Click the Add Equipment Type button to open the Add Equipment Type dialog.
 
@@ -597,9 +574,9 @@ Add a Piece of Equipment
 
 11. Enter ID or Quantity.
 
-A. If ID, enter the tracking number, up to 25 characters.
+    1. If ID, enter the tracking number, up to 25 characters.
 
-B. If Quantity, enter how many you have, up to 99,999.
+    2. If Quantity, enter how many you have, up to 99,999.
 
 12. Click Save.
 
@@ -643,7 +620,8 @@ Delete an Equipment Type
 
 4. Click OK to delete or Cancel to retain.
 
-!!! warning: There is no undo function if you delete it by mistake.
+!!! warning
+    There is no undo function if you delete it by mistake.
 
 Delete a Piece of Equipment
 
@@ -657,15 +635,15 @@ Delete a Piece of Equipment
 
 5. Click OK to delete or Cancel to retain.
 
-!!! warning: There is no undo function if you delete it by mistake.
+!!! warning
+    There is no undo function if you delete it by mistake.
 
-!!! caution A piece of equipment that is tied to a commitment wil not delete; it wil be set to inactive.
+!!! caution
+    A piece of equipment that is tied to a commitment wil not delete; it wil be set to inactive.
 
 Add an Equipment Commitment
 
-First create the commitment, then assign equipment to it. If the equipment is tracked by “ID”, PEX wil warn you if you try to schedule it for two things at once, much like a Personnel Commitment conflict notification.
-
-If the equipment is tracked by “Quantity”, PEX wil warn you when you try to schedule more than the quantity available.
+First create the commitment, then assign equipment to it. If the equipment is tracked by “ID”, PEX wil warn you if you try to schedule it for two things at once, much like a Personnel Commitment conflict notification. If the equipment is tracked by “Quantity”, PEX wil warn you when you try to schedule more than the quantity available.
 
 1. Go to Scheduling> Commitments Board \(in ePEX\) *or* Commitments Board Web \(in WinPEX\).
 
@@ -715,9 +693,8 @@ PEX Events
 
 When you have a major event coming up that wil require multiple personnel commitments and/or multiple equipment commitments, you can use PEX to group these many commitments into a single “Event.” This allows for simpler editing and deleting of Event-related commitments. It also provides a comprehensive Event Report that can be used for coordinating the event across multiple base agencies.
 
-!!! Note When you create Events, you are opening a new window on Internet Explorer. To get back to ePEX
-
-click on Patriot Excalibur Tab.
+!!! Note
+    When you create Events, you are opening a new window on Internet Explorer. To get back to ePEX click on Patriot Excalibur Tab.
 
 Add an Event
 
@@ -759,7 +736,7 @@ Print the Event Report
 
 1. Right-click on the Event and select Print Event Report A. You have the option of including Commitment Remarks, Personnel Resources and the appearance of their name, and Equipment.
 
-B. This PDF report wil print three separate sections with each section beginning a new page. The first includes a list of the commitments within the event. The second includes a list of resources \(personnel/equipment\) assigned to the commitments or blank if they are not filled. The last lists equipment with ID or quantity.
+2. This PDF report wil print three separate sections with each section beginning a new page. The first includes a list of the commitments within the event. The second includes a list of resources \(personnel/equipment\) assigned to the commitments or blank if they are not filled. The last lists equipment with ID or quantity.
 
 Edit an Event
 
@@ -781,17 +758,15 @@ Delete an Event
 
 2. Click on the Delete Event button it.
 
-!!! warning: There is no undo function if you delete it by mistake.
+!!! warning
+    There is no undo function if you delete it by mistake.
 
-!!! Note Deleting an Event does not delete any commitments that were assigned to it, nor does it remove any people, equipment, or crew templates that were assigned to those commitments. It simply deletes the overall Event information.
+!!! Note
+    Deleting an Event does not delete any commitments that were assigned to it, nor does it remove any people, equipment, or crew templates that were assigned to those commitments. It simply deletes the overall Event information.
 
 Mission Planning Sheet
 
-The Mission Planning Sheet \(MPS\) is designed for the Distributed Ground Control Station \(DCGS\) community.
-
-It resides in the Commitments Board and is designed to assist scheduling coordination. Commitment and 94
-
-personnel data automatically populate and additional remarks can be added. The MPS editor includes date/time stamped approval options. The MPS editor includes Letter of X warning flags when scheduled individuals are overdue, decertified, and/or expired for certifications.
+The Mission Planning Sheet \(MPS\) is designed for the Distributed Ground Control Station \(DCGS\) community. It resides in the Commitments Board and is designed to assist scheduling coordination. Commitment and personnel data automatically populate and additional remarks can be added. The MPS editor includes date/time stamped approval options. The MPS editor includes Letter of X warning flags when scheduled individuals are overdue, decertified, and/or expired for certifications.
 
 Setup the Mission Planning Sheet \(MPS\)
 
@@ -799,45 +774,39 @@ Go to Setup> Personnel> Setup> Office Symbol
 
 Right-click Add. Right-click Add again \(enter directly in the master list, not the unit’s list\).
 
-Enter “\[Unit\]/CC” for the office symbol, with \[unit\] being the name of the unit in the PEX database. For example, if the name of the unit in the PEX database is 80 FS, then the office symbol needs to be entered as
-
-“80 FS/CC”. In the Personnel Tab, assign that office symbol to the unit commander. Only one person in the unit should have this office symbol, otherwise, it may not return the correct person. Regardless, this field in the MPS can be overwritten and/or manually entered.
+Enter “\[Unit\]/CC” for the office symbol, with \[unit\] being the name of the unit in the PEX database. For example, if the name of the unit in the PEX database is 80 FS, then the office symbol needs to be entered as “80 FS/CC”. In the Personnel Tab, assign that office symbol to the unit commander. Only one person in the unit should have this office symbol, otherwise, it may not return the correct person. Regardless, this field in the MPS can be overwritten and/or manually entered.
 
 How to Use the Mission Planning Sheet
 
 In the Commitments Board, build a commitment using a Crew Template. Add personnel to fill the template positions.
 
-!!! Note When building a crew template, a role can be required or optional. These people are listed in the MPS Editor as “Personnel with Roles”. Those in required roles are indicated as critical, while those in an optional role are not.
+!!! Note
+    When building a crew template, a role can be required or optional. These people are listed in the MPS Editor as “Personnel with Roles”. Those in required roles are indicated as critical, while those in an optional role are not.
 
-NOTES:
+!!! NOTE
+    * You can schedule additional people on that same commitment who do not go against any of the template roles. On the MPS, they are listed under “Personnel Without Roles.” You have the option to check any of these people as Critical.
 
-■ You can schedule additional people on that same commitment who do not go against any of the template roles. On the MPS, they are listed under “Personnel Without Roles.” You have the option to check any of these people as Critical.
+    * Select the commitment, right-click, and select “MPS …” to open the MPS Editor. Fill in the fields.
 
-■ Select the commitment, right-click, and select “MPS …” to open the MPS Editor. Fill in the fields.
+    * Many of the fields al ow you to enter more text than that can possibly fit on the printed product. The extra text wil be truncated on the form.
 
-■ Many of the fields al ow you to enter more text than that can possibly fit on the printed product. The extra text wil be truncated on the form.
+    * Save the MPS or Save & Print the MPS.
 
-■ Save the MPS or Save & Print the MPS.
+    * Only someone with one of the following permission roles can make save or approve actions in the MPS editor: Administrator, Ops Desk, Flight Scheduling, or Ground scheduling.
 
-■ Only someone with one of the following permission roles can make save or approve actions in the MPS
+    * After the initial save, when the commitment is approved, select DO Approve & Save.
 
-editor: Administrator, Ops Desk, Flight Scheduling, or Ground scheduling.
+    * DO Un-approve & Save removes approval date time stamp, and saves any modifications and updates the last saved date/time stamp.
 
-■ After the initial save, when the commitment is approved, select DO Approve & Save.
-
-■ DO Un-approve & Save removes approval date time stamp, and saves any modifications and updates the last saved date/time stamp.
-
-■ DO Re-Approve & Save, activated after an Un-approve action, adds Last Approved date/time stamp and saves any modifications and updates the last saved date/time stamp.
+    * DO Re-Approve & Save, activated after an Un-approve action, adds Last Approved date/time stamp and saves any modifications and updates the last saved date/time stamp.
 
 Legend
 
-■ PED/POS: A person’s qualifications from Setup> Personnel> Quals tab.
+* PED/POS: A person’s qualifications from Setup> Personnel> Quals tab.
 
-■ Red X: Anyone who has at least one certification that is Decertified for Cause, Decertified for Expiration, or, has an overdue training task associated to a certification.
+* Red X: Anyone who has at least one certification that is Decertified for Cause, Decertified for Expiration, or, has an overdue training task associated to a certification.
 
 ## Flying Hours
-
-
 
 Flying Hour Basics
 
@@ -845,19 +814,19 @@ Introduction
 
 Use the Flying Hours Module to:
 
-■ Determine how many flying hours you need to accomplish training.
+* Determine how many flying hours you need to accomplish training.
 
-■ Track flying hour execution.
+* Track flying hour execution.
 
-■ Reconcile PEX and REMIS flying hours.
+* Reconcile PEX and REMIS flying hours.
 
 Permissions
 
-■ PEX Administrator, Flying Hours, Flying Hours Squadron: Setup, configure, forecast, manage and reconcile Wing/Squadron flying hour plan.
+* PEX Administrator, Flying Hours, Flying Hours Squadron: Setup, configure, forecast, manage and reconcile Wing/Squadron flying hour plan.
 
-■ Flight Scheduler: Execute the flying hour plan via the Flying Schedule.
+* Flight Scheduler: Execute the flying hour plan via the Flying Schedule.
 
-■ Basic User, Read Only, Ops Desk, Ops Staff, SOF and MX Scheduler: View flying hours plan progress related to flight and maintenance scheduling.
+* Basic User, Read Only, Ops Desk, Ops Staff, SOF and MX Scheduler: View flying hours plan progress related to flight and maintenance scheduling.
 
 Controls
 
@@ -865,7 +834,7 @@ These features are accessed from the PEX Main Menu by navigating to Scheduling -
 
 Workspace
 
-
+![binders](PEX/img/../../img/Scheduling/Flying Hours Workspace.jpg){: style="height:100%;width:100%"}
 
 1. Flying Hours tab: Enter basic flying hours data to include allocated hours, expected attrition percentage, average sortie duration then compare target flying hours to actual flying hours.
 
@@ -875,15 +844,14 @@ Workspace
 
 4. Setup tab: Set Flying Hours module defaults and options to include Aviation Position Indicators, Budget Activities, Mission Utilization Codes and Program Element Codes.
 
-!!! Note Some setup wil be required in both the Setup -> Squadrons and Validation modules.
+!!! Note
+    Some setup wil be required in both the Setup -> Squadrons and Validation modules.
 
 Definitions
 
-Actual Hours. Act Fly Hrs entered into the PEX Mission Board, Flying Schedule > Sorties tab, or AFTO 781
+Actual Hours. Act Fly Hrs entered into the PEX Mission Board, Flying Schedule > Sorties tab, or AFTO 781 modules.
 
-modules.
-
-Al ocated Hours. The total hours provided by headquarters \(HQ\); the total number of hours assigned to the yearly flying plan.
+Allocated Hours. The total hours provided by headquarters \(HQ\); the total number of hours assigned to the yearly flying plan.
 
 ASD. Average Sortie Duration in hours.
 
@@ -907,7 +875,9 @@ Target Hours. The sum of Calculated hours from the beginning of the flying hours
 
 Workflow
 
-1. Use the AF Model Forecast tab to figure out how many hours you need \(optional.\) 2. Use the Flying Hours tab, Overview page to create all your different flying hour accounts and enter their monthly attrition, ASD, and contract hours.
+1. Use the AF Model Forecast tab to figure out how many hours you need \(optional.\)
+
+2. Use the Flying Hours tab, Overview page to create all your different flying hour accounts and enter their monthly attrition, ASD, and contract hours.
 
 3. Use the Flying Hours tab, Weekly and Monthly pages to develop more detailed, advanced, daily planning for your flying hour accounts \(optional.\)
 
@@ -921,7 +891,8 @@ Workflow
 
 Flying Hour Setup
 
-!!! warning: Setup the account in Zulu, not Local. Do not use the Local selection.
+!!! warning
+    Setup the account in Zulu, not Local. Do not use the Local selection.
 
 1. Go to Setup > Squadrons module, Setup tab.
 
@@ -931,21 +902,21 @@ Flying Hour Setup
 
 4. Select Group. Verify your group and description is listed and associated with a wing. E.g., 46OG, 46th Operations Group, 46TW. If not, right-click Add it.
 
-5. Return to the Squadrons tab and verify your squadron has Group, Wing, and MAJCOM assigned.
-
-Assign a Group, and the Wing and MAJCOM will automatically populate.
+5. Return to the Squadrons tab and verify your squadron has Group, Wing, and MAJCOM assigned. Assign a Group, and the Wing and MAJCOM will automatically populate.
 
 6. Go to Setup > Validation module > Scheduling > Mission Board > Sortie Type table. Over on the right, enter Average Sortie Durations for each of your Sortie Types.
 
 7. Go to Scheduling > Flying Hours module, Setup tab.
 
-8. Select API. Verify the Aviation Position Indicators and descriptions used by your unit are listed. E.g., 1, Pilot. If not, right-click Add them. \(Used only by the AF Model Forecast\) 9. Select BA. Verify the Budget Activities and descriptions used by your unit are listed. E.g., BA01, Operating Forces. If not, right-click Add them.
+8. Select API. Verify the Aviation Position Indicators and descriptions used by your unit are listed. E.g., 1, Pilot. If not, right-click Add them. \(Used only by the AF Model Forecast\)
 
-10. Select Experience Level. Verify the Experience Levels and descriptions used by your unit are listed.
+9. Select BA. Verify the Budget Activities and descriptions used by your unit are listed. E.g., BA01, Operating Forces. If not, right-click Add them.
 
-E.g., E, Experienced. If not, right-click Add them. \(Used only by the AF Model Forecast\) 11. Select Flying Hours Event. Verify the Events used to establish your flying hour requirements are listed. E.g., RAP Sortie, Initial Takeoff. If not, right-click Add them. \(Used only by the AF Model Forecast\) 12. Select Flying Hours Period. Verify the periods of time and description desired by your unit are listed.
+10. Select Experience Level. Verify the Experience Levels and descriptions used by your unit are listed. E.g., E, Experienced. If not, right-click Add them. \(Used only by the AF Model Forecast\)
 
-E.g., FY18, Fiscal Year 2018. If not, right-click Add them.
+11. Select Flying Hours Event. Verify the Events used to establish your flying hour requirements are listed. E.g., RAP Sortie, Initial Takeoff. If not, right-click Add them. \(Used only by the AF Model Forecast\)
+
+12. Select Flying Hours Period. Verify the periods of time and description desired by your unit are listed. E.g., FY18, Fiscal Year 2018. If not, right-click Add them.
 
 13. Select Msn Ready Status/Tng Level. Verify the Mission Ready Statuses or Training Levels used by your unit are listed. E.g., CMR, A. If not, right-click Add them.
 
@@ -953,7 +924,8 @@ E.g., FY18, Fiscal Year 2018. If not, right-click Add them.
 
 15. Select PEC. Verify the Program Element Codes used by your unit are listed. E.g., 702314. If not, right-click Add them.
 
-!!! Note ECAT, Fund Type, and Purpose are elements which wil be used in a future release. Ignore them.
+!!! Note
+    ECAT, Fund Type, and Purpose are elements which wil be used in a future release. Ignore them.
 
 AF Model Forecast
 
@@ -961,27 +933,19 @@ This tab is used to calculate the number of hours required to accomplish trainin
 
 1. Select the AF Model Forecast tab.
 
-2. At the bottom of the page, select New Account. Select the Period, BA, MDS, and PEC for the account you want to forecast. PEX will default an account name for you. If you prefer a different name enter it.
-
-Enter a version name, e.g., A, 1, or With CSAR. Click Save.
+2. At the bottom of the page, select New Account. Select the Period, BA, MDS, and PEC for the account you want to forecast. PEX will default an account name for you. If you prefer a different name enter it. Enter a version name, e.g., A, 1, or With CSAR. Click Save.
 
 3. In the Force Structure grid, enter the number of your Primary Authorized Aircraft \(PAA\) and Crew Ratio by quarter. If you enter the value for the first quarter and then click off the line, PEX will helpfully copy that value to the remaining quarters. You can change them individually if necessary. Using these values, PEX will calculate the number of API-1 crews your unit is authorized.
 
 4. In the Calculations grid, right-click on the Force Support line and select Edit. In the Edit Crew Requirements dialog, in the \# Events field, enter the number of Force Support sorties you expect and in the Event Dur field, enter the average sortie duration of those Force Support sorties.
 
-A. CAF Model. In the Calculations grid, right-click in the grid and select Add. In the Edit Crew Requirements dialog, select the Standard button. Select the API, Training Level, and Experience Level of one type of crewmember, e.g., 1, CMR, Experienced. For that type of crewmember, enter how many you have in \# Crew, the Event that drives their requirement \(e.g., RAP Sortie\), the number of those events they are required in \# Events, and the average duration of that event in Event Dur. Click OK. Repeat this step for every different type of crewmember that drives requirements.
+    1. CAF Model. In the Calculations grid, right-click in the grid and select Add. In the Edit Crew Requirements dialog, select the Standard button. Select the API, Training Level, and Experience Level of one type of crewmember, e.g., 1, CMR, Experienced. For that type of crewmember, enter how many you have in \# Crew, the Event that drives their requirement \(e.g., RAP Sortie\), the number of those events they are required in \# Events, and the average duration of that event in Event Dur. Click OK. Repeat this step for every different type of crewmember that drives requirements.
 
-B. MAF Model. In the Calculations grid, right-click in the grid and select Add. In the Edit Crew Requirements dialog, select the Additional button. Enter one type of crewmember, e.g., AC
+    2. MAF Model. In the Calculations grid, right-click in the grid and select Add. In the Edit Crew Requirements dialog, select the Additional button. Enter one type of crewmember, e.g., AC Experienced. For that type of crewmember, enter how many you have in \# Crew, the Event that drives their requirement \(e.g., Initial Takeoff\), the number of those events they are required in \#Events, and the average duration of that event in Event Dur. Click OK. Repeat this step for every different type of crewmember/event combination that drives requirements.
 
-Experienced. For that type of crewmember, enter how many you have in \# Crew, the Event that drives their requirement \(e.g., Initial Takeoff\), the number of those events they are required in \#
+5. For additional crew requirements \(e.g., CSAR Exp Sorties, In-Unit AC Upgrades\), in the Calculations grid, right-click in the grid and select Add. In the Edit Crew Requirements dialog, select the Additional button. Enter one type of crewmember, e.g., CSAR Exp. For that type of crewmember, enter how many you have in \# Crew, the Event that drives their requirement \(e.g., CSAR Sortie\), the number of those events they are required in \# Events, and the average duration of that event in Event Dur. Click OK. Repeat this step for every different type of crewmember/event combination.
 
-Events, and the average duration of that event in Event Dur. Click OK. Repeat this step for every different type of crewmember/event combination that drives requirements.
-
-5. For additional crew requirements \(e.g., CSAR Exp Sorties, In-Unit AC Upgrades\), in the Calculations grid, right-click in the grid and select Add. In the Edit Crew Requirements dialog, select the Additional button. Enter one type of crewmember, e.g., CSAR Exp. For that type of crewmember, enter how many you have in \# Crew, the Event that drives their requirement \(e.g., CSAR Sortie\), the number of those events they are required in \# Events, and the average duration of that event in Event Dur. Click OK.
-
-Repeat this step for every different type of crewmember/event combination.
-
-6. In the Summary grid, PEX calculates the number of sorties and hours required for this account based on the values you entered. These hours would be your requested Al ocated hours.
+6. In the Summary grid, PEX calculates the number of sorties and hours required for this account based on the values you entered. These hours would be your requested Allocated hours.
 
 Flying Hours, Quick Setup
 
@@ -989,9 +953,10 @@ These instructions will get your Flying Hour Plan \(FHP\) setup quickly to allow
 
 1. Go to PEX Scheduling > Flying Hours module > Flying Hours tab. In the Flying Hours Account grid, right-click and select Add. In the Flying Hours Account dialog, select the MDS\(s\) for the account, enter the Allocated Hours, Start Date \(usually 1 October\), End Date \(usually 30 Sep\), Version = 1, and give the Account a name \(e.g., FY15 F-16 O&M\). Click Save.
 
-!!! Note Enter the actual start date of the flying account, even if you are already in the midst of execution. PEX will allow you later on to tell it what’s already happened, using the Override Data command.
+    !!! Note
+        Enter the actual start date of the flying account, even if you are already in the midst of execution. PEX will allow you later on to tell it what’s already happened, using the Override Data command.
 
-2. Notice the new account shows up in the grid. Click on it to select it. Notice in the bottom Attrition/ASD grid that the Total Hours have been spread out evenly across the months. Click on any of the Hours cells and a Total Allocated Hours dialog comes up. Change the monthly hours to match your contracted hours with Maintenance for each month, ensuring they stil add up to the Total. When done, click Save.
+2. Notice the new account shows up in the grid. Click on it to select it. Notice in the bottom Attrition/ASD grid that the Total Hours have been spread out evenly across the months. Click on any of the Hours cells and a Total Allocated Hours dialog comes up. Change the monthly hours to match your contracted hours with Maintenance for each month, ensuring they still add up to the Total. When done, click Save.
 
 3. A dialog will read: “You should now go to the Weekly or Monthly view…” Ignore this dialog for the moment and click OK. Back in the Attrition/ASD grid, enter your expected Attrition and ASD for each month.
 
@@ -1001,9 +966,9 @@ These instructions will get your Flying Hour Plan \(FHP\) setup quickly to allow
 
 6. Stress to the Ops Desk that every sortie’s FHP should be double-checked after it flies.
 
-7. As crews come back from flying and they fill out their PEX AFTO 781, the sortie flying time will automatical y feed this Flying Hours module. If you don’t yet use PEX AFTO 781s, then make sure the Actual Takeoff and Land Times are entered in the Mission Board or Flying Schedule modules 8. Use the Flying Hours > Overview tab > Filter icon \(top right\) to select a particular FHP of interest.
+7. As crews come back from flying and they fill out their PEX AFTO 781, the sortie flying time will automatically feed this Flying Hours module. If you don’t yet use PEX AFTO 781s, then make sure the Actual Takeoff and Land Times are entered in the Mission Board or Flying Schedule modules
 
-Use the Flying Hours > Daily and Graphs pages to monitor FHP execution.
+8. Use the Flying Hours > Overview tab > Filter icon \(top right\) to select a particular FHP of interest. Use the Flying Hours > Daily and Graphs pages to monitor FHP execution.
 
 Flying Hours, Advanced
 
@@ -1011,71 +976,60 @@ First, follow the instructions from the Flying Hours, Quick Setup topic to ident
 
 1. Pick the Plan. Go to Flying Hours > Weekly page. Select the Flying Hours Settings icon \(looks like a funnel\) at top-right. Filter down to the single flying plan you are interested in. Starting from the left, select the desired Wing, Group, Squadron, Period, Budget Activity, MDS, PEC, a single Account and a Version is necessary.
 
-2. Establish the Override Date \(if required\). If you are already in the midst of a flying plan year, tel PEX what has already been flown on that account. On the Weekly page, right-click on any day and select Override Data. Select the month through which you wish to override data. Enter the flying data \(Forecast, Planned, Scheduled, and Actual Sorties and Hours\) through the end of that month in the plan.
-
-PEX uses these values as historical data. Overrides cannot be done by day, only by month. Click Save to save the override data. Click Cancel to exit the dialog without saving any changes. When the next dialog appears, redistribute the remaining monthly hours as desired. Each overridden day will display Data Overridden on the Weekly and Monthly views. You can delete an Override from the Flying Hours Override dialog by clicking on the Delete button. After overriding data, notice your Calc numbers are red indicating they are no longer valid.
+2. Establish the Override Date \(if required\). If you are already in the midst of a flying plan year, tel PEX what has already been flown on that account. On the Weekly page, right-click on any day and select Override Data. Select the month through which you wish to override data. Enter the flying data \(Forecast, Planned, Scheduled, and Actual Sorties and Hours\) through the end of that month in the plan. PEX uses these values as historical data. Overrides cannot be done by day, only by month. Click Save to save the override data. Click Cancel to exit the dialog without saving any changes. When the next dialog appears, redistribute the remaining monthly hours as desired. Each overridden day will display Data Overridden on the Weekly and Monthly views. You can delete an Override from the Flying Hours Override dialog by clicking on the Delete button. After overriding data, notice your Calc numbers are red indicating they are no longer valid.
 
 3. Establish the No-Fly Dates. Tell PEX the dates you don’t plan to fly so it wil take those dates out of the calculation. Right-click on any day and select No Fly Days. Select your no fly days and click Save. At the top of the grid are some choices which help you select multiple days easily. For instance, if you choose Sunday then all Sundays will be marked as no-fly. You could then click on any individual Sunday to set it back to a fly day. Or you could choose Federal Holidays and all Federal Holidays will be marked as no-fly. Notice that your Calc numbers are red indicating they are no longer valid.
 
-!!! Note When required, No-Fly Days can quickly be set back to Fly Days \(and vice-versa\) by right- clicking on the day \(in the Weekly view\) and selecting the Set as No Fly Day or Set as Fly Day. When you do, notice your Calc numbers are red indicating they are no longer valid.
+    !!! Note
+        When required, No-Fly Days can quickly be set back to Fly Days \(and vice-versa\) by right- clicking on the day \(in the Weekly view\) and selecting the Set as No Fly Day or Set as Fly Day. When you do, notice your Calc numbers are red indicating they are no longer valid.
 
 4. Establish your Surge or Minimum Fly \(Locked\) Dates. Tell PEX the dates you want to fly more or less than usual so it can use the information when calculating the required sorties/hours \(Calc\). Right-click on the desired date and select Change Sorties/Hours. Enter the number of sorties and hours you expect to schedule that day. After the values are entered, a lock will appear on that day. Later, when you re-calculate, PEX will use these manually entered values minus attrition for what you can expect to accomplish for that date. \(This is how you tell PEX what you are going to schedule for a given day, instead of PEX recommending what you should schedule.\) Notice that your Calc numbers are red indicating they are no longer valid.
 
 5. Calculate the Plan. On the Weekly page, when the Calc numbers are red, this indicates the numbers are not valid and they need to be re-calculated for the changes you have made. To re-calculate your sorties/hours, first decide on a date from which to reflow the Calculated Hours.
 
-A. If your Flying Plan start date is in the future, you would choose the start date.
+    1. If your Flying Plan start date is in the future, you would choose the start date.
 
-B. If your start date is already in the past, you would normal y choose a date in the future \(possibly/probably the first of next month\), thereby leaving the already agreed upon sorties/hours the same up until the date you select.
+    2. If your start date is already in the past, you would normal y choose a date in the future \(possibly/probably the first of next month\), thereby leaving the already agreed upon sorties/hours the same up until the date you select.
 
-!!! Note On your selected date, right-click and select Calculate Plan. PEX will then calculate how many sorties/hours you should plan on a given day, taking into account your monthly contract hours, ASD, attrition, and Locked days. Notice that the Calc numbers are no longer red but are now black, indicating they are valid numbers with which to make scheduling decisions.
+        !!! Note
+            On your selected date, right-click and select Calculate Plan. PEX will then calculate how many sorties/hours you should plan on a given day, taking into account your monthly contract hours, ASD, attrition, and Locked days. Notice that the Calc numbers are no longer red but are now black, indicating they are valid numbers with which to make scheduling decisions.
 
-PEX uses the following logic to calculate the sorties/hours on a given date: C. PEX takes the monthly Contract hours and increases them to account for the attrition factor.
+        PEX uses the following logic to calculate the sorties/hours on a given date:
 
-E.g., 1000 monthly Contract hours and 15% attrition. The 1000 hours is increased to 1176.47, so when you lose 15% \(176.47\), you end up with the 1000 desired hours.
+    3. PEX takes the monthly Contract hours and increases them to account for the attrition factor. E.g., 1000 monthly Contract hours and 15% attrition. The 1000 hours is increased to 1176.47, so when you lose 15% \(176.47\), you end up with the 1000 desired hours.
 
-D. \(Current Month Only\) PEX then subtracts the actual hours you have already flown this month from the remaining hours. E.g., 1176.47 minus 100 actual hours equals 1076.47 left to fly this month.
+    4. \(Current Month Only\) PEX then subtracts the actual hours you have already flown this month from the remaining hours. E.g., 1176.47 minus 100 actual hours equals 1076.47 left to fly this month.
 
-E. PEX then calculates that you want zero hours on No-Fly Days.
+    5. PEX then calculates that you want zero hours on No-Fly Days.
 
-F. PEX then uses the number of hours entered through the Change Sorties/Hours dialog on Changed \(Locked\) Days and lessens the amount by the monthly expected attrition.
+    6. PEX then uses the number of hours entered through the Change Sorties/Hours dialog on Changed \(Locked\) Days and lessens the amount by the monthly expected attrition.
 
-G. PEX then divides the remaining hours \(e.g., 1076.47\) by the monthly ASD to determine the number of sorties that should be flown that month. E.g., 1076.47 hours and ASD of 1.5 equals 717.6
+    7. PEX then divides the remaining hours \(e.g., 1076.47\) by the monthly ASD to determine the number of sorties that should be flown that month. E.g., 1076.47 hours and ASD of 1.5 equals 717.6 sorties.
 
-sorties.
+    8. PEX then distributes the remaining sorties equally among the remaining flying days in the month. It then multiplies the sorties by the monthly ASD to determine how many hours should be flown each day.
 
-H. PEX then distributes the remaining sorties equally among the remaining flying days in the month.
+6. Plan Sorties/Hours in Detail. Now that PEX has calculated how many sorties/hours you should plan on any given day in your flying plan, you can specify in more detail how those sorties will be scheduled. Planning the sorties/hours to this level of detail is optional but many units find it helpful for coordination with Maintenance and outside organizations. To plan sorties/hours in detail, right-click on the desired date and select Plan Sorties. In the Planned Sorties dialog, right-click in the grid and select Add. Select a Flying Period from the list and enter a Start Time and End Time for that Flying Period. Select the Sortie Type and enter the Count. Modify the ASD, if required. Repeat, adding Flying Periods and Sorties until the Plan numbers equal \(or approximate\) the Calc numbers.
 
-It then multiplies the sorties by the monthly ASD to determine how many hours should be flown each day.
+    TTP: Once you have a date completely planned, you can copy it to other dates by right-clicking on the date and selecting Copy Day. Then, select the days and/or dates you want to copy to and select Paste.
 
-6. Plan Sorties/Hours in Detail. Now that PEX has calculated how many sorties/hours you should plan on any given day in your flying plan, you can specify in more detail how those sorties will be scheduled.
+7. Update Total Allocated Hours. To add or subtract Total Allocated Hours while executing the Flying Hour Plan, in the Overview page left-click in the bottom row labeled Hours. A new dialog opens and Total Allocated Hours may be overwritten. Clicking off the line re-calculates the monthly Contract hours in that dialog. Clicking Save prompts you to re-calculate the Plan in the Calendar.
 
-Planning the sorties/hours to this level of detail is optional but many units find it helpful for coordination with Maintenance and outside organizations. To plan sorties/hours in detail, right-click on the desired date and select Plan Sorties. In the Planned Sorties dialog, right-click in the grid and select Add. Select a Flying Period from the list and enter a Start Time and End Time for that Flying Period. Select the Sortie Type and enter the Count. Modify the ASD, if required. Repeat, adding Flying Periods and Sorties until the Plan numbers equal \(or approximate\) the Calc numbers.
+8. Copy Accounts. If you have multiple accounts to manage that are very similar in terms of no-fly days, ASDs, attrition, etc., instead of starting from scratch, you can copy an existing account and then make modifications to the new account. Once copied, the only things not modifiable are the account Start Date, End Date, Local/Zulu, and Location. To copy an account, select Flying Hours Tab, Overview page. Select the account, right-click and select Copy Account. Modify the Squadron, Period, BA, PEC, Name \(mandatory\), Version \(mandatory\), and MDS as desired. Click Save. Total hours can be modified by clicking on the Hours row in the Attrition/ASD gird after the account is copied.
 
-TTP: Once you have a date completely planned, you can copy it to other dates by right-clicking on the date and selecting Copy Day. Then, select the days and/or dates you want to copy to and select Paste.
+9. New Version of an Account. Using versions allows you to develop what if.. scenarios. For example, you might need to calculate the number of sorties required with different monthly ASDs. To make another version of an account, right-click on an account and select Create New Version. In the dialog, enter a designation \(e.g., B or C\) for this version. PEX will copy everything about the original account into the new version. From there, you can modify attrition, ASDs, budgeted hours, and/or planned sorties/hours. Only one version of an account is active at any time. Inactivating all versions of an account inactivates the overall account. When you are done tracking an account, inactivate it so it doesn't show on lists anymore.
 
-7. Update Total Al ocated Hours. To add or subtract Total Allocated Hours while executing the Flying Hour Plan, in the Overview page left-click in the bottom row labeled Hours. A new dialog opens and Total Allocated Hours may be overwritten. Clicking off the line re-calculates the monthly Contract hours in that dialog. Clicking Save prompts you to re-calculate the Plan in the Calendar.
+    1. To Set a Version to Active. Go to Flying Hours tab > Overview click on the account to be set to active under the accounts header. When the ‘Monthly’ view appears check the ‘Active Version’ checkbox in the upper left corner.
 
-8. Copy Accounts. If you have multiple accounts to manage that are very similar in terms of no-fly days, ASDs, attrition, etc., instead of starting from scratch, you can copy an existing account and then make modifications to the new account. Once copied, the only things not modifiable are the account Start 101
+    2. To Set a Version to Inactive. Go to Flying Hours tab > Overview click on the active account \(shown in green\) to be set to inactive under the accounts header. When the ‘Monthly’ view appears uncheck the ‘Active Version’ checkbox in the upper left corner.
 
-Date, End Date, Local/Zulu, and Location. To copy an account, select Flying Hours Tab, Overview page.
+    3. Delete a Version. From the ‘Flying Hours’ tab right click and select the ‘Delete’ button. This wil not delete the overall account, only that version of it.
 
-Select the account, right-click and select Copy Account. Modify the Squadron, Period, BA, PEC, Name \(mandatory\), Version \(mandatory\), and MDS as desired. Click Save. Total hours can be modified by clicking on the Hours row in the Attrition/ASD gird after the account is copied.
+    4. View an Inactivated Account. From the ‘Flying Hours’ tab click on the funnel icon at the upper right corner of the display and checkmark ‘Show Inactive Accounts’ and continue the selection process as normal.
 
-9. New Version of an Account. Using versions allows you to develop what if.. scenarios. For example, you might need to calculate the number of sorties required with different monthly ASDs. To make another version of an account, right-click on an account and select Create New Version. In the dialog, enter a designation \(e.g., B or C\) for this version. PEX will copy everything about the original account into the new version. From there, you can modify attrition, ASDs, budgeted hours, and/or planned sorties/hours. Only one version of an account is active at any time. Inactivating all versions of an account inactivates the overal account. When you are done tracking an account, inactivate it so it doesnt show on lists anymore.
+    5. Delete an Account. To completely delete an account al flying hour versions created for the account to be must be deleted.
 
-A. To Set a Version to Active. Go to Flying Hours tab > Overview click on the account to be set to active under the accounts header. When the ‘Monthly’ view appears check the ‘Active Version’
-
-checkbox in the upper left corner.
-
-B. To Set a Version to Inactive. Go to Flying Hours tab > Overview click on the active account \(shown in green\) to be set to inactive under the accounts header. When the ‘Monthly’ view appears uncheck the ‘Active Version’ checkbox in the upper left corner.
-
-C. Delete a Version. From the ‘Flying Hours’ tab right click and select the ‘Delete’ button. This wil not delete the overal account, only that version of it.
-
-D. View an Inactivated Account. From the ‘Flying Hours’ tab click on the funnel icon at the upper right corner of the display and checkmark ‘Show Inactive Accounts’ and continue the selection process as normal.
-
-E. Delete an Account. To completely delete an account al flying hour versions created for the account to be must be deleted.
-
-!!! Note Once sorties have been created and logged against a particular flying hour account and version it is impossible to delete it.
+        !!! Note
+            Once sorties have been created and logged against a particular flying hour account and version it is impossible to delete it.
 
 10. Single and Multi-Day Remarks. If desired, Single-Day Remark and Multi-Day Remarks can be set by right-clicking and selecting the appropriate command. These functions wil not work on dates in the past. Multi-Day Remarks are displayed on the Weekly view but not the Monthly.
 
@@ -1087,17 +1041,11 @@ For instance, if you want this view to display Monday as the first day of inform
 
 Flying Hours, Associate Units
 
-If your flying organization is an association of Active Duty \(AD\), National Guard \(ANG\), and/or Reserve \(AFRC\) units, this topic details how to setup the PEX Flying Hours module. Let’s say the AD wing develops the overal flying plan for the base. They decide which days to fly and how many sorties to fly each day. After the sorties are flown, depending on whether the pilot and/or aircraft belonged to AD, ANG, or AFRC; the flying hours get charged to AD, ANG, or AFRC. If this is your situation, you need to setup an account for each MAJCOM
+If your flying organization is an association of Active Duty \(AD\), National Guard \(ANG\), and/or Reserve \(AFRC\) units, this topic details how to setup the PEX Flying Hours module. Let’s say the AD wing develops the overall flying plan for the base. They decide which days to fly and how many sorties to fly each day. After the sorties are flown, depending on whether the pilot and/or aircraft belonged to AD, ANG, or AFRC; the flying hours get charged to AD, ANG, or AFRC. If this is your situation, you need to setup an account for each MAJCOM \(AD, ANG, and AFRC\) plus an overall base \(e.g., Langley AFB\) account for them to feed into: 102
 
-\(AD, ANG, and AFRC\) plus an overal base \(e.g., Langley AFB\) account for them to feed into: 102
+1. On the Overview page, create a PEX Flying Hours account for the overall base \(AD \+ ANG \+ AFRC\). In this account, identify the Total \(Allocated\) Hours for AD \+ ANG \+ AFRC. In this base account, identify the overall Expected Attrition, ASD, and monthly contract hours \(AD \+ ANG \+ AFRC\).
 
-1. On the Overview page, create a PEX Flying Hours account for the overall base \(AD \+ ANG \+ AFRC\).
-
-In this account, identify the Total \(Al ocated\) Hours for AD \+ ANG \+ AFRC. In this base account, identify the overal Expected Attrition, ASD, and monthly contract hours \(AD \+ ANG \+ AFRC\).
-
-2. On the Overview page, create a PEX Flying Hours account for only the AD sorties. In this account, identify the Total \(Al ocated\) Hours for AD only. In this AD account, identify the monthly breakout of AD
-
-hours. \(These are the flying hours that will feed ACC’s Flying Hours Online \(FHOL\) application.\) Adding more detail \(Att% or ASD\) to this account is optional.
+2. On the Overview page, create a PEX Flying Hours account for only the AD sorties. In this account, identify the Total \(Allocated\) Hours for AD only. In this AD account, identify the monthly breakout of AD hours. \(These are the flying hours that will feed ACC’s Flying Hours Online \(FHOL\) application.\) Adding more detail \(Att% or ASD\) to this account is optional.
 
 3. On the Overview page, create a PEX Flying Hours account for only the ANG sorties. In this account, identify the Total \(Allocated\) Hours for ANG only. Adding more detail \(monthly breakout of hours, Att%, or ASD\) to this account is optional.
 
@@ -1105,9 +1053,9 @@ hours. \(These are the flying hours that will feed ACC’s Flying Hours Online \
 
 5. On the Overview page, right-click on the AD account and select “Edit.” In the “Also Update” list, select the overall base account created in Step 1. This will feed scheduled/actual sorties/hours from the AD account to the overall base account.
 
-6. Repeat Step 7 using the ANG and AFRC accounts. Have those accounts “Also Update” the overal base account created in Step 1.
+6. Repeat Step 7 using the ANG and AFRC accounts. Have those accounts “Also Update” the overall base account created in Step 1.
 
-7. In the PEX Mission Board > Tools > Pre-Mission Settings, Set the default Flying Plan to the overal base account created in Step 1. This will default all new sorties to the base flying hours account.
+7. In the PEX Mission Board > Tools > Pre-Mission Settings, Set the default Flying Plan to the overall base account created in Step 1. This will default all new sorties to the base flying hours account.
 
 8. After sorties are flown, decide whether they are to be charged to AD, ANG, or AFRC and select the appropriate account in the Mission Board, Sorties grid, Flying Plan column.
 
@@ -1119,13 +1067,13 @@ First, pick the Flying Hours Account\(s\) you are interested in. On the Flying H
 
 Overview Page
 
-■ View Target Hours for the current date
+* View Target Hours for the current date
 
-■ View Actual Hours flown to date
+* View Actual Hours flown to date
 
-■ View Hours Remaining to date
+* View Hours Remaining to date
 
-■ View a Progress bar comparing Target Hours to Actual Hours
+* View a Progress bar comparing Target Hours to Actual Hours
 
 Daily Page \(Single Account Only\)
 
@@ -1135,11 +1083,11 @@ Graphs Page
 
 New Graphs page functionality includes:
 
-■ Opening the page in a new, separate window.
+* Opening the page in a new, separate window.
 
-■ Colors matched to MAJCOM Flying Hour Program standards.
+* Colors matched to MAJCOM Flying Hour Program standards.
 
-■ The ability to export the graph as a PDF or image file, image option formats being PNG or SVG. While both PNG and SVG support transparency \(the ability to view background through the image\), SVG can be scaled to any size.
+* The ability to export the graph as a PDF or image file, image option formats being PNG or SVG. While both PNG and SVG support transparency \(the ability to view background through the image\), SVG can be scaled to any size.
 
 Five different graphs provide data about the flying plan Sorties, Hours \(\), Attrition, Average Sortie Duration, and Hours \(\).
 
@@ -1151,11 +1099,11 @@ View Summary Data
 
 To view a monthly or weekly summary of the progress of your flying plan, go to either the Monthly or Weekly pages and click on the Summary link at the top right of the page. This will open the Summary dialog with data for the month of the date you had selected on the Monthly or Weekly page. The top half of the dialog breaks the month up by week. For each week, and for both Sorties and Hours, PEX displays the Contract, Plan, Sched, Actual and Delta hours for that week \(or partial week.\) The bottom half of the dialog has three date spans:
 
-■ The Plan through the end of last month
+* The Plan through the end of last month
 
-■ The Plan for just this month
+* The Plan for just this month
 
-■ The Plan through the end of this month.
+* The Plan through the end of this month.
 
 Each date span includes the same data as the top half of the page as well as showing Plan vs Actual for Att Rate, ASD, and Fly Days.
 
@@ -1167,9 +1115,7 @@ REMIS- Reconcile your hours
 
 REMIS, Setup and Download File
 
-The Reliability and Maintainability Information System \(REMIS\) tab allows you to upload a monthly REMIS
-
-export file and compare this information with the actual flight times logged in PEX AFTO 781s. This also provides the ability to view the progress of your flying plan in REMIS, even for units not using PEX for scheduling.
+The Reliability and Maintainability Information System \(REMIS\) tab allows you to upload a monthly REMIS export file and compare this information with the actual flight times logged in PEX AFTO 781s. This also provides the ability to view the progress of your flying plan in REMIS, even for units not using PEX for scheduling.
 
 Setup
 
@@ -1177,96 +1123,103 @@ Setup
 
 2. Maintenance > Aircraft. In the Aircraft MDS grid, select the REMIS MDS from the drop down list.
 
-!!! Note If the desired REMIS MDS is not listed, go to the Setup tab, lists sub tab, select REMIS MDS
-
-table, and check the appropriate MDS you want to appear. Click off line to savIn the Tail Number grid, enter the REMIS S/N. Hint: If you attempt a REMIS import first, you can use the REMIS Import Log to copy \(CTRL-C\) and paste \(CTRL-V\) the REMIS Serial Numbers to their respective tail numbers.
+    !!! Note
+        If the desired REMIS MDS is not listed, go to the Setup tab, lists sub tab, select REMIS MDS table, and check the appropriate MDS you want to appear. Click off line to savIn the Tail Number grid, enter the REMIS S/N. Hint: If you attempt a REMIS import first, you can use the REMIS Import Log to copy \(CTRL-C\) and paste \(CTRL-V\) the REMIS Serial Numbers to their respective tail numbers.
 
 3. Setup > Squadrons. Associate your squadron to your group and wing.
 
-4. Scheduling > Flying Hours > REMIS tab > Import page > PEX/REMIS Wing Association. Enter the REMIS Possessing Organization for your winThis must be entered exactly as it is displayed in REMIS.
-
-Hint: The import log will show the REMIS Wing.
+4. Scheduling > Flying Hours > REMIS tab > Import page > PEX/REMIS Wing Association. Enter the REMIS Possessing Organization for your winThis must be entered exactly as it is displayed in REMIS. Hint: The import log will show the REMIS Wing.
 
 5. Scheduling > Flying Hours > REMIS tab > Import page > MUC… griAssociate all MUCs to a flying hours account type.
 
 Download REMIS Data Files from AF Portal
 
-Log into the AF Portal at https://www.my.af.mil/gcss-af/USAF/ep/home.do.
+Log into the AF Portal at <https://www.my.af.mil/gcss-af/USAF/ep/home.do.>
 
 1. On the Air Force Portal, in the upper ribbon menu, click Applications and select Applications A-Z.
 
 2. In Applications A-Z, click the letter G, and click GCSS-AF Data Services \[.mil/com\].
 
-!!! Note In Applications A-Z, see the Description and Contact Info for GCSS-AF Data Services if you have any account or permissions-related issues. As of August 2015, their contact information is e-mail, AFLCMC/HNI GCSSDSHelpDesk, gcssaf.dataserviceshelpdesk@us.af.mil. Phone, \(334\) 416-5771, option 7. \(DSN 596\).
+    !!! Note
+        In Applications A-Z, see the Description and Contact Info for GCSS-AF Data Services if you have any account or permissions-related issues. As of August 2015, their contact information is e-mail, AFLCMC/HNI GCSSDSHelpDesk, gcssaf.dataserviceshelpdesk@us.af.mil. Phone, \(334\) 416-5771, option 7. \(DSN 596\).
 
 3. In the upper left of the GCSS-AF Data Services site \(SAP Business Objects\), click the Documents taClick the Folders bar in the lower left area of the screen.
 
 4. In the folders area, expand Public Folders and select the Air National Guard \(ANG\) folder. Double click on Air National Guard Sortie Detail.
 
-NOTES:
+    !!! NOTE
+        * All reports: ANG, AD, and AFRC reside in this folder.
+        * If you do not see these folders, contact the GCSSDS Help Desk.
 
-o All reports: ANG, AD, and AFRC reside in this folder.
+    The detailed sortie report provides individual sortie information for every sortie flown during the period selected, as reported to REMIS via CAMS/IMDS or GO81.
 
-o If you do not see these folders, contact the GCSSDS Help Desk.
+5. When the Prompts dialog opens, select a month, an Organization, and a Command before clicking Run Query. The following steps contain detailed instructions:
 
-The detailed sortie report provides individual sortie information for every sortie flown during the period selected, as reported to REMIS via CAMS/IMDS or GO81.
+    1. At the top left of the Prompts dialog, click Util Month Year In List.
 
-5. When the Prompts dialog opens, select a month, an Organization, and a Command before clicking Run Query. The fol owing steps contain detailed instructions:
+        !!! Note
+            PEX imports REMIS data one month at a time.
 
-A. At the top left of the Prompts dialog, click Util Month Year In List.
+    2. Enter the desired year and month \(YYYYMM format\) and use the > to populate in the list to the right. Select any additional Util Month Years in the list and click < to removEnsure your desired month is the only month listed.
+        <!--again mostly sure remove ensure is wrong but hoping a user can fix it after verifying inside of PEX daveDailey-->
 
-!!! Note PEX imports REMIS data one month at a time.
+        !!! Note
+            Dates entered in this dialog are in calendar year; take this into consideration when searching for fiscal year data.
 
-B. Enter the desired year and month \(YYYYMM format\) and use the > to populate in the list to the right. Select any additional Util Month Years in the list and click < to removEnsure your desired month is the only month listed.
+    3. At top left of the Prompts dialog, click Possessing Organization Equal to
 
-!!! Note Dates entered in this dialog are in calendar year; take this into consideration when searching for fiscal year data.
+    4. Click the Refresh Data icon to populate the list of available Organizations.
 
-C. At top left of the Prompts dialog, click Possessing Organization Equal to D. Click the Refresh Data icon to populate the list of available Organizations.
+        !!! NOTE
+            * A search feature is available; enter your unit number and click the binoculars icon.
+            * If nothing comes up after hitting refresh, you may need your Air Force Portal account modified. Contact AFLCMC/HNI GCSSDSHelpDesk at gcssaf.dataserviceshelpdesk@us.af.mil, or call DSN 596-5771, option 7.
 
-NOTES:
+    5. Select the appropriate possessing organization \(normally the wing\).
 
-o A search feature is available; enter your unit number and click the binoculars icon.
+    6. Use the > button to set and the < button to remove your Possessing Organization.
 
-o If nothing comes up after hitting refresh, you may need your Air Force Portal account modified. Contact AFLCMC/HNI GCSSDSHelpDesk at gcssaf.dataserviceshelpdesk@us.af.mil, or call DSN 596-5771, option 7.
+        !!! Note
+            The Possessing Organization Equal to is limited to one organization per Query
 
-E. Select the appropriate possessing organization \(normally the wing\).
+    7. At the top left of the Prompts dialog, click Possessing Command Equal to, and select the appropriate possessing organization \(normally the MAJCOM\).
 
-F. Use the > button to set and the < button to remove your Possessing Organization.
+    8. Use the > button to set and the < button to remove the Possessing Command.
 
-!!! Note The Possessing Organization Equal to is limited to one organization per Query G. At the top left of the Prompts dialog, click Possessing Command Equal to, and select the appropriate possessing organization \(normally the MAJCOM\).
+    9. With the desired values selected, click the Run Query button.
 
-H. Use the > button to set and the < button to remove the Possessing Command.
+    10. Once the report opens, click the Export button \(in the tool bar above the report\) and select Export Data to .CSV...
 
-I. With the desired values selected, click the Run Query button.
+    11. In the Save as .CSV options, Text Qualifier should be a double quotation mark \(\) and the Column Delimiter should be a comma \(,\) and the Charset should be UTF-8 … \(these can be set as default values by checking the box\).
 
-J. Once the report opens, click the Export button \(in the tool bar above the report\) and select Export Data to .CSV...
-
-K. In the Save as .CSV options, Text Qualifier should be a double quotation mark \(\) and the Column Delimiter should be a comma \(,\) and the Charset should be UTF-8 … \(these can be set as default values by checking the box\).
-
-!!! Note The report can be saved in PDF and Excel formats but requires .CSV format for PEX import.
+        !!! Note
+            The report can be saved in PDF and Excel formats but requires .CSV format for PEX import.
 
 6. To run another query, click the Refresh Data button to restart the process.
 
 REMIS – Import File and Reconcile
 
-!!! caution Do attempt to edit the resulting REMIS CSV report in Excel. If you open the REMIS CSV file in Excel, Excel will strip the leading zero\(s\) \(if any\) from the REMIS report. The tail numbers in PEX with leading zeros will not map properly.
+!!! caution
+    Do attempt to edit the resulting REMIS CSV report in Excel. If you open the REMIS CSV file in Excel, Excel will strip the leading zero\(s\) \(if any\) from the REMIS report. The tail numbers in PEX with leading zeros will not map properly.
 
 Import REMIS .CSV File into PEX
 
-The Import page al ows you to browse to the location where the REMIS .CSV file is saved and to import the data into PEX. Imports are accomplished one month at a time for each winWhen a new import is accomplished, previous REMIS data is overwritten. The Import page also allows you to view log files from past imports. To import, first close the REMIS file, then:
+The Import page allows you to browse to the location where the REMIS .CSV file is saved and to import the data into PEX. Imports are accomplished one month at a time for each winWhen a new import is accomplished, previous REMIS data is overwritten. The Import page also allows you to view log files from past imports. To import, first close the REMIS file, then:
 
-1. Navigate to PEX Scheduling > Flying Hours > REMIS > Import page 2. Click Browse for REMIS File to Import button and browse to the REMIS file 3. Double-click on the file name or highlight the file name and select Open 4. Click on the log file name at the top of the list to view the results of your import !!! Note The REMIS file you are importing cannot be in use \(open\) when importing.
+1. Navigate to PEX Scheduling > Flying Hours > REMIS > Import page
+2. Click Browse for REMIS File to Import button and browse to the REMIS file
+3. Double-click on the file name or highlight the file name and select Open
+4. Click on the log file name at the top of the list to view the results of your import
+    !!! Note
+        The REMIS file you are importing cannot be in use \(open\) when importing.
 
 Reconciliation, Identify Discrepancies
 
 The Reconciliation page shows you your PEX and REMIS sorties so you can match these sorties and identify discrepancies between PEX and REMIS. To reconcile:
 
-1. Navigate to Scheduling > Flying Hours > REMIS > Reconciliation page 2. Select the Squadron\(s\) to display PEX sorties
-
+1. Navigate to Scheduling > Flying Hours > REMIS > Reconciliation page
+2. Select the Squadron\(s\) to display PEX sorties
 3. Select the month to reconcile
-
 4. To see all PEX sorties flown on shared tail numbers for any squadron, check the Show Shared Tails box
-
 5. Click the Go\! button
 
 PEX will do its best to match PEX and REMIS sorties. A sortie is considered a match if the following data are the same: MDS, Tail Number, MUC, T/O Date/Time, Land Date/Time, Sorties Flown, Total Landings, and Total Full Stops.
@@ -1275,42 +1228,40 @@ If the above data are not the same, PEX will attempt to match sorties and identi
 
 The first thing to do is to match unmatched sorties. View unmatched sorties by going to the Unmatched Sorties pagThen:
 
-1. Select a PEX sortie from the Unmatched PEX Sorties grid to display in Selected Sorties Grid 2. Select a REMIS Sortie from the Unmatched REMIS Entries grid to display in Selected Sorties Grid 3. When you have decided these sorties should be matched, right-click on the PEX/REMIS sortie pair and click the Match button
+1. Select a PEX sortie from the Unmatched PEX Sorties grid to display in Selected Sorties Grid
+2. Select a REMIS Sortie from the Unmatched REMIS Entries grid to display in Selected Sorties Grid
+3. When you have decided these sorties should be matched, right-click on the PEX/REMIS sortie pair and click the Match button
+4. To clear a PEX or REMIS sortie from the upper grid, select another sortie
+5. To clear both sorties from the upper grid, hit the Clear selections button
 
-4. To clear a PEX or REMIS sortie from the upper grid, select another sortie 5. To clear both sorties from the upper grid, hit the Clear selections button Once the sorties are matched, they wil move to the Matches with Discrepancies taThere, you can edit PEX
-
-sortie data for sorties that have not been AFTO 781 SARM RevieweSorties that have been SARM reviewed are locked from editing and the SARM review must be unsigned before the PEX sortie data can be edited.
+Once the sorties are matched, they wil move to the Matches with Discrepancies taThere, you can edit PEX sortie data for sorties that have not been AFTO 781 SARM RevieweSorties that have been SARM reviewed are locked from editing and the SARM review must be unsigned before the PEX sortie data can be edited.
+<!--they apparently don't know how to spell check, not fixing it until someone can confirm through use this isn't what the program actually says daveDailey-->
 
 If you incorrectly match a pair, to un-match them:
 
-1. From the Sortie Matches Tab or the Sortie Matches with Discrepancies Tab, Highlight the PEX/REMIS
-
-sortie pair.
+1. From the Sortie Matches Tab or the Sortie Matches with Discrepancies Tab, Highlight the PEX/REMIS sortie pair.
 
 2. Click Hit the Unmatch button.
 
 Reconciliation, Edit PEX Data
 
-If you decide the information from REMIS is correct and the data in PEX needs to be updated: 1. Navigate to Matches with Discrepancies page
+If you decide the information from REMIS is correct and the data in PEX needs to be updated:
 
-2. On the PEX sortie row, select the field to be edited by clicking on it. The fol owing PEX fields are editable: MDS, Tail \#, MUC, T/O Date/Time, Landing Date/Time, Sorties Flown, Total Landing and Total Ful Stops.
-
+1. Navigate to Matches with Discrepancies page
+2. On the PEX sortie row, select the field to be edited by clicking on it. The following PEX fields are editable: MDS, Tail \#, MUC, T/O Date/Time, Landing Date/Time, Sorties Flown, Total Landing and Total Ful Stops.
 3. Click off the line to save the changes.
-
 4. Once the fields of MDS, Tail Number, MUC, T/O Date/Time, Land Date/Time, Sorties Flown, Total Landings and Total Full Stops are exactly the same, the sortie pair will move to the Sortie Matches tab.
 
 FY Progress from REMIS
 
-Units not using PEX for scheduling can still view the progress of their flying plan from REMIS: 1. Fol ow setup and import procedures listed above
+Units not using PEX for scheduling can still view the progress of their flying plan from REMIS:
 
-2. Navigate to the Scheduling > Flying Hours > REMIS > FY Progress page 3. Select the appropriate MDS
-
+1. follow setup and import procedures listed above
+2. Navigate to the Scheduling > Flying Hours > REMIS > FY Progress page
+3. Select the appropriate MDS
 4. Select the Fiscal Year you wish to view.
-
 5. Click the Go\! button.
-
 6. To view FY sorties flown, select the Sorties Flown radio button.
-
 7. To view FY hours flown, select the Hours Flown radio button.
 
 ## Flying Schedule
@@ -1323,9 +1274,7 @@ The Flying Schedule - Setup page allows you to establish requirements for Pre-So
 
 Setup Pre-Sortie Crew Rest
 
-Right-click in the grid and select Add. Select the MDS, the Crew Position \(select the letter indicator in the column of the crew position code that your activity uses. For example, for an F-16 Pilot, select MDS of F-16C
-
-and P in the D2 Column. \(The D columns are the five Sortie Duty Position characters.\) Under Pre Crew Rest, enter the number of hours required for Pre-Sortie Crew Rest and whether you want the crew rest added automatical y when the person is scheduled on the first sortie of the day.
+Right-click in the grid and select Add. Select the MDS, the Crew Position \(select the letter indicator in the column of the crew position code that your activity uses. For example, for an F-16 Pilot, select MDS of F-16C and P in the D2 Column. \(The D columns are the five Sortie Duty Position characters.\) Under Pre Crew Rest, enter the number of hours required for Pre-Sortie Crew Rest and whether you want the crew rest added automatically when the person is scheduled on the first sortie of the day.
 
 Setup Post-Sortie Crew Rest
 
@@ -1337,9 +1286,9 @@ Click the Alternative Crew Rest checkbox. This is all you need to do. This is an
 
 1. The sortie duration exceeds 16.0 hours.
 
-2. The Mission Status - TDY checkbox is checked for the sortie Post-Mission Crew Rest 1-to-3 Rule commitments have a duration of 1/3 of the sortie duration, not to exceed 96 hours. The generated commitment begins one minute after Scheduled Post Sortie End to prevent display of conflicts between the Post Sortie End and the Post Crew Rest Start. The commitment’s start and end times are adjusted when the schedule is changed, as wel as when Actual times are entered. Once generated, the commitment is not deleted if the duration drops below 16.1 flying hours. The scheduler must remove personnel from the sortie or use the crew details dialog to delete post crew rest commitments.
+2. The Mission Status - TDY checkbox is checked for the sortie
 
-Duration of Post-Mission Crew Rest is calculated in hours and rounded to the tenths, e.g., a 26-hour sortie generates an 8.7 hour commitment. To use this feature for off-station missions, ensure that schedulers enter the mission as a single sortie, where the sortie takeoff time is the takeoff time of the first off-station mission and the sortie land time is the land time of the last off-station mission.
+Post-Mission Crew Rest 1-to-3 Rule commitments have a duration of 1/3 of the sortie duration, not to exceed 96 hours. The generated commitment begins one minute after Scheduled Post Sortie End to prevent display of conflicts between the Post Sortie End and the Post Crew Rest Start. The commitment’s start and end times are adjusted when the schedule is changed, as wel as when Actual times are entered. Once generated, the commitment is not deleted if the duration drops below 16.1 flying hours. The scheduler must remove personnel from the sortie or use the crew details dialog to delete post crew rest commitments. Duration of Post-Mission Crew Rest is calculated in hours and rounded to the tenths, e.g., a 26-hour sortie generates an 8.7 hour commitment. To use this feature for off-station missions, ensure that schedulers enter the mission as a single sortie, where the sortie takeoff time is the takeoff time of the first off-station mission and the sortie land time is the land time of the last off-station mission.
 
 FS - Sorties
 
@@ -1361,9 +1310,7 @@ A mission consists of one or more sorties. A mission always has at least one sor
 
 Add a single sortie
 
-Click Add Mission and a new line will be generated to enter sortie data. Fill in as many fields as possible.
-
-Come back later and fill in the remaining fields as the data is known.
+Click Add Mission and a new line will be generated to enter sortie data. Fill in as many fields as possible. Come back later and fill in the remaining fields as the data is known.
 
 Add a formation
 
@@ -1381,7 +1328,7 @@ Enter actual takeoff and land times
 
 Double-clicking in the Actual Takeoff and Land Time fields fills them in with current time. To set a different time, select Actions> Adjust Actuals. If you’re entering actual times from a previous day, you must select to show both the actual date and time columns. When you adjust actual, you have to set both the date and time. Enter the takeoff time first then the land time.
 
-What’s the difference between deleting a mission and cancel ing it?
+What’s the difference between deleting a mission and cancelling it?
 
 Deleting missions removes them from PEX. Cancelling missions leaves them in PEX but removes all the associated personnel and location commitments. Before going firm on a schedule, delete the mission. After going firm, cancel the mission so it can be tracked historically.
 
@@ -1397,23 +1344,25 @@ Use all the different page controls
 
 Squadrons
 
-Selects which squadrons’ missions/sorties are displayed. Select any combination of squadrons by holding the Ctrl key while clicking. !!! Note if two or more squadrons are selected for display, Add Mission and Delete Mission are disabled.
+Selects which squadrons’ missions/sorties are displayed. Select any combination of squadrons by holding the Ctrl key while clicking.
+
+!!! Note
+    if two or more squadrons are selected for display, Add Mission and Delete Mission are disabled.
 
 Calendar
 
-Zulu: When selected, the sortie times are based on Zulu. Also, it al ows editing dates and times in Zulu but not Local.
+Zulu: When selected, the sortie times are based on Zulu. Also, it allows editing dates and times in Zulu but not Local.
 
-Local: When selected, the sortie times are based on Local. Also, it al ows editing dates and times in Local but not Zulu. !!! Note Local date is determined by the user's location set in the Users & Permissions module.
+Local: When selected, the sortie times are based on Local. Also, it allows editing dates and times in Local but not Zulu.
 
-Start/End Date/Time: Defines the time span in which to display missions/sorties.
+!!! Note
+    Local date is determined by the user's location set in the Users & Permissions module. Start/End Date/Time: Defines the time span in which to display missions/sorties.
 
 Load Sorties: Refreshes the sortie display after changing squadron or dates.
 
 Page refresh: \(counter-clockwise-open-arrows\) Refreshes the page.
 
-Pin page \(thumbtack icon\): Any of the four Flying Schedule pages \(Sorties, Crew, Loads, or Setup\) may be
-
-“pinned’ to open first. This is a user preference.
+Pin page \(thumbtack icon\): Any of the four Flying Schedule pages \(Sorties, Crew, Loads, or Setup\) may be “pinned’ to open first. This is a user preference.
 
 Date Display: Displays date or date span as selected in the Calendar control, in both normal and Julian formats. Arrow keys allow movement of the date or, if selected, a date span. If a date span is displayed, the span retains the selected number of days.
 
@@ -1427,21 +1376,22 @@ Setup the Crew tab
 
 1. Set either a Five-Day or One-Day View. To switch to a One-Day View, right-click on the desired day below any existing sorties \(in blank area\) to invoke Expand Day and click it. To toggle back to Five-Day, right-click and click Collapse Day.
 
-2. Choose which Sortie data to display by clicking the Page Settings icon at top-right \(white box with green arrow\). Go to Setup> Five-Day View. The Five Day View Settings dialog will open. Select either 1
-
-or 2 Row option, then drag/drop your desired Sortie data columns into Table Columns and order them by drag-and-drop. Click OK. The One-Day View is configured separately using the same procedure.
+2. Choose which Sortie data to display by clicking the Page Settings icon at top-right \(white box with green arrow\). Go to Setup> Five-Day View. The Five Day View Settings dialog will open. Select either 1 or 2 Row option, then drag/drop your desired Sortie data columns into Table Columns and order them by drag-and-drop. Click OK. The One-Day View is configured separately using the same procedure.
 
 3. Choose which Commitment Types to show below the Sorties. This is done from the same Five-Day or One-Day View Settings dialog launched from Page Settings. Simply check desired “Multiple Commitment Types Shown” and “Single Commitment Type Shown”. Most units select Leave/TDY for the Single Commitment Type in order to break out these long-term commitments from the daily meetings and training. Click OK.
 
-!!! Note We recommend not selecting the Mission and Sortie commitment types because they already display above in the Sortie list.
+    !!! Note
+        We recommend not selecting the Mission and Sortie commitment types because they already display above in the Sortie list.
 
 4. Display a Crew list by selecting an existing personnel filter or creating a new one. Create a new filter by clicking the “funnel” icon, upper-left in the Crew grid. Clear the filter by clicking the red X.
 
-Caution. When using the Flying Schedule Crew tab to schedule personnel onto sorties, you wil experience faster performance by filtering the Crew List to as few people as possible. With a Crew List of about 30 people you will experience satisfactory speed. With a Crew List of over 200 people it will take three to four times longer to crew a sortie. If you experience performance outside these parameters, please contact the PEX Help Desk.
+    !!! Caution
+        When using the Flying Schedule Crew tab to schedule personnel onto sorties, you wil experience faster performance by filtering the Crew List to as few people as possible. With a Crew List of about 30 people you will experience satisfactory speed. With a Crew List of over 200 people it will take three to four times longer to crew a sortie. If you experience performance outside these parameters, please contact the PEX Help Desk.
 
 5. Configure the Crew List to show or hide Availability, Squadron, Stan Eval, and/or RAP: From the Page Settings icon select Setup, then check/un-check from the menu \(below Five-Day and One-Day options\).
 
-!!! Note Hiding the Stan Eval and RAP columns will increase the speed of this page.
+    !!! Note
+        Hiding the Stan Eval and RAP columns will increase the speed of this page.
 
 Pick the sorties to work on
 
@@ -1451,17 +1401,15 @@ Schedule crew members onto sorties
 
 1. Click on the “Check Schedule Report” icon at the top of the Crew List \(green checkmark\). This report identifies scheduling priorities for the selected time frame. Move the report to another monitor or print it. The report includes data for all the personnel in the Crew List.
 
-2. Click on a sortie to be crewed. Notice the crew list now displays information about each person.
-
-Referring to the legend, you can tell if the person is overdue for training, on DNIF, on a Restriction, on Supervised Status, already committed, in the zone for an evaluation, and/or their RAP count. Using the information from the Check Schedule report for priorities, schedule a person onto the sortie by drag-112
-
-and-drop from the Crew List to the Sortie. When your sorties are al crewed, run the Check Schedule report again to see any missed priorities.
+2. Click on a sortie to be crewed. Notice the crew list now displays information about each person. Referring to the legend, you can tell if the person is overdue for training, on DNIF, on a Restriction, on Supervised Status, already committed, in the zone for an evaluation, and/or their RAP count. Using the information from the Check Schedule report for priorities, schedule a person onto the sortie by drag-and-drop from the Crew List to the Sortie. When your sorties are al crewed, run the Check Schedule report again to see any missed priorities.
 
 3. To remove someone from a sortie, click on the name and drag it back to the Crew List. You can also drag a person from one sortie to another. You cannot drag a person from a sortie to a commitment below or from a commitment to a sortie.
 
-!!! Note When a person is selected in the Crew List, the name is highlighted everywhere it appears. This wil help you view a person’s weekly schedule at a glance. This is useful for spotting tight turn times between finishing night duty and starting morning duty.
+    !!! Note
+        When a person is selected in the Crew List, the name is highlighted everywhere it appears. This wil help you view a person’s weekly schedule at a glance. This is useful for spotting tight turn times between finishing night duty and starting morning duty.
 
-!!! Note If a person is dragged onto a sortie that creates a conflict with another commitment, a Conflict Dialog will display. This dialog will enable you to “Schedule” the person anyway or to “Cancel,” which does not put the person on the sortie.
+    !!! Note
+        If a person is dragged onto a sortie that creates a conflict with another commitment, a Conflict Dialog will display. This dialog will enable you to “Schedule” the person anyway or to “Cancel,” which does not put the person on the sortie.
 
 Enter flight authorization and 781 data for the crew
 
@@ -1473,37 +1421,31 @@ Hide Tail Numbers for No-Go personnel
 
 2. Back on the Crew tab, once someone verifies a crewmember is good to go, go to the Crew Details dialog and manual y uncheck the No-Go box. Once al crew members on the sortie are unchecked, the tail number will display.
 
-!!! Note This manual checkbox is not tied at all to the automatic Go/No-Go page in PEX.
+    !!! Note
+        This manual checkbox is not tied at all to the automatic Go/No-Go page in PEX.
 
 Add Crew Rest
 
-In the Crew Details dialog, if the Crew Rest and Post Crew Rest columns are not visible, right-click and select Grid Settings. Check the box next to them and click OK. You can setup PEX to auto-add Pre-Sortie Crew Rest.
+In the Crew Details dialog, if the Crew Rest and Post Crew Rest columns are not visible, right-click and select Grid Settings. Check the box next to them and click OK. You can setup PEX to auto-add Pre-Sortie Crew Rest. This Crew Details dialog is where you can manually add Post-Sortie Crew Rest.
 
-This Crew Details dialog is where you can manually add Post-Sortie Crew Rest.
-
-!!! Note To add Post-Sortie Crew Rest automatically using the 1-to-3 rule, refer to the instructions at PEX
-
-Help> Scheduling> Flying Schedule – Setup> “setup Post-Mission Crew Rest 1-to-3 Rule”.
+!!! Note
+    To add Post-Sortie Crew Rest automatically using the 1-to-3 rule, refer to the instructions at PEX Help> Scheduling> Flying Schedule – Setup> “setup Post-Mission Crew Rest 1-to-3 Rule”.
 
 Build and use Crew Templates
 
-1. A Crew Template is a grouping of crew positions, e.g., two pilots, one navigator, two loadmasters \(P, P, N, L, L\). To create a Crew Template, right-click on a sortie which has been crewed with the desired crew makeup. Right-click and select Save As: Crew Template. Provide the template a Name, e.g.,
-
-“Overwater Nav Crew.” Description is optional.
+1. A Crew Template is a grouping of crew positions, e.g., two pilots, one navigator, two loadmasters \(P, P, N, L, L\). To create a Crew Template, right-click on a sortie which has been crewed with the desired crew makeup. Right-click and select Save As: Crew Template. Provide the template a Name, e.g., “Overwater Nav Crew.” Description is optional.
 
 2. To apply a Template to a Sortie, select the Crew Set tab at lower-left, and drag/drop the Crew Template Name to the sortie. To view the crew positions on a Crew Template, click the “\+” icon. To fil the template with actual people, use the Crew tab and drag/drop.
 
 Build and use Hard Crews \(Crew Set\)
 
-1. A Crew Set is a group of specific people \(not crew positions\). To create a Crew Set, right-click on a sortie which has been crewed and select Save As: Crew Set. Provide the crew set a Name, e.g., “R-21”.
-
-Description is optional.
+1. A Crew Set is a group of specific people \(not crew positions\). To create a Crew Set, right-click on a sortie which has been crewed and select Save As: Crew Set. Provide the crew set a Name, e.g., “R-21”. Description is optional.
 
 2. To schedule a hard crew to a sortie, select the Crew Set tab at lower-left, and drag/drop the Crew Set Name to the sortie. To view people on a Crew Set, click the “\+” icon.
 
 Schedule ground commitments from here
 
-To add a new commitment. While holding down the Ctrl key, drag a person from the Crew List to the Commitment area at lower-right to the desired day. Release the mouse button while stil holding the Ctrl key. A Commitment dialog for the person wil appear. Enter the commitment data, click off the row to save, and close the dialog. The commitment will appear on the Crew tab. If it does not, you have probably chosen to not see this type of commitment. To make it show up, go to Page Settings \(upper-right icon\) and check the desired “Multiple Commitment Types Shown”.
+To add a new commitment. While holding down the Ctrl key, drag a person from the Crew List to the Commitment area at lower-right to the desired day. Release the mouse button while still holding the Ctrl key. A Commitment dialog for the person wil appear. Enter the commitment data, click off the row to save, and close the dialog. The commitment will appear on the Crew tab. If it does not, you have probably chosen to not see this type of commitment. To make it show up, go to Page Settings \(upper-right icon\) and check the desired “Multiple Commitment Types Shown”.
 
 To add a person to an existing commitment. Drag-and-drop the person from the Crew List onto the commitment. You can build shell commitments, such as Alert, Duty Officer, or SOF on the Commitments Board, then use the Crew tab to fil the commitments.-
 
@@ -1529,47 +1471,47 @@ In the grid on the left, select the SCLs tab \(at the bottom of the grid.\) \(!!
 
 Auto-build an SCL number from individual load items
 
-Many units schedule loads/munitions onto sorties by individual items, each having a code number. The combination of these individual code numbers generates the overal requested loading for the sortie, which in PEX is called Load Code. For example, the first two digits of the code would represent the air-to-ground munition, the second two digits the air-to-air munition, the third two digits the ECM pod, and the last two digits the ammunition. For example, a sortie with an AIM-9X air-to-air missile with a code of 22, a Mk-84 air-to-ground bomb with a code of 37, an ECM pod of code 41, and an ammo loading of 2500 rounds of code 25; would generate an overall Load Code number of 22374125. To use Load Codes in PEX, do the following: Use only a single station on the sortie. Call it whatever you like, “Sortie” would be fine.
+Many units schedule loads/munitions onto sorties by individual items, each having a code number. The combination of these individual code numbers generates the overall requested loading for the sortie, which in PEX is called Load Code. For example, the first two digits of the code would represent the air-to-ground munition, the second two digits the air-to-air munition, the third two digits the ECM pod, and the last two digits the ammunition. For example, a sortie with an AIM-9X air-to-air missile with a code of 22, a Mk-84 air-to-ground bomb with a code of 37, an ECM pod of code 41, and an ammo loading of 2500 rounds of code 25; would generate an overall Load Code number of 22374125. To use Load Codes in PEX, do the following:
 
-Schedule individual load items onto that station and use drag-and-drop to order them.
-
-PEX will generate the Load Code and display it on the Mission Board and the Aircraft Status Board.
+* Use only a single station on the sortie. Call it whatever you like, “Sortie” would be fine.
+* Schedule individual load items onto that station and use drag-and-drop to order them.
+* PEX will generate the Load Code and display it on the Mission Board and the Aircraft Status Board.
 
 Page Controls
 
-■ Squadron: Selects which squadron's missions/sorties and ground commitments are displayed.
+* Squadron: Selects which squadron's missions/sorties and ground commitments are displayed.
 
-■ MDS: Selects which sorties, by MDS, are displayed. Only sorties that are assigned this MDS will display so if you have sorties that do not have an MDS assigned they will not show up or if you have sorties with a different MDS assigned, you wil need to change the MDS selection to view them.
+* MDS: Selects which sorties, by MDS, are displayed. Only sorties that are assigned this MDS will display so if you have sorties that do not have an MDS assigned they will not show up or if you have sorties with a different MDS assigned, you wil need to change the MDS selection to view them.
 
-■ Local/Zulu: Selects whether the missions/sorties displayed for a given date are for that local date or Zulu date. Local date is determined by the user's location set in the Users & Permissions module.
+* Local/Zulu: Selects whether the missions/sorties displayed for a given date are for that local date or Zulu date. Local date is determined by the user's location set in the Users & Permissions module.
 
-■ Calendar Control: The double arrows move the display five days at a time. The single arrow moves the display one day at a time. The calendar icon brings up a control that will allow you to select any date.
+* Calendar Control: The double arrows move the display five days at a time. The single arrow moves the display one day at a time. The calendar icon brings up a control that will allow you to select any date.
 
-■ Last Updated Time: The last time sortie data was updated.
+* Last Updated Time: The last time sortie data was updated.
 
-■ Formation Replication: This is the icon with the capital F located at the top right of the loads grid. When selected it has a down arrow beside it to indicate activation. When activated, any changes made to lead’s load/SCL will be replicated to the wingmen in the formation.
+* Formation Replication: This is the icon with the capital F located at the top right of the loads grid. When selected it has a down arrow beside it to indicate activation. When activated, any changes made to lead’s load/SCL will be replicated to the wingmen in the formation.
 
-■ Celestial Data: Sunrise/Sunset, Moonrise/Moonset, and Percent Moon Illumination are calculated based on the user's location's latitude/longitude and date.
+* Celestial Data: Sunrise/Sunset, Moonrise/Moonset, and Percent Moon Illumination are calculated based on the user's location's latitude/longitude and date.
 
-1. Right-Click on a Sortie Functions:
+    1. Right-Click on a Sortie Functions:
 
-A. Edit Munition Proj \#: When selected, a dialog opens allowing you to select a Munitions Project Number for the sortie.
+        1. Edit Munition Proj \#: When selected, a dialog opens allowing you to select a Munitions Project Number for the sortie.
 
-B. Clear All Load Items: When selected, clears all loads from the sortie.
+        2. Clear All Load Items: When selected, clears all loads from the sortie.
 
-C. Expand Day: Right-click on a day when in Five-Day view, select Expand Day and it expands the display to show the One-Day View.
+        3. Expand Day: Right-click on a day when in Five-Day view, select Expand Day and it expands the display to show the One-Day View.
 
-D. Collapse Day: Right-click on a day when in One-Day view, select Collapse Day and it collapses the display to show the Five-Day View.
+        4. Collapse Day: Right-click on a day when in One-Day view, select Collapse Day and it collapses the display to show the Five-Day View.
 
-2. Right-Click on a Station Functions:
+    2. Right-Click on a Station Functions:
 
-A. Delete Load Item: When selected, the load item wil be deleted.
+        1. Delete Load Item: When selected, the load item wil be deleted.
 
-B. Add Station: When selected, adds a new station to the end of your list of stations cal ed New Station. You can rename the station and otherwise use it as you would any other station. This allows you to account for a tail number that has an extra station.
+        2. Add Station: When selected, adds a new station to the end of your list of stations cal ed New Station. You can rename the station and otherwise use it as you would any other station. This allows you to account for a tail number that has an extra station.
 
-C. Delete Station: When selected, deletes the station you right clicked in, along with any loads on the station.
+        3. Delete Station: When selected, deletes the station you right clicked in, along with any loads on the station.
 
-D. Clear Station Load Items: When selected, al load items on the station wil be deleted.
+        4. Clear Station Load Items: When selected, al load items on the station wil be deleted.
 
 FS - ICBM Schedule
 
@@ -1579,97 +1521,81 @@ What logic does PEX use to build the alert schedule?
 
 PEX will auto-schedule personnel onto alert missions using the following rules:
 
-■ The alert schedule can be generated for 62 days max
+* The alert schedule can be generated for 62 days max
 
-■ The alert is manned with an MCCC \(Mission Commander\). Additional crew members can be MCCCs or DMCCCs \(Deputy Mission Commanders\)
+* The alert is manned with an MCCC \(Mission Commander\). Additional crew members can be MCCCs or DMCCCs \(Deputy Mission Commanders\)
 
-• If you check the box Create Schedule with Incomplete Manning \(recommended\) and an MCCC is not available, PEX will build the schedule without an MCCC
+    * If you check the box Create Schedule with Incomplete Manning \(recommended\) and an MCCC is not available, PEX will build the schedule without an MCCC
 
-• If you don’t check the box Create Schedule with Incomplete Manning and an MCCC is not available, PEX wil not build the schedule
+    * If you don’t check the box Create Schedule with Incomplete Manning and an MCCC is not available, PEX wil not build the schedule
 
-■ If a person’s crew position is not MCCC or DMCCC, the person wil not be scheduled
+* If a person’s crew position is not MCCC or DMCCC, the person wil not be scheduled
 
-■ If a person's Max Alerts per Month = 0, the person wil not be scheduled
+* If a person's Max Alerts per Month = 0, the person wil not be scheduled
 
-■ If a person has another commitment on a day, the person wil not be scheduled
+* If a person has another commitment on a day, the person wil not be scheduled
 
-■ If the alert location requires a specific certification, the crew must have that certification with a status of "Is Certified"
+* If the alert location requires a specific certification, the crew must have that certification with a status of "Is Certified"
 
-■ A person cannot be scheduled for more than his/her established Max Alerts per Month 116
+* A person cannot be scheduled for more than his/her established Max Alerts per Month
 
-98.png)
+* If a person's Max Alerts per Month is equal to 1 or 2, that person is not scheduled for an Alert sortie that falls on Saturday or Sunday. Travel and Off Days can fall on the weekend but not the Alert.
 
-36.png)
+* People with the same crew number sit alert together, when able
 
-09.png)
+* If a location specifies a Flight, crew from that flight sit alert together, when able
 
-■ If a person's Max Alerts per Month is equal to 1 or 2, that person is not scheduled for an Alert sortie that falls on Saturday or Sunday. Travel and Off Days can fall on the weekend but not the Alert.
+* Available personnel are randomized, so the A’s don't always end up manning the 1st of the month
 
-■ People with the same crew number sit alert together, when able
-
-■ If a location specifies a Flight, crew from that flight sit alert together, when able
-
-■ Available personnel are randomized, so the A’s don't always end up manning the 1st of the month
-
-■ Available personnel are weighted, so those who got fewer alerts "last period" have a greater probability of getting an alert this period
+* Available personnel are weighted, so those who got fewer alerts "last period" have a greater probability of getting an alert this period
 
 Set this up
 
-1. Maintenance> Aircraft: Ensure an MDS of LGM-30G is listed 2. Setup> Squadrons: Ensure LGM-30G is selected for Show in Dropdown 3. Setup> Validation> expand Scheduling> expand Mission Board> click on Sortie Type. Right-click Add new Sortie Types: Alert, Off, and Travel. See figure below for example: 4. Setup> Personnel> Setup tab> select Crew Number. On the Listings grid, right click and select Add.
-
-Add the Crew Numbers specific to your unit.
-
-5. In the same area, select Crew Position. In the Listings grid, right-click and select Add. Add DMCCC
-
-and MCCC.
-
-
-
+1. Maintenance> Aircraft: Ensure an MDS of LGM-30G is listed
+2. Setup> Squadrons: Ensure LGM-30G is selected for Show in Dropdown
+3. Setup> Validation> expand Scheduling> expand Mission Board> click on Sortie Type. Right-click Add new Sortie Types: Alert, Off, and Travel. See figure below for example:
+    ![binders](PEX/img/../../img/Scheduling/Add Sortie.png){: style="height:100%;width:100%"}
+4. Setup> Personnel> Setup tab> select Crew Number. On the Listings grid, right click and select Add. Add the Crew Numbers specific to your unit.
+5. In the same area, select Crew Position. In the Listings grid, right-click and select Add. Add DMCCC and MCCC.
+    ![binders](PEX/img/../../img/Scheduling/Add DMCCC.png){: style="height:100%;width:100%"}
 6. In the same area, select Flight. Add the Flights specific to your unit.
-
 7. Switch to the Quals tab, select a shortname, set each person’s primary MDS, Qual Code, Crew Pos, and MAJCOM Quals \(if used\). See sample below:
-
-
-
+    ![binders](PEX/img/../../img/Scheduling/Select Quals.png){: style="height:100%;width:100%"}
 8. Switch to the Personnel tab, right-click and select Grid Settings. Set your grid settings as follows and save:
 
-• Records per page: 350
+    * Records per page: 350
 
-• Grid Columns: Select the Unselect ALL button, then check the fol owing boxes:
+    * Grid Columns: Select the Unselect ALL button, then check the following boxes:
 
-• Short Name
+    * Short Name
 
-• Name Last
+    * Name Last
 
-• Name First
+    * Name First
 
-• Name Middle
+    * Name Middle
 
-• Flight
+    * Flight
 
-!(images/000109.png)
+    * Aircrew Qual Code
 
-• Aircrew Qual Code
+    * CP
 
-• CP
+    * Crew Number
 
-• Crew Number
-
-• Max Alerts / Month
+    * Max Alerts / Month
 
 9. Still on Personnel tab, for each person that has Crew Position of DMCCC-A or MCCC-A, set the following:
 
-• Crew Number \(Optional\)
+    * Crew Number \(Optional\)
 
-• Flight \(Optional\)
+    * Flight \(Optional\)
 
-• Max Alerts / Month \(Required\): Set any number from 0 \(min\) – 31 \(max\).
+    * Max Alerts / Month \(Required\): Set any number from 0 \(min\) – 31 \(max\).
 
 10. Setup> Locations> Setup tab> Country/Location Type. On the right panel, add a Location Type of Silo.
 
-11. Switch to the Locations tab. In the Selection Criteria area, select Source as PEX, select the Type of Silo, then select Display data. Right-click, select ADD, and enter all your silo location names, e.g.,
-
-“A10\_1010\_MALM”.
+11. Switch to the Locations tab. In the Selection Criteria area, select Source as PEX, select the Type of Silo, then select Display data. Right-click, select ADD, and enter all your silo location names, e.g., “A10\_1010\_MALM”.
 
 12. Ops> Letter of X. Assign your personnel their certifications and set status to “is certified”. If required for a certain alert location, PEX will look for these certifications when the schedule is generated.
 
@@ -1678,20 +1604,15 @@ and MCCC.
 Generate the alert schedule
 
 1. Navigate to Scheduling> Flying Schedule> Sorties tab. Click the ICBM Schedule icon in the top Tool bar.
-
-2. The ICBM Auto Schedule dialog opens. Fill in the data similar to the following figure: 3. Click Create Schedule. When complete a log file is generated. Save this slog file. Close the dialog.
-
-72.png)
-
+2. The ICBM Auto Schedule dialog opens. Fill in the data similar to the following figure:
+    ![binders](PEX/img/../../img/Scheduling/ICBM Auto Schedule.png){: style="height:100%;width:100%"}
+3. Click Create Schedule. When complete a log file is generated. Save this slog file. Close the dialog.
 4. Once generated, it should look similar to:
+    ![binders](PEX/img/../../img/Scheduling/ICBM Schedule.png){: style="height:100%;width:100%"}
 
+Pull someone off alert
 
-
-Pul someone off alert
-
-On the Flying Schedule> Crew tab, drag the name off the mission, all three phases \(Alert, Travel, and Off\).
-
-Replace with another name.
+On the Flying Schedule> Crew tab, drag the name off the mission, all three phases \(Alert, Travel, and Off\). Replace with another name.
 
 Delete a mission
 
@@ -1705,49 +1626,37 @@ After seeing their schedules, you can use PEX to send out support requests.
 
 Register my squadron
 
-1. Navigate to Setup > Squadrons > MAJCOM Registration tab 2. Click the Register Squadron button
+1. Navigate to Setup > Squadrons > MAJCOM Registration tab
+2. Click the Register Squadron button
+3. In the Register Squadron with MAJCOM dialog, from Info Type drop-down select Scheduling
+4. From the squadron drop-down select the squadron to register
+5. Enter POC information as required. If your squadron already has POC information entered in the PEX Squadrons module, this information wil be pre-populated here. If the POC for DMO will be different from the one listed, overwrite the data. This will not override the POC information from the squadron page; it will be additional just for DMO.
+6. Enter the MAJCOM Name. MAJCOM name wil be pre-populated with the value from the Squadrons module. You can overwrite the information as required. To register a squadron with more than one MAJCOM DMO system, just repeat the process using a different MAJCOM name and MAJCOM URL. The MAJCOM URL wil be sent to you; once you have it, copy/paste into the space provided.
+7. Click Save. Clicking Save and New saves the information and clears the form to allow another entry. Clicking “Cancel” closes the dialog and no information is saved.
 
-3. In the Register Squadron with MAJCOM dialog, from Info Type drop-down select Scheduling 4. From the squadron drop-down select the squadron to register 5. Enter POC information as required. If your squadron already has POC information entered in the PEX Squadrons module, this information wil be pre-populated here. If the POC for DMO will be different from the one listed, overwrite the data. This will not override the POC information fromthe squadron page; it will be additional just for DMO.
-
-6. Enter the MAJCOM Name. MAJCOM name wil be pre-populated with the value from the Squadrons module. You can overwrite the information as required. To register a squadron with more than one 119
-
-MAJCOM DMO system, just repeat the process using a different MAJCOM name and MAJCOM URL. The MAJCOM URL wil be sent to you; once you have it, copy/paste into the space provided.
-
-7. Click Save. Clicking Save and New saves the information and clears the form to allow another entry.
-
-Clicking “Cancel” closes the dialog and no information is saved.
-
-Once your squadron is registered, the squadron’s status at MAJCOM wil be “waiting for approval.” Your MAJCOM will then approve your registration. Syncing of scheduling data is automatic at pre-determined intervals or can be done manually via the Sync to MAJCOM button in the Flying Scheduling > Sorties tab.
-
-There is no notification to you that your MAJCOM status has changed. Simply revisit the page or contact your MAJCOM by email or phone if you have any questions.
+Once your squadron is registered, the squadron’s status at MAJCOM wil be “waiting for approval.” Your MAJCOM will then approve your registration. Syncing of scheduling data is automatic at pre-determined intervals or can be done manually via the Sync to MAJCOM button in the Flying Scheduling > Sorties tab. There is no notification to you that your MAJCOM status has changed. Simply revisit the page or contact your MAJCOM by email or phone if you have any questions.
 
 We’re registered. How do we see another unit’s schedule
 
-1. Go to scheduling > Flying schedule > MAJCOM schedule 2. One time, setup your view. Right-click > Grid Settings and select to view DMO Support Requests.
-
-Select the eyebal for other columns you want to see and the padlock if you want that column locked to the left side of the grid.
-
+1. Go to scheduling > Flying schedule > MAJCOM schedule
+2. One time, setup your view. Right-click > Grid Settings and select to view DMO Support Requests. Select the eyeball for other columns you want to see and the padlock if you want that column locked to the left side of the grid.
 3. Select the registered MAJCOM you wish to view
-
 4. Set the date range you want to view. The filter selections display items that are scheduled. E.g., if you set a date range and don’t see MC-130P in the MDS list, it means none are scheduled for the selected dates.
-
 5. You could load the schedule at this time, but you’ll get all missions/sorties for all registered squadrons. This may be too large a list to be of practical use. Pare it down by using the filter selection controls which will narrow your choices as you select each section. The list of squadrons will depend on the MDSs selected. The list of sortie types wil depend on the squadrons selected.
-
-6. You can Load Sorties any time after you’ve set a date range. After you load the schedule, when you click on a sortie, the support request wil populate under the Msn Support Request at the bottom of page. The POC Information will also display. You can senda request email directly to the POC.
+6. You can Load Sorties any time after you’ve set a date range. After you load the schedule, when you click on a sortie, the support request wil populate under the Msn Support Request at the bottom of page. The POC Information will also display. You can send a request email directly to the POC.
 
 Send a support request
 
-1. Click to highlight the desired sortie/formation > DMO Support Request 2. The dialog will contain the Mission Number, Call Sign, and Msn Start/End times. Fill in information pertaining to your request using calendar/time controls and the 250-characterwindow for Mission Scenario.
-
+1. Click to highlight the desired sortie/formation > DMO Support Request
+2. The dialog will contain the Mission Number, Call Sign, and Msn Start/End times. Fill in information pertaining to your request using calendar/time controls and the 250-character window for Mission Scenario.
 3. All other blocks are drop-down choices
-
 4. Click Save or Save and Close. After saving the request, you are also able to Send Request Notifications. This tells the POC at the other unit to check PEX. It emails the details of your support request to one/some/al of the registered squadrons. When you select "Generate Email" the pre-populated email will appear. Proofread it and send.
 
 Temporarily suspend sending my scheduling data
 
-1. Navigate to Setup > Squadrons > MAJCOM Registration tab 120
-
-2. Click to highlight the squadron and MAJCOM you wish to deactivate 3. Click the Deactivate Connection button, and select OK at the confirmation dialog. The squadron’s record wil be highlighted grey in the display to indicate suspension.
+1. Navigate to Setup > Squadrons > MAJCOM Registration tab
+2. Click to highlight the squadron and MAJCOM you wish to deactivate
+3. Click the Deactivate Connection button, and select OK at the confirmation dialog. The squadron’s record wil be highlighted grey in the display to indicate suspension.
 
 Turn it back on
 
@@ -1761,31 +1670,27 @@ Introduction
 
 Use the Long Range Schedule \(LRS\) to:
 
-■ Display a 31-day personnel commitment schedule of your ful -range of Commitment types including shifts, utilizing Personnel filters, Letter of X Certifications and Teams.
+* Display a 31-day personnel commitment schedule of your ful -range of Commitment types including shifts, utilizing Personnel filters, Letter of X Certifications and Teams.
 
-■ Schedule non-flying commitments.
+* Schedule non-flying commitments.
 
-■ Determine manning levels; adequate manning on certain commitments \(e.g., Supervisors or Shifts\) and/or inadequate manning on other types of commitments \(e.g., Leave or TDY\).
+* Determine manning levels; adequate manning on certain commitments \(e.g., Supervisors or Shifts\) and/or inadequate manning on other types of commitments \(e.g., Leave or TDY\).
 
 Permission Roles
 
-■ Update the LRS: PEXAdmin, Administrator, Flight Scheduling and Ground Scheduling.
+* Update the LRS: PEXAdmin, Administrator, Flight Scheduling and Ground Scheduling.
 
-■ Read Only: Basic User, Read Only, Ops Desk, Ops Staff and SOF.
+* Read Only: Basic User, Read Only, Ops Desk, Ops Staff and SOF.
 
 Rules
 
-■ None.
+* None.
 
 Controls
 
 These features are accessed from the PEX Main Menu by navigating to Scheduling > Long Range Schedule.
 
 Workspace
-
-
-
-
 
 1. Save, add or delete a View.
 
@@ -1821,33 +1726,33 @@ Definitions
 
 For Supervisor or Shift commitments
 
-■ With Spares. The number of people scheduled is greater than the minimum.
+* With Spares. The number of people scheduled is greater than the minimum.
 
-■ No Spares. The minimum number of people are scheduled.
+* No Spares. The minimum number of people are scheduled.
 
-■ Under Manned. The number of people scheduled is less than the minimum.
+* Under Manned. The number of people scheduled is less than the minimum.
 
 For al other commitment types \(e.g., Leave or TDY\)
 
-■ With Spares. The number of people scheduled is greater than the maximum.
+* With Spares. The number of people scheduled is greater than the maximum.
 
-■ No Spares. The maximum number of people are scheduled.
+* No Spares. The maximum number of people are scheduled.
 
-■ Under Manned. The number of people scheduled is less than the maximum.
+* Under Manned. The number of people scheduled is less than the maximum.
 
 Long Range Schedule Setup
 
 The Long Range Schedule \(LRS\) displays scheduling data in customized views. These data pul from their respective modules.
 
-■ Commitment Types. Your full-range of Commitment Types \(Duty, TDY, etc.\)
+* Commitment Types. Your full-range of Commitment Types \(Duty, TDY, etc.\)
 
-■ Shift Types. Your full-range of Shift Types \(AM, PM, etc.\)
+* Shift Types. Your full-range of Shift Types \(AM, PM, etc.\)
 
-■ Personnel filters.
+* Personnel filters.
 
-■ Letter of X Certifications.
+* Letter of X Certifications.
 
-■ Personnel > Teams.
+* Personnel > Teams.
 
 There are two drop-down controls on the page. In the Personnel filter drop-down, select “\(None\)”. In the Squadron drop-down, select your squadron. You should see a list of people in your squadron and their commitments.
 
@@ -1857,23 +1762,23 @@ Views allow you to look at different groups of people \(e.g., Pilots, Loadmaster
 
 2. Click the Totals Displayed button. In the dialog, click the arrowheads to expand al the entries.
 
-A. For Shifts, select the Letter of X certifications \(e.g., Supervisor\) you need to monitor for minimum manning. For example, if you need at least two Supervisors per Shift.
+1. For Shifts, select the Letter of X certifications \(e.g., Supervisor\) you need to monitor for minimum manning. For example, if you need at least two Supervisors per Shift.
 
-B. For Commitments, select the Commitment Types \(e.g., Leave\) you need to monitor for maximum allowable. For example, if you want no more than 5 people on leave per day.
+2. For Commitments, select the Commitment Types \(e.g., Leave\) you need to monitor for maximum allowable. For example, if you want no more than 5 people on leave per day.
 
 Warning Flags
 
 3. Warning Flags button. Click Yes to the Confirm dialog about “… no views created.”
 
-A. For Shifts:
+1. For Shifts:
 
-1\) In the header, where the Shift name is, enter the minimum number of people needed on the shift overall.
+1\) In the header, where the Shift name is, enter the minimum number of people needed on the shift overalll.
 
 2\) Under the Shift name, for each certification, enter the minimum number of people, with that certification, needed on the shift.
 
 !!! Note Even though all the certifications show up, you only need to enter minimum values for the certifications in view \(on the screen behind the dialog.\)
 
-B. For Commitments, under the Team name, for each Commitment Type, enter the maximum number of people per day desired.
+2. For Commitments, under the Team name, for each Commitment Type, enter the maximum number of people per day desired.
 
 !!! Note Even though al the commitment types show up, you only need to enter maximum values for the commitment types in view \(on the screen behind the dialog.\)
 
@@ -1887,9 +1792,9 @@ Settings
 
 6. Click the Settings button. These settings are not by View; they are by-page. Each of your Views will use these settings.
 
-A. Number of operators per page. Computer performance permitting, select a high number \(e.g., 999\) that captures al your personnel.
+1. Number of operators per page. Computer performance permitting, select a high number \(e.g., 999\) that captures al your personnel.
 
-B. Show commitment text. In the LRS schedule blocks for each person/day, PEX wil show the first three characters of the Commitment Name if you check this box.
+2. Show commitment text. In the LRS schedule blocks for each person/day, PEX wil show the first three characters of the Commitment Name if you check this box.
 
 Edit or delete a View. To edit a view: select it, make the changes, and click View > Save. To delete it: select it and click View > Delete.
 
@@ -1897,13 +1802,13 @@ Use the Long Range Schedule
 
 Use the Long Range Schedule to:
 
-■ Check for scheduling issues, undermanned shifts, and/or excessive commitments.
+* Check for scheduling issues, undermanned shifts, and/or excessive commitments.
 
-■ Add, edit, and delete personnel commitments.
+* Add, edit, and delete personnel commitments.
 
-■ Email PDF schedules to your personnel.
+* Email PDF schedules to your personnel.
 
-■ Manage shift patterns, and to add or remove people from shifts. You cannot create Shifts or Shift Templates from the LRS module. Those must be managed in the Shift Schedule module.
+* Manage shift patterns, and to add or remove people from shifts. You cannot create Shifts or Shift Templates from the LRS module. Those must be managed in the Shift Schedule module.
 
 The instructions below apply to a View \(a grouping of people\). If you manage multiple Views \(groups of people\), accomplish the steps below for each View.
 
@@ -1913,25 +1818,25 @@ In the calendar area, scroll down and look for any person/date blocks that have 
 
 1. Blue triangle indicates multiple commitments are scheduled on that day and one needs to be identified as the primary commitment.
 
-A. Click on the person/date block to open the Commitments dialog.
+1. Click on the person/date block to open the Commitments dialog.
 
-B. Click on the person’s name to see that person’s commitments that day.
+2. Click on the person’s name to see that person’s commitments that day.
 
 NOTE. The red X in the Conflict column simply means the Reviewed checkbox is not checked. It does not mean there is or is not a conflict.
 
-C. In the Display column, pick the main commitment for the day. This one shows on the calendar and is the one that counts in the totals below.
+3. In the Display column, pick the main commitment for the day. This one shows on the calendar and is the one that counts in the totals below.
 
-D. In the Reviewed column, check the box and click OK.
+4. In the Reviewed column, check the box and click OK.
 
-E. Notice in the person/date block, the main commitment is displayed and the blue triangle is gone \(indicating you’ve reviewed this block\).
+5. Notice in the person/date block, the main commitment is displayed and the blue triangle is gone \(indicating you’ve reviewed this block\).
 
 2. Red Triangle indicates conflicting commitments.
 
-A. Click on the person/date block to open the Commitments dialog.
+1. Click on the person/date block to open the Commitments dialog.
 
-B. Click on the person’s name to see that person’s commitments that day.
+2. Click on the person’s name to see that person’s commitments that day.
 
-C. Edit the commitments to eliminate the conflict or accept the conflict.
+3. Edit the commitments to eliminate the conflict or accept the conflict.
 
 Check for undermanned shifts
 
@@ -1959,7 +1864,7 @@ Add a commitment
 
 Normally, commitments are managed in the Commitments Board module due to its greater functionality.
 
-However, to enter commitments directly from the LRS, the fol owing is the best way: 1. On the person/date block, right-click and select Add Commitment 2. Notice the date and person are already filled in. Enter the remaining data and click Save and Close.
+However, to enter commitments directly from the LRS, the following is the best way: 1. On the person/date block, right-click and select Add Commitment 2. Notice the date and person are already filled in. Enter the remaining data and click Save and Close.
 
 Edit a Commitment
 
@@ -1989,7 +1894,7 @@ Setup
 
 Concept. The Mission Board \(MB\) is used to build a flying schedule. Individual missions are created as either single sorties, formations, or trips. Airspace sortie events are added here. Once the missions are created in the MB, Crew and Loads are scheduled to those missions in the Flying Schedule module. You can tailor the MB to your flying mission.
 
-How do I setup the MB?  Fol owing are the steps needed to configure the MB for your unique flight scheduling operation. However, you may not need to do them if someone in your office has created a MB
+How do I setup the MB?  following are the steps needed to configure the MB for your unique flight scheduling operation. However, you may not need to do them if someone in your office has created a MB
 
 template. To find out, go to MB> Tools> Template Manager and see if your office has a template listed. It would normally be named something like “757TS Flight Scheduling”. If so, go ahead and Open it, close the MB, and come back to the MB. If you applied a template, you should skip the steps below.
 
@@ -2011,15 +1916,15 @@ Select the default takeoff and land locations, crew show time, crew brief time, 
 
 7. Set MB User Options. Go to Tools> Options.
 
-A. Set the Location Source to PEX
+1. Set the Location Source to PEX
 
-B. If your part-time personnel use the PEX Availability inputs, enable the Availability selection C. Select Sorties by Takeoff Date to exclude sorties that took off yesterday but land today D. Choose whether to see Cancelled Missions/Sorties
+2. If your part-time personnel use the PEX Availability inputs, enable the Availability selection C. Select Sorties by Takeoff Date to exclude sorties that took off yesterday but land today D. Choose whether to see Cancelled Missions/Sorties
 
-E. If you schedule traditional formations \(all sorties on one flight plan\), check the box for Auto Replicate Formation Data
+5. If you schedule traditional formations \(all sorties on one flight plan\), check the box for Auto Replicate Formation Data
 
 8. Set MB Squadron Options
 
-A. Airspace
+1. Airspace
 
 1\) Fighters and Trainers. If your sorties typically go to one airspace per sortie, pick “Airspace”
 
@@ -2031,17 +1936,17 @@ Track, pick Airspace twice. And so on, up to five.
 
 3\) Adjust your columns in the Sorties grid to account for these new columns.
 
-B. Actual Takeoff and Land Time Deviations. The MB will highlight actual takeoff and land times outside the minutes you set here.
+2. Actual Takeoff and Land Time Deviations. The MB will highlight actual takeoff and land times outside the minutes you set here.
 
-C. PFPS. Leave blank.
+3. PFPS. Leave blank.
 
-D. Supervisor Types. You can schedule up to three types of supervisors from the MB. Pick the three types here.
+4. Supervisor Types. You can schedule up to three types of supervisors from the MB. Pick the three types here.
 
-E. RPA Unit. Select the box for “Create MSN as RPA MSN”. This sets different logic on the missions add and al ows the use of the RPA Scheduler module.
+5. RPA Unit. Select the box for “Create MSN as RPA MSN”. This sets different logic on the missions add and allows the use of the RPA Scheduler module.
 
-F. Auto No-Go. The MB includes a manual No-Go process, not linked to the Go/No-Go module in PEX. Enable Auto No-Go to mark all your people as No-Go on the MB until you manual y check them as Go. This feature is used in our tail number denial process.
+6. Auto No-Go. The MB includes a manual No-Go process, not linked to the Go/No-Go module in PEX. Enable Auto No-Go to mark all your people as No-Go on the MB until you manual y check them as Go. This feature is used in our tail number denial process.
 
-G. Auto Sortie Numbering. The “Enable Auto Sortie \#/Line \#” adds a sortie number and line number to each sortie. Enter the starting Line Number. When you add sorties, PEX wil number them for you.
+7\. Auto Sortie Numbering. The “Enable Auto Sortie \#/Line \#” adds a sortie number and line number to each sortie. Enter the starting Line Number. When you add sorties, PEX wil number them for you.
 
 H. Change Notifications. The “Set Change Notifications” button allows you to select which fields trigger change notification actions.
 
@@ -2109,7 +2014,7 @@ How do I build a Sortie Event Set?  Enter the individual events in the Sortie Ev
 
 How do I use a Sortie Event Set?  To add a set to a sortie in the Sortie Events Builder tab, highlight the set and click the Add Set to Sortie button. A dialog will appear requesting a date and time to offset. All the other sortie events will offset from that date and time. Once you set the times and click “OK” another dialog will appear that says “Some events in the set already exist in the Sortie”. You have three options but we recommend that you use “Yes” which wil replace al the sortie events.
 
-How can I use a Sortie Event Set and stil retain my original ARCT data?  When PEX sees an ARCT sortie event on your original sortie, the Add Set to Sortie dialog wil come up with the Sortie Event Set ARCT event pre-selected and the checkbox "Retain Original ARCT Data" deselected. If you want to apply your standard routing and retain the ARCT and associated \(altitudes, call signs, etc.\) then all you have to do is select the
+How can I use a Sortie Event Set and still retain my original ARCT data?  When PEX sees an ARCT sortie event on your original sortie, the Add Set to Sortie dialog wil come up with the Sortie Event Set ARCT event pre-selected and the checkbox "Retain Original ARCT Data" deselected. If you want to apply your standard routing and retain the ARCT and associated \(altitudes, call signs, etc.\) then all you have to do is select the
 
 “Retain Original ARCT Data” and click OK.
 
@@ -2131,9 +2036,9 @@ Use Sortie Events to schedule the AR. In every case, enter the pertinent AR data
 
 4. Reverse AR. On the first ARCP sortie event, check the Reverse Track checkbox. Schedule the sequence as either:
 
-A. ARIP, ARCP, AREX, ARCP, and ARIP \(if the time to the AREX is also scheduled/control ed\) B. ARIP, ARCP, ARIP \(if the time to the AREX is not scheduled/control ed\) Scheduling Supervisors
+1. ARIP, ARCP, AREX, ARCP, and ARIP \(if the time to the AREX is also scheduled/control ed\) B. ARIP, ARCP, ARIP \(if the time to the AREX is not scheduled/control ed\) Scheduling Supervisors
 
-Concept. PEX al ows you to schedule up to three different kinds of squadron supervisors, e.g., SOF, Top 3, and Mobile. You decide as a squadron which three types to schedule. The supervisor schedule is displayed on the Mission Board, Commitments Board, and the scheduling reports.
+Concept. PEX allows you to schedule up to three different kinds of squadron supervisors, e.g., SOF, Top 3, and Mobile. You decide as a squadron which three types to schedule. The supervisor schedule is displayed on the Mission Board, Commitments Board, and the scheduling reports.
 
 How do I set it up?
 
@@ -2149,11 +2054,11 @@ Troubleshooting
 
 A supervisor wil not appear in the supervisor drop down for one of three reasons:
 
-■ They are not assigned an “is certified” status in Letter of X
+* They are not assigned an “is certified” status in Letter of X
 
-■ They are expired in the respective certification in Letter of X
+* They are expired in the respective certification in Letter of X
 
-■ They are “decertified” with cause in the respective certification in Letter of X
+* They are “decertified” with cause in the respective certification in Letter of X
 
 Lock Schedule
 
@@ -2171,7 +2076,7 @@ How do I unlock the schedule?  Once a schedule is locked, it can be unlocked onl
 
 Track Changes
 
-Concept. While working in the MB, changes are not tracked until you “Commit” the mission \(go firm\). Once committed, when you make a change to a tracked item, PEX al ows you to enter details about the change.
+Concept. While working in the MB, changes are not tracked until you “Commit” the mission \(go firm\). Once committed, when you make a change to a tracked item, PEX allows you to enter details about the change.
 
 To identify which items are tracked, go to Tools> Options> Squadron Preferences> Set Change Notifications.
 
@@ -2425,25 +2330,23 @@ NOTE
 
 MISSION REMARKS
 
-
-
 !!! Note PEX automatically removes dashes from MDSs. E.g., "MC-130" will export as "MC130".
 
 3. When ready to create the TAP export file, in the PEX MB, select "Tools, Export to TAP…" The "Export to TAP" dialog will appear. The dialog will display all the same missions/sorties displayed on the Mission Board.
 
-A. Using the "Export TAP File Location/Name" browse button, select the location and name to save the file about to be created.
+1. Using the "Export TAP File Location/Name" browse button, select the location and name to save the file about to be created.
 
-B. \(If known\) Type in the ATO ID, ACO, and Revision \#.
+2. \(If known\) Type in the ATO ID, ACO, and Revision \#.
 
-C. Enter your ATO Unit ID and Service. Click "Save Settings" to enter this Unit ID and Service for all your missions.
+3. Enter your ATO Unit ID and Service. Click "Save Settings" to enter this Unit ID and Service for all your missions.
 
-D. Select the missions you want exported to the file. Each PEX mission selected wil generate an
+4. Select the missions you want exported to the file. Each PEX mission selected wil generate an
 
 "AIRMSN" record on the export file.
 
-E. From among the missions you select for export, select the events you want to export. Clicking the "Show only CT Events" box wil filter your list down to just events that have control times. Each PEX sortie event selected wil generate a "TASK" record on the export file.
+5. From among the missions you select for export, select the events you want to export. Clicking the "Show only CT Events" box wil filter your list down to just events that have control times. Each PEX sortie event selected wil generate a "TASK" record on the export file.
 
-F. When you have al the missions and events selected, click "Export." The generated file can be imported by TAP.
+6. When you have al the missions and events selected, click "Export." The generated file can be imported by TAP.
 
 Distance, Time, and Fuel
 
@@ -2465,9 +2368,9 @@ OK, how do I use it?
 
 3. Time. PEX divides the distance by the average speed to derive a calculated \(approximate\) time, then PEX uses the greater of Calculated Time or Scheduled Time.
 
-A. If the Calculated Time between two Sortie Events is less than the Scheduled Time, PEX wil use the Scheduled Time. For example, if PEX calculates it wil take 15 minutes to get somewhere but you schedule 30 minutes, PEX wil use 30 minutes as the time.
+1. If the Calculated Time between two Sortie Events is less than the Scheduled Time, PEX wil use the Scheduled Time. For example, if PEX calculates it wil take 15 minutes to get somewhere but you schedule 30 minutes, PEX wil use 30 minutes as the time.
 
-B. If the Calculated Time between two Sortie Events is more than the Scheduled Time, PEX uses the Calculated Time. For example, if PEX calculates it will take 15 minutes to get somewhere but you schedule only 10 minutes, PEX wil 15 minutes as the time.
+2. If the Calculated Time between two Sortie Events is more than the Scheduled Time, PEX uses the Calculated Time. For example, if PEX calculates it will take 15 minutes to get somewhere but you schedule only 10 minutes, PEX wil 15 minutes as the time.
 
 4. Fuel. PEX multiplies the time by the average fuel flow to calculate the approximate fuel \(pounds or gal ons depending on how the fuel flow was entered\).
 
@@ -2484,11 +2387,11 @@ Using the MB, you can copy and paste large Remarks into the Mission Remarks fiel
 
 What do the colored names mean?
 
-■ Red indicates overdue a Priority 1 training task \(supervision required\)
+* Red indicates overdue a Priority 1 training task \(supervision required\)
 
-■ Orange indicates manual No-Go
+* Orange indicates manual No-Go
 
-■ Blue indicates both of the above
+* Blue indicates both of the above
 
 How do I enter actual takeoff and land times?  Click on the “clock with an A” icon and the actual time fields wil display in the Sortie grid. If you want to enter the current time, just click in the time field. If you want to change it from current time, click in the field and edit. If the time has already been saved, you will need to right-click on the time field and select “Adjust Actual” then you can change the times. This is to prevent accidental changes. If you click on the field for sorties at least one day in the past it will put scheduled time in the field.
 
@@ -2496,17 +2399,17 @@ Can I filter the list of sorties?  Yes, click on the Filter icon. You can filter
 
 What do the other icons do?
 
-■ M Icon with a slash through it - will hide the Mission grid if you have the Fighter view Selected
+* M Icon with a slash through it - will hide the Mission grid if you have the Fighter view Selected
 
-■ The M icon with a line up and down - expands the Mission grid in the Standard view
+* The M icon with a line up and down - expands the Mission grid in the Standard view
 
-■ The S icon with a line up and down - expands the Sorties grid in the Standard view
+* The S icon with a line up and down - expands the Sorties grid in the Standard view
 
-■ The S\# icon - will re-number your sorties
+* The S\# icon - will re-number your sorties
 
-■ The L\# icon - will re-number your line numbers
+* The L\# icon - will re-number your line numbers
 
-■ The icon with two heads - displays the Supervisor schedule
+* The icon with two heads - displays the Supervisor schedule
 
 Custom Flight Schedule
 
@@ -2544,7 +2447,7 @@ Adding Personnel Availability Data Manually
 
 2. For many days, use the Select by Days of Week grouping: A. Set the Date Span inside of which the available days will fall.
 
-B. Select the All Days radio button to set all of the days in the Date Span inside the Selected Days window or select the By Day radio button to set multiple instances of a certain day, and select the check boxes of the days to place in the Selected Days list.
+2. Select the All Days radio button to set all of the days in the Date Span inside the Selected Days window or select the By Day radio button to set multiple instances of a certain day, and select the check boxes of the days to place in the Selected Days list.
 
 3. Once the days are selected, set period availability by highlighting the days in the Selected Days list.
 
@@ -2578,33 +2481,33 @@ Canceling Availability Data Changes. Clicking Cancel aborts all changes from the
 
 Personnel Availability Menu
 
-■ File - Same as PEX
+* File - Same as PEX
 
-■ Edit -
+* Edit -
 
-• Clear Availability Days – With a squadron and individual selected there are three options: o Yes – Deletes the Availability dates starting today and clears the availability indicator for the selected individual, marking the individual available at all times for tasking.
+    * Clear Availability Days – With a squadron and individual selected there are three options: o Yes – Deletes the Availability dates starting today and clears the availability indicator for the selected individual, marking the individual available at all times for tasking.
 
 o No – Deletes the Availability dates starting today, leaving the individual marked as unavailable for tasking except as indicated in the Availability grid.
 
-• Cancel – Closes the dialog and makes no changes.
+    * Cancel – Closes the dialog and makes no changes.
 
-• Toolbar – Turns off and on the Toolbar.
+    * Toolbar – Turns off and on the Toolbar.
 
-• Status Bar – Turns off and on the Status Bar.
+    * Status Bar – Turns off and on the Status Bar.
 
-• Squadron Availability Periods - Displays the selected Squadron’s availability periods entered in the Setup, Squadrons module. The "A” icon on the toolbar performs the same function.
+    * Squadron Availability Periods - Displays the selected Squadron’s availability periods entered in the Setup, Squadrons module. The "A” icon on the toolbar performs the same function.
 
-• Refresh - Regenerates the screen displayed to present the most current information.
+    * Refresh - Regenerates the screen displayed to present the most current information.
 
-■ Tools -
+* Tools -
 
-• Create Import File - Launches a dialog to allow you to create an import file and specify where to save it.
+    * Create Import File - Launches a dialog to allow you to create an import file and specify where to save it.
 
-• Import Availability - Launches a dialog to allow you to import multiple personnel availability files.
+    * Import Availability - Launches a dialog to allow you to import multiple personnel availability files.
 
-■ Window - Same as PEX
+* Window - Same as PEX
 
-■ Help - Same as PEX
+* Help - Same as PEX
 
 ## RPA Schedule
 
@@ -2618,39 +2521,21 @@ Permissions
 
 Ops Desk, Flight Scheduling or Administrator.
 
-
-
-
-
 Module Notes
 
-■ A squadron must select "Create mission as RPA mission." RPA Missions are created in Flying Schedule
+* A squadron must select "Create mission as RPA mission." RPA Missions are created in Flying Schedule
 
 > Sorties or in Mission Board.
 
-■ Once created, RPA Missions do not display in Flying Schedule > Crew, they display in the RPA Schedule.
+* Once created, RPA Missions do not display in Flying Schedule > Crew, they display in the RPA Schedule.
 
-■ Only missions scheduled as RPA missions wil display in the RPA Schedule.
-
-
+* Only missions scheduled as RPA missions wil display in the RPA Schedule.
 
 Controls
 
 These procedures are accessed from the PEX Main Menu > Scheduling > RPA Schedule.
 
 Workspace
-
-
-
-
-
-
-
-
-
-
-
-
 
 1. Crew an RPA mission from an existing and crewed shift.
 
@@ -2664,17 +2549,9 @@ Page Display Menu \(upper right\)
 
 Group Role By: Select which of the five-digit crew positions you would like to use to define the role, as displayed in the expanded RPA Mission grid.
 
-
-
 Legend: Display the legend defining Vulnerability Period / Crew Coverage coding.
 
-
-
-Green = *Overall coverage*. This coverage bar indicates the portions of the Vulnerability Period that are col ectively covered by that respective role.
-
-
-
-
+Green = *overalll coverage*. This coverage bar indicates the portions of the Vulnerability Period that are col ectively covered by that respective role.
 
 Orange = *Not covered*. This coverage bar indicates the portions of the Vulnerability Period that are col ectively NOT covered by that respective role.
 
@@ -2688,8 +2565,6 @@ These colors quickly identify whether the personnel you have scheduled can ful y
 
 Right-Click Menu
 
-
-
 Vulnerability Periods: Displays the Vulnerability Periods dialog. Edit existing Vulnerability Periods, or add another Vulnerability Period for the selected mission.
 
 Crew Details: Access a dialog to enter the duty position, MAJCOM Quals, flight authorization codes, crew rest, pay status, scheduled evaluations, and remarks for everyone on the sortie and/or formation. Use this dialog to identify the formation Flight Lead, formation Deputy Flight Lead, and Mission Essential Ground Personnel.
@@ -2701,10 +2576,6 @@ Expand Al : Expands all missions reflected on the Mission Grid, revealing all Vu
 Col apse All: Collapses all missions reflected on the Mission Grid, hiding all Vulnerability Periods assigned.
 
 Legend: Display the legend defining Vulnerability Period / Crew Coverage coding \(as described above.\) Workflow
-
-
-
-
 
 RPA Schedule Setup
 
@@ -2746,15 +2617,15 @@ Add Vulnerability Periods
 
 4. Enter:
 
-A. Hand Off Unit – Unit previously controlling the asset for this mission \(if applicable\).
+1. Hand Off Unit – Unit previously controlling the asset for this mission \(if applicable\).
 
-B. GCS – The ground control station your unit is using for the Vulnerability Period.
+2. GCS – The ground control station your unit is using for the Vulnerability Period.
 
-C. Start Date/Start Time of your unit’s Vulnerability Period.
+3. Start Date/Start Time of your unit’s Vulnerability Period.
 
-D. End Date/End Time of your unit’s Vulnerability Period.
+4. End Date/End Time of your unit’s Vulnerability Period.
 
-E. Hand Back Unit – Unit gaining control of the asset for this mission \(if applicable\).
+5. Hand Back Unit – Unit gaining control of the asset for this mission \(if applicable\).
 
 !!! Note Times may be the same as the takeoff and land time \(e.g. 0600-1200\) or only the time the crew works the mission \(e.g. 0700-1100\).
 
@@ -2766,29 +2637,27 @@ Display Personnel by shifts or personnel filters
 
 Shifts
 
-■ Select the Shifts tab, lower left.
+* Select the Shifts tab, lower left.
 
-■ If personnel are assigned to shifts in the Shift Schedule module, covering the day selected, they wil display here, grouped by shift.
+* If personnel are assigned to shifts in the Shift Schedule module, covering the day selected, they wil display here, grouped by shift.
 
-■ If personnel are not assigned to shifts, use the filters described next.
+* If personnel are not assigned to shifts, use the filters described next.
 
 Filters
 
-■ Select the Crew tab, lower left.
+* Select the Crew tab, lower left.
 
-■ Personnel can be displayed in three panels: Crew Position, Duty AFSC and Certification.
+* Personnel can be displayed in three panels: Crew Position, Duty AFSC and Certification.
 
-■ In each, select an appropriate filter.
+* In each, select an appropriate filter.
 
 Manage Crewmembers on missions
 
-■ Once crewmembers are displayed in the Crew or Shifts panel, drag the desired individual with the desired role on to the Vulnerability Period.
+* Once crewmembers are displayed in the Crew or Shifts panel, drag the desired individual with the desired role on to the Vulnerability Period.
 
-■ To un-assign crew members from a Vulnerability Period, drag the crewmember back to the Shift/Crew Pane.
+* To un-assign crew members from a Vulnerability Period, drag the crewmember back to the Shift/Crew Pane.
 
-■ Right-click on the Mission header and select Legend to show color codes.
-
-
+* Right-click on the Mission header and select Legend to show color codes.
 
 ## Shift Schedule
 
@@ -2796,7 +2665,7 @@ Shift Schedule Basics
 
 Introduction
 
-The Shifts Scheduler module al ows you to schedule personnel to shifts. You can create shifts for any length of time assigned to a date range. You can create unit specific shift names, shift types, crew compositions, background colors to represent a specific shift types and create and manage shift patterns which support a rotational and recurring shift.
+The Shifts Scheduler module allows you to schedule personnel to shifts. You can create shifts for any length of time assigned to a date range. You can create unit specific shift names, shift types, crew compositions, background colors to represent a specific shift types and create and manage shift patterns which support a rotational and recurring shift.
 
 Permissions
 
@@ -2810,25 +2679,19 @@ Access these procedures by navigating from the PEX main menu to Scheduling > Shi
 
 Workspace
 
-
-
-
-
 1. Shifts and Setup tab: shifts tab displays shifts and allows modification of shifts. The setup tab supports setting up the module for use.
 
 2. Crew
 
-A. Position grid: use filters to bring in a list of personnel based upon crew position.
+1. Position grid: use filters to bring in a list of personnel based upon crew position.
 
-B. DAFSC grid: use filters to bring in a list of personnel based upon a DAFSC or a certification.
+2. DAFSC grid: use filters to bring in a list of personnel based upon a DAFSC or a certification.
 
-C. Certification grid: use filters to bring in a list of personnel based upon a DAFSC or a certification.
+3. Certification grid: use filters to bring in a list of personnel based upon a DAFSC or a certification.
 
 3. Crew and Crew Set tab: crew tab displays the CP, DAFSC and certifications pane. The crew set tab displays crew sets or crew templates built by the scheduler.
 
 Workflow
-
-
 
 Shift Schedule Setup
 
@@ -2844,21 +2707,21 @@ and/or teams for unit personnel based on a scheduler’s filter choices within t
 
 2. To view a Squadron roster to ensure all personnel have a CP, Qual codes, DAFSC and/or teams perform the following:
 
-A. Click on Roster tab.
+1. Click on Roster tab.
 
-B. On the left side \(select/order fields\) click on DAFSC, Teams.
+2. On the left side \(select/order fields\) click on DAFSC, Teams.
 
-C. On the right side \(select sections and types\) click on MDS Qual, LoX; Certifications and Remarks.
+3. On the right side \(select sections and types\) click on MDS Qual, LoX; Certifications and Remarks.
 
-D. Click print/export.
+4. Click print/export.
 
-E. A roster will be created indicating personnel who have their Personnel information filled in and when it was last updated.
+5. A roster will be created indicating personnel who have their Personnel information filled in and when it was last updated.
 
 3. If for some reason, personnel don’t have their CP/Qual/DAFSC filled in, perform the following: A. Within the Details tab, select a short name, and enter a DAFSC for the person.
 
-B. If you use teams, identify personnel using their short name to identify the team they belong to.
+2. If you use teams, identify personnel using their short name to identify the team they belong to.
 
-C. Within the Quals tab, select a short name, and ensure the individual has a primary crew position and qualifications identified. If not enter it within this tab.
+3. Within the Quals tab, select a short name, and ensure the individual has a primary crew position and qualifications identified. If not enter it within this tab.
 
 Setup- Letter of X module
 
@@ -2904,9 +2767,9 @@ Setup- Shift Types
 
 4. In the Master Shift Type Grid dialog, right-click Add.
 
-A. Enter the Shift Type name and pick a color for it.
+1. Enter the Shift Type name and pick a color for it.
 
-B. Light pastel background colors are easier to read.
+2. Light pastel background colors are easier to read.
 
 5. Click off the line to save and click OK.
 
@@ -2926,13 +2789,13 @@ Delete a Shift Template
 
 !!! caution A shift Template can be deleted when personnel are assigned to it. We recommend checking its current and future use within the schedule prior to deleting.
 
-■ Within the Setup Tab, click on the Template blue link \(top left corner of the display\).
+* Within the Setup Tab, click on the Template blue link \(top left corner of the display\).
 
-■ In the Shift Templates grid \(right side of display\), click on a shift template to delete.
+* In the Shift Templates grid \(right side of display\), click on a shift template to delete.
 
-■ Right click and select delete.
+* Right click and select delete.
 
-■ Answer the confirmation statement.
+* Answer the confirmation statement.
 
 Setup- Crew Template
 
@@ -2942,7 +2805,7 @@ Setup- Crew Template
 
 2. Add the crew to the shift by using your filters; select CP and Quals needed and or DAFSCs or certifications needed for the shift.
 
-A. Drag drop selected CPs/roles onto the shift.
+1. Drag drop selected CPs/roles onto the shift.
 
 3. When the correct role and/or qualification of the crew is correct, right-click and Save as a Crew Template.
 
@@ -3000,21 +2863,21 @@ Setup- Shift Patterns
 
 4. Click the Add button; the add shift patterns dialog box displays.
 
-A. Enter Pattern Name \(e.g., Panama Schedule\).
+1. Enter Pattern Name \(e.g., Panama Schedule\).
 
-B. Enter Pattern Description \(e.g., 3 days, 3 swings, 3 nights off rotation\). Use a pattern description that wil make sense to your unit.
+2. Enter Pattern Description \(e.g., 3 days, 3 swings, 3 nights off rotation\). Use a pattern description that wil make sense to your unit.
 
 5. Within Shift Pattern Details grid:
 
-A. Click on Add button.
+1. Click on Add button.
 
-B. Enter the \# of Days using the arrows.
+2. Enter the \# of Days using the arrows.
 
-C. Click the radio button to represent on shift or off shift.
+3. Click the radio button to represent on shift or off shift.
 
-D. Click in the shift template column, and select from the drop down menu the shift template for that line.
+4. Click in the shift template column, and select from the drop down menu the shift template for that line.
 
-E. Repeat until the shift pattern is finished.
+5. Repeat until the shift pattern is finished.
 
 6. Select Save; the Shift Pattern wil appear within the Pattern Name column for future use.
 
@@ -3070,13 +2933,13 @@ Add/Create a Shift Manual y
 
 3. The Add Shift dialog box will display. Insert the required shift information: A. Shift Name \(e.g., UEI shift\).
 
-B. Optional – Description \(e.g., ANG day shift\).
+2. Optional – Description \(e.g., ANG day shift\).
 
-C. Optional – Team if you are structured by Teams .
+3. Optional – Team if you are structured by Teams .
 
-D. Shift Type \(e.g., Days\).
+4. Shift Type \(e.g., Days\).
 
-E. Shift Information; start date/time, end date/time and debrief duration are required fields \(red asterisk indicates a required field\).
+5. Shift Information; start date/time, end date/time and debrief duration are required fields \(red asterisk indicates a required field\).
 
 4. Select Save & New or just Save.
 
@@ -3094,11 +2957,11 @@ Copy a shift
 
 5. Designate the day\(s\) to copy the shift, by either selecting the Select by Days of Week \(enter start/end date and radial button\) or Select by Day calendar \(click on calendar dates\).
 
-A. As dates are selected they will appear in the Preview grid.
+1. As dates are selected they will appear in the Preview grid.
 
-B. If you see an error in the Preview grid, right-click and Clear All.
+2. If you see an error in the Preview grid, right-click and Clear All.
 
-C. When the preview is correct, click OK.
+3. When the preview is correct, click OK.
 
 Edit a Shift on the schedule
 
@@ -3122,9 +2985,9 @@ Delete a Shift on the schedule
 
 4. If you need to delete multiple shifts, select Delete Multiple Shifts .
 
-A. Select a date range and select all or pick and choose which shifts to delete.
+1. Select a date range and select all or pick and choose which shifts to delete.
 
-B. Click OK to delete the selected shifts.
+2. Click OK to delete the selected shifts.
 
 Schedule Personnel
 
@@ -3144,7 +3007,7 @@ If using a Crew set or a Crew Template on the shift:
 
 2. Within the Crew Set grid there are two folders; Crew Sets \(people\) and Crew Templates \(role/DAFSC/Certification\).
 
-A. For Crew Set: Double-click on the Crew Sets folder to reveal the contents and double-click to reveal the crew shortnames.
+1. For Crew Set: Double-click on the Crew Sets folder to reveal the contents and double-click to reveal the crew shortnames.
 
 1\) Drag the folder onto the Shift Template.
 
@@ -3152,7 +3015,7 @@ A. For Crew Set: Double-click on the Crew Sets folder to reveal the contents and
 
 3\) To remove a person from a shift, select the person, drag them off the shift and back to the left grid.
 
-B. For Crew Template: Double-click on the Crew Templates folder to reveal the contents .
+2. For Crew Template: Double-click on the Crew Templates folder to reveal the contents .
 
 1\) Select a Crew Template .
 
@@ -3180,7 +3043,7 @@ Use a Shift Pattern
 
 6. Assign Personnel \(right side of dialog box\):
 
-A. Click on the Filter ICON and/or select a filter for people using the drop down menu.
+1. Click on the Filter ICON and/or select a filter for people using the drop down menu.
 
 7. Check mark personnel for the shift.
 
@@ -3210,13 +3073,13 @@ How do I use the Flying Schedule Reports?  These are the new schedules, found un
 
 3. Move on to the "Ground" tab and select what ground scheduling data \(Personnel Commitments\) you want to appear on the report.
 
-A. In the "Show" area, select whether to even display the "Ground" data at al and whether to label the entire schedule as "SECRET."
+1. In the "Show" area, select whether to even display the "Ground" data at al and whether to label the entire schedule as "SECRET."
 
-B. Select the squadron\(s\) from which you want personnel commitments to appear.
+2. Select the squadron\(s\) from which you want personnel commitments to appear.
 
-C. Select the Supervisor types from the selected squadrons.
+3. Select the Supervisor types from the selected squadrons.
 
-D. Select the Commitment types you want to appear from the selected squadrons.
+4. Select the Commitment types you want to appear from the selected squadrons.
 
 4. Select "PDF" to get a read-only type file or "Excel" to get an editable file.
 
@@ -3236,11 +3099,11 @@ Reverse Track. Define a Reverse AR track in PEX by checking the ”Reverse Track
 
 ”AREX” sortie event. PEX wil then disregard the second AREX and ARCP times and use the final ARIP
 
-time as real AREX time. PEX assumes a reverse AR track has the fol owing sortie events sequence: ARIP, ARCP, AREX, AREX, ARCP, and ARIP. AR Track duration is the time between the ARCP/ARCT and the final AREX \(which is really the geographic ARIP\).
+time as real AREX time. PEX assumes a reverse AR track has the following sortie events sequence: ARIP, ARCP, AREX, AREX, ARCP, and ARIP. AR Track duration is the time between the ARCP/ARCT and the final AREX \(which is really the geographic ARIP\).
 
 9. Airspace and Range Data. The flying schedules \(except Custom Schedule\) provide options to show airspace/range Name, Entry Time, IP \(Initial Point\) Time, and/or Exit Time.
 
-A. If you use the Sortie Events Builder tab to schedule your airspace/ranges, PEX looks for the following Mission Board Sortie Events to populate the following airspace/range data: 1\) Entry time: "LL EP", "Area Entry", and "ALTN EP"
+1. If you use the Sortie Events Builder tab to schedule your airspace/ranges, PEX looks for the following Mission Board Sortie Events to populate the following airspace/range data: 1\) Entry time: "LL EP", "Area Entry", and "ALTN EP"
 
 2\) IP time: "IP" \(but will display only if followed by LL EX, Area Exit, or ALTN EX\) 3\) Exit time: "LL EX", "Area Exit", and "ALTN EX"
 
@@ -3248,19 +3111,19 @@ A. If you use the Sortie Events Builder tab to schedule your airspace/ranges, PE
 
 If the locations are different \(e.g., IR 175 PtA, IR 175 IP, and IR 175 PtZ\), PEX will list the times on separate lines.
 
-B. If you use the Mission Builder tab, Sorties grid, Airspace columns to schedule your airspace/ranges, PEX include whatever you schedule for airspace/range Start Time and End Time.
+2. If you use the Mission Builder tab, Sorties grid, Airspace columns to schedule your airspace/ranges, PEX include whatever you schedule for airspace/range Start Time and End Time.
 
-C. If you use the Custom Schedule report, the airspace process is simpler and more generic. Any PEX Sortie Event or Airspace that you schedule between the Takeoff and Land times, that has a Location Name specified, wil show up on the report when you select Location, Airspace Entry, or Airspace Exit. Exit/End Time is based on Sortie Event Duration or Airspace End Time.
+3. If you use the Custom Schedule report, the airspace process is simpler and more generic. Any PEX Sortie Event or Airspace that you schedule between the Takeoff and Land times, that has a Location Name specified, wil show up on the report when you select Location, Airspace Entry, or Airspace Exit. Exit/End Time is based on Sortie Event Duration or Airspace End Time.
 
 10. Miscellaneous.
 
-A. If "IAF" is entered as a sortie event on the Bomber Schedule, the IAF time wil display on the schedule and "Pattern Time" wil calculate as the time between the IAF time and Land time.
+1. If "IAF" is entered as a sortie event on the Bomber Schedule, the IAF time wil display on the schedule and "Pattern Time" wil calculate as the time between the IAF time and Land time.
 
-B. If ”Bus” is entered as a sortie event, the ”Bus” local time will show.
+2. If ”Bus” is entered as a sortie event, the ”Bus” local time will show.
 
-C. Crew will show up in the same order as on the Flying Schedule/Crew module. If the order is not as desired on this report, make the change on the Flying Schedule> Crew tab.
+3. Crew will show up in the same order as on the Flying Schedule/Crew module. If the order is not as desired on this report, make the change on the Flying Schedule> Crew tab.
 
-D. If a person is assigned a WX Cat \(Personnel> Quals & Certs\), the fighter schedule will display the category in parentheses to the right of the crew position. This applies when the person has a MDS
+4. If a person is assigned a WX Cat \(Personnel> Quals & Certs\), the fighter schedule will display the category in parentheses to the right of the crew position. This applies when the person has a MDS
 
 qualification matching that scheduled on the sortie. If the MDS is different, the parentheses are empty.
 
@@ -3420,7 +3283,7 @@ How do I generate the 4327?
 
 6. Select which data to show up
 
-A. Show Only Sorties That Flew is used for an after-action report B. Show Tail Numbers is provided in case you use a Tail Number Denial process 7. Select the Day/Time combination you prefer
+1. Show Only Sorties That Flew is used for an after-action report B. Show Tail Numbers is provided in case you use a Tail Number Denial process 7. Select the Day/Time combination you prefer
 
 8. Select the template you prefer. Templates that al ow for saving the Signature of Authenticating Official.
 
@@ -3498,15 +3361,11 @@ Concept. PEX will fill out your AFSOC Form 40 for you. Navigate to Scheduling > 
 
 Select your desired options and generate the form. You can create templates for the additional comments section of the form. Create as many templates as you need.
 
-
-
 !(images/000108.png)
 
 28.png)
 
 Where in the PEX does the data pull from?
-
-
 
 The table below shows where in PEX you enter the information that fills in the form: !!! Note The Mission Board column names are the default ones. Yours may be different. If you can’t find these columns in the Mission Builder, they’ve probably been changed. Go to Setup > Labels > select your 157
 
@@ -3530,21 +3389,21 @@ How to Use. These are the new schedules, found under "Scheduling, Reports" in bo
 
 2. Start on the "Sorties" tab and select which sorties you want to appear on the schedule: A. Select the date range and whether you want times displayed in Local or Zulu. Locations with no Zulu Rule or DST Offset entered in the PEX Locations module will also display in Zulu only.
 
-B. Select the squadron\(s\) from which you want sorties. Select the MDS\(s\) you want to appear. Pick whether you want Alert, TDY, Cancelled, and/or Spare sorties to appear. \(Alert, TDY, and Cancelled are set in the Mission Board in the Missions grid. Spare sorties are created by including "sp"
+2. Select the squadron\(s\) from which you want sorties. Select the MDS\(s\) you want to appear. Pick whether you want Alert, TDY, Cancelled, and/or Spare sorties to appear. \(Alert, TDY, and Cancelled are set in the Mission Board in the Missions grid. Spare sorties are created by including "sp"
 
 anywhere in the Mission Board Line Number field, e.g., "601sp".\) C. Select "Show Only Actual Sorties" to get an after-action report of what actually flew \(sorties with Actual Takeoff and Land times entered on the Mission Board\) in actual takeoff order.
 
-D. Select "BASH Window" to display the Bird-Aircraft Strike Hazard window of time. This window is setup in the Squadrons module.
+4. Select "BASH Window" to display the Bird-Aircraft Strike Hazard window of time. This window is setup in the Squadrons module.
 
-E. Final y, in the "Display" area, pick the columns you want to appear on the schedule.
+5. Final y, in the "Display" area, pick the columns you want to appear on the schedule.
 
 3. Move on to the "Ground" tab and select what ground scheduling data \(Personnel Commitments\) you want to appear.
 
-A. In the "Show" area, select whether to even display the "Ground" data at al and whether to label the entire schedule as "SECRET."
+1. In the "Show" area, select whether to even display the "Ground" data at al and whether to label the entire schedule as "SECRET."
 
-B. Select the squadron\(s\) from which you want personnel commitments to appear.
+2. Select the squadron\(s\) from which you want personnel commitments to appear.
 
-C. Final y, select the supervisor types and commitment types you want to appear.
+3. Final y, select the supervisor types and commitment types you want to appear.
 
 4. Select "PDF" to get an Adobe Acrobat read-only type file or "Excel" to get Microsoft editable file.
 
@@ -3564,41 +3423,41 @@ sequence. Within an AR sequence, the first supporting data entered against any o
 
 Reverse Track. Define a Reverse AR track in PEX by checking the ”Reverse Track” box on the first ”AREX”
 
-sortie event. PEX will then disregard the second AREX and ARCP times and use the final ARIP time as real AREX time. PEX assumes a reverse AR track has the fol owing sortie events sequence: ARIP, ARCP, AREX, AREX, ARCP, and ARIP. AR Track duration is the time between the ARCP/ARCT and the final AREX \(which is really the geographic ARIP\).
+sortie event. PEX will then disregard the second AREX and ARCP times and use the final ARIP time as real AREX time. PEX assumes a reverse AR track has the following sortie events sequence: ARIP, ARCP, AREX, AREX, ARCP, and ARIP. AR Track duration is the time between the ARCP/ARCT and the final AREX \(which is really the geographic ARIP\).
 
 9. Airspace and Range Data. The flying schedules \(except Custom Schedule\) provide options to show airspace/range Name, Entry Time, IP \(Initial Point\) Time, and/or Exit Time.
 
-A. If you use the Sortie Events Builder tab to schedule your airspace/ranges, PEX looks for the following Mission Board Sortie Events to populate the following airspace/range data: 1\) Entry time: "LL EP", "Area Entry", and "ALTN EP"
+1. If you use the Sortie Events Builder tab to schedule your airspace/ranges, PEX looks for the following Mission Board Sortie Events to populate the following airspace/range data: 1\) Entry time: "LL EP", "Area Entry", and "ALTN EP"
 
 2\) IP time: "IP" \(but will display only if followed by LL EX, Area Exit, or ALTN EX\) 3\) Exit time: "LL EX", "Area Exit", and "ALTN EX"
 
 !!! Note If the Entry, IP, and Exit locations are the same \(e.g., IR 275\), PEX wil list the times on one line. If the locations are different \(e.g., IR 175 PtA, IR 175 IP, and IR 175 PtZ\), PEX will list the times on separate lines.
 
-B. If you use the Mission Builder tab, Sorties grid, Airspace columns to schedule your airspace/ranges, PEX include whatever you schedule for airspace/range Start Time and End Time.
+2. If you use the Mission Builder tab, Sorties grid, Airspace columns to schedule your airspace/ranges, PEX include whatever you schedule for airspace/range Start Time and End Time.
 
-C. If you use the Custom Schedule report, the airspace process is simpler and more generic. Any PEX Sortie Event or Airspace that you schedule between the Takeoff and Land times, that has a Location Name specified, wil show up on the report when you select Location, Airspace Entry, or Airspace Exit. Exit/End Time is based on Sortie Event Duration or Airspace End Time.
+3. If you use the Custom Schedule report, the airspace process is simpler and more generic. Any PEX Sortie Event or Airspace that you schedule between the Takeoff and Land times, that has a Location Name specified, wil show up on the report when you select Location, Airspace Entry, or Airspace Exit. Exit/End Time is based on Sortie Event Duration or Airspace End Time.
 
 10. Miscellaneous.
 
-A. If "IAF" is entered as a sortie event, the IAF time wil display on the schedule and "Pattern Time"
+1. If "IAF" is entered as a sortie event, the IAF time wil display on the schedule and "Pattern Time"
 
 wil calculate as the time between the IAF time and Land time.
 
-B. If ”Bus” is entered as a sortie event, the ”Bus” local time will show up in Remarks.
+2. If ”Bus” is entered as a sortie event, the ”Bus” local time will show up in Remarks.
 
-C. A cancelled sortie will show up with a gray background and ”CANX” in the Mission Number field.
+3. A cancelled sortie will show up with a gray background and ”CANX” in the Mission Number field.
 
-D. Crew will show up in the same order as on the Mission Board/Flying Schedule module. If the order is not as desired on this report, make the change on the Mission Board/Flying Schedule module.
+4. Crew will show up in the same order as on the Mission Board/Flying Schedule module. If the order is not as desired on this report, make the change on the Mission Board/Flying Schedule module.
 
-E. If a person is assigned a WX Cat \(Personnel> Quals & Certs\), the fighter schedule will display the category in parentheses to the right of the crew position. This applies when the person has a MDS
+5. If a person is assigned a WX Cat \(Personnel> Quals & Certs\), the fighter schedule will display the category in parentheses to the right of the crew position. This applies when the person has a MDS
 
 qualification matching that scheduled on the sortie. If the MDS is different, the parentheses are empty.
 
 11. Bomber Schedule New Prototype. PEX 5.12 includes a prototype for an improved flying schedule report. Please send the Help Desk any feedback you have on this prototype. To make maximum use of this report:
 
-A. In the WinPEX Labels module, at Scheduling – Mission Board – Mission Builder, re-label IFF to IFC, OFP, or Block as desired. Use that field on the Mission Board and it will show up on the schedule.
+1. In the WinPEX Labels module, at Scheduling – Mission Board – Mission Builder, re-label IFF to IFC, OFP, or Block as desired. Use that field on the Mission Board and it will show up on the schedule.
 
-B. Enter all your AR data on the ARCP sortie event line.
+2. Enter all your AR data on the ARCP sortie event line.
 
 Personnel Fly Hours
 
@@ -3608,21 +3467,21 @@ How do I generate the report?  Open the report interface by navigating to Schedu
 
 1. Personnel Tab. Select criteria by starting in the left column, which will narrow down the search as you go left to right.
 
-A. Select the Squadron\(s\) of the people you want to list
+1. Select the Squadron\(s\) of the people you want to list
 
-B. Select the desired flight\(s\)
+2. Select the desired flight\(s\)
 
-C. Select whether you want to list aircrew \(by MDS\) or non-aircrew \(by DAFSC\). Subsequently, select the desired MDS\(s\) or DAFSC\(s\).
+3. Select whether you want to list aircrew \(by MDS\) or non-aircrew \(by DAFSC\). Subsequently, select the desired MDS\(s\) or DAFSC\(s\).
 
-D. Select the desired Certification Code, Crew Position, and MAJCOM Quals 3, 4, and 5
+4. Select the desired Certification Code, Crew Position, and MAJCOM Quals 3, 4, and 5
 
-E. Select the desired Certifications. !!! Note This list uses an "AND" filter; the person must possess al of the selected certifications.
+5. Select the desired Certifications. !!! Note This list uses an "AND" filter; the person must possess al of the selected certifications.
 
-F. Select whether to sort the list by Name, Flight, or Hours 2. Flag Parameters Tab.
+6. Select whether to sort the list by Name, Flight, or Hours 2. Flag Parameters Tab.
 
-A. Select the Columns that you desire on the report
+1. Select the Columns that you desire on the report
 
-B. Then, for each of the 7, 30, 60, and 90 day periods, select minimum and maximum values to highlight. If the person is below the minimum value, the report will highlight the value yellow. If the person is above the maximum value, the report will highlight the value red.
+2. Then, for each of the 7, 30, 60, and 90 day periods, select minimum and maximum values to highlight. If the person is below the minimum value, the report will highlight the value yellow. If the person is above the maximum value, the report will highlight the value red.
 
 View the report by selecting PDF or Excel. You can then print from PDF by selecting the print icon, or from Excel by selecting Ctrl \+ P.
 
@@ -3680,8 +3539,6 @@ How to Use. Navigate to Scheduling, Reports, RPA Schedule Tab. Select your desir
 
 5. In the Order area, drag/drop the resulting values until they are in the desired order 6. Enter optional data in the six "Report Footer Fields" to customize the report 7. In the "Show These Report Sections" area, user must select at least one of the sections in order to return scheduling data.
 
-
-
 ## Scheduler
 
 Scheduler Basics
@@ -3694,9 +3551,9 @@ The Scheduler module is in development to replace many of the existing schedulin
 
 Permissions
 
-■ PEX Administrator and Scheduling Administrator: can build/edit/delete Missions, Events, Production Requests, and can work with ful access within the module.
+* PEX Administrator and Scheduling Administrator: can build/edit/delete Missions, Events, Production Requests, and can work with ful access within the module.
 
-■ Scheduler Read Only: al ows users to view the schedule only.
+* Scheduler Read Only: allows users to view the schedule only.
 
 Module Notes
 
@@ -3710,8 +3567,6 @@ The Scheduler is accessed from the PEX navigation panel > Scheduling > Scheduler
 
 Workspace
 
-
-
 1. Calendar and Timeline: View schedules in calendar \(shown\) or timeline display.
 
 2. Date span.
@@ -3724,21 +3579,19 @@ Workspace
 
 6. Select Publish or Unpublish mode \(when enabled.\)
 
-
-
 7. Add Events and Event Templates; Common Event Templates are Event, Mission and Production Request.
 
 8. Screen refresh.
 
 9. Setup Functions:
 
-A. Create Event Templates
+1. Create Event Templates
 
-B. Create Resource Role Templates
+2. Create Resource Role Templates
 
-C. Add and edit Lookup Lists.
+3. Add and edit Lookup Lists.
 
-D. Establish settings
+4. Establish settings
 
 1\) Enable Publish mode: On/Off
 
@@ -3753,10 +3606,6 @@ D. Establish settings
 Time Zone Selection
 
 The displayed time zone can be changed several ways. Al take you to the Select Time Zone dialog. Time Zone is in Calendar, Timeline, and Settings. Within the dialog you can page to the desired zone or use the type-ahead field to look for text.
-
-
-
-
 
 1. Click the time zone \(in blue\) on the date display to change on the fly.
 
@@ -3775,12 +3624,6 @@ With filters Off, you will see all squadrons and all events.
 3. When the filter list opens, check Select All or the applicable filter item.
 
 4. Use the back arrows to return to the main display with filters applied.
-
-
-
-
-
-
 
 Terms
 
@@ -3880,9 +3723,9 @@ Setup- Resource Templates
 
 8. In the Resource Template, click the More Options \(. .\) button next to a role; A. Click Copy to add more than one of a role to the Resource Template.
 
-B. Click Delete to remove the individual role.
+2. Click Delete to remove the individual role.
 
-C. Click Set Required if the role is required to accomplish the mission. A red asterisk is displayed in front of the required role.
+3. Click Set Required if the role is required to accomplish the mission. A red asterisk is displayed in front of the required role.
 
 9. Click Save and your template shows up in your list of Resource Templates.
 
@@ -3922,13 +3765,13 @@ Setup- Resource Status Type Requirement
 
 5. The status pop up will display; perform the following: A. From the dropdown select a status.
 
-B. Enter Remarks as required.
+2. Enter Remarks as required.
 
-C. Set dates if required; you can also just have a status that is turned on or off \(check box on\) no date required
+3. Set dates if required; you can also just have a status that is turned on or off \(check box on\) no date required
 
-D. Select an effective date using the calendar icon or typing the date.
+4. Select an effective date using the calendar icon or typing the date.
 
-E. Select an expiration date using the calendar icon or typing the date.
+5. Select an expiration date using the calendar icon or typing the date.
 
 6. Select Save, or Save and New.
 
@@ -3986,7 +3829,7 @@ Set Publish on/off mode for the Schedule
 
 9. When Publish is enabled, newly created “Events, Missions or Production Requests” are set to draft mode.
 
-A. Several ways draft and published items display.
+1. Several ways draft and published items display.
 
 1\) When adding a new Mission/Event or Production Request the details view wil show this statement: This \(event/mission/Production Request\) is a draft in a blue banner.
 
@@ -3998,9 +3841,9 @@ A. Several ways draft and published items display.
 
 5\) The Timeline view shows the draft item as a partial white background.
 
-B. Only schedulers with Admin or Scheduling Administrator rights can see the draft entries.
+2. Only schedulers with Admin or Scheduling Administrator rights can see the draft entries.
 
-C. Publish mode appears in your top right side of your display.
+3. Publish mode appears in your top right side of your display.
 
 Publish a Draft Mission/Event/Production Request
 
@@ -4016,11 +3859,11 @@ Publish a Draft Mission/Event/Production Request
 
 6. A pop-up Publish window appears with the options:
 
-• Events and resources
+    * Events and resources
 
-• Events
+    * Events
 
-!!! Note If Events and resources is selected, the scheduler is committing both the events and resources \(people and equipment\) required to accomplish the event. If only Events is selected, then the scheduler is committing the event, not the resources. The resources may stil be in flux or in need of approval.
+!!! Note If Events and resources is selected, the scheduler is committing both the events and resources \(people and equipment\) required to accomplish the event. If only Events is selected, then the scheduler is committing the event, not the resources. The resources may still be in flux or in need of approval.
 
 7. Select the desired option and click Publish. The blue draft banner is removed from the Event Details panel.
 
@@ -4042,9 +3885,9 @@ Unpublish a draft Mission/Event/Production Request
 
 6. A pop-up unpublish window appears with the options:
 
-• Events and resources
+    * Events and resources
 
-• Events
+    * Events
 
 7. Select the desired option and click on Unpublish.
 
@@ -4106,13 +3949,13 @@ Add a Custom Field
 
 5. From the drop down make a selection for the type of category you desire:
 
-• Checkbox
+    * Checkbox
 
-• Number
+    * Number
 
-• Text
+    * Text
 
-• Date and Time
+    * Date and Time
 
 6. Click Add for your selection.
 
@@ -4186,17 +4029,17 @@ Add a Person Resource
 
 4. Click on personnel from the list.
 
-A. If multiple people are selected over numerous pages, use the Show Only Selected People function option:
+1. If multiple people are selected over numerous pages, use the Show Only Selected People function option:
 
 1\) Click on the More Options \(. .\) button within the Add People panel.
 
 2\) Select Show Only Selected People; a list of only personnel selected wil be displayed.
 
-B. To revert back to selecting more people for the event, click on the More Options \(. .\) button again and click on Select People.
+2. To revert back to selecting more people for the event, click on the More Options \(. .\) button again and click on Select People.
 
-C. Continue selecting People as required.
+3. Continue selecting People as required.
 
-D. Persons with Go/NoGo issues will display a red ball next their name.
+4. Persons with Go/NoGo issues will display a red ball next their name.
 
 5. Click Done, and click Save.
 
@@ -4212,23 +4055,23 @@ Manage existing resource roles on a sub-event without opening the entire event i
 
 2. Expand and Col apse:
 
-A. On the Sub Event header, expand and col apse the resource roles by clicking the .. control.
+1. On the Sub Event header, expand and col apse the resource roles by clicking the .. control.
 
-B. On the resource list, expand and collapse the resource roles by clicking the V control.
+2. On the resource list, expand and collapse the resource roles by clicking the V control.
 
 3. Fill Role:
 
-A. Click on a resource role to view a list of resources meeting the role requirements.
+1. Click on a resource role to view a list of resources meeting the role requirements.
 
-B. Select the resource and it is added to the sub-event.
+2. Select the resource and it is added to the sub-event.
 
 4. Re-order:
 
-A. On the resource type, click on the .. control and select Re-Order Resource Roles.
+1. On the resource type, click on the .. control and select Re-Order Resource Roles.
 
-B. Click on the desired resource/resource role and drag to the desired order.
+2. Click on the desired resource/resource role and drag to the desired order.
 
-C. Click Done.
+3. Click Done.
 
 Set Resource Time Tracking
 
@@ -4242,11 +4085,11 @@ Once a resource is added to an event, time tracking schedules an event resource 
 
 4. Select the Time Mode from the dropdown:
 
-A. Time: Start Date/Time and End Date/Time.
+1. Time: Start Date/Time and End Date/Time.
 
-B. Al Day: The entire selected date.
+2. Al Day: The entire selected date.
 
-C. Offset: Set the days/hours/minutes offset from the parent event, and set the duration.
+3. Offset: Set the days/hours/minutes offset from the parent event, and set the duration.
 
 5. Click Additional Information and add information as desired.
 
@@ -4264,7 +4107,7 @@ Crew template statuses indicate, in both Panels and Calendar view, when all requ
 
 1. Under Resources, select Template.
 
-A. Check mark the desired Template; click Done.
+1. Check mark the desired Template; click Done.
 
 2. Click on the link for each crew position to find people who are qualified to fill the role.
 
@@ -4288,7 +4131,7 @@ Add a Resource Status Type Requirement
 
 4. Select a status type from the Available list displayed \(e.g., Title 10, Title 32, Not DNIF\).
 
-A. If no list displays this indicates your squadron hasn’t pre-loaded a coded script for your status types \(see note above\).
+1. If no list displays this indicates your squadron hasn’t pre-loaded a coded script for your status types \(see note above\).
 
 5. Click done then Save.
 
@@ -4296,17 +4139,17 @@ A. If no list displays this indicates your squadron hasn’t pre-loaded a coded 
 
 7. To find personnel that fulfill the status requirement, click add \(next to Person resource\).
 
-A. A blue banner will display indicating the status requirement.
+1. A blue banner will display indicating the status requirement.
 
-B. Personnel who meet the status requirement are listed.
+2. Personnel who meet the status requirement are listed.
 
-C. Click on the resource you want .
+3. Click on the resource you want .
 
-D. Select save.
+4. Select save.
 
 8. If using a Resource Template with a Status Requirement perform the following: A. Click on a blue crew template role link \(below Person\).
 
-B. A blue banner wil display and below the banner are personnel who meet the resource template requirement and the status requirement.
+2. A blue banner wil display and below the banner are personnel who meet the resource template requirement and the status requirement.
 
 9. Click on the resource\(s\) you want.
 
@@ -4324,11 +4167,11 @@ Enter actual start/end times
 
 5. Under start date, click add; enter the actual start time of event.
 
-A. If there is a difference in time, it will appear in a gray box with a ‘\+ or –‘ sign next to the actual time.
+1. If there is a difference in time, it will appear in a gray box with a ‘\+ or –‘ sign next to the actual time.
 
 6. Under end date, click add; enter the actual end time of the event.
 
-A. If there is a difference in time, it will appear in a gray box with a ‘\+ or –‘ sign next to the actual time.
+1. If there is a difference in time, it will appear in a gray box with a ‘\+ or –‘ sign next to the actual time.
 
 7. For a sub event, click the sub task and execute the same steps to enter actual start/end times for the sub event.
 
@@ -4338,9 +4181,9 @@ Add attachment\(s\) to a Mission, Event or Production Request
 
 1. Select any type of event from the calendar or create a new one.
 
-A. If using a previously created event select the edit icon.
+1. If using a previously created event select the edit icon.
 
-B. Scroll down to Attachments \(bottom of display\), and click Add.
+2. Scroll down to Attachments \(bottom of display\), and click Add.
 
 2. For new event select More Details, scroll down to attachments \(bottom of display\), and click Add.
 
@@ -4370,9 +4213,9 @@ Add Categories to a Mission, Event or Production Request
 
 1. Select any type of event from the calendar or create a new one.
 
-A. If using a previously created event select the edit icon.
+1. If using a previously created event select the edit icon.
 
-B. Scroll down to Categories \(bottom of display\), and click Add.
+2. Scroll down to Categories \(bottom of display\), and click Add.
 
 2. For new event select More Details, scroll down to Categories \(bottom of display\), and click Add.
 
@@ -4400,19 +4243,17 @@ Display a Mission/Event/Production Request in Timeline mode
 
 5. Just under the date range, at Refine, select from the following:
 
-• Group by Person to see personnel.
+    * Group by Person to see personnel.
 
-• Group by Event \(Events, Missions and Production Requests wil display\).
+    * Group by Event \(Events, Missions and Production Requests wil display\).
 
-• Group by Aircraft.
+    * Group by Aircraft.
 
 6. Once the data displays, click on blue arrows to expand/collapse data. See workspace diagram below.
 
 Workspace
 
 !(images/0001
-
-
 
 1. Scale: Scale the Timeline schedule to display in hours, weeks, months, quarter, semi-annual or year 2. Zoom: Choose to drill down into the schedule by selecting a zoom range from 1 to 5
 
@@ -4432,13 +4273,13 @@ The Hierarchy view is organized into a tree-like structure and can be used on Mi
 
 5. Hierarchy view displays the Mission/Event/Production Request and any sub events.
 
-A. Hide and unhide resources with the Show resources slider control, top right.
+1. Hide and unhide resources with the Show resources slider control, top right.
 
-B. Resources assigned can be seen as long as the Hide resources \(upper right corner of hierarchy display\) box is unchecked.
+2. Resources assigned can be seen as long as the Hide resources \(upper right corner of hierarchy display\) box is unchecked.
 
 1\) Choose to select or de-select the hide resources checkbox as required.
 
-C. Round nodes within the Hierarchy display.
+3. Round nodes within the Hierarchy display.
 
 1\) To view data within the node/sub event \(i.e., sortie\), click on the name and the details panel will display.
 
@@ -4466,9 +4307,9 @@ Add an Event
 
 5. Set start and end dates and times.
 
-A. Enter the Start Date/Time and End Date/Time using the calendar or roller control.
+1. Enter the Start Date/Time and End Date/Time using the calendar or roller control.
 
-B. Select All Day if the Event is all day.
+2. Select All Day if the Event is all day.
 
 6. Select the Squadron owning the event.
 
@@ -4490,9 +4331,9 @@ This can be done when adding an event \(above\) or when editing an existing even
 
 5. Set start and end dates and times.
 
-A. Enter the Start Date/Time and End Date/Time using the calendar or roller control.
+1. Enter the Start Date/Time and End Date/Time using the calendar or roller control.
 
-B. Select All Day if the Event is all day.
+2. Select All Day if the Event is all day.
 
 6. Select the Squadron that owning the event.
 
@@ -4542,7 +4383,7 @@ Add a Person or other Resource to an Event
 
 Add a Resource Group to an Event
 
-As described in Resources,  one group can only contain one type of resource, e.g., people. This method al ows you to add multiple groups \(people, aircraft, workstation, etc.\) to an event in a single action.
+As described in Resources,  one group can only contain one type of resource, e.g., people. This method allows you to add multiple groups \(people, aircraft, workstation, etc.\) to an event in a single action.
 
 1. Click on the event to open the Event Details dialog.
 
@@ -4604,19 +4445,19 @@ Edit the frequency of a recurring event
 
 3. In the Repeating Event dialog,
 
-A. Select to edit this one event.
+1. Select to edit this one event.
 
-B. Or edit this and future events in this series from this date forward.
+2. Or edit this and future events in this series from this date forward.
 
-C. Click Ok.
+3. Click Ok.
 
-D. Make the necessary changes and click Save.
+4. Make the necessary changes and click Save.
 
 4. If you edit the entire series the repeat rule \(e.g., every weekday until March 3, 2017\) will display.
 
-A. Click the blue Edit link \(under the Al day option\).
+1. Click the blue Edit link \(under the Al day option\).
 
-B. Make the necessary changes and click Save.
+2. Make the necessary changes and click Save.
 
 Create a Group Event
 
@@ -4638,9 +4479,9 @@ Create a Group Event
 
 9. Set start and end dates and times.
 
-A. Enter the Start Date/Time and End Date/Time using the calendar or roller control.
+1. Enter the Start Date/Time and End Date/Time using the calendar or roller control.
 
-B. Select All Day if the Event is all day.
+2. Select All Day if the Event is all day.
 
 10. Select the Squadron owning the event.
 
@@ -4690,11 +4531,11 @@ Single-sortie Mission
 
 7. Enter Take Off Location; select airfield or airbase and click add.
 
-A. Use search field to expedite your choice.
+1. Use search field to expedite your choice.
 
 8. Enter Land Location; select airfield or airbase and click add.
 
-A. Use search field to expedite your choice.
+1. Use search field to expedite your choice.
 
 9. Enter Mission Remarks, if desired.
 
@@ -4758,7 +4599,7 @@ Add a trip mission
 
 8. Click on the blue up arrow link \(the mission name will also be part of this link\).
 
-9. Edit the overall Mission Start and End Date/Times to match.
+9. Edit the overalll Mission Start and End Date/Times to match.
 
 10. Click Save when finished.
 
@@ -4782,7 +4623,7 @@ Offset Sub Event times from the Mission start or end time
 
 5. When chosen, that option will give the ability to offset the Sub Event’s start or end time from the parent’s \(Mission\) start or end time.
 
-6. It also al ows a duration for the sub event to be chosen by selecting a duration time from the drop down \(e.g., 15 minutes\).
+6. It also allows a duration for the sub event to be chosen by selecting a duration time from the drop down \(e.g., 15 minutes\).
 
 7. If the parent’s start or end time is modified, the Sub Event start and end times will be recalculated.
 
@@ -4794,19 +4635,19 @@ Add Take Off/Land Locations
 
 2. Enter Locations to new or edited missions:
 
-A. Access the edit sortie sub event panel.
+1. Access the edit sortie sub event panel.
 
-B. Within the Take Off Location field \(underneath Land Date \(Z\)\), select from the drop down the type of location \(e.g., airfield, airbase, helipad\).
+2. Within the Take Off Location field \(underneath Land Date \(Z\)\), select from the drop down the type of location \(e.g., airfield, airbase, helipad\).
 
-C. Click Add.
+3. Click Add.
 
-D. From the list of location types, select a take-off location or use the search window to type in a location; click to add.
+4. From the list of location types, select a take-off location or use the search window to type in a location; click to add.
 
-E. Within the Land Location \(underneath Take Off Location\), select from the drop down the type of location \(e.g., airfield, airbase, helipad\).
+5. Within the Land Location \(underneath Take Off Location\), select from the drop down the type of location \(e.g., airfield, airbase, helipad\).
 
-F. Click Add.
+6. Click Add.
 
-G. From the list of location types, select a land location or use the search window to type in a location; click to add.
+7\. From the list of location types, select a land location or use the search window to type in a location; click to add.
 
 Delete Take Off/Land Locations
 
@@ -4828,7 +4669,7 @@ Add Aircraft to a sortie
 
 Scheduler Production Request - Functions
 
-The fol owing describes features and functionality in Production Requests. Features and functionality common to al types of events are covered in Scheduler Functions - Common and Scheduler Functions -
+The following describes features and functionality in Production Requests. Features and functionality common to al types of events are covered in Scheduler Functions - Common and Scheduler Functions -
 
 Event.
 
@@ -4850,29 +4691,29 @@ Add a Production Request
 
 8. Choose the Squadron that owns the Production Request.
 
-A. If you have access to other squadrons use drop down arrow to select squadron.
+1. If you have access to other squadrons use drop down arrow to select squadron.
 
 9. Enter Remarks for the Production Request as required.
 
 10. Enter the current status of the Production Request:
 
-• Choose Assigned
+    * Choose Assigned
 
-• Request Extension
+    * Request Extension
 
-• Accepted
+    * Accepted
 
-• Working
+    * Working
 
-• Completed
+    * Completed
 
 11. Add a Primary Squadron Event \(e.g., squadron who will perform the work\). This is a required field.
 
-A. The Add Event Dialog box displays.
+1. The Add Event Dialog box displays.
 
-B. Enter a Start/End date and Time the Primary Squadron has to complete the Production Request.
+2. Enter a Start/End date and Time the Primary Squadron has to complete the Production Request.
 
-C. Enter Description as required.
+3. Enter Description as required.
 
 Edit a Production Request
 
@@ -4902,23 +4743,23 @@ Setup a recurring Production Request
 
 2. In the Repeat dialog, select your desired frequency:
 
-• Daily – repeats based on days and interval selected, e.g., selecting two means the event wil repeat every other day.
+    * Daily – repeats based on days and interval selected, e.g., selecting two means the event wil repeat every other day.
 
-• Weekdays – repeats each weekday, Monday through Friday.
+    * Weekdays – repeats each weekday, Monday through Friday.
 
-• Weekly – repeats every specified number of weeks, on the weekday\(s\) selected.
+    * Weekly – repeats every specified number of weeks, on the weekday\(s\) selected.
 
-• Monthly – repeats every specified number of months, either on a specific day or based on a rule, e.g., first Tuesday.
+    * Monthly – repeats every specified number of months, either on a specific day or based on a rule, e.g., first Tuesday.
 
-• Yearly – repeats every year on specific month/date or based on a rule, e.g., first Wednesday of November.
+    * Yearly – repeats every year on specific month/date or based on a rule, e.g., first Wednesday of November.
 
 3. In the Repeat dialog, select your desired ending \(never goes more than two years\):
 
-• Never.
+    * Never.
 
-• After – select the number of occurrences, e.g., 3 occurrences and it stops.
+    * After – select the number of occurrences, e.g., 3 occurrences and it stops.
 
-• On Date – specified end date.
+    * On Date – specified end date.
 
 4. Select OK.
 
@@ -4930,21 +4771,19 @@ Edit the frequency of a recurring Production Request
 
 3. In the Repeating Event dialog.
 
-A. Select to edit this one event.
+1. Select to edit this one event.
 
+2. Or edit this and future events in this series.
 
+3. Click Ok.
 
-B. Or edit this and future events in this series.
-
-C. Click Ok.
-
-D. Make the necessary changes and click Save.
+4. Make the necessary changes and click Save.
 
 4. If you edit the entire series the repeat rule \(e.g., every weekday until March 3, 2017\) will display under Completion Date Add option.
 
-A. Click the blue Edit link next to the repeat rule.
+1. Click the blue Edit link next to the repeat rule.
 
-B. Make the necessary changes and click Save.
+2. Make the necessary changes and click Save.
 
 ## Scheduler Reports
 
@@ -4956,11 +4795,11 @@ The Scheduler Reports module provides pre-formatted reports that populate with d
 
 module.
 
-■ RPA Schedule
+* RPA Schedule
 
-■ Missile Operations Personnel Schedule
+* Missile Operations Personnel Schedule
 
-■ Missile Operations Locations Schedule
+* Missile Operations Locations Schedule
 
 !!! Note These reports build from the Scheduler module. Legacy report help files are located in Scheduling Reports.
 
@@ -4973,8 +4812,6 @@ Controls
 Access these procedures by navigating to Scheduling > Scheduler Reports.
 
 Workspace
-
-
 
 Delivered Scheduler Reports
 
@@ -5004,9 +4841,9 @@ New in 5.16.1.
 
 4. In Options > Sort By Squadron, select:
 
-A. On \(green\). Names are sorted first by squadron, then alphabetically.
+1. On \(green\). Names are sorted first by squadron, then alphabetically.
 
-B. Off \(gray\). Names are sorted alphabetically.
+2. Off \(gray\). Names are sorted alphabetically.
 
 5. In the Squadron list, click the X to remove squadrons or click the ellipsis button to select/deselect all.
 
@@ -5050,45 +4887,41 @@ New in 5.16.1 A new role of ARMS Import/Export is added, and Training Auditor/AR
 
 Several permission roles can access the Continuation Training module and perform administrative functions, in addition to PEX Admin and Administrator. The pseudo-role Supervisor also has limited functions in the CT module, and any Basic User can access the module for the purpose of submitting Training Accomplishment Reports \(TARs\) via the Reporting tab:
 
-■ ARMS Import/Export is required to access the ARMS tab. This role cannot be assigned to a Joint Use account, i.e., the user must be associated to a Personnel record.
+* ARMS Import/Export is required to access the ARMS tab. This role cannot be assigned to a Joint Use account, i.e., the user must be associated to a Personnel record.
 
-■ Training Administrator can perform any function in the CT module except audit TARs and access the ARMS tab.
+* Training Administrator can perform any function in the CT module except audit TARs and access the ARMS tab.
 
-■ Training CT Administrator can perform any function in the CT module except audit TARs, setup and use the TACTICS tab, and access the ARMS tab.
+* Training CT Administrator can perform any function in the CT module except audit TARs, setup and use the TACTICS tab, and access the ARMS tab.
 
-■ Training Auditor \(previously Training Auditor/ARMS\) can audit TARs for both unit-level and ARMS tasks, import and export ARMS data, as well as view Training Tasks and Overview tabs.
+* Training Auditor \(previously Training Auditor/ARMS\) can audit TARs for both unit-level and ARMS tasks, import and export ARMS data, as well as view Training Tasks and Overview tabs.
 
 It cannot access the ARMS tab.
 
-■ Basic User can access and use the Training Tasks tab within the module, as well as submit TARs for squadron personnel via the Reporting tab.
+* Basic User can access and use the Training Tasks tab within the module, as well as submit TARs for squadron personnel via the Reporting tab.
 
-■ Supervisor is a pseudo-role which is assigned in the Personnel module. In addition to the functions of Basic Users, individuals assigned as a supervisor can also the access the CT tab of their supervisees’ training folders from which they can view subordinate’s CT status, generate daily and monthly TAR reports and view the status of tasks reported but not yet updated in PEX displays. If the unit has set up the CT module to allow it, supervisors may also audit TARs of their supervisees from within the training folder.
+* Supervisor is a pseudo-role which is assigned in the Personnel module. In addition to the functions of Basic Users, individuals assigned as a supervisor can also the access the CT tab of their supervisees’ training folders from which they can view subordinate’s CT status, generate daily and monthly TAR reports and view the status of tasks reported but not yet updated in PEX displays. If the unit has set up the CT module to allow it, supervisors may also audit TARs of their supervisees from within the training folder.
 
 Module Notes
 
 The CT module interfaces with and uses data from the Personnel module. For ARMS tasks, the ARMS
 
-Personnel imports add/overwrite the necessary Personnel data. For unit-level tasks, both local and HQ, units must ensure the fol owing is completed:
-
-
+Personnel imports add/overwrite the necessary Personnel data. For unit-level tasks, both local and HQ, units must ensure the following is completed:
 
 Training
 
-■ Quals tab – Personnel’s qualifications are set.
+* Quals tab – Personnel’s qualifications are set.
 
-■ Details or Personnel tab – Personnel’s Service status is set.
+* Details or Personnel tab – Personnel’s Service status is set.
 
-■ Setup tab – The appropriate Qualification Status codes in the Aircrew Qualification Code table are identified as “Is Qualified.” This is necessary to support setup of “Check Assigned” function within the CT module.
+* Setup tab – The appropriate Qualification Status codes in the Aircrew Qualification Code table are identified as “Is Qualified.” This is necessary to support setup of “Check Assigned” function within the CT module.
 
 Controls
 
-■ CT setup and management procedures can be accessed by navigating from the PEX main menu to Training > Continuation.
+* CT setup and management procedures can be accessed by navigating from the PEX main menu to Training > Continuation.
 
-■ Supervisor procedures can be accessed by navigation from My Page – My Data – Folders – My Supervisee’s
+* Supervisor procedures can be accessed by navigation from My Page – My Data – Folders – My Supervisee’s
 
-■ Basic user procedures can be accessed by navigation from My Page Workspace
-
-
+* Basic user procedures can be accessed by navigation from My Page Workspace
 
 1. Reporting tab: View/Edit from an Overview of TARs and report TARs by Person, Mission and Commitment.
 
@@ -5130,9 +4963,9 @@ There are two interface methods.
 
 1. CSV/Virtual Account. This is the legacy method used in previous versions of PEX.
 
-A. CSV. Export data from ARMS into a CSV file, then manually import the file into PEX.
+1. CSV. Export data from ARMS into a CSV file, then manually import the file into PEX.
 
-B. Virtual Account. Export the data from PEX to ARMS using a virtual account. Due to the USAF requirement for two-factor authentication, this option may sunset, or become unavailable, in the near future. If Virtual Accounts are unavailable export data using Web Services described next.
+2. Virtual Account. Export the data from PEX to ARMS using a virtual account. Due to the USAF requirement for two-factor authentication, this option may sunset, or become unavailable, in the near future. If Virtual Accounts are unavailable export data using Web Services described next.
 
 2. Web Services. Establish a direct connection/interface between PEX and ARMS. Once configured, the import and export are respectively accomplished by simply clicking the Begin Import and Begin Export buttons.
 
@@ -5150,39 +4983,35 @@ Training
 
 Users using the Web Services method must configure the CSV/Virtual Account method as well. The CSV/Virtual Account method is used:
 
-■ When a squadron is starting to use PEX for the first time.
+* When a squadron is starting to use PEX for the first time.
 
-■ For the first training import at the start of each training cycle.
+* For the first training import at the start of each training cycle.
 
-■ For the first training import after migration to 5.16.1.
+* For the first training import after migration to 5.16.1.
 
 Permissions
 
-■ ARMS Import/Export is a new permission role. This role allows access to the Continuation Training > ARMS tab and the Import, Export, and Setup buttons. Therefore, this applies to both CSV/Virtual Account method and new Web Services method
+* ARMS Import/Export is a new permission role. This role allows access to the Continuation Training > ARMS tab and the Import, Export, and Setup buttons. Therefore, this applies to both CSV/Virtual Account method and new Web Services method
 
-■ Training Auditor is the renamed Auditor/ARMS role. Functionality remains unchanged.
+* Training Auditor is the renamed Auditor/ARMS role. Functionality remains unchanged.
 
 !!! Note Both ARMS Import/Export and Training Auditor roles are required in order to export or import ARMS data. For security reasons, the Administrator role alone does not give the ability to import or export ARMS data.
 
-
-
-
-
 Rules
 
-■ Users using only the CSV/Virtual Account method can disregard the Web Services specific information.
+* Users using only the CSV/Virtual Account method can disregard the Web Services specific information.
 
-■ Users can choose an override method when actually importing and exporting \(from the Begin Import and Begin Export buttons\). It is recommended users choose the default method they will routinely use, then override as required.
+* Users can choose an override method when actually importing and exporting \(from the Begin Import and Begin Export buttons\). It is recommended users choose the default method they will routinely use, then override as required.
 
-■ Users using either the CSV/Virtual Account or Web Services method must have both ARMS
+* Users using either the CSV/Virtual Account or Web Services method must have both ARMS
 
 Import/Export and Training Auditor permissions as described above.
 
-■ In 5.16.1 migration, PEX automatically sets squadron methods to CSV Imports and ODAC
+* In 5.16.1 migration, PEX automatically sets squadron methods to CSV Imports and ODAC
 
 Exports.
 
-■ Persons' Personnel > Qual data is not inserted or updated via Web Services.
+* Persons' Personnel > Qual data is not inserted or updated via Web Services.
 
 Controls
 
@@ -5191,12 +5020,6 @@ Access these procedures by navigating to Training > Continuation > ARMS tab.
 Workspace
 
 Settings
-
-
-
-
-
-
 
 1. Set Squadron and enter ARMS 17-character unit identifier for Training imports/exports and the ARMS 9-character unit identifier for 781 Exports/Personnel Flying Hours imports.
 
@@ -5210,11 +5033,7 @@ Settings
 
 Import
 
-
-
 6. Select which Squadrons' data to import. The squadron's default method is shown to the right, \[CSV\] or \[Web\]
-
-
 
 Training
 
@@ -5222,17 +5041,15 @@ Training
 
 8. Select the import method for the squadrons selected in item 6.
 
-• Each Squadron's default settings as selected in Settings, item 2.
+    * Each Squadron's default settings as selected in Settings, item 2.
 
-• Override the default settings and use Web Services for al  selected squadrons.
+    * Override the default settings and use Web Services for al  selected squadrons.
 
-• Override the default settings and use CSV files for al  selected squadrons.
+    * Override the default settings and use CSV files for al  selected squadrons.
 
 9. View log files created after each import.
 
 Export
-
-
 
 10. Select which Squadrons' data to export. The selected method is shown to the right, \[Virt\] or
 
@@ -5242,15 +5059,13 @@ Export
 
 12. Select the export method for the squadrons selected in item 10.
 
-A. Each Squadron's default settings as selected in Settings, item 2.
+1. Each Squadron's default settings as selected in Settings, item 2.
 
-B. Override the default settings and use Web Services for al  selected squadrons.
+2. Override the default settings and use Web Services for al  selected squadrons.
 
-C. Override the default settings and use Virtual Accounts for al  selected squadrons.
+3. Override the default settings and use Virtual Accounts for al  selected squadrons.
 
 13. View log files created after each import.
-
-
 
 Setup - Configure the PEX-ARMS Interface
 
@@ -5266,15 +5081,15 @@ Service Host. Typically, this is the local PEX Administrator in conjunction with
 
 1. The PSH Admin:
 
-A. Coordinates with the PEX Help Desk to send them: 1\) Required server certificate information.
+1. Coordinates with the PEX Help Desk to send them: 1\) Required server certificate information.
 
 2\) HARM codes associated with that certificate.
 
-B. Works with one HARM office from each PEX database and provides the HARM office with a certificate Thumbprint specific to their PSH.
+2. Works with one HARM office from each PEX database and provides the HARM office with a certificate Thumbprint specific to their PSH.
 
 2. The designated HARM office for the PEX database:
 
-A. Enters the certificate Thumbprint in the Continuation Training > ARMS tab > Settings page. The Thumbprint has to be entered only once for the database. The Thumbprint is then visible to, and used by, every squadron in the database.
+1. Enters the certificate Thumbprint in the Continuation Training > ARMS tab > Settings page. The Thumbprint has to be entered only once for the database. The Thumbprint is then visible to, and used by, every squadron in the database.
 
 !!! caution This value is used by al squadrons in the database. Changes should be made with care as they affect al units in the database.
 

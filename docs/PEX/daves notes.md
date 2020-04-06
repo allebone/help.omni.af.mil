@@ -1,4 +1,4 @@
-![binders](PEX/img/../../img/Training/Mission Overview.jpg){: style="height:100%;width:100%"}
+![binders](PEX/img/../../img/Scheduling/Mission Overview.jpg){: style="height:100%;width:100%"}
 
  al 
  all
@@ -18,3 +18,5 @@
 remove training and page numbers
 \n...\n
 \nTraining\n
+
+<!--We need to make a choice between the 2 extremes, Training and Scheduling. Scheduling uses the organization of the TOC, training tried to make headers make sense.-->
