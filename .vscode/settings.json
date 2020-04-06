@@ -19,5 +19,38 @@
         "!scala",
         "!scss",
         "!typescriptreact"
+    ],
+    "cSpell.ignoreWords": [
+        "cdrs",
+        "cp",
+        "darkgoldenrod",
+        "deinstall",
+        "deinstallation",
+        "mds",
+        "qttasklist",
+        "supv",
+        "tnsnames",
+        "uncheck"
+    ],
+    "cSpell.words": [
+        "acag",
+        "cp's",
+        "eval",
+        "flyout",
+        "gradeset",
+        "jtac",
+        "lookback",
+        "lookbacks",
+        "mds's",
+        "qtcourse",
+        "shortname",
+        "subfolder",
+        "subfolders",
+        "unapprove",
+        "unconfirm",
+        "unignore",
+        "unsign",
+        "workcenter",
+        "workcenters"
     ]
 }

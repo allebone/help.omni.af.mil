@@ -13,15 +13,15 @@ New in 5.16.1 A new role of ARMS Import/Export is added, and Training Auditor/AR
 
 Several permission roles can access the Continuation Training module and perform administrative functions, in addition to PEX Admin and Administrator. The pseudo-role Supervisor also has limited functions in the CT module, and any Basic User can access the module for the purpose of submitting Training Accomplishment Reports \(TARs\) via the Reporting tab:
 
-* ARMS Import/Export is required to access the ARMS ta2. This role cannot be assigned to a Joint Use account, i.e., the user must be associated to a Personnel record.
+* ARMS Import/Export is required to access the ARMS tab. This role cannot be assigned to a Joint Use account, i.e., the user must be associated to a Personnel record.
 
-* Training Administrator can perform any function in the CT module except audit TARs and access the ARMS ta2.
+* Training Administrator can perform any function in the CT module except audit TARs and access the ARMS tab.
 
-* Training CT Administrator can perform any function in the CT module except audit TARs, setup and use the TACTICS tab, and access the ARMS ta2.
+* Training CT Administrator can perform any function in the CT module except audit TARs, setup and use the TACTICS tab, and access the ARMS tab.
 
-* Training Auditor \(previously Training Auditor/ARMS\) can audit TARs for both unit-level and ARMS tasks, import and export ARMS data, as well as view Training Tasks and Overview tabs. It cannot access the ARMS ta2.
+* Training Auditor \(previously Training Auditor/ARMS\) can audit TARs for both unit-level and ARMS tasks, import and export ARMS data, as well as view Training Tasks and Overview tabs. It cannot access the ARMS tab.
 
-* Basic User can access and use the Training Tasks tab within the module, as well as submit TARs for squadron personnel via the Reporting ta2.
+* Basic User can access and use the Training Tasks tab within the module, as well as submit TARs for squadron personnel via the Reporting tab.
 
 * Supervisor is a pseudo-role which is assigned in the Personnel module. In addition to the functions of Basic Users, individuals assigned as a supervisor can also the access the CT tab of their supervisees’ training folders from which they can view subordinate’s CT status, generate daily and monthly TAR reports and view the status of tasks reported but not yet updated in PEX displays. If the unit has set up the CT module to allow it, supervisors may also audit TARs of their supervisees from within the training folder.
 
@@ -45,7 +45,7 @@ The CT module interfaces with and uses data from the Personnel module. For ARMS 
 
 ![binders](PEX/img/../../img/Training/CT Tab Layout.jpg){: style="height:100%;width:100%"}
 
-. Reporting tab: View/Edit from an Overview of TARs and report TARs by Person, Mission and Commitment.
+1. Reporting tab: View/Edit from an Overview of TARs and report TARs by Person, Mission and Commitment.
 
 2. Unit Task Assignment tab: Assign and unassign PEX Unit Tasks to Personnel.
 
@@ -129,7 +129,7 @@ Users using the Web Services method must configure the CSV/Virtual Account metho
 
 ### Controls
 
-Access these procedures by navigating to Training > Continuation > ARMS ta2.
+Access these procedures by navigating to Training > Continuation > ARMS tab.
 
 ### Workspace
 
@@ -169,11 +169,11 @@ Access these procedures by navigating to Training > Continuation > ARMS ta2.
 
 12. Select the export method for the squadrons selected in item 10.
 
-    *  Each Squadron's default settings as selected in Settings, item 2.
+    * Each Squadron's default settings as selected in Settings, item 2.
 
-    *  Override the default settings and use Web Services for all  selected squadrons.
+    * Override the default settings and use Web Services for all  selected squadrons.
 
-    *  Override the default settings and use Virtual Accounts for all  selected squadrons.
+    * Override the default settings and use Virtual Accounts for all  selected squadrons.
 
 13. View log files created after each import.
 
@@ -288,13 +288,13 @@ Download ODAC
 
     2. Webserver \(Required\) hosting ePEX.
 
-    2. WinPEX \(Optional\). If you install WinPEX on a client machine, and you plan on exporting ARMS data, then ODAC must also be installed on the client machine.
+    3. WinPEX \(Optional\). If you install WinPEX on a client machine, and you plan on exporting ARMS data, then ODAC must also be installed on the client machine.
 
 2. Download the ODAC software.
 
-    1. Go to http://www.oracle.com
+    1. Go to <http://www.oracle.com>
 
-    2. Create a username & password at the site. all ow about 5 minutes to receive an account. Once you have the account, download the file at this location:  http://www.oracle.com/technetwork/topics/dotnet/utilsoft-086879.html
+    2. Create a username & password at the site. all ow about 5 minutes to receive an account. Once you have the account, download the file at this location:  <http://www.oracle.com/technetwork/topics/dotnet/utilsoft-086879.html>
 
     3. Accept the Oracle Developer Tools for Visual Studio .NET Development License Agreement.
 
@@ -303,7 +303,7 @@ Download ODAC
 Install ODAC
 
 !!! tip
-    Install ation is the same on the SQL Server hosting PEX Service Host, WebServer, and WinPEX.
+    Install action is the same on the SQL Server hosting PEX Service Host, WebServer, and WinPEX.
 
 1. Go to the computer's C:\\ drive.
 
@@ -317,13 +317,13 @@ Install ODAC
 
 6. Wait a few seconds.
 
-!!! NOTE
-     Some installations are blocked based on user permissions to a given machine. The only indication is that nothing happens after clicking setup.exe. If so, Search for Advanced System settings > Advanced Tab > Environment Variables > Click on TEMP variable to highlight -> Edit
+    !!! NOTE
+        Some installations are blocked based on user permissions to a given machine. The only indication is that nothing happens after clicking setup.exe. If so, Search for Advanced System settings > Advanced Tab > Environment Variables > Click on TEMP variable to highlight -> Edit
 
-    1. Capture the existing Variable value for TEMP. You will need this later.
-    2. EDIT and change just the TEMP Value to C:\\TEMP1.
+        1. Capture the existing Variable value for TEMP. You will need this later.
+        2. EDIT and change just the TEMP Value to C:\\TEMP1.
 
-    After installation is complete, reset to the original TEMP value, or as appropriate.
+        After installation is complete, reset to the original TEMP value, or as appropriate.
 
 7. In Product Languages, select English, then click Next.
 
@@ -383,9 +383,9 @@ Install ODAC
 
     1. Right-click on C:\\Oracle\\ODAC\_PEX\\product\\12.10\\client\_\# folder and select Properties.
 
-    2. From the Properties menu select the Security ta2.
+    2. From the Properties menu select the Security tab.
 
-    3. Click Continue from the Security ta2.
+    3. Click Continue from the Security tab.
 
     4. Click yes on user account control.
 
@@ -414,7 +414,7 @@ Uninstall ODAC
 
 1. Select All Apps, find Oracle – OraClient12Home, then select Universal Installer, or do a search and enter Universal Installer. Double-click the application.
 
-2. In the Welcome screen, select Deinstal Products.
+2. In the Welcome screen, select Deinstall Products.
 
 3. Check all Oracle products, and then select Remove.
 
@@ -904,7 +904,7 @@ Before you can export data in PEX to ARMS \(an Oracle database\), you must insta
 
     9. The client components will now be installed.
 
-    10. At the end of instal ation screen, select the “Exit” button.
+    10. At the end of instal action screen, select the “Exit” button.
 
     11. Confirm Exit, select “Yes” button.
 
@@ -917,9 +917,9 @@ Before you can export data in PEX to ARMS \(an Oracle database\), you must insta
 
     14. Right click on C:\\Oracle\\ODAC\_PEX\\product\\11.2.0\\client\_\# folder and select Properties.
 
-    15. From the Properties menu select the Security ta2.
+    15. From the Properties menu select the Security tab.
 
-    16. Click Continue from the Security ta2.
+    16. Click Continue from the Security tab.
 
     17. Click yes on user account control.
 
@@ -990,7 +990,7 @@ Once you have ODAC setup on your PEX servers and training/AFTO 781 data ready to
 
 ### Lists
 
-Select the LISTS subtab to update or add to the lists \(if applicable\). Accomplish methods are added locally \(not imported with HQ CT task files\). Categories, Settings, and Program Names can be added for when adding local tasks. HQ CT files imported with categories, settings, and/or program names identified in the HQ tasks will populate here.
+Select the LISTS sub tab to update or add to the lists \(if applicable\). Accomplish methods are added locally \(not imported with HQ CT task files\). Categories, Settings, and Program Names can be added for when adding local tasks. HQ CT files imported with categories, settings, and/or program names identified in the HQ tasks will populate here.
 
 * Accomplishment Method: Accomplishment method can identified on the worksheet when reporting training accomplished and then display on the TAR. Do not delete or change the “NORMAL” method. This method is required in the master list.
 
@@ -1000,7 +1000,7 @@ Select the LISTS subtab to update or add to the lists \(if applicable\). Accompl
 
 * Program Name: Examples are PF, PT, et3. You can use unit program names, similar to ARMS program codes, to filter unit tasks alongside your ARMS tasks. A program code of ADLS is required for the ADLS import function.
 
-  * Select Accomplishment Method, Categories, Settings, or Program Name from the “Lists” pane on the left side of the screen.
+    * Select Accomplishment Method, Categories, Settings, or Program Name from the “Lists” pane on the left side of the screen.
 
 Add a list
 
@@ -1032,7 +1032,7 @@ Send a list
 
 ## Unit Tasks
 
-Select the UNIT TASKS subtab to import HQ CT Task files and/or add local unit tasks \(if applicable\).
+Select the UNIT TASKS sub tab to import HQ CT Task files and/or add local unit tasks \(if applicable\).
 
 Import HQ CT Task files: HQ CT files are download from the PEX website.
 
@@ -1191,7 +1191,7 @@ Merge Local Tasks to HQ CT Tasks: This is non-reversible. Recommend making a bac
 
 ## Unit Settings
 
-Select the Unit Settings sub-ta2.
+Select the Unit Settings sub-tab.
 
 Set Unit Training Cycle
 
@@ -1325,7 +1325,7 @@ Roles:
 
     3. Click Off.
 
-    4. Stil on the ARMS Tasks page, go to the new Bypass Frequency Number in Days column.
+    4. Still on the ARMS Tasks page, go to the new Bypass Frequency Number in Days column.
 
     5. Note that the number of days previously set remains. On the next ARMS import, these wil reset to the data in ARMS.
 
@@ -1335,15 +1335,15 @@ Bypass indicators. With the Bypass set to On:
 
 * A yellow ARMS is Bypassed for the Selected Squadron banner appears in:
 
-  * Displays > My Page
+    * Displays > My Page
 
-  * Ops > Squadron Daily Schedule
+    * Ops > Squadron Daily Schedule
 
-  * Training > Continuation
+    * Training > Continuation
 
-  * Flying Schedule > Crew Tab
+    * Flying Schedule > Crew Tab
 
-  * Training > Qualification > Folder, Cont Training tab > Continuation Training Tasks
+    * Training > Qualification > Folder, Cont Training tab > Continuation Training Tasks
 
 Notes:
 
@@ -1379,7 +1379,7 @@ There are several ways to report training accomplished in PEX. Below is a descri
 
 * Ground Training \(Unscheduled\) from My Page – TAR \(Non MSN\) link: From My Page, in the top-right area, just below the TEST tab, click on the TAR \(Non MSN\) link, select a TAR, and enter their accomplished tasks.
 
-* Report Training for other people or multiple personnel at one time from CT Module – Reporting tab: Report training for multiple personnel where many of them logged the same tasks. You can report on one person, then use the Apply to all Remaining to copy the same accomplishments to the remaining crewmembers.
+* Report Training for other people or multiple personnel at one time from CT Module – Reporting tab: Report training for multiple personnel where many of them logged the same tasks. You can report on one person, then use the Apply to all Remaining to copy the same accomplishments to the remaining crew members.
 
 NOTES:
 
@@ -1423,7 +1423,7 @@ NOTES:
 
 3. Select from each list and click Generate TAR.
 
-4. Select the Actual Sortie Type in the TAR header if required. The rest of this tab functions the same as the Person ta2.
+4. Select the Actual Sortie Type in the TAR header if required. The rest of this tab functions the same as the Person tab.
 
 5. Select the Fuel Consumption button to open the Fuel Data section:
 
@@ -1441,7 +1441,7 @@ NOTES:
 
 2. Select the commitment to generate a list of personnel on that commitment and a list of available reporting worksheets.
 
-3. Select from each list and click Generate TAR. The rest of this tab functions the same as the Person ta2.
+3. Select from each list and click Generate TAR. The rest of this tab functions the same as the Person tab.
 
 ### Generate AF 1522 \(Group Report\)
 
@@ -1449,9 +1449,9 @@ Use this function if multiple people are reporting the same task. A dialog box w
 
 Overview
 
-The Overview subtab shows all completed reports in the queue for auditing.
+The Overview sub tab shows all completed reports in the queue for auditing.
 
-TTP: Right Click in the Submitted TARs grid to find TARs with No Accomplishments Logged, or Crewmembers without TARs. Use these two functions to keep your TARs up to date and find out who has not reported.
+TTP: Right Click in the Submitted TARs grid to find TARs with No Accomplishments Logged, or Crew members without TARs. Use these two functions to keep your TARs up to date and find out who has not reported.
 
 ![binders](PEX/img/../../img/Training/1522 Flowchart.jpg){: style="height:100%;width:100%"}
 
@@ -1617,7 +1617,7 @@ The Audit tab is also used to approve reported AFTO 781 flying time. The process
 
 2. Select a the time span \(Start/End Dates\) that captures the reported training.
 
-3. Select TARS by criteri1.
+3. Select TARS by criteria.
 
     * All – Returns all reports.
 
@@ -1627,7 +1627,7 @@ The Audit tab is also used to approve reported AFTO 781 flying time. The process
 
     * 1522 – Groups all reports by Commitment.
 
-4. Select TARS with criteri1.
+4. Select TARS with criteria.
 
     * Tasks pending audit: returns all reported tasks that still need auditing.
 
@@ -1663,7 +1663,7 @@ The Audit tab is also used to approve reported AFTO 781 flying time. The process
 
 ### AFTO 781
 
-1. Select 781 subta2.
+1. Select 781 sub tab.
 
 2. In the 781 Criteria panel, select a squadron.
 
@@ -1702,7 +1702,7 @@ Setup
 
 3. Open the .CSV file and copy the unit name from the Unit column.
 
-4. In PEX, navigate to Training > Continuation > ADLS tab > Settings sub ta2.
+4. In PEX, navigate to Training > Continuation > ADLS tab > Settings sub tab.
 
     1. Select your unit from the drop down menu.
 
@@ -1710,7 +1710,7 @@ Setup
 
     3. Paste the unit name from the ADLS .CSV file and then click below the line to save.
 
-5. Click the Import subtab to import and associate ADLS files.
+5. Click the Import sub tab to import and associate ADLS files.
 
     1. In the Unit Training Tasks drop down menu, select the ADLS unit level task to associate the import file to.
 
@@ -1728,7 +1728,7 @@ PEX uses the Last Completion date from the file to calculate the Task’s Due Da
 
 If using PEX to report and audit tasks, and the Accomplished Date reported/audited in PEX differs from that in the ADLS file, the Last Accomplished Date and Due Date in PEX will be overwritten during the import. That is because ADLS is considered the truth source for these tasks.
 
-View ADLS training task accomplishment and status in the Training Tasks ta2.
+View ADLS training task accomplishment and status in the Training Tasks tab.
 
 ## TACTICS- JTAC Training
 
@@ -1797,15 +1797,15 @@ View training progress
 
 * The Proficiency Tasks grid shows you how your squadron is progressing on proficiency \(volume\) tasks. The ^ indicator shows you where you should be by this point in time.
 
-* Right-click on a task and select Show Progress Drilldown. This opens a dialog with the people assigned that task and for each, the number required, number accomplished, number remaining, and their progress.
+* Right-click on a task and select Show Progress Drill down. This opens a dialog with the people assigned that task and for each, the number required, number accomplished, number remaining, and their progress.
 
 * The Currency Tasks grid shows you the percentage of people that are current and overdue in currency tasks.
 
-* Right-click on a task and select Show Progress Drilldown. This opens a dialog with the people assigned that task and for each, the number current, number within the long warning, number within the short warning, number overdue, and their progress. A legend is also available \(see below\).
+* Right-click on a task and select Show Progress Drill down. This opens a dialog with the people assigned that task and for each, the number current, number within the long warning, number within the short warning, number overdue, and their progress. A legend is also available \(see below\).
 
 * The One-Time Tasks grid shows you the percentage of people that have completed one-time tasks.
 
-* Right-click on a task and select Show Progress Drilldown. This opens a dialog with the people assigned that task and for each, the number required, number accomplished, number remaining, and their progress.
+* Right-click on a task and select Show Progress Drill down. This opens a dialog with the people assigned that task and for each, the number required, number accomplished, number remaining, and their progress.
 
 Legend
 
@@ -1873,7 +1873,9 @@ Create a MTP and add Milestones
 
 7. Give your MTP a name.
 
-8. Enter a duration length for your training plan by days, weeks, months, or years 9. Click Save.
+8. Enter a duration length for your training plan by days, weeks, months, or years
+
+9. Click Save.
 
 10. Add Task List \(e.g.: STS, JQS-797, or Local-797\) or Add Course to the plan.
 
@@ -1943,7 +1945,7 @@ Create a MTP and add Milestones
 
 Assign a MTP
 
-1. Select the Assign & Unassign ta2.
+1. Select the Assign & Unassign tab.
 
 2. Select the MTP from the Plan drop down menu.
 
@@ -1980,7 +1982,7 @@ Unassign a MTP
 
 View Trainee’s progress in a MTP
 
-1. Select the Personnel Tracking ta2.
+1. Select the Personnel Tracking tab.
 
 2. Select the squadron from the dropdown menu.
 
@@ -1994,7 +1996,7 @@ View Trainee’s progress in a MTP
 
 View and Print a Progress Report
 
-1. Select the Personnel Tracking ta2.
+1. Select the Personnel Tracking tab.
 
 2. Select the squadron from the dropdown menu.
 
@@ -2087,45 +2089,45 @@ The Topics section is divided by different categories of questions and can be ex
 
 * Enrollment
 
-  * Who is enrolled in the selected Course\(s\)?
+    * Who is enrolled in the selected Course\(s\)?
 
 * Progress
 
-  * Who has any open failed BOIs?
+    * Who has any open failed BOIs?
 
-  * What is the Status of all BOIs within \_\_\_\_ calendar days of the current date?
+    * What is the Status of all BOIs within \_\_\_\_ calendar days of the current date?
 
-  * Who is within \_\_\_\_ calendar days of the required completion date of the selected course\(s\)?
+    * Who is within \_\_\_\_ calendar days of the required completion date of the selected course\(s\)?
 
-  * Who is within \_\_\_\_ calendar days of the projected completion date of the selected courses\(s\)?
+    * Who is within \_\_\_\_ calendar days of the projected completion date of the selected courses\(s\)?
 
-  * Who has Tasks that are marked as NA?
+    * Who has Tasks that are marked as NA?
 
-  * Who has any ungraded Tasks in any completed BOIs?
+    * Who has any ungraded Tasks in any completed BOIs?
 
-  * Who has any open entries on their Unaccomplished Task Log?
+    * Who has any open entries on their Unaccomplished Task Log?
 
-  * Who has completed a course but the course has not been marked complete?
+    * Who has completed a course but the course has not been marked complete?
 
-  * Who has completed the selected courses?
+    * Who has completed the selected courses?
 
 * Recency
 
-  * Who has gone more than \_\_\_\_ calendar days without any activity?
+    * Who has gone more than \_\_\_\_ calendar days without any activity?
 
-  * Who has completed a BOI within \_\_\_\_ calendar days?
+    * Who has completed a BOI within \_\_\_\_ calendar days?
 
-  * Who has gone more than \_\_\_\_calendar days without any progression?
+    * Who has gone more than \_\_\_\_calendar days without any progression?
 
 * Schedule
 
-  * Who is planned for a BOI in the next \_\_\_\_ calendar days?
+    * Who is planned for a BOI in the next \_\_\_\_ calendar days?
 
-  * Who is schedules for a BOI in the next \_\_\_\_ calendar days?
+    * Who is schedules for a BOI in the next \_\_\_\_ calendar days?
 
 * Signatures
 
-  * Who needs student signatures in their folder?
+    * Who needs student signatures in their folder?
 
 By Task Lists
 
@@ -2137,25 +2139,25 @@ The Topics section is divided by different categories of questions and can be ex
 
 * Enrollment
 
-  * Who is assigned the selected Task List\(s\)?
+    * Who is assigned the selected Task List\(s\)?
 
 * Recency
 
-  * Who has gone more than \_\_\_\_ calendar days without any activity?
+    * Who has gone more than \_\_\_\_ calendar days without any activity?
 
 * Progress
 
-  * Who has tasks with a start date but no completion date?
+    * Who has tasks with a start date but no completion date?
 
-  * Who has passed BOI\(s\) but the associated Task List Task\(s\) have not been signed off?
+    * Who has passed BOI\(s\) but the associated Task List Task\(s\) have not been signed off?
 
 * Signatures
 
-  * What Tasks are in need of signatures?
+    * What Tasks are in need of signatures?
 
 * Transcription
 
-  * Who has Task Lists that have not been transcribed to a newer version?
+    * Who has Task Lists that have not been transcribed to a newer version?
 
 By Signatures
 
@@ -2165,9 +2167,9 @@ Topics
 
 * Signatures
 
-  * Who needs Signatures?
+    * Who needs Signatures?
 
-  * Who needs to Sign anything?
+    * Who needs to Sign anything?
 
 ## Overview Rainbow
 
@@ -2480,7 +2482,7 @@ Configuring Review Options allows you to select who can review/certify student f
     * Failed/Incomplete Tasks. Only the failed/Incomplete tasks from the original BOI will be included in the repeat BOI.
 
 !!! NOTE
-    The Review Options will be applied to all courses in your selected squadron. Review Options are not course specifi3.
+    The Review Options will be applied to all courses in your selected squadron. Review Options are not course specific.
 
 ### Add Gradesheet Reminders
 
@@ -2501,7 +2503,7 @@ Creating links between BOIs and STS task list provides valuable information to t
 
 1. Training > Mission > Setup > Link QT BOIs to STS Tasks.
 
-2. Select the Squadron, the Task List and Skil Level.
+2. Select the Squadron, the Task List and Skill Level.
 
 3. Select Add, and the Task List builds on the left.
 
@@ -2575,26 +2577,26 @@ If you want to build the course on your own, first review the help topic, Build 
 
     3. MDS. The particular Mission Design Series. When importing a course, a pop-up will appear asking you to select the appropriate MDS for the course. This is the only time you will be able to choose an MDS for an imported course. NOTE: You can select an MDS for a new course only if the MDS is already in the PEX Database. See Help Topic, Aircraft listed under Maintenance.
 
-    4. Course Type. Determines in what tab of the Training Folder this course will be displayed. The default is Qual Training Ta2. Unit Defined can be relabeled via Qual Training Setup.
+    4. Course Type. Determines in what tab of the Training Folder this course will be displayed. The default is Qual Training tab. Unit Defined can be relabeled via Qual Training Setup.
 
     5. Regression. Used to apply HQ AMC or HQ AFSOC regression rule logic if applicable. Regression rules apply to Task grades, not BOI grades.
 
     6. Forms: Summary, Gradesheet, Comments, Closeout. Forms are not mandatory but they should be. If you do not select specific forms you will lose functionality you may want to utilize while grading. The AF Form 4419 is available as a Closeout form.
 
-!!! NOTE
-    If your MAJCOM/Unit utilizes Task Grades and BOI Grades, you wil need to select the ACC 206 form on the Courses page. When you select the ACC 206 form, data from the Task Grades and BOI Grades will automatically import into this form once grading is complete.
+    !!! NOTE
+        If your MAJCOM/Unit utilizes Task Grades and BOI Grades, you wil need to select the ACC 206 form on the Courses page. When you select the ACC 206 form, data from the Task Grades and BOI Grades will automatically import into this form once grading is complete.
 
-!!! NOTE
-    If your MAJCOM/Unit utilizes Proficiency Levels, Knowledge Levels, and BOI Grades, you wil need to select the AF 4024 form on the Courses page. When you select the AF 4024 form, data from the Proficiency Level, Knowledge Level, and BOI Grades will automatically import into this form once grading is complete.
+    !!! NOTE
+        If your MAJCOM/Unit utilizes Proficiency Levels, Knowledge Levels, and BOI Grades, you wil need to select the AF 4024 form on the Courses page. When you select the AF 4024 form, data from the Proficiency Level, Knowledge Level, and BOI Grades will automatically import into this form once grading is complete.
 
-!!! NOTE
-    Intel Units wil select the AF 4381 Form.
+    !!! NOTE
+        Intel Units wil select the AF 4381 Form.
 
 5. Limit Instructors. Check this box if you want to limit student instructors to only those selected as primary, secondary, and continuity instructors \(not all course instructors\).
 
 6. Click off the highlighted course to Save.
 
-7. Setup Most Common Grades. You can select up to five of the most commonly used grades for an individual course. This allows quick grading on the gradesheet, while retaining the ability to use all grades in the course gradeset. For example, your course Grade Set uses Task Proficiency Levels 1 through 4, and Task Knowledge Levels A through D. The most common grades are 1A, 1B, 2A, 2B, and 31.
+7. Setup Most Common Grades. You can select up to five of the most commonly used grades for an individual course. This allows quick grading on the gradesheet, while retaining the ability to use all grades in the course grade set. For example, your course Grade Set uses Task Proficiency Levels 1 through 4, and Task Knowledge Levels A through D. The most common grades are 1A, 1B, 2A, 2B, and 31.
 
     1. Right-click on the Course row and select Setup Most Common Grades.
 
@@ -2608,9 +2610,9 @@ If you want to build the course on your own, first review the help topic, Build 
 
     6. Click Save or Save & Close.
 
-    7. New in 5.16.1. Courses with customized grades show a checkmark in the Grade Set Is Customized column.
+    7. New in 5.16.1. Courses with customized grades show a check mark in the Grade Set Is Customized column.
 
-    8. New in 5.16.1. Once saved, you can copy these common grades to other courses, if those courses use the same gradeset. In the same dialog, click Copy To.
+    8. New in 5.16.1. Once saved, you can copy these common grades to other courses, if those courses use the same grade set. In the same dialog, click Copy To.
 
     9. When the Copy Common Grades to Courses dialog opens, select the desired courses and click Copy Grades To Course.
 
@@ -2733,7 +2735,7 @@ you may now finish building the details of your course.
 
     For example, ACAG 01 and ACAG 02 would be two different BOIs in PEX, even if the provided documentation has them blocked together on the same day. Do not identify pre-requisites yet.
 
-    You will identify pre-requisites at the very end of building the entire course. The order of multiple BOIs on the same training day is important, for readability. We recommend: 
+    You will identify pre-requisites at the very end of building the entire course. The order of multiple BOIs on the same training day is important, for readability. We recommend:
 
     1. Flight \(at the top\)
 
@@ -2747,7 +2749,7 @@ you may now finish building the details of your course.
 
 6. If the BOI takes longer than one day to complete, change the \# Days to the correct number.
 
-7. Tasks are sub-components of the BOIs. While stil in the BOI Details, add tasks by selecting the Tasks ta2. Search from your master task file using either the Task Code or the   Task Name and select GO. Select the tasks you would like to use by moving them into the Tasks Canvas. If you do not have tasks in your master list, you can also add tasks by selecting Create New Task 
+7. Tasks are sub-components of the BOIs. While stil in the BOI Details, add tasks by selecting the Tasks tab. Search from your master task file using either the Task Code or the   Task Name and select GO. Select the tasks you would like to use by moving them into the Tasks Canvas. If you do not have tasks in your master list, you can also add tasks by selecting Create New Task
 
     in the BOI Details. Right-Click on the Create New Task Canvas and left click on the Create New Task. Be sure to give your tasks a unique identifier for the task code, but maintain consistency with the naming scheme for all tasks in the course.
 
@@ -2781,7 +2783,7 @@ you may now finish building the details of your course.
     !!! NOTE
         If BOIs have the same tasks, you can copy a BOI to another day by right-clicking on the desired BOI and selecting copy. On another day within the Canvas, right-click and paste. Do not forget to change your BOI name.
 
-12. Add prerequisites for BOIs and Tasks by double-clicking the BOI icon to open the BOI Details. Select the BOIs ta2. Open the folders to view tasks, if necessary. Move the selected BOIs and/or tasks to the Prerequisites Canvas. Select Save when you are finished adding all BOI and/or Task prerequisites.
+12. Add prerequisites for BOIs and Tasks by double-clicking the BOI icon to open the BOI Details. Select the BOIs tab. Open the folders to view tasks, if necessary. Move the selected BOIs and/or tasks to the Prerequisites Canvas. Select Save when you are finished adding all BOI and/or Task prerequisites.
 
 13. On the Canvas, select Show Prerequisite Lines to ensure prerequisites are input correctly.
 
@@ -2849,7 +2851,7 @@ Managing courses in PEX includes enrolling students, grading, reviewing grade fo
 
 10. Select Enroll Student\(s\).
 
-11. If you wish to Withdraw Enroll ment for a student, check the appropriate box of the student in the Enrolled Students grid on the Course Assignment page and select Withdraw Enrol ment.
+11. If you wish to Withdraw Enrollment for a student, check the appropriate box of the student in the Enrolled Students grid on the Course Assignment page and select Withdraw Enrollment.
 
 12. On the Course Assignment page, you can print Available Students and Enrolled Students as well as export this information to Excel.
 
@@ -2893,7 +2895,7 @@ Option 2
 
 ### Review a Training Folder
 
-You can access a Trainees Folder Reviews by going to Folder Reviews under the Overview Ta2.
+You can access a Trainees Folder Reviews by going to Folder Reviews under the Overview tab.
 
 1. Training > Mission > Overview > Folder Reviews
 
@@ -2929,9 +2931,9 @@ A Folder MFR is used to document training information.
 5. Select the appropriate course in the Training Selector dropdown.
 
     !!! NOTE
-        If The MFR is not course specific, leave the Training Selector as Qual Training Ta2.
+        If The MFR is not course specific, leave the Training Selector as Qual Training tab.
 
-6. Fill out From, Subject, and Body. Use details and be specifi3.
+6. Fill out From, Subject, and Body. Use details and be specific.
 
 7. Select the calendar and choose the appropriate date.
 
@@ -2992,7 +2994,7 @@ When you have an MFR that applies to multiple personnel you can import the file 
 
 ### Close enrollment
 
-If you no longer want to enroll students into a course, you may close the enroll ment.
+If you no longer want to enroll students into a course, you may close the enrollment.
 
 1. Training > Mission > Overview > Courses
 
@@ -3375,59 +3377,59 @@ Once open, view the following controls and fields:
 
 4. Grade Task\(s\) using the following options.
 
-Quick Complete all Tasks within the BOI
+    * Quick Complete all Tasks within the BOI
 
-1. Click the More Options icon.
+        1. Click the More Options icon.
 
-2. Select Quick Complete if all tasks were accomplished and the BOI is complete. The Quick Complete button will grade any task or BOI to the minimum level required. If there is no minimum required, no grade is given. Once selected, you can manually adjust any of the grade fields if the individual’s performance differs from the minimum.
+        2. Select Quick Complete if all tasks were accomplished and the BOI is complete. The Quick Complete button will grade any task or BOI to the minimum level required. If there is no minimum required, no grade is given. Once selected, you can manually adjust any of the grade fields if the individual’s performance differs from the minimum.
 
-Grade an individual Task
+    * Grade an individual Task
 
-1. In the Gradeset column, click the desired grade and it appears in the Current Grade column.
+        1. In the Gradeset column, click the desired grade and it appears in the Current Grade column.
 
-Grade an individual Task with Details and Comments
+    * Grade an individual Task with Details and Comments
 
-1. Click on a Task Code, Task Name or the Current Grade, and the Grade Task page opens.
+        1. Click on a Task Code, Task Name or the Current Grade, and the Grade Task page opens.
 
-2. Choose Grade and, in the flyout, select the Grade, Pro Level and/or Know Level.
+        2. Choose Grade and, in the flyout, select the Grade, Pro Level and/or Know Level.
 
-3. Click Show More Task Details and Comments, if desired.
+        3. Click Show More Task Details and Comments, if desired.
 
-4. Select the \#Req \(number required\).
+        4. Select the \#Req \(number required\).
 
-5. Select the \#ACC \(number accomplished\).
+        5. Select the \#ACC \(number accomplished\).
 
-6. Select Is Covered \(Yes/No\). This only populates the \(Intel\) AF Form 4381. This checkbox indicates that an instructor observed the completion of a task and provided instruction during the completion of the task.
+        6. Select Is Covered \(Yes/No\). This only populates the \(Intel\) AF Form 4381. This checkbox indicates that an instructor observed the completion of a task and provided instruction during the completion of the task.
 
-7. Select Not Applicable \(Yes/No\).
+        7. Select Not Applicable \(Yes/No\).
 
-8. Select the Date.
+        8. Select the Date.
 
-9. Select the Task Instructor.
+        9. Select the Task Instructor.
 
-10. Add Comments as required.
+        10. Add Comments as required.
 
-11. Click Show Less Task Details and Comments, if desired.
+        11. Click Show Less Task Details and Comments, if desired.
 
-12. Select Done to save and return to the Gradesheet BOI, or Cancel.
+        12. Select Done to save and return to the Gradesheet BOI, or Cancel.
 
-Set Tasks as Unaccomplished
+    * Set Tasks as Unaccomplished
 
-1. Click on a Task Code, Task Name or the Current Grade, and the Grade Task page opens.
+        1. Click on a Task Code, Task Name or the Current Grade, and the Grade Task page opens.
 
-2. Click the More Options \(...\) button.
+        2. Click the More Options \(...\) button.
 
-3. Select Add Unaccomplished Task and the flyout opens.
+        3. Select Add Unaccomplished Task and the flyout opens.
 
-4. Select Date of Notice.
+        4. Select Date of Notice.
 
-5. Choose Instructor.
+        5. Choose Instructor.
 
-6. Add Reviewer Comments.
+        6. Add Reviewer Comments.
 
-7. Acknowledge Completion; Confirm.
+        7. Acknowledge Completion; Confirm.
 
-8. Select Done to save and return to the Gradesheet BOI, or Cancel.
+        8. Select Done to save and return to the Gradesheet BOI, or Cancel.
 
 5. On the BOI Gradesheet click Save.
 
@@ -3469,7 +3471,7 @@ Set Tasks as Unaccomplished
 
         4. INC\_MX: Incomplete due to maintenance issues
 
-        5. INC\_OPS: Incomplete due to Ops cancel ation/issues
+        5. INC\_OPS: Incomplete due to Ops cancel action/issues
 
         6. INC\_Stud\_Non\_Pro: Incomplete due to Student‘s Proficiency o INC\_Other: Incomplete for other reasons
 
@@ -3662,7 +3664,7 @@ Once downloaded, you can leave the Gradesheet open for grading. We suggest savin
 
 1. Login to ePEX from your mobile device.
 
-2. Open the downloaded and graded Gradesheets on you device.
+2. Open the downloaded and graded Grade sheets on you device.
 
 3. Upload individual or multiple BOI\(s\).
 
@@ -3830,7 +3832,7 @@ Once open, view the fol owing controls and fields:
 
         * General Comments field
 
-### Grade Tasks
+#### Grade Tasks
 
 1. Open the Gradesheet using one of the options above.
 
@@ -3904,89 +3906,90 @@ Grade BOI
 
 2. Choose Instructor or Change Instructor, as required.
 
-3. Grade the BOI using the fol owing options.
+3. Grade the BOI using the following options.
 
-Grade with details
+    * Grade with details
 
-1. Date. Before you can grade a BOI you must enter a date. If the date differs from the planned date determined when the student was enrolled \(with or without using a template\) PEX wil ask you to Edit the BOI Dates, however, once the BOI is graded, the date is harder to revise. The BOI Date can be easily changed before or during the grading process, but once the BOI is graded, the date is harder to revise. Edit the BOI Date, if necessary. There are four options in editing the BOI Dates from the pop up window:
+        1. Date. Before you can grade a BOI you must enter a date. If the date differs from the planned date determined when the student was enrolled \(with or without using a template\) PEX wil ask you to Edit the BOI Dates, however, once the BOI is graded, the date is harder to revise. The BOI Date can be easily changed before or during the grading process, but once the BOI is graded, the date is harder to revise. Edit the BOI Date, if necessary. There are four options in editing the BOI Dates from the pop up window:
 
-o Change only this BOI to the selected date and all other BOI’s following.
+            * Change only this BOI to the selected date and all other BOI’s following.
 
-o Change this BOI to the selected day and leave all other BOI’s as is.
+            * Change this BOI to the selected day and leave all other BOI’s as is.
 
-o Reflow all BOI’s from the planned date of XXXX, including this BOI, forward by this many training days: Input the amount of days in a \+/- format.
+            * Reflow all BOI’s from the planned date of XXXX, including this BOI, forward by this many training days: Input the amount of days in a \+/- format.
 
-o Apply a new template from this BOI on.
+            * Apply a new template from this BOI on.
 
-!!! NOTE If a BOI is listed as Failed \(red\), Passed \(green\), or Not Applicable \(grey\), you will not be able to edit the BOI date. If you need to change the date of a BOI after it has been graded and saved, you wil need to open the BOI Grade Sheet. Then, on the BOI Overal Grade, select the blank entry \(null\) and click Save. This minor change will convert this BOI to an In Progress \(blue\) state. Once In Progress again, you can reopen the BOI Grade Sheet and now edit the date as appropriate. You will also need to reinsert the BOI Overall Grade and select Save.
+            !!! NOTE
+                If a BOI is listed as Failed \(red\), Passed \(green\), or Not Applicable \(grey\), you will not be able to edit the BOI date. If you need to change the date of a BOI after it has been graded and saved, you wil need to open the BOI Grade Sheet. Then, on the BOI Overall Grade, select the blank entry \(null\) and click Save. This minor change will convert this BOI to an In Progress \(blue\) state. Once In Progress again, you can reopen the BOI Grade Sheet and now edit the date as appropriate. You will also need to reinsert the BOI Overall Grade and select Save.
 
-2. Status
+        2. Status
 
-o Completed
+            * Completed
 
-o Pro-Adv: Proficiency Advancement
+            * Pro-Adv: Proficiency Advancement
 
-o INC\_WX: Incomplete due to WX
+            * INC\_WX: Incomplete due to WX
 
-o INC\_MX: Incomplete due to maintenance issues
+            * INC\_MX: Incomplete due to maintenance issues
 
-o INC\_OPS: Incomplete due to Ops cancel ation/issues
+            * INC\_OPS: Incomplete due to Ops cancel action/issues
 
-o INC\_Stud\_Non\_Pro: Incomplete due to Student‘s Proficiency o INC\_Other: Incomplete for other reasons
+            * INC\_Stud\_Non\_Pro: Incomplete due to Student‘s Proficiency o INC\_Other: Incomplete for other reasons
 
-3. Overall Grade
+        3. Overall Grade
 
-4. Ground Training Time
+        4. Ground Training Time
 
-5. Training Device Time
+        5. Training Device Time
 
-6. Flight Time
+        6. Flight Time
 
-7. Seat Time
+        7. Seat Time
 
-8. Position Number
+        8. Position Number
 
-9. Add Comments as required.
+        9. Add Comments as required.
 
-10. Click Save.
+        10. Click Save.
 
-11. Click Close to close the Gradesheet and return to the previous page or training folder.
+        11. Click Close to close the Gradesheet and return to the previous page or training folder.
 
-Quick Complete
+    * Quick Complete
 
-1. Open the Gradesheet.
+        1. Open the Gradesheet.
 
-2. Click More Options \(...\).
+        2. Click More Options \(...\).
 
-3. Select Quick Complete.
+        3. Select Quick Complete.
 
-4. View BOI Status and Task Grades.
+        4. View BOI Status and Task Grades.
 
-!(images/000005.jpg)
+        5. View notification "Changes have successfully saved."
 
-5. View notification "Changes have successfully saved."
+    * Create Repeat
 
-Create Repeat
+        1. Open the Gradesheet.
 
-1. Open the Gradesheet.
+        2. Click More Options \(...\).
 
-2. Click More Options \(...\).
+        3. Select Create Repeat.
 
-3. Select Create Repeat.
+        4. View notification "Changes have successfully saved and a repeat BOI was created."
 
-4. View notification "Changes have successfully saved and a repeat BOI was created."
-
-On-the-Job Training \(OJT\) Overview
+## On-the-Job Training \(OJT\) Overview
 
 The OJT module is used to help manage 623a Task List qualification training to most Air Force enlisted personnel. The Task List Builder allows you to create, copy and revise Task Lists that can be exported and distributed to units to import into their own PEX databases.
 
-Controls
+* Controls
 
-Access this module by navigating to Main Menu > Training > OJT.
+    Access this module by navigating to Main Menu > Training > OJT.
 
-Workspace
+* Workspace
 
-Setup OJT
+    ![binders](PEX/img/../../img/Training/OJT Training Workspace.jpg){: style="height:100%;width:100%"}
+
+### Setup OJT
 
 Setup PEX 623s.
 
@@ -3996,7 +3999,9 @@ If not, you’ll need to create it from scratch.
 
 Import a task list
 
-1. Menu > Training > Qualification > Setup > Task List Builder 2. PEX all ows you to import Task Lists that were created at the Headquarters or other units into your own PEX Database. Click Additional Task List Actions and select Import Task List from the menu. Only Files Types with .QTTASKLIST can be imported.
+1. Menu > Training > Qualification > Setup > Task List Builder
+
+2. PEX allows you to import Task Lists that were created at the Headquarters or other units into your own PEX Database. Click Additional Task List Actions and select Import Task List from the menu. Only Files Types with .QTTASKLIST can be imported.
 
 3. The Import Task List dialog wil open.
 
@@ -4006,201 +4011,207 @@ Import a task list
 
 6. The Imported Task List will be set to certified, in a read only state and ready to be assigned to Squadrons.
 
-Create a task list from scratch
+### Create a task list from scratch
 
-Adding a task list header
+* Adding a task list header
 
-1. Menu > Training > Qualification > Setup > Task List Builder 2. Click the Add Task Header button or right-click in the Task List Details canvas and select Add Task Header.
+    1. Menu > Training > Qualification > Setup > Task List Builder
 
-3. Enter the Line Item and Task and Knowledge blocks. These are required fields to save the Task Header.
+    2. Click the Add Task Header button or right-click in the Task List Details canvas and select Add Task Header.
 
-4. If you click on a task in the grid, the new task will appear directly beneath the item.
+    3. Enter the Line Item and Task and Knowledge blocks. These are required fields to save the Task Header.
 
-5. The position of headers in the Task List can be changed by dragging and dropping the header to its desired location.
+    4. If you click on a task in the grid, the new task will appear directly beneath the item.
 
-Adding a Task List Item
+    5. The position of headers in the Task List can be changed by dragging and dropping the header to its desired location.
 
-1. Menu > Training > Qualification > Setup > Task List Builder 2. Select the Task List in the Task List Directory of the Task List builder.
+* Adding a Task List Item
 
-3. Click the Add Task Item button or right-click in the Task List Details canvas and select Add New Task Item. There must be a Task Header before there can be a Task Item.
+    1. Menu > Training > Qualification > Setup > Task List Builder
 
-4. Enter the Task Header, Line Item, and Tasks & Knowledge. These are required fields for the data to save.
+    2. Select the Task List in the Task List Directory of the Task List builder.
 
-5. You can check box 3, 5, and 7, skill levels, Core and Wartime, and fill in the fields for CRS, CDC, and QTP Proficiency. Nothing in the skill level sections are required for saving or certifying.
+    3. Click the Add Task Item button or right-click in the Task List Details canvas and select Add New Task Item. There must be a Task Header before there can be a Task Item.
 
-1. In addition to 3, 5, and 7 skill levels, you can add No Skill Level.
+    4. Enter the Task Header, Line Item, and Tasks & Knowledge. These are required fields for the data to save.
 
-Certifying a Task List
+    5. You can check box 3, 5, and 7, skill levels, Core and Wartime, and fill in the fields for CRS, CDC, and QTP Proficiency. Nothing in the skill level sections are required for saving or certifying.
 
-1. Menu > Training > Qualification > Setup > Task List Builder 2. By Certifying a Task List, you are saying the Task List is complete and eligible for exporting.
+        1. In addition to 3, 5, and 7 skill levels, you can add No Skill Level.
 
-Click the Additional Task List Actions dropdown menu and select Certify Task List from the menu.
+* Certifying a Task List
 
-At least one Task Header must be in the Task List in order to Certify.
+    1. Menu > Training > Qualification > Setup > Task List Builder
 
-3. You will receive a warning dialog when certifying a Task List if you have tasks where the proficiency codes are not set for all skill levels.
+    2. By Certifying a Task List, you are saying the Task List is complete and eligible for exporting. Click the Additional Task List Actions dropdown menu and select Certify Task List from the menu. At least one Task Header must be in the Task List in order to Certify.
 
-4. The Certify Task List dialog will appear consisting of a text field to enter who certified the Task List labeled “By” and a date field to enter the certified date labeled “As of.” Both fields are mandatory to save.
+    3. You will receive a warning dialog when certifying a Task List if you have tasks where the proficiency codes are not set for all skill levels.
 
-5. No changes can be made once a Task List is certified.
+    4. The Certify Task List dialog will appear consisting of a text field to enter who certified the Task List labeled “By” and a date field to enter the certified date labeled “As of.” Both fields are mandatory to save.
 
-Create a copy or new version of a task list
+    5. No changes can be made once a Task List is certified.
 
-Copying a Task List
+### Create a copy or new version of a task list
 
-1. Menu > Training > Qualification > Setup > Task List Builder You will be allowed to rapidly create different Task Lists that only require minimal changes.
+* Copying a Task List
 
-Task Lists can be copied if they are certified or uncertified.
+    1. Menu > Training > Qualification > Setup > Task List Builder You will be allowed to rapidly create different Task Lists that only require minimal changes.Task Lists can be copied if they are certified or uncertified.
 
-2. Select the Task List in the Task List Directory and click the Copy Task List button.
+    2. Select the Task List in the Task List Directory and click the Copy Task List button.
 
-3. This will add a Task List to the Task List Directory named “Task List Name\_Copy.” All the other fields in the Task List Details will be the same as the original.
+    3. This will add a Task List to the Task List Directory named “Task List Name\_Copy.” All the other fields in the Task List Details will be the same as the original.
 
-4. The new copy of the Task List will be fully editable and uncertified. The Supersedes field will be blank if there was anything entered to in the first place.
+    4. The new copy of the Task List will be fully editable and uncertified. The Supersedes field will be blank if there was anything entered to in the first place.
 
-5. Only Local/797 Task Lists can be copied.
+    5. Only Local/797 Task Lists can be copied.
 
-Creating a New Version of a Task List
+* Creating a New Version of a Task List
 
-1. Menu > Training > Qualification > Setup > Task List Builder You have the ability to Create New Versions of Task Lists allowing you to change existing Task Lists in case you have different requirements. Creating a New Version of a Task List will allow you to transcribe tasks that personnel have completed from a previous Task List.
+    1. Menu > Training > Qualification > Setup > Task List Builder You have the ability to Create New Versions of Task Lists allowing you to change existing Task Lists in case you have different requirements. Creating a New Version of a Task List will allow you to transcribe tasks that personnel have completed from a previous Task List.
 
-2. To create a new version of a Task List, select the Task List from the Task List Directory and click the Create New Version button. A Task List must be certified before a New Version is Created.
+    2. To create a new version of a Task List, select the Task List from the Task List Directory and click the Create New Version button. A Task List must be certified before a New Version is Created.
 
-3. You cannot create a new version of an imported Task List. Creating a new version will make the electronic transcription capability unusable.
+    3. You cannot create a new version of an imported Task List. Creating a new version will make the electronic transcription capability unusable.
 
-4. Only one new version can be created for a Task List, however each new version can itself have a new version created.
+    4. Only one new version can be created for a Task List, however each new version can itself have a new version created.
 
-5. A new Task List will appear in the Task List Directory named “Task List Name\_Copy \(Rev
+    5. A new Task List will appear in the Task List Directory named “Task List Name\_Copy \(Rev‘Current Date’\).” The Supersedes field wil be populated with “Old Task List Name ‘Certified Date’\).”
 
-‘Current Date’\).” The Supersedes field wil be populated with “Old Task List Name ‘Certified Date’\).”
+    6. All other data in the Task List Details will remain the same.
 
-6. All other data in the Task List Details will remain the same.
+    7. The new version is editable and uncertified.
 
-7. The new version is editable and uncertified.
+    8. The Sections & Layout will now have a column labeled “Transcribes?” for each skill level with checkbox for each task. These boxes wil default to a checked box.
 
-8. The Sections & Layout will now have a column labeled “Transcribes?” for each skill level with checkbox for each task. These boxes wil default to a checked box.
+    9. If the task does not transcribe, uncheck the box. Any tasks added to the new version wil default to unchecked for all skill levels.
 
-9. If the task does not transcribe, uncheck the box. Any tasks added to the new version wil default to unchecked for all skill levels.
+    10. The View/Print Task List product will contain the 3 “Transcribes?” columns on any new version of a Task List.
 
-10. The View/Print Task List product will contain the 3 “Transcribes?” columns on any new version of a Task List.
+### Edit, delete, or export a task list
 
-Edit, delete, or export a task list
+* Editing a Task List
 
-Editing a Task List
+    1. Menu > Training > Qualification > Setup > Task List Builder The Task List Builder has three sections: the Task List Directory for Task List Selection, Task List Details, and Sections & Task Layout for task headers and tasks. You will need PEX Administrator or Training Administrator permissions to your squadron.
 
-1. Menu > Training > Qualification > Setup > Task List Builder The Task List Builder has three sections: the Task List Directory for Task List Selection, Task List Details, and Sections & Task Layout for task headers and tasks. You will need PEX Administrator or Training Administrator permissions to your squadron.
+    2. Click the Add Task List button. This wil activate the Task List Details section.
 
-2. Click the Add Task List button. This wil activate the Task List Details section.
+    3. Name and Type must be entered to save the Task List Details.
 
-3. Name and Type must be entered to save the Task List Details.
+    4. Click Save Task List Details. The Task List Details will become read only after selecting save.
 
-4. Click Save Task List Details. The Task List Details will become read only after selecting save.
+    5. Edits can be made to the Task List Details by clicking the Edit List Details button. Click Save Task List Details once finished editing.
 
-5. Edits can be made to the Task List Details by clicking the Edit List Details button. Click Save Task List Details once finished editing.
+    6. Click the Cancel Add/Edit List Details button while the details are still editable. This will return the Task List Details to the data entered before the changes were made in a read only state.
 
-6. Click the Cancel Add/Edit List Details button while the details are stillleditable. This will return the Task List Details to the data entered before the changes were made in a read only state.
+* Deleting a Task List
 
-Deleting a Task List
+    1. Menu > Training > Qualification > Setup > Task List Builder
 
-1. Menu > Training > Qualification > Setup > Task List Builder 2. You will need Administrator or Training Administrator permissions to your Squadron. Select the Task List in the Task List Directory of the Task List Builder.
+    2. You will need Administrator or Training Administrator permissions to your Squadron. Select the Task List in the Task List Directory of the Task List Builder.
 
-3. Click the Additional Task List Actions dropdown menu and select Delete Task List from the menu. If the selected Task List is a revision and has not been validated, those revised Trainee Task Lists will also be deleted.
+    3. Click the Additional Task List Actions dropdown menu and select Delete Task List from the menu. If the selected Task List is a revision and has not been validated, those revised Trainee Task Lists will also be deleted.
 
-4. You cannot delete a Task List that is in use.
+    4. You cannot delete a Task List that is in use.
 
-Exporting a Task List
+* Exporting a Task List
 
-1. Menu > Training > Qualification > Setup > Task List Builder 2. PEX all ows you to export Task Lists for distribution to other PEX Databases. Select the Task List to Export from the Task List Directory.
+    1. Menu > Training > Qualification > Setup > Task List Builder
 
-3. Right-click the selected Task List or click Additional Task List Actions button and select Export Task List from the menu.
+    2. PEX all ows you to export Task Lists for distribution to other PEX Databases. Select the Task List to Export from the Task List Directory.
 
-4. A dialog box wil open with the options Open, Save, and Cancel. When you select Save a second dialog will appear where you can change the file name and save location.
+    3. Right-click the selected Task List or click Additional Task List Actions button and select Export Task List from the menu.
 
-5. The file can be distributed to other units to be imported into other PEX Databases. The File Type wil be .QTTASKLIST.
+    4. A dialog box wil open with the options Open, Save, and Cancel. When you select Save a second dialog will appear where you can change the file name and save location.
 
-Assign a task list to a squadron?
+    5. The file can be distributed to other units to be imported into other PEX Databases. The File Type wil be .QTTASKLIST.
 
-1. Menu > Training > Qualification > Setup > Assign Task List to Sqd 2. Created or imported Task Lists need to be assigned to Squadrons in order to create Workcenters and assign the Task Lists to personnel.
+* Assign a task list to a squadron? <!-- seriously why is this ? here? daveDailey -->
 
-3. You will see a list of Task Lists in the database and columns for any Squadrons to which you have permissions.
+    1. Menu > Training > Qualification > Setup > Assign Task List to Sqd
 
-4. To assign Task Lists to Squadrons, you wil check the box in the Squadron column to which you want the Task List assigned. Only a Certified Task List can be assigned to a Squadron.
+    2. Created or imported Task Lists need to be assigned to Squadrons in order to create Work centers and assign the Task Lists to personnel.
 
-5. Click the Save button in the upper left corner once all the Assigned Squadrons are checked.
+    3. You will see a list of Task Lists in the database and columns for any Squadrons to which you have permissions.
 
-6. The Task List is now available to have Workcenters created in the assigned Squadron\(s\).
+    4. To assign Task Lists to Squadrons, you wil check the box in the Squadron column to which you want the Task List assigned. Only a Certified Task List can be assigned to a Squadron.
 
-Create a workcenter
+    5. Click the Save button in the upper left corner once all the Assigned Squadrons are checked.
 
-1. Menu > Training > Qualification > Setup > Workcenter Configuration 274
+    6. The Task List is now available to have Workcenters created in the assigned Squadron\(s\).
 
-Workcenter Configuration allows you to create different Workcenters for applying to Trainees who may have different training requirements such as different Skill Levels, Squadrons, and flights. This is accomplished by setting some tasks to N/A \(Not Applicable\). Unlike Task Lists, Workcenters are Squadron specific instead of database wide.
+* Create a workcenter
 
-2. Select a Squadron from the dropdown menu that has Task Lists assigned to it.
+    1. Menu > Training > Qualification > Setup > Workcenter Configuration. Workcenter Configuration allows you to create different Workcenters for applying to Trainees who may have different training requirements such as different Skill Levels, Squadrons, and flights. This is accomplished by setting some tasks to N/A \(Not Applicable\). Unlike Task Lists, Workcenters are Squadron specific instead of database wide.
 
-3. Click Copy As to copy the Default Workcenter.
+    2. Select a Squadron from the dropdown menu that has Task Lists assigned to it.
 
-4. Name the new Workcenter as the Title and the Skil Level you are creating.
+    3. Click Copy As to copy the Default Workcenter.
 
-5. Save the Workcenter name.
+    4. Name the new Workcenter as the Title and the Skill Level you are creating.
 
-6. By selecting the Workcenter dropdown, the new Workcenter will now appear along with the Default Workcenter.
+    5. Save the Workcenter name.
 
-7. Mark N/A for all items that are not applicable for the selected Trainee or Skill Level in the Workcenter. To mark an entire section N/A, select the Header.
+    6. By selecting the Workcenter dropdown, the new Workcenter will now appear along with the Default Workcenter.
 
-8. Activate the Default Task List without marking any tasks as N/A; making the original Task List a Workcenter.
+    7. Mark N/A for all items that are not applicable for the selected Trainee or Skill Level in the Workcenter. To mark an entire section N/A, select the Header.
 
-9. Activate the Copy of the Workcenter. A Workcenter must be Activated in order to assign Trainees to it.
+    8. Activate the Default Task List without marking any tasks as N/A; making the original Task List a Workcenter.
 
-Edit, delete, reapply, or deactivate a workcenter
+    9. Activate the Copy of the Workcenter. A Workcenter must be Activated in order to assign Trainees to it.
 
-Editing a Workcenter
+### Edit, delete, reapply, or deactivate a workcenter
 
-1. Menu > Training > Qualification > Setup > Workcenter Configuration 2. To edit a Workcenter select a Squadron and Task List in the Task List Directory.
+* Editing a Workcenter
 
-3. Select the Workcenter you want to edit in the dropdown and check or uncheck N/A for the appropriate tasks.
+    1. Menu > Training > Qualification > Setup > Workcenter Configuration
 
-4. Click off the data line to save.
+    2. To edit a Workcenter select a Squadron and Task List in the Task List Directory.
 
-5. Editing a Workcenter will not change applicability of tasks already assigned to Trainees, even if the Trainee was assigned to this Workcenter. Those adjustments can be made in the Trainee’s Training Folders.
+    3. Select the Workcenter you want to edit in the dropdown and check or uncheck N/A for the appropriate tasks.
 
-Deleting a Workcenter
+    4. Click off the data line to save.
 
-1. Menu > Training > Qualification > Setup > Workcenter Configuration 2. Workcenters can be deleted by selecting the Squadron and Task List in the Task List Directory.
+    5. Editing a Workcenter will not change applicability of tasks already assigned to Trainees, even if the Trainee was assigned to this Workcenter. Those adjustments can be made in the Trainee’s Training Folders.
 
-3. Select the Workcenter from the dropdown and click the Delete button.
+* Deleting a Workcenter
 
-4. Workcenters can be deleted without restriction except for the last Workcenter assigned to a Task List. Each Task List must have at least one Workcenter, so the last one wil not be deleted.
+    1. Menu > Training > Qualification > Setup > Workcenter Configuration
 
-5. Deleting a Workcenter wil have no bearing on a Trainee’s Task List that has already been assigned even if the Trainee was originally assigned to the deleted Workcenter.
+    2. Workcenters can be deleted by selecting the Squadron and Task List in the Task List Directory.
 
-Reapplying a Workcenter
+    3. Select the Workcenter from the dropdown and click the Delete button.
 
-1. Menu > Training > Qualification > Setup > Reapply Workcenter 275
+    4. Workcenters can be deleted without restriction except for the last Workcenter assigned to a Task List. Each Task List must have at least one Workcenter, so the last one wil not be deleted.
 
-Reapplying a Workcenter is used when a unit gains a new individual and the PEX personnel file has already been imported into the PEX Database. Reapplying a Workcenter also works when moving an individual from one Workcenter in a Squadron to a different Workcenter \(For example: Moving a Trainee with a Skill Level 5 Workcenter to a Skill Level 7\).
+    5. Deleting a Workcenter wil have no bearing on a Trainee’s Task List that has already been assigned even if the Trainee was originally assigned to the deleted Workcenter.
 
-2. Select Squadron from the dropdown.
+* Reapplying a Workcenter
 
-3. Select a Task List from the Task List dropdown.
+    1. Menu > Training > Qualification > Setup > Reapply Workcenter. Reapplying a Workcenter is used when a unit gains a new individual and the PEX personnel file has already been imported into the PEX Database. Reapplying a Workcenter also works when moving an individual from one Workcenter in a Squadron to a different Workcenter \(For example: Moving a Trainee with a Skill Level 5 Workcenter to a Skill Level 7\).
 
-4. Select a Skill Level from the Skill Level dropdown.
+    2. Select Squadron from the dropdown.
 
-5. Once all selections are made from the dropdowns, the names of the trainees assigned to all three will appears in the Available Trainees section.
+    3. Select a Task List from the Task List dropdown.
 
-6. Select the names of those you are applying to a different Workcenter in the Workcenter dropdown.
+    4. Select a Skill Level from the Skill Level dropdown.
 
-7. Click Reapply Workcenter. A dialog will appear indicating the Workcenter has been reapplied.
+    5. Once all selections are made from the dropdowns, the names of the trainees assigned to all three will appears in the Available Trainees section.
 
-Deactivating a Workcenter
+    6. Select the names of those you are applying to a different Workcenter in the Workcenter dropdown.
 
-1. Menu > Training > Qualification > Setup > Workcenter Configuration 2. Workcenters are set to Deactivated by Default. Once they are Activated, the Activate button changes to Deactivate.
+    7. Click Reapply Workcenter. A dialog will appear indicating the Workcenter has been reapplied.
 
-3. To Deactivate a Workcenter, select the Squadron and Workcenter in the Task List Directory.
+* Deactivating a Workcenter
 
-4. Select the Workcenter from the dropdown and click the Deactivate button. Deactivating a Workcenter will have no effect on Trainees that have already been assigned to that Workcenter.
+    1. Menu > Training > Qualification > Setup > Workcenter Configuration
 
-623a Usage
+    2. Workcenters are set to Deactivated by Default. Once they are Activated, the Activate button changes to Deactivate.
+
+    3. To Deactivate a Workcenter, select the Squadron and Workcenter in the Task List Directory.
+
+    4. Select the Workcenter from the dropdown and click the Deactivate button. Deactivating a Workcenter will have no effect on Trainees that have already been assigned to that Workcenter.
+
+### 623a Usage
 
 The AF Form 623a is used to view the progress of Trainees within the Training Folder itself. Within the 623a Folder you can manage trainees, sign off on tasks, and create 623a Entries.
 
@@ -4214,7 +4225,7 @@ Assign trainees
 
 4. This wil populate the Workcenter dropdown, bottom left, with any activated Workcenters from the selected Task List to which you will select the appropriate copy.
 
-5. Select the Skil Level for the Trainees from the dropdown menu.
+5. Select the Skill Level for the Trainees from the dropdown menu.
 
 6. Enter a Start Date at the bottom for the Trainees to begin the Task List.
 
@@ -4236,7 +4247,7 @@ Setting Start and Complete Dates for Tasks
 
 2. Select the student name.
 
-3. Upon opening the Trainee’s Training Folder, click on the 623 ta2.
+3. Upon opening the Trainee’s Training Folder, click on the 623 tab.
 
 4. In the Training section in the top left of the 623 tab ensure 623 Task List is selected.
 
@@ -4254,21 +4265,24 @@ Setting Start and Complete Dates for Tasks
 
 11. Select the Calendar button to the right of the Complete Date and enter the appropriate date.
 
-12. 1Select Save and then Close. You wil see that the Complete Date you entered now appears in the Complete Date column for the task.
+12. Select Save and then Close. You wil see that the Complete Date you entered now appears in the Complete Date column for the task.
 
-Non-Core Tasks
+    Non-Core Tasks
 
-When these Tasks have both start and Completed Dates entered they wil need Te \(Trainee\) and Tr \(Trainer\) signatures. Te and Tr will be highlighted red until signed.
+    When these Tasks have both start and Completed Dates entered they wil need Te \(Trainee\) and Tr \(Trainer\) signatures. Te and Tr will be highlighted red until signed.
 
-Core tasks
+    Core tasks
 
-When these Tasks have both start and Completed Dates entered they wil need Te \(Trainee\), Tr \(Trainer\), and CO \(Certifying Official\) signatures. Te, Tr, and CO will be highlighted red until signed.
+    When these Tasks have both start and Completed Dates entered they wil need Te \(Trainee\), Tr \(Trainer\), and CO \(Certifying Official\) signatures. Te, Tr, and CO will be highlighted red until signed.
 
 13. Tasks that are applicable with only a Completed Date entered will have the field for Tr initials \(Trainer\) colored red. Once the trainer sign off the task, the Te \(trainee\) initials field will be colored red.
 
 14. As tasked are signed by the Trainer, Trainee and Certifying Official, the red backgrounds are removed and the Te, Tr and CO are replaced with the initials of the signer.
 
-Any tasks marked N/A, regardless of dates entered, will not need signatures Sign off tasks
+!!! Note
+    Any tasks marked N/A, regardless of dates entered, will not need signatures
+
+Sign off tasks
 
 Trainers, Trainees and Certifying Officials can sign off tasks.
 
@@ -4276,7 +4290,7 @@ Trainers, Trainees and Certifying Officials can sign off tasks.
 
 2. Trainees navigate from My Page > Qualification Training > View My Training Folder.
 
-3. To sign a task you open the Trainee’s Training Folder and click on the 623 ta2.
+3. To sign a task you open the Trainee’s Training Folder and click on the 623 tab.
 
 4. In the Training section in the top left of the 623 tab ensure 623 Task List is selected.
 
@@ -4286,9 +4300,9 @@ Trainers, Trainees and Certifying Officials can sign off tasks.
 
 7. Click on the button for the task to which you want to add signatures \(initials\). This opens the Edit Dates/Signatures dialog.
 
-* Trainers can sign off multiple tasks, select the Multi Sign Tasks button at the top. In the pop up window, select all tasks by clicking the top task, then scrol to the bottom task, hold Shift and then click the bottom task to select all. You can also select multiple tasks by holding the Ctrl key while selecting all of the tasks you want to sign off. Enter Start Date and Completed Date, click Sign, and then Close. This will enter the initials of the logged in user into the Tr column. The CO is still individual task sign-offs.
+    * Trainers can sign off multiple tasks, select the Multi Sign Tasks button at the top. In the pop up window, select all tasks by clicking the top task, then scroll to the bottom task, hold Shift and then click the bottom task to select all. You can also select multiple tasks by holding the Ctrl key while selecting all of the tasks you want to sign off. Enter Start Date and Completed Date, click Sign, and then Close. This will enter the initials of the logged in user into the Tr column. The CO is still individual task sign-offs.
 
-* Trainees can sign off on multiple tasks by clicking on the View/Edit icon for a task. Then in the Edit Dates/Signatures pop-up window, click “sign” next to trainee’s name. A list of tasks that require the trainee’s signature will be displayed. Use the Ctrl key to select multiple tasks, then enter trainee’s PEX security identifier and click “sign”.
+    * Trainees can sign off on multiple tasks by clicking on the View/Edit icon for a task. Then in the Edit Dates/Signatures pop-up window, click “sign” next to trainee’s name. A list of tasks that require the trainee’s signature will be displayed. Use the Ctrl key to select multiple tasks, then enter trainee’s PEX security identifier and click “sign”.
 
 8. The Trainee’s name populates by default, but the Trainer and/or Certifying Official need to be selected in the respective dropdowns.
 
@@ -4306,11 +4320,13 @@ Trainers, Trainees and Certifying Officials can sign off tasks.
 
 15. Close the dialog and you will see that the Te \(Trainee\), Tr \(Trainer\), and CO \(Certifying Official\) has been replaced with the person’s initials and the red background for that field \(if applicable\) has been removed.
 
-Manage 623a entries
+### Manage 623a entries
 
 Creating a 623a entry
 
-1. Menu > Training > Qualification > Overview > Folder Reviews 2. Open the Training Folder and click the 623 ta2.
+1. Menu > Training > Qualification > Overview > Folder Reviews
+
+2. Open the Training Folder and click the 623 tab.
 
 3. Select the Task List where you would like to add a 623a Entry.
 
@@ -4340,7 +4356,7 @@ Editing a 623a entry
 
 1. Menu > Training > Qualification > Overview > Folder Reviews.
 
-2. To edit a 623a entry you wil open the Training Folder and click on the 623 ta2.
+2. To edit a 623a entry you wil open the Training Folder and click on the 623 tab.
 
 3. Select the Task List where you would like to edit a 623a Entry.
 
@@ -4354,15 +4370,15 @@ Editing a 623a entry
 
 Signing a 623a entry
 
-1. Menu > Training > Qualification > Overview > Folder Reviews 2. To sign a 623a entry you will open the Training Folder and click on the 623 ta2.
+1. Menu > Training > Qualification > Overview > Folder Reviews
+
+2. To sign a 623a entry you will open the Training Folder and click on the 623 tab.
 
 3. Select the Task List where you would like to sign a 623a Entry.
 
 4. At the bottom left there is a section for Additional Documentation.
 
-5. Click the Edit button to the right of the 623a entry or click the Sign icon \(pencil with green \+
-
-symbol.\) This brings up the Edit 623a dialog.
+5. Click the Edit button to the right of the 623a entry or click the Sign icon \(pencil with green \+symbol.\) This brings up the Edit 623a dialog.
 
 6. Select the Signatures in each dropdown menu.
 
@@ -4376,15 +4392,15 @@ symbol.\) This brings up the Edit 623a dialog.
 
 Editing a 623a entry Signature
 
-1. Menu > Training > Qualification > Overview > Folder Reviews 2. To sign a 623a entry you will open the Training Folder and click on the 623 ta2.
+1. Menu > Training > Qualification > Overview > Folder Reviews
+
+2. To sign a 623a entry you will open the Training Folder and click on the 623 tab.
 
 3. Select the Task List where you would like to sign a 623a Entry.
 
 4. At the bottom left there is a section for Additional Documentation.
 
-5. Click the Edit button to the right of the 623a entry or click the Sign icon \(pencil with green \+
-
-symbol.\) This brings up the Edit 623a dialog.
+5. Click the Edit button to the right of the 623a entry or click the Sign icon \(pencil with green \+symbol.\) This brings up the Edit 623a dialog.
 
 6. Select Signature 1 or Signature 2 dropdown to select a different user.
 
@@ -4394,7 +4410,7 @@ symbol.\) This brings up the Edit 623a dialog.
 
 Printing a 623a
 
-1. To print a 623a, open the Training Folder and click on the 623 ta2.
+1. To print a 623a, open the Training Folder and click on the 623 tab.
 
 2. At the bottom left there is a section for Additional Documentation.
 
@@ -4408,7 +4424,9 @@ Printing a 623a
 
 Assigning 623a\(s\) to Multiple People
 
-1. Menu > Training > Qualification > Personnel > Assign 623\(a\)s 2. Insert Title
+1. Menu > Training > Qualification > Personnel > Assign 623\(a\)s
+
+2. Insert Title
 
 3. Insert Date. Today’s date automatically populates.
 
@@ -4426,7 +4444,7 @@ Assigning 623a\(s\) to Multiple People
 
 10. Select OK. The 623a entries wil now appear in each of the select Trainees’ training folders.
 
-623a Transcription
+### 623a Transcription
 
 Due to changing requirements, Task Lists are periodically revised. It then becomes necessary to transcribe the accomplished tasks from the Old Version Task List to the New Version for the Trainees. This transcription can now be done in PEX. The transcription is a two-step process.
 
@@ -4438,7 +4456,9 @@ Transcribe a task list
 
 As an Administrator or Training Administrator, go to Qualification Training. Supervisor and Training Administrators must Validate the Transcription before the Trainee’s Training Folder before it will transcribe fully.
 
-1. Menu > Training > Qualification > Person Assignments > By Trainee Transcription 2. Select the appropriate Squadron in the Squadron dropdown.
+1. Menu > Training > Qualification > Person Assignments > By Trainee Transcription
+
+2. Select the appropriate Squadron in the Squadron dropdown.
 
 3. Select the appropriate Task List in the Task List dropdown.
 
@@ -4458,7 +4478,9 @@ Validate a Transcription
 
 Validating the transcription finalizes the process. This allows you to verify that all items selected for transcription are applied correctly and if not, to make the necessary changes or cancel the transcription by deleting the new Task List from the Training Folder.
 
-1. Menu > Training > Qualification > Overview > Folder Reviews 2. As an Administrator, Training Administrator or Supervisor of the Trainee open the Training Folder and click on the 623 ta2.
+1. Menu > Training > Qualification > Overview > Folder Reviews
+
+2. As an Administrator, Training Administrator or Supervisor of the Trainee open the Training Folder and click on the 623 tab.
 
 3. Both the old and new versions of the Task List will appear in the training grid on the top left side of the folder.
 
@@ -4476,11 +4498,13 @@ Validating the transcription finalizes the process. This allows you to verify th
 
 10. The Transcription to the New Version of the Task List wil be documented in Additional documentation.
 
-623a Miscellaneous
+### 623a Miscellaneous
 
 Print a 623a
 
-1. Training > Qualification > Setup > Task List Builder 2. Task Lists can be printed in .PDF format by clicking the Additional Task List Actions button and selecting View/Print Task List from the menu.
+1. Training > Qualification > Setup > Task List Builder
+
+2. Task Lists can be printed in .PDF format by clicking the Additional Task List Actions button and selecting View/Print Task List from the menu.
 
 3. This will open the Task List in .PDF format where it can be printed.
 
@@ -4490,7 +4514,9 @@ First, upload it so others can view it.
 
 Uploading a Proficiency Code Key
 
-1. Training > Qualification > Setup > Task List Builder 2. Select the Task List in the Task List Directory of the Task List builder.
+1. Training > Qualification > Setup > Task List Builder
+
+2. Select the Task List in the Task List Directory of the Task List builder.
 
 3. Upload a Proficiency Code Key by clicking the Proficiency Code Key button and selecting Upload Proficiency Code Key from the dropdown.
 
@@ -4500,9 +4526,9 @@ Viewing a Proficiency Code
 
 Any user with access to the Training Folder can view the Proficiency Code Key.
 
-1. Training > Qualification > Overview > Folder Reviews 2. To view the Proficiency Code Key, open the Trainee’s Training Folder and click on the 623
+1. Training > Qualification > Overview > Folder Reviews
 
-ta2.
+2. To view the Proficiency Code Key, open the Trainee’s Training Folder and click on the 623 tab.
 
 3. In the Training section in the top left of the 623 tab ensure 623 Task List is selected.
 
@@ -4518,71 +4544,69 @@ You can \(1\) compare the current task list to the planned, or imported, task li
 
 Color legend
 
-* Red Deleted Tasks. These tasks have been deleted.
+    * Red Deleted Tasks. These tasks have been deleted.
 
-* Green New Tasks. These tasks have been added.
+    * Green New Tasks. These tasks have been added.
 
-* Yellow Tasks. These tasks have been edited.
+    * Yellow Tasks. These tasks have been edited.
 
 1. Current to Planned Task List
 
-* Training > Qualification > Setup > Task List Builder
+    * Training > Qualification > Setup > Task List Builder
 
-* Select the applicable Task List from the Task List Directory.
+    * Select the applicable Task List from the Task List Directory.
 
-* Click Show Revisions.
+    * Click Show Revisions.
 
-* The current Task List appears on the left side while the Planned Task List appears on the right.
+    * The current Task List appears on the left side while the Planned Task List appears on the right.
 
-o Deleted tasks only appear on the current version/left side.
+        * Deleted tasks only appear on the current version/left side.
 
-o New tasks only appear on the planned version/right side.
+        * New tasks only appear on the planned version/right side.
 
-o Edited tasks appear on both sides, but are highlighted in yel ow on only the right side.
+        * Edited tasks appear on both sides, but are highlighted in yel ow on only the right side. If you select an edited task on the right side, the same task wil be selected on the left side.
 
-If you select an edited task on the right side, the same task wil be selected on the left side.
+    * Click Hide Revisions.
 
-* Click Hide Revisions.
+    * Click Compare Changes Only.
 
-* Click Compare Changes Only.
+        * When the Task List Changes dialog opens, view each current list task with the associated planned list task beneath, color coded appropriately.
 
-o When the Task List Changes dialog opens, view each current list task with the associated planned list task beneath, color coded appropriately.
-
-* This function can also be viewed in Setup > Work Center Configuration > View Differences.
+    * This function can also be viewed in Setup > Work Center Configuration > View Differences.
 
 2. Any Two Tasks Lists
 
-* Training > Qualification > Setup > Task List Builder
+    * Training > Qualification > Setup > Task List Builder
 
-* Select the applicable Task List from the Task List Directory.
+    * Select the applicable Task List from the Task List Directory.
 
-* Go to Additional Task List Actions > View Task List Revisions.
+    * Go to Additional Task List Actions > View Task List Revisions.
 
-* The Revision History dialog opens with the selected task list checked and earlier versions beneath.
+    * The Revision History dialog opens with the selected task list checked and earlier versions beneath.
 
-* Select the earlier list you wish to compare the checked list to. You must have exactly two lists checked.
+    * Select the earlier list you wish to compare the checked list to. You must have exactly two lists checked.
 
-* Click Compare Revisions.
+    * Click Compare Revisions.
 
-o The Earliest Version appears on the left side while the Latest Version appears on the right.
+        * The Earliest Version appears on the left side while the Latest Version appears on the right.
 
-o Deleted tasks only appear on the current version/left side.
+        * Deleted tasks only appear on the current version/left side.
 
-o New tasks only appear on the planned version/right side.
+        * New tasks only appear on the planned version/right side.
 
-o Edited tasks appear on both sides, but are highlighted in yel ow on only the right side.
+        * Edited tasks appear on both sides, but are highlighted in yel ow on only the right side. If you select an edited task on the right side, the same task wil be selected on the left side.
 
-If you select an edited task on the right side, the same task wil be selected on the left side.
+    * Click Compare Changes Only.
 
-* Click Compare Changes Only.
+        * When the Task List Changes dialog opens, view each current list task with the associated planned list task beneath, color coded appropriately.
 
-o When the Task List Changes dialog opens, view each current list task with the associated planned list task beneath, color coded appropriately.
-
-* This function can also be viewed in Personnel > By Trainee Transcription > Task List > Skill Level > View Task List Revisions.
+    * This function can also be viewed in Personnel > By Trainee Transcription > Task List > Skill Level > View Task List Revisions.
 
 Sending a Workcenter to another Squadron
 
-1. Training > Qualification > Setup > Workcenter Send-To 2. Before you can send a Workcenter, it must be activated in Workcenter Configuration. To Activate a Workcenter see above.
+1. Training > Qualification > Setup > Workcenter Send-To
+
+2. Before you can send a Workcenter, it must be activated in Workcenter Configuration. To Activate a Workcenter see above.
 
 3. Select a Squadron from the dropdown menu.
 
@@ -4596,7 +4620,9 @@ Sending a Workcenter to another Squadron
 
 Printing a Workcenter
 
-1. Training > Qualification > Setup > Workcenter Configuration 2. The user can view or print the Workcenter in .PDF format by selecting the Squadron and Task List from the Task List Directory.
+1. Training > Qualification > Setup > Workcenter Configuration
+
+2. The user can view or print the Workcenter in .PDF format by selecting the Squadron and Task List from the Task List Directory.
 
 3. Select the appropriate Workcenter from the dropdown.
 
@@ -4606,7 +4632,9 @@ Editing Trainers and Certifying Officials.
 
 Administrators and Training Administrators can edit the Trainers and Certifying Officials on a Task List.
 
-1. Training > Qualification > Overview > Folder Reviews 2. To edit the Trainers or Certifying Officials open the Trainee’s Training Folder and click on the 623 ta2.
+1. Training > Qualification > Overview > Folder Reviews
+
+2. To edit the Trainers or Certifying Officials open the Trainee’s Training Folder and click on the 623 tab.
 
 3. In the Training section in the top left of the 623 tab ensure 623 Task List is selected.
 
@@ -4614,31 +4642,21 @@ Administrators and Training Administrators can edit the Trainers and Certifying 
 
 5. There will be separate buttons at the bottom of the Task List labeled View/Edit Trainers and View/Edit Certifying Officials.
 
-6. Click on the button for the one you want to edit and a dialog will open with a list of available personnel on the left side and assigned Trainers on the right side. The list is populated by the names in the Squadron selected in the dropdown. You can filter the list with the standard PEX
-
-personnel filter.
+6. Click on the button for the one you want to edit and a dialog will open with a list of available personnel on the left side and assigned Trainers on the right side. The list is populated by the names in the Squadron selected in the dropdown. You can filter the list with the standard PEX personnel filter.
 
 7. To assign a person as a Trainer or Certifying Official, select the name\(s\) in the Available grid and click the Assign button. To Unassign a Trainer or Certifying Official, select the name\(s\) in the Assigned grid and click the Unassign button.
 
-Training Folder
+## Training Folder
 
 PEX maintains a Training Folder that contains a person’s Continuation and Qualification training records. The folder has four sections: Courses \(Mission Training\), Continuation Training, 623 \(OJT or CFETP\), and AFSPC 4420.
 
-Your Folder - You can access your own training folder at My Page > My Data > Qualification Tng > View My Training Folder. From here, you can view the folder. You can add 623a entries, sign off 623
+Your Folder - You can access your own training folder at My Page > My Data > Qualification Tng > View My Training Folder. From here, you can view the folder. You can add 623a entries, sign off 623 tasks and MFRs. Other data in the folder is read only unless you have the correct permissions role. You can’t grade your own courses regardless of permissions.
 
-tasks and MFRs. Other data in the folder is read only unless you have the correct permissions role.
-
-You can’t grade your own courses regardless of permissions.
-
-Your Subordinates’ Folders - From MyPage > My Data > Supervision > select the training folder button next to person’s. From here, as a supervisor, you can review the person’s folder. You can approve reported tasks by selecting Reported Not Audited in the drop-down under Logged Tasks.
-
-Then, right-click on the task and select Approve Task. For more on setting supervisors, see Personnel
-
-Details by ta2.
+Your Subordinates’ Folders - From MyPage > My Data > Supervision > select the training folder button next to person’s. From here, as a supervisor, you can review the person’s folder. You can approve reported tasks by selecting Reported Not Audited in the drop-down under Logged Tasks. Then, right-click on the task and select Approve Task. For more on setting supervisors, see Personnel Details by tab.
 
 Everyone’s Folders - A Training Instructor, Training Administrator, Training-Course Administrator and Training-Task List Administrator can access all the squadron training folders from Training > Qualification and clicking on the person’s name anywhere in the module.
 
-Folder Tasks
+### Folder Tasks
 
 CT. The Continuation Training Continuation Training Tab of the folder gives you a quick way to view a person’s overall CT status by consolidating data from other PEX modules.
 
@@ -4648,63 +4666,59 @@ CT. The Continuation Training Continuation Training Tab of the folder gives you 
 
 * Pending Audit. In the right section of the CT Tab, you can generate a list of tasks by Reported Not Audited, Audited Not Exported, and Exported. This all ows you to quickly track the status of your reported tasks.
 
-!!! NOTE Only ARMS tasks \(not Unit Tasks\) are exported, so only ARMS tasks wil display under Exported.
+    !!! NOTE
+        Only ARMS tasks \(not Unit Tasks\) are exported, so only ARMS tasks wil display under Exported.
 
 Courses. From this section you can:
 
-* Grade and View Forms. For QT Courses, in the Course grid \(west pane\), select the course.
+* Grade and View Forms. For QT Courses, in the Course grid \(west pane\), select the course. When the training program details \(east pane\) open, click the View/Edit button for the appropriate BOI. This will bring up the same BOI grading dialog you receive in Student Details and functions the same way. To view forms, click the View/Print button to the right of the BOI Edit button. You can also use the Quick Complete button to grade a BOI to required levels without opening the grading dialog. For completed grade sheets, the overall grade is displayed \(red if failed\) along with the instructor’s name and completion date.
 
-When the training program details \(east pane\) open, click the View/Edit button for the appropriate BOI. This will bring up the same BOI grading dialog you receive in Student Details and functions the same way. To view forms, click the View/Print button to the right of the BOI Edit button. You can also use the Quick Complete button to grade a BOI to required levels without opening the grading dialog. For completed grade sheets, the overall grade is displayed \(red if failed\) along with the instructor’s name and completion date.
+* Enroll student in a course. Enroll a student directly into a course.
 
-* Enroll student in a course. Enrol a student directly into a course.
+    * Click the Enroll in Course\(s\) button to open the enroll dialog.
 
-* Click the Enroll in Course\(s\) button to open the enroll dialog.
+    * Select the Squadron.
 
-* Select the Squadron.
+    * A list of the squadron's courses is returned. Courses the student was previously enrolled in will not appear. Click Include Closed Courses, as required.
 
-* A list of the squadron's courses is returned. Courses the student was previously enrolled in will not appear. Click Include Closed Courses, as required.
+    * The Start Date defaults to the next logical training date.
 
-* The Start Date defaults to the next logical training date.
+    * Enter the Required Completion Date, as required.
 
-* Enter the Required Completion Date, as required.
-
-* Select the appropriate course and click Enroll.
+    * Select the appropriate course and click Enroll.
 
 * Mark Courses Complete. QT Courses are marked complete by selecting the course in the Courses grid in the east pane; clicking on the Completed Date calendar control in the west pane; selecting a date and clicking the Mark Completed button. This will put the training program in a read only state in the training folder and student details. It will also remove the program from the QT Overview.
 
 * Reopen Courses. QT Courses that have been marked complete can be reopened for editing by selecting the course in the Courses grid in the east pane and clicking the Reopen button in the west pane. This will allow the user to make edits to the training program in the folder and student details. It wil also return the program to the QT Overview.
 
-* Unaccomplished Task Log. The tracking of unaccomplished BOI tasks is not automati3.
-
-Instructors should log unaccomplished tasks from the BOI grade sheet by highlighting the task and selecting the Log Unaccomplished Task button. In the training folder, there is a Unaccomplished Task Log hyperlink. This hyperlink is red if an unaccomplished task exists.
+* Unaccomplished Task Log. The tracking of unaccomplished BOI tasks is not automatic. Instructors should log unaccomplished tasks from the BOI grade sheet by highlighting the task and selecting the Log Unaccomplished Task button. In the training folder, there is a Unaccomplished Task Log hyperlink. This hyperlink is red if an unaccomplished task exists.
 
 * Historic Courses. All old \(non-PEX\) courses imported into the training folder are designated historic courses. You can list a course, completed outside of PEX, by clicking the Add Historic Course button. Selecting this opens a dialog where you will enter course information. Course Name and Completion Date are the only required fields. Once created, you can associate forms with the course by clicking the Import Form button. In the resulting dialog, select the form type and enter the description and date. Click on the blank page to open a dialog allowing you to browse to the desired .jpeg or.png file. \(In the 623 tab, you also select .PDF files by clicking the Import File button.\) A Historic Course can be deleted by right-click context menu selecting Delete Historic Course.
 
-* Memorandums for Record \(MFRs\). You can add MFRs to the folder in general or to a specific course. Click the Add Folder MFR or Add Course MFR button in the Courses ta2. Selecting either of these buttons opens the add MFR dialog. Two MFR Types are available: Informational and Endorsement. The MFRs may be digitally signed by up to five individuals. Digital signature capability allows for both CAC and PEX SID signatures. You can also import a scanned MFR by clicking the Import Scanned MFR button.
+* Memorandums for Record \(MFRs\). You can add MFRs to the folder in general or to a specific course. Click the Add Folder MFR or Add Course MFR button in the Courses tab. Selecting either of these buttons opens the add MFR dialog. Two MFR Types are available: Informational and Endorsement. The MFRs may be digitally signed by up to five individuals. Digital signature capability allows for both CAC and PEX SID signatures. You can also import a scanned MFR by clicking the Import Scanned MFR button.
 
 * Manage Exams. You can link an exam from Testing Admin or manually add an exam date and grade.
 
-* Select the applicable course.
+    * Select the applicable course.
 
-* On the right side, click Folder Options dropdown and Exams, and the Link Exams to Course dialog opens.
+    * On the right side, click Folder Options dropdown and Exams, and the Link Exams to Course dialog opens.
 
-o Click Link Exam\(s\) and view a list of exams completed within the last year. Select the applicable exam\(s\) and click OK.
+        * Click Link Exam\(s\) and view a list of exams completed within the last year. Select the applicable exam\(s\) and click OK.
 
-o Click Add Manual Exam and, when the dialog opens, add the exam Name and, if desired, the Date and Grade, click OK.
+        * Click Add Manual Exam and, when the dialog opens, add the exam Name and, if desired, the Date and Grade, click OK.
 
-o Select the desired exam. Click Edit Manual Exam and, when the dialog opens, edit the exam Name, Date and Grade as desired, and click OK.
+        * Select the desired exam. Click Edit Manual Exam and, when the dialog opens, edit the exam Name, Date and Grade as desired, and click OK.
 
-o Select the desired exam. Click Remove from List and, at the confirmation dialog, and click Yes or No.
+        * Select the desired exam. Click Remove from List and, at the confirmation dialog, and click Yes or No.
 
-* These exams are viewable in Training Course Forms on the AF4022, Ground Training Summary, and Student Progress Report under Print Options > Print Progress Report.
+    * These exams are viewable in Training Course Forms on the AF4022, Ground Training Summary, and Student Progress Report under Print Options > Print Progress Report.
 
-NOTE. When creating documents to be imported into PEX, be judicious in selecting image quality settings. Use the lowest resolution that gets the job done. Higher resolutions equal larger file sizes.
+!!! Note
+    When creating documents to be imported into PEX, be judicious in selecting image quality settings. Use the lowest resolution that gets the job done. Higher resolutions equal larger file sizes.
 
-623. From this section you can:
+\623. From this section you can:
 
-* Date & Sign Off 623 Tasks. For 623 task lists, in the Training grid \(west pane\), select the 623
-
-Task List radio button and select the task list. When the task list is selected the details wil populate in the east pane. A task that has a start date bur no completed date wil show a yellow background in the completed date field. Once a completed date has been entered the roles that need to sign off the task will highlight in red. A task must have a completed date before signatures will be enabled. To sign off a task, click on the View/Edit button to the right of the task and click the sign button next to your name. When the sign dialog opens, enter your PEX Security ID.
+* Date & Sign Off 623 Tasks. For 623 task lists, in the Training grid \(west pane\), select the 623 Task List radio button and select the task list. When the task list is selected the details wil populate in the east pane. A task that has a start date bur no completed date wil show a yellow background in the completed date field. Once a completed date has been entered the roles that need to sign off the task will highlight in red. A task must have a completed date before signatures will be enabled. To sign off a task, click on the View/Edit button to the right of the task and click the sign button next to your name. When the sign dialog opens, enter your PEX Security ID.
 
 * Mark Tasks N/1. A task that isn’t required for the trainee can be marked N/A by checking the box to the left of the task.
 
@@ -4718,65 +4732,54 @@ Task List radio button and select the task list. When the task list is selected 
 
 * Validate Transcription. Transcribing to a new version of a task list is a two-step process. The first step is accomplished on the Transcribe Trainees page in QT. The validation is accomplished in the training folder. This allows the user to verify the correct task list has been selected for transcription and provides an option to back out if the wrong task list was selected. To validate, check the two task lists in the task list grid that have the same name except for revision date. Verify the correct information is reflected in the new revision. When you’re sure the information is correct, click the Validate Transcription button. The button wil only be active in the new version of the task list. Both versions of the task list will be in a read only state until either the Validate Transcription button is clicked or the new version of the task list is deleted.
 
-* 623a Entries. To make a 623a entry, click the Add 623a Entry button in the Additional Documentation section of the east pane. This brings up a dialog where you enter the required information and select who needs to sign the entry. 623a entries are signed using PEX SID.
+* 623a Entries. To make a 623a entry, click the Add 623a Entry button in the Additional Documentation section of the east pane. This brings up a dialog where you enter the required information and select who needs to sign the entry. 623a entries are signed using PEX SID. Entries will not appear on the printed 623a until at least one signature is applied. Entries can be deleted by clicking the Delete button \(Red X\) to the right of the entry.
 
-Entries will not appear on the printed 623a until at least one signature is applied. Entries can be deleted by clicking the Delete button \(Red X\) to the right of the entry.
+* Memorandums for Record \(MFRs\). You can add MFRs to the task list section of the folder by clicking the Add MFR button in the 623 tab. Two MFR Types are available: Informational and Endorsement. The MFRs may be digitally signed by up to five individuals. Digital signature capability allows for both CAC and PEX SID signatures. You can also import a scanned MFR by clicking the Import Document button.
 
-* Memorandums for Record \(MFRs\). You can add MFRs to the task list section of the folder by clicking the Add MFR button in the 623 ta2. Two MFR Types are available: Informational and Endorsement. The MFRs may be digitally signed by up to five individuals. Digital signature capability allows for both CAC and PEX SID signatures. You can also import a scanned MFR by clicking the Import Document button.
+* Import Documents. You can import other documents and place them in the applicable subfolder \(e.g. AF Form 2096 entries or MFR\). To do this, click the Import Document button. This brings up the import dialog. Select which subfolder where you want the document to appear and enter a description. You can import files \(.PDF, or .jpg or .png images\). Select the file or image option and enter an applicable date. If you selected file, click the Browse button. Navigate to the file and click Open. If you selected image, click in the Click to upload front page image field. This brings up a browse dialog where you’ll navigate to the file and click Open. Repeat the process for the back page if required. Once you’ve selected the file or image click the Save Form Image button to close the dialog. You’ll see the imported document in the selected section. The document can be viewed by clicking the View button to the right of the document. Any imported documents can be deleted by clicking the Delete \(Red X\) button to the right of the document. Documents can be moved between subfolders by clicking the dropdown button to the right of the view/print button and selecting the new subfolder. Auto-entered 623a entries can’t be moved.
 
-* Import Documents. You can import other documents and place them in the applicable subfolder \(e.g. AF Form 2096 entries or MFR\). To do this, click the Import Document button.
-
-This brings up the import dialog. Select which subfolder where you want the document to appear and enter a description. You can import files \(.PDF, or .jpg or .png images\). Select the file or image option and enter an applicable date. If you selected file, click the Browse button.
-
-Navigate to the file and click Open. If you selected image, click in the Click to upload front page 288
-
-image field. This brings up a browse dialog where you’ll navigate to the file and click Open.
-
-Repeat the process for the back page if required. Once you’ve selected the file or image click the Save Form Image button to close the dialog. You’l see the imported document in the selected section. The document can be viewed by clicking the View button to the right of the document. Any imported documents can be deleted by clicking the Delete \(Red X\) button to the right of the document. Documents can be moved between subfolders by clicking the dropdown button to the right of the view/print button and selecting the new subfolder. Auto-entered 623a entries can’t be moved.
-
-* UD Courses. User defined course that were created and assigned before task list functionality was introduced to PEX can still be managed on the 623 ta2. Click the UD Course radio button at the top of the training grid and select the course in the grid below. The training program details will display in the right pane. The functionality will be the same as for the QT Courses above.
+* UD Courses. User defined course that were created and assigned before task list functionality was introduced to PEX can still be managed on the 623 tab. Click the UD Course radio button at the top of the training grid and select the course in the grid below. The training program details will display in the right pane. The functionality will be the same as for the QT Courses above.
 
 AFSPC 4420. From this section you can:
 
 * Add AF Form 4420s.
 
-* In the student's training folder, click on the AFSPC 4420 ta2.
+    * In the student's training folder, click on the AFSPC 4420 tab.
 
-* AFSPC History \(left side\).
+    * AFSPC History \(left side\).
 
-o Imported forms will appear as Historic forms.
+        * Imported forms will appear as Historic forms.
 
-o Click Add New Form to create a new one.
+        * Click Add New Form to create a new one.
 
-* Add an individual form Name and Unit Center.
+            * Add an individual form Name and Unit Center.
 
-* Edit or delete as required.
+            * Edit or delete as required.
 
-!!! NOTE Pay Grade, not rank, is used here. If not correct, go to Setup > Personnel > Setup
+            !!! NOTE
+                Pay Grade, not rank, is used here. If not correct, go to Setup > Personnel > Setup > Rank to set the pay grade.
 
-> Rank to set the pay grade.
+    * AFSPC Details \(right side\).
 
-* AFSPC Details \(right side\).
+        * Action items are listed under AFSPC Details.
 
-o Action items are listed under AFSPC Details.
+        * Highlight the appropriate form under AFSPC 4420 History.
 
-o Highlight the appropriate form under AFSPC 4420 History.
+        * Click Add Action.
 
-o Click Add Action.
+        * Add up to 47 total action items, from all forms.
 
-o Add up to 47 total action items, from all forms.
+        * Add the Date, Action to be Recorded, and Score/Rate.
 
-o Add the Date, Action to be Recorded, and Score/Rate.
+        * With the action item buttons, each action item can be edited, signed, unsigned, and cleared.
 
-o With the action item buttons, each action item can be edited, signed, unsigned, and cleared.
+        * To sign/unsign:
 
-o To sign/unsign:
+            * Click the View/Sign button at the top to open the form with all items ready for signature.
 
-* Click the View/Sign button at the top to open the form with all items ready for signature.
+            * Click the individual action item's Sign Action Item button to sign just that item.
 
-* Click the individual action item's Sign Action Item button to sign just that item.
-
-* Click the Unsign Action Item button to unsign that item.
+            * Click the Unsign Action Item button to unsign that item.
 
 What does “Rgs” in front of the BOI Name mean?
 
@@ -4791,6 +4794,8 @@ The regression indicator will go away when:
 * \(AMC Rule\) When graded back to the highest previous grade.
 
 * \(AFSOC Rule\) When graded back to the min \(or higher\) grade.
+
+<!--probably need a ACC rule here sooner or later daveDailey-->
 
 Course regression rules can be applied or removed at any time except when an individual’s course is marked complete.
 
@@ -4810,21 +4815,19 @@ Import MFRs for one person or multiple people
 
 * Click OK and Import.
 
-Review a Master Training Plan
+### Review a Master Training Plan
 
 At the top of the training folder, click Show Assigned Training Plans.
 
-Review a training folder
+### Review a training folder
 
 On any tab of the folder, click the Review Folder button at the top left of the dialog. This opens a dialog where you can sign off by month/quarter and leave comments.
 
-Import a training folder from another PEX database
+### Import a training folder from another PEX database
 
-Training folder import is included as part of importing a personnel data file in Setup > Personnel.
+Training folder import is included as part of importing a personnel data file in Setup > Personnel. Any data brought in will be Read-Only. Imported PEX Courses become Historic Courses.
 
-Any data brought in will be Read-Only. Imported PEX Courses become Historic Courses.
-
-Move stuff from the Courses section to the 623 section
+### Move stuff from the Courses section to the 623 section
 
 A Training Administrator can move items from the Courses \(QT\) section to the 623 section.
 
@@ -4844,7 +4847,7 @@ Delete a training folder
 
 We don’t recommend using this feature. When you “delete” a training folder, you are not really deleting it but instead are removing the person from any QT courses, deleting 623 \(CFETP\) tasks lists, and deleting all the documentation you added to it \(MFRs, task lists, et3.\). The folder itself and all CT data remain. To “delete,” click the Delete Folder button.
 
-Training Folder Routing Checklists
+### Training Folder Routing Checklists
 
 Create checklists to track routing of training folders for step reviews. Steps can be added and removed individually or with templates you create. Reviewers can view these checklists as a My Action Item, by Active Checklists and by Completed Checklists. Folders can be reviewed and acknowledged on My Page or in Qualification Training.
 
@@ -4902,11 +4905,10 @@ Review and acknowledge a checklist
 
 6. When the Manage Checklist dialog opens, click Acknowledge, and Ok at the confirmation message.
 
-NOTES:
+    !!! NOTE
+        * The acknowledgment cannot be undone.
 
-* The acknowledgment cannot be undone.
-
-* The person assigned the acknowledgment must be the person logged in.
+        * The person assigned the acknowledgment must be the person logged in.
 
 7. If you are no longer required the reviewer, use the Change link to assign the correct reviewer, or the Remove link to remove your name.
 
@@ -4934,41 +4936,36 @@ Copy checklist
 
 5. When all steps are as desired click Save.
 
-Training Reports
+## Training Reports
 
-Currency Report
+### Currency Report
 
 The Currency Report lists selected people down the left side, selected training tasks across the top, and their color-coded Due Dates in between. It’s used to get a quick view of currency task status.
 
-!!! NOTE Proficiency \(Volume\) tasks don’t appear on the Currency report.
+!!! NOTE
+    Proficiency \(Volume\) tasks don’t appear on the Currency report.
 
-Generate the report
+* Generate the report Go to Training >Reports. Click the Currency tab. Use the filter control to select the personnel to show on the report. You may also use a task filter to limit the data returned. Select the date for which you would like to view currencies. This is the date upon which all long warning, short warning, and overdue tasks will be based. Additionally, you can select to sort by task code or task name and are given the option show only personnel that are overdue. Lastly, you can choose which personnel information columns to display. When your selections are complete, click the PDF button or the Excel button.
 
-Go to Training >Reports. Click the Currency ta2. Use the filter control to select the personnel to show on the report. You may also use a task filter to limit the data returned. Select the date for which you would like to view currencies. This is the date upon which all long warning, short warning, and overdue tasks will be based. Additionally, you can select to sort by task code or task name and are given the option show only personnel that are overdue. Lastly, you can choose which personnel information columns to display. When your selections are complete, click the PDF button or the Excel button.
+* Overdue Details Shows how long a person has been overdue. This allows you to set five different date ranges in days or years and to select the colors to display on the Currency Report.
 
-Overdue Details
+* Colors
 
-Shows how long a person has been overdue. This allows you to set five different date ranges in days or years and to select the colors to display on the Currency Report.
+    Red – Overdue
 
-Colors
+    Pink – Short Warning \(30 days by default\)
 
-Red – Overdue
+    Yellow – Long Warning \(60 days by default\)
 
-Pink – Short Warning \(30 days by default\)
+    Green – Current, not close to overdue
 
-Yellow – Long Warning \(60 days by default\)
+    Grey – Not assigned
 
-Green – Current, not close to overdue
-
-Grey – Not assigned
-
-TAR Report
+### TAR Report
 
 Overview
 
-The Training Accomplishment Report \(TAR\) report is used to view Continuation Training that was Reported, Approved, and/or Exported to ARMS, to help ensure all training is properly accounted for.
-
-It can be used as a manual tracker of training tasks for people deploying to locations without PEX. It can also be used as a monthly paper record of individual training.
+The Training Accomplishment Report \(TAR\) report is used to view Continuation Training that was Reported, Approved, and/or Exported to ARMS, to help ensure all training is properly accounted for. It can be used as a manual tracker of training tasks for people deploying to locations without PEX. It can also be used as a monthly paper record of individual training.
 
 Open a TAR report
 
@@ -4976,55 +4973,57 @@ Open a TAR report
 
 2. Filtering Options
 
-1. Select the Personnel you want using the Default Squadron, Personnel Filter, or Mission buttons
+    1. Select the Personnel you want using the Default Squadron, Personnel Filter, or Mission buttons
 
-1\) Default Squadron brings back all personnel from your squadron 2\) Personnel Filter uses existing personnel filters. If you want to create a new filter, use the Filter Wizard \(funnel icon\) at top right. This one is useful for getting back specific crew positions.
+        1. Default Squadron brings back all personnel from your squadron
 
-3\) Mission brings back people by sortie
+        2. Personnel Filter uses existing personnel filters. If you want to create a new filter, use the Filter Wizard \(funnel icon\) at top right. This one is useful for getting back specific crew positions.
 
-2. Select the Tasks you want using existing task filters. If you want to create a new filter, use the Filter Wizard \(funnel icon\) at top right. This one is useful for getting back specific tasks. If you do not pick a filter, all tasks will be returned.
+        3. Mission brings back people by sortie
+
+    2. Select the Tasks you want using existing task filters. If you want to create a new filter, use the Filter Wizard \(funnel icon\) at top right. This one is useful for getting back specific tasks. If you do not pick a filter, all tasks will be returned.
 
 3. Display Options
 
-1. Select Daily or Monthly
+    1. Select Daily or Monthly
 
-1\) Daily gives you a by-day report for a date span. This one used most often.
+        1. Daily gives you a by-day report for a date span. This one used most often.
 
-2\) Monthly gives you a by-month report for a selected number of months. This one is used for end-of-cycle record keeping.
+        2. Monthly gives you a by-month report for a selected number of months. This one is used for end-of-cycle record keeping.
 
-2. Select Current Training Cycle \(normally\) or Previous
+    2. Select Current Training Cycle \(normally\) or Previous
 
-3. Select Currency Color Coding
+    3. Select Currency Color Coding
 
-1\) As of Current Date will color code using today's date to determine currency status \(i.e., Is it overdue today?\). Use this option for manual tracking current day missions.
+        1. As of Current Date will color code using today's date to determine currency status \(i.e., Is it overdue today?\). Use this option for manual tracking current day missions.
 
-2\) As of Last Date in Selected Range will color code using the last date to determine currency status \(i.e., Will it be overdue on the last date of the selected range?\) Use this option for manual tracking missions that end day after tomorrow and onward.
+        2. As of Last Date in Selected Range will color code using the last date to determine currency status \(i.e., Will it be overdue on the last date of the selected range?\) Use this option for manual tracking missions that end day after tomorrow and onward.
 
-3\) Do not show Currency Color Coding removes color coding. Use this option for record keeping.
+        3. Do not show Currency Color Coding removes color coding. Use this option for record keeping.
 
-4. Sort Tasks By \(depends on which you prefer\)
+    4. Sort Tasks By \(depends on which you prefer\)
 
-1\) ID will sort the tasks by ID
+        1. ID will sort the tasks by ID
 
-2\) Name will sort the tasks by Name
+        2. Name will sort the tasks by Name
 
-5. Select Task Status
+    5. Select Task Status
 
-1\) Reported wil return tasks reported as done
+        1. Reported wil return tasks reported as done
 
-2\) Approved will return reported tasks that are approved
+        2. Approved will return reported tasks that are approved
 
-3\) Exported will return ARMS tasks successfully exported to ARMS \(and approved Unit tasks\)
+        3. Exported will return ARMS tasks successfully exported to ARMS \(and approved Unit tasks\)
 
-4\) To Reconcile returns a comparison: Reported vs. Approved for Unit Tasks or Reported vs. Exported for ARMS tasks. Differences highlighted with a red background.
+        4. To Reconcile returns a comparison: Reported vs. Approved for Unit Tasks or Reported vs. Exported for ARMS tasks. Differences highlighted with a red background.
 
-6. Select additional fields to include:
+    6. Select additional fields to include:
 
-1\) Time \(Hours\) wil include the hours logged during task accomplishment 2\) Accomplishment Method
+        1. Time \(Hours\) wil include the hours logged during task accomplishment
 
-3\) Source Document Block adds a section for record-keeping. Fields in the block include Signature, Complete SSN, Date, Flight Order \#, ARMS Input Date, Input Initials, ARMS
+        2. Accomplishment Method
 
-Audit Date, Audit Initials, Remarks, Supv Rev Date, and Supv Initials. Use this option for manual tracking.
+        3. Source Document Block adds a section for record-keeping. Fields in the block include Signature, Complete SSN, Date, Flight Order \#, ARMS Input Date, Input Initials, ARMS Audit Date, Audit Initials, Remarks, Supv Rev Date, and Supv Initials. Use this option for manual tracking.
 
 4. View the report by selecting PDF or Excel. You can print from PDF by selecting the print icon or from Excel by selecting Ctrl \+ P.
 
@@ -5038,17 +5037,15 @@ Definitions
 
 * Gray column = Not Assigned this Task
 
-RAP Probation Status Report
+### RAP Probation Status Report
 
-The RAP Probation Status Report provides a quick view of who has failed one-month lookback, is on probation for failed one-month and three-month lookbacks, and is in regression N-CMR status. The report can be exported to as a formatted or unformatted Word document.
-
-The report now includes columns for SIM Required and SIM Accomplished.
+The RAP Probation Status Report provides a quick view of who has failed one-month lookback, is on probation for failed one-month and three-month lookbacks, and is in regression N-CMR status. The report can be exported to as a formatted or unformatted Word document. The report now includes columns for SIM Required and SIM Accomplished.
 
 Personnel. After clicking on the RAP Probation Status tab, the report builds with personnel from your Default Squadron. if desired, select a Personnel Filter to narrow the list.
 
 Start Month. Defaults to the month prior to the current month.
 
-Each section populates with names of all those meeting the criteri1.
+Each section populates with names of all those meeting the criteria.
 
 * Failed: One-month Lookback
 
@@ -5064,13 +5061,13 @@ Click Report Settings and select which columns to display on the printed documen
 
 Click Word to open the report file for printing.
 
-Sortie Type Report
+### Sortie Type Report
 
 Concept. The Sortie Type Report all ows you to compare scheduled sortie types to actual sortie types, by squadron, within a date range.
 
 Permission Roles. You need the Basic User role to view the report. You need the Flight Scheduler role or Administrator role to enter actual sortie types into the schedules.
 
-Setup the report In order for the report to provide meaningful information, you must enter actual sortie types after the flights are flown. Actual Sortie Type is best entered on the TAR right after the flight. It can also be entered in the Mission Board or Flying Schedule > Sortie ta2.
+Setup the report In order for the report to provide meaningful information, you must enter actual sortie types after the flights are flown. Actual Sortie Type is best entered on the TAR right after the flight. It can also be entered in the Mission Board or Flying Schedule > Sortie tab.
 
 Run the report
 
@@ -5080,9 +5077,10 @@ Run the report
 
 3. Click PDF to generate the report
 
-!!! NOTE The Actual Sortie Type number is highlighted whenever it is less than the Scheduled Sortie Type number.
+!!! NOTE
+    The Actual Sortie Type number is highlighted whenever it is less than the Scheduled Sortie Type number.
 
-AF Form 1522
+### AF Form 1522
 
 Overview
 
@@ -5092,11 +5090,25 @@ Setup a 1522. Use PEX to schedule people in a commitment.
 
 After the training \(commitment\) is complete
 
-1. Go to Continuation Training > Reporting > Commitment 2. Enter the date of the commitment in the Start and End date fields and click Go 3. Pick Group
+1. Go to Continuation Training > Reporting > Commitment
 
-4. In the Commitment list, find the commitment and click on it 5. In the Personnel list, select all the people that completed the training \(commitment\) 6. In the Worksheet list, pick a TAR that includes the training event you need to report 7. Click Generate AF 1522
+2. Enter the date of the commitment in the Start and End date fields and click Go
 
-8. In the AF 1522 dialog, enter the name of the instructor and Save 9. Report the training \(\# accomplished, date, and time \(if applicable\)\) for the first person 10. Click Apply to All Remaining
+3. Pick Group
+
+4. In the Commitment list, find the commitment and click on it
+
+5. In the Personnel list, select all the people that completed the training \(commitment\)
+
+6. In the Worksheet list, pick a TAR that includes the training event you need to report
+
+7. Click Generate AF 1522
+
+8. In the AF 1522 dialog, enter the name of the instructor and Save
+
+9. Report the training \(\# accomplished, date, and time \(if applicable\)\) for the first person
+
+10. Click Apply to All Remaining
 
 11. The 1522 is now ready for printing
 
@@ -5124,13 +5136,17 @@ There is no simple way to get digital signatures on the 1522. Instruct every per
 
 4. In the 1522 list, pick any name under the training \(commitment\) you are interested in and click View. The 1522 will come up with all names listed.
 
-5. By their name, click the Sign button and enter a digital signature 6. Up at the top of the form, click the “Click here to save your signature” button 7. When all the students have signed, have the instructor digitally sign. Once the instructor digitally signs the form, the form is locked.
+5. By their name, click the Sign button and enter a digital signature
 
-If digital signing for all students is not possible/practical
+6. Up at the top of the form, click the “Click here to save your signature” button
+
+7. When all the students have signed, have the instructor digitally sign. Once the instructor digitally signs the form, the form is locked.
+
+If digital signing for all students is not possible/practical?
 
 Yes. Have only the instructor accomplish the digital signature instructions above verifying the list of students is correct.
 
-Course Details Report
+### Course Details Report
 
 The Course Details Report \(CDR\) provides a detailed breakout of a Qualification Training course. The CDR allows you to quickly review a course in a .PDF format. The CDR can help you check for mistakes made during the course build, help you to ensure a course still meets all regulatory requirements, or provide specific details of a course to an interested party.
 
@@ -5140,7 +5156,7 @@ You can generate a CDR with both NEW and ACTIVE” courses. There are two ways t
 
 Option 1 This options allows you to generate multiple CDRs in one .PDF file.
 
-1. Go to Menu > Training > Reports. Select the Course Details Ta2.
+1. Go to Menu > Training > Reports. Select the Course Details tab.
 
 2. For the course\(s\) you want to view, select the squadron where the course\(s\) are located.
 
@@ -5160,35 +5176,33 @@ Read a Course Details Report
 
 * Course Information. The first level of the outline displays the Course Name, Course Number, Version Number, Squadron, MDS, DAFSC, Duration, Grade Set Name, and Course Status. The report also provides a date the Course Details Report was generated.
 
-* Version Number. A unique number assigned to the course. As updates and editions are made to the course, the version number can increase. This means you can usually compare the version numbers to ensure you have the latest course.
+    * Version Number. A unique number assigned to the course. As updates and editions are made to the course, the version number can increase. This means you can usually compare the version numbers to ensure you have the latest course.
 
-* Days. The number of training days in the course.
+    * Days. The number of training days in the course.
 
-* Grade Set. Displays the name used to identify a particular set of grades used for a course.
+    * Grade Set. Displays the name used to identify a particular set of grades used for a course. The CDR does not list the Grade Set details. To see a course grades legend, you must rely on the PEX software in the Setup tab, Grade Sets.
 
-The CDR does not list the Grade Set details. To see a course grades legend, you must rely on the PEX software in the Setup tab, Grade Sets.
-
-* Course Status. Identifies whether or not a course is “NEW” or “ACTIVE”. “NEW” courses are inactive, meaning you can still make revisions to the course. “ACTIVE” courses cannot be revised. Active courses can enrol students.
+    * Course Status. Identifies whether or not a course is “NEW” or “ACTIVE”. “NEW” courses are inactive, meaning you can still make revisions to the course. “ACTIVE” courses cannot be revised. Active courses can enrol students.
 
 * Block of Instruction \(BOI\) Information. The second level of the outline displays the BOI Name, BOI Type, Start Day in Course, Duration, Minimum BOI Pass Grade, BOI Prerequisites, Task Prerequisites, and Remarks.
 
-* BOI Type. Examples of BOI Types include: Admin, Briefing, CBT, Lab, Academic, Ground, SIM, Flight, and Mis3.
+    * BOI Type. Examples of BOI Types include: Admin, Briefing, CBT, Lab, Academic, Ground, SIM, Flight, and Mis3.
 
-* Days. Indicates how many days it takes to complete a particular BOI.
+    * Days. Indicates how many days it takes to complete a particular BOI.
 
 * Task Information. The third level of the outline displays the Task ID, Task Name, Minimum Grade, Minimum Proficiency Level, Minimum Knowledge Level, and Number Required.
 
-* Task ID. The Task ID provides a unique identifier for the Task Name.
+    * Task ID. The Task ID provides a unique identifier for the Task Name.
 
-* Minimum Grade. Demonstrates the grade students must achieve on a specific task. This field is not required for all courses.
+    * Minimum Grade. Demonstrates the grade students must achieve on a specific task. This field is not required for all courses.
 
-* Minimum Proficiency Level. Displays the grade students must achieve when they demonstrate/perform a specific task. This field is not required for all courses.
+    * Minimum Proficiency Level. Displays the grade students must achieve when they demonstrate/perform a specific task. This field is not required for all courses.
 
-* Minimum Knowledge Level. Displays the grade students must achieve when they describe/explain a specific task. This field is not required for all courses.
+    * Minimum Knowledge Level. Displays the grade students must achieve when they describe/explain a specific task. This field is not required for all courses.
 
-* Number Required. Indicates how many times a student must accomplish a specific task in BOI.
+    * Number Required. Indicates how many times a student must accomplish a specific task in BOI.
 
-Student Progress Report
+### Student Progress Report
 
 The Student Progress Report \(SPR\) provides a detailed breakout of a student’s progression in a given course. The report displays, what is the status of the Block of Instructions \(BOIs\), missing signatures and comments just to name a few.
 
@@ -5196,7 +5210,7 @@ Generate a Student Progress Report
 
 You can generate a SPR for a single or multiple students for a course within a single squadron.
 
-1. Go to Menu > Training > Reports. Select the Student Progress Ta2.
+1. Go to Menu > Training > Reports. Select the Student Progress tab.
 
 2. Select the Squadron. Once a squadron has been selected, the courses that are active for that squadron will be displayed in the Course Details column
 
@@ -5206,11 +5220,11 @@ You can generate a SPR for a single or multiple students for a course within a s
 
 5. Select the Show \(Sections\), there are three to choose from. Select one or multiple selections.
 
-BOI – Give you an overview of just the main body of the BOI.
+    * BOI – Give you an overview of just the main body of the BOI.
 
-Tasks – Builds on the BOI Selection. Once checked, additional items can be selected and are displayed in the Show \(Columns\) section.
+    * Tasks – Builds on the BOI Selection. Once checked, additional items can be selected and are displayed in the Show \(Columns\) section.
 
-Phase Task Progression – Builds on the BOI or the BOI /Task selections. Once checked, additional items can be selected and are displayed in the Show \(Columns\) section.
+    * Phase Task Progression – Builds on the BOI or the BOI /Task selections. Once checked, additional items can be selected and are displayed in the Show \(Columns\) section.
 
 6. Select the PDF button when you are ready to run the report.
 
@@ -5220,82 +5234,82 @@ Read a Student Progress Report
 
 2. Student / Course Information. The first level of the report format displays the Student Name, MDS/CP \(Crew Position\), Squadron, Course Name, Course Number, Version Number, Start Date, Actual Completion Date and Required Completion Date.
 
-* Version Number. A unique number assigned to the course. As updates and editions are made to the course, the version number can increase. This means you can usually compare the version numbers to ensure you have the latest course.
+    * Version Number. A unique number assigned to the course. As updates and editions are made to the course, the version number can increase. This means you can usually compare the version numbers to ensure you have the latest course.
 
-* Start Date. This is the date the course was started.
+    * Start Date. This is the date the course was started.
 
-* Actual Completion Date. This is the date the course is completed.
+    * Actual Completion Date. This is the date the course is completed.
 
-* Required Completion Date. This is the date that the course is Required to be completed by. This date is added during the student enrol ment when there is a strict timeline that must be fol owed.
+    * Required Completion Date. This is the date that the course is Required to be completed by. This date is added during the student enrol ment when there is a strict timeline that must be fol owed.
 
 3. Block of Instruction \(BOI\) Information. The second level of the report format displays the BOI Name, BOI Type, Status, Start Date in BOI, Duration, Ground Time, Actual Training Day \(ATD\) Time, Flight Time, Seat Time, Minimum BOI Pass Grade, Grade Received, Instructor, Reviewer, Student, BOI Prerequisites, Task Prerequisites, and Comments.
 
-* BOI Type. Examples of BOI Types include: Admin, Briefing, CBT, Lab, Academic, Ground, SIM, Flight, and Mis3.
+    * BOI Type. Examples of BOI Types include: Admin, Briefing, CBT, Lab, Academic, Ground, SIM, Flight, and Mis3.
 
-o Blue – In Progress
+        * Blue – In Progress
 
-o Green – Passed
+        * Green – Passed
 
-o Red – Failed
+        * Red – Failed
 
-o Yellow – Scheduled
+        * Yellow – Scheduled
 
-o Gray – Not Applicable
+        * Gray – Not Applicable
 
-* BOI Status. This shows the current status or progress of the BOI.
+    * BOI Status. This shows the current status or progress of the BOI.
 
-o Complete – BOI has been completed
+        * Complete – BOI has been completed
 
-o INC\_WX – Incomplete Due to Weather
+        * INC\_WX – Incomplete Due to Weather
 
-o INC\_MX – Incomplete due to Maintenance
+        * INC\_MX – Incomplete due to Maintenance
 
-o INC\_OPS – Incomplete due to Operations
+        * INC\_OPS – Incomplete due to Operations
 
-o INC\_Stud\_Non\_Pro – Incomplete due to Student Proficiency o INC\_Other – Incomplete due to other factors
+        * INC\_Stud\_Non\_Pro – Incomplete due to Student Proficiency o INC\_Other – Incomplete due to other factors
 
-* Pro\_Adv: Proficiency Advance when a supervisor has approved the student to be advanced based on experience from prior duty positions outside the unit. Documented during initial interview process and documented in their 623 Folder.
+    * Pro\_Adv: Proficiency Advance when a supervisor has approved the student to be advanced based on experience from prior duty positions outside the unit. Documented during initial interview process and documented in their 623 Folder.
 
-* Date. This is the date the BOI is started.
+    * Date. This is the date the BOI is started.
 
-* Duration. Indicates how many days it takes to complete a particular BOI.
+    * Duration. Indicates how many days it takes to complete a particular BOI.
 
-* Ground Time.
+    * Ground Time.
 
-* ATD Time.
+    * ATD Time.
 
-* Flight Time.
+    * Flight Time.
 
-* Seat Time.
+    * Seat Time.
 
-* Grade. The grade for that particular BOI.
+    * Grade. The grade for that particular BOI.
 
-* Instructor, Reviewer, Student. These locations show if a BOI has been singed once it has been graded. If there is a missing signature a hashed line will be displayed.
+    * Instructor, Reviewer, Student. These locations show if a BOI has been singed once it has been graded. If there is a missing signature a hashed line will be displayed.
 
-* BOI and Task Prerequisites. This shows the status of a prerequisite if it is assigned to a BOI or Task.
+    * BOI and Task Prerequisites. This shows the status of a prerequisite if it is assigned to a BOI or Task.
 
-* Comments: Any comments made by the Instructor/Reviewer wil be displayed for the particular BOI.
+    * Comments: Any comments made by the Instructor/Reviewer wil be displayed for the particular BOI.
 
 4. Task Information. The third level of the report format displays the unique Task Code, Task Name, \_\_\_\_\_\_\_\_\_\_\_\(NA\), Is Covered, Minimum Grade, Actual BOI Grade, Minimum Proficiency Level, Proficiency Level, Minimum Knowledge Level, Knowledge Level, Date task was completed, Number Required, Number Accomplished and Task Comments.
 
-* Task Code. The Task ID provides a unique identifier for the Task Name.
+    * Task Code. The Task ID provides a unique identifier for the Task Name.
 
-* Minimum Grade. Demonstrates the grade students must achieve on a specific task. This field is not required for all courses.
+    * Minimum Grade. Demonstrates the grade students must achieve on a specific task. This field is not required for all courses.
 
-* Grade. This is the actual grade of the Task.
+    * Grade. This is the actual grade of the Task.
 
-* Minimum Proficiency Level. Displays the grade students must achieve when they demonstrate/perform a specific task. This field is not required for all courses.
+    * Minimum Proficiency Level. Displays the grade students must achieve when they demonstrate/perform a specific task. This field is not required for all courses.
 
-* Proficiency Level. This is the level that the task was graded.
+    * Proficiency Level. This is the level that the task was graded.
 
-* Minimum Knowledge Level. Displays the grade students must achieve when they describe/explain a specific task. This field is not required for all courses.
+    * Minimum Knowledge Level. Displays the grade students must achieve when they describe/explain a specific task. This field is not required for all courses.
 
-* Knowledge Level. This is the level that the task was graded.
+    * Knowledge Level. This is the level that the task was graded.
 
-* Date. Displays the date the task was completed.
+    * Date. Displays the date the task was completed.
 
-* Number Required. Indicates how many a student must accomplish a specific task in BOI.
+    * Number Required. Indicates how many a student must accomplish a specific task in BOI.
 
-* Number Accomplished. Indicates how many a student has a completed.
+    * Number Accomplished. Indicates how many a student has a completed.
 
-* Comments. Any comments made for a particular task will be displayed.
+    * Comments. Any comments made for a particular task will be displayed.
