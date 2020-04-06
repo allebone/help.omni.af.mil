@@ -329,7 +329,7 @@ Install ODAC
 
 8. In Oracle Home User Selection, select Use Windows Built-In Account, then click Next.
 
-9. In Specify Instal ation Location, browse to Location: ODAC\_PEX, select File Name C:\\Oracle\\ODAC\_PEX, then click Select.
+9. In Specify Instal action Location, browse to Location: ODAC\_PEX, select File Name C:\\Oracle\\ODAC\_PEX, then click Select.
 
 10. Leave the Software Location as is. Ensure you see:
 
@@ -664,9 +664,9 @@ Setup Simulator \(SIM\) RAP
 
 3. Under the SIM Rules header, click the Select Task button to open the Select Task dialog.
 
-4. Type in or scrol to the task you use for SIM RAP and select it.
+4. Type in or scroll to the task you use for SIM RAP and select it.
 
-5. Click OK. This will close the dialog and display the selected task to the left of the select task button. You’l also receive a message stating the same task wil be used for the other mission ready statuses for this squadron, MDS, crew position, service status combination.
+5. Click OK. This will close the dialog and display the selected task to the left of the select task button. You’ll also receive a message stating the same task wil be used for the other mission ready statuses for this squadron, MDS, crew position, service status combination.
 
 6. SIM Required wil be selected by default. If SIMs are optional and could be used to count toward your Flight RAP, select SIM Optional, skip step 8, and continue at step 9. If SIMs are required, enter the total SIMs per training cycle, 3-Month Look back \(SIMs\) and 1-Month Look back \(SIMs\) per your RTM.
 
@@ -687,7 +687,7 @@ Under the required SIM RAP requirement numbers, there are five possible rules th
 * Minimum actual SIMs required per month. The entered value indicates the number of actual RAP SIMs that must be accomplished in a month to retain status. If this rule is used in conjunction with either of the rules above or the TDY Proration rule below, it takes precedence.
     For example, the one-month rule and this rule have been selected with values of 3 and 1 respectively. The SIM RAP 1 month requirement is 3. The person has 3 excess RAP flights, but no RAP SIMs. This person would not make RAP requirements because they didn’t get at least 1 actual RAP SIM, even though they had enough excess RAP flights to otherwise meet the requirements for 1 month.
 
-* TDY Proration. For each month: \#X O&M days TDY reduces the SIM requirement by \#X for that month. This rule allows you to prorate RAP SIMs for O&M days spent TDY. Proration can be down to 0, but the previous rule stil takes precedence, so even if you prorate to 0, if you have a requirement to have at least 1 in a month and the person does not get it, they don’t meet the RAP requirement. The O&M TDY days are entered for each individual on the RAP O&M TDY page and are entered by month. For example, the rule is selected and the values indicate 3 O&M TDY days reduce the SIM requirement by 1 for the month. SIM RAP requirement for the month is 3. The person had 5 days of O&M TDY. The person also accomplished 1 RAP SIM. This person would not make their one-month requirement since the rule would credit them only 1 SIM. If the person had 6 O&M TDY days, they would have made their one-month requirement since the rule would credit 2 RAP SIMs.
+* TDY Proration. For each month: \#X O&M days TDY reduces the SIM requirement by \#X for that month. This rule allows you to prorate RAP SIMs for O&M days spent TDY. Proration can be down to 0, but the previous rule still takes precedence, so even if you prorate to 0, if you have a requirement to have at least 1 in a month and the person does not get it, they don’t meet the RAP requirement. The O&M TDY days are entered for each individual on the RAP O&M TDY page and are entered by month. For example, the rule is selected and the values indicate 3 O&M TDY days reduce the SIM requirement by 1 for the month. SIM RAP requirement for the month is 3. The person had 5 days of O&M TDY. The person also accomplished 1 RAP SIM. This person would not make their one-month requirement since the rule would credit them only 1 SIM. If the person had 6 O&M TDY days, they would have made their one-month requirement since the rule would credit 2 RAP SIMs.
 
 * Min number of SIMs required in one month to regain Msn Rdy Status. This rule is based on the person being in a non-mission ready status and needs to accomplish a set number of actual RAP SIMs to regain status, in addition to the look back numbers. This rule takes precedence over the one and three-month rules.
     For example, the rule is selected with a value of 2 entered. The one-month requirement is 3 RAP SIMs and 9 RAP flights. The person was non-mission ready. The one month rule is selected with a value of 2 entered. The person has accomplished 12 RAP flights and 1 RAP SIM. The person is still non-mission ready. Even though they met their flight RAP numbers and the first rule all ows them to meet their SIM RAP numbers, the person didn’t get the two actual RAP SIMs that were required to regain status.
@@ -736,7 +736,7 @@ Once setup, the effective MSN ready status is calculated in the background. It c
 
 3. In the Effective Mission Ready Status Tasks section, click the Select button to open the Add Effective Msn Rdy Task\(s\) dialog.
 
-4. Type in or scrol to the task you want to affect your Effective Mission Ready Status and check the box to the left of the task\(s\).
+4. Type in or scroll to the task you want to affect your Effective Mission Ready Status and check the box to the left of the task\(s\).
 
 5. Click OK.
 
@@ -2749,7 +2749,7 @@ you may now finish building the details of your course.
 
 6. If the BOI takes longer than one day to complete, change the \# Days to the correct number.
 
-7. Tasks are sub-components of the BOIs. While stil in the BOI Details, add tasks by selecting the Tasks tab. Search from your master task file using either the Task Code or the   Task Name and select GO. Select the tasks you would like to use by moving them into the Tasks Canvas. If you do not have tasks in your master list, you can also add tasks by selecting Create New Task
+7. Tasks are sub-components of the BOIs. While still in the BOI Details, add tasks by selecting the Tasks tab. Search from your master task file using either the Task Code or the   Task Name and select GO. Select the tasks you would like to use by moving them into the Tasks Canvas. If you do not have tasks in your master list, you can also add tasks by selecting Create New Task
 
     in the BOI Details. Right-Click on the Create New Task Canvas and left click on the Create New Task. Be sure to give your tasks a unique identifier for the task code, but maintain consistency with the naming scheme for all tasks in the course.
 
@@ -4490,7 +4490,7 @@ Validating the transcription finalizes the process. This allows you to verify th
 
 6. When you have verified that all data is correct, select the new version of the Task List and click the Validate Transcription button.
 
-7. This completes the process by leaving the Old Version of the Task List in a read only state \(exception: you can stil add a Completed Date to the Task List\) and making the New Version active for use.
+7. This completes the process by leaving the Old Version of the Task List in a read only state \(exception: you can still add a Completed Date to the Task List\) and making the New Version active for use.
 
 8. The Old Version of the Task List can be deleted from the Training Folder once the validation is completed. We strongly recommend printing a hard copy of the Old Version of Task List before deletion.
 
@@ -5057,7 +5057,7 @@ Display Options
 
 Click Edit Status Section Remarks and enter a remark for any of the three sections. The remark will appear above the appropriate section on the printed document.
 
-Click Report Settings and select which columns to display on the printed document. Also select whether to print the report as a formatted Word document or as an unformated text file.
+Click Report Settings and select which columns to display on the printed document. Also select whether to print the report as a formatted Word document or as an unformatted text file.
 
 Click Word to open the report file for printing.
 
@@ -5240,7 +5240,7 @@ Read a Student Progress Report
 
     * Actual Completion Date. This is the date the course is completed.
 
-    * Required Completion Date. This is the date that the course is Required to be completed by. This date is added during the student enrol ment when there is a strict timeline that must be fol owed.
+    * Required Completion Date. This is the date that the course is Required to be completed by. This date is added during the student enrollment when there is a strict timeline that must be fol owed.
 
 3. Block of Instruction \(BOI\) Information. The second level of the report format displays the BOI Name, BOI Type, Status, Start Date in BOI, Duration, Ground Time, Actual Training Day \(ATD\) Time, Flight Time, Seat Time, Minimum BOI Pass Grade, Grade Received, Instructor, Reviewer, Student, BOI Prerequisites, Task Prerequisites, and Comments.
 
