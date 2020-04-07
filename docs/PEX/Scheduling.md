@@ -3205,7 +3205,7 @@ The table below shows where in PEX you enter the information that fills in the f
 ![binders](PEX/img/../../img/Scheduling/Pex data entry 2.png){: style="height:100%;width:100%"}
 
 !!! Note
-    The Mission Board column names are the default ones. Yours may be different. If you can’t find these columns in the Mission Builder, they’ve probably been changed. Go to Setup > Labels > select your squadron. At the “interfaces” grid highlight Scheduling-Mission Board-Mission Builder, locate the default label text and note the Override Label Text – this is the column name you’l see in the mission builder tab.
+    The Mission Board column names are the default ones. Yours may be different. If you can’t find these columns in the Mission Builder, they’ve probably been changed. Go to Setup > Labels > select your squadron. At the “interfaces” grid highlight Scheduling-Mission Board-Mission Builder, locate the default label text and note the Override Label Text – this is the column name you’ll see in the mission builder tab.
 
 !!! Note
     To get a “load time” you must first add a specific sortie event. Go to Setup > Validation > Scheduling > Mission Board > Sortie Event, and add “MSN LOAD” \(it must be spelled this way\). At the Mission Board > Sortie Events Builder > Available Sortie events, you should now see MSN LOAD. Add this sortie event to your sortie and give it a time. It’ll now show up on the AFSOC Form 40.
@@ -3395,34 +3395,27 @@ Workspace
 Time Zone Selection
 
 The displayed time zone can be changed several ways. all take you to the Select Time Zone dialog. Time Zone is in Calendar, Timeline, and Settings. Within the dialog you can page to the desired zone or use the type-ahead field to look for text.
+![binders](PEX/img/../../img/Scheduling/Time Zone Selection.jpg){: style="height:100%;width:100%"}
 
 1. Click the time zone \(in blue\) on the date display to change on the fly.
-
 2. Click the Event > Event Details > time zone \(in blue\).
-
-3. More Options \(. .\) button > Settings > Time Zone.
+3. More Options \(...\) button > Settings > Time Zone.
 
 Filters
 
 With filters Off, you will see all squadrons and all events.
 
 1. Access Squadron and Event Type filters with the funnel icon.
-
 2. Use the switches to select Squadron or Event Type, and click on Squadron or Event Type.
-
 3. When the filter list opens, check Select All or the applicable filter item.
-
 4. Use the back arrows to return to the main display with filters applied.
+![binders](PEX/img/../../img/Scheduling/Scheduler Filters.jpg){: style="height:100%;width:100%"}
 
 Terms
 
 These apply to terms found in the Scheduler module.
 
-Draft. Draft entries are only visible for users with Scheduling Admin rights to the entry’s owning squadron.
-
-Users with Scheduling Admin rights can set scheduling entries to Publish for the squadrons to which they have Scheduling Admin rights. Scheduling Admins can Publish the events or the events and their resources.
-
-Published entries are then also viewable by Users with Scheduling Read Only rights the entry’s owning squadron.
+Draft. Draft entries are only visible for users with Scheduling Admin rights to the entry’s owning squadron. Users with Scheduling Admin rights can set scheduling entries to Publish for the squadrons to which they have Scheduling Admin rights. Scheduling Admins can Publish the events or the events and their resources. Published entries are then also viewable by Users with Scheduling Read Only rights the entry’s owning squadron.
 
 Event. A block of time defined by a start date/time and an end date/time, or all -day. Delivered events can be categorized as Events, Missions, or Production Requests, or they can be user-defined.
 
@@ -3442,7 +3435,7 @@ Resource. An item, person, place or thing, that can be added to a scheduled even
 
 Resource examples are people, aircraft tail numbers, airspace, silos and workstations.
 
-Resource Group. A col ection of resources of the same resource type; examples are a group of people, or a group of workstations. You can apply changes to all resources in the group by changing them in one central place. Changes to individual member resources are still possible.
+Resource Group. A collection of resources of the same resource type; examples are a group of people, or a group of workstations. You can apply changes to all resources in the group by changing them in one central place. Changes to individual member resources are still possible.
 
 Template.
 
@@ -3454,144 +3447,106 @@ When creating templates, edit Display Properties and select which event and sub-
 
 Setup- Event Templates
 
-!!! Note An Event Template is a Mission, Event, or Production Request that can be used over and over again to schedule scheduling events. The user does not have to recreate a specific event that is often used. These event templates can be created, edited, and deleted as needed. Missions, Events, or Production Requests that have already been scheduled can also be saved as Event templates.
+!!! Note
+    An Event Template is a Mission, Event, or Production Request that can be used over and over again to schedule scheduling events. The user does not have to recreate a specific event that is often used. These event templates can be created, edited, and deleted as needed. Missions, Events, or Production Requests that have already been scheduled can also be saved as Event templates.
 
 1. Navigate to the Scheduler module.
-
-2. In the Scheduler module, click the More Options \(. .\) button and select Event Templates.
-
+2. In the Scheduler module, click the More Options \(...\) button and select Event Templates.
 3. In the Event Templates dialog, click Add.
-
 4. Select Event, Mission, or Production Request
-
 5. Give your Template a Name. Enter a description if desired.
-
 6. Create the template the same way you would build a Mission, Event or Production request.
-
 7. Click Save and your Crew Template shows up in your list of Resource Templates.
-
 8. Click Save and your Event Template shows up in your list of Event Templates.
-
 9. This template will be available for use when you add your missions, events, or production requests to the schedule.
 
 Edit or delete an Event Template
 
-1. In the Scheduler module, click the More Options \(. .\) button and select Event Templates.
-
+1. In the Scheduler module, click the More Options \(...\) button and select Event Templates.
 2. Select the template to edit/delete.
-
 3. Click the edit icon \(pencil\) or the delete icon \(trash can\).
-
 4. Make the required changes and click Save.
 
-Add an Event Template \(Mission, Event or Production Request\) to the schedule 1. Select the “ADD” drop down on the schedule.
+Add an Event Template \(Mission, Event or Production Request\) to the schedule
 
+1. Select the “ADD” drop down on the schedule.
 2. Click on the event template to be added to the schedule.
-
 3. Edit the event \(Mission, Event or Production Request\) as desired.
-
 4. Save the event and it appears on the schedule.
 
 Setup- Resource Templates
 
-!!! Note A Resource Template \(often cal ed a crew template\) identifies specific roles a person or persons must have. Some roles are delivered with the PEX database work. You can include a template when you build missions, events and/or production requests. Users can request additional role scripts via the Help Desk.
+!!! Note
+    A Resource Template \(often cal ed a crew template\) identifies specific roles a person or persons must have. Some roles are delivered with the PEX database work. You can include a template when you build missions, events and/or production requests. Users can request additional role scripts via the Help Desk.
 
 1. Navigate to the Scheduler module.
-
-2. In Scheduler, click the More Options \(. .\) button and select Resource Templates.
-
+2. In Scheduler, click the More Options \(...\) button and select Resource Templates.
 3. In the Resource Templates dialog, click Add.
-
 4. Give your Resource Template a Name, e.g., F-16 Pilot or FMV Standard Crew.
-
 5. Give your Resource Template a Description, if desired.
-
 6. At Roles, click Add.
-
 7. In the list of Roles, check the desired Crew Position\(s\) and click Done.
+8. In the Resource Template, click the More Options \(...\) button next to a role;
 
-8. In the Resource Template, click the More Options \(. .\) button next to a role; A. Click Copy to add more than one of a role to the Resource Template.
-
-2. Click Delete to remove the individual role.
-
-3. Click Set Required if the role is required to accomplish the mission. A red asterisk is displayed in front of the required role.
+    1. Click Copy to add more than one of a role to the Resource Template.
+    2. Click Delete to remove the individual role.
+    3. Click Set Required if the role is required to accomplish the mission. A red asterisk is displayed in front of the required role.
 
 9. Click Save and your template shows up in your list of Resource Templates.
-
 10. This template wil be available for use when you build your missions, events, or production requests.
 
 Edit or delete a Resource Template
 
-1. In the Scheduler module, click the More Options \(. .\) button and select Resource Templates.
-
+1. In the Scheduler module, click the More Options \(...\) button and select Resource Templates.
 2. Select the template to edit/delete.
-
 3. Click the edit icon \(pencil\) or the delete icon \(trash can\).
-
 4. Make the required changes and click Save.
 
 Add a Resource Template to a Mission, Event or Production Request
 
 1. Within the Mission, Event or Production Request, place cursor within the Resources area and select Template.
-
 2. Click on add and select a crew template.
-
 3. Click done.
-
 4. Now you can use the template to find qualified personnel to fill each crew position.
 
 Setup- Resource Status Type Requirement
 
-!!! Note A Resource Status Type identifies a specific status \(e.g., PRF, Not DNIF, Title 10 or 32\), a person holds or shouldn’t hold in order to be placed on the schedule. These status types can work with resource \(crew\) templates or they can work without using a resource template. Status Type Requirements are defined by the squadron and must be pre-loaded into the PEX database as a coded script in order for them to function within the Scheduler module. Additional y, personnel must be setup and identified with the status requirement from within the Personnel module. You can include a resource status requirement when you build missions, events and/or production requests. Users can request resource status type scripts via the Help Desk.
+!!! Note
+    A Resource Status Type identifies a specific status \(e.g., PRF, Not DNIF, Title 10 or 32\), a person holds or shouldn’t hold in order to be placed on the schedule. These status types can work with resource \(crew\) templates or they can work without using a resource template. Status Type Requirements are defined by the squadron and must be pre-loaded into the PEX database as a coded script in order for them to function within the Scheduler module. Additional y, personnel must be setup and identified with the status requirement from within the Personnel module. You can include a resource status requirement when you build missions, events and/or production requests. Users can request resource status type scripts via the Help Desk.
 
 1. Go to Setup > Personnel.
-
 2. Select the Status Tab \(top of display\).
-
 3. Select a Shortname, \(using the dropdown\), of a person you want to give a status to.
-
 4. In the open white space, right click and select add.
+5. The status pop up will display; perform the following:
 
-5. The status pop up will display; perform the following: A. From the dropdown select a status.
-
-2. Enter Remarks as required.
-
-3. Set dates if required; you can also just have a status that is turned on or off \(check box on\) no date required
-
-4. Select an effective date using the calendar icon or typing the date.
-
-5. Select an expiration date using the calendar icon or typing the date.
+    1. From the dropdown select a status.
+    2. Enter Remarks as required.
+    3. Set dates if required; you can also just have a status that is turned on or off \(check box on\) no date required
+    4. Select an effective date using the calendar icon or typing the date.
+    5. Select an expiration date using the calendar icon or typing the date.
 
 6. Select Save, or Save and New.
 
 Setup- Lookup Lists
 
-!!! Note A Lookup List is a list of items the user requires to effectively schedule. Lookup lists are created by the user with the exception of the SCL list \(these are generated in the weapons module\) and AFTC PR Status list \(delivered items.\) These lists will appear in the Additional Information Section of the event panel.
+!!! Note
+    A Lookup List is a list of items the user requires to effectively schedule. Lookup lists are created by the user with the exception of the SCL list \(these are generated in the weapons module\) and AFTC PR Status list \(delivered items.\) These lists will appear in the Additional Information Section of the event panel.
 
 1. Navigate to the Scheduler module.
-
-2. In the Scheduler module, click the More Options \(. .\) button and select Lookup Lists.
-
+2. In the Scheduler module, click the More Options \(...\) button and select Lookup Lists.
 3. In the Lookup Lists dialog, click Add.
-
 4. Enter the desired name of the added lookup list.
-
 5. Click Add under items.
-
 6. Enter the List Item’s Name.
-
 7. Click Done and continue to enter List Items for the new list as required.
-
 8. Click Save when the items list is complete.
-
 9. This list of items will be available in the Additional Information Section under the Lookup List name.
 
 Edit or delete a Lookup List
 
-1. In the Scheduler module, click the More Options \(. .\) button and select Lookup Lists.
-
+1. In the Scheduler module, click the More Options \(...\) button and select Lookup Lists.
 2. Select the Lookup List to edit or delete.
-
 3. Click the individual items to edit them or select the Red X to delete the item 4. Make the required changes and click Save.
 
 Setup– Draft and Publish
@@ -3601,125 +3556,82 @@ Schedule Administrators \(Users with Scheduling Admin permissions\) wil be able 
 Set Publish on/off mode for the Schedule
 
 1. Navigate to the Scheduler module.
-
-2. Select the More Options \(. .\) button in the upper right hand corner of your display.
-
+2. Select the More Options \(...\) button in the upper right hand corner of your display.
 3. Select Settings.
-
 4. The Settings panel opens.
-
 5. Select Publish mode, by clicking the off button to on.
-
 6. A definition of Publish Mode will display.
-
 7. Click the off icon to on; it will turn green.
-
 8. Use back arrow to the Settings dialog and select save.
-
 9. When Publish is enabled, newly created “Events, Missions or Production Requests” are set to draft mode.
 
-1. Several ways draft and published items display.
+    1. Several ways draft and published items display.
 
-1\) When adding a new Mission/Event or Production Request the details view wil show this statement: This \(event/mission/Production Request\) is a draft in a blue banner.
+        1. When adding a new Mission/Event or Production Request the details view wil show this statement: This \(event/mission/Production Request\) is a draft in a blue banner.
+        2. If viewing the day \(right side of the calendar display\), the word “Draft” will appear with a blue background to the right of the Mission/Event or Production Request Name.
+        3. The Calendar view will show the draft item with a white background.
+        4. Published items display with their normal coloring; Production Request in Orange, Mission in Green, and Event in Blue.
+        5. The Timeline view shows the draft item as a partial white background.
 
-2\) If viewing the day \(right side of the calendar display\), the word “Draft” will appear with a blue background to the right of the Mission/Event or Production Request Name.
-
-3\) The Calendar view will show the draft item with a white background.
-
-4\) Published items display with their normal coloring; Production Request in Orange, Mission in Green, and Event in Blue.
-
-5\) The Timeline view shows the draft item as a partial white background.
-
-2. Only schedulers with Admin or Scheduling Administrator rights can see the draft entries.
-
-3. Publish mode appears in your top right side of your display.
+    2. Only schedulers with Admin or Scheduling Administrator rights can see the draft entries.
+    3. Publish mode appears in your top right side of your display.
 
 Publish a Draft Mission/Event/Production Request
 
 1. Select the unpublished draft Mission, Event or Production Request that you would like to publish.
-
 2. The Mission/Event/Production Request Details view displays.
-
-3. Click on the More Options \(. .\) button in the upper right corner.
-
+3. Click on the More Options \(...\) button in the upper right corner.
 4. The options Copy, Hierarchy View and Publish display.
-
 5. Select Publish.
-
 6. A pop-up Publish window appears with the options:
 
     * Events and resources
-
     * Events
 
-!!! Note If Events and resources is selected, the scheduler is committing both the events and resources \(people and equipment\) required to accomplish the event. If only Events is selected, then the scheduler is committing the event, not the resources. The resources may still be in flux or in need of approval.
+    !!! Note
+        If Events and resources is selected, the scheduler is committing both the events and resources \(people and equipment\) required to accomplish the event. If only Events is selected, then the scheduler is committing the event, not the resources. The resources may still be in flux or in need of approval.
 
 7. Select the desired option and click Publish. The blue draft banner is removed from the Event Details panel.
-
 8. Use the back arrow to return to the calendar.
-
 9. The draft item goes from a white background to the applicable solid color background.
 
 Unpublish a draft Mission/Event/Production Request
 
 1. Select the published item \(Production Request, Mission, or Event\) you would like to unpublish.
-
 2. The Mission Details view displays.
-
-3. Click on the More Options \(. .\) button in the upper right corner.
-
+3. Click on the More Options \(...\) button in the upper right corner.
 4. The options Copy, Hierarchy View and Unpublish display.
-
 5. Select Unpublish.
-
 6. A pop-up unpublish window appears with the options:
 
     * Events and resources
-
     * Events
 
 7. Select the desired option and click on Unpublish.
-
 8. The draft item goes from a background color to a white background.
 
 Publish all items in a day or range of days
 
 1. In the Calendar view click on a day, all items will list in a panel to the right side of the calendar.
-
 2. Click the Publish icon \(top of display, above the date\) for the listed items.
-
 3. A Publish pop-up window will appear.
-
 4. Select the desired Start Date/ End Date.
-
 5. Select All Day.
-
 6. Select the desired items to publish \(Event and resources or “Events\).
-
 7. Select Publish at the bottom of the pop-up window.
-
 8. Observe that all items should now show the appropriate color background.
 
 Unpublish all items in a day or range of days
 
 1. In the Calendar view, highlight the desired day by clicking on it.
-
 2. All items will appear in the right panel.
-
 3. Click the Publish icon drop down arrow \(top of display, above the date\) for the listed items.
-
 4. Select Unpublish.
-
 5. An Unpublish pop-up window will appear.
-
 6. Select the desired Start/End Date.
-
 7. Select All Day.
-
 8. Select the desired items to unpublish \(Event and resources or Events\).
-
 9. Select “Unpublish” at the bottom of the pop-up window.
-
 10. Note all items now show a white background, and the word Draft will now display in blue to the right side of the Event name.
 
 Setup- Custom Fields
@@ -3734,7 +3646,7 @@ Add a Custom Field
 
 3. Click on the edit \(pencil\) icon.
 
-4. Scrol down to the Additional Information drop down.
+4. Scroll down to the Additional Information drop down.
 
 5. From the drop down make a selection for the type of category you desire:
 
@@ -3747,61 +3659,37 @@ Add a Custom Field
     * Date and Time
 
 6. Click Add for your selection.
-
 7. The Additional Information view displays.
-
 8. Give your selection a Name and a value \(e.g, For a Checkbox selection, the name = Aircraft Fueled and the Value = a blank checkbox so it can be check-marked when accomplished\).
-
 9. Click on the Done.
-
 10. Click on the Save button at the top of the display.
-
 11. Observe the Additional Information area is now fil ed with the custom field checkbox and name.
 
 Edit a Custom Field
 
 1. Select a Mission, Event or Production Request that you would like to edit the custom information to.
-
 2. The Details displays.
-
 3. Click on the edit \(pencil\) icon.
-
 4. Scroll down to the Additional Information area.
-
-5. Click on the More Options \(. .\) button button to the right of the added Additional Information.
-
+5. Click on the More Options \(...\) button button to the right of the added Additional Information.
 6. Click Edit.
-
 7. The Additional Information view displays.
-
 8. Edit the information as required then click Done.
-
 9. The Edit Mission/Event or Production Request view displays.
-
 10. Click Done.
-
 11. Click Save. The Additional Information changes are saved.
-
 12. Use the back arrow to return to the Calendar or Timeline view.
 
 Delete a Custom Field
 
 1. Select the Mission, Event or Production Request that you would like to edit additional custom information to.
-
 2. The Details view displays.
-
 3. Click on the edit \(pencil\) icon.
-
 4. The Edit Mission/Event or Production Request view displays.
-
-5. Scrol to the bottom to the Additional Information drop down.
-
-6. Click on the More Options \(. .\) button to the right of the added Additional Information.
-
+5. Scroll to the bottom to the Additional Information drop down.
+6. Click on the More Options \(...\) button to the right of the added Additional Information.
 7. Click on Delete.
-
 8. The Additional Information is deleted.
-
 9. Click Save.
 
 Common Scheduler Functions
@@ -3811,97 +3699,74 @@ The following describes features and functionality common to all types of Events
 Add a Person Resource
 
 1. Click on the event and the flyout opens.
-
 2. Click the Edit \(pencil\) button. Click More Details.
-
 3. From the Resources dropdown select Person and click Add.
-
 4. Click on personnel from the list.
 
-1. If multiple people are selected over numerous pages, use the Show Only Selected People function option:
+    1. If multiple people are selected over numerous pages, use the Show Only Selected People function option:
 
-1\) Click on the More Options \(. .\) button within the Add People panel.
+        1. Click on the More Options \(...\) button within the Add People panel.
+        2. Select Show Only Selected People; a list of only personnel selected wil be displayed.
 
-2\) Select Show Only Selected People; a list of only personnel selected wil be displayed.
-
-2. To revert back to selecting more people for the event, click on the More Options \(. .\) button again and click on Select People.
-
-3. Continue selecting People as required.
-
-4. Persons with Go/NoGo issues will display a red ball next their name.
+    2. To revert back to selecting more people for the event, click on the More Options \(...\) button again and click on Select People.
+    3. Continue selecting People as required.
+    4. Persons with Go/NoGo issues will display a red ball next their name.
 
 5. Click Done, and click Save.
-
 6. This will save your event to the Scheduler Calendar.
 
 Manage Resource Roles On a Sub-Event
 
-80869 NEW IN 5.16
-
 Manage existing resource roles on a sub-event without opening the entire event in edit mode.
 
 1. Click on the event and the flyout opens.
-
 2. Expand and collapse:
 
-1. On the Sub Event header, expand and collapse the resource roles by clicking the .. control.
-
-2. On the resource list, expand and collapse the resource roles by clicking the V control.
+    1. On the Sub Event header, expand and collapse the resource roles by clicking the .. control.
+    2. On the resource list, expand and collapse the resource roles by clicking the V control.
 
 3. Fill Role:
 
-1. Click on a resource role to view a list of resources meeting the role requirements.
-
-2. Select the resource and it is added to the sub-event.
+    1. Click on a resource role to view a list of resources meeting the role requirements.
+    2. Select the resource and it is added to the sub-event.
 
 4. Re-order:
 
-1. On the resource type, click on the .. control and select Re-Order Resource Roles.
-
-2. Click on the desired resource/resource role and drag to the desired order.
-
-3. Click Done.
+    1. On the resource type, click on the .. control and select Re-Order Resource Roles.
+    2. Click on the desired resource/resource role and drag to the desired order.
+    3. Click Done.
 
 Set Resource Time Tracking
 
 Once a resource is added to an event, time tracking schedules an event resource with specific start and end dates/times, distinct the event and other resources. It also allows adding these times as Actual times after the event.
 
 1. Open the event.
-
 2. In the Resources field, click on the desired resource and Edit Resource opens.
-
 3. Slide the Include Time Tracking control right \(green\).
-
 4. Select the Time Mode from the dropdown:
 
-1. Time: Start Date/Time and End Date/Time.
-
-2. all Day: The entire selected date.
-
-3. Offset: Set the days/hours/minutes offset from the parent event, and set the duration.
+    1. Time: Start Date/Time and End Date/Time.
+    2. all Day: The entire selected date.
+    3. Offset: Set the days/hours/minutes offset from the parent event, and set the duration.
 
 5. Click Additional Information and add information as desired.
-
 6. Click Done and the tracking times appear under the resource, along with any Additional information.
-
 7. Scheduled is the default; click Actual to add times after the event.
-
 8. Sliding the Include Time Tracking control left \(white\) removes tracking and resets the resource to event start and end times.
 
 Use Resource \(Crew\) Templates to find qualified personnel
 
-!!! Note Templates must be built in advance in the Setup Resource Templates section.
+!!! Note
+    Templates must be built in advance in the Setup Resource Templates section.
 
 Crew template statuses indicate, in both Panels and Calendar view, when all required roles are not all filled, when all required roles are filled but all optional roles are not filled, or when a role is filled by a person who does not fully meet all the role’s requirements. Role Names displayed on the hierarchy view; display the Role Name and required indications, display the Name of the person assigned to the role, display the Roles/Names in vertical lists.
 
 1. Under Resources, select Template.
 
-1. Check mark the desired Template; click Done.
+    1. Check mark the desired Template; click Done.
 
 2. Click on the link for each crew position to find people who are qualified to fill the role.
-
 3. Select personnel.
-
 4. Click Save.
 
 Group Resources
@@ -3910,142 +3775,113 @@ This function is now in Setup > Resources.
 
 Add a Resource Status Type Requirement
 
-!!! Note A Resource Status Type Requirement identifies a specific status \(e.g., PRP, Not DNIF, Title 10 or 32\), a person holds or shouldn’t hold in order to be placed on the schedule. These status types can work with resource \(crew\) templates or they can work without using a resource template. Status Type Requirements are defined by the squadron and must be pre-loaded into the PEX database as a coded script in order for them to function within the Scheduler module. Personnel in PEX must be identified with a ‘status type’ prior to using this feature. See Squadron Management Setup \(resource status type requirements\), to ensure personnel are identified with the applicable status type before using this feature.
+!!! Note
+    A Resource Status Type Requirement identifies a specific status \(e.g., PRP, Not DNIF, Title 10 or 32\), a person holds or shouldn’t hold in order to be placed on the schedule. These status types can work with resource \(crew\) templates or they can work without using a resource template. Status Type Requirements are defined by the squadron and must be pre-loaded into the PEX database as a coded script in order for them to function within the Scheduler module. Personnel in PEX must be identified with a ‘status type’ prior to using this feature. See Squadron Management Setup \(resource status type requirements\), to ensure personnel are identified with the applicable status type before using this feature.
 
 1. Select any type of event from the calendar or create a new one.
-
 2. Scroll down to Resources \(middle of display\); click on drop down.
-
 3. Select Status Requirement from drop down; click add.
-
 4. Select a status type from the Available list displayed \(e.g., Title 10, Title 32, Not DNIF\).
 
-1. If no list displays this indicates your squadron hasn’t pre-loaded a coded script for your status types \(see note above\).
+    1. If no list displays this indicates your squadron hasn’t pre-loaded a coded script for your status types \(see note above\).
 
 5. Click done then Save.
-
 6. The Status Requirement will be listed under resources \(click the black arrow to reveal the status type\).
-
 7. To find personnel that fulfill the status requirement, click add \(next to Person resource\).
 
-1. A blue banner will display indicating the status requirement.
+    1. A blue banner will display indicating the status requirement.
+    2. Personnel who meet the status requirement are listed.
+    3. Click on the resource you want.
+    4. Select save.
 
-2. Personnel who meet the status requirement are listed.
+8. If using a Resource Template with a Status Requirement perform the following:
 
-3. Click on the resource you want .
-
-4. Select save.
-
-8. If using a Resource Template with a Status Requirement perform the following: A. Click on a blue crew template role link \(below Person\).
-
-2. A blue banner wil display and below the banner are personnel who meet the resource template requirement and the status requirement.
+    1. Click on a blue crew template role link \(below Person\).
+    2. A blue banner wil display and below the banner are personnel who meet the resource template requirement and the status requirement.
 
 9. Click on the resource\(s\) you want.
-
 10. Select Save.
 
 Enter actual start/end times
 
 1. Select an event from the calendar or timeline view.
-
 2. Select the edit icon.
-
 3. Edit event details panel opens.
-
 4. Click on Actual button \(under event name/start date\).
-
 5. Under start date, click add; enter the actual start time of event.
 
-1. If there is a difference in time, it will appear in a gray box with a ‘\+ or –‘ sign next to the actual time.
+    1. If there is a difference in time, it will appear in a gray box with a ‘\+ or –‘ sign next to the actual time.
 
 6. Under end date, click add; enter the actual end time of the event.
 
-1. If there is a difference in time, it will appear in a gray box with a ‘\+ or –‘ sign next to the actual time.
+    1. If there is a difference in time, it will appear in a gray box with a ‘\+ or –‘ sign next to the actual time.
 
 7. For a sub event, click the sub task and execute the same steps to enter actual start/end times for the sub event.
 
 Add attachment\(s\) to a Mission, Event or Production Request
 
-!!! Note Storage capacity per single mission/event or Production Request is 100 MB.
+!!! Note
+    Storage capacity per single mission/event or Production Request is 100 MB.
 
 1. Select any type of event from the calendar or create a new one.
 
-1. If using a previously created event select the edit icon.
-
-2. Scroll down to Attachments \(bottom of display\), and click Add.
+    1. If using a previously created event select the edit icon.
+    2. Scroll down to Attachments \(bottom of display\), and click Add.
 
 2. For new event select More Details, scroll down to attachments \(bottom of display\), and click Add.
-
 3. Enter name \(e.g., SPINS, Meeting Agenda, Target portfolio, etc\).
-
 4. Within the File field, click on Browse to find the attachment.
-
 5. Select the desired file to attach. Select Open.
-
 6. Click Done.
-
 7. Click Save. The attachment will now be uploaded.
-
 8. To review the attachment without using the edit icon for the event, click on the Attachment and it wil open up without having to go into the Event Details panel.
 
 Delete attachment\(s\) to a Mission, Event or Production Request
 
 1. Click the edit icon of the event.
-
 2. Scroll down to Attachments \(bottom of display\).
-
 3. Click on the red X to delete the attachment.
 
 Add Categories to a Mission, Event or Production Request
 
-!!! Note Categories are used to determine in which reports events and sub-events will appear. Also the category determines how the event or sub-event will appear or be handled on the report. It is a good practice to assigned categories to the events \(Missions, Events, or Production Requests\) and then save them as event templates or create Missions, Events, or Production Request templates with categories assigned correctly. This wil ensure consistency in scheduling and report content.
+!!! Note
+    Categories are used to determine in which reports events and sub-events will appear. Also the category determines how the event or sub-event will appear or be handled on the report. It is a good practice to assigned categories to the events \(Missions, Events, or Production Requests\) and then save them as event templates or create Missions, Events, or Production Request templates with categories assigned correctly. This wil ensure consistency in scheduling and report content.
 
 1. Select any type of event from the calendar or create a new one.
 
-1. If using a previously created event select the edit icon.
-
-2. Scroll down to Categories \(bottom of display\), and click Add.
+    1. If using a previously created event select the edit icon.
+    2. Scroll down to Categories \(bottom of display\), and click Add.
 
 2. For new event select More Details, scroll down to Categories \(bottom of display\), and click Add.
-
-3. From the category list select the category\(s\) that apply to the event or sub-event 4. Click Done.
-
+3. From the category list select the category\(s\) that apply to the event or sub-event
+4. Click Done.
 5. Click Save.
 
 Delete Category\(s\) from a Mission, Event or Production Request
 
 1. Click the edit icon of the event.
-
 2. Scroll down to Category \(bottom of display\).
-
 3. Click on the red X to delete the category.
 
 Display a Mission/Event/Production Request in Timeline mode
 
 1. Click Timeline at the top left side of the page.
-
 2. Select a date range.
-
 3. Select a Scale \(right side of display\). See workspace diagram.
-
 4. Select a Zoom \(right side of display\). See workspace diagram.
-
 5. Just under the date range, at Refine, select from the following:
 
     * Group by Person to see personnel.
-
     * Group by Event \(Events, Missions and Production Requests wil display\).
-
     * Group by Aircraft.
 
 6. Once the data displays, click on blue arrows to expand/collapse data. See workspace diagram below.
 
 Workspace
+![binders](PEX/img/../../img/Scheduling/Scheduler Workspace 2.jpg){: style="height:100%;width:100%"}
 
-!(images/0001
-
-1. Scale: Scale the Timeline schedule to display in hours, weeks, months, quarter, semi-annual or year 2. Zoom: Choose to drill down into the schedule by selecting a zoom range from 1 to 5
-
+1. Scale: Scale the Timeline schedule to display in hours, weeks, months, quarter, semi-annual or year
+2. Zoom: Choose to drill down into the schedule by selecting a zoom range from 1 to 5
 3. Refine: Choose to view events by personnel, event names, or aircraft \(if applicable\). Expand or collapse all options are also available within this area
 
 Display a Mission/Event/Production Request in Hierarchy mode
@@ -4053,57 +3889,41 @@ Display a Mission/Event/Production Request in Hierarchy mode
 The Hierarchy view is organized into a tree-like structure and can be used on Mission, Events or Production Requests. The hierarchy view uses “Parent/Child” relational records. The relationship of an event \(parent\), mandates that each child \(sub event\), has only one parent record; whereas a parent record can have one or more child records. This view is helpful to keep track of “parent” events that have multiple “child” events or sub-events and the resources assigned to the event which can be people, aircraft or a resource template.
 
 1. Click any Mission, Event or Production Request; which opens up the selected Details panel.
-
 2. Click on the Hierarchy icon \(to the left of the edit icon pencil\) of the Details panel.
-
 3. The Hierarchy View will display.
-
 4. Display the view in a horizontal or vertical format with the Horizontal - Vertical slider control, top left.
-
 5. Hierarchy view displays the Mission/Event/Production Request and any sub events.
 
-1. Hide and unhide resources with the Show resources slider control, top right.
+    1. Hide and unhide resources with the Show resources slider control, top right.
+    2. Resources assigned can be seen as long as the Hide resources \(upper right corner of hierarchy display\) box is unchecked.
 
-2. Resources assigned can be seen as long as the Hide resources \(upper right corner of hierarchy display\) box is unchecked.
+        1. Choose to select or de-select the hide resources checkbox as required.
 
-1\) Choose to select or de-select the hide resources checkbox as required.
+    3. Round nodes within the Hierarchy display.
 
-3. Round nodes within the Hierarchy display.
-
-1\) To view data within the node/sub event \(i.e., sortie\), click on the name and the details panel will display.
-
-2\) To collapse the sub event click on a round node.
+        1. To view data within the node/sub event \(i.e., sortie\), click on the name and the details panel will display.
+        2. To collapse the sub event click on a round node.
 
 6. Users can Edit Missions in the Hierarchy View by selecting the Edit icon to make desired changes.
-
 7. To back out of the Hierarchy view click on the “X” in the upper right corner of the display.
 
 Scheduler Event - Functions
 
-The following describes features and functionality in non-specialized Events, such as meetings, training sessions, or appointments. Features and functionality common to all types of events are covered in
-
-Scheduler Functions - Common.
+The following describes features and functionality in non-specialized Events, such as meetings, training sessions, or appointments. Features and functionality common to all types of events are covered in Scheduler Functions - Common.
 
 Add an Event
 
 1. Click on the \+ Add button and the Add Event dialog panel opens.
-
 2. Select the Event Template from Recent Event, Common Event or simply Event Templates.
-
 3. Enter event Name \(e.g., ADLS Training or Duty Officer\).
-
 4. Select Scheduled or Actual.
-
 5. Set start and end dates and times.
 
-1. Enter the Start Date/Time and End Date/Time using the calendar or roller control.
-
-2. Select All Day if the Event is all day.
+    1. Enter the Start Date/Time and End Date/Time using the calendar or roller control.
+    2. Select All Day if the Event is all day.
 
 6. Select the Squadron owning the event.
-
 7. Enter a Description if desired.
-
 8. Click Save.
 
 Add a Sub Event
@@ -4111,63 +3931,42 @@ Add a Sub Event
 This can be done when adding an event \(above\) or when editing an existing event. A sub \(or child\) event is created in the same manner as the main \(or parent\) event to which it belongs.
 
 1. In the dialog panel, click More Details.
-
 2. In Sub Events, click Add.
-
 3. Enter the Event Name.
-
 4. Select Scheduled or Actual.
-
 5. Set start and end dates and times.
 
-1. Enter the Start Date/Time and End Date/Time using the calendar or roller control.
-
-2. Select All Day if the Event is all day.
+    1. Enter the Start Date/Time and End Date/Time using the calendar or roller control.
+    2. Select All Day if the Event is all day.
 
 6. Select the Squadron that owning the event.
-
 7. Enter a Description if desired.
-
 8. Click Save.
-
 9. Continue to add sub events as required.
 
 Edit an Event
 
 1. From the calendar or Timeline view.
-
 2. Click on the event to launch the Event Details dialog.
-
 3. Click the pencil icon.
-
 4. In the Edit Event dialog, make the necessary changes
-
 5. Click Save.
 
 Delete an Event
 
 1. Click on the event to launch the Event Details dialog.
-
 2. Click the trash can icon.
-
 3. Select Yes at the confirmation message.
 
 Add a Person or other Resource to an Event
 
 1. Click on the event to open the Event Details dialog.
-
 2. Click the edit \(pencil\) icon to open the Edit Event dialog.
-
 3. Click on More Details.
-
 4. Click on the Resources > Add button.
-
 5. Select the Resource Type, \(e.g., Person\) and the Add People dialog opens.
-
 6. Select one person, multiple people, or a Person Group.
-
 7. Click Done and the dialog closes.
-
 8. Click Save.
 
 Add a Resource Group to an Event
@@ -4175,379 +3974,260 @@ Add a Resource Group to an Event
 As described in Resources,  one group can only contain one type of resource, e.g., people. This method allows you to add multiple groups \(people, aircraft, workstation, etc.\) to an event in a single action.
 
 1. Click on the event to open the Event Details dialog.
-
 2. Click the edit \(pencil\) icon to open the Edit Event dialog.
-
 3. Click on More Details.
-
 4. Click on the Resources > Add button.
-
 5. Select Resource Group and the Add Resource Group dialog opens.
-
 6. Select one or more Groups.
-
 7. Click Done and the dialog closes.
-
 8. Click Save.
 
 Remove a Person or other Resource from an Event
 
 1. Click on the event to launch the Event Details dialog.
-
 2. Click the pencil icon.
-
 3. In the Edit Event dialog, click the red X by the name\(s\) you want to remove.
-
 4. Click Yes at the confirmation dialog and click Save.
 
-Copy an Event 74675 NEW IN 5.16
+Copy an Event
 
 Select an event and copy it to other dates.
 
-5. Click on the event to be copied to launch the Event Details dialog.
-
-6. Click the More Options \(. .\) button and select Copy.
-
-7. In the Select Copy Dates dialog, select the month you would like to copy the event to.
-
-8. Select the date\(s\) you would like to copy the event to.
-
-9. Selected Dates are boxed, and populate a list below the calendar.
-
-10. Remove unneeded dates using the list red X button, the Remove all Dates button, or by clicking on the boxed date.
-
-11. Click Copy.
-
-12. Copy Progress opens and displays the copy progress bar. As the event progresses, each date shows In Progress, then Created.
-
-13. At any time click Stop Copy to halt the process. On the Stop Copy Confirmation dialog, click Stop Copy or Keep Copying.
-
-14. When complete, the Copy operation completed \(\#\) succeeded message displays.
-
-15. Once created, the date becomes a link to the copied event.
+1. Click on the event to be copied to launch the Event Details dialog.
+2. Click the More Options \(...\) button and select Copy.
+3. In the Select Copy Dates dialog, select the month you would like to copy the event to.
+4. Select the date\(s\) you would like to copy the event to.
+5. Selected Dates are boxed, and populate a list below the calendar.
+6. Remove unneeded dates using the list red X button, the Remove all Dates button, or by clicking on the boxed date.
+7. Click Copy.
+8. Copy Progress opens and displays the copy progress bar. As the event progresses, each date shows In Progress, then Created.
+9. At any time click Stop Copy to halt the process. On the Stop Copy Confirmation dialog, click Stop Copy or Keep Copying.
+10. When complete, the Copy operation completed \(\#\) succeeded message displays.
+11. Once created, the date becomes a link to the copied event.
 
 Edit the frequency of a recurring event
 
 1. Click on the event to launch the Event Details dialog.
-
 2. Click the pencil icon.
-
 3. In the Repeating Event dialog,
 
-1. Select to edit this one event.
-
-2. Or edit this and future events in this series from this date forward.
-
-3. Click Ok.
-
-4. Make the necessary changes and click Save.
+    1. Select to edit this one event.
+    2. Or edit this and future events in this series from this date forward.
+    3. Click Ok.
+    4. Make the necessary changes and click Save.
 
 4. If you edit the entire series the repeat rule \(e.g., every weekday until March 3, 2017\) will display.
 
-1. Click the blue Edit link \(under the all day option\).
-
-2. Make the necessary changes and click Save.
+    1. Click the blue Edit link \(under the all day option\).
+    2. Make the necessary changes and click Save.
 
 Create a Group Event
 
 1. Click on the \+ Add button and the Add Event dialog panel opens.
-
 2. Slide the Event Group control to the right \(green\). This deactivates non-group templates.
-
 3. Select the Event Template from Recent Event, Common Event or simply Event Templates.
-
 4. Enter Group Name \(e.g., Cell 1\).
-
 5. The template, with group members, appears with the default date/time settings.
-
 6. Delete any unnecessary events \(X\) or add events \(Add 1, Add 2. . \) using the dropdown.
-
 7. Under Shared Member Settings, enter settings that apply to the entire group.
-
 8. Select Scheduled or Actual.
-
 9. Set start and end dates and times.
 
-1. Enter the Start Date/Time and End Date/Time using the calendar or roller control.
-
-2. Select All Day if the Event is all day.
+    1. Enter the Start Date/Time and End Date/Time using the calendar or roller control.
+    2. Select All Day if the Event is all day.
 
 10. Select the Squadron owning the event.
-
 11. Enter a Description if desired.
-
 12. Click Save.
-
 13. The event appears with the group icon.
 
 Edit a Group Event
 
 1. Click on the event to launch the Event Details dialog.
-
 2. Click the pencil icon.
-
-3. Edit individual events in the Edit Event dialog under Members 4. Edit all group events as one under Shared Member Settings.
-
+3. Edit individual events in the Edit Event dialog under Members
+4. Edit all group events as one under Shared Member Settings.
 5. Click Save.
 
 Scheduler Mission - Functions
 
-The following describes features and functionality in flying operations events; such as missions and sorties.
-
-Features and functionality common to all types of events are covered in Scheduler Functions - Common and
-
-Scheduler Functions - Event.
+The following describes features and functionality in flying operations events; such as missions and sorties. Features and functionality common to all types of events are covered in Scheduler Functions - Common and Scheduler Functions - Event.
 
 Add a Mission
 
-!!! Note The difference between a Mission and a Sortie - Sorties belong to a Mission. For example, a Mission could be a four-ship formation \(four Sorties\), or a three-leg trip \(three sorties\), or a single-sortie mission. In the Scheduler, you will create the Mission first then add Sorties to it. In the Scheduler module, Sorties are listed in Sub Events.
+!!! Note
+    The difference between a Mission and a Sortie - Sorties belong to a Mission. For example, a Mission could be a four-ship formation \(four Sorties\), or a three-leg trip \(three sorties\), or a single-sortie mission. In the Scheduler, you will create the Mission first then add Sorties to it. In the Scheduler module, Sorties are listed in Sub Events.
 
-!!! caution  Unlike the PEX Mission Board, the scheduler module has no logic to keep the Sorties and Missions synchronized. With this Scheduler module it is not recommended to build Sorties completely outside the date range of the Mission. You should manually synchronize the Mission Start Date/Time with the first Sortie’s Takeoff Date/Time. The Mission End Date/Time should be kept manually synchronized with the last Sortie’s Land Date/Time. Not doing so wil make your schedule difficult to understand.
+!!! caution
+    Unlike the PEX Mission Board, the scheduler module has no logic to keep the Sorties and Missions synchronized. With this Scheduler module it is not recommended to build Sorties completely outside the date range of the Mission. You should manually synchronize the Mission Start Date/Time with the first Sortie’s Takeoff Date/Time. The Mission End Date/Time should be kept manually synchronized with the last Sortie’s Land Date/Time. Not doing so wil make your schedule difficult to understand.
 
 Single-sortie Mission
 
 1. Navigate to the Scheduler module.
-
 2. Click on the drop down arrow, top right side of the screen and select Add Mission.
-
 3. Enter the Mission Number.
-
 4. Select the squadron that owns the Mission.
-
 5. Enter the Mission Takeoff Date/Time as Start Date/Time.
-
 6. Enter the Mission Land Date/Time as the End Date/Time.
-
 7. Enter Take Off Location; select airfield or airbase and click add.
 
-1. Use search field to expedite your choice.
+    1. Use search field to expedite your choice.
 
 8. Enter Land Location; select airfield or airbase and click add.
 
-1. Use search field to expedite your choice.
+    1. Use search field to expedite your choice.
 
 9. Enter Mission Remarks, if desired.
-
 10. Enter Mission POC information, if desired.
 
 Add Sortie
 
 1. Scroll down and click More Details.
-
 2. Under Sub Events, select Sortie and Add.
-
 3. Enter the Sortie Type, e.g., CAS.
-
 4. Enter the Squadron that owns the sortie.
-
 5. Enter the Sortie’s Takeoff Date/Time.
-
 6. Enter the Sortie’s Land Date/Time.
-
 7. Enter Call sign.
-
 8. Enter Sortie Remarks.
-
 9. Click Save.
 
 Add a formation mission
 
-!!! Note In order to create a formation mission, each sortie must be built individual y into the Mission.
+!!! Note
+    In order to create a formation mission, each sortie must be built individual y into the Mission.
 
 1. Use the single-sortie mission instructions above and do not execute the last step \(click save\).
-
 2. Prior to saving, the single-sortie mission, while still in the Add Sortie panel scroll up to the top of the display.
-
 3. Click on the blue up arrow link \(the mission name will also be part of this link\) at the top left of the Add Sortie panel.
-
 4. Under Sub Events, from the drop down menu, select Sortie and Add again.
-
 5. Using the same Sortie Type and Times as the lead sortie, go through all the steps for adding a second sortie.
-
 6. Repeat as necessary for all the sorties in the formation.
-
 7. Click Save when all sorties have been added to the formation.
 
 Add a trip mission
 
-!!! Note In order to create a trip mission, each sortie must be built individually into the Mission.
+!!! Note
+    In order to create a trip mission, each sortie must be built individually into the Mission.
 
 1. Use the single-sortie mission instructions above and do not execute the last step “click save.”
-
 2. Prior to saving, the single-sortie mission, while still in the Add Sortie panel scroll up to the top of the display.
-
 3. Click on the blue up arrow \(the mission name will also be part of this link\) at the top left of the Add Sortie panel.
-
 4. Under Sub Events, from the drop down menu, select Sortie and Add again.
-
 5. Using the same Sortie Type and Times as the lead sortie, go through all the steps for adding a second sortie.
-
 6. Repeat as necessary for all the sorties in the trip.
-
 7. When finished adding Sorties, take note of the first Sortie’s Takeoff Date/Time and last Sortie’s Land Date/Time.
-
 8. Click on the blue up arrow link \(the mission name will also be part of this link\).
-
-9. Edit the overalll Mission Start and End Date/Times to match.
-
+9. Edit the overall Mission Start and End Date/Times to match.
 10. Click Save when finished.
 
 Add aircraft to a sortie
 
 1. In the Resources block, select either Aircraft or MDS.
-
 2. Selecting MDS will allow you to select the MDS of the aircraft and allow you to select a tail number later by clicking on the MDS link under Resources.
-
 3. Selecting Aircraft will allow you to select the tail number now.
 
 Offset Sub Event times from the Mission start or end time
 
 1. all Sub Events under a Mission, Production Request or Event has a Time Mode selection box that will allow you to Select Offset.
-
 2. To use this option, a Sub Event must be added to the mission \(e.g, sortie\).
-
 3. Within the Sub Event area \(under Type\) select the Time Mode drop down menu.
-
 4. Select Offset.
-
 5. When chosen, that option will give the ability to offset the Sub Event’s start or end time from the parent’s \(Mission\) start or end time.
-
 6. It also allows a duration for the sub event to be chosen by selecting a duration time from the drop down \(e.g., 15 minutes\).
-
 7. If the parent’s start or end time is modified, the Sub Event start and end times will be recalculated.
 
 Add Take Off/Land Locations
 
-!!! Note Locations must first be established in the Locations module.
+!!! Note
+    Locations must first be established in the Locations module.
 
 1. Create a new mission with a sortie or select an existing mission from the calendar or timeline view.
-
 2. Enter Locations to new or edited missions:
 
-1. Access the edit sortie sub event panel.
-
-2. Within the Take Off Location field \(underneath Land Date \(Z\)\), select from the drop down the type of location \(e.g., airfield, airbase, helipad\).
-
-3. Click Add.
-
-4. From the list of location types, select a take-off location or use the search window to type in a location; click to add.
-
-5. Within the Land Location \(underneath Take Off Location\), select from the drop down the type of location \(e.g., airfield, airbase, helipad\).
-
-6. Click Add.
-
-7\. From the list of location types, select a land location or use the search window to type in a location; click to add.
+    1. Access the edit sortie sub event panel.
+    2. Within the Take Off Location field \(underneath Land Date \(Z\)\), select from the drop down the type of location \(e.g., airfield, airbase, helipad\).
+    3. Click Add.
+    4. From the list of location types, select a take-off location or use the search window to type in a location; click to add.
+    5. Within the Land Location \(underneath Take Off Location\), select from the drop down the type of location \(e.g., airfield, airbase, helipad\).
+    6. Click Add.
+    7. From the list of location types, select a land location or use the search window to type in a location; click to add.
 
 Delete Take Off/Land Locations
 
 1. Select an existing mission from the calendar or timeline view.
-
 2. Click on the sortie sub event \(under blue banner\); Edit Sortie displays.
-
 3. Click on the Edit icon.
-
 4. Click on the red X for the Take Off or Land Location; it will delete.
 
 Add Aircraft to a sortie
 
 1. In the Resources block, select either Aircraft or MDS.
-
 2. Selecting MDS will allow you to select the MDS of the aircraft and allow you to select a tail number later by clicking on the MDS link under Resources.
-
 3. Selecting Aircraft will allow you to select the tail number now.
 
 Scheduler Production Request - Functions
 
-The following describes features and functionality in Production Requests. Features and functionality common to all types of events are covered in Scheduler Functions - Common and Scheduler Functions -
-
-Event.
+The following describes features and functionality in Production Requests. Features and functionality common to all types of events are covered in Scheduler Functions - Common and Scheduler Functions - Event.
 
 Add a Production Request
 
 1. Navigate to the Scheduler module.
-
 2. Click on the drop down arrow, top right side of the screen and select Add Production Request.
-
 3. The Add Production Request dialog panel opens.
-
 4. Enter a Name of the Production Request \(e.g., Target Graphic\).
-
 5. Select the Validated Date/Time of the Production Request by clicking on the calendar icon and hour/minute numbers. Or use the clock icon.
-
 6. Enter the Suspense Date/Time the Production Request is due.
-
 7. If required enter a Completion Date by selecting Add. Enter date/time.
-
 8. Choose the Squadron that owns the Production Request.
 
-1. If you have access to other squadrons use drop down arrow to select squadron.
+    1. If you have access to other squadrons use drop down arrow to select squadron.
 
 9. Enter Remarks for the Production Request as required.
-
 10. Enter the current status of the Production Request:
 
     * Choose Assigned
-
     * Request Extension
-
     * Accepted
-
     * Working
-
     * Completed
 
 11. Add a Primary Squadron Event \(e.g., squadron who will perform the work\). This is a required field.
 
-1. The Add Event Dialog box displays.
-
-2. Enter a Start/End date and Time the Primary Squadron has to complete the Production Request.
-
-3. Enter Description as required.
+    1. The Add Event Dialog box displays.
+    2. Enter a Start/End date and Time the Primary Squadron has to complete the Production Request.
+    3. Enter Description as required.
 
 Edit a Production Request
 
 1. From the calendar or Timeline view.
-
 2. Click on the Production Request to launch the Edit Production Request dialog.
-
 3. Click the pencil icon.
-
 4. In the Edit Production Request dialog, make the necessary changes and click Save.
-
 5. Click on back arrow to exit and return to the calendar view.
 
 Delete a Production Request
 
 1. From the calendar or Timeline view.
-
 2. Click on the Production Request to launch the Production Request Details.
-
 3. Select the Trash can \(upper right corner of the Production Request Details banner\).
-
 4. The confirmation statement wil appear; select yes.
 
 Setup a recurring Production Request
 
 1. Add a Production Request and check the box for Repeat to launch the Repeat dialog.
-
 2. In the Repeat dialog, select your desired frequency:
 
     * Daily – repeats based on days and interval selected, e.g., selecting two means the event wil repeat every other day.
-
     * Weekdays – repeats each weekday, Monday through Friday.
-
     * Weekly – repeats every specified number of weeks, on the weekday\(s\) selected.
-
     * Monthly – repeats every specified number of months, either on a specific day or based on a rule, e.g., first Tuesday.
-
     * Yearly – repeats every year on specific month/date or based on a rule, e.g., first Wednesday of November.
 
 3. In the Repeat dialog, select your desired ending \(never goes more than two years\):
 
     * Never.
-
     * After – select the number of occurrences, e.g., 3 occurrences and it stops.
-
     * On Date – specified end date.
 
 4. Select OK.
@@ -4555,24 +4235,18 @@ Setup a recurring Production Request
 Edit the frequency of a recurring Production Request
 
 1. Click on the Production Request to launch the Production Request Details dialog.
-
 2. Click the pencil icon.
-
 3. In the Repeating Event dialog.
 
-1. Select to edit this one event.
-
-2. Or edit this and future events in this series.
-
-3. Click Ok.
-
-4. Make the necessary changes and click Save.
+    1. Select to edit this one event.
+    2. Or edit this and future events in this series.
+    3. Click Ok.
+    4. Make the necessary changes and click Save.
 
 4. If you edit the entire series the repeat rule \(e.g., every weekday until March 3, 2017\) will display under Completion Date Add option.
 
-1. Click the blue Edit link next to the repeat rule.
-
-2. Make the necessary changes and click Save.
+    1. Click the blue Edit link next to the repeat rule.
+    2. Make the necessary changes and click Save.
 
 ## Scheduler Reports
 
@@ -4580,17 +4254,14 @@ Scheduler Reports Basics
 
 Introduction
 
-The Scheduler Reports module provides pre-formatted reports that populate with data from the Scheduler
-
-module.
+The Scheduler Reports module provides pre-formatted reports that populate with data from the Scheduler module.
 
 * RPA Schedule
-
 * Missile Operations Personnel Schedule
-
 * Missile Operations Locations Schedule
 
-!!! Note These reports build from the Scheduler module. Legacy report help files are located in Scheduling Reports.
+!!! Note
+    These reports build from the Scheduler module. Legacy report help files are located in Scheduling Reports.
 
 Permissions
 
@@ -4601,6 +4272,7 @@ Controls
 Access these procedures by navigating to Scheduling > Scheduler Reports.
 
 Workspace
+![binders](PEX/img/../../img/Scheduling/Scheduler Reports Workspace.jpg){: style="height:100%;width:100%"}
 
 Delivered Scheduler Reports
 
@@ -4609,311 +4281,33 @@ To access all delivered reports go to Scheduling > Scheduler Reports > Select Re
 RPA Schedule
 
 1. In the Select Reports dropdown, select RPA Schedule.
-
 2. Select Start Date and End Date.
-
 3. Select All Times Zulu or All Times Local.
-
 4. In the Squadron list, click the X to remove squadrons or click the ellipsis button to select/deselect all.
-
 5. Click Done to build the report.
 
 Missile Operations Personnel Schedule
 
-New in 5.16.1.
-
 1. In the Select Reports dropdown, select Missile Operations Personnel Schedule.
-
 2. Select Start Date and End Date. The report will displays up to 32 days.
-
 3. Select All Times Zulu or all Times Local.
-
 4. In Options > Sort By Squadron, select:
 
-1. On \(green\). Names are sorted first by squadron, then alphabetically.
-
-2. Off \(gray\). Names are sorted alphabetically.
+    1. On \(green\). Names are sorted first by squadron, then alphabetically.
+    2. Off \(gray\). Names are sorted alphabetically.
 
 5. In the Squadron list, click the X to remove squadrons or click the ellipsis button to select/deselect all.
-
 6. Click Done to build the report.
 
 The report sums the number of alerts and backup alerts by month by person. Each person displays Last Name, First Name, Assigned Squadron, Flight, Crew Number, Rank and Crew Position. Weekend columns are green and Federal Holiday columns are blue. Conflicts are indicated in red or yellow. The report automatically refreshes every five minutes, and can be paused. The manually reset, to five minutes, allows the report to easily function as a second display.
 
 Missile Operations Locations Schedule
 
-New in 5.16.1.
-
 1. In the Select Reports dropdown, select Missile Operations Locations Schedule.
-
 2. Select Start Date and End Date. The report will displays up to 32 days.
-
 3. Select All Times Zulu or All Times Local.
-
 4. In the Squadron list, click the X to remove squadrons or click the ellipsis button to select/deselect all.
-
 5. In the Locations list, click the X to remove locations or click the ellipsis button to select/deselect all .
-
 6. Click Done to build the report.
 
 The report sums the number of alerts and backup alerts by month by location. Weekend columns are green and Federal Holiday columns are blue. Conflicts are indicated in red or yellow. The report automatically refreshes every five minutes, and can be paused. The manually reset, to five minutes, allows the report to easily function as a second display.
-
-Training
-
-Continuation Training
-
-Continuation Training Basics
-
-Introduction
-
-The Continuation Training module allows Training Managers to track personnel’s assigned continuation training requirements for an established training cycle. It is set up so that training assignments can be done via an Aviation Resource Management System \(ARMS\) training import, HQ
-
-CT file import, and/or by manually assigning PEX generated Unit-Level Training tasks to personnel.
-
-Permissions
-
-New in 5.16.1 A new role of ARMS Import/Export is added, and Training Auditor/ARMS is renamed to Training Auditor.
-
-Several permission roles can access the Continuation Training module and perform administrative functions, in addition to PEX Admin and Administrator. The pseudo-role Supervisor also has limited functions in the CT module, and any Basic User can access the module for the purpose of submitting Training Accomplishment Reports \(TARs\) via the Reporting tab:
-
-* ARMS Import/Export is required to access the ARMS tab. This role cannot be assigned to a Joint Use account, i.e., the user must be associated to a Personnel record.
-
-* Training Administrator can perform any function in the CT module except audit TARs and access the ARMS tab.
-
-* Training CT Administrator can perform any function in the CT module except audit TARs, setup and use the TACTICS tab, and access the ARMS tab.
-
-* Training Auditor \(previously Training Auditor/ARMS\) can audit TARs for both unit-level and ARMS tasks, import and export ARMS data, as well as view Training Tasks and Overview tabs.
-
-It cannot access the ARMS tab.
-
-* Basic User can access and use the Training Tasks tab within the module, as well as submit TARs for squadron personnel via the Reporting tab.
-
-* Supervisor is a pseudo-role which is assigned in the Personnel module. In addition to the functions of Basic Users, individuals assigned as a supervisor can also the access the CT tab of their supervisees’ training folders from which they can view subordinate’s CT status, generate daily and monthly TAR reports and view the status of tasks reported but not yet updated in PEX displays. If the unit has set up the CT module to allow it, supervisors may also audit TARs of their supervisees from within the training folder.
-
-Module Notes
-
-The CT module interfaces with and uses data from the Personnel module. For ARMS tasks, the ARMS
-
-Personnel imports add/overwrite the necessary Personnel data. For unit-level tasks, both local and HQ, units must ensure the following is completed:
-
-Training
-
-* Quals tab – Personnel’s qualifications are set.
-
-* Details or Personnel tab – Personnel’s Service status is set.
-
-* Setup tab – The appropriate Qualification Status codes in the Aircrew Qualification Code table are identified as “Is Qualified.” This is necessary to support setup of “Check Assigned” function within the CT module.
-
-Controls
-
-* CT setup and management procedures can be accessed by navigating from the PEX main menu to Training > Continuation.
-
-* Supervisor procedures can be accessed by navigation from My Page – My Data – Folders – My Supervisee’s
-
-* Basic user procedures can be accessed by navigation from My Page Workspace
-
-1. Reporting tab: View/Edit from an Overview of TARs and report TARs by Person, Mission and Commitment.
-
-2. Unit Task Assignment tab: Assign and unassign PEX Unit Tasks to Personnel.
-
-3. Worksheet Builder tab: Create, edit, and delete Worksheets \(TARs\).
-
-4. Audit tab: The Audit tab is used to approve reported training tasks. The process includes reviewing, editing, approving, printing, and/or deleting training accomplishment records 5. ARMS tab: Set ARMS import settings, import ARMS files and export data to ARMS.
-
-6. ADLS tab: The ADLS tab allows you to import ADLS training data with a .CSV file downloaded from ADLS. Personnel can log ADLS training accomplished in PEX \(if desired\) and/or continue to import updated ADLS files to update ADLS task completion in PEX.
-
-7. TACTICS tab: TACTICS is used by the Joint Terminal Air Controller \(JTAC\) community to track training. PEX can import TACTICS training and physical data.
-
-8. Training Tasks tab: The Training Tasks tab provides you with a micro view of your unit’s training progression. It lists all your personnel and all their training tasks. You can use personnel and task filters to look at just the data in which you are interested. Right-clicking on any of these grids allows you to select which columns to display, print, or export to Excel.
-
-9. Overview tab: The overview tab provides you with a macro view of your unit’s training progression for the current cycle. The page is broken down into three sections: Proficiency, Currency, and One-Time tasks. Buttons, at top-right of each section allow you to expand any of 188
-
-these sections. Right-clicking on any of these grids allows you to select which columns to display, print, or export to Excel.
-
-10. Setup tab: The Setup Tab is used to set unit training cycle, unit preferences, modify lists, view imported ARMS tasks, import HQ unit level tasks, create local tasks, set RAP requirements, SIM/RAP rules and setup for the display of effective mission ready status.
-
-PEX - ARMS Interface
-
-PEX-ARMS Interface Overview
-
-Overview
-
-New in PEX 5.16.1. PEX now includes connectivity to ARMS via Web Services. This allows users to easily exchange data between ARMS and PEX without using the process of importing data using ARMS-generated CSV files and exporting data using ODAC. This CSV/Virtual Account process remains in place, but has been updated.
-
-The ARMS tab is used to setup the PEX interface with ARMS to send data from ARMS to PEX, and PEX to ARMS.
-
-There are two interface functions.
-
-1. Send validated personnel, personnel flying hours, and training data from ARMS to PEX.
-
-2. Send audited training accomplishments and AFTO 781 data from PEX to ARMS.
-
-There are two interface methods.
-
-1. CSV/Virtual Account. This is the legacy method used in previous versions of PEX.
-
-1. CSV. Export data from ARMS into a CSV file, then manually import the file into PEX.
-
-2. Virtual Account. Export the data from PEX to ARMS using a virtual account. Due to the USAF requirement for two-factor authentication, this option may sunset, or become unavailable, in the near future. If Virtual Accounts are unavailable export data using Web Services described next.
-
-2. Web Services. Establish a direct connection/interface between PEX and ARMS. Once configured, the import and export are respectively accomplished by simply clicking the Begin Import and Begin Export buttons.
-
-Although the CSV/Virtual Account process remains essentially the same, both the interface and permission roles have been revised. Persons using the CSV/Virtual Account method should thoroughly review this topic before attempting import or export.
-
-The PEX CSV/Virtual Account and Web Services imports for Personnel and Training behave differently. With the CSV/Virtual Account method, Personnel and Training CSV imports are a complete download from ARMS every time. PEX “wipes” and replaces person training assignments data on every import. ARMS Web Services, on the other hand, only import Personnel and Training records which have been updated in ARMS since the Zulu date specified in the Web Service Imports dialog. For example; Personnel - Import records updated in ARMS since \(date\) Z.
-
-!!! Note ARMS Web Services returns all squadron personnel in each Training import, as ARMS
-
-refreshes daily to Military Personnel Data System \(MILPDS\) data. As a result, each Web Services Training import into PEX updates all persons' Aviation Service data in Personnel and Z-004 ASC Term Date.
-
-63.png)
-
-Training
-
-Users using the Web Services method must configure the CSV/Virtual Account method as well. The CSV/Virtual Account method is used:
-
-* When a squadron is starting to use PEX for the first time.
-
-* For the first training import at the start of each training cycle.
-
-* For the first training import after migration to 5.16.1.
-
-Permissions
-
-* ARMS Import/Export is a new permission role. This role allows access to the Continuation Training > ARMS tab and the Import, Export, and Setup buttons. Therefore, this applies to both CSV/Virtual Account method and new Web Services method
-
-* Training Auditor is the renamed Auditor/ARMS role. Functionality remains unchanged.
-
-!!! Note Both ARMS Import/Export and Training Auditor roles are required in order to export or import ARMS data. For security reasons, the Administrator role alone does not give the ability to import or export ARMS data.
-
-Rules
-
-* Users using only the CSV/Virtual Account method can disregard the Web Services specific information.
-
-* Users can choose an override method when actually importing and exporting \(from the Begin Import and Begin Export buttons\). It is recommended users choose the default method they will routinely use, then override as required.
-
-* Users using either the CSV/Virtual Account or Web Services method must have both ARMS
-
-Import/Export and Training Auditor permissions as described above.
-
-* In 5.16.1 migration, PEX automatically sets squadron methods to CSV Imports and ODAC
-
-Exports.
-
-* Persons' Personnel > Qual data is not inserted or updated via Web Services.
-
-Controls
-
-Access these procedures by navigating to Training > Continuation > ARMS tab.
-
-Workspace
-
-Settings
-
-1. Set Squadron and enter ARMS 17-character unit identifier for Training imports/exports and the ARMS 9-character unit identifier for 781 Exports/Personnel Flying Hours imports.
-
-2. Select the Default Interface Method for the selected squadron; Web Services or CSV/Virtual Accounts. If using Web Services, if the PEX Service Host server certificate Thumbprint is not already entered, contact your PEX Server Administrator to obtain it and enter it here.
-
-3. Enter the selected squadron's 781 data.
-
-4. Select Z events you do not want to include in the import.
-
-5. Select fields you do not want to overwrite on the import.
-
-Import
-
-6. Select which Squadrons' data to import. The squadron's default method is shown to the right, \[CSV\] or \[Web\]
-
-Training
-
-7. Select the Data Types to import.
-
-8. Select the import method for the squadrons selected in item 6.
-
-    * Each Squadron's default settings as selected in Settings, item 2.
-
-    * Override the default settings and use Web Services for all  selected squadrons.
-
-    * Override the default settings and use CSV files for all  selected squadrons.
-
-9. View log files created after each import.
-
-Export
-
-10. Select which Squadrons' data to export. The selected method is shown to the right, \[Virt\] or
-
-\[Web\]
-
-11. Select the Data Types to export.
-
-12. Select the export method for the squadrons selected in item 10.
-
-1. Each Squadron's default settings as selected in Settings, item 2.
-
-2. Override the default settings and use Web Services for all  selected squadrons.
-
-3. Override the default settings and use Virtual Accounts for all  selected squadrons.
-
-13. View log files created after each import.
-
-Setup - Configure the PEX-ARMS Interface
-
-New in PEX 5.16.1.
-
-Web Services Network Setup Interface
-
-Web services utilizes Machine-to-Machine \(M2M\) Authentication, which requires certificate information in the form of a Thumbprint for the PEX Service Host \(PSH\) server. The ARMS Program Management Office requires certificate information in the form of a Thumbprint for each PSH
-
-server. Here, the term "PSH Admin" refers to the local person or persons who administer the PEX
-
-Service Host. Typically, this is the local PEX Administrator in conjunction with the local communications squadron.
-
-1. The PSH Admin:
-
-1. Coordinates with the PEX Help Desk to send them: 1\) Required server certificate information.
-
-2\) HARM codes associated with that certificate.
-
-2. Works with one HARM office from each PEX database and provides the HARM office with a certificate Thumbprint specific to their PSH.
-
-2. The designated HARM office for the PEX database:
-
-1. Enters the certificate Thumbprint in the Continuation Training > ARMS tab > Settings page. The Thumbprint has to be entered only once for the database. The Thumbprint is then visible to, and used by, every squadron in the database.
-
-!!! caution This value is used by all squadrons in the database. Changes should be made with care as they affect all units in the database.
-
-Setup the import from ARMS to PEX
-
-!!! Note A CSV Training import is required for initial use, even if you plan to use Web Services on a daily basis.
-
-Adhoc View/Reports will be in Jaspersoft and accessible to all ARMS users worldwide. Users will access these reports to generate the three.csv files: Personnel, Training, and 7-30-60-90 Personnel Flight Hours. Users must schedule the reports in ARMS.
-
-Go to Training > Continuation > ARMS tab > Settings button. Select a squadron from the Squadron
-
-& ARMS Unit Identifiers dropdown.
-
-Associate PEX Squadrons to ARMS Unit Identifiers
-
-1. Add \(type or paste\) the 17-character ARMS Unit Identifier \(e.g., 0203ARSSQ00000000\) and click Add. This identifier can be found on the Personnel.CSV file in cell A2.
-
-2. Add \(type or paste\) the 9-character ARMS Unit Identifier \(e.g., 0203ARSSQ\) and click Add.
-
-This identifier can be found on the 7/30/60/90.CSV file.
-
-3. To disassociate an ARMS unit, select the unit identifier and click Remove.
-
-Enter ARMS Data
-
-781 Data. These can be found on existing AFTO 781s.
-
-1. Add your HARM Code.
-
-2. Add your 4-Char Flying Org Unit ID.
-
-3. Add your Issuing Unit.
-
-4. Click Save.
-
-Do not include on Training Import
-
-PEX generates training tasks for four ARMS requirements which are not tracked by ARMS as training events: Z-001 Physical Exam, Z-002 Altitude Chamber, Z-003 Records Review, and Z-004 ASC Termination Date. If your unit does not use one or more of these \(for example, an ICBM unit that does not require periodic Altitude Chamber training\), check the item’s box to exclude PEX from generating it during the ARMS import and click Save.
