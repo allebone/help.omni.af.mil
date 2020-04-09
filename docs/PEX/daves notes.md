@@ -1,4 +1,4 @@
-![binders](PEX/img/../../img/Scheduling/Mission Overview.jpg){: style="height:100%;width:100%"}
+![binders](PEX/img/../../img/Setup/Overview.jpg){: style="height:100%;width:100%"}
 
  al 
  all
