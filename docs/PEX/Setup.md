@@ -198,7 +198,6 @@ Establish and Verify CSE Connection
     2. Service Name > CSE Nellis Range Import
     ![binders](PEX/img/../../img/Setup/CSE Connection Status.png){: style="height:100%;width:100%"}
 
-
 7. CSE added to existing Status tab.
 8. The Service Name, Description, and URI are scripted into PEX.
 9. Log Files.
@@ -257,52 +256,59 @@ Corresponding airspaces must be added in Setup >  Locations before PEX and CSE l
 
 Workflow
 
-1. Schedule missions as normal in the Mission Board. Missions that will be sent to CSE must have at least one Airspace mapped to CSE ranges and a valid Range Project Number \(Range Proj
-\#\). If these columns are not visible in the Sorties grid, unhide them using the View control.
+1. Schedule missions as normal in the Mission Board. Missions that will be sent to CSE must have at least one Airspace mapped to CSE ranges and a valid Range Project Number \(Range Proj\#\). If these columns are not visible in the Sorties grid, unhide them using the View control.
 2. When ready to send range requests to CSE, go to Scheduling > Flying Schedule > Sorties tab.
 3. Click the CSE Export button, and the CSE Mission Export page is opened, with the Mission Filter flyout also open.
 4. Set filter by Squadron\(s\), Zulu/Local, Start Date/Time and End Date/Time.
 5. You can filter further by MDS and Airspace.
 6. Click Load.
 7. The CSE Mission Export page opens with all missions meeting your filter criteria.
-8. Two slider control options al ow you to:!(images/000030.png)
+8. Two slider control options allow you to:
 
-* Show Sent Missions.
-!!! note
-    Once a mission is sent to, and accepted by CSE, it cannot be re-sent.
-* Include Sortie Remarks.
-o Sortie remarks \(manually entered in the Mission Board > Sortie grid\) are sent if this option is selected.
-NOTES:
-o Mission remarks \(manually entered in the Mission Board > Mission grid\) are always sent.
-o Range Report information is always sent, if those columns are checked in Mission Board. Available columns are GCI, GUN, JTIDS, LASER, LIVE, NACTS, RFMDS, THREATS and TOSS.
-o Other exported data includes Squadron, Msn \#, Cal Sign\(s\), IFF\(s\), Airspace and Entry/Exit \(L\) Times.
+    * Show Sent Missions.
+        !!! note
+            Once a mission is sent to, and accepted by CSE, it cannot be re-sent.
+    * Include Sortie Remarks.
+        * Sortie remarks \(manually entered in the Mission Board > Sortie grid\) are sent if this option is selected.
+        NOTES:
+        * Mission remarks \(manually entered in the Mission Board > Mission grid\) are always sent.
+        * Range Report information is always sent, if those columns are checked in Mission Board. Available columns are GCI, GUN, JTIDS, LASER, LIVE, NACTS, RFMDS, THREATS and TOSS.
+        * Other exported data includes Squadron, Msn \#, Cal Sign\(s\), IFF\(s\), Airspace and Entry/Exit \(L\) Times.
+
 9. Check all missions to be sent to CSE.
 10. When satisfied, click the Export to. . button, and Yes or No to the confirmation dialog.
-11. An Export Result Log dialog opens listing each exported mission. For each, a REJECTED or ACCEPTED BY CSE status is displayed. If rejected, a CSE error code and reason describe the error.
-Rejected and accepted totals are displayed at bottom. If you need to refer to this log file in the future, go to Setup > External Interfaces > Status tab, and call applicable the log file.
+11. An Export Result Log dialog opens listing each exported mission. For each, a REJECTED or ACCEPTED BY CSE status is displayed. If rejected, a CSE error code and reason describe the error. Rejected and accepted totals are displayed at bottom. If you need to refer to this log file in the future, go to Setup > External Interfaces > Status tab, and call applicable the log file.
 12. In addition to Airspace and Range Project Number, PEX validated in CSE include: Squadron, MDS, Weapon Load Items and Codes, and Complete Round Codes \(CRC\).
 13. For any rejected missions, edit the data as required in the Mission Board or Flying Schedule and re-send.
-
+![binders](PEX/img/../../img/Setup/Workflow.png){: style="height:100%;width:100%"}
 
 Scheduling Operations
-Local procedures and command guidance determine when to pass ATO mission scheduling information from PEX to UC2. Communications traffic between the two systems will be minimized the more complete the schedule is before the subscription occurs.!!! note
-    Operational reporting requirements may dictate UC2 subscribing to an ATO before the schedule has been firmed. This is especial y likely during periods of around the clock operations.
+
+Local procedures and command guidance determine when to pass ATO mission scheduling information from PEX to UC2. Communications traffic between the two systems will be minimized the more complete the schedule is before the subscription occurs.
+
+!!! note
+    Operational reporting requirements may dictate UC2 subscribing to an ATO before the schedule has been firmed. This is especially likely during periods of around the clock operations.
+
 Missions in PEX which are not associated with an ATO are called “Local Missions” and those missions are passed to UC2 immediately upon creation, if a known MDS has been assigned.
 The following data enables certain actions:
+
 * Assigning a mapped MDS to a sortie allows the mission to flow from PEX to UC2.
 * Assigning a Tail number to a PEX sortie allows UC2 RMA to display the ATO SCL. The PEX load sets, SCLs, and Auto generated SCLs are of no interest to UC2 and are not shared.
 * The Mission Number in UC2 allows for only 8 characters; if it is longer than 8 UC2 will not display the mission.
 * The mission type assigned in PEX must be less than seven characters long or UC2 cannot display the type in RMA.
 * When a mission is “Committed” in PEX, UC2 will interpret that status as “Scheduled”. Prior to that action, the UC2 status is “Tasked”
-* When the first sortie of a mission has an Actual Time of Departure entered in PEX, UC2 will interpret the mission status as “Take Off”; the earliest ATD will be forwarded to TBMCS-FL as
-“Mission Actual Start Time”
+* When the first sortie of a mission has an Actual Time of Departure entered in PEX, UC2 will interpret the mission status as “Take Off”; the earliest ATD will be forwarded to TBMCS-FL asb “Mission Actual Start Time”
 * When the last sortie of a mission has an Actual Time of Arrival entered in PEX, UC2 will interpret the mission status as “Landed” and the data will be forwarded to TBMCS-FL as
 “Mission End Time”
 * Maintenance Line numbers are used by EMOC to identify sorties in both UC2 and PEX, and these line numbers must be unique to an ATO period, which usual y does not correlate to a calendar day \(Local or Zulu\). ATO days can be from, for example, 06:00Z to 05:59Z.
+
 !!! note
     PEX has an “Auto Line Number” function which may result in violating this condition, dependent on the missions displayed, the ATO cycle and unit numbering conventions.
+
 Operations and Maintenance personnel must coordinate this process.
+
 The following information is displayed in UC2 RMA based on PEX scheduling information:
+
 * Line number
 * Mission Type \(if less than 7 characters\)
 * Mission CNX \(Cancelled\)
@@ -318,170 +324,248 @@ The following information is displayed in UC2 RMA based on PEX scheduling inform
 * Sortie scheduled and actual landing
 * Sortie CNX
 * Sortie Remarks
+
 TTPs
+
 * PEX permits operations which may or may not be in accordance with AOR operational procedures. For example, cancelling a local \(non-ATO\) mission through the use of the Mission Board “CNX mission” function would probably be an accepted practice, while performing the same action on an ATO mission would be outside the authority of unit schedulers. ATO
 missions are typically cancelled through an ATO change. Use of PEX and UC2 does not guarantee all operational directives will be complied with.
 * PEX and UC2 displays wil not necessarily display the same missions, even though both systems contain the same missions. This is because of the use of Zulu versus Local times and various PEX filtering abilities such as “Show Sorties by TO Date”, “Filter By Sortie Type”, and “Filter by MDS”.
 * EMOC can accept only unique line number/ATO date combinations. For example, two line numbers “300” during one ATO cycle wil be a problem even if they are on two different calendar dates. Use of PEX “Auto Line Number” function may result in duplicates which must be resolved manually. EMOC operators can perform a tail number swap between lines and they can enter/modify actual take off and land times on a sortie. If EMOC adds a tail number to a mapped unit and MDS, then UC2 will create the tail number and In PEX you will need to add the new tail number in the Aircraft Module. Then in the UC2 module you wil need to map it to the UC2 tail number. EMOC operators can modify aircraft status and that information will flow through UC2 to PEX. EMOC operators can perform a tail number swap between lines and they can enter/modify actual take off and land times on a sortie. If EMOC adds a tail number to a mapped unit and MDS, then UC2 wil create the tail number. In PEX you wil need to add the new tail number in the Aircraft Module and then in the U2 module you wil need to map it to the UC2 tail number. EMOC operators can modify aircraft status and that information will flow through UL to PEX.
-* ATO mission information will be imported into PEX from a 2000/2004 or NATO ATO file. PEX
-then creates missions and sorties which appear on PEX mission/sortie displays. After scheduling manipulation in PEX, the UC2 operator will poll PEX for available ATOs and select the ATO of interest. They import the ATO and then the systems subscribe to changes. Al missions and sorties associated with the ATO of interest will flow to UC2, but only a subset of the data associated with those missions and sorties is exchanged. After that, any “Change ATO” or manual change to an ATO mission/sortie will automatically flow to UC2. At a certain point, UC2 passes ATO mission data to TBMCS-FL. There is no indication in PEX as to whether UC2 has subscribed to any particular ATO. See the ATO help topic for how to import an ATO.
+* ATO mission information will be imported into PEX from a 2000/2004 or NATO ATO file. PEX then creates missions and sorties which appear on PEX mission/sortie displays. After scheduling manipulation in PEX, the UC2 operator will poll PEX for available ATOs and select the ATO of interest. They import the ATO and then the systems subscribe to changes. Al missions and sorties associated with the ATO of interest will flow to UC2, but only a subset of the data associated with those missions and sorties is exchanged. After that, any “Change ATO” or manual change to an ATO mission/sortie will automatically flow to UC2. At a certain point, UC2 passes ATO mission data to TBMCS-FL. There is no indication in PEX as to whether UC2 has subscribed to any particular ATO. See the ATO help topic for how to import an ATO.
+
 ## Labels
-Many of the tab names and column headers in PEX can be re-named. This re-labeling is useful for re-purposing otherwise unused columns, for example. Re-labeling is accomplished differently depending on whether you are working on an older PEX module or a newer one. The newer ones have a Page Settings button near the top-right of the screen.Re-label in newer modules. Click the Page Settings button and select Edit Labels. 
-Re-label in older modules. Go to Setup > Labels \(WinPEX only\). The Labels tab lists the older screens within PEX that contain modifiable labels. Selecting a PEX screen will display the labels within that screen. 
-The displayed Default Label Text can be changed to user-defined labels by entering Override Label Text. Once the override text is entered it wil replace the default text in the applicable screen.
-Changes made here are applied throughout the database by squadron. If the affected module is open, the change will not take effect until it is re-opened.
+
+Many of the tab names and column headers in PEX can be re-named. This re-labeling is useful for re-purposing otherwise unused columns, for example. Re-labeling is accomplished differently depending on whether you are working on an older PEX module or a newer one. The newer ones have a Page Settings button near the top-right of the screen.
+
+Re-label in newer modules. Click the Page Settings button and select Edit Labels.
+
+Re-label in older modules. Go to Setup > Labels \(WinPEX only\). The Labels tab lists the older screens within PEX that contain modifiable labels. Selecting a PEX screen will display the labels within that screen.
+
+The displayed Default Label Text can be changed to user-defined labels by entering Override Label Text. Once the override text is entered it wil replace the default text in the applicable screen. Changes made here are applied throughout the database by squadron. If the affected module is open, the change will not take effect until it is re-opened.
+
 ## Locations
+
 Concept
+
 The Locations module allows you to enter locations for scheduling purposes and provides a quick reference for location information. Locations can be entered from any of four sources: manually-input PEX locations \(the most common\), PFPS, ATO, and ACO locations. PFPS, ATO, and ACO locations are added automatically during interfaces with those respective programs.
+
 Existing Locations
-The Locations tab lists all the locations contained in your database. The locations grid allows filtering, adding, deleting, and editing of each location. Using the Selection Criteria area, you can filter locations by Source, Type, Location name, or Description. Enter your selections and click Display Data. The Locations tab shows you all the locations in a spreadsheet view. If you pick a location and go to the Details tab, you’ll see all the particulars about that location in a form view \(easier for editing\). before I use the module
-Go to the Setup tab to manage the lists of Countries, Country Codes, and Location Types used throughout the Locations module. \(Radio Frequency Types and Theaters are not used anywhere in PEX.\) Right-click and Add to add an entry. To delete an entry, right-click and Delete. To edit an entry, click on the field and enter the data. Click off the row to save.
+
+The Locations tab lists all the locations contained in your database. The locations grid allows filtering, adding, deleting, and editing of each location. Using the Selection Criteria area, you can filter locations by Source, Type, Location name, or Description. Enter your selections and click Display Data. The Locations tab shows you all the locations in a spreadsheet view. If you pick a location and go to the Details tab, you’ll see all the particulars about that location in a form view \(easier for editing\). before I use the module Go to the Setup tab to manage the lists of Countries, Country Codes, and Location Types used throughout the Locations module. \(Radio Frequency Types and Theaters are not used anywhere in PEX.\) Right-click and Add to add an entry. To delete an entry, right-click and Delete. To edit an entry, click on the field and enter the data. Click off the row to save.
+
 Add a location
-First, ensure that the location does not already exist in the database. Sometimes, a location is mistakenly entered twice, with a slight variation in the name or description, which causes problems when using two PEX locations that are essential y the same place. Place the cursor in the Locations grid, right-click and select Add. Enter the supporting data and save the location. Latitude and Longitude are not required fields; however, they are necessary if you plan to use the Distance-Time-Fuel feature of the Mission Board. Most entries are self-explanatory. Not self-explanatory are: Latitude and Longitude
-Longitude allows N or S, with any format with at least XX degrees. You can enter any degree, minute, or second combination out to the 6th decimal place. For example, you can enter: XX.XXXXXX degreesXX degrees, and XX.XXXXXX minutes
+
+First, ensure that the location does not already exist in the database. Sometimes, a location is mistakenly entered twice, with a slight variation in the name or description, which causes problems when using two PEX locations that are essential y the same place. Place the cursor in the Locations grid, right-click and select Add. Enter the supporting data and save the location. Latitude and Longitude are not required fields; however, they are necessary if you plan to use the Distance-Time-Fuel feature of the Mission Board. Most entries are self-explanatory. Not self-explanatory are: Latitude and Longitude Longitude allows N or S, with any format with at least XX degrees. You can enter any degree, minute, or second combination out to the 6th decimal place. For example, you can enter:
+
+XX.XXXXXX degreesXX degrees, and XX.XXXXXX minutes
+
 XX degrees, XX minutes, and XX.XXXXXX seconds
+
 XX degrees, XX minutes, and XX seconds
+
 Latitude allows E or W, with any format with at least XXX degrees in the same formats as listed for longitudes.
+
 Set Zulu Offset
+
 In the Zulu Offset drop-down, select how many hours the location is normally offset from Greenwich Mean Time \(GMT\). Then, select a Daylight Saving Time \(DST\) rule from the DST Rule Dropdown.
+
 Show in Dropdowns
+
 Check this box to display the location throughout the rest of PEX. When the location is no longer used, un-check the box.
+
 Frequencies
-This is not used for anything in PEX. We recommend not entering data here. It al ows you to enter several radio frequencies associated with the location. To add a new frequency, place the cursor in the Frequency grid, right-click and select Add. A new frequency line will be generated. Enter the control ing agency and the frequency. To delete a frequency, highlight it, right-click and select Delete.
-A warning will appear, click Yes, and the frequency wil be deleted. Frequencies entered here do not show up anywhere else in PEX.
-Delete a location
-Many times, you cannot. Once a location has been used \(scheduled\), it cannot be deleted. To delete an unused location, highlight the location, right-click and select Delete. A warning appears. Click the Yes button and the location is deleted.
+
+This is not used for anything in PEX. We recommend not entering data here. It allows you to enter several radio frequencies associated with the location. To add a new frequency, place the cursor in the Frequency grid, right-click and select Add. A new frequency line will be generated. Enter the control ing agency and the frequency. To delete a frequency, highlight it, right-click and select Delete. A warning will appear, click Yes, and the frequency wil be deleted. Frequencies entered here do not show up anywhere else in PEX.
+Delete a location Many times, you cannot. Once a location has been used \(scheduled\), it cannot be deleted. To delete an unused location, highlight the location, right-click and select Delete. A warning appears. Click the Yes button and the location is deleted.
+
 ## Personnel
+
 Personnel Basics
+
 Introduction
+
 The Personnel module is where you enter and manage the personnel data of individuals in the PEX
-database. Personnel must be entered here before they can be used in the Scheduling, Training, or Stan/Eval modules. People, and their data, may be added manually, via an ARMS import, or by importing their personnel file from another PEX database. Existing data may be updated manual y or via the ARMS import.
+database. Personnel must be entered here before they can be used in the Scheduling, Training, or Stan/Eval modules. People, and their data, may be added manually, via an ARMS import, or by importing their personnel file from another PEX database. Existing data may be updated manually or via the ARMS import.
+
 Permissions
+
 * PEXAdmin user has full permission to all squadrons in a database.
-* Users with Administrator or Training Auditor/ARMS permission can Add, Edit or Delete items in this module.!(images/000000.jpg)
+* Users with Administrator or Training Auditor/ARMS permission can Add, Edit or Delete items in this module.
+* A Basic User can view their personal information without having access to others' information. They can add, edit and delete their contact information.
 
-* A Basic User can view their personal information without having access to others' information.
-They can add, edit and delete their contact information.
 Rules
-Personnel are identified by their ID\#, normally the social security number. The ID\# is unique to the database, meaning two personnel records cannot have the same ID\#.
-Caution: Each person should have a single personnel record in the database. If a person has duties in multiple squadrons, they can be assigned permissions in those squadrons. If a person does have two personnel records, one record would require a "dummy" ID\#. These records cannot be merged.
-An exception to this might be a person having two jobs in the same unit. For example, a person may be a contractor, while also holding a traditional ANG position.
-Module Notes
-Information contained in the Personnel module is referred to as a *personnel record*. A *user account* establishes a person's PEX login and permission roles. Most people have both a personnel record and a user account. Some people only have a personnel record, allowing them to be tracked and scheduled for events, e.g., guest help. Others only have a user account, al owing them to log in and view information, e.g., base operations. For more on user accounts see Setup > Users & Permissions.
-The dropdown menus in Personnel are editable in the Personnel > Setup tab. Navigate to the Setup tab and look for the desired field, or, in the dropdown, simply click on Edit Values. For more see - Configure Personnel for your unit. 
-Controls
-Access these procedures by navigating to Setup > Personnel.
-Workspace
 
+Personnel are identified by their ID\#, normally the social security number. The ID\# is unique to the database, meaning two personnel records cannot have the same ID\#.
+
+!!! Caution
+    Each person should have a single personnel record in the database. If a person has duties in multiple squadrons, they can be assigned permissions in those squadrons. If a person does have two personnel records, one record would require a "dummy" ID\#. These records cannot be merged. An exception to this might be a person having two jobs in the same unit. For example, a person may be a contractor, while also holding a traditional ANG position.
+
+Module Notes
+
+Information contained in the Personnel module is referred to as a *personnel record*. A *user account* establishes a person's PEX login and permission roles. Most people have both a personnel record and a user account. Some people only have a personnel record, allowing them to be tracked and scheduled for events, e.g., guest help. Others only have a user account, allowing them to log in and view information, e.g., base operations. For more on user accounts see Setup > Users & Permissions.
+
+The dropdown menus in Personnel are editable in the Personnel > Setup tab. Navigate to the Setup tab and look for the desired field, or, in the dropdown, simply click on Edit Values. For more see - Configure Personnel for your unit.
+
+Controls
+
+Access these procedures by navigating to Setup > Personnel.
+
+Workspace
+![binders](PEX/img/../../img/Setup/Personnel Workspace.jpg){: style="height:100%;width:100%"}
 
 1. Personnel tab. Contains information on all people in the selected Fly Squadron. This information is broken down in specialized tabs 2 through 6. information in blue-shaded fields cannot be edited ion this tab.
 2. Details tab. Contains general information on a selected individual person, including Special Experience Identifier \(SEI\) and Supervisor information.
-3. Duties tab. Contains information on a selected individual's primary and additional duties, including DNIF status.4. Contact tab. Contains information on a selected individual's street addresses, phone numbers and email address.
+3. Duties tab. Contains information on a selected individual's primary and additional duties, including DNIF status.
+4. Contact tab. Contains information on a selected individual's street addresses, phone numbers and email address.
 5. Quals tab. Contains information on a selected individual's primary and additional MDS/Crew Position qualifications.
 6. Status tab. Contains information on a selected individual's status, such as DNIF, Title 10 or Title 32 status.
 7. Supervision tab. Designates those people supervised by the selected individual.
 8. Roster tab. Design and create a customized unit personnel roster.
 9. Setup tab. Select and customize which information populate dropdowns for your unit.
 10. Page Settings. Contains Label Manager and Legend. The former allows overwriting existing column header \(label\) names.
-11. Filter wizard. Opens the standard PEX filter wizard. 
+11. Filter wizard. Opens the standard PEX filter wizard.
 12. Page refresh.
 
-
 Personnel Details by tab
+
 This topic describes in detail functionality in individual Personnel module tabs. If a specific function is "greyed-out" or un-editable on a particular page, go to the source page to make edits.
+
 Personnel
+
 This tab consolidates all personnel data for all persons in the database. In the Fly Sq dropdown, you can access any single squadron, or all squadrons, to which you have permission. Most columns are self-explanatory, some warrant further explanation. The process for importing, exporting and manually creating personnel records is described in Add, Move, Import and Export Personnel.
-* The Φ symbol indicates fields that are overwritten with each ARMS import. Meaning, if you change the data in a field, importing an ARMS csv will set that field to whatever is in ARMS.
-This feature can be overridden in Continuation Training.
+
+* The Φ symbol indicates fields that are overwritten with each ARMS import. Meaning, if you change the data in a field, importing an ARMS csv will set that field to whatever is in ARMS. This feature can be overridden in Continuation Training.
 * ID\# is normal y a person's social security number but can be any nine-digit number. Each person's ID\# is unique to the database, meaning no two personnel records can have the same ID\#.
 * Fly Sq is the squadron to which the person is assigned. If in ARMS, a person's Fly Sq should match that in ARMS. These squadrons come from the Setup > Squadrons module.
 * Non-Fly Sq is for squadrons to which a person is attached for other duties. This dropdown list is populated from the Personnel > Setup page.
 * Eval Form Org overwrites signature blocks on evaluation forms. See Stan Eval for more.
 * DNIF sets a person as DNIF on the Go/NoGo board. Changing DNIF status here functions the same as that in Go/NoGo.
 * Service Status sets a person to follow rules for people who are A-Active Duty, R-Air Force Reserve, or G-Air National Guard.
-* Call Sign is a free text entry to associate a call sign to an individual. It cannot be assigned to a sortie.* UD 1, 2, 3, 4, 5, 6, 7, 8 and 9 are User Defined. These columns can be used for any data with no existing field. UD 1, 2, 6 and 7 are dropdowns, configurable in the Setup tab. UD 3, 4, and 6 are free-text.
+* Call Sign is a free text entry to associate a call sign to an individual. It cannot be assigned to a sortie.
+* UD 1, 2, 3, 4, 5, 6, 7, 8 and 9 are User Defined. These columns can be used for any data with no existing field. UD 1, 2, 6 and 7 are dropdowns, configurable in the Setup tab. UD 3, 4, and 6 are free-text.
 * Pri Exp Risk feeds the ORM module.
 * Avail Enabled enables/disables availability for a specific person, for units with both active duty and reserve personnel.
 * Teams enable individuals to be assigned to unit-defined teams. Unlike squadron, flight or office symbol, an individual an be assigned to multiple teams.
 * Export AFTO 781 Data. Checking No blocks the export of 781 data for guest flyers, or people who fly with your unit but are not assigned to your unit.
 * Exporting personnel data to the Defense Readiness Reporting System \(DRRS\) is accomplished by right-clicking on a row, selecting Export to DRRS, and saving the file to your local computer.
+
 Details
+
 This tab incorporates some of the functionality described in the Personnel module, plus is the primary tab for adding SEI and supervisor data.
+
 * To add SEI identifiers, right-click in the SEI grid and select the appropriate identifier from the dropdown list.
 * To select supervisors, right-click in the Supervisor grid, select the Fly Sq and Supervisor. This can also be accomplished in the Supervision tab.
+
 Duties
+
 This tab incorporates some of the functionality described in the Personnel module, plus adds Additional Duties. Right-click in the Additional Duties grid and select the desired duty.
+
 Contact
+
 This tab allows you to add multiple street addresses, phone numbers and email addresses. For each, right-click in the Addresses, Phone Numbers or Email Addresses grid. First select a Type, then fill in the appropriate information.
+
 !!! note
     Within each grid, each entry must have a unique type, such as Home or Work. I.e., a person cannot have more than one "Home" phone number. You can however, create additional types of, e.g., Home 1, Home 2, etc. in Setup.
+
 Quals
+
 This tab is were you can add and delete MDS/Crew Positions and related data. To be able to effective utilize personnel data in the various PEX modules, it is essential for all personnel records to have at least one MDS and Crew Position selected. One MDS/CP must be selected as Primary. Others can be added as required.
+
 * If in ARMS, a person's qualification code and crew position is included in the ARMS import.
 MDS must be selected manually.
-* If not in ARMS, or if the person holds multiple MDSs or crew positions, add an MDS/CP be selecting right-click, select Add, and fill in the required data.Status
+* If not in ARMS, or if the person holds multiple MDSs or crew positions, add an MDS/CP be selecting right-click, select Add, and fill in the required data.
+
+Status
+
 The Status tab is intended to identify people on Title 10 or Title 32 status, with inclusive dates, but can be used to identify people on any unit-status such as DNIF or Deployed. Right-click and select Add. When the dialog opens select the Status type, Effective Date and Expiration Date, and add any remarks.
+
 Supervision
+
 The Supervision tab allows you to designate supervisors. This is similar to the function in the Details tab. Here however, first select the Supervisor's Short Name in the dropdown. In the filterable Available Personnel grid, check the names of all people the person supervises, then click Assign.
 Those names will move to the Assigned Personnel grid. As a supervisor, you can view information on your supervisee's in My Page > Folders > My Supervisee's.
 This can also designate in-turn supervision. For example, Capt Martìnez supervises MSgt Smith, who in turn supervises SrA Goldstein. First set Martìnez as Smith's supervisor, then set Smith as Goldstein's supervisor.
+
 Roster
+
 The Roster tab is used to create, print and export-to-Excel rosters.
+
 1. In the columns grid, select the fields desired.
 2. Drag-and-drop the selected fields to the order desired.
 3. In the Sections grid, select Sections and Types. This can be used to select specific types, e.g., work and cel phone numbers while ignoring home and fax numbers.
-This topic describes functionality in the Personnel > Setup tab. For more on how to setup the overal personnel module see the topic \_\_\_\_\_ .
+
+Setup
+
+This topic describes functionality in the Personnel > Setup tab. For more on how to setup the overall personnel module see the topic \_\_\_\_\_ .
+
 The Setup tab contains those data which populate the Personnel dropdowns. The Tables list equates to labels, or column headers. Selecting a table name displays the selections available for that label.
-!!! note
-    The selections are stored in the database Master List, so there is a single instance of each.
+
+NOTE: The selections are stored in the database Master List, so there is a single instance of each.
 When adding a selection to your squadron, you wil select it from the Master List. If it does not exist in your database, you will first create it in the Master List, then assign it to your squadron. To add a selection of, for example, 1A150 to DAFSC:
+
 1. Select DAFSC in the Tables grid.
 2. In the Listings grid, view a list of DAFSCs already assigned to your squadron.
 3. Right-click and select Add.
 4. The Master List opens, showing all DAFSCs in the database.
 5. If the desired DAFSC appears, check it and click OK \(or Apply\).
 6. If the desired DAFSC does not appear,
-1\. Right-click in the Master List dialog and select Add.B. In the open Duty AF Specialty Code field, type in the required DAFSC, \(in this case 1A150\), check it and click OK.
+
+    1. Right-click in the Master List dialog and select Add.
+    2. In the open Duty AF Specialty Code field, type in the required DAFSC, \(in this case 1A150\), check it and click OK.
+
 7. 1A150 appears in the DAFSC Table list, and will now appear in the DAFSC dropdowns.
 
- - Configure Personnel for your unit
+Setup - Configure Personnel for your unit
+
 Configure the display
-In the Personnel tab, right-click anywhere in the display area and select Grid Settings. Set number of people to display on a one-page view in Records per page field \(set 999 to see all\), then select Font size. Check the columns to display, then Save. The columns may be moved by left-mouse click/hold and drag on the column header. When the display is set, right-click and click Save Layout.
-The other tabs work the same way.
+
+In the Personnel tab, right-click anywhere in the display area and select Grid Settings. Set number of people to display on a one-page view in Records per page field \(set 999 to see all\), then select Font size. Check the columns to display, then Save. The columns may be moved by left-mouse click/hold and drag on the column header. When the display is set, right-click and click Save Layout. The other tabs work the same way.
+
 Page Settings
-Click the Page Settings icon at upper-right and select Labels. Label Manager allows Grid Column Default Labels to be overridden with a custom label. For example, if there is a column you do not use, you could re-label it and use it to track something else. Close the module to save changes. Click
-“Legend”; the Φ symbol indicates fields that are overwritten with each ARMS import. This is important to consider for data entry; a manual entry in an ARMS field will be retained until the next ARMS import \(usually daily\) overwrites it.
+
+Click the Page Settings icon at upper-right and select Labels. Label Manager allows Grid Column Default Labels to be overridden with a custom label. For example, if there is a column you do not use, you could re-label it and use it to track something else. Close the module to save changes. Click “Legend”; the Φ symbol indicates fields that are overwritten with each ARMS import. This is important to consider for data entry; a manual entry in an ARMS field will be retained until the next ARMS import \(usually daily\) overwrites it.
+
 Manage the Personnel list
 Click the funnel icon next to Page Settings to open the filter tool. The list can be narrowed-down by Crew Position, Flight, etc. An applied filter must be de-selected \(click Clear Filter\) to restore the full squadron list.
+
 Customize Dropdown Lists
+
 In the Personnel > Setup tab, select the selections you need in your squadron's dropdown lists. This is described in Personnel > Personnel Details by tab > Setup. If you are setting up more than one squadron, you can create the list in one squadron, then send to others.
+
 1. For each Table, right-click in the Listings grid and select View/Edit Master List. When it opens you can see which entries already exist in your database and which need to be added.
 2. Edit lists as desired.
 3. For each list, right-click in the Listings grid and select Send To.
 4. When the dialog opens, select the squadrons to receive your list.
 5. Click Send To.
 6. Go to those squadrons and confirm your lists transferred correctly.
+
 Populate with your squadron's personnel
-1. See Add, Move, Import and Export Personnel for options.2. Assign an MDS to each person.
-!!! note
-    If this is a new squadron and your are adding an MDS for the first time, when you click off the row to save the first-added MDS, PEX will ask if you to assign that MDS to the remaining people in the squadron. This is the only point at which you have the option to mass-assign the MDS in that squadron.
+
+1. See Add, Move, Import and Export Personnel for options.
+2. Assign an MDS to each person.
+    !!! note
+        If this is a new squadron and your are adding an MDS for the first time, when you click off the row to save the first-added MDS, PEX will ask if you to assign that MDS to the remaining people in the squadron. This is the only point at which you have the option to mass-assign the MDS in that squadron.
 3. Assign crew position\(s\) as required.
+
 Add, Move, Import and Export Personnel
+
 Transfer Personnel data
+
 * Personnel data can be added to PEX by:
-* \(I\) Adding a person manual y.
-* \(II\) Importing people or a person with an ARMS file.
-* \(III\) Importing individual personnel files from another PEX database.
+    * \(I\) Adding a person manually.
+    * \(II\) Importing people or a person with an ARMS file.
+    * \(III\) Importing individual personnel files from another PEX database.
 * \(IV\) Exporting personnel information as a personnel file, and the file sent to another unit for import into their PEX database.
 * \(V\) Moving personnel information from one squadron to another squadron within the same PEX database.
+
 Personnel information import, export and move general information
+
 The following rules govern personnel exports, imports and moves.
 * Personnel data. Most personnel data moves: Names, Date of Birth,Gender, Rank, Civilian Grade, AFSC, Duty AFSC, Passport Number, Separation Date and Special Experience Identifiers.
 * MDS/CP Qualifications. All Quals in Personnel are exported. If the gaining squadron has matching MDS and CP, Quals are imported.
 * Certifications \(Letter of X.\) All certifications are exported as they are setup in the losing squadron’s LoX. If the gaining squadron has matching Cert Name, MDS, CrewPosition and Status, then the certs import and are applied to the person. Non-matching LoXs are stored in database and are included in any future exports.
 * Continuation Training Events. Al Unit Level tasks are exported, but they must be approved and audited \(if auditing required\). If the gaining squadron has matching Training Events \(Task Code, Task Name, Program Codes\) person is assigned the event. Non-matching events are stored in the database and are included in any future exports. These non-matching tasks can be viewed in the CT module. ARMS tasks are not exported as they can be imported into the gaining database through the normal ARMS import process.
 * Qualification Training Courses. All data is exported \(Historic Courses and Training Programs, Memos For Record, Person Training Documents, Scanned MFRs\) but Courses must first be marked complete. Courses that are marked complete and their associated MFRs become historic after import.* Qualification Training Task Lists. Open Task Lists move with all signatures and dates from the previous database. Form 623a Entries, CFETP Task Lists, Historic Training Programs, Memos For Record, Person Training Documents, Scanned MFRs move.
-* Stan Eval. All data is exported \(Certification Scans, Qualification Certificate Scans, Qualification Certificate Images, Record of Evaluation Scans, Memo for Record Images, Memo For Record Scans, Certifications, Person Crew Quals, Major Discrepancy Scans, Major Discrepancy Images, Minor Discrepancy Scans, Minor Discrepancies\), but all MFRs and Major Discrepancies must be signed. Export is al owed with an open evaluation but the open evaluation itself is not exported.
+* Stan Eval. All data is exported \(Certification Scans, Qualification Certificate Scans, Qualification Certificate Images, Record of Evaluation Scans, Memo for Record Images, Memo For Record Scans, Certifications, Person Crew Quals, Major Discrepancy Scans, Major Discrepancy Images, Minor Discrepancy Scans, Minor Discrepancies\), but all MFRs and Major Discrepancies must be signed. Export is allowed with an open evaluation but the open evaluation itself is not exported.
 * FCIF. Al FCIFs/IRFs are exported, but are subject to “exact match” rules upon import. Type, Number, and Subject must match exactly. Non-matching FCIFs are stored in the database and are included in any future exports.
 * SEI. Al SEIs are exported, but are subject to “exact match” rules upon import. Non-matching SEIs are stored in the database and are included in any future exports.
 * Exams. Exam data does not move and PEX does not prevent an export if the person has open exams. Completed evaluation requisite exam data moves, as part of the evaluation.
@@ -581,7 +665,7 @@ certifications that are applicable to your mission and organization.\(Assigning 
 PEX User Login. If you want the person to be able to login to PEX for viewing the schedule, entering and acknowledging commitments, taking exams, etc.:
 1. Ensure the person has a Windows account to log on to the computers.
 2. Add a PEX User Account. Go to Setup > Users & Permissions > Users and add the person as a PEX User.
-3. Associate the PEX Users Account to the Windows Account. Go to Setup > Users & Permissions > Windows Accounts and associate the PEX User you just added to the person’s Windows account. \(Assigning the person a PEX user account wil al ow them to sign off PEX
+3. Associate the PEX Users Account to the Windows Account. Go to Setup > Users & Permissions > Windows Accounts and associate the PEX User you just added to the person’s Windows account. \(Assigning the person a PEX user account wil allow them to sign off PEX
 FCIFs.\)
 4. Associate Permissions to the PEX User Account. Go to Setup > Users & Permissions > Permissions and make sure the person has the permissions required for duty \(at least Basic User to the squadron\).
 5. Assign Exams. Go to Stan Eval > Testing Admin > Exam > Assigned Exams and assign the person all the appropriate tests.
@@ -3704,9 +3788,9 @@ Service Host, see the PEX Instal ation Guide.
 5. Launch the Users and Permissions module. NOTE that an initial User “PexAdmin” has been added. Highlight the PexAdmin line and select a Default Location Source of “PEX.” Then select the location entered in step 4 above as the Default Location.
 6. Launch the Squadrons module and add the units/squadrons that wil be using PEX plus a
 "PCS" squadron to which you wil eventual y move people that have left your unit.
-7. Once the squadrons are entered, personnel data can be added through the ARMS Interface or manual y through the Personnel module.
+7. Once the squadrons are entered, personnel data can be added through the ARMS Interface or manually through the Personnel module.
 8. If your unit does not use ARMS, in the Personnel module, Setup tab, pick a unit and customize your lists. Once you are done with one squadron, you can use the right-click "Send To" command to copy the lists over to other units.
-9. In the Personnel module, add your personnel manual y.
+9. In the Personnel module, add your personnel manually.
 10. Launch the Aircraft module and enter your aircraft MDSs and tail numbers.
 11. In the Users & Permissions module, assign other PEX users and grant them levels of access to the various PEX applications.
 12. Your unit is now ready to begin using PEX.
