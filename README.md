@@ -27,3 +27,8 @@
     7. When changes are complete:
         a. Github Client: Commit (Please Comment for Clarity/Explanation)
         b. Github Client: Push to Origin (this merges your changes to the master)
+
+Tools for VSCode working enviroment
+
+* <https://marketplace.visualstudio.com/items?itemName=DavidAnson.vscode-markdownlint>
+* <https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker>
