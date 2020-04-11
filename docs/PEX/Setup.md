@@ -45,7 +45,7 @@ Status
 
 Overview
 
-The Status tab shows connection status for al External Interface functions, after they have been configured in their respective tabs.
+The Status tab shows connection status for all External Interface functions, after they have been configured in their respective tabs.
 
 Verify and monitor connections
 ![binders](PEX/img/../../img/Setup/Connections.jpg){: style="height:100%;width:100%"}
@@ -127,7 +127,7 @@ PEX data passed to TBMCS-FL
 
 |TBMCS Field|PEX Field|
 |-|-|
-|Mission Status|TSK - Initial, SCH - Committed, CHG - Change ATO, TO - One Mission Sortie has Actual Takeoff Time, LDG - All Mission Sorties have Actaul Land Times\), CNX - Msn CNX|
+|Mission Status|TSK - Initial, SCH - Committed, CHG - Change ATO, TO - One Mission Sortie has Actual Takeoff Time, LDG - All Mission Sorties have Actual Land Times\), CNX - Msn CNX|
 |Mission Result Code|I - Initial, A – Airborne \(One Mission Sortie has Actual Takeoff Time\), P – Landed \(All Mission Sorties have Actual Land Times\)|
 |Mission Start|Mission Start Date/Time \(Z\)|
 |Mission Stop|Mission End Date/Time \(Z\)|
@@ -236,7 +236,7 @@ Corresponding airspaces must be added in Setup >  Locations before PEX and CSE l
         1. In the Resource Groups section, select Add to add ranges to the airspace.
         2. In the Add Resource Groups flyout, the ranges not yet mapped to the airspace wil be listed.
         3. Select the checkboxes for those ranges to be mapped to the airspace.
-        4. Select Done when al ranges have been selected. This wil return you to the Edit Airspace flyout.
+        4. Select Done when all ranges have been selected. This wil return you to the Edit Airspace flyout.
         5. Select Save.
 
         !!! note
@@ -246,7 +246,7 @@ Corresponding airspaces must be added in Setup >  Locations before PEX and CSE l
 
         1. In the Resource Groups section, click on the red box with an X for the airspace to be unmapped.
         2. In the Confirmation dialog, select Yes or No as appropriate.
-        3. Continue clicking on the red boxes until al airspaces to be unmapped have been removed.
+        3. Continue clicking on the red boxes until all airspaces to be unmapped have been removed.
         4. In the Edit Airspace flyout, select Save.
 
 4. To view all of the ranges mapped to each airspace at one time, in upper right corner of Resources page, select More Options \(...\). Select Show Groups. To hide the ranges, select More Options \(...\), then Hide Groups.
@@ -542,8 +542,10 @@ Populate with your squadron's personnel
 
 1. See Add, Move, Import and Export Personnel for options.
 2. Assign an MDS to each person.
+
     !!! note
         If this is a new squadron and your are adding an MDS for the first time, when you click off the row to save the first-added MDS, PEX will ask if you to assign that MDS to the remaining people in the squadron. This is the only point at which you have the option to mass-assign the MDS in that squadron.
+
 3. Assign crew position\(s\) as required.
 
 Add, Move, Import and Export Personnel
@@ -560,129 +562,184 @@ Transfer Personnel data
 Personnel information import, export and move general information
 
 The following rules govern personnel exports, imports and moves.
+
 * Personnel data. Most personnel data moves: Names, Date of Birth,Gender, Rank, Civilian Grade, AFSC, Duty AFSC, Passport Number, Separation Date and Special Experience Identifiers.
 * MDS/CP Qualifications. All Quals in Personnel are exported. If the gaining squadron has matching MDS and CP, Quals are imported.
 * Certifications \(Letter of X.\) All certifications are exported as they are setup in the losing squadron’s LoX. If the gaining squadron has matching Cert Name, MDS, CrewPosition and Status, then the certs import and are applied to the person. Non-matching LoXs are stored in database and are included in any future exports.
 * Continuation Training Events. Al Unit Level tasks are exported, but they must be approved and audited \(if auditing required\). If the gaining squadron has matching Training Events \(Task Code, Task Name, Program Codes\) person is assigned the event. Non-matching events are stored in the database and are included in any future exports. These non-matching tasks can be viewed in the CT module. ARMS tasks are not exported as they can be imported into the gaining database through the normal ARMS import process.
-* Qualification Training Courses. All data is exported \(Historic Courses and Training Programs, Memos For Record, Person Training Documents, Scanned MFRs\) but Courses must first be marked complete. Courses that are marked complete and their associated MFRs become historic after import.* Qualification Training Task Lists. Open Task Lists move with all signatures and dates from the previous database. Form 623a Entries, CFETP Task Lists, Historic Training Programs, Memos For Record, Person Training Documents, Scanned MFRs move.
+* Qualification Training Courses. All data is exported \(Historic Courses and Training Programs, Memos For Record, Person Training Documents, Scanned MFRs\) but Courses must first be marked complete. Courses that are marked complete and their associated MFRs become historic after import.
+* Qualification Training Task Lists. Open Task Lists move with all signatures and dates from the previous database. Form 623a Entries, CFETP Task Lists, Historic Training Programs, Memos For Record, Person Training Documents, Scanned MFRs move.
 * Stan Eval. All data is exported \(Certification Scans, Qualification Certificate Scans, Qualification Certificate Images, Record of Evaluation Scans, Memo for Record Images, Memo For Record Scans, Certifications, Person Crew Quals, Major Discrepancy Scans, Major Discrepancy Images, Minor Discrepancy Scans, Minor Discrepancies\), but all MFRs and Major Discrepancies must be signed. Export is allowed with an open evaluation but the open evaluation itself is not exported.
 * FCIF. Al FCIFs/IRFs are exported, but are subject to “exact match” rules upon import. Type, Number, and Subject must match exactly. Non-matching FCIFs are stored in the database and are included in any future exports.
 * SEI. Al SEIs are exported, but are subject to “exact match” rules upon import. Non-matching SEIs are stored in the database and are included in any future exports.
 * Exams. Exam data does not move and PEX does not prevent an export if the person has open exams. Completed evaluation requisite exam data moves, as part of the evaluation.
 * Permission Roles. Roles do not move.
+
 \(I\) Add a person manually
+
 1. In the Personnel tab:
-1\. Right-click in the Personnel tab, select Add, and you are taken to the Details tab.
-2\. Click on the Details tab.
+
+    1. Right-click in the Personnel tab, select Add, and you are taken to the Details tab.
+    2. Click on the Details tab.
+
 2. Ensure you have the person's assigned squadron selected in the Fly Sq dropdown.
-3. Required: In the Details grid, enter a Short Name for the person. Typically, this is Firstname.Lastname \(Ellen.Ripley\) or LastnameFirstnameinitial \(RipleyE\). Although not required, this Short Name often matches the person's User Name in Users and Permissions. We recommend using the same naming convention for al personnel.
+3. Required: In the Details grid, enter a Short Name for the person. Typically, this is Firstname.Lastname \(Ellen.Ripley\) or LastnameFirstnameinitial \(RipleyE\). Although not required, this Short Name often matches the person's User Name in Users and Permissions. We recommend using the same naming convention for all personnel.
 4. Required: Enter the person's ID \#. Typically, this is the person's social security number but can be any nine-digit number. This number must be unique in the database. If the number is not unique PEX displays an alert informing you of which squadron contains a person with that ID number.
 5. Save.
-1\. Click Save & New to add another person.
-2\. Click Save to save the entered required information and continue adding to the person's information.
+
+    1. Click Save & New to add another person.
+    2. Click Save to save the entered required information and continue adding to the person's information.
+
 6. Not required but: Entering the following information is not required to save the record but is needed to effectively track and manage the person's information in PEX.
-1\. Enter the person's First, Middle and Last Names.
-2\. Click on the Quals tab and assign an MDS, Qualification Code, and Crew Position.
-3\. Click on the Contacts tab and add an email address Other information such as Rank, etc.
-can be added as required.7. If the person needs a User Account \(to enable login to PEX\), you can now go to Users and Permissions and create the account.
+
+    1. Enter the person's First, Middle and Last Names.
+    2. Click on the Quals tab and assign an MDS, Qualification Code, and Crew Position.
+    3. Click on the Contacts tab and add an email address Other information such as Rank, etc. can be added as required.
+
+7. If the person needs a User Account \(to enable login to PEX\), you can now go to Users and Permissions and create the account.
+
 \(I \) Import people or a person with an ARMS file
-This is covered in detail in ARMS- Configure your PEX-ARMS Interface. 
+
+This is covered in detail in ARMS- Configure your PEX-ARMS Interface.
+
 1. Configure the ARMS - PEX interface in Continuation Training > ARMS. This involves adding your unit's 17-character unit identifier so PEX can match that identifier to the PEX squadron.
 2. Extract your unit's personnel data from ARMS and save as a .csv file. Save the file to an accessible location on your computer or network.
 3. Import the file in Continuation Training > ARMS.
 4. Check the log file for any errors.
 5. Go to Setup > Personnel > Personnel tab and confirm any new people were successful y added.
 6. For the newly added personnel, go to Setup > Personnel > Quals tab and assign an MDS.
+
 \(I I\) Import individual personnel files from another PEX database
+
 This assumes you have received the person's data file from the losing unit and saved it to an accessible location on your computer or network. The naming convention is LastnameFirstinitial.pexdata.
+
 1. In the Personnel tab, right-click anywhere in the Personnel grid and select Import/Export > Import Personnel Data.
 2. When the Import Personnel Data dialog opens, browse to the .pexdata file.
 3. Click Begin Import.
-1\. If the personnel record does not already exist, it wil be created.
-2\. If the personnel record already exists, you will be given a warning that the all existing data will be overwritten and the opportunity to cancel the operation. The import brings in Unit Tasks, if there are matching Unit Tasks; FCIFs, if there are matching FCIFs; and SEIs, if there are matching SEIs.
+
+    1. If the personnel record does not already exist, it wil be created.
+    2. If the personnel record already exists, you will be given a warning that the all existing data will be overwritten and the opportunity to cancel the operation. The import brings in Unit Tasks, if there are matching Unit Tasks; FCIFs, if there are matching FCIFs; and SEIs, if there are matching SEIs.
+
 4. View the import log file as desired; right-click anywhere in the Personnel grid and select View Logs > View Import Person Logs. Successful imports have a green check, unsuccessful imports have a red exclamation point. Click the person's name to open the actual log file for more information.
+
 \(IV\) Export personnel data as a personnel file
+
 1. In the Personnel tab, right-click on the person and select Import/Export > Export Personnel Data
 2. When the Export Personnel Data dialog opens, click Begin Export.
-1\. If there are any outstanding issues that need to be resolved, PEX will inform you \(open training, open evaluations, open PEX courses, or unsigned MFRs\).
-2\. View the export log file as desired; right-click anywhere in the Personnel grid and select View Logs > View Export Logs Personnel Data. Successful exports have a green check, 402
-unsuccessful exports have a red exclamation point. Click the person's name to open the actual log file for more information.
+    1. If there are any outstanding issues that need to be resolved, PEX will inform you \(open training, open evaluations, open PEX courses, or unsigned MFRs\).
+    2. View the export log file as desired; right-click anywhere in the Personnel grid and select View Logs > View Export Logs Personnel Data. Successful exports have a green check, unsuccessful exports have a red exclamation point. Click the person's name to open the actual log file for more information.
+
 3. Save the resulting file \(LastnameFirstinitial.pexdata\) and send it to the gaining unit.
 4. After exporting a person’s data you should move them to your inactive \(PCS\) squadron. See the Change Squadron topic below.
+
 We recommend you add a step in your out-processing checklists to accomplish this export.
+
 \(V\) Move personnel data from one squadron to another squadron \(Change Squadron\)
+
 People may be moved to another squadron in the same PEX database as long as they have no open training tasks \(approve/export them\), no open qualification courses \(close out or un-enroll\) or unsigned MFRs.
+
 1. In the Personnel tab, right-click on the person you want to move and select Change Squadron.
 2. In the dialog, note the correct person’s name is selected. You can check/add more people at this point.
 3. Select the destination squadron from the list
 4. Click Change Squadron for Personnel, and Yes at the confirmation dialog.
 5. A progress indicator will launch.
 6. View the change log file as desired; right-click anywhere in the Personnel grid and select View Logs > View Change Squadron Logs. Successful moves have a green check, unsuccessful moves have a red exclamation point. Click the person's name to open the actual log file for more information.
+
 Personnel TTPs
+
 MDS and Crew Position
+
 MDSs are setup in the Maintenance > Aircraft module. For your MDS to appear in the Personnel module, it must be identified in Setup > Squadrons > Display MDS in Dropdowns column.
+
 Crew Positions are setup in Setup > Personnel > Setup > Crew Position. The selected squadron’s list displays. Right-click to Add or Delete. Qual Codes are managed the same way through the Aircrew Qualification Code page.
+
 Assign a Crew Position to a person. For ARMS units, this is done through the ARMS import. Qual Codes are assigned the same way. For non-ARMS units, on the Quals tab, select from the dropdown list in Crew Pos and Qual Code fields, click off the line to Save.
+
 Assign an MDS by going to the Quals tab and selecting the person. Click in the MDS field and select the MDS. Click off the line to Save. People may be assigned multiple MDSs but only one can be marked as Primary.
+
 The bare minimum. Assign a single MDS/CP to a person.
+
 1. If the person accomplishes duties in other MDS/CP combinations, those should also be added. For example, the person may be qualified in different CPs in the same MDS. Each of 403
 those should get a separate line item. The person may be qualified in the same CP in multiple MDSs. Each of those should get a separate line item.
 2. For each MDS/CP line item, identify characteristics such as: Qual Code, Experience, Weather Category, etc. These characteristics go along with the person’s MDS/CP qualification, not just the person.
+
 How users can view and update their own information
+
 Anyone with a user account can view their personnel data and update their contact information. On My Page click the My Personal Data link. Users can view their data in the Details, Duties, Contact, Qual and Status tabs. They can add, edit and delete Addresses, Phone Numbers, and Email Addresses on the Contact tab. We suggest that personnel login to PEX at regular intervals and keep this information updated, especially the home email addresses, as this is where PEX sends notifications of scheduling changes, assigned exams, assigned evaluations, and late requisites.
+
 Remove a person leaving your unit
+
 When moving people to another database \(e.g., PCS\), as opposed to moving people from one squadron to another within the same database \(e.g., PCA\), that person's data file is exported and sent to the gaining unit. We recommend that the losing unit, instead of attempting to delete the person, move them to an inactive squadron in their unit's database. That squadron is created locally and is often called "PCS" or similar. This way their personnel record is still retrievable if necessary.
 Simply follow the instructions for Move a person from one squadron to another \(Change Squadron\), selecting the inactive squadron.
+
 Guest Flyers
+
 For “Guest Flyers”, add them as normal, then check the block for Do Not Export 781 Data and enter their home base HARM 781 Flying Orgn. When exporting 781s, their data will not export, even though they are on the 781.
+
 Build Unit Task Codes \(UTC\) in PEX
+
 UTCs may be built in PEX and exported to Excel for further manipulation and data entry.
-3. Go to Setup > Personnel > Setup, click Unit Task Code from the list 4. First, configure the grid: right-click, select Grid Settings, de-select all un-needed columns.
+
+1. Go to Setup > Personnel > Setup, click Unit Task Code from the list 4. First, configure the grid: right-click, select Grid Settings, de-select all un-needed columns.
 Then, left-click, hold/drag columns to desired placement. Right-click, Save Layout.
-5. Right-click Add the UTC and ULNs
-6. The ULN, if single-digit, must be preceded by “0”
-7. Title \(or Role\) is free-text entry
-8. Squadron auto-fills with Unassigned
-9. Select Rank and PAFSC\(s\)
-Create in Excel. Right-click, select Export to Excel. Delete the Unassigned values in the Squadron column. This Excel sheet can now be fil ed with the names and squadrons of the actual people assigned to the deployment.More than one UTC. Add them al to PEX. Export the entire list to Excel and delete \(in Excel\) the undesired UTC records.
+2. Right-click Add the UTC and ULNs
+3. The ULN, if single-digit, must be preceded by “0”
+4. Title \(or Role\) is free-text entry
+5. Squadron auto-fills with Unassigned
+6. Select Rank and PAFSC\(s\)
+
+Create in Excel. Right-click, select Export to Excel. Delete the Unassigned values in the Squadron column. This Excel sheet can now be filled with the names and squadrons of the actual people assigned to the deployment.
+
+More than one UTC. Add them all to PEX. Export the entire list to Excel and delete \(in Excel\) the undesired UTC records.
+
 Handle Inbound Deployed Personnel in your PEX Database
+
 Let’s say you have a PEX database already in use at your base. Now some deployed personnel join your unit temporarily, such as an exercise or to sit alert. You can add them to PEX so that they can be scheduled and tracked for No-Go.
+
 1. Contact the person’s home unit and obtain:
-1\. A list of the person’s Letter of X certifications.
-2\. An extract, for just that person, of the unit’s Personnel, Training and Personnel Flying Hours .CSV files from the PEX browsers .
+
+    1. A list of the person’s Letter of X certifications.
+    2. An extract, for just that person, of the unit’s Personnel, Training and Personnel Flying Hours .CSV files from the PEX browsers.
+
 2. Append .CSV files. Open the Personnel .CSV extract file for the deployed person. Copy the data line\(s\) from the extract \(not the header line\). Open your unit's Personnel .CSV file and scroll to the bottom of the file. Paste the extract data beneath the last data line of the .CSV file and save. Repeat the steps for both the Training and Personnel Flying Hours .CSV files.
-3. Import the .CSV extracts. Go to training > Continuation > ARMS > Settings and ensure your squadron is selected. In the Squadrons & ARMS Unit Identifiers field set, in the “Add ARMS unit to import into selected PEX squadron:” text box, type in the 9-character ARMS unit code from the person’s Personnel Flying Hours .CSV file and click Add. Then type in the 17-character ARMS
-unit code from the person’s Training.CSV file and click Add. In the .CSV File field set, browse to your unit's appended Personnel, Training and Personnel Flying Hours .CSV files and click Save.
-Go to the Import view, and import Personnel, Training and Personnel Flying Hours into your squadron.
-Note: In order to export this person’s AFTO 781 flying hours and training tasks back into ARMS, you wil need permissions to the person’s home station ARMS database. Usually, you will not have these permissions.
+3. Import the .CSV extracts. Go to training > Continuation > ARMS > Settings and ensure your squadron is selected. In the Squadrons & ARMS Unit Identifiers field set, in the “Add ARMS unit to import into selected PEX squadron:” text box, type in the 9-character ARMS unit code from the person’s Personnel Flying Hours .CSV file and click Add. Then type in the 17-character ARMS unit code from the person’s Training.CSV file and click Add. In the .CSV File field set, browse to your unit's appended Personnel, Training and Personnel Flying Hours .CSV files and click Save. Go to the Import view, and import Personnel, Training and Personnel Flying Hours into your squadron.
+    !!! Note
+        In order to export this person’s AFTO 781 flying hours and training tasks back into ARMS, you wil need permissions to the person’s home station ARMS database. Usually, you will not have these permissions.
 4. Add Personnel Details. Go to Setup > Personnel > Details, select the new person, and add the following data: Arrival \(date\) and Departure \(date\). Assign the person a supervisor, if appropriate.
-5. Add Quals & Certs. Go to Setup > Personnel > Quals & Certs, and assign the person an MDS/Crew Position/WX Cat/Msn Ready Status \(5.7\+\)/Experience \(5.7\+\). Assign any Letter of X
-certifications that are applicable to your mission and organization.\(Assigning an MDS/Crew Position will automatically assign this person all the FCIFs for that MDS/Crew Position. It also makes them available for flight scheduling.\)
+5. Add Quals & Certs. Go to Setup > Personnel > Quals & Certs, and assign the person an MDS/Crew Position/WX Cat/Msn Ready Status \(5.7\+\)/Experience \(5.7\+\). Assign any Letter of X certifications that are applicable to your mission and organization.\(Assigning an MDS/Crew Position will automatically assign this person all the FCIFs for that MDS/Crew Position. It also makes them available for flight scheduling.\)
 6. Add Personnel Duties. Go to Setup > Personnel > Duties, and assign Pri Exp Ind \(5.6-\) and Msn Rdy Status \(5.6-\). Check the box “Do Not Export 781 Data”, enter the person’s 781 Flying ORGN \(can be bogus\), and Save.
 7. Verify Applicable FCIFs are assigned. Go to Ops > FCIF and filter for that person’s MDS/Crew Position to verify the person shows up in the list and is assigned all the appropriate FCIFs.
-8. Assign Required Unit Level Tasks. Go to Training > Continuation > Unit Task Assignment and assign the person any Unit Tasks required by your unit.9. Verify Personnel Flying Hours Status. Go to Scheduling > Reports > Personnel Flying Hours and run the report to make sure the new person shows up in the list. Note any potential problem with high flying time that might arise and develop a plan to manage it.
-10. Verify Training Tasks Status. Go to Training > Continuation > Training Tasks, ensure your squadron is selected, and click the “Clear Filter” button in the top right of the screen if it is in view. Verify the person you just imported is listed. At the top left of the screen, change the date to the person’s scheduled Departure Date from step 3 above. Note al the training events that will go overdue while the person is deployed to your location and develop a plan to keep the person current on the ones that matter to you.
+8. Assign Required Unit Level Tasks. Go to Training > Continuation > Unit Task Assignment and assign the person any Unit Tasks required by your unit.
+9. Verify Personnel Flying Hours Status. Go to Scheduling > Reports > Personnel Flying Hours and run the report to make sure the new person shows up in the list. Note any potential problem with high flying time that might arise and develop a plan to manage it.
+10. Verify Training Tasks Status. Go to Training > Continuation > Training Tasks, ensure your squadron is selected, and click the “Clear Filter” button in the top right of the screen if it is in view. Verify the person you just imported is listed. At the top left of the screen, change the date to the person’s scheduled Departure Date from step 3 above. Note all the training events that will go overdue while the person is deployed to your location and develop a plan to keep the person current on the ones that matter to you.
+
 PEX User Login. If you want the person to be able to login to PEX for viewing the schedule, entering and acknowledging commitments, taking exams, etc.:
+
 1. Ensure the person has a Windows account to log on to the computers.
 2. Add a PEX User Account. Go to Setup > Users & Permissions > Users and add the person as a PEX User.
 3. Associate the PEX Users Account to the Windows Account. Go to Setup > Users & Permissions > Windows Accounts and associate the PEX User you just added to the person’s Windows account. \(Assigning the person a PEX user account wil allow them to sign off PEX
 FCIFs.\)
 4. Associate Permissions to the PEX User Account. Go to Setup > Users & Permissions > Permissions and make sure the person has the permissions required for duty \(at least Basic User to the squadron\).
 5. Assign Exams. Go to Stan Eval > Testing Admin > Exam > Assigned Exams and assign the person all the appropriate tests.
-* This checklist is based on the assumption that no formal upgrades or evaluations are conducted on the inbound deployed person. If that is not the case, the person would need to be assigned to a PEX Qualification Training course and/or assigned a PEX Stan Eval evaluation.
-* Aircraft. If the personnel bring their own airplanes, go to Maintenance > Aircraft > Aircraft and add the MDS, if not already listed. Fill in the ARMS MDS field. Select the squadron the airplane belongs to, add the tail number\(s\) \(fil in the ARMS ID\) and select any squadrons that may share the tail number.
-* Redeployment. When the person leaves, go to Setup > Personnel and change the person’s Fly Sq to the “PCS” squadron or equivalent. If you don’t have a PCS squadron in PEX, go to Setup
-> Squadrons and add it. When the aircraft leaves, go to Maintenance > Aircraft > Aircraft > Tail Number, uncheck any Shared Squadrons, uncheck the box for “Show in Dropdown” and change the Squadron to PCS.
-## Reports
-Reports Overview
-Introduction
-Currently, most functional areas \(Scheduling, Training, etc.\) include a Reports module, containing all forms and reports for that function. Starting in 5.16, these will be progressively replaced by Rapid 406
-!(images/000092.jpg)
 
-Reports/Reporting functionality. The legacy Reports modules will remain in place until the transition is complete. Currently, these reports pull data only from legacy modules.
+    * This checklist is based on the assumption that no formal upgrades or evaluations are conducted on the inbound deployed person. If that is not the case, the person would need to be assigned to a PEX Qualification Training course and/or assigned a PEX Stan Eval evaluation.
+    * Aircraft. If the personnel bring their own airplanes, go to Maintenance > Aircraft > Aircraft and add the MDS, if not already listed. Fill in the ARMS MDS field. Select the squadron the airplane belongs to, add the tail number\(s\) \(fil in the ARMS ID\) and select any squadrons that may share the tail number.
+    * Redeployment. When the person leaves, go to Setup > Personnel and change the person’s Fly Sq to the “PCS” squadron or equivalent. If you don’t have a PCS squadron in PEX, go to Setup > Squadrons and add it. When the aircraft leaves, go to Maintenance > Aircraft > Aircraft > Tail Number, uncheck any Shared Squadrons, uncheck the box for “Show in Dropdown” and change the Squadron to PCS.
+
+## Reports
+
+Reports Overview
+
+Introduction
+
+Currently, most functional areas \(Scheduling, Training, etc.\) include a Reports module, containing all forms and reports for that function. Starting in 5.16, these will be progressively replaced by Rapid Reports/Reporting functionality. The legacy Reports modules will remain in place until the transition is complete. Currently, these reports pull data only from legacy modules.
+
 Rapid Reports are official USAF forms, standardized reports, and unit-customized reports. Units can request unit-customized reports from the PEX Program Office. All reports are in Dynamic Link Library \(DLL\) file format and can be downloaded from the PEX website or sent from the PEX help desk. Once imported, USAF forms can be opened in PDF format, while reports can be opened in PDF or Excel formats.
+
 The Setup > Reports module functions as the reports manager. Downloaded reports are imported into PEX through this module. Once imported, reports appear in the appropriate modules. Reports can be deleted when no longer required.
+
 Reports currently in development include:
+
 * AF Form 4327
 * AF Form 4327a
 * AFTO Form 781
@@ -692,15 +749,20 @@ Reports currently in development include:
 * RPA Schedule
 * Missile Operations Personnel Schedule
 * Missile Operations Location Schedule
-Workspace
 
+Workspace
+![binders](PEX/img/../../img/Setup/Reports Workspace.jpg){: style="height:100%;width:100%"}
 
 1. Add Report\(s\) imports report files.
 2. Displays a list of imported files.
 3. Refreshes the page.
 4. Removes unnecessary files.
+
 Manage and Use Reports
-Import a Report1. Request the desired file from the PEX website or have it sent from the PEX help desk.
+
+Import a Report
+
+1. Request the desired file from the PEX website or have it sent from the PEX help desk.
 2. Save the report file to an accessible location.
 3. Go to Setup > Reports.
 4. When the MANAGE REPORTS page opens, click Add Report\(s\).
@@ -708,51 +770,73 @@ Import a Report1. Request the desired file from the PEX website or have it sent 
 6. You should see a \(file name\) uploaded successfully message.
 7. Click Cancel or X.
 8. The imported file is listed here and will appear in the appropriate functional area Reporting module.
+
 Delete a Report
+
 1. Go to Setup > Reports.
 2. When the MANAGE REPORTS page opens, click the More Options \(...\) button.
 3. Click Remove.
 4. Confirmation: Yes or No.
+
 View Uploaded Forms and Reports
+
 1. Go to the desired functional area Reporting module \(e.g., Scheduling > Reports\).
 2. View the list of Installed Reports.
-1\. For example, to view an AF4327A, go to Scheduling > Reporting > Instal ed Scheduler Reports > AF4327A.
+    1. For example, to view an AF4327A, go to Scheduling > Reporting > Installed Scheduler Reports > AF4327A.
+
 Open and Populate Forms and Reports
+
 1. Go to the desired functional area Reporting module.
 2. Under Installed Reports, click the desired report.
 3. When the report dialog opens, make your data field selections for that form or report.
 4. At page bottom select PDF or Excel and click Generate Report.
-!!! note
-    AF Forms open only in PDF format. Reports open in both PDF and Excel formats.
 
+    !!! note
+        AF Forms open only in PDF format. Reports open in both PDF and Excel formats.
 
 ## Resources
-Resources Basics
-Introduction
-Configuring the Resources module allows you tailor and streamline your scheduling processes by categorizing and grouping resources.
-Resources are people, places and things that can be scheduled in the Scheduler.
-Resource Types are categories of resources, such as people, airspace and aircraft.!(images/000057.jpg)
 
-Resource Groups are collections of resources.
+Resources Basics
+
+Introduction
+
+Configuring the Resources module allows you tailor and streamline your scheduling processes by categorizing and grouping resources.
+
+* Resources are people, places and things that can be scheduled in the Scheduler.
+* Resource Types are categories of resources, such as people, airspace and aircraft.
+* Resource Groups are collections of resources.
+
 The actual resources are added to PEX in their respective modules; People in Personnel, Airspace in Locations, Aircraft in Maintenance, etc. In the Resources module, you first associate resources to a resource type, then associate resources to one or more groups. For example, you can create a hard crew group with four persons, then schedule them as a group instead of individual y, similar to Crew Sets in legacy scheduling modules.
+
 Controls
+
 Access these procedures by navigating to Setup > Resources.
+
 Module Notes
+
 * A resource group consists of a single type of resource. For example, a Group can contain Persons or Workstations, but not Persons and Workstations.
 * Resources are used only in the Scheduler module. They do not apply to legacy scheduling modules.
-Workspace
 
+Workspace
+![binders](PEX/img/../../img/Setup/Resources Workspace.jpg){: style="height:100%;width:100%"}
 
 1. View Resource Types.
 2. View Resource Groups.
 3. Filter on Resource Types.
 4. Create Resource Groups by Type.
+
 Manage Your Resources
+
 Associate Resources to Types
+
 Some Resource Types are delivered with PEX. More Resource Types can be added locally by running a script file on your database server. Contact the PEX Program Office to have the script created.
-1. Go to Setup > Resources > Types.2. Click on the desired Type and view individual resources of that type. The list also displays any groups they are associated with.
+
+1. Go to Setup > Resources > Types.
+2. Click on the desired Type and view individual resources of that type. The list also displays any groups they are associated with.
 3. Use the search field to locate specific resources by name or number.
+
 Add a Group
+
 1. Under the Groups header, click the Add button and the Add Group dialog opens.
 2. In the Name field, enter a name for the group.
 3. Under Resource Type, click Change and select the type.
@@ -761,7 +845,9 @@ Add a Group
 6. Click Done and the Add dialog closes.
 7. Click Save and the Add dialog closes.
 8. In Scheduler, the group can now be added to an event, as with an individual resource item.
+
 Add Resources to a Group
+
 1. Go to Setup > Resources > Groups.
 2. Click on the desired Group and view individual resources in that group.
 3. Use the search field to locate specific groups by name or number.
@@ -772,7 +858,9 @@ Add Resources to a Group
 8. From the list, check the resources to add to the group.
 9. Click Done and the dialog closes.
 10. Click Save and return to Groups.
+
 Delete Resources from a Group
+
 1. Go to Setup > Resources > Groups.
 2. Click on the desired Group and view individual resources in that group.
 3. Use the search field to locate specific groups by name or number.
@@ -780,133 +868,195 @@ Delete Resources from a Group
 5. Under Resource Groups, click on the desired group and the edit dialog opens.
 6. Click the edit \(pencil\) button and the Edit Group dialog opens.
 7. From the list, check the resources to delete from the group.
-8. Click Save and return to Groups.Delete a Group
+8. Click Save and return to Groups.
+
+Delete a Group
+
 Quick method
+
 1. Go to Setup > Resources > Groups.
 2. To the right of the no longer desired group, click the red X and Yes to the confirmation message.
+
 Recommended method
+
 1. Go to Setup > Resources > Groups.
 2. Click on the desired group and the Group Details dialog opens.
 3. Verify this is the group you want to delete.
 4. Click the delete \(trash can\) button and Yes to the confirmation message.
+
 ## Squadrons
+
 Squadrons Basics
+
 Introduction
+
 The Squadrons module identifies units in the PEX database that wil be used throughout PEX, to define Availability Periods for these squadrons, and to register the squadrons with HQ for scheduling and training data rol ups. Access to data throughout PEX is control ed by squadron and user.
+
 Permissions
+
 The PEXAdmin and Administrator permission roles can access Squadrons.
+
 Rules
+
 * While Administrator can add a squadron, only PEXAdmin can delete a squadron.
 * A squadron can have only a single set of \(up to\) six Availability Periods active at one time.
+
 Module Notes
+
 * A new squadron wil not display in other PEX modules until you log out and back in.
 * When a squadron is added; initially, the only users with permissions to that squadron will be the user that added it and the master user account, PexAdmin.
+
 Workspace
-These features are accessed by navigating to Setup > Squadrons.!(images/000031.jpg)
+These features are accessed by navigating to Setup > Squadrons.
+![binders](PEX/img/../../img/Setup/Squadrons Workspace.jpg){: style="height:100%;width:100%"}
 
-
-
-1. Squadrons. Work area. 
+1. Squadrons. Work area.
 2. Setup. Add lists of organizations.
 3. Labels Manager. Overwrite label \(column header\) names.
 4. Availability Periods. Define up to six periods for the squadron.
 
- - Associate organizations to your squadron
+Setup - Associate organizations to your squadron
+
 In Setup, you can add organizations, then link them when you add a squadron.
+
 1. Add a MAJCOM
-1\. Under the Tables list, highlight MAJCOM.
-2\. In the Listings grid, right click and select ADD.
-3\. Enter the MAJCOM and its description.
-D. Click off the row to save.
+
+    1. Under the Tables list, highlight MAJCOM.
+    2. In the Listings grid, right click and select ADD.
+    3. Enter the MAJCOM and its description.
+    4. Click off the row to save.
+
 2. Add a Wing
-1\. Under the Tables list, highlight Wing.
-2\. In the Listing grid, right click and select ADD
-3\. Enter the Wing, Description.
-D. Associate the new Wing to an existing MAJCOM and enter a Location name.
-E. Click off the row to save.
+
+    1. Under the Tables list, highlight Wing.
+    2. In the Listing grid, right click and select ADD
+    3. Enter the Wing, Description.
+    4. Associate the new Wing to an existing MAJCOM and enter a Location name.
+    5. Click off the row to save.
+
 3. Add a Group
-1\. Under the Tables list, highlight Group.
-2\. In the Listings grid, right click and select ADD.
-3\. Enter the Group and its description.
-D. Associate the Group to its Wing.
-E. Click off the row to save.
+
+    1. Under the Tables list, highlight Group.
+    2. In the Listings grid, right click and select ADD.
+    3. Enter the Group and its description.
+    4. Associate the Group to its Wing.
+    5. Click off the row to save.
+
 4. Add a Unit Type
-1\. Under the Tables list, highlight Unit Type.B. In the Listings grid, right click and select ADD.
-3\. Enter the unit type and its description. For example: Fighter, Bomber, MAF, CAF, Intel, etc.
-D. Click off the row to save.
+
+    1. Under the Tables list, highlight Unit Type.
+    2. In the Listings grid, right click and select ADD.
+    3. Enter the unit type and its description. For example: Fighter, Bomber, MAF, CAF, Intel, etc.
+    4. Click off the row to save.
+
 Add a Squadron
+
 A squadron in PEX is the foundational organization to which resources are assigned; people, aircraft, etc. Other functions such as displays and permission roles are also set by squadron. A PEX squadron can be a literal squadron or another organization type, such a group.
+
 1. Right Click in the Squadrons grid and select Add.
 2. Enter a unique Squadron name.
-3. Enter an Instal ation name, e.g., “Eglin AFB, FL”. \(Optional but recommended\) 4. Enter the ICAO identifier, e.g., “KVPS”. \(Optional but recommended\) 5. Select a Group name from the drop down. \(Optional but recommended\) 6. Select a Service. \(Optional but recommended\)
-7. Enter number of Aircraft the squadron possesses. \(Optional\) 8. Enter number of Personnel for the squadron. \(Optional\) 9. Enter SunRiseBASH and SunSetBASH times. This is the estimated duration in minutes that Bird Air Strike Hazard occurs. This data is calculated and then displayed in the scheduling areas of PEX. \(Optional\)
+3. Enter an Installation name, e.g., “Eglin AFB, FL”. \(Optional but recommended\)
+4. Enter the ICAO identifier, e.g., “KVPS”. \(Optional but recommended\)
+5. Select a Group name from the drop down. \(Optional but recommended\)
+6. Select a Service. \(Optional but recommended\)
+7. Enter number of Aircraft the squadron possesses. \(Optional\)
+8. Enter number of Personnel for the squadron. \(Optional\)
+9. Enter SunRiseBASH and SunSetBASH times. This is the estimated duration in minutes that Bird Air Strike Hazard occurs. This data is calculated and then displayed in the scheduling areas of PEX. \(Optional\)
 10. Enter Flt Lead Symbol and Deputy Lead Symbol. This data will display on flight authorization forms. \(Optional\)
 11. Select MDSs in Display MDS in Dropdowns. These are the MDSs your squadron wil see throughout PEX.
-12. Enter POC Name, POC Email and POC Phone fields. This data is used for the MAJCOM
-Registration and the POC Information on the PEX Navigation Menu. \(Optional\) 13. Unit type. Select from a list to further define the squadron. \(Optional\) 14. Unit Identification Code \(UIC\). Enter your UIC. \(Optional\) 15. Personnel Accounting Symbol \(PAS\) System. Enter your PAS. \(Optional\) 16. Include Readiness Data in Export. Check this box if you are establishing a NIPR to SIPR
-connection and wish to export readiness data. Otherwise leave it unchecked.
-
+12. Enter POC Name, POC Email and POC Phone fields. This data is used for the MAJCOM Registration and the POC Information on the PEX Navigation Menu. \(Optional\)
+13. Unit type. Select from a list to further define the squadron. \(Optional\)
+14. Unit Identification Code \(UIC\). Enter your UIC. \(Optional\)
+15. Personnel Accounting Symbol \(PAS\) System. Enter your PAS. \(Optional\)
+16. Include Readiness Data in Export. Check this box if you are establishing a NIPR to SIPR connection and wish to export readiness data. Otherwise leave it unchecked.
 
 Squadrons Availability Periods
+
 Availability periods, up to six, are used to describe blocks of time where personnel can identify when they are available to be scheduled. These periods are identified by the schedulers. Then, part-time personnel \(think ANG and AFRC\) can identify when they are available using those periods. The periods can overlap.
 Example periods are:
-* Period: 00:00 – 23:59!(images/000106.jpg)
 
+* Period: 00:00 – 23:59
 * Periods \(AM, PM, and Night\): 05:00-12:00, 11:00-18:00, 17:00-23:59
+
 Enter your squadron’s Availability Periods
+
 1. Highlight the Squadron in the Squadron’s grid
 2. Place the cursor in the Availability Periods grid, right-click and select Add. An Add Availability Period dialog will appear.
 3. Set the number of periods and set the start/end time for each period. Periods can \(and usually do\) overlap. For example, if you end one period at 09:00 and start the next at 09:01, it creates a gap of one minute and PEX will think personnel are unavailable for that one minute.
 Using this example, you should end the first period at 09:00 and start the second at 09:00.
 Periods can run from 00:00 to 23:59 \(they cannot cross midnight\).
 4. Click OK when finished. There can be up to six periods identified for a squadron.
-NOTE. Once saved, the periods cannot be edited. Instead, new Availability Periods set must be created to replace the old. Personnel and schedulers can use only the latest set for data entry. Old sets are displayed for historical purposes.
+
+    !!! NOTE
+        Once saved, the periods cannot be edited. Instead, new Availability Periods set must be created to replace the old. Personnel and schedulers can use only the latest set for data entry. Old sets are displayed for historical purposes.
+
 ## Squadrons – HQ Registration
-Use HQ Registration to send your Scheduling and Training data to your MAJCOM. Your MAJCOM
-wil advise when to use this and supply the data required.
 
-
-
+Use HQ Registration to send your Scheduling and Training data to your MAJCOM. Your MAJCOM wil advise when to use this and supply the data required.
+![binders](PEX/img/../../img/Setup/HQ Workspace.jpg){: style="height:100%;width:100%"}
 
 1. Select Register Squadron to open the dialog. All field entries in this dialog are required.
 2. In the Info Type dropdown, select the data to register: Scheduling or Training.
-!!! note
-    If you want to do both, two registrations must be added.
+    !!! note
+        If you want to do both, two registrations must be added.
 3. In the Squadron drop down, select the squadron to register.
-4. Enter the MAJCOM. 
+4. Enter the MAJCOM.
 5. Enter the MAJCOM URL \(provided by MAJCOM\).
 6. Point of Contact. Enter the MAJCOM POC's Name, Phone Number, and Email. You can overwrite the default POC if you chose to.
-7. With all fields complete, select Save. Once saved, a new row entry appears indicating Squadron selected, MAJCOM Approval Status - "Waiting".8. Once saved, the MAJCOM must approve the registration. When the Registration is approved, MAJCOM Approval Status changes to - "Approved". Your squadron is now successfully registered and ready to start sending CT and/or Scheduling data.
+7. With all fields complete, select Save. Once saved, a new row entry appears indicating Squadron selected, MAJCOM Approval Status - "Waiting".
+8. Once saved, the MAJCOM must approve the registration. When the Registration is approved, MAJCOM Approval Status changes to - "Approved". Your squadron is now successfully registered and ready to start sending CT and/or Scheduling data.
 9. Upon initial Approval, the "Last Sync Date" column will be blank until scheduled or manual Sync's are accomplished.
+
 ## TaskView - Import an Airspace Control Order \(ACO\)
+
 Introduction
+
 The TaskView Interface reads an Airspace Control Order \(\*.aco\) file and imports ACO locations into the PEX database. The ACO data retrieved includes the airspace type, name, latitude/longitude, and valid times. Once imported, the data retrieved from the ACO creates a new location in the Locations module.
+
 Import an ACO
+
 The following steps assume the ACO file has been downloaded and saved to an accessible location on your computer. Typically, the ACO, along with the ATO \(Air Tasking Order\), are downloaded from a website or another application.
+
 Go to Setup > TaskView > TaskView Import tab > Import Section.
+
 In the ACO Input File selection box, browse to the ACO file, and click Display Data. PEX displays the ACO Start Date/Time \(Z\) and End Date/Time \(Z\), and all ACM Types and Locations in the selected file.
+
 Enter the path for where you want the Log File stored.
-Select the ACM Types and/or Locations you want to import into PEX and click the Send button. With these ACO locations now in your database, you can use them to build missions and sortie events.
-Once in the PEX database, ACO locations can be used just like PEX, PFPS, and ATO locations.
+
+Select the ACM Types and/or Locations you want to import into PEX and click the Send button. With these ACO locations now in your database, you can use them to build missions and sortie events. Once in the PEX database, ACO locations can be used just like PEX, PFPS, and ATO locations.
+
 Managing Imported Locations
+
 The imported locations can be viewed and, if necessary, edited in the Locations module by selecting Source: ACO, and clicking Display Data.
+
 ACO locations may import without latitude/longitude. If so, manually enter lat/long as required.
-Zulu offsets and Daylight Saving Time \(DST\) offsets are not entered for ACO locations. For accurate local times at the ACO locations, manually enter the Zulu and DST offsets. If you are scheduling in Zulu only, there should be no need to enter Zulu and DST offsets for the ACO locations. For more, see Setup > Locations. 
+
+Zulu offsets and Daylight Saving Time \(DST\) offsets are not entered for ACO locations. For accurate local times at the ACO locations, manually enter the Zulu and DST offsets. If you are scheduling in Zulu only, there should be no need to enter Zulu and DST offsets for the ACO locations. For more, see Setup > Locations.
+
 ## Users and Permissions
+
 Users and Permissions Basics
+
 Introduction
+
 Users and Permissions allows administrators to manage who can log in to PEX \(Users\), what those people can do in PEX \(Permissions\), and how they can log in \(CAC or Windows\). User accounts can one of two types.
-1. An individual account, allowing a person log in and view their information in PEX.2. A joint-use account, which can be used by multiple people. Because multiple people can use it, joint-use accounts cannot be associated to a Personnel record.
+
+1. An individual account, allowing a person log in and view their information in PEX.
+2. A joint-use account, which can be used by multiple people. Because multiple people can use it, joint-use accounts cannot be associated to a Personnel record.
+
 Permissions
+
 Users with Administrator permission to any squadron can access this page. However, they can see only those squadrons to which they have permission.
+
 Rules
+
 * Users cannot change their own permissions. That must be done by PEXAdmin.
 * Multiple people can be associated to the PEXAdmin user account.
 * Users can be assigned the role of Administrator in individual squadrons.
 * People assigned the Administrator role should be trained and experienced PEX users.
 * Every squadron should have at least two people assigned the Administrator role.
-Workspace
 
+Workspace
 
 1. Users. Add User accounts for people who need to log in to PEX. Associate them to Personnel records so they can see their information.
 2. Permissions. Grant users the level of access required to perform their duties in PEX.
@@ -914,2876 +1064,204 @@ Workspace
 4. Windows Accounts. Al ow users to log in with a Windows domain account. This is the most common method.
 5. Joint-use accounts. These are not associated to an individual.
 6. Individual accounts. These are associated to individual Personnel records.
-!!! note
-    Although not normal y required, users can be associated to both CAC and Windows logins if desired.
+    !!! note
+        Although not normal y required, users can be associated to both CAC and Windows logins if desired.
+
 Workflow
 
-
-
-
 Manage User Accounts
+
 Create Permission templates
+
 Create Permission templates to apply to new users:
+
 1. Go to Users and Permissions > Permissions tab.
 2. Check the Basic User role for your squadron.
 3. Click Save as New Template and call it “Basic User \(squadron name\)”.4. Repeat as required for various combinations of roles and squadrons.
+
 Add a User account
+
 1. Go to Users and Permissions > Users tab.
 2. Right-click and select Add User.
 3. In the Add User dialog, select the desired Default Template.
 4. Enter your email extension, e.g., @us.af.mil.
 5. Select your email convention, e.g., First.Last
 6. Person Associated.
-1\. For individual person accounts, associate the user account to a Personnel record. If the person will accomplish activities in PEX \(scheduled for commitments, training folder, Stan Eval folder, etc.\), ensure they have a Personnel record in the Personnel module. Skip this step if the person will not accomplish activities in PEX but only login to PEX to see information \(Air Traffic Control, Base Operations, Inflight Kitchen, etc.\) For Joint Use Accounts, skip to User Details.
-2\. Select the squadron to which the person is assigned.
-3\. Select their Short Name from the dropdown. This list includes all persons who have a Personnel record but do not have a user account.
-7. User Details. PEX populates these fields. Make any desired changes to: A. User Name
-2\. Email
-3\. Full Name
-D. Loc. Use a Source of PEX and your Location, e.g., “KVPS”
-E. For Joint Use Accounts, check Joint Use Acct. If this account is associated to a person, the check box is disabled.
+
+    1. For individual person accounts, associate the user account to a Personnel record. If the person will accomplish activities in PEX \(scheduled for commitments, training folder, Stan Eval folder, etc.\), ensure they have a Personnel record in the Personnel module. Skip this step if the person will not accomplish activities in PEX but only login to PEX to see information \(Air Traffic Control, Base Operations, Inflight Kitchen, etc.\) For Joint Use Accounts, skip to User Details.
+    2. Select the squadron to which the person is assigned.
+    3. Select their Short Name from the dropdown. This list includes all persons who have a Personnel record but do not have a user account.
+
+7. User Details. PEX populates these fields. Make any desired changes to:
+
+    1. User Name
+    2. Email
+    3. Full Name
+    4. Loc. Use a Source of PEX and your Location, e.g., “KVPS”
+    5. For Joint Use Accounts, check Joint Use Acct. If this account is associated to a person, the check box is disabled.
+
 8. Click Save. PEX will send an email to the new user informing them of the account and how to login.
 9. Adjust the person's permission roles if required. See Manage Permission Roles.
 10. Associate the new user to their CAC or Windows account. See CAC and Windows Associations.
+
 Find users not logging in
+
 1. Go to Users tab, right-click and select Filter By Last Login.
 2. In the dialog, select a time span and click OK.
 3. The resulting list is those users that have not logged in for that amount of time. To return to the complete user list, right-click, and select Edit Applied Last Login Filter, select No Filter, and click OK.
-Delete an account1. Go to Users tab, highlight the name, right-click and select Delete.
+
+Delete an account
+
+1. Go to Users tab, highlight the name, right-click and select Delete.
 2. Deleting a User account does not delete any data about the Person. All scheduling, training, Stan Eval, etc. data is retained.
 3. Multiple accounts can be deleted simultaneously by using the Ctrl or Shift keys to select multiple users.
+
 Lock out a user from PEX
+
 This prevents users from logging in.
+
 1. Go to Users tab.
 2. On the User name, right-click and select Lock User.
 3. To unlock, right-click and select Unlock User.
+
 Manage Permission Roles
+
 Squadron Administrators apply Permission Roles for individual PEX Users based on the duties performed in the unit. Grant only the minimum permissions required to perform the duties. Grant the top-level Administrator role only if required to access the Users and Permissions module. The Administrator role has permissions to all modules in PEX, not just the administrative ones. Each squadron should have at least two Administrators.
+
 View all Users in a Role
+
 1. On the Permissions tab, highlight the Role Name, e.g., Administrator.
 2. Right-click and select See Users In Role.
 3. The Users in \(selected\) Role dialog opens showing all users in that role.
+
 Change a user’s permissions
-Every User Account starts with a set of permissions. If you need to edit these permissions: 1. Go to the Permissions tab and highlight the User
+
+Every User Account starts with a set of permissions. If you need to edit these permissions:
+
+1. Go to the Permissions tab and highlight the User
 2. The user's assigned permissions appear under the squadron column\(s\).
 3. Check and un-check roles and squadrons as required.
 4. Click Apply Permissions.
+
 Save a User’s permissions as a template for others
+
 1. Go to the Permissions tab and highlight the user who has the permissions from whom you want to create a template. That User's permissions will show up in the Users Permissions Grid.
 2. Click Save as New Template.
 3. Give the template a name \(e.g., Basic User, Stan Eval\) and select Save.
-4. The Template will now be available to apply when adding a new user, or editing existing users.Create a Template from Scratch
+4. The Template will now be available to apply when adding a new user, or editing existing users.
+
+Create a Template from Scratch
+
 1. Go to the Permissions tab and ensure no user is selected on the left and no boxes are checked. You may need to leave the module and come back.
 2. Select the desired Roles for the desired squadrons in the Users Permissions Grid by checking the appropriate boxes.
 3. Select Save as New Template, give the template a name, and select Save.
 4. The Template will now be available to apply when adding a new user, or editing existing users.
+
 Apply a Template to existing User
+
 1. Go to the Permissions tab.
 2. In the Users grid, select the user to whom you want to apply the template.
 3. Click Select Template.
 4. When the dialog opens, select the template you want and click OK.
 5. The new permissions will be displayed in the Users Permissions Grid, with the name of the template in the grid header.
 6. Select Apply Template. A warning will come up saying the current permission roles will be overwritten. Click OK to apply the template.
+
 CAC and Windows Associations
+
 Use the CAC or the Windows Accounts tab to associate user accounts to their CAC or Windows account so they can login to PEX.
+
 Associate a user to their CAC
+
 1. Go to the CAC Accounts tab
 2. In the CAC Accounts Available grid, right-click and select Add CAC Account to PEX
-3. In the dialog, enter the person’s CAC Number and name from the CAC \(not PEX User Name\) 4. Click OK and select the CAC you just entered
-5. In the Users grid, find the User Name and select it \(right-click Filter Grid will prove useful\) 6. With a User and CAC selected, click the Associate CAC Account\(s\) button. The user will now be able to login to PEX via their CAC.
+3. In the dialog, enter the person’s CAC Number and name from the CAC \(not PEX User Name\)
+4. Click OK and select the CAC you just entered
+5. In the Users grid, find the User Name and select it \(right-click Filter Grid will prove useful\)
+6. With a User and CAC selected, click the Associate CAC Account\(s\) button. The user will now be able to login to PEX via their CAC.
+
 Associate a user to their Windows account
+
 If your unit does not use CACs, associate your Users to their Windows accounts. If you associated the user to a CAC you should skip these steps.
+
 1. Go to the Windows Accounts tab
-2. In the Windows Accounts Available grid, right-click and select Add CAC Account to PEX3. Click the Find By Email button
+2. In the Windows Accounts Available grid, right-click and select Add CAC Account to PEX
+3. Click the Find By Email button
 4. Enter the person’s email address and click the Find button. This should auto-fill the Windows Account and Domain Names. Click OK and select the CAC you just entered.
-5. In the Users grid, find the User Name and select it \(right-click Filter Grid will prove useful\) 6. With a User and Windows account selected, click the Associate Windows Account\(s\) button.
-The user will now be able to login to PEX via their Windows account.
+5. In the Users grid, find the User Name and select it \(right-click Filter Grid will prove useful\)
+6. With a User and Windows account selected, click the Associate Windows Account\(s\) button. The user will now be able to login to PEX via their Windows account.
+
 Joint Use Accounts
+
 A single Joint Use \(PEX User\) account can be associated to multiple CAC or Windows accounts. This way, multiple people could login to the “Base Ops” PEX user account, for example.
+
 Permission Matrix
-Legend
-Module or Function - a page or command
-in PEX
-Update - Can Add Edit or Delete
-U
-items
-Read - Can view, but not make
-R
-changes
-No Access
-N
 
-
-
-Ba
-
-Re
-
-Op
-
-Flyi
-
-Module/Funct
-
-Administr
-ad
-sS
-
-Flight Sched
-
-Ground
-MX
-ng
-Weap
-
-Weap
-ator
-Us
-
-On
-
-De
-
-Staff S
-
-O
-
-uling
-Schedul
-
-Schedul
-
-Ho
-ons
-er
-ly
-sk
-taff
-FingAdmin
-Officer
-Aircraft
-Generation
-U
-N
-R
-N
-R
-N
-N
-N
-R
-N
-N
-N
-Aircraft Tab
-U
-R
-R
-R
-R
-R
-R
-R
-U
-R
-N
-N
-Aircraft
-Status
-U
-R
-R
-R
-R
-R
-R
-R
-U
-R
-N
-N
-Aircraft Setup
-U
-N
-N
-N
-N
-N
-N
-N
-U
-N
-N
-NU
-N
-R
-U
-R
-R
-U
-N
-R
-R
-N
-N
-Commitment
-
-s Board-
-
-U
-R
-R
-R
-R
-R
-U
-U
-U
-R
-N
-N
-Squadron
-Commitment
-
-s Board-
-
-U
-R
-R
-R
-R
-R
-R
-R
-R
-R
-N
-N
-Aircraft
-Commitment
-
-s Board-
-
-U
-R
-R
-U
-R
-R
-U
-U
-R
-R
-N
-N
-Personnel
-Commitment
-
-s Board-
-
-U
-R
-R
-U
-R
-R
-U
-U
-R
-R
-N
-N
-Location
-Continuation
-Training-
-
-U
-U
-R
-U
-U
-R
-U
-U
-U
-N
-N
-N
-Reporting
-Continuation
-Training-Unit
-Level Task
-U
-N
-N
-N
-N
-R
-N
-U
-N
-N
-N
-N
-Assignments
-Continuation
-Training-
-
-Worksheet
-U
-N
-N
-N
-N
-N
-N
-U
-N
-N
-N
-N
-Builder
-Continuation
-U
-N
-N
-N
-N
-N
-N
-N
-N
-N
-N
-N
-Training-
-Accomplishm
-
-ents
-Audit
-
-
-
-
-Continuation
-Training-
-
-U
-N
-N
-N
-N
-N
-N
-N
-N
-N
-N
-N
-ARMS
-Continuation
-Training-
-
-ARMS
-U
-N
-N
-N
-N
-N
-N
-N
-N
-N
-N
-N
-Settings
-Continuation
-Training-
-
-U
-N
-N
-N
-N
-N
-N
-N
-N
-N
-N
-N
-Continuation
-Training
-Form 1522
-U
-N
-N
-N
-N
-N
-N
-N
-N
-N
-N
-N
-Functions
-Continuation
-Training-
--Copy
-U
-N
-N
-N
-N
-N
-N
-N
-N
-N
-N
-N
-Tasks/Closeo
-
-ut
-FCIF
-U
-R
-R
-R
-R
-R
-R
-R
-R
-R
-N
-N
-FCIF
-Administratio
-
-U
-N
-N
-N
-N
-R
-N
-N
-N
-N
-N
-N
-n
-Filter Wizard-
-
-Manage
-Squadron
-U
-N
-N
-U
-U
-N
-U
-U
-N
-U
-N
-N
-Filters
-Flying Hours
-U
-N
-R
-R
-R
-N
-U
-N
-R
-U
-N
-N
-AF Model
-Forecast
-U
-N
-R
-R
-R
-N
-U
-U
-R
-U
-N
-N
-REMIS
-U
-N
-U
-N
-U
-N
-U
-N
-U
-U
-N
-N
-U
-R
-R
-R
-R
-R
-U
-U
-R
-U
-N
-N
-Flying
-U
-R
-R
-U
-R
-R
-U
-U
-R
-R
-N
-N
-Schedule-
-Crew
-Scheduler
-Go / No-Go -
-
-Manual
-Override
-U
-N
-N
-U
-N
-U
-N
-N
-N
-N
-N
-N
-Training Task
-Labels
-U
-R
-R
-R
-R
-R
-R
-R
-R
-R
-N
-N
-Locations-
-
-Locations
-U
-R
-R
-R
-R
-R
-U
-R
-R
-R
-N
-N
-Locations-
-Details
-U
-R
-R
-R
-R
-R
-U
-R
-R
-R
-N
-N
-Locations-
-
-U
-N
-N
-N
-N
-N
-U
-N
-N
-N
-N
-N
-Long Range
-Schedule
-U
-R
-R
-R
-R
-R
-U
-U
-R
-N
-N
-N
-Mission
-Board-
-
-Mission,
-Events, &
-U
-R
-R
-U
-R
-U
-U
-R
-U
-R
-N
-N
-Loads
-Builder
-Mission
-Board-Lock
-MX Line \#,
-U
-N
-N
-N
-N
-N
-N
-N
-U
-N
-N
-N
-Tail \#, SCL,
-Config
-Mission
-Board-Lock
-Takeoff/Land
-U
-N
-N
-U
-N
-N
-U
-N
-N
-N
-N
-N
-Time, SCL,
-Config
-Mission
-Board-
-
-Override
-U
-N
-N
-U
-N
-N
-U
-N
-N
-N
-N
-N
-Hide Tail
-Numbers
-Mission
-Board-
-
-Squadron
-U
-N
-N
-U
-N
-N
-U
-N
-N
-N
-N
-N
-PreferenceMy Page-Edit
-Squadron
-U
-N
-N
-N
-N
-N
-N
-N
-N
-N
-N
-N
-Links
-Letter of X
-U
-N
-N
-N
-N
-N
-N
-N
-N
-N
-N
-N
-Letter of X
-\(Approve
-Draft
-U
-N
-N
-N
-N
-N
-N
-N
-N
-N
-N
-N
-Updates\)
-ORM-Risk
-U
-U
-R
-U
-U
-U
-U
-R
-N
-R
-N
-N
-ORM-Setup
-U
-N
-N
-N
-N
-R
-N
-N
-N
-N
-N
-N
-Personnel
-U
-N
-N
-U
-R
-R
-R
-R
-R
-N
-N
-N
-Personnel-
-
-Change
-U
-N
-N
-N
-N
-N
-N
-N
-N
-N
-N
-N
-Squadron
-Personnel
-Availability
-U
-N
-R
-U
-U
-R
-U
-U
-N
-R
-N
-N
-Qualification
-Training -
-Courses
-U
-N
-N
-N
-N
-N
-N
-N
-N
-N
-N
-N
-Administratio
-
-n
-Qualification
-Training -
-Task List
-U
-N
-N
-N
-N
-N
-N
-N
-N
-N
-N
-N
-Administratio
-
-n
-Reports-
-
-Stan/Eval
-R
-N
-R
-N
-R
-R
-R
-N
-N
-N
-N
-NSchedule
-U
-N
-N
-R
-R
-R
-U
-N
-N
-N
-N
-N
-Scheduler
-\(Prototype\)
-U
-N
-N
-N
-N
-N
-N
-N
-N
-N
-N
-N
-Shift
-Schedule
-U
-N
-N
-R
-R
-R
-N
-U
-N
-N
-N
-N
-Sortie
-Viewer-
-
-U
-R
-R
-R
-R
-R
-R
-R
-R
-R
-N
-N
-SelectionsSortie
-Viewer-
-
-U
-R
-R
-R
-R
-R
-R
-R
-R
-R
-N
-N
-Layout
-Sortie
-Viewer-
-
-Template
-U
-R
-R
-U
-U
-R
-U
-R
-U
-U
-N
-N
-Manager
-Squadron
-Daily
-U
-R
-R
-U
-U
-U
-U
-U
-U
-R
-R
-R
-Schedule
-Squadrons
-U
-R
-R
-R
-R
-R
-R
-R
-R
-R
-N
-N
-Stan/Eval
-Management
-
--
-
-U
-N
-N
-N
-N
-N
-N
-N
-N
-N
-N
-N
-Administrator
-Stan/Eval
-Management
-
-U
-N
-N
-N
-N
-N
-N
-N
-N
-N
-N
-N
--Examiner
-Stan/Eval
-Management
-
--Edit Signed
-U
-N
-N
-N
-N
-N
-N
-N
-N
-N
-N
-N
-Forms 8
-Taskview/AC
-
-O
-U
-N
-N
-N
-R
-R
-U
-N
-N
-N
-N
-N
-Testing-
-
-Administrator
-U
-N
-N
-N
-N
-N
-N
-N
-N
-N
-N
-N
-Testing-
-
-Examiner
-U
-N
-N
-N
-N
-N
-N
-N
-N
-N
-N
-NU
-N
-N
-N
-R
-N
-R
-N
-N
-N
-N
-N
-Users and
-Permissions-
-
-U
-R
-R
-R
-R
-R
-R
-R
-R
-R
-N
-N
-Users
-Users and
-Permissions-
-
-U
-N
-N
-N
-R
-N
-N
-N
-N
-N
-N
-N
-Permissions
-Users and
-Permissions-
-
-Windows
-U
-N
-N
-N
-N
-N
-N
-N
-N
-N
-N
-N
-AccountsValidation -
-Letter of X
-U
-R
-R
-U
-R
-R
-R
-U
-U
-U
-N
-N
-Validation -
-Scheduling
-U
-R
-R
-U
-R
-R
-U
-U
-U
-U
-N
-N
-Validation -
-Edit Master
-U
-N
-N
-N
-N
-NN
-N
-N
-N
-N
-List
-Weapons -
-Munitions -
-U
-R
-N
-N
-N
-N
-N
-N
-N
-N
-U
-R
-Weapons -
-Munitions -
-U
-R
-N
-N
-N
-N
-N
-N
-N
-N
-U
-R
-Standard
-Configuration
-Load \(SCL\)
-U
-R
-N
-N
-N
-N
-N
-N
-N
-N
-U
-R
-Builder
-Weapons -
-Munitions -
-Load Item
-U
-R
-N
-N
-N
-N
-N
-N
-N
-N
-U
-R
-Builder
-Weapons -
-Munitions -
-U
-R
-N
-N
-N
-N
-N
-N
-N
-N
-R
-R
-Inventory
-Weapons -
-Training -
-U
-R
-N
-N
-N
-N
-N
-N
-N
-N
-U
-R
-Weapons -
-Training -
-U
-R
-N
-N
-N
-N
-N
-N
-N
-N
-U
-R
-Audit
-
-
-SE
-Trainin
-
-Module/Functio
-
-Schedulin
-SE
-SE
-Testin
-
-Testing
-Trainin
-
-Training
-Training
-g
-n
-g Read
-Admi
-
-Admi
-
-Evaluat
-
-g
-Examin
-
-g
-Auditor/ARM
-
-Instruct
-
-Only
-n
-n
-or
-d
-Read
-Only
-Admin
-er
-Admin
-S
-or
-Only
-Aircraft
-Generation
-N
-N
-N
-N
-N
-N
-N
-N
-N
-N
-N
-Aircraft Tab
-N
-N
-N
-N
-N
-N
-N
-R
-N
-N
-N
-Aircraft Status
-N
-N
-N
-N
-N
-N
-N
-R
-N
-N
-NAircraft Setup
-N
-N
-N
-N
-N
-N
-N
-N
-N
-N
-NN
-N
-N
-N
-N
-N
-N
-N
-N
-N
-N
-Commitments
-Board-
-
-N
-N
-N
-N
-N
-N
-N
-N
-N
-N
-N
-Squadron
-Commitments
-Board-Aircraft
-N
-N
-N
-N
-N
-N
-N
-N
-N
-N
-N
-Commitments
-Board-
-
-N
-N
-N
-N
-N
-N
-N
-N
-N
-N
-N
-Personnel
-Commitments
-Board-Location
-N
-N
-N
-N
-N
-N
-N
-N
-N
-N
-N
-Continuation
-Training-
-
-N
-N
-N
-N
-N
-N
-N
-U
-N
-U
-N
-Reporting
-Continuation
-Training-Unit
-Level Task
-N
-N
-N
-N
-N
-N
-N
-U
-N
-N
-N
-Assignments
-Continuation
-Training-
-
-Worksheet
-N
-N
-N
-N
-N
-N
-N
-U
-N
-N
-N
-Builder
-Continuation
-Training-
-
-Accomplishmen
-
-N
-N
-N
-N
-N
-N
-N
-N
-N
-N
-N
-ts
-Audit
-N
-N
-N
-N
-N
-N
-N
-N
-U
-N
-N
-Continuation
-Training-ARMS
-N
-N
-N
-N
-N
-N
-N
-N
-U
-N
-N
-Continuation
-Training-ARMS
-N
-N
-N
-N
-N
-N
-N
-N
-U
-N
-N
-Settings
-Continuation
-Training-Setup
-N
-N
-N
-N
-N
-N
-N
-U
-U
-N
-N
-Continuation
-N
-N
-N
-N
-N
-N
-N
-U
-N
-N
-N
-Training-AFForm 1522
-Functions
-Continuation
-Training-Setup-
-
-Copy
-N
-N
-N
-N
-N
-N
-N
-U
-N
-N
-N
-Tasks/Closeout
-FCIF
-N
-N
-R
-R
-R
-R
-R
-R
-R
-R
-R
-FCIF
-Administration
-N
-N
-U
-U
-R
-N
-N
-N
-N
-N
-N
-Filter Wizard-
-
-Manage
-Squadron
-N
-N
-N
-N
-N
-N
-N
-N
-U
-N
-N
-Filters
-Flying Hours
-N
-N
-N
-N
-N
-N
-N
-N
-N
-N
-N
-AF Model
-Forecast
-N
-N
-N
-N
-N
-N
-N
-N
-N
-N
-N
-REMIS
-N
-N
-N
-N
-N
-N
-N
-N
-U
-N
-N
-N
-N
-N
-N
-N
-N
-N
-
-
-R
-N
-N
-Flying
-Schedule-Crew
-N
-N
-N
-N
-N
-N
-N
-R
-N
-N
-N
-Scheduler
-Go / No-Go -
-
-Manual
-Override
-N
-N
-N
-N
-N
-N
-N
-N
-N
-N
-N
-Training Task
-Labels
-N
-N
-N
-N
-N
-N
-N
-N
-N
-N
-N
-Locations-
-
-Locations
-N
-N
-N
-N
-N
-N
-N
-R
-N
-N
-N
-Locations-
-Details
-N
-N
-N
-N
-N
-N
-N
-R
-N
-N
-N
-Locations-
-
-N
-N
-N
-N
-N
-N
-N
-N
-N
-N
-N
-Long Range
-Schedule
-N
-N
-N
-N
-N
-N
-N
-N
-N
-N
-N
-Mission Board-
-
-N
-N
-N
-N
-N
-N
-N
-N
-N
-N
-N
-Mission,Events, &
-Loads Builder
-Mission Board-
-
-Lock MX Line \#,
-Tail \#, SCL,
-N
-N
-N
-N
-N
-N
-N
-N
-N
-N
-N
-Config
-Mission Board-
-
-Lock
-Takeoff/Land
-N
-N
-N
-N
-N
-N
-N
-N
-N
-N
-N
-Time, SCL,
-Config
-Mission Board-
-
-Override Hide
-N
-N
-N
-N
-N
-N
-N
-N
-N
-N
-N
-Tail Numbers
-Mission Board-
-
-Squadron
-N
-N
-N
-N
-N
-N
-N
-N
-N
-N
-N
-Preference
-My Page-Edit
-Squadron Links
-
-
-N
-N
-N
-N
-N
-N
-N
-N
-N
-N
-Letter of X
-N
-U
-N
-N
-N
-N
-N
-N
-N
-N
-N
-Letter of X
-\(Approve Draft
-N
-N
-N
-N
-N
-N
-N
-N
-N
-N
-N
-Updates\)
-ORM-Risk
-N
-N
-N
-N
-N
-N
-N
-N
-N
-N
-N
-ORM-Setup
-N
-N
-N
-N
-N
-N
-N
-N
-N
-N
-N
-Personnel
-N
-N
-N
-N
-N
-N
-N
-N
-U
-N
-N
-Personnel-
-
-Change
-N
-N
-N
-N
-N
-N
-N
-N
-U
-N
-N
-Squadron
-Personnel
-Availability
-N
-N
-N
-N
-N
-N
-N
-N
-N
-N
-N
-Qualification
-Training -
-Courses
-N
-N
-N
-N
-N
-N
-N
-N
-N
-N
-N
-Administration
-Qualification
-N
-N
-N
-N
-N
-N
-N
-U
-N
-U
-R
-Training - TaskList
-Administration
-Reports-
-
-Stan/Eval
-N
-N
-R
-R
-R
-R
-R
-N
-N
-N
-N
-RPA Schedule
-N
-N
-N
-N
-N
-N
-N
-R
-N
-N
-N
-Scheduler
-\(Prototype\)
-R
-N
-N
-N
-N
-N
-N
-N
-N
-N
-N
-Shift Schedule
-N
-N
-N
-N
-N
-N
-N
-R
-N
-N
-N
-Sortie Viewer-
-
-Selections
-N
-N
-N
-N
-N
-N
-N
-N
-N
-N
-N
-Sortie Viewer-
-
-Layout
-N
-N
-N
-N
-N
-N
-N
-N
-N
-N
-N
-Sortie Viewer-
-
-Template
-N
-N
-N
-N
-N
-N
-N
-N
-N
-N
-N
-Manager
-Squadron Daily
-Schedule
-N
-N
-N
-N
-N
-N
-N
-N
-U
-N
-N
-Squadrons
-N
-N
-N
-N
-N
-N
-N
-R
-N
-N
-N
-Stan/Eval
-Management-
-
-N
-N
-U
-N
-R
-N
-N
-N
-N
-N
-N
-Administrator
-Stan/Eval
-Management-
-
-N
-N
-N
-U
-R
-N
-N
-N
-N
-N
-N
-Examiner
-Stan/Eval
-Management-
-
-Edit Signed
-N
-N
-U
-U
-N
-N
-N
-N
-N
-N
-N
-Forms 8
-Taskview/ACO
-N
-N
-N
-N
-N
-N
-N
-N
-N
-N
-N
-Testing-
-
-Administrator
-N
-N
-N
-N
-R
-U
-R
-N
-N
-N
-N Items
-Testing-
-
-Examiner
-N
-N
-N
-N
-R
-N
-U
-N
-N
-N
-NN
-N
-N
-N
-N
-N
-N
-N
-N
-N
-NUsers and
-Permissions-
-
-N
-N
-N
-N
-N
-N
-N
-R
-N
-N
-N
-Users
-Users and
-Permissions-
-
-N
-N
-N
-N
-N
-N
-N
-R
-N
-N
-N
-Permissions
-Users and
-Permissions-
-
-Windows
-N
-N
-N
-N
-N
-N
-N
-R
-N
-N
-N
-Accounts
-Validation
-N
-N
-R
-R
-R
-R
-R
-R
-R
-R
-R
-Validation - Edit
-Master List
-N
-N
-N
-N
-N
-N
-N
-N
-N
-N
-N
-Weapons -
-Munitions -
-N
-N
-N
-N
-N
-N
-N
-R
-N
-N
-N
-Weapons -
-Munitions -
-N
-N
-N
-N
-N
-N
-N
-R
-N
-N
-N
-Standard
-Configuration
-Load \(SCL\)
-N
-N
-N
-N
-N
-N
-N
-R
-N
-N
-N
-Builder
-Weapons -
-Munitions -
-Load Item
-N
-N
-N
-N
-N
-N
-N
-R
-N
-N
-N
-Builder
-Weapons -
-Munitions -
-N
-N
-N
-N
-N
-N
-N
-R
-N
-N
-N
-Inventory
-Weapons -
-Training - Setup
-N
-N
-N
-N
-N
-N
-N
-R
-N
-N
-N
-Weapons -
-Training - Audit
-N
-N
-N
-N
-N
-N
-N
-R
-N
-N
-N
-
-
-Module/Function
-Course
-CT
-Task List
-LoX Draft
-Scheduling
-Administrator
-Administrator
-Administrator
-Approver
-Administrator
-Aircraft Tab
-R
-R
-R
-N
-N
-Aircraft Status
-R
-R
-R
-N
-NATO
-N
-N
-N
-N
-N
-Commitments Board-Squadron
-R
-R
-R
-N
-N
-Commitments Board-Aircraft
-R
-R
-R
-N
-N
-Commitments Board-Location
-R
-R
-R
-N
-N
-Continuation Training-Reporting
-U
-U
-U
-N
-N
-Continuation Training-Unit Level Task
-N
-U
-N
-N
-N
-Assignments
-Continuation Training-Worksheet Builder
-N
-U
-N
-N
-N
-Continuation Training-Accomplishments
-N
-N
-N
-N
-N
-Continuation Training-ARMS
-N
-N
-N
-N
-N
-Continuation Training-ARMS Set ings
-N
-U
-N
-N
-N
-Continuation Training-Setup
-N
-U
-N
-N
-N
-Continuation Training Form 1522 Functions
-N
-U
-N
-N
-N
-Continuation Training-Setup-Copy
-N
-U
-N
-N
-N
-Tasks/Closeout
-Continuation Training Form 1522 Functions
-N
-U
-N
-N
-N
-FCIF
-R
-R
-R
-N
-N
-FCIF Administration
-N
-N
-N
-N
-N
-Filter Wizard-Manage Squadron Filters
-U
-U
-U
-N
-N
-Flying Hours
-N
-N
-N
-N
-N
-AF Model Forecast
-N
-N
-N
-N
-N
-REMIS
-N
-N
-N
-N
-N
-N
-N
-N
-N
-N
-Flying Schedule-Crew Scheduler
-R
-R
-R
-N
-N
-Go / No-Go -Manual Override Training Task
-N
-N
-N
-N
-N
-Labels
-N
-N
-N
-N
-N
-Locations-Locations
-R
-R
-R
-N
-N
-Locations- Details
-R
-R
-R
-N
-N
-Locations-Setup
-R
-R
-R
-N
-N
-Long Range Schedule
-N
-N
-N
-N
-N
-Mission Board-Mission, Events, & Loads Builder
-R
-R
-R
-N
-N
-Mission Board-Lock MX Line \#, Tail \#, SCL,
-N
-N
-N
-N
-N
-Config
-Mission Board-Lock Takeoff/Land Time, SCL,
-N
-N
-N
-N
-N
-ConfigMission Board-Override Hide Tail Numbers
-N
-N
-N
-N
-N
-Mission Board-Squadron Preference
-N
-N
-N
-N
-N
-My Page-Edit Squadron Links
-U
-U
-U
-N
-N
-Letter of X
-R
-R
-R
-N
-N
-Letter of X \(Appove Draft Updates\)
-N
-N
-N
-U
-N
-ORM-Risk
-R
-R
-R
-N
-N
-ORM-Setup
-N
-N
-N
-N
-N
-Personnel
-N
-N
-N
-N
-N
-Personnel-Change Squadron
-N
-N
-N
-N
-N
-Personnel Availability
-N
-N
-N
-N
-N
-Qualification Training - Courses Administration
-U
-N
-N
-N
-N
-Qualification Training - Task List Administration
-N
-N
-U
-N
-N
-Reports-Stan/Eval
-N
-N
-N
-N
-N
-RPA Schedule
-R
-R
-R
-N
-N
-Scheduler \(Prototype\)
-N
-N
-N
-N
-U
-Shift Schedule
-R
-R
-R
-N
-N
-Sortie Viewer-Selections
-U
-U
-U
-N
-N
-Sortie Viewer-Layout
-U
-U
-U
-N
-N
-Sortie Viewer-Template Manager
-R
-R
-R
-N
-N
-Squadron Daily Schedule
-R
-R
-R
-N
-N
-Squadrons
-R
-R
-R
-N
-N
-Stan/Eval Management-Administrator
-N
-N
-N
-N
-N
-Stan/Eval Management-Examiner
-N
-N
-N
-N
-N
-Stan/Eval Management-Edit Signed Forms 8
-N
-N
-N
-N
-N
-Taskview/ACO
-N
-N
-N
-N
-N
-Testing-Administrator
-N
-N
-N
-N
-N
-Testing-Examiner
-N
-N
-N
-N
-NN
-N
-N
-N
-N
-Users and Permissions-Users
-N
-N
-N
-N
-N
-Users and Permissions-Permissions
-N
-N
-N
-N
-N
-Users and Permissions-Windows Accounts
-N
-N
-N
-N
-N
-Validation - Letter of X
-R
-R
-R
-N
-NValidation - Scheduling
-R
-U
-U
-N
-N
-Validation - Edit Master List
-R
-U
-R
-N
-N
-Weapons - Munitions - Setup
-R
-R
-R
-N
-N
-Weapons - Munitions - Standard
-R
-R
-R
-N
-N
-Configuration Load \(SCL\) Builder
-R
-R
-R
-N
-N
-Weapons - Munitions - Load Item Builder
-R
-R
-R
-N
-N
-Weapons - Munitions - Inventory
-R
-R
-R
-N
-N
-Weapons - Training - Setup
-R
-R
-R
-N
-N
-Weapons - Training - Audit
-R
-R
-R
-N
-N
-
-
+![binders](PEX/img/../../img/Setup/Legend.png){: style="height:50%;width:50%"}
+![binders](PEX/img/../../img/Setup/PM1.png){: style="height:100%;width:100%"}
+![binders](PEX/img/../../img/Setup/PM2.png){: style="height:100%;width:100%"}
+![binders](PEX/img/../../img/Setup/PM3.png){: style="height:100%;width:100%"}
+![binders](PEX/img/../../img/Setup/PM4.png){: style="height:100%;width:100%"}
+![binders](PEX/img/../../img/Setup/PM5.png){: style="height:100%;width:100%"}
+![binders](PEX/img/../../img/Setup/PM6.png){: style="height:100%;width:100%"}
+![binders](PEX/img/../../img/Setup/PM7.png){: style="height:100%;width:100%"}
+![binders](PEX/img/../../img/Setup/PM8.png){: style="height:100%;width:100%"}
+![binders](PEX/img/../../img/Setup/PM9.png){: style="height:100%;width:100%"}
+![binders](PEX/img/../../img/Setup/PM10.png){: style="height:100%;width:100%"}
+![binders](PEX/img/../../img/Setup/PM11.png){: style="height:100%;width:100%"}
+![binders](PEX/img/../../img/Setup/PM12.png){: style="height:100%;width:100%"}
+![binders](PEX/img/../../img/Setup/PM13.png){: style="height:100%;width:100%"}
+![binders](PEX/img/../../img/Setup/PM14.png){: style="height:100%;width:100%"}
+![binders](PEX/img/../../img/Setup/PM15.png){: style="height:100%;width:100%"}
+![binders](PEX/img/../../img/Setup/PM16.png){: style="height:100%;width:100%"}
 
 ## Validation
+
 The Validation module is used to standardize drop-down lists in three scheduling modules: Mission Board, Commitments Board, and Personnel Availability.
+
 Configure Validation
+
 The screen opens with two areas: "Tables", and "Listings", and a Squadron selector:
+
 * Tables is subdivided into Mission Board, Commitments Board, and Personnel Availability. The entries within each sub-area correspond to drop-down lists in those modules.
 * Listings displays the entries that appear in the drop-down lists. The Listings are modifiable by squadron and can be sent from one squadron to another.
+
 Add, edit and delete Table entries
+
 To edit the list of entries, select a squadron, expand the appropriate sub-area in the Tables list, and select the desired drop-down list \(table\). To add a new entry, right-click within the Listing grid and select Add. A Master Grid list of entries already in the database but not used by your squadron wil appear. If one of these is the desired entry, check the box to the left of the entry and click OK. If the desired entry is not in the list, right-click in the grid and select Add. To delete an entry, right-click on it and select Delete. This simply removes it from your squadron list but is retained on the Master List. To edit an entry, click directly on the field and edit.
+
 When you first add a squadron to PEX
+
 When a squadron is added to PEX, it copies the Unassigned squadron’s validation entries into the new squadron. This reduces the time required to build a squadron’s set of validation data. If you have a multi-squadron base and want quicker setup, edit all the validation tables for the Unassigned squadron first before adding your real squadrons.
+
 Share Listings across squadrons
-Right-click and select Send To. Select the check-box for the squadron\(s\) you wish to send the item\(s\) to and select Send Selected Items. !!! note
-    you must have permission \(Ops Desk, Flight Scheduling, Ground Scheduling, or Flying Hours\) to the other squadron\(s\) in order to Send To.
+
+Right-click and select Send To. Select the check-box for the squadron\(s\) you wish to send the item\(s\) to and select Send Selected Items. Note: you must have permission \(Ops Desk, Flight Scheduling, Ground Scheduling, or Flying Hours\) to the other squadron\(s\) in order to Send To.
+
 How the Sortie Type table differs
-In addition to just the simple list of the sortie types used by your unit, use this table to identify: 1. Whether this sortie type is a “RAP” sortie, for counting scheduled RAP sorties 2. The Average Sortie Duration \(ASD\), for the Flying Hours module 3. The default Standard Configuration Load \(SCL\), for auto-scheduling the SCL
-4. The Risk Value \(1 = Low to 10 = High\), for the ORM module How the Personnel Commitment Types table differs
-Personnel Commitment Types can be set to conflict \(or not\) with shifts. Normal y, when two commitments conflict, you would like PEX to warn you that someone is about to be double-scheduled. However, Shifts work a little differently. Many times, personnel are scheduled onto shifts in order for them to be scheduled for other activities during that shift. In those cases, the other commitments do not conflict with the shift, they are, instead, an integral part of the shift and you 435
-don’t want PEX bringing up nuisance warnings. Use this table to mark those Personnel Commitment Types that do indeed conflict with a Shift, such as another Shift, or a Sortie, or TDY.
+
+In addition to just the simple list of the sortie types used by your unit, use this table to identify:
+
+1. Whether this sortie type is a “RAP” sortie, for counting scheduled RAP sorties
+2. The Average Sortie Duration \(ASD\), for the Flying Hours module
+3. The default Standard Configuration Load \(SCL\), for auto-scheduling the SCL
+4. The Risk Value \(1 = Low to 10 = High\), for the ORM module
+
+How the Personnel Commitment Types table differs
+
+Personnel Commitment Types can be set to conflict \(or not\) with shifts. Normal y, when two commitments conflict, you would like PEX to warn you that someone is about to be double-scheduled. However, Shifts work a little differently. Many times, personnel are scheduled onto shifts in order for them to be scheduled for other activities during that shift. In those cases, the other commitments do not conflict with the shift, they are, instead, an integral part of the shift and you don’t want PEX bringing up nuisance warnings. Use this table to mark those Personnel Commitment Types that do indeed conflict with a Shift, such as another Shift, or a Sortie, or TDY.
+
 ## Getting Started for PEX Administrators
-If you are setting up PEX for the first time, you will find the following general instructions useful. If PEX is already setup and you are a new PEX administrator, the following will give you a good idea of what has already been done. Detailed instructions on al the steps below can be found in the PEX
+
+If you are setting up PEX for the first time, you will find the following general instructions useful. If PEX is already setup and you are a new PEX administrator, the following will give you a good idea of what has already been done. Detailed instructions on all the steps below can be found in the PEX
 built-in help and/or user manual. The PEX Database Manager has its own built-in help and user manual.
+
 1. The first step to using PEX is to install the PEX Database Manager and PEX Service Host applications on the SQL server that wil host your data. Use the Database Manager to instal a real-world Release database that will host your data. The PEX database is the center of all PEX
 operations. It contains all the data. For details on installing the PEX Database Manager and PEX
-Service Host, see the PEX Instal ation Guide.
+Service Host, see the PEX Installation Guide.
 2. After the database is installed, use the Database Manager to associate CACs/Windows Accounts to PexAdmin and to normal PEX users.
 3. After the database is installed on a network server or a stand-alone desktop/laptop computer, install the:
-1\. WinPEX software on all the machines that need access to the PEX Mission Board \(flight scheduling\). All other modules can be accessed via ePEX.
-2\. ePEX on a web-server and add a hyperlink on your unit home page to ePEX.
+    1. WinPEX software on all the machines that need access to the PEX Mission Board \(flight scheduling\). All other modules can be accessed via ePEX.
+    2. ePEX on a web-server and add a hyperlink on your unit home page to ePEX.
 4. Launch the Locations module. Add your location, e.g., KVPS. With the location selected, enter the appropriate offset from GMT and a corresponding DST Rule.
 5. Launch the Users and Permissions module. NOTE that an initial User “PexAdmin” has been added. Highlight the PexAdmin line and select a Default Location Source of “PEX.” Then select the location entered in step 4 above as the Default Location.
 6. Launch the Squadrons module and add the units/squadrons that wil be using PEX plus a
