@@ -2,7 +2,7 @@
 ![image](img/omni_text_blue.png){: style="height:50%;width:50%"}  
 The _Operations Management Networking Initiative_ (OMNI) is a dynamic platform that leverages new and existing products to enable various operations types. OMNI's goal is to provide global connectivity to mission elements through improved Scheduling, Data Science, Native Mobile, and other interactive/disruptive technologies.
 
-| Status | Projects | URL |
+| Status | Projects | URL |	|
 | :------------: | :------------: | :------------: | :------------: |
 | In Progress | Patriot Excaliber (PEX) | https://www.omni.af.mil | |
 | Active | PowerBI Reports | https://reports.omni.af.mil | |
