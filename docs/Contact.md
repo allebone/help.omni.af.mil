@@ -6,7 +6,7 @@
 **email**  
 af.mdit@us.af.mil  
 **Customer Service**  
-Currently located in the Offutt Base Ops Building, Room 103A  
+Currently located in the Bennie Davis Maintenance Facility  
 >513 SAC Blvd   
 Bldg 29, Room 103A    
 Offutt AFB, NE 68113      
