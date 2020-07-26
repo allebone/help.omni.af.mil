@@ -1,0 +1,100 @@
+/*Header*/
+
+/*Top bar*/
+[data-md-color-primary=indigo] .md-header, [data-md-color-primary=indigo] .md-hero {
+    background-color: #04b2ef; //OMNI blue
+}
+
+.md-header {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    height: 2.4rem;
+    -webkit-transition: background-color .25s,color .25s;
+    transition: background-color .25s,color .25s;
+    background-color: #04b2ef;
+    color: #fff;
+    box-shadow: none;
+    z-index: 2;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+.md-header[data-md-state="shadow"] {
+    -webkit-transition: background-color .25s,color .25s,box-shadow .25s;
+    transition: background-color .25s,color .25s,box-shadow .25s;
+    box-shadow: 0 0 .2rem rgba(0,0,0,.1),0 .2rem .4rem rgba(0,0,0,.2);
+    background-color: #04b2ef;
+}
+
+
+@media only screen and (min-width: 76.25em){
+[data-md-color-primary=indigo] .md-tabs {
+		background-color: #000000;
+}
+}
+
+/*Tabs*/
+
+.md-tabs {
+    width: 100%;
+    -webkit-transition: background .25s;
+    transition: background .25s;
+    background-color: #000;
+    color: #fff;
+    overflow: auto;
+}
+
+@media only screen and (max-width: 76.1875em) {
+    html .md-nav--primary .md-nav__title--site {
+        position: relative;
+        background-color: #c64949;
+        color: #fff;
+    }
+}
+
+/*Backgroud tab*/
+@media only screen and (max-width: 76.1875em){
+html [data-md-color-primary=indigo] .md-nav--primary .md-nav__title--site {
+    background-color: #04b2ef;
+}
+}
+
+.md-header-nav__button.md-logo * {
+    display: block;
+    width: 36px;
+    height: 36px;
+}
+
+
+
+
+/* */
+div.col-md-9 h1:first-of-type {
+    text-align: center;
+    font-size: 60px;
+    font-weight: 300;
+}
+
+div.col-md-9>p:first-of-type {
+    text-align: center;
+}
+s
+div.col-md-9 p.admonition-title:first-of-type {
+    text-align: left;
+}
+
+div.col-md-9 h1:first-of-type .headerlink {
+    display: none;
+}
+
+code.no-highlight {
+    color: black;
+}
+
+/* Definition List styles */
+
+dd {
+    padding-left: 20px;
+}
