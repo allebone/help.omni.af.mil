@@ -108,13 +108,17 @@ B --> E[Help]
 
 ```mermaid
 gantt
-    title A Gantt Diagram
-    dateFormat  YYYY-MM-DD
-    section Section
-    A task           :a1, 2014-01-01, 30d
-    Another task     :after a1  , 20d
-    section Another
-    Task in sec      :2014-01-12  , 12d
-    another task      : 24d
+	title OMNI Merge Status
+	dateFormat  YYYY-MM-DD
+	section In Work
+	KOFF           :active, task1, 2020-10-01, 21d
+	OTBH           :active, task2, 2020-10-01, 21d
+	DM             :active, task3, 2020-10-01, 21d
+	Creech         :active, task4, 2020-10-01, 21d
+	section In Queue
+ KLNK           :task5, after task4, 21d
+	KLNK           :task6, after task4, 21d
+	KLNK           :task7, after task4, 21d
+	Hancock        :task8, after task4, 21d
 ```
 
