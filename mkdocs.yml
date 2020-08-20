@@ -99,7 +99,11 @@ copyright: Copyright &copy; 2020, Maintained by the Project BOCKSCAR Team. (Vers
 
 plugins:
     - search
-    - git-revision-date-localized
+    - git-revision-date-localized:
+      type: timeago
+      time_zone: America/Chicago
+      locale: en
+      fallback_to_build_date: false
     - mermaid2
 
 extra_javascript:
