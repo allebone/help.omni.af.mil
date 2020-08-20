@@ -14,8 +14,6 @@ The _Operations Management Networking Initiative_ (OMNI) is a dynamic platform t
 | In Progress | Mobile Device Integration Toolkit (MDIT) | AKA OMNI-Mobile	| |
 | In Progress | OMNI-Chat (Mattermost) | https://chat.omni.af.mil | |
 
-|	|	|	|
-
 ---
 
 ![image](img/bockscar_medium.png){: style="height:25%;width:25%"}  
