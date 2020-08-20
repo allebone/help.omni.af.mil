@@ -18,13 +18,9 @@ The _Operations Management Networking Initiative_ (OMNI) is a dynamic platform t
 
 
 
-|  | ![image](img/bockscar_medium.png){: style="height:25%;width:25%"} |	|
+|||||
 | :------------: | :------------: | :------------: | :------------: |
-| ![image](img/bockscar_medium.png){: style="height:20%;width:20%"} | ![image](img/bockscar_medium.png){: style="height:20%;width:20%"} | ![image](img/bockscar_medium.png){: style="height:20%;width:20%"} | |
-
-* Nebraska Air National Guard  
-* 55th Wing (ACC) at Offutt AFB, Nebraska
-* Air Education and Training Command (AETC)
-* AFLCMC/Det 12 (KESSEL RUN)
+|![image](img/bockscar_medium.png){: style="width:25%"}|![image](img/bockscar_medium.png){: style="width:25%"}|![image](img/bockscar_medium.png){: style="width:25%"}|![image](img/bockscar_medium.png){: style="width:25%"}|
+|Nebraska Air National Guard|Air Combat Command|Air Education and Training Command|AFLCMC/ Det 12 (KESSEL RUN)|
 
 ---
