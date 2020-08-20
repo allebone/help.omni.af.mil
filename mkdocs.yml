@@ -100,6 +100,10 @@ copyright: Copyright &copy; 2020, Maintained by the Project BOCKSCAR Team. (Vers
 plugins:
     - search
     - git-revision-date-localized
+    - mermaid2
+
+extra_javascript:
+    - https://unpkg.com/mermaid/dist/mermaid.min.js
 
 
 
