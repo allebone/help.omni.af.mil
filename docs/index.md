@@ -11,14 +11,12 @@ The _Operations Management Networking Initiative_ (OMNI) is a dynamic platform t
 | In Progress | HPE OneView Admin | https://oneview.omni.af.mil |
 | In Progress | WinPEX Direct Access | https://direct.omni.af.mil |
 | In Progress | Mobile Enable API | https://api.omni.af.mil |
-| In Progress | Mobile Device Integration Toolkit (MDIT) | AKA OMNI-Mobile	|
 | In Progress | OMNI-Chat (Mattermost) | https://chat.omni.af.mil |
 
 ---
 
-|||||
-| ![image](img/ang.png) | ![image](img/ACC.png) | ![image](img/aetc.png)| ![image](img/KR.png) |
 | Nebraska Air National Guard | Air Combat Command | Air Education and Training Command | AFLCMC/ Det 12 (KESSEL RUN) |
-|||||
+| :------------: | :------------: | :------------: | :------------: |
+| ![image](img/ang.png) | ![image](img/ACC.png) | ![image](img/aetc.png)| ![image](img/KR.png) |
 
 ---
