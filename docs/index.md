@@ -18,13 +18,9 @@ The _Operations Management Networking Initiative_ (OMNI) is a dynamic platform t
 
 
 
-|  | ![image](img/bockscar_medium.png){: style="height:25%;width:25%"}  
-_Project BOCKSCAR_ is a Joint Partnership... |	|
+|  | ![image](img/bockscar_medium.png){: style="height:25%;width:25%"} |	|
 | :------------: | :------------: | :------------: | :------------: |
-| ![image](img/bockscar_medium.png){: style="height:20%;width:20%"}  
-_Project BOCKSCAR_ is a Joint Partnership... | ![image](img/bockscar_medium.png){: style="height:20%;width:20%"}  
-_Project BOCKSCAR_ is a Joint Partnership... | ![image](img/bockscar_medium.png){: style="height:20%;width:20%"}  
-_Project BOCKSCAR_ is a Joint Partnership... | |
+| ![image](img/bockscar_medium.png){: style="height:20%;width:20%"} | ![image](img/bockscar_medium.png){: style="height:20%;width:20%"} | ![image](img/bockscar_medium.png){: style="height:20%;width:20%"} | |
 
 * Nebraska Air National Guard  
 * 55th Wing (ACC) at Offutt AFB, Nebraska
