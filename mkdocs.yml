@@ -1,5 +1,5 @@
 site_name: OMNI Help
-site_url: https://mobilevpn.northcom.mil 
+site_url: https://help.omni.af.mil 
 site_description: Support documentation for Operational Management Tools
 site_author: Project BOCKSCAR 
 
@@ -34,12 +34,9 @@ theme:
     logo: img/omni_contrail_white_30x30.png
 
 nav:
-    - OMNI : index.md
-    - Status : Status.md
-    # - Status : 
-    #        - Dashboard : Status/Dashboard.md
-    #        - Status : Status/Status.md
-    #        - Mobile Baseline : Status/MobileBaseline.md
+    - OMNI: 
+        - About : index.md
+        - Status : Status.md
     - PEX: 
         - Introduction : PEX/Introduction.md
         - Guides : PEX/Guides.md
@@ -98,11 +95,11 @@ markdown_extensions:
 #   - abbr
 #   - pymdownx.extrarawhtml
 
-copyright: Copyright &copy; 2020, Maintained by the Project BOCKSCAR Team. (Version 0.2)
+copyright: Copyright &copy; 2020, Maintained by the Project BOCKSCAR Team. (Version 0.3)
 
 plugins:
     - search
-    #- git-revision-date-localized
+    - git-revision-date-localized
 
 
 
