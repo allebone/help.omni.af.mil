@@ -20,7 +20,7 @@ The _Operations Management Networking Initiative_ (OMNI) is a dynamic platform t
 
 |||||
 | :------------: | :------------: | :------------: | :------------: |
-|![image](img/ang.png){: style="width:25%"}|![image](img/bockscar_medium.png){: style="width:25%"}|![image](img/aetc.png){: style="width:25%"}|![image](img/bockscar_medium.png){: style="width:25%"}|
+|![image](img/ang.png)|![image](img/ACC.png)|![image](img/aetc.png)|![image](img/KR.png)|
 |Nebraska Air National Guard|Air Combat Command|Air Education and Training Command|AFLCMC/ Det 12 (KESSEL RUN)|
 
 ---

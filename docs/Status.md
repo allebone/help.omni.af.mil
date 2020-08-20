@@ -116,7 +116,7 @@ gantt
 	DM             :active, task3, 2020-10-01, 21d
 	Creech         :active, task4, 2020-10-01, 21d
 	section In Queue
- KLNK           :task5, after task4, 21d
+ 	KLNK           :task5, after task4, 21d
 	KLNK           :task6, after task4, 21d
 	KLNK           :task7, after task4, 21d
 	Hancock        :task8, after task4, 21d
