@@ -88,7 +88,8 @@ copyright: Copyright &copy; 2020, Maintained by the Project BOCKSCAR Team. (Vers
 plugins:
     - search
     - git-revision-date-localized:
-        type: timeago
+        type: iso_datetime
+        time_zone: America/Chicago
         locale: en
     #- mermaid2
 
