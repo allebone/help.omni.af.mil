@@ -79,7 +79,7 @@ markdown_extensions:
 #        repo: mkdocs
     - attr_list
     - pymdownx.smartsymbols
-    - pymdownx.inlinehilite
+    #- pymdownx.inlinehilite
     - pymdownx.details
     - pymdownx.escapeall
     - pymdownx.emoji
