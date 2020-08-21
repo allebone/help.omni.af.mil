@@ -73,17 +73,17 @@ markdown_extensions:
         permalink: true
 #    - markdown.extensions.def_list
     - admonition
-    - meta
+    #- meta
 #    - mdx_gh_links:
 #        user: mkdocs
 #        repo: mkdocs
-    - attr_list
-    - pymdownx.smartsymbols
+    #- attr_list
+    #- pymdownx.smartsymbols
     #- pymdownx.inlinehilite
-    - pymdownx.details
-    - pymdownx.escapeall
-    - pymdownx.emoji
-    - pymdownx.extra
+    #- pymdownx.details
+    #- pymdownx.escapeall
+    #- pymdownx.emoji
+    #- pymdownx.extra
 #   https://facelessuser.github.io/pymdown-extensions/extensions/extra/
 #   pymdownx.exta includes (and conflics with) these extensions:
 #   - pymdownx.betterem
