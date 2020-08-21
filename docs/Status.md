@@ -76,16 +76,16 @@
 | RAM | Mount 21 G Model | X | X | X | X | X | X |
 | Stratus | ADBS Receiver | X | X | X | X | X | X |
 
-**Use Cases**
+**Current Mobile Use Cases**
 
-  * EFB  
+  * Electronic Flight Bag (EFB)  
   * Remote Workers (Office)  
-  * BIG SAFARI Dev  
-  * AFE  
-  * Mx  
-  * AMOPS  
-  * HQ Chaplain Corps
-  * C2  
+  * Mobile Software Development  
+  * Aircrew Flight Equipment (AFE)
+  * Maintenance (Mx)  
+  * Airfield Management (AMOPS)
+  * HQ Chaplain Corps (HQCC)
+  * Command and Control (C2)
 
 ---
 
@@ -95,33 +95,4 @@
 If you are experiencing an issue not listed here, contact [Support](/Contact/)
 
 ---
-
-## Diagram Test
-
-```mermaid
-graph TD
-A[Client] --> B[Load Balancer]
-B --> C[ePEX]
-B --> D[Reports]
-B --> E[Help]
-```
----
-
-## Gantt Example
-
-```mermaid
-gantt
-	title OMNI Merge Status
-	dateFormat  YYYY-MM-DD
-	section In Work
-	KOFF           :active, task1, 2020-10-01, 21d
-	OTBH           :active, task2, 2020-10-01, 21d
-	DM             :active, task3, 2020-10-01, 21d
-	Creech         :active, task4, 2020-10-01, 21d
-	section In Queue
- 	KLNK           :task5, after task4, 21d
-	KLNK           :task6, after task4, 21d
-	KLNK           :task7, after task4, 21d
-	Hancock        :task8, after task4, 21d
-```
 

@@ -71,12 +71,7 @@ extra_css:
 markdown_extensions:
     - toc:
         permalink: true
-#    - markdown.extensions.def_list
-    - admonition
-    #- meta
-#    - mdx_gh_links:
-#        user: mkdocs
-#        repo: mkdocs
+    #- admonition
     #- attr_list
     #- pymdownx.smartsymbols
     #- pymdownx.inlinehilite
@@ -84,16 +79,20 @@ markdown_extensions:
     #- pymdownx.escapeall
     #- pymdownx.emoji
     #- pymdownx.extra
-#   https://facelessuser.github.io/pymdown-extensions/extensions/extra/
-#   pymdownx.exta includes (and conflics with) these extensions:
-#   - pymdownx.betterem
-#   - pymdownx.superfences
-#   - footnotes
-#   - attr_list
-#   - def_list
-#   - tables
-#   - abbr
-#   - pymdownx.extrarawhtml
+    #- pymdownx.betterem
+    #- pymdownx.superfences
+    #- footnotes
+    - attr_list
+    #- def_list
+    #- tables
+    #- abbr
+    - pymdownx.superfences
+    - markdown.extensions.footnotes
+    - markdown.extensions.attr_list
+    - markdown.extensions.def_list
+    - markdown.extensions.tables
+    - markdown.extensions.abbr
+    - markdown.extensions.md_in_html
 
 copyright: Copyright &copy; 2020, Maintained by the Project BOCKSCAR Team. (Version 0.3)
 
@@ -101,7 +100,6 @@ plugins:
     - search
     - git-revision-date-localized:
         type: timeago
-        time_zone: America/Chicago
         locale: en
         fallback_to_build_date: false
     - mermaid2
