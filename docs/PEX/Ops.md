@@ -1237,38 +1237,6 @@ Access these procedures by navigating from the PEX main menu to Ops > Waterfall.
 3. Timeline Colors: Select the Squadron radial button. The sorties are colored by either Squadron or MDS. Pick which option you want and the corresponding colors you want for each different squadron or MDS. To pick a color, click the Change button by the squadron or MDS and use the color picker to select. Click the X at the bottom right of the color pop up window to save the color choice.
 4. Select Save at the top left of the page when finished. For Individual Display Preferences: Complete steps 1-4 above, but do not select Squadron radial button. 
 
-**Display Setup Waterfal for Squadron and Generate GTIMS report**
-
-![waterfall_generate-gtims_report](img/Ops/waterfall_gtims_report.png){: style="height:100%;width:100%"}
-
-1. From the PEX main menu, select Ops > Waterfall.
-2. Make your desired selections to display:
-      1. In the _Display_ drop-down, MSN by MSN type, Sortie by MSN type, or Sortie by Sortie type.
-      2. _Squadron\(s\)_ - Select Squadron\(s\). Select multiple Squadrons by holding either Ctrl or Shift.
-      3. _MDS\(s\)_ - Select from list of available MDS\(s\).
-      4. _Mission Type\(s\)_ - Select from list of available Mission Type\(s\).
-      5. _Sortie Types_ - Select from list of available Sortie Type\(s\).
-      6. _Time Setting_ - Select to display:
-      7. _Time Type_ - Zulu or Local.
-      8. _Date Time Displayed_ - Real-Time or Historical.
-      9. _Start Date_
-      10. _Start Time_
-      11. _Span \(1-7 days\)_
-      12. Select `Show Cancel ed Missions & Sorties` if desired.
-      13. _Show GTIMS Sorties_
-           1. If interface is not configured see External Interfaces, GTIMS
-           2. Select Select GTIMS Orgs hyperlink to select organizations you wish to return data from.
-           3. Select Show GTIMS Sorties.
-3. Select `Apply`  
-![waterfall_generate-gtims_report_2](img/Ops/waterfall_gtims_report_2.png){: style="height:100%;width:100%"}  
-4. Select the caret to collapse the top selections pane, and only view the returned sortie data.
-5. This pane is scrollable, top to bottom and right to left as needed. You can hover over the sortie data in the line graph to obtain further sortie details.
-![waterfall_generate-gtims_report_3](img/Ops/waterfall_gtims_report_3.png){: style="height:60%;width:60%"}  
-6. Select _Settings_ for report display preferences as desired.
-7. Select the _Excel icon_ to export GTIMS data to Excel. This function may take some time, depending upon the amount of GTIMS data contained in the report.
-8. Select the `iii` icon to view the legend.  
-![waterfall_generate-gtims_report_4](img/Ops/waterfall_gtims_report_4.png){: style="height:60%;width:60%"}
-
 ## Weapons
 
 #### Weapons Inventory

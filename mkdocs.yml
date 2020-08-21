@@ -1,6 +1,6 @@
 site_name: OMNI Help
 site_url: https://help.omni.af.mil 
-site_description: Support documentation for Operational Management Tools
+site_description: Support documentation for Operational Management Applications and Tools
 site_author: Project BOCKSCAR 
 
 #repo_url: https://github.com/allebone/help.omni.af.mil
@@ -89,7 +89,6 @@ plugins:
     - search
     - git-revision-date-localized:
         type: iso_datetime
-        time_zone: America/Chicago
         locale: en
     #- mermaid2
 
