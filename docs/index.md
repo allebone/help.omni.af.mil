@@ -17,6 +17,6 @@ The _Operations Management Networking Initiative_ (OMNI) is a dynamic platform t
 
 | Nebraska Air National Guard | Air Combat Command | Air Education and Training Command | AFLCMC/ Det 12 (KESSEL RUN) | PEO-BES (BESPIN) |
 | :------------: | :------------: | :------------: | :------------: | :------------: |
-| ![image](img/ang.png){:height="100px" width="100px"} | ![image](img/ACC.png){:height="100px" width="100px"} | ![image](img/aetc.png){:height="100px" width="100px"} | ![image](img/KR.png){:height="100px" width="100px"} | ![image](img/BESPIN.png){:height="100px" width="100px"} |
+| ![image](img/ang.png){:height="100px" width="100px"} | ![image](img/ACC.png){:height="100px" width="115px"} | ![image](img/aetc.png){:height="100px" width="100px"} | ![image](img/KR.png){:height="100px" width="100px"} | ![image](img/BESPIN.png){:height="100px" width="100px"} |
 
 ---
