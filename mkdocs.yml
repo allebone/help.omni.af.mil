@@ -73,21 +73,8 @@ extra_css:
 markdown_extensions:
     - toc:
         permalink: true
-    #- admonition
-    #- attr_list
-    #- pymdownx.smartsymbols
-    #- pymdownx.inlinehilite
-    #- pymdownx.details
-    #- pymdownx.escapeall
-    #- pymdownx.emoji
-    #- pymdownx.extra
-    #- pymdownx.betterem
-    #- pymdownx.superfences
-    #- footnotes
+    - footnotes
     - attr_list
-    #- def_list
-    #- tables
-    #- abbr
     - pymdownx.superfences
     - markdown.extensions.footnotes
     - markdown.extensions.attr_list
@@ -103,8 +90,7 @@ plugins:
     - git-revision-date-localized:
         type: timeago
         locale: en
-        fallback_to_build_date: false
-    - mermaid2
+    #- mermaid2
 
 extra_javascript:
     - https://unpkg.com/mermaid/dist/mermaid.min.js

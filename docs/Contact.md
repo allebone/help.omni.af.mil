@@ -34,5 +34,7 @@ Offutt AFB, NE 68113
 **email**  
 omni.admin@us.af.mil
 
+---
 
+Last update: {{ git_revision_date_localized }}
 

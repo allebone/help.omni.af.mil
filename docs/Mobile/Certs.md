@@ -58,3 +58,6 @@ The following steps can be done by you, the user, to install your new certs afte
 ![image](img/EmailCerts/purebredapp2.png){: style="height:75%;width:75%"} 
 10. Repeat steps 6-
 
+---
+
+Last update: {{ git_revision_date_localized }}

@@ -96,3 +96,4 @@ If you are experiencing an issue not listed here, contact [Support](/Contact/)
 
 ---
 
+Last update: {{ git_revision_date_localized }}

@@ -27,3 +27,5 @@ The _Operations Management Networking Initiative_ (OMNI) is a dynamic platform t
 | ![image](img/ang.png){: style="height:75px;width:70px"} | ![image](img/ACC.png){: style="height:75px;width:70px"} | ![image](img/aetc.png){: style="height:75px;width:70px"} | ![image](img/KR.png){: style="height:75px;width:70px"} | ![image](img/BESPIN.png){: style="height:75px;width:70px"} |
 
 ---
+
+Last update: {{ git_revision_date_localized }}
