@@ -47,8 +47,8 @@
 
 | Operating System | Version |
 | :------------: | :-------------: |
-| iOS | 13.3 |
-| iPadOS | 13.3 |
+| iOS | 13.6.1 |
+| iPadOS | 13.6.1 |
 
 **Applications**
 
@@ -78,14 +78,14 @@
 
 **Use Cases**
 
-  * HQ Chaplain Corps  
   * EFB  
   * Remote Workers (Office)  
   * BIG SAFARI Dev  
   * AFE  
   * Mx  
   * AMOPS  
-  * HQ Chaplain Corps  
+  * HQ Chaplain Corps
+  * C2  
 
 ---
 
@@ -93,6 +93,8 @@
 
 
 If you are experiencing an issue not listed here, contact [Support](/Contact/)
+
+---
 
 ## Diagram Test
 
@@ -103,6 +105,7 @@ B --> C[ePEX]
 B --> D[Reports]
 B --> E[Help]
 ```
+---
 
 ## Gantt Example
 
