@@ -34,9 +34,8 @@ theme:
     logo: img/omni_contrail_white_30x30.png
 
 nav:
-    - OMNI: 
-        - About : index.md
-        - Status : Status.md
+    - Home: 
+        - OMNI: index.md
     - PEX: 
         - Introduction : PEX/Introduction.md
         - Guides : PEX/Guides.md
@@ -51,12 +50,15 @@ nav:
         - Miscellaneous : PEX/Miscellaneous.md
     - Mobile:  
         - Introduction : Mobile/Introduction.md
-        - Updates : Mobile/Updates.md
-        - Syncing Pubs: Mobile/SyncingPubs.md
-        - Email & Certs: Mobile/Email&Certs.md
-        - Troubleshooting : Mobile/Troubleshooting.md
-        - Outprocessing : Mobile/Outprocessing.md
+        - Baseline (HW) : Mobile/HWBaseline.md
+        - Baseline (SW) : Mobile/SWBaseline.md
+        - Certs: Mobile/Certs.md
+        - Email: Mobile/Email.md
         - FAQ : Mobile/FAQ.md
+        - Outprocessing : Mobile/Outprocessing.md
+        - Syncing Pubs: Mobile/SyncingPubs.md
+        - Troubleshooting : Mobile/Troubleshooting.md
+        - Updates : Mobile/Updates.md
     - Reports:  
         - Introduction : Reports/Introduction.md
         - Reports Description : Reports/Descriptions.md
