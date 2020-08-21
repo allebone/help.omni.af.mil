@@ -82,3 +82,5 @@ Occasionally, notices appear on the AF Portal and other official websites direct
 **A:** Call us or come in immediately! We can locate or lock the device via Wi-Fi and start the process of getting the deive replaced.
 
 ---
+
+Last update: {{ git_revision_date_localized }}

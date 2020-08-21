@@ -133,3 +133,7 @@ Press the Hide button to hide this pop-up and continue the sync in the backgroun
 ## Failed Sync
 ![image](img/SyncingPubs/syncissue.png){: style="height:75%;width:75%"}  
 Please see [My Pubs Won't Sync](Troubleshooting.md#my-pubs-wont-sync) in the Troubleshooting section for further instructions.
+
+---
+
+Last update: {{ git_revision_date_localized }}

@@ -14,3 +14,5 @@
 3. Update All
 
 ---
+
+Last update: {{ git_revision_date_localized }}
