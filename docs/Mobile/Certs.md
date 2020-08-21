@@ -1,7 +1,7 @@
 # DoD Certs on Mobile
 
 ## Purebred  
-We use a website and App combo called Purebred to download and install certs onto the EFBs. The Purebred website can be found at [purebred.csd.disa.mil](http://purebred.csd.disa.mil/) and the Purebred App is found in your support folder on your EFB. Before you install any certs on the EFB, ensure that the Purebred app is updated to the most current version. The current version can be seen at [Mobile Device Baseline](../Status.md#mobile-device-baseline) on the Status page.
+We use a website and App combo called Purebred to download and install certs onto the EFBs. The Purebred website can be found at [purebred.csd.disa.mil](http://purebred.csd.disa.mil/) and the Purebred App is found in your support folder on your EFB. Before you install any certs on the EFB, ensure that the Purebred app is updated to the most current version. The current version can be seen at [Mobile Device Baseline](../Mobile/SWBaseline.md#mobile-device-baseline) on the Status page.
 
 #### Check App Version  
 To verify the Apps version, follow the steps below  
