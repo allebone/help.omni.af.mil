@@ -1,3 +1,14 @@
-https://goodreader.com/gr-man.html
+**Current Mobile Use Cases**
 
-[GoodReader UserManual](https://goodreader.com/gr-man.html){target=_blank}
+  * Electronic Flight Bag (EFB)  
+  * Remote Workers (Office)  
+  * Mobile Software Development  
+  * Aircrew Flight Equipment (AFE)
+  * Maintenance (Mx)  
+  * Airfield Management (AMOPS)
+  * HQ Chaplain Corps (HQCC)
+  * Command and Control (C2)
+
+---
+
+Last update: {{ git_revision_date_localized }}

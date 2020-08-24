@@ -3,7 +3,9 @@
 When it is time for you to PCS/Seperate/Retire, you will need to return your device to us. Before you do, please accomplish the following:
 
 1. Ensure your device is clean, servicable, and charged.
+
 2. Bring back the external cover (even if it is cracked or broken). Please do not throw away.
+
 3. Return the charger and cable that was issued to you. If you have lost or misplaced these items, below is a list of approved replacements. You must bring in a charger before we will accept your device.
 
 Once we have all items in hand, we will clear your vMPF checklist, please give us a few days to clear vMPF. If it is not cleared within 3 days after you have turned in your EFB, please call and remind us.
@@ -60,3 +62,7 @@ When turning in a mobile device, please return all accessories (e.g. charging ca
 
      Monoprice Obsidian Speed USB Wall Charger, 1-Port, 65W PD Output for Laptops, iPhone, Android, and Galaxy Devices Package, 6ft USB Type-C Cable Included  
      [Product # 35943](https://www.monoprice.com/product?p_id=35943)
+
+---
+
+Last update: {{ git_revision_date_localized }}

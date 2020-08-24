@@ -1,6 +1,6 @@
 site_name: OMNI Help
-site_url: https://help.omni.af.mil/ 
-site_description: Support documentation for Operational Management Tools
+site_url: https://help.omni.af.mil 
+site_description: Support documentation for Operational Management Applications and Tools
 site_author: Project BOCKSCAR 
 
 #repo_url: https://github.com/allebone/help.omni.af.mil
@@ -34,12 +34,8 @@ theme:
     logo: img/omni_contrail_white_30x30.png
 
 nav:
-    - OMNI : index.md
-    - Status : Status.md
-    # - Status : 
-    #        - Dashboard : Status/Dashboard.md
-    #        - Status : Status/Status.md
-    #        - Mobile Baseline : Status/MobileBaseline.md
+    - Home: 
+        - OMNI: index.md
     - PEX: 
         - Introduction : PEX/Introduction.md
         - Guides : PEX/Guides.md
@@ -54,12 +50,15 @@ nav:
         - Miscellaneous : PEX/Miscellaneous.md
     - Mobile:  
         - Introduction : Mobile/Introduction.md
-        - Updates : Mobile/Updates.md
-        - Syncing Pubs: Mobile/SyncingPubs.md
-        - Email & Certs: Mobile/Email&Certs.md
-        - Troubleshooting : Mobile/Troubleshooting.md
-        - Outprocessing : Mobile/Outprocessing.md
+        - Baseline (HW) : Mobile/HWBaseline.md
+        - Baseline (SW) : Mobile/SWBaseline.md
+        - Certs: Mobile/Certs.md
+        - Email: Mobile/Email.md
         - FAQ : Mobile/FAQ.md
+        - Outprocessing : Mobile/Outprocessing.md
+        - Syncing Pubs: Mobile/SyncingPubs.md
+        - Troubleshooting : Mobile/Troubleshooting.md
+        - Updates : Mobile/Updates.md
     - Reports:  
         - Introduction : Reports/Introduction.md
         - Reports Description : Reports/Descriptions.md
@@ -74,35 +73,27 @@ extra_css:
 markdown_extensions:
     - toc:
         permalink: true
-#    - markdown.extensions.def_list
-    - admonition
-    - meta
-#    - mdx_gh_links:
-#        user: mkdocs
-#        repo: mkdocs
+    - footnotes
     - attr_list
-    - pymdownx.smartsymbols
-    - pymdownx.inlinehilite
-    - pymdownx.details
-    - pymdownx.escapeall
-    - pymdownx.emoji
-    - pymdownx.extra
-#   https://facelessuser.github.io/pymdown-extensions/extensions/extra/
-#   pymdownx.exta includes (and conflics with) these extensions:
-#   - pymdownx.betterem
-#   - pymdownx.superfences
-#   - footnotes
-#   - attr_list
-#   - def_list
-#   - tables
-#   - abbr
-#   - pymdownx.extrarawhtml
+    - pymdownx.superfences
+    - markdown.extensions.footnotes
+    - markdown.extensions.attr_list
+    - markdown.extensions.def_list
+    - markdown.extensions.tables
+    - markdown.extensions.abbr
+    - markdown.extensions.md_in_html
 
-copyright: Copyright &copy; 2020, Maintained by the Project BOCKSCAR Team. (Version 0.2)
+copyright: Copyright &copy; 2020, Maintained by the Project BOCKSCAR Team. (Version 0.3)
 
 plugins:
     - search
-    #- git-revision-date-localized
+    - git-revision-date-localized:
+        type: iso_datetime
+        locale: en
+    #- mermaid2
+
+extra_javascript:
+    - https://unpkg.com/mermaid/dist/mermaid.min.js
 
 
 

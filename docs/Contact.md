@@ -20,7 +20,7 @@ Offutt AFB, NE 68113
 | Tue | 0800 - 1600 |
 | Wed | 0800 - 1600 |
 | Thu | 0800 - 1600 | 
-| Fri | Closed |
+| Fri | 0800 - 1600 |
 | Sat | Closed | 
 | Sun | Closed | 
 
@@ -34,7 +34,7 @@ Offutt AFB, NE 68113
 **email**  
 omni.admin@us.af.mil
 
-**Within PEX**  
-![image](img/Support/help_within_pex.jpg){: style="height:100%;width:100%"} 
+---
 
+Last update: {{ git_revision_date_localized }}
 

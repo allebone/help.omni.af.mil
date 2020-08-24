@@ -1,10 +1,7 @@
-# DoD Certs For Email And PEX
-
-## About Email on EFBs  
-You can access email, PEX, and other sites that require a CAC login on your EFB after you have your DoD certs downloaded and installed on your device. Currently, you can only access these sites while on the BOCKSCAR network. We are working on global access, but do not have an ETA as of yet. 
+# DoD Certs on Mobile
 
 ## Purebred  
-We use a website and App combo called Purebred to download and install certs onto the EFBs. The Purebred website can be found at [purebred.csd.disa.mil](http://purebred.csd.disa.mil/) and the Purebred App is found in your support folder on your EFB. Before you install any certs on the EFB, ensure that the Purebred app is updated to the most current version. The current version can be seen at [Mobile Device Baseline](Status.md#mobile-device-baseline) on the Status page.
+We use a website and App combo called Purebred to download and install certs onto the EFBs. The Purebred website can be found at [purebred.csd.disa.mil](http://purebred.csd.disa.mil/) and the Purebred App is found in your support folder on your EFB. Before you install any certs on the EFB, ensure that the Purebred app is updated to the most current version. The current version can be seen at [Mobile Device Baseline](../Mobile/SWBaseline.md#mobile-device-baseline) on the Status page.
 
 #### Check App Version  
 To verify the Apps version, follow the steps below  
@@ -41,20 +38,6 @@ Below are the steps for initailally installing DoD certs onto a new EFB.
 3. Enter that OTP into the purbred app and hit "continue.
 ![image](img/EmailCerts/firstOTP.png){: style="height:75%;width:75%"}  
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ## Expired Certs And New CAC DoD Cert Installation 
 
 The following steps can be done by you, the user, to install your new certs after you have received a new CAC. Before you begin, ensure that your Purebred App is updated to current version. Instructions are shown above.  
@@ -75,3 +58,6 @@ The following steps can be done by you, the user, to install your new certs afte
 ![image](img/EmailCerts/purebredapp2.png){: style="height:75%;width:75%"} 
 10. Repeat steps 6-
 
+---
+
+Last update: {{ git_revision_date_localized }}

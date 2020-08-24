@@ -46,3 +46,7 @@ If GoodReader _still_ won’t sync, follow these steps to clear your sync config
 ![image](img/Troubleshooting/savedservers.png){: style="height:75%;width:75%"}  
 6. Swipe the `BOCKSCAR` server to the right and delete it.
 7. Now that your Saved Server and Sync Record are removed, you'll need to re-add them. Please follow the instructions in [Syncing Pubs: Initial Setup](SyncingPubs.md#step-1-general-app-settings) to set things back up again.
+
+---
+
+Last update: {{ git_revision_date_localized }}
