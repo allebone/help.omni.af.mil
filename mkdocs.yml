@@ -64,7 +64,8 @@ nav:
         - Reports Description : Reports/Descriptions.md
         - Troubleshooting : Reports/Troubleshooting.md
     - Support : 
-            - Contact.md 
+            - Contact.md
+            - FAQ.md
 
 #CSS overrides
 extra_css:
