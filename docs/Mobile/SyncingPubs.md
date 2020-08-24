@@ -74,7 +74,7 @@ Next, add the BOCKSCAR server
 ![image](img/SyncingPubs/webdav.png){: style="height:75%;width:75%"}
 4. Configure the new **WebDAV Server** as follows:
     * Readable Title: `BOCKSCAR`
-    * URL-address: `pubs.bockscar.mil`
+    * URL-address: `mdit-pubs.bockscar.mil`
     * Turn **on/enable** `Windows-style name encoding`
     * Turn **off** `Use cookies`
     * Leave all the other fields/settings unchanged
