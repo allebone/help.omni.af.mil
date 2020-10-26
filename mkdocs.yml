@@ -39,7 +39,7 @@ nav:
         - Introduction : PEX/Introduction.md
         - Guides : PEX/Guides.md
         - Displays : PEX/Displays.md
-        - Ops : PEX/Ops.md
+        - OPS : PEX/OPS.md
         - Scheduling : PEX/Scheduling.md
         - Training : PEX/Training.md
         - Stan Eval : PEX/StanEval.md
