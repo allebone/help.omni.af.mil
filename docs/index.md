@@ -16,8 +16,8 @@ The _Operations Management Networking Initiative_ (OMNI) is a dynamic platform t
 | Complete | Red Hat OpenShift Cluster (4.5) | [https://dashboard.omni.af.mil](https://dashboard.omni.af.mil) | 
 | In Progress | HPE OneView Admin | [https://oneview.omni.af.mil](https://oneview.omni.af.mil) | 
 | Complete | WinPEX Direct Access | https://direct.omni.af.mil |
-| In Progress | Mobile Enable API | [https://api.omni.af.mil](https://api.omni.af.mil) |
-| In Progress | OMNI-Chat (Mattermost) | [https://chat.omni.af.mil](https://chat.omni.af.mil) |
+| DELAYED | Mobile Enable API | [https://api.omni.af.mil](https://api.omni.af.mil) |
+| DELAYED | OMNI-Chat (Mattermost) | [https://chat.omni.af.mil](https://chat.omni.af.mil) |
 ||||
 
 ---
@@ -27,6 +27,10 @@ The _Operations Management Networking Initiative_ (OMNI) is a dynamic platform t
 | Air National Guard | Air Combat Command | Air Education and Training Command | AFLCMC/ Det 12 (KESSEL RUN) | PEO-BES (BESPIN) |
 | :------------: | :------------: | :------------: | :------------: | :------------: |
 | ![image](img/ang.png){: style="height:75px;width:70px"} | ![image](img/ACC.png){: style="height:75px;width:70px"} | ![image](img/aetc.png){: style="height:75px;width:70px"} | ![image](img/KR.png){: style="height:75px;width:70px"} | ![image](img/BESPIN.png){: style="height:75px;width:70px"} |
+
+---
+
+Now Running on Red Hat OpenShift Container Platform
 
 ---
 
