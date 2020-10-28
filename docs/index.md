@@ -30,7 +30,9 @@ The _Operations Management Networking Initiative_ (OMNI) is a dynamic platform t
 
 ---
 
-Now Running on Red Hat OpenShift Container Platform
+Now Proudly Running:
+
+![image](img/ocp.png)
 
 ---
 
