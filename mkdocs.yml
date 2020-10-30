@@ -2,7 +2,7 @@ site_name: OMNI Help
 site_url: https://help.omni.af.mil 
 site_description: Support documentation for Operational Management Applications and Tools
 site_author: Project BOCKSCAR 
-repo_url: https://github.com/allebone/help.omni.af.mil
+#repo_url: https://github.com/allebone/help.omni.af.mil
 #edit_uri: ""
 
 #dev_addr: help.omni.af.mil
@@ -24,6 +24,7 @@ theme:
     feature:
       tabs: true
     palette:
+      scheme: slate
       primary: indigo
       accent: indigo
     font:
@@ -39,7 +40,7 @@ nav:
         - Introduction : PEX/Introduction.md
         - Guides : PEX/Guides.md
         - Displays : PEX/Displays.md
-        - OPS : PEX/OPS.md
+        - OPS : PEX/Ops.md
         - Scheduling : PEX/Scheduling.md
         - Training : PEX/Training.md
         - Stan Eval : PEX/StanEval.md
@@ -63,8 +64,7 @@ nav:
         - Troubleshooting : Reports/Troubleshooting.md
     - Support : 
             - Contact.md
-            - FAQ.md
-
+            
 #CSS overrides
 extra_css:
     - stylesheets/extra.css
@@ -82,7 +82,7 @@ markdown_extensions:
     - markdown.extensions.abbr
     - markdown.extensions.md_in_html
 
-copyright: Copyright &copy; 2020, Maintained by the Project BOCKSCAR Team. (Version 0.3)
+copyright: Copyright &copy; 2020, Maintained by the Project BOCKSCAR Team. (Version 1.0)
 
 plugins:
     - search

@@ -1,3 +1,5 @@
+<center>
+
 **Operating System**
 
 | Operating System | Version |
@@ -17,3 +19,5 @@
 ---
 
 Last update: {{ git_revision_date_localized }}
+
+</center>

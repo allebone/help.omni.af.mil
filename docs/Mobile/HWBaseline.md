@@ -1,3 +1,7 @@
+<center>
+
+**Devices**
+
 | Hardware Model | MIL-STD-810G | MIL-STD-461F | TEMPEST |Apple Model Number| Apple Model ID |
 | :------------ | :-------------: | :------------: | :------------: | -------------: | :------------: |
 | iPad Air (Gen 3) | X | X | X | A1438 | iPad5,1 |
@@ -18,3 +22,4 @@
 
 Last update: {{ git_revision_date_localized }}
 
+</center>

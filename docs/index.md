@@ -1,8 +1,14 @@
-![image](img/omni_text_blue.png){: style="height:50%;width:50%" .center}
+<center>
+
+![image](img/omni_text_blue.png){: style="height:50%;width:50%" }
 
 The _Operations Management Networking Initiative_ (OMNI) is a dynamic platform that leverages new and existing products to enable various operations types. OMNI's goal is to provide global connectivity to mission elements through improved Scheduling, Data Science, Native Mobile, and other interactive/disruptive technologies.
 
+</center>
+
 ---
+
+<center>
 
 # Current Status
 
@@ -20,7 +26,11 @@ The _Operations Management Networking Initiative_ (OMNI) is a dynamic platform t
 | DELAYED | OMNI-Chat (Mattermost) | [https://chat.omni.af.mil](https://chat.omni.af.mil) |
 ||||
 
+</center>
+
 ---
+
+<center>
 
 # Partners
 
@@ -28,12 +38,20 @@ The _Operations Management Networking Initiative_ (OMNI) is a dynamic platform t
 | :------------: | :------------: | :------------: | :------------: | :------------: |
 | ![image](img/ang.png){: style="height:75px;width:70px"} | ![image](img/ACC.png){: style="height:75px;width:70px"} | ![image](img/aetc.png){: style="height:75px;width:70px"} | ![image](img/KR.png){: style="height:75px;width:70px"} | ![image](img/BESPIN.png){: style="height:75px;width:70px"} |
 
+</center>
+
 ---
 
-Now Proudly Running:
+<center>
 
 ![image](img/ocp.png)
 
+</center>
+
 ---
 
+<center>
+
 Last update: {{ git_revision_date_localized }}
+
+</center>
