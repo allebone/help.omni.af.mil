@@ -11,7 +11,7 @@
 ---
 
 <video width="320" height="240" controls>
-  <source src="./video.mov" type="video/mp4">
+  <source src="https://ent.box.com/shared/static/2rabv3cfms7amjk2aqdos1l3ybe3ihqb.mp4" type="video/mp4">
 </video>
 
 ---
