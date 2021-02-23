@@ -18,6 +18,6 @@
 
 ---
 
-Last update: {{ git_revision_date_localized }}
+Last Update: {{ git_revision_date_localized }}
 
 </center>
