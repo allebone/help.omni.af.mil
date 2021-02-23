@@ -4,8 +4,8 @@
 
 | Operating System | Version |
 | :------------: | :-------------: |
-| iOS | 13.6.1 |
-| iPadOS | 13.6.1 |
+| iOS | 14.4 |
+| iPadOS | 14.4 |
 
 **Applications**
 
@@ -18,6 +18,6 @@
 
 ---
 
-Last update: {{ git_revision_date_localized }}
+Last Update: {{ git_revision_date_localized }}
 
 </center>
